@@ -1,0 +1,21 @@
+{
+  "sources": [
+    {
+      "source": "exports/DiPred_Physical20_FourStep_20261109/results/clean_physical_direct20_20261109/per_case.json",
+      "sha256": "837ee3bef6f08ac96303dcc9276f4c674c61d54cf6044f179293fc9dd1cbbeeb"
+    },
+    {
+      "source": "exports/DiPred_Physical20_FourStep_20261109/results/clean_deterministic_fourstep_20261109/per_case.json",
+      "sha256": "68a83b32b3fbf0aac87750799b4ea58879d0f6c3c1be3bc502593cd96a74ffad"
+    },
+    {
+      "source": "exports/DiPred_Physical20_FourStep_20261109/results/clean_deterministic_fourstep_20261109/point_comparison.png",
+      "sha256": "c29d99846eef134b34afc3a9cb11afdc916624210b6be0ed56f128b728e26398"
+    },
+    {
+      "source": "exports/DiPred_Physical20_FourStep_20261109/results/clean_deterministic_fourstep_20261109/v_snapshots.png",
+      "sha256": "43b5852a36f1e74576394e4f1911250d9aacae421f55831157432634791ea9f9"
+    }
+  ],
+  "note": "Export of frozen historical results; no retraining, filtering by gain, or evaluation changes."
+}

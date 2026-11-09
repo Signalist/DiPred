@@ -32,6 +32,8 @@ Physical-field diffusion forecasting with a matched deterministic four-step cont
 
 本仓库包含主要代码与轻量结果；权重、初始化张量、原始数据和预测缓存保存在本地研究压缩包中，未上传到GitHub。文档中的原工作区路径/图片引用保留为溯源信息，相关大文件不在仓库内。
 
+用于后续分析的[完整窗口指标、配对提升和同色标图](results/analysis/README.md)位于`results/analysis/`：16,848条窗口/通道记录、11,232条配对比较，保留全部退步项。运行`python analyze_results.py`即可用Python标准库重算分组误差与提升，不需要原始数据或权重。
+
 ## 使用
 
 ```bash

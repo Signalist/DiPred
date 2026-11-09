@@ -1,0 +1,7 @@
+{
+  "source_rows": 16848,
+  "paired_rows": 11232,
+  "checked_group_rows": 144,
+  "passed": true,
+  "caveat": "Window/channel rows are correlated; win fractions are descriptive, not independent statistical evidence."
+}
