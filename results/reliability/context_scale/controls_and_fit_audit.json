@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "original_base_rows_exact": 3744,
+  "mean_hold_rows_exact": 1872,
+  "cold_warmup_rows_exact": 768,
+  "all_point_mse_exact": true,
+  "no_heldout_identities_fitted": true,
+  "source_calibration_tensors_exact": true,
+  "maximum_observed_spatial_ranking_roundoff": 5.140900611877441e-06,
+  "note": "Globalperchannel/windowfactor has no intended within-window ranking effect; retain any measured numerical differences."
+}

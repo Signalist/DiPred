@@ -1,0 +1,45 @@
+{
+  "passed": true,
+  "cases": [
+    {
+      "start": 0,
+      "head": "core_separate_old",
+      "numpy_bounds_max_error": 1.1920928955078125e-07
+    },
+    {
+      "start": 0,
+      "head": "core_separate_all",
+      "numpy_bounds_max_error": 1.1920928955078125e-07
+    },
+    {
+      "start": 0,
+      "head": "core_history_old",
+      "numpy_bounds_max_error": 1.1920928955078125e-07
+    },
+    {
+      "start": 0,
+      "head": "core_history_all",
+      "numpy_bounds_max_error": 1.1920928955078125e-07
+    },
+    {
+      "start": 20,
+      "head": "core_separate_old",
+      "numpy_bounds_max_error": 4.985569801441159e-07
+    },
+    {
+      "start": 20,
+      "head": "core_separate_all",
+      "numpy_bounds_max_error": 5.369995310644526e-07
+    },
+    {
+      "start": 20,
+      "head": "core_history_old",
+      "numpy_bounds_max_error": 4.88685408139844e-07
+    },
+    {
+      "start": 20,
+      "head": "core_history_all",
+      "numpy_bounds_max_error": 5.903439959098478e-07
+    }
+  ]
+}

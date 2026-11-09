@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "cpu_smoke_presets": [
+    "low_regression",
+    "best_mean_score",
+    "context_mean_score",
+    "context_balanced"
+  ],
+  "portable_real_forecasts": 384,
+  "full_source_comparisons": 160,
+  "rederived_comparisons": 48,
+  "all_cases": 33696,
+  "group_values_verified": 22944,
+  "old_shared_checkpoint_unchanged": true,
+  "no_research_or_absolute_path_dependencies": true,
+  "default_unchanged": "low_regression",
+  "current_mean_score_candidate": "context_mean_score",
+  "limits": "Inference and existing-evidence release; not a fresh training run, independent statistical test, or proof of full-line improvement."
+}

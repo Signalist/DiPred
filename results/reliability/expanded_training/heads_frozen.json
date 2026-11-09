@@ -1,0 +1,13 @@
+{
+  "time": 1794257197.2241147,
+  "risk_parameters": 45060,
+  "adapter_parameters": 13124,
+  "adapter_initialization_identical": true,
+  "artifacts": {
+    "expanded_rich.pt": "2c16eda7d5de166a408fdcbb98fc71aeb7703137d886804914fa1f36dde10133",
+    "core_separate_old.pt": "32ef751394979a5bc72246d9c8ead7e603483ac23e983d8d7b80fa604a220019",
+    "core_separate_all.pt": "b2e0c3794a80cd4a4dcc3fb3fd73c8259cdcda6a99d8d68eb84f39d75156ccb2",
+    "core_history_old.pt": "44483403712214b25273cf527a0abff76a01565fa55b28e11c37faf3adef2193",
+    "core_history_all.pt": "d3bc070578eae22d4dc2e19b0b8ab46fbd38a0f52c0e33210883a15026606e53"
+  }
+}

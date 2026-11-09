@@ -35,6 +35,55 @@
     "regressions": 58
   },
   {
+    "candidate": "low_regression",
+    "reference": "best_mean_score",
+    "wins": 41,
+    "ties": 0,
+    "regressions": 55
+  },
+  {
+    "candidate": "low_regression",
+    "reference": "context_mean_score_base",
+    "wins": 38,
+    "ties": 0,
+    "regressions": 58
+  },
+  {
+    "candidate": "low_regression",
+    "reference": "context_mean_score_hold",
+    "wins": 38,
+    "ties": 0,
+    "regressions": 58
+  },
+  {
+    "candidate": "low_regression",
+    "reference": "context_mean_score_drift",
+    "wins": 38,
+    "ties": 0,
+    "regressions": 58
+  },
+  {
+    "candidate": "low_regression",
+    "reference": "context_balanced_base",
+    "wins": 38,
+    "ties": 0,
+    "regressions": 58
+  },
+  {
+    "candidate": "low_regression",
+    "reference": "context_balanced_hold",
+    "wins": 48,
+    "ties": 0,
+    "regressions": 48
+  },
+  {
+    "candidate": "low_regression",
+    "reference": "context_balanced_drift",
+    "wins": 48,
+    "ties": 0,
+    "regressions": 48
+  },
+  {
     "candidate": "best_mean_score",
     "reference": "previous_2d",
     "wins": 89,
@@ -68,5 +117,222 @@
     "wins": 45,
     "ties": 0,
     "regressions": 51
+  },
+  {
+    "candidate": "best_mean_score",
+    "reference": "best_mean_score",
+    "wins": 0,
+    "ties": 96,
+    "regressions": 0
+  },
+  {
+    "candidate": "best_mean_score",
+    "reference": "context_mean_score_base",
+    "wins": 42,
+    "ties": 0,
+    "regressions": 54
+  },
+  {
+    "candidate": "best_mean_score",
+    "reference": "context_mean_score_hold",
+    "wins": 42,
+    "ties": 0,
+    "regressions": 54
+  },
+  {
+    "candidate": "best_mean_score",
+    "reference": "context_mean_score_drift",
+    "wins": 46,
+    "ties": 0,
+    "regressions": 50
+  },
+  {
+    "candidate": "best_mean_score",
+    "reference": "context_balanced_base",
+    "wins": 48,
+    "ties": 0,
+    "regressions": 48
+  },
+  {
+    "candidate": "best_mean_score",
+    "reference": "context_balanced_hold",
+    "wins": 51,
+    "ties": 0,
+    "regressions": 45
+  },
+  {
+    "candidate": "best_mean_score",
+    "reference": "context_balanced_drift",
+    "wins": 51,
+    "ties": 0,
+    "regressions": 45
+  },
+  {
+    "candidate": "context_mean_score",
+    "reference": "previous_2d",
+    "wins": 89,
+    "ties": 0,
+    "regressions": 7
+  },
+  {
+    "candidate": "context_mean_score",
+    "reference": "rich_scale",
+    "wins": 69,
+    "ties": 0,
+    "regressions": 27
+  },
+  {
+    "candidate": "context_mean_score",
+    "reference": "tied_tails",
+    "wins": 58,
+    "ties": 0,
+    "regressions": 38
+  },
+  {
+    "candidate": "context_mean_score",
+    "reference": "low_regression",
+    "wins": 57,
+    "ties": 0,
+    "regressions": 39
+  },
+  {
+    "candidate": "context_mean_score",
+    "reference": "symmetric_denoising",
+    "wins": 55,
+    "ties": 0,
+    "regressions": 41
+  },
+  {
+    "candidate": "context_mean_score",
+    "reference": "best_mean_score",
+    "wins": 60,
+    "ties": 0,
+    "regressions": 36
+  },
+  {
+    "candidate": "context_mean_score",
+    "reference": "context_mean_score_base",
+    "wins": 35,
+    "ties": 36,
+    "regressions": 25
+  },
+  {
+    "candidate": "context_mean_score",
+    "reference": "context_mean_score_hold",
+    "wins": 35,
+    "ties": 36,
+    "regressions": 25
+  },
+  {
+    "candidate": "context_mean_score",
+    "reference": "context_mean_score_drift",
+    "wins": 41,
+    "ties": 36,
+    "regressions": 19
+  },
+  {
+    "candidate": "context_mean_score",
+    "reference": "context_balanced_base",
+    "wins": 51,
+    "ties": 0,
+    "regressions": 45
+  },
+  {
+    "candidate": "context_mean_score",
+    "reference": "context_balanced_hold",
+    "wins": 52,
+    "ties": 0,
+    "regressions": 44
+  },
+  {
+    "candidate": "context_mean_score",
+    "reference": "context_balanced_drift",
+    "wins": 52,
+    "ties": 0,
+    "regressions": 44
+  },
+  {
+    "candidate": "context_balanced",
+    "reference": "previous_2d",
+    "wins": 91,
+    "ties": 0,
+    "regressions": 5
+  },
+  {
+    "candidate": "context_balanced",
+    "reference": "rich_scale",
+    "wins": 71,
+    "ties": 0,
+    "regressions": 25
+  },
+  {
+    "candidate": "context_balanced",
+    "reference": "tied_tails",
+    "wins": 52,
+    "ties": 0,
+    "regressions": 44
+  },
+  {
+    "candidate": "context_balanced",
+    "reference": "low_regression",
+    "wins": 52,
+    "ties": 0,
+    "regressions": 44
+  },
+  {
+    "candidate": "context_balanced",
+    "reference": "symmetric_denoising",
+    "wins": 41,
+    "ties": 0,
+    "regressions": 55
+  },
+  {
+    "candidate": "context_balanced",
+    "reference": "best_mean_score",
+    "wins": 45,
+    "ties": 0,
+    "regressions": 51
+  },
+  {
+    "candidate": "context_balanced",
+    "reference": "context_mean_score_base",
+    "wins": 44,
+    "ties": 0,
+    "regressions": 52
+  },
+  {
+    "candidate": "context_balanced",
+    "reference": "context_mean_score_hold",
+    "wins": 44,
+    "ties": 0,
+    "regressions": 52
+  },
+  {
+    "candidate": "context_balanced",
+    "reference": "context_mean_score_drift",
+    "wins": 44,
+    "ties": 0,
+    "regressions": 52
+  },
+  {
+    "candidate": "context_balanced",
+    "reference": "context_balanced_base",
+    "wins": 19,
+    "ties": 36,
+    "regressions": 41
+  },
+  {
+    "candidate": "context_balanced",
+    "reference": "context_balanced_hold",
+    "wins": 30,
+    "ties": 36,
+    "regressions": 30
+  },
+  {
+    "candidate": "context_balanced",
+    "reference": "context_balanced_drift",
+    "wins": 32,
+    "ties": 36,
+    "regressions": 28
   }
 ]

@@ -1,0 +1,10 @@
+{
+  "time": 1794257089.2533584,
+  "old_weights_exact": true,
+  "parameters": 45060,
+  "initialization_identical": true,
+  "artifacts": {
+    "replay_rich.pt": "a8e317211a7270f96c8ab208f1baa9519c3a5d9c63484e2c15f3f66200f38d5b",
+    "expanded_rich.pt": "2c16eda7d5de166a408fdcbb98fc71aeb7703137d886804914fa1f36dde10133"
+  }
+}

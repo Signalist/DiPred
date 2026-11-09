@@ -33,7 +33,10 @@ def main():
             buckets[(row["split"], period, row["group"], row["channel"], row["method"])].append(row)
     recomputed = {}
     for key, rows in buckets.items():
-        recomputed[key] = {metric: mean(float(r[metric]) for r in rows) for metric in metrics}
+        # The newer experiments did not record the optional pre-calibration
+        # raw_* ranking diagnostics. Blank means unmeasured, never zero.
+        recomputed[key] = {metric: mean(float(r[metric]) for r in rows) for metric in metrics
+                           if all(r[metric] != "" for r in rows)}
     saved = json.loads((OUT / "summary.json").read_text())
     checked = 0
     for row in saved:
@@ -44,8 +47,11 @@ def main():
             assert abs(row[metric] - value) < 1e-10, (key, metric)
             checked += 1
     counts, failures = [], []
-    references = ("previous_2d", "rich_scale", "tied_tails", "low_regression", "symmetric_denoising")
-    for candidate in ("low_regression", "best_mean_score"):
+    references = ("previous_2d", "rich_scale", "tied_tails", "low_regression", "symmetric_denoising",
+                  "best_mean_score", "context_mean_score_base", "context_mean_score_hold",
+                  "context_mean_score_drift", "context_balanced_base", "context_balanced_hold",
+                  "context_balanced_drift")
+    for candidate in ("low_regression", "best_mean_score", "context_mean_score", "context_balanced"):
         for reference in references:
             count = dict(candidate=candidate, reference=reference, wins=0, ties=0, regressions=0)
             for key, row in recomputed.items():
@@ -72,6 +78,17 @@ def main():
     report = dict(passed=True, case_rows=len(cases), checked_numeric_group_metrics=checked,
                   primary_cells_per_comparison=96, tolerance=TOLERANCE,
                   caveat="Exploratory reused trajectories; windows/pixels correlated, no independent confirmation or coverage guarantee.")
+    # Coverage deviations must be taken per Re/channel before averaging;
+    # abs(grand-mean coverage - .9) would hide cancellation between groups.
+    report["test_warm_macro"] = {}
+    for candidate in ("low_regression", "best_mean_score", "context_mean_score", "context_balanced"):
+        rows = [row for key, row in recomputed.items()
+                if key[0] == "test" and key[1] == "warm" and key[4] == candidate]
+        report["test_warm_macro"][candidate] = dict(
+            coverage=mean(row["coverage"] for row in rows),
+            interval_score=mean(row["standardized_interval_score"] for row in rows),
+            interval_width=mean(row["standardized_width"] for row in rows),
+            mean_absolute_group_coverage_error=mean(abs(row["coverage"] - .9) for row in rows))
     (OUT / "analysis_verification.json").write_text(json.dumps(report, indent=2) + "\n")
     print(json.dumps(report, indent=2))
 

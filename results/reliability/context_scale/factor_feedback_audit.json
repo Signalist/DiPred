@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "actual_windows": 4,
+  "independent_numpy_factor_endpoint_max_error": 7.927204546120947e-07,
+  "independent_numpy_interval_metric_max_error": 5.2992550125807725e-08,
+  "independent_numpy_actual_coverage_feedback_max_error": 1.1920928955078125e-07,
+  "metric_checks": 320,
+  "partial_feedback_rejected": true,
+  "parent_beta_shape_amplitude_exact": true
+}

@@ -14,19 +14,27 @@ from .networks import DynamicsDiffusion20
 from .heads import StructuredQuantileHead, TailScaleRiskAdapter, CueTailAdapter
 from .features import base_features, forecast_features, adapter_inputs, cue_inputs, risk_features
 from .calibration import SmoothedScaleCalibrator, MemoryQuantileCalibrator
+from .context import ContextScaleForecaster, context_summary, MODES
 
 
 CHECKPOINT = Path(__file__).resolve().parent / "checkpoints/current.pt"
-PRESETS = ("low_regression", "best_mean_score")
+PRESETS = ("low_regression", "best_mean_score", "context_mean_score", "context_balanced")
 
 
 class ReliabilityPredictor:
-    def __init__(self, grid_geometry, preset="low_regression", device="cuda", checkpoint=CHECKPOINT):
+    def __init__(self, grid_geometry, preset="low_regression", device="cuda", checkpoint=CHECKPOINT,
+                 context_policy="context", context_checkpoint=None):
         if preset not in PRESETS:
-            raise ValueError("Choose low_regression or best_mean_score.")
+            raise ValueError(f"Choose one of {PRESETS}.")
+        if context_policy not in MODES:
+            raise ValueError(f"Choose one of {MODES} for context_policy.")
+        if not preset.startswith("context_") and context_policy != "context":
+            raise ValueError("Policy ablations apply to context presets only.")
         configure()
         self.device = torch.device(device)
         self.preset = preset
+        self.context_policy = context_policy
+        self.uses_context = preset.startswith("context_")
         self.geometry = torch.as_tensor(grid_geometry, device=self.device, dtype=torch.float32)
         if self.geometry.ndim == 1:
             self.geometry = self.geometry[None]
@@ -41,9 +49,21 @@ class ReliabilityPredictor:
         self.stats = state["statistics"]
         self.model = DynamicsDiffusion20(state["dynamics_scale"]).to(self.device).eval().requires_grad_(False)
         self.model.load_state_dict(state["predictor"], strict=True)
+        if self.uses_context:
+            path = (Path(context_checkpoint) if context_checkpoint is not None
+                    else Path(checkpoint).with_name("context.pt"))
+            extra = torch.load(path, map_location=self.device, weights_only=False)
+            if extra["format_version"] != 1:
+                raise ValueError("Unsupported context checkpoint format.")
+            # Only the risk head/adapters change. Keep the shared predictor,
+            # train-only normalization, and frozen feature statistics intact.
+            state = dict(state, risk_head=extra["risk_head"],
+                         adapters=extra["adapters"], calibration=extra["calibration"])
+            self.scale_models = extra["scale_models"]
         self.head = StructuredQuantileHead("rich").to(self.device).eval().requires_grad_(False)
         self.head.load_state_dict(state["risk_head"], strict=True)
-        adapter = TailScaleRiskAdapter(True) if preset == "low_regression" else CueTailAdapter()
+        adapter = (TailScaleRiskAdapter(True) if preset in ("low_regression", "context_balanced")
+                   else CueTailAdapter())
         self.adapter = adapter.to(self.device).eval().requires_grad_(False)
         self.adapter.load_state_dict(state["adapters"][preset], strict=True)
         self.initial = state["calibration"][preset]
@@ -90,17 +110,26 @@ class ReliabilityPredictor:
             inputs = cue_inputs(h, point, lower, upper, None, "history_change", available)
         lower, upper = self.adapter.bounds(inputs, lower, upper)
         known = risk_features(h, point, 0.5 * (upper - lower))
+        if self.uses_context:
+            known = (known, context_summary(h, point, lower, upper))
         if self.calibrator is None:
-            if self.preset == "low_regression":
+            if self.uses_context:
+                name = "balanced" if self.preset == "context_balanced" else "mean_score"
+                self.calibrator = ContextScaleForecaster(self.context_policy,
+                    dict(self.initial, _preset=name), len(point), self.scale_models)
+            elif self.preset == "low_regression":
                 self.calibrator = SmoothedScaleCalibrator("scale_fastcal", self.initial, len(point))
             else:
                 self.calibrator = MemoryQuantileCalibrator("memory_dynamic", self.initial, len(point))
         lo, hi = self.calibrator.issue(lower, upper, known)
         self.pending = point.clone()
-        return dict(prediction=physical, lower=physical + lo * self.norm["std"],
+        result = dict(prediction=physical, lower=physical + lo * self.norm["std"],
                     upper=physical + hi * self.norm["std"],
                     risk_half_width=0.5 * (hi - lo) * self.norm["std"],
                     previous_feedback_windows=self.calibrator.revealed_windows)
+        if self.uses_context:
+            result["global_log_scale_correction"] = self.calibrator.last_log_factor.clone()
+        return result
 
     @torch.no_grad()
     def reveal(self, truth):
@@ -122,8 +151,11 @@ def main():
     parser.add_argument("--preset", choices=PRESETS, default="low_regression")
     parser.add_argument("--device", default="cuda")
     parser.add_argument("--checkpoint", type=Path, default=CHECKPOINT)
+    parser.add_argument("--context-policy", choices=MODES, default="context")
+    parser.add_argument("--context-checkpoint", type=Path)
     args = parser.parse_args()
-    predictor = ReliabilityPredictor(args.geometry, args.preset, args.device, args.checkpoint)
+    predictor = ReliabilityPredictor(args.geometry, args.preset, args.device, args.checkpoint,
+                                     args.context_policy, args.context_checkpoint)
     observed = torch.load(args.input, map_location="cpu", weights_only=False)
     result = predictor.predict(observed)
     saved = {key: value.cpu() if torch.is_tensor(value) else value for key, value in result.items()}

@@ -1,0 +1,51 @@
+{
+  "passed": true,
+  "cases": [
+    {
+      "preset": "mean_score_candidate",
+      "start": 0,
+      "outputs_and_parent_scale_states_exact": true
+    },
+    {
+      "preset": "mean_score_candidate",
+      "start": 20,
+      "outputs_and_parent_scale_states_exact": true
+    },
+    {
+      "preset": "mean_score_candidate",
+      "start": 40,
+      "outputs_and_parent_scale_states_exact": true
+    },
+    {
+      "preset": "mean_score_candidate",
+      "start": 60,
+      "outputs_and_parent_scale_states_exact": true
+    },
+    {
+      "preset": "balanced_candidate",
+      "start": 0,
+      "outputs_and_parent_scale_states_exact": true
+    },
+    {
+      "preset": "balanced_candidate",
+      "start": 20,
+      "outputs_and_parent_scale_states_exact": true
+    },
+    {
+      "preset": "balanced_candidate",
+      "start": 40,
+      "outputs_and_parent_scale_states_exact": true
+    },
+    {
+      "preset": "balanced_candidate",
+      "start": 60,
+      "outputs_and_parent_scale_states_exact": true
+    }
+  ],
+  "actual_forecasts": 96,
+  "native_four_calls": true,
+  "correction_activation_and_feedback_checked": true,
+  "duplicate_and_partial_guards": true,
+  "reset_checked": true,
+  "no_prediction_cache_or_sampling_ensemble_needed": true
+}

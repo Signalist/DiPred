@@ -2,22 +2,26 @@
 
 当前主线：**Reliability-aware PDE Forecasting**。冻结原4步DiPred（99→66→33→0），输入20帧、联合预测后20帧，再直接输出预测误差区间，不需要32路采样。没有点预测残差修正网络。
 
-本次更新的入口是 [`reliability/`](reliability/README.md)，已包含约7.1 MiB推理权重、归一化/校准参数与两个完整在线接口预设：
+本次更新的入口是 [`reliability/`](reliability/README.md)。已包含共享预测权重、归一化/校准参数，以及最新“扩展训练风险头＋已知上下文尺度预测”方案。新增权重约0.91 MiB，继续使用原4次网络调用：
 
 |预设|定位|测试90%逐点覆盖|标准化区间评分↓|标准化宽度↓|
 |---|---|---:|---:|---:|
 |`low_regression`（默认）|当前低反例主线|89.977%|0.631915|0.479664|
-|`best_mean_score`|当前平均评分最优候选|89.905%|0.628699|0.478440|
+|`context_mean_score`|当前平均区间评分最优候选|89.911%|**0.626549**|**0.476437**|
+|`context_balanced`|上下文尺度的另一固定对照|89.972%|0.631436|0.479199|
+|`best_mean_score`|保留的上一版平均评分候选|89.905%|0.628699|0.478440|
 
-统计为历史测试轨迹窗口2–39，Re及u/v等权；两者使用完全相同的点预测，MSE均约1.28793e-4。默认相对早期2D区间参考仍有4/96项退步，相对匹配对称尾控制仍有46/96项退步；没有单个全指标最优版本。未证明独立泛化或严格/联合时空覆盖。
+统计为历史测试轨迹窗口2–39，Re及u/v等权；全部使用完全相同的点预测，MSE约1.28793e-4。新方案相对匹配的无上下文控制，Score降低0.289%、宽度减少0.404%，96项中35改善、36持平、25退步。全局尺度预测没有增加空间排序信息，最差帧/区域覆盖仍有小幅代价。默认低反例版本相对早期2D参考仍有4/96项退步，最新平均评分候选仍有7/96项退步，因此保留两种取舍；没有单个全指标最优版本。未证明独立泛化或严格/联合时空覆盖。
 
 ```bash
 pip install -r requirements.txt
 TORCH_ALLOW_TF32_CUBLAS_OVERRIDE=0 python -m reliability.verify --device cpu
 python analyze_reliability.py
+python -m reliability.predict --input history.pt --output forecast.pt \
+  --geometry 0.0034 -0.0034 0.02 --preset context_mean_score
 ```
 
-[`results/reliability/`](results/reliability/README.md)包含18,720条完整窗口/通道记录、强参考、全部反例及独立推理核验。以下保留的是较早的点预测实验，指标时段与新主线不同，不直接横向计算提升。
+几何参数须替换成数据真实的dx、dy、dt。[`results/reliability/`](results/reliability/README.md)包含33,696条完整窗口/通道记录、强参考、全部反例及独立推理核验。新增方案的base/hold/drift/context四种固定策略均保留；384次真实窗口预测的导出实现与冻结研究版本逐位一致。可读说明见[上下文尺度实验](docs/研究结果_上下文预测误差尺度创新_20261109.md)。以下保留的是较早的点预测实验，指标时段与新主线不同，不直接横向计算提升。
 
 ---
 

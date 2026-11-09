@@ -1,0 +1,14 @@
+{
+  "case_rows": 14976,
+  "policies": {
+    "core_history_old": "context_mean_score",
+    "core_separate_all": "context_balanced"
+  },
+  "sources": {
+    "runs/context_scale_forecasting_20261109/per_case.json": "bbc8a7612a12b868a8e0d7bff9fadf8a456e1aa0d7baab758d94c499fbdf4a37",
+    "runs/context_scale_forecasting_20261109/summary.json": "35abc6134eb698f13cb0fdde9ce768b77f2be14b9de189363dbba0052adeb362",
+    "runs/context_scale_forecasting_20261109/regression_counts.json": "29410b768bc262487a87bf7ecf7fdac012739fa62354e4a018261d4d937e1b3e"
+  },
+  "all_windows_retained": true,
+  "comments": "Historical controls remain in parent per_case.csv; policy CSV also includes log_factor."
+}

@@ -1,0 +1,1442 @@
+[
+  {
+    "candidate": "core_separate_all",
+    "variant": "base",
+    "reference": "previous_2d",
+    "baseline_variant": "global_smooth",
+    "wins": 92,
+    "ties": 0,
+    "regressions": 4
+  },
+  {
+    "candidate": "core_separate_all",
+    "variant": "base",
+    "reference": "separate_tails",
+    "baseline_variant": "scale_fastcal",
+    "wins": 58,
+    "ties": 0,
+    "regressions": 38
+  },
+  {
+    "candidate": "core_separate_all",
+    "variant": "base",
+    "reference": "tied_tails",
+    "baseline_variant": "scale_fastcal",
+    "wins": 58,
+    "ties": 0,
+    "regressions": 38
+  },
+  {
+    "candidate": "core_separate_all",
+    "variant": "base",
+    "reference": "tied_tails",
+    "baseline_variant": "memory_dynamic",
+    "wins": 50,
+    "ties": 0,
+    "regressions": 46
+  },
+  {
+    "candidate": "core_separate_all",
+    "variant": "base",
+    "reference": "asym_history",
+    "baseline_variant": "memory_dynamic",
+    "wins": 48,
+    "ties": 0,
+    "regressions": 48
+  },
+  {
+    "candidate": "core_separate_all",
+    "variant": "base",
+    "reference": "denoising_change",
+    "baseline_variant": "memory_dynamic",
+    "wins": 44,
+    "ties": 0,
+    "regressions": 52
+  },
+  {
+    "candidate": "core_separate_all",
+    "variant": "base",
+    "reference": "expanded_separate",
+    "baseline_variant": "scale_fastcal",
+    "wins": 60,
+    "ties": 0,
+    "regressions": 36
+  },
+  {
+    "candidate": "core_separate_all",
+    "variant": "base",
+    "reference": "expanded_history",
+    "baseline_variant": "memory_dynamic",
+    "wins": 52,
+    "ties": 0,
+    "regressions": 44
+  },
+  {
+    "candidate": "core_separate_all",
+    "variant": "base",
+    "reference": "core_separate_all",
+    "baseline_variant": "scale_fastcal",
+    "wins": 0,
+    "ties": 96,
+    "regressions": 0
+  },
+  {
+    "candidate": "core_separate_all",
+    "variant": "base",
+    "reference": "core_separate_all",
+    "baseline_variant": "memory_dynamic",
+    "wins": 39,
+    "ties": 0,
+    "regressions": 57
+  },
+  {
+    "candidate": "core_separate_all",
+    "variant": "base",
+    "reference": "core_history_old",
+    "baseline_variant": "memory_dynamic",
+    "wins": 46,
+    "ties": 0,
+    "regressions": 50
+  },
+  {
+    "candidate": "core_separate_all",
+    "variant": "base",
+    "reference": "core_history_old",
+    "baseline_variant": "scale_fastcal",
+    "wins": 50,
+    "ties": 0,
+    "regressions": 46
+  },
+  {
+    "candidate": "core_separate_all",
+    "variant": "base",
+    "reference": "core_history_all",
+    "baseline_variant": "memory_dynamic",
+    "wins": 43,
+    "ties": 0,
+    "regressions": 53
+  },
+  {
+    "candidate": "core_separate_all",
+    "variant": "base",
+    "reference": "core_history_all",
+    "baseline_variant": "scale_fastcal",
+    "wins": 48,
+    "ties": 2,
+    "regressions": 46
+  },
+  {
+    "candidate": "core_separate_all",
+    "variant": "base",
+    "reference": "core_separate_all",
+    "baseline_variant": "base",
+    "wins": 0,
+    "ties": 96,
+    "regressions": 0
+  },
+  {
+    "candidate": "core_separate_all",
+    "variant": "base",
+    "reference": "core_separate_all",
+    "baseline_variant": "hold",
+    "wins": 42,
+    "ties": 36,
+    "regressions": 18
+  },
+  {
+    "candidate": "core_separate_all",
+    "variant": "base",
+    "reference": "core_separate_all",
+    "baseline_variant": "drift",
+    "wins": 42,
+    "ties": 36,
+    "regressions": 18
+  },
+  {
+    "candidate": "core_separate_all",
+    "variant": "base",
+    "reference": "core_history_old",
+    "baseline_variant": "base",
+    "wins": 46,
+    "ties": 0,
+    "regressions": 50
+  },
+  {
+    "candidate": "core_separate_all",
+    "variant": "base",
+    "reference": "core_history_old",
+    "baseline_variant": "hold",
+    "wins": 46,
+    "ties": 0,
+    "regressions": 50
+  },
+  {
+    "candidate": "core_separate_all",
+    "variant": "base",
+    "reference": "core_history_old",
+    "baseline_variant": "drift",
+    "wins": 46,
+    "ties": 0,
+    "regressions": 50
+  },
+  {
+    "candidate": "core_separate_all",
+    "variant": "hold",
+    "reference": "previous_2d",
+    "baseline_variant": "global_smooth",
+    "wins": 90,
+    "ties": 0,
+    "regressions": 6
+  },
+  {
+    "candidate": "core_separate_all",
+    "variant": "hold",
+    "reference": "separate_tails",
+    "baseline_variant": "scale_fastcal",
+    "wins": 48,
+    "ties": 0,
+    "regressions": 48
+  },
+  {
+    "candidate": "core_separate_all",
+    "variant": "hold",
+    "reference": "tied_tails",
+    "baseline_variant": "scale_fastcal",
+    "wins": 46,
+    "ties": 1,
+    "regressions": 49
+  },
+  {
+    "candidate": "core_separate_all",
+    "variant": "hold",
+    "reference": "tied_tails",
+    "baseline_variant": "memory_dynamic",
+    "wins": 47,
+    "ties": 0,
+    "regressions": 49
+  },
+  {
+    "candidate": "core_separate_all",
+    "variant": "hold",
+    "reference": "asym_history",
+    "baseline_variant": "memory_dynamic",
+    "wins": 45,
+    "ties": 0,
+    "regressions": 51
+  },
+  {
+    "candidate": "core_separate_all",
+    "variant": "hold",
+    "reference": "denoising_change",
+    "baseline_variant": "memory_dynamic",
+    "wins": 41,
+    "ties": 0,
+    "regressions": 55
+  },
+  {
+    "candidate": "core_separate_all",
+    "variant": "hold",
+    "reference": "expanded_separate",
+    "baseline_variant": "scale_fastcal",
+    "wins": 52,
+    "ties": 0,
+    "regressions": 44
+  },
+  {
+    "candidate": "core_separate_all",
+    "variant": "hold",
+    "reference": "expanded_history",
+    "baseline_variant": "memory_dynamic",
+    "wins": 46,
+    "ties": 0,
+    "regressions": 50
+  },
+  {
+    "candidate": "core_separate_all",
+    "variant": "hold",
+    "reference": "core_separate_all",
+    "baseline_variant": "scale_fastcal",
+    "wins": 18,
+    "ties": 36,
+    "regressions": 42
+  },
+  {
+    "candidate": "core_separate_all",
+    "variant": "hold",
+    "reference": "core_separate_all",
+    "baseline_variant": "memory_dynamic",
+    "wins": 38,
+    "ties": 0,
+    "regressions": 58
+  },
+  {
+    "candidate": "core_separate_all",
+    "variant": "hold",
+    "reference": "core_history_old",
+    "baseline_variant": "memory_dynamic",
+    "wins": 44,
+    "ties": 0,
+    "regressions": 52
+  },
+  {
+    "candidate": "core_separate_all",
+    "variant": "hold",
+    "reference": "core_history_old",
+    "baseline_variant": "scale_fastcal",
+    "wins": 43,
+    "ties": 0,
+    "regressions": 53
+  },
+  {
+    "candidate": "core_separate_all",
+    "variant": "hold",
+    "reference": "core_history_all",
+    "baseline_variant": "memory_dynamic",
+    "wins": 43,
+    "ties": 0,
+    "regressions": 53
+  },
+  {
+    "candidate": "core_separate_all",
+    "variant": "hold",
+    "reference": "core_history_all",
+    "baseline_variant": "scale_fastcal",
+    "wins": 42,
+    "ties": 0,
+    "regressions": 54
+  },
+  {
+    "candidate": "core_separate_all",
+    "variant": "hold",
+    "reference": "core_separate_all",
+    "baseline_variant": "base",
+    "wins": 18,
+    "ties": 36,
+    "regressions": 42
+  },
+  {
+    "candidate": "core_separate_all",
+    "variant": "hold",
+    "reference": "core_separate_all",
+    "baseline_variant": "hold",
+    "wins": 0,
+    "ties": 96,
+    "regressions": 0
+  },
+  {
+    "candidate": "core_separate_all",
+    "variant": "hold",
+    "reference": "core_separate_all",
+    "baseline_variant": "drift",
+    "wins": 33,
+    "ties": 38,
+    "regressions": 25
+  },
+  {
+    "candidate": "core_separate_all",
+    "variant": "hold",
+    "reference": "core_history_old",
+    "baseline_variant": "base",
+    "wins": 44,
+    "ties": 0,
+    "regressions": 52
+  },
+  {
+    "candidate": "core_separate_all",
+    "variant": "hold",
+    "reference": "core_history_old",
+    "baseline_variant": "hold",
+    "wins": 44,
+    "ties": 0,
+    "regressions": 52
+  },
+  {
+    "candidate": "core_separate_all",
+    "variant": "hold",
+    "reference": "core_history_old",
+    "baseline_variant": "drift",
+    "wins": 43,
+    "ties": 0,
+    "regressions": 53
+  },
+  {
+    "candidate": "core_separate_all",
+    "variant": "drift",
+    "reference": "previous_2d",
+    "baseline_variant": "global_smooth",
+    "wins": 90,
+    "ties": 0,
+    "regressions": 6
+  },
+  {
+    "candidate": "core_separate_all",
+    "variant": "drift",
+    "reference": "separate_tails",
+    "baseline_variant": "scale_fastcal",
+    "wins": 48,
+    "ties": 0,
+    "regressions": 48
+  },
+  {
+    "candidate": "core_separate_all",
+    "variant": "drift",
+    "reference": "tied_tails",
+    "baseline_variant": "scale_fastcal",
+    "wins": 47,
+    "ties": 0,
+    "regressions": 49
+  },
+  {
+    "candidate": "core_separate_all",
+    "variant": "drift",
+    "reference": "tied_tails",
+    "baseline_variant": "memory_dynamic",
+    "wins": 47,
+    "ties": 0,
+    "regressions": 49
+  },
+  {
+    "candidate": "core_separate_all",
+    "variant": "drift",
+    "reference": "asym_history",
+    "baseline_variant": "memory_dynamic",
+    "wins": 45,
+    "ties": 0,
+    "regressions": 51
+  },
+  {
+    "candidate": "core_separate_all",
+    "variant": "drift",
+    "reference": "denoising_change",
+    "baseline_variant": "memory_dynamic",
+    "wins": 41,
+    "ties": 0,
+    "regressions": 55
+  },
+  {
+    "candidate": "core_separate_all",
+    "variant": "drift",
+    "reference": "expanded_separate",
+    "baseline_variant": "scale_fastcal",
+    "wins": 51,
+    "ties": 0,
+    "regressions": 45
+  },
+  {
+    "candidate": "core_separate_all",
+    "variant": "drift",
+    "reference": "expanded_history",
+    "baseline_variant": "memory_dynamic",
+    "wins": 46,
+    "ties": 0,
+    "regressions": 50
+  },
+  {
+    "candidate": "core_separate_all",
+    "variant": "drift",
+    "reference": "core_separate_all",
+    "baseline_variant": "scale_fastcal",
+    "wins": 18,
+    "ties": 36,
+    "regressions": 42
+  },
+  {
+    "candidate": "core_separate_all",
+    "variant": "drift",
+    "reference": "core_separate_all",
+    "baseline_variant": "memory_dynamic",
+    "wins": 38,
+    "ties": 0,
+    "regressions": 58
+  },
+  {
+    "candidate": "core_separate_all",
+    "variant": "drift",
+    "reference": "core_history_old",
+    "baseline_variant": "memory_dynamic",
+    "wins": 45,
+    "ties": 0,
+    "regressions": 51
+  },
+  {
+    "candidate": "core_separate_all",
+    "variant": "drift",
+    "reference": "core_history_old",
+    "baseline_variant": "scale_fastcal",
+    "wins": 43,
+    "ties": 0,
+    "regressions": 53
+  },
+  {
+    "candidate": "core_separate_all",
+    "variant": "drift",
+    "reference": "core_history_all",
+    "baseline_variant": "memory_dynamic",
+    "wins": 43,
+    "ties": 0,
+    "regressions": 53
+  },
+  {
+    "candidate": "core_separate_all",
+    "variant": "drift",
+    "reference": "core_history_all",
+    "baseline_variant": "scale_fastcal",
+    "wins": 42,
+    "ties": 0,
+    "regressions": 54
+  },
+  {
+    "candidate": "core_separate_all",
+    "variant": "drift",
+    "reference": "core_separate_all",
+    "baseline_variant": "base",
+    "wins": 18,
+    "ties": 36,
+    "regressions": 42
+  },
+  {
+    "candidate": "core_separate_all",
+    "variant": "drift",
+    "reference": "core_separate_all",
+    "baseline_variant": "hold",
+    "wins": 25,
+    "ties": 38,
+    "regressions": 33
+  },
+  {
+    "candidate": "core_separate_all",
+    "variant": "drift",
+    "reference": "core_separate_all",
+    "baseline_variant": "drift",
+    "wins": 0,
+    "ties": 96,
+    "regressions": 0
+  },
+  {
+    "candidate": "core_separate_all",
+    "variant": "drift",
+    "reference": "core_history_old",
+    "baseline_variant": "base",
+    "wins": 45,
+    "ties": 0,
+    "regressions": 51
+  },
+  {
+    "candidate": "core_separate_all",
+    "variant": "drift",
+    "reference": "core_history_old",
+    "baseline_variant": "hold",
+    "wins": 45,
+    "ties": 0,
+    "regressions": 51
+  },
+  {
+    "candidate": "core_separate_all",
+    "variant": "drift",
+    "reference": "core_history_old",
+    "baseline_variant": "drift",
+    "wins": 43,
+    "ties": 0,
+    "regressions": 53
+  },
+  {
+    "candidate": "core_separate_all",
+    "variant": "context",
+    "reference": "previous_2d",
+    "baseline_variant": "global_smooth",
+    "wins": 91,
+    "ties": 0,
+    "regressions": 5
+  },
+  {
+    "candidate": "core_separate_all",
+    "variant": "context",
+    "reference": "separate_tails",
+    "baseline_variant": "scale_fastcal",
+    "wins": 52,
+    "ties": 0,
+    "regressions": 44
+  },
+  {
+    "candidate": "core_separate_all",
+    "variant": "context",
+    "reference": "tied_tails",
+    "baseline_variant": "scale_fastcal",
+    "wins": 52,
+    "ties": 0,
+    "regressions": 44
+  },
+  {
+    "candidate": "core_separate_all",
+    "variant": "context",
+    "reference": "tied_tails",
+    "baseline_variant": "memory_dynamic",
+    "wins": 46,
+    "ties": 0,
+    "regressions": 50
+  },
+  {
+    "candidate": "core_separate_all",
+    "variant": "context",
+    "reference": "asym_history",
+    "baseline_variant": "memory_dynamic",
+    "wins": 45,
+    "ties": 0,
+    "regressions": 51
+  },
+  {
+    "candidate": "core_separate_all",
+    "variant": "context",
+    "reference": "denoising_change",
+    "baseline_variant": "memory_dynamic",
+    "wins": 41,
+    "ties": 0,
+    "regressions": 55
+  },
+  {
+    "candidate": "core_separate_all",
+    "variant": "context",
+    "reference": "expanded_separate",
+    "baseline_variant": "scale_fastcal",
+    "wins": 55,
+    "ties": 1,
+    "regressions": 40
+  },
+  {
+    "candidate": "core_separate_all",
+    "variant": "context",
+    "reference": "expanded_history",
+    "baseline_variant": "memory_dynamic",
+    "wins": 47,
+    "ties": 0,
+    "regressions": 49
+  },
+  {
+    "candidate": "core_separate_all",
+    "variant": "context",
+    "reference": "core_separate_all",
+    "baseline_variant": "scale_fastcal",
+    "wins": 19,
+    "ties": 36,
+    "regressions": 41
+  },
+  {
+    "candidate": "core_separate_all",
+    "variant": "context",
+    "reference": "core_separate_all",
+    "baseline_variant": "memory_dynamic",
+    "wins": 39,
+    "ties": 0,
+    "regressions": 57
+  },
+  {
+    "candidate": "core_separate_all",
+    "variant": "context",
+    "reference": "core_history_old",
+    "baseline_variant": "memory_dynamic",
+    "wins": 44,
+    "ties": 0,
+    "regressions": 52
+  },
+  {
+    "candidate": "core_separate_all",
+    "variant": "context",
+    "reference": "core_history_old",
+    "baseline_variant": "scale_fastcal",
+    "wins": 46,
+    "ties": 0,
+    "regressions": 50
+  },
+  {
+    "candidate": "core_separate_all",
+    "variant": "context",
+    "reference": "core_history_all",
+    "baseline_variant": "memory_dynamic",
+    "wins": 44,
+    "ties": 0,
+    "regressions": 52
+  },
+  {
+    "candidate": "core_separate_all",
+    "variant": "context",
+    "reference": "core_history_all",
+    "baseline_variant": "scale_fastcal",
+    "wins": 45,
+    "ties": 1,
+    "regressions": 50
+  },
+  {
+    "candidate": "core_separate_all",
+    "variant": "context",
+    "reference": "core_separate_all",
+    "baseline_variant": "base",
+    "wins": 19,
+    "ties": 36,
+    "regressions": 41
+  },
+  {
+    "candidate": "core_separate_all",
+    "variant": "context",
+    "reference": "core_separate_all",
+    "baseline_variant": "hold",
+    "wins": 30,
+    "ties": 36,
+    "regressions": 30
+  },
+  {
+    "candidate": "core_separate_all",
+    "variant": "context",
+    "reference": "core_separate_all",
+    "baseline_variant": "drift",
+    "wins": 32,
+    "ties": 36,
+    "regressions": 28
+  },
+  {
+    "candidate": "core_separate_all",
+    "variant": "context",
+    "reference": "core_history_old",
+    "baseline_variant": "base",
+    "wins": 44,
+    "ties": 0,
+    "regressions": 52
+  },
+  {
+    "candidate": "core_separate_all",
+    "variant": "context",
+    "reference": "core_history_old",
+    "baseline_variant": "hold",
+    "wins": 44,
+    "ties": 0,
+    "regressions": 52
+  },
+  {
+    "candidate": "core_separate_all",
+    "variant": "context",
+    "reference": "core_history_old",
+    "baseline_variant": "drift",
+    "wins": 44,
+    "ties": 0,
+    "regressions": 52
+  },
+  {
+    "candidate": "core_history_old",
+    "variant": "base",
+    "reference": "previous_2d",
+    "baseline_variant": "global_smooth",
+    "wins": 89,
+    "ties": 0,
+    "regressions": 7
+  },
+  {
+    "candidate": "core_history_old",
+    "variant": "base",
+    "reference": "separate_tails",
+    "baseline_variant": "scale_fastcal",
+    "wins": 58,
+    "ties": 0,
+    "regressions": 38
+  },
+  {
+    "candidate": "core_history_old",
+    "variant": "base",
+    "reference": "tied_tails",
+    "baseline_variant": "scale_fastcal",
+    "wins": 59,
+    "ties": 0,
+    "regressions": 37
+  },
+  {
+    "candidate": "core_history_old",
+    "variant": "base",
+    "reference": "tied_tails",
+    "baseline_variant": "memory_dynamic",
+    "wins": 59,
+    "ties": 0,
+    "regressions": 37
+  },
+  {
+    "candidate": "core_history_old",
+    "variant": "base",
+    "reference": "asym_history",
+    "baseline_variant": "memory_dynamic",
+    "wins": 54,
+    "ties": 0,
+    "regressions": 42
+  },
+  {
+    "candidate": "core_history_old",
+    "variant": "base",
+    "reference": "denoising_change",
+    "baseline_variant": "memory_dynamic",
+    "wins": 53,
+    "ties": 0,
+    "regressions": 43
+  },
+  {
+    "candidate": "core_history_old",
+    "variant": "base",
+    "reference": "expanded_separate",
+    "baseline_variant": "scale_fastcal",
+    "wins": 60,
+    "ties": 0,
+    "regressions": 36
+  },
+  {
+    "candidate": "core_history_old",
+    "variant": "base",
+    "reference": "expanded_history",
+    "baseline_variant": "memory_dynamic",
+    "wins": 62,
+    "ties": 0,
+    "regressions": 34
+  },
+  {
+    "candidate": "core_history_old",
+    "variant": "base",
+    "reference": "core_separate_all",
+    "baseline_variant": "scale_fastcal",
+    "wins": 50,
+    "ties": 0,
+    "regressions": 46
+  },
+  {
+    "candidate": "core_history_old",
+    "variant": "base",
+    "reference": "core_separate_all",
+    "baseline_variant": "memory_dynamic",
+    "wins": 53,
+    "ties": 0,
+    "regressions": 43
+  },
+  {
+    "candidate": "core_history_old",
+    "variant": "base",
+    "reference": "core_history_old",
+    "baseline_variant": "memory_dynamic",
+    "wins": 0,
+    "ties": 96,
+    "regressions": 0
+  },
+  {
+    "candidate": "core_history_old",
+    "variant": "base",
+    "reference": "core_history_old",
+    "baseline_variant": "scale_fastcal",
+    "wins": 58,
+    "ties": 0,
+    "regressions": 38
+  },
+  {
+    "candidate": "core_history_old",
+    "variant": "base",
+    "reference": "core_history_all",
+    "baseline_variant": "memory_dynamic",
+    "wins": 37,
+    "ties": 0,
+    "regressions": 59
+  },
+  {
+    "candidate": "core_history_old",
+    "variant": "base",
+    "reference": "core_history_all",
+    "baseline_variant": "scale_fastcal",
+    "wins": 53,
+    "ties": 0,
+    "regressions": 43
+  },
+  {
+    "candidate": "core_history_old",
+    "variant": "base",
+    "reference": "core_separate_all",
+    "baseline_variant": "base",
+    "wins": 50,
+    "ties": 0,
+    "regressions": 46
+  },
+  {
+    "candidate": "core_history_old",
+    "variant": "base",
+    "reference": "core_separate_all",
+    "baseline_variant": "hold",
+    "wins": 52,
+    "ties": 0,
+    "regressions": 44
+  },
+  {
+    "candidate": "core_history_old",
+    "variant": "base",
+    "reference": "core_separate_all",
+    "baseline_variant": "drift",
+    "wins": 51,
+    "ties": 0,
+    "regressions": 45
+  },
+  {
+    "candidate": "core_history_old",
+    "variant": "base",
+    "reference": "core_history_old",
+    "baseline_variant": "base",
+    "wins": 0,
+    "ties": 96,
+    "regressions": 0
+  },
+  {
+    "candidate": "core_history_old",
+    "variant": "base",
+    "reference": "core_history_old",
+    "baseline_variant": "hold",
+    "wins": 0,
+    "ties": 96,
+    "regressions": 0
+  },
+  {
+    "candidate": "core_history_old",
+    "variant": "base",
+    "reference": "core_history_old",
+    "baseline_variant": "drift",
+    "wins": 35,
+    "ties": 36,
+    "regressions": 25
+  },
+  {
+    "candidate": "core_history_old",
+    "variant": "hold",
+    "reference": "previous_2d",
+    "baseline_variant": "global_smooth",
+    "wins": 89,
+    "ties": 0,
+    "regressions": 7
+  },
+  {
+    "candidate": "core_history_old",
+    "variant": "hold",
+    "reference": "separate_tails",
+    "baseline_variant": "scale_fastcal",
+    "wins": 58,
+    "ties": 0,
+    "regressions": 38
+  },
+  {
+    "candidate": "core_history_old",
+    "variant": "hold",
+    "reference": "tied_tails",
+    "baseline_variant": "scale_fastcal",
+    "wins": 59,
+    "ties": 0,
+    "regressions": 37
+  },
+  {
+    "candidate": "core_history_old",
+    "variant": "hold",
+    "reference": "tied_tails",
+    "baseline_variant": "memory_dynamic",
+    "wins": 59,
+    "ties": 0,
+    "regressions": 37
+  },
+  {
+    "candidate": "core_history_old",
+    "variant": "hold",
+    "reference": "asym_history",
+    "baseline_variant": "memory_dynamic",
+    "wins": 54,
+    "ties": 0,
+    "regressions": 42
+  },
+  {
+    "candidate": "core_history_old",
+    "variant": "hold",
+    "reference": "denoising_change",
+    "baseline_variant": "memory_dynamic",
+    "wins": 53,
+    "ties": 0,
+    "regressions": 43
+  },
+  {
+    "candidate": "core_history_old",
+    "variant": "hold",
+    "reference": "expanded_separate",
+    "baseline_variant": "scale_fastcal",
+    "wins": 60,
+    "ties": 0,
+    "regressions": 36
+  },
+  {
+    "candidate": "core_history_old",
+    "variant": "hold",
+    "reference": "expanded_history",
+    "baseline_variant": "memory_dynamic",
+    "wins": 62,
+    "ties": 0,
+    "regressions": 34
+  },
+  {
+    "candidate": "core_history_old",
+    "variant": "hold",
+    "reference": "core_separate_all",
+    "baseline_variant": "scale_fastcal",
+    "wins": 50,
+    "ties": 0,
+    "regressions": 46
+  },
+  {
+    "candidate": "core_history_old",
+    "variant": "hold",
+    "reference": "core_separate_all",
+    "baseline_variant": "memory_dynamic",
+    "wins": 53,
+    "ties": 0,
+    "regressions": 43
+  },
+  {
+    "candidate": "core_history_old",
+    "variant": "hold",
+    "reference": "core_history_old",
+    "baseline_variant": "memory_dynamic",
+    "wins": 0,
+    "ties": 96,
+    "regressions": 0
+  },
+  {
+    "candidate": "core_history_old",
+    "variant": "hold",
+    "reference": "core_history_old",
+    "baseline_variant": "scale_fastcal",
+    "wins": 58,
+    "ties": 0,
+    "regressions": 38
+  },
+  {
+    "candidate": "core_history_old",
+    "variant": "hold",
+    "reference": "core_history_all",
+    "baseline_variant": "memory_dynamic",
+    "wins": 37,
+    "ties": 0,
+    "regressions": 59
+  },
+  {
+    "candidate": "core_history_old",
+    "variant": "hold",
+    "reference": "core_history_all",
+    "baseline_variant": "scale_fastcal",
+    "wins": 53,
+    "ties": 0,
+    "regressions": 43
+  },
+  {
+    "candidate": "core_history_old",
+    "variant": "hold",
+    "reference": "core_separate_all",
+    "baseline_variant": "base",
+    "wins": 50,
+    "ties": 0,
+    "regressions": 46
+  },
+  {
+    "candidate": "core_history_old",
+    "variant": "hold",
+    "reference": "core_separate_all",
+    "baseline_variant": "hold",
+    "wins": 52,
+    "ties": 0,
+    "regressions": 44
+  },
+  {
+    "candidate": "core_history_old",
+    "variant": "hold",
+    "reference": "core_separate_all",
+    "baseline_variant": "drift",
+    "wins": 51,
+    "ties": 0,
+    "regressions": 45
+  },
+  {
+    "candidate": "core_history_old",
+    "variant": "hold",
+    "reference": "core_history_old",
+    "baseline_variant": "base",
+    "wins": 0,
+    "ties": 96,
+    "regressions": 0
+  },
+  {
+    "candidate": "core_history_old",
+    "variant": "hold",
+    "reference": "core_history_old",
+    "baseline_variant": "hold",
+    "wins": 0,
+    "ties": 96,
+    "regressions": 0
+  },
+  {
+    "candidate": "core_history_old",
+    "variant": "hold",
+    "reference": "core_history_old",
+    "baseline_variant": "drift",
+    "wins": 35,
+    "ties": 36,
+    "regressions": 25
+  },
+  {
+    "candidate": "core_history_old",
+    "variant": "drift",
+    "reference": "previous_2d",
+    "baseline_variant": "global_smooth",
+    "wins": 88,
+    "ties": 0,
+    "regressions": 8
+  },
+  {
+    "candidate": "core_history_old",
+    "variant": "drift",
+    "reference": "separate_tails",
+    "baseline_variant": "scale_fastcal",
+    "wins": 58,
+    "ties": 0,
+    "regressions": 38
+  },
+  {
+    "candidate": "core_history_old",
+    "variant": "drift",
+    "reference": "tied_tails",
+    "baseline_variant": "scale_fastcal",
+    "wins": 60,
+    "ties": 0,
+    "regressions": 36
+  },
+  {
+    "candidate": "core_history_old",
+    "variant": "drift",
+    "reference": "tied_tails",
+    "baseline_variant": "memory_dynamic",
+    "wins": 56,
+    "ties": 0,
+    "regressions": 40
+  },
+  {
+    "candidate": "core_history_old",
+    "variant": "drift",
+    "reference": "asym_history",
+    "baseline_variant": "memory_dynamic",
+    "wins": 50,
+    "ties": 0,
+    "regressions": 46
+  },
+  {
+    "candidate": "core_history_old",
+    "variant": "drift",
+    "reference": "denoising_change",
+    "baseline_variant": "memory_dynamic",
+    "wins": 48,
+    "ties": 1,
+    "regressions": 47
+  },
+  {
+    "candidate": "core_history_old",
+    "variant": "drift",
+    "reference": "expanded_separate",
+    "baseline_variant": "scale_fastcal",
+    "wins": 58,
+    "ties": 0,
+    "regressions": 38
+  },
+  {
+    "candidate": "core_history_old",
+    "variant": "drift",
+    "reference": "expanded_history",
+    "baseline_variant": "memory_dynamic",
+    "wins": 57,
+    "ties": 0,
+    "regressions": 39
+  },
+  {
+    "candidate": "core_history_old",
+    "variant": "drift",
+    "reference": "core_separate_all",
+    "baseline_variant": "scale_fastcal",
+    "wins": 50,
+    "ties": 0,
+    "regressions": 46
+  },
+  {
+    "candidate": "core_history_old",
+    "variant": "drift",
+    "reference": "core_separate_all",
+    "baseline_variant": "memory_dynamic",
+    "wins": 46,
+    "ties": 1,
+    "regressions": 49
+  },
+  {
+    "candidate": "core_history_old",
+    "variant": "drift",
+    "reference": "core_history_old",
+    "baseline_variant": "memory_dynamic",
+    "wins": 25,
+    "ties": 36,
+    "regressions": 35
+  },
+  {
+    "candidate": "core_history_old",
+    "variant": "drift",
+    "reference": "core_history_old",
+    "baseline_variant": "scale_fastcal",
+    "wins": 57,
+    "ties": 0,
+    "regressions": 39
+  },
+  {
+    "candidate": "core_history_old",
+    "variant": "drift",
+    "reference": "core_history_all",
+    "baseline_variant": "memory_dynamic",
+    "wins": 32,
+    "ties": 1,
+    "regressions": 63
+  },
+  {
+    "candidate": "core_history_old",
+    "variant": "drift",
+    "reference": "core_history_all",
+    "baseline_variant": "scale_fastcal",
+    "wins": 53,
+    "ties": 0,
+    "regressions": 43
+  },
+  {
+    "candidate": "core_history_old",
+    "variant": "drift",
+    "reference": "core_separate_all",
+    "baseline_variant": "base",
+    "wins": 50,
+    "ties": 0,
+    "regressions": 46
+  },
+  {
+    "candidate": "core_history_old",
+    "variant": "drift",
+    "reference": "core_separate_all",
+    "baseline_variant": "hold",
+    "wins": 53,
+    "ties": 0,
+    "regressions": 43
+  },
+  {
+    "candidate": "core_history_old",
+    "variant": "drift",
+    "reference": "core_separate_all",
+    "baseline_variant": "drift",
+    "wins": 53,
+    "ties": 0,
+    "regressions": 43
+  },
+  {
+    "candidate": "core_history_old",
+    "variant": "drift",
+    "reference": "core_history_old",
+    "baseline_variant": "base",
+    "wins": 25,
+    "ties": 36,
+    "regressions": 35
+  },
+  {
+    "candidate": "core_history_old",
+    "variant": "drift",
+    "reference": "core_history_old",
+    "baseline_variant": "hold",
+    "wins": 25,
+    "ties": 36,
+    "regressions": 35
+  },
+  {
+    "candidate": "core_history_old",
+    "variant": "drift",
+    "reference": "core_history_old",
+    "baseline_variant": "drift",
+    "wins": 0,
+    "ties": 96,
+    "regressions": 0
+  },
+  {
+    "candidate": "core_history_old",
+    "variant": "context",
+    "reference": "previous_2d",
+    "baseline_variant": "global_smooth",
+    "wins": 89,
+    "ties": 0,
+    "regressions": 7
+  },
+  {
+    "candidate": "core_history_old",
+    "variant": "context",
+    "reference": "separate_tails",
+    "baseline_variant": "scale_fastcal",
+    "wins": 57,
+    "ties": 0,
+    "regressions": 39
+  },
+  {
+    "candidate": "core_history_old",
+    "variant": "context",
+    "reference": "tied_tails",
+    "baseline_variant": "scale_fastcal",
+    "wins": 58,
+    "ties": 0,
+    "regressions": 38
+  },
+  {
+    "candidate": "core_history_old",
+    "variant": "context",
+    "reference": "tied_tails",
+    "baseline_variant": "memory_dynamic",
+    "wins": 62,
+    "ties": 0,
+    "regressions": 34
+  },
+  {
+    "candidate": "core_history_old",
+    "variant": "context",
+    "reference": "asym_history",
+    "baseline_variant": "memory_dynamic",
+    "wins": 60,
+    "ties": 0,
+    "regressions": 36
+  },
+  {
+    "candidate": "core_history_old",
+    "variant": "context",
+    "reference": "denoising_change",
+    "baseline_variant": "memory_dynamic",
+    "wins": 55,
+    "ties": 0,
+    "regressions": 41
+  },
+  {
+    "candidate": "core_history_old",
+    "variant": "context",
+    "reference": "expanded_separate",
+    "baseline_variant": "scale_fastcal",
+    "wins": 59,
+    "ties": 0,
+    "regressions": 37
+  },
+  {
+    "candidate": "core_history_old",
+    "variant": "context",
+    "reference": "expanded_history",
+    "baseline_variant": "memory_dynamic",
+    "wins": 64,
+    "ties": 0,
+    "regressions": 32
+  },
+  {
+    "candidate": "core_history_old",
+    "variant": "context",
+    "reference": "core_separate_all",
+    "baseline_variant": "scale_fastcal",
+    "wins": 51,
+    "ties": 0,
+    "regressions": 45
+  },
+  {
+    "candidate": "core_history_old",
+    "variant": "context",
+    "reference": "core_separate_all",
+    "baseline_variant": "memory_dynamic",
+    "wins": 54,
+    "ties": 0,
+    "regressions": 42
+  },
+  {
+    "candidate": "core_history_old",
+    "variant": "context",
+    "reference": "core_history_old",
+    "baseline_variant": "memory_dynamic",
+    "wins": 35,
+    "ties": 36,
+    "regressions": 25
+  },
+  {
+    "candidate": "core_history_old",
+    "variant": "context",
+    "reference": "core_history_old",
+    "baseline_variant": "scale_fastcal",
+    "wins": 58,
+    "ties": 0,
+    "regressions": 38
+  },
+  {
+    "candidate": "core_history_old",
+    "variant": "context",
+    "reference": "core_history_all",
+    "baseline_variant": "memory_dynamic",
+    "wins": 45,
+    "ties": 1,
+    "regressions": 50
+  },
+  {
+    "candidate": "core_history_old",
+    "variant": "context",
+    "reference": "core_history_all",
+    "baseline_variant": "scale_fastcal",
+    "wins": 54,
+    "ties": 0,
+    "regressions": 42
+  },
+  {
+    "candidate": "core_history_old",
+    "variant": "context",
+    "reference": "core_separate_all",
+    "baseline_variant": "base",
+    "wins": 51,
+    "ties": 0,
+    "regressions": 45
+  },
+  {
+    "candidate": "core_history_old",
+    "variant": "context",
+    "reference": "core_separate_all",
+    "baseline_variant": "hold",
+    "wins": 52,
+    "ties": 0,
+    "regressions": 44
+  },
+  {
+    "candidate": "core_history_old",
+    "variant": "context",
+    "reference": "core_separate_all",
+    "baseline_variant": "drift",
+    "wins": 52,
+    "ties": 0,
+    "regressions": 44
+  },
+  {
+    "candidate": "core_history_old",
+    "variant": "context",
+    "reference": "core_history_old",
+    "baseline_variant": "base",
+    "wins": 35,
+    "ties": 36,
+    "regressions": 25
+  },
+  {
+    "candidate": "core_history_old",
+    "variant": "context",
+    "reference": "core_history_old",
+    "baseline_variant": "hold",
+    "wins": 35,
+    "ties": 36,
+    "regressions": 25
+  },
+  {
+    "candidate": "core_history_old",
+    "variant": "context",
+    "reference": "core_history_old",
+    "baseline_variant": "drift",
+    "wins": 41,
+    "ties": 36,
+    "regressions": 19
+  }
+]

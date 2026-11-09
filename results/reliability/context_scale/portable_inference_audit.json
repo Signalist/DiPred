@@ -1,0 +1,310 @@
+{
+  "passed": true,
+  "cases": [
+    {
+      "preset": "context_mean_score",
+      "policy": "base",
+      "start": 0,
+      "batch": 12,
+      "outputs_exact": true,
+      "controller_states_exact": true,
+      "native_four_calls": true
+    },
+    {
+      "preset": "context_mean_score",
+      "policy": "hold",
+      "start": 0,
+      "batch": 12,
+      "outputs_exact": true,
+      "controller_states_exact": true,
+      "native_four_calls": true
+    },
+    {
+      "preset": "context_mean_score",
+      "policy": "drift",
+      "start": 0,
+      "batch": 12,
+      "outputs_exact": true,
+      "controller_states_exact": true,
+      "native_four_calls": true
+    },
+    {
+      "preset": "context_mean_score",
+      "policy": "context",
+      "start": 0,
+      "batch": 12,
+      "outputs_exact": true,
+      "controller_states_exact": true,
+      "native_four_calls": true
+    },
+    {
+      "preset": "context_mean_score",
+      "policy": "base",
+      "start": 20,
+      "batch": 12,
+      "outputs_exact": true,
+      "controller_states_exact": true,
+      "native_four_calls": true
+    },
+    {
+      "preset": "context_mean_score",
+      "policy": "hold",
+      "start": 20,
+      "batch": 12,
+      "outputs_exact": true,
+      "controller_states_exact": true,
+      "native_four_calls": true
+    },
+    {
+      "preset": "context_mean_score",
+      "policy": "drift",
+      "start": 20,
+      "batch": 12,
+      "outputs_exact": true,
+      "controller_states_exact": true,
+      "native_four_calls": true
+    },
+    {
+      "preset": "context_mean_score",
+      "policy": "context",
+      "start": 20,
+      "batch": 12,
+      "outputs_exact": true,
+      "controller_states_exact": true,
+      "native_four_calls": true
+    },
+    {
+      "preset": "context_mean_score",
+      "policy": "base",
+      "start": 40,
+      "batch": 12,
+      "outputs_exact": true,
+      "controller_states_exact": true,
+      "native_four_calls": true
+    },
+    {
+      "preset": "context_mean_score",
+      "policy": "hold",
+      "start": 40,
+      "batch": 12,
+      "outputs_exact": true,
+      "controller_states_exact": true,
+      "native_four_calls": true
+    },
+    {
+      "preset": "context_mean_score",
+      "policy": "drift",
+      "start": 40,
+      "batch": 12,
+      "outputs_exact": true,
+      "controller_states_exact": true,
+      "native_four_calls": true
+    },
+    {
+      "preset": "context_mean_score",
+      "policy": "context",
+      "start": 40,
+      "batch": 12,
+      "outputs_exact": true,
+      "controller_states_exact": true,
+      "native_four_calls": true
+    },
+    {
+      "preset": "context_mean_score",
+      "policy": "base",
+      "start": 60,
+      "batch": 12,
+      "outputs_exact": true,
+      "controller_states_exact": true,
+      "native_four_calls": true
+    },
+    {
+      "preset": "context_mean_score",
+      "policy": "hold",
+      "start": 60,
+      "batch": 12,
+      "outputs_exact": true,
+      "controller_states_exact": true,
+      "native_four_calls": true
+    },
+    {
+      "preset": "context_mean_score",
+      "policy": "drift",
+      "start": 60,
+      "batch": 12,
+      "outputs_exact": true,
+      "controller_states_exact": true,
+      "native_four_calls": true
+    },
+    {
+      "preset": "context_mean_score",
+      "policy": "context",
+      "start": 60,
+      "batch": 12,
+      "outputs_exact": true,
+      "controller_states_exact": true,
+      "native_four_calls": true
+    },
+    {
+      "preset": "context_balanced",
+      "policy": "base",
+      "start": 0,
+      "batch": 12,
+      "outputs_exact": true,
+      "controller_states_exact": true,
+      "native_four_calls": true
+    },
+    {
+      "preset": "context_balanced",
+      "policy": "hold",
+      "start": 0,
+      "batch": 12,
+      "outputs_exact": true,
+      "controller_states_exact": true,
+      "native_four_calls": true
+    },
+    {
+      "preset": "context_balanced",
+      "policy": "drift",
+      "start": 0,
+      "batch": 12,
+      "outputs_exact": true,
+      "controller_states_exact": true,
+      "native_four_calls": true
+    },
+    {
+      "preset": "context_balanced",
+      "policy": "context",
+      "start": 0,
+      "batch": 12,
+      "outputs_exact": true,
+      "controller_states_exact": true,
+      "native_four_calls": true
+    },
+    {
+      "preset": "context_balanced",
+      "policy": "base",
+      "start": 20,
+      "batch": 12,
+      "outputs_exact": true,
+      "controller_states_exact": true,
+      "native_four_calls": true
+    },
+    {
+      "preset": "context_balanced",
+      "policy": "hold",
+      "start": 20,
+      "batch": 12,
+      "outputs_exact": true,
+      "controller_states_exact": true,
+      "native_four_calls": true
+    },
+    {
+      "preset": "context_balanced",
+      "policy": "drift",
+      "start": 20,
+      "batch": 12,
+      "outputs_exact": true,
+      "controller_states_exact": true,
+      "native_four_calls": true
+    },
+    {
+      "preset": "context_balanced",
+      "policy": "context",
+      "start": 20,
+      "batch": 12,
+      "outputs_exact": true,
+      "controller_states_exact": true,
+      "native_four_calls": true
+    },
+    {
+      "preset": "context_balanced",
+      "policy": "base",
+      "start": 40,
+      "batch": 12,
+      "outputs_exact": true,
+      "controller_states_exact": true,
+      "native_four_calls": true
+    },
+    {
+      "preset": "context_balanced",
+      "policy": "hold",
+      "start": 40,
+      "batch": 12,
+      "outputs_exact": true,
+      "controller_states_exact": true,
+      "native_four_calls": true
+    },
+    {
+      "preset": "context_balanced",
+      "policy": "drift",
+      "start": 40,
+      "batch": 12,
+      "outputs_exact": true,
+      "controller_states_exact": true,
+      "native_four_calls": true
+    },
+    {
+      "preset": "context_balanced",
+      "policy": "context",
+      "start": 40,
+      "batch": 12,
+      "outputs_exact": true,
+      "controller_states_exact": true,
+      "native_four_calls": true
+    },
+    {
+      "preset": "context_balanced",
+      "policy": "base",
+      "start": 60,
+      "batch": 12,
+      "outputs_exact": true,
+      "controller_states_exact": true,
+      "native_four_calls": true
+    },
+    {
+      "preset": "context_balanced",
+      "policy": "hold",
+      "start": 60,
+      "batch": 12,
+      "outputs_exact": true,
+      "controller_states_exact": true,
+      "native_four_calls": true
+    },
+    {
+      "preset": "context_balanced",
+      "policy": "drift",
+      "start": 60,
+      "batch": 12,
+      "outputs_exact": true,
+      "controller_states_exact": true,
+      "native_four_calls": true
+    },
+    {
+      "preset": "context_balanced",
+      "policy": "context",
+      "start": 60,
+      "batch": 12,
+      "outputs_exact": true,
+      "controller_states_exact": true,
+      "native_four_calls": true
+    }
+  ],
+  "real_trajectory_window_forecasts": 384,
+  "native_labels": [
+    99,
+    66,
+    33,
+    0
+  ],
+  "duplicate_issue_guard": true,
+  "full_feedback_guard": true,
+  "reset_checked": true,
+  "correction_active_windows_checked": [
+    40,
+    60
+  ],
+  "context_checkpoint_sha256": "21e4f2c5ea836e4ea9a3cd49757d0ee8efe3d10499b54d073ec6db3e1efb734e",
+  "shared_checkpoint_sha256": "834260c9838b058d3e415b1efbd3fa19f7998884a36e46d14d62b10ed3ad8cfe",
+  "limitation": "Exact source-environment comparison; historical reused trajectories, not new statistical validation."
+}

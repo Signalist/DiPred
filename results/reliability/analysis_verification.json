@@ -1,8 +1,34 @@
 {
   "passed": true,
-  "case_rows": 18720,
-  "checked_numeric_group_metrics": 14880,
+  "case_rows": 33696,
+  "checked_numeric_group_metrics": 22944,
   "primary_cells_per_comparison": 96,
   "tolerance": 1e-06,
-  "caveat": "Exploratory reused trajectories; windows/pixels correlated, no independent confirmation or coverage guarantee."
+  "caveat": "Exploratory reused trajectories; windows/pixels correlated, no independent confirmation or coverage guarantee.",
+  "test_warm_macro": {
+    "low_regression": {
+      "coverage": 0.8997651191134202,
+      "interval_score": 0.6319152645483526,
+      "interval_width": 0.47966435827935733,
+      "mean_absolute_group_coverage_error": 0.0005369591085534661
+    },
+    "best_mean_score": {
+      "coverage": 0.8990483223433383,
+      "interval_score": 0.6286985496015489,
+      "interval_width": 0.47843991309535083,
+      "mean_absolute_group_coverage_error": 0.0010841921407577042
+    },
+    "context_mean_score": {
+      "coverage": 0.8991135369615946,
+      "interval_score": 0.6265493530289907,
+      "interval_width": 0.4764372155353514,
+      "mean_absolute_group_coverage_error": 0.0011616072546669076
+    },
+    "context_balanced": {
+      "coverage": 0.8997224808436388,
+      "interval_score": 0.6314361839419046,
+      "interval_width": 0.4791993309209962,
+      "mean_absolute_group_coverage_error": 0.0007271533821061419
+    }
+  }
 }

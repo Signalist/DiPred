@@ -1,0 +1,10 @@
+{
+  "achieved": false,
+  "reason": "Full-line improvement unproven; retain all96cells and strong-reference failures.",
+  "evidence": [
+    "regression_counts.json",
+    "counterexamples.csv",
+    "factor_feedback_audit.json",
+    "independent_audit.json"
+  ]
+}

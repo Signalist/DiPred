@@ -1,0 +1,35 @@
+{
+  "passed": true,
+  "original_rich_weights_exact": true,
+  "core_parameters": 45060,
+  "adapter_parameters": 13124,
+  "original_examples": 414,
+  "expanded_examples": 819,
+  "full_training_issue_label_pairs": 18,
+  "train_calibration_development_test_disjoint": true,
+  "cached_cases": [
+    {
+      "start": 400,
+      "history_and_label_exact": true,
+      "sha256": "5c69883e3fcc389d2244be7c0effa26357315e2bd7a142e11fe5a8183a6e0d36"
+    },
+    {
+      "start": 560,
+      "history_and_label_exact": true,
+      "sha256": "7168c24c9870e107d655f13aaa663794d6692b55e6f31a4e509c8a80bfb4de64"
+    }
+  ],
+  "cached_hashes": {
+    "540.pt": "3a416be0dfe7d1a1a259bdde3425426cb9e697ba8ac29dddffca4f4b4d9c5a7b",
+    "560.pt": "7168c24c9870e107d655f13aaa663794d6692b55e6f31a4e509c8a80bfb4de64",
+    "460.pt": "a407ec962e6edf44b0665701e636f7a40779c8abea043189565e298dec2f6f8f",
+    "480.pt": "6dbe352c94b13ca0148dddc12dd11d5cba24e2b508f47df392a1daded9f3748f",
+    "500.pt": "1ffa127cd99432cc3e0c2bf3bbbbfe2b6a581912d7e5f0d2f20f6cdf64bd4f86",
+    "400.pt": "5c69883e3fcc389d2244be7c0effa26357315e2bd7a142e11fe5a8183a6e0d36",
+    "520.pt": "dee86d78f574b412c170cc06766f9101c61be8e77534dc035040d25ad5752031",
+    "420.pt": "6107018366148f5e524038b2d5310a30fec84e72eefda0dd7087d2d33554a62e",
+    "440.pt": "6f777964b4d67f55761d952a84685bb59ecfd264d686ffae7f7c7b73f3e8d360"
+  },
+  "original_statistics_frozen": true,
+  "same_steps_per_stage": 2000
+}

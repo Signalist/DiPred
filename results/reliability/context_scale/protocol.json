@@ -1,0 +1,38 @@
+{
+  "time": 1794259056.860308,
+  "source_sha256": "fde44c7297edc9dfd419eb1b9d2871fb5084e4519d0e5e05d59ce6c946c5d9c6",
+  "predictor_sha256": "f99b7fdb15219c0df10b8f93647c003379a307d59afb6660eb66d9b2830ffdbd",
+  "artifacts": {
+    "runs/train_distribution_innovations_20261109/frozen_models.json": "7ec1e91efdff028a52c40a77b44dbfdbfd7ebf3d1e79dc98b8961fea9a335391",
+    "runs/physical20_augmented_dynamics_20261109/augmented_diffusion/model.pt": "f99b7fdb15219c0df10b8f93647c003379a307d59afb6660eb66d9b2830ffdbd",
+    "runs/extended_train_rich_risk_20261109/expanded_rich.pt": "2c16eda7d5de166a408fdcbb98fc71aeb7703137d886804914fa1f36dde10133",
+    "runs/extended_train_rich_risk_20261109/calibration.pt": "097d9857fba64c062849d63b79b7df927acf0addcee4c73cd289ecaa2afd11bd",
+    "runs/extended_train_rich_risk_20261109/core_separate_all.pt": "b2e0c3794a80cd4a4dcc3fb3fd73c8259cdcda6a99d8d68eb84f39d75156ccb2",
+    "runs/extended_train_rich_risk_20261109/core_history_old.pt": "44483403712214b25273cf527a0abff76a01565fa55b28e11c37faf3adef2193"
+  },
+  "heads": [
+    "core_separate_all",
+    "core_history_old"
+  ],
+  "modes": [
+    "base",
+    "hold",
+    "drift",
+    "context"
+  ],
+  "presets": {
+    "balanced": [
+      "core_separate_all",
+      "scale_fastcal"
+    ],
+    "mean_score": [
+      "core_history_old",
+      "memory_dynamic"
+    ]
+  },
+  "fitting": "Frozen log-tail innovation ridge, original training44identities query620..680(targetsthrough720). Calibration/development/test identities not fitted. Neural models unchanged.",
+  "intervention": "Base; hold raw-tail level to isolate lag correction; frozen intercept-onlydrift; full known-contextinnovation. Relative factor uses parent's holdorEMA0.5rule; clamp0.5..2. First2feedbacks unchanged to avoid cold/warm gate transition.",
+  "invariants": "Original4calls99,66,33,0,joint20->20. Point and intervalmidpoint unchanged. Parentconditionalbeta/shape/amplitude checked identical for every window; actualCIcoveragefeedsbias. Ranking uses actual issuedhalfwidth; global scaling has no intended spatial-ranking effect.",
+  "calibration": "Identical original10trajectory rawhead initialization for every controller; no currenttarget atissue. Only whole20reveal updates scale memory. No new gradient update on evaluation.",
+  "limitations": "Pilot CI gain was mixed across two sources; full evaluation retains both and all fixedcontrols. Original8metrics/96cells/1e-6,strongreferences and counterexamples unchanged. All evalidentities historically reused, no independentconfirmation or formalcoverageguarantee."
+}

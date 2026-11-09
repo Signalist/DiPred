@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "comparisons": 160,
+  "primary_cells_checked": 15360,
+  "counterexamples_recomputed": 6224,
+  "tolerance": 1e-06,
+  "limit": "Deterministic evidence reanalysis, not an independent statistical confirmation."
+}
