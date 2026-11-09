@@ -1,0 +1,46 @@
+{
+  "task": "Post-freeze evaluation on423seen training pairs (47trajectories,9fixed starts0:160step20).",
+  "fitting": "None. All weights frozen; no optimizer, target-based selection, or new training.",
+  "scope": "Train and held-out Re have different dynamics; aggregate gaps alone do not prove the causal mechanism.",
+  "source_sha256": {
+    "runs/clean_physical_direct20_20261109/state_cnn/model.pt": "abff49c6a702318eb7132845cb39916d45ea42b8d963ea20507b5def2053f48b",
+    "runs/clean_physical_direct20_20261109/state_diffusion/model.pt": "37b50a993551cf54460b2fdd68240e09c845d704fccfe84ef10b316a7e1e84ef",
+    "runs/clean_deterministic_fourstep_20261109/state_fourstep/model.pt": "bb7c2ca9ab68ef5f17d3f2ca5d7a85010e308368735a9991092eabb90abbd812",
+    "runs/clean_physical_direct20_20261109/delta_cnn/model.pt": "d481c7ade66ad3444ecaedb22efd3cfd3eba385ff2faf5a92d64f01e5245ecf4",
+    "runs/clean_physical_direct20_20261109/delta_diffusion/model.pt": "3fc12535bc9c7ee0b53725dddbddbb460936a1f305e47bb3765372359f46a430",
+    "runs/clean_deterministic_fourstep_20261109/delta_fourstep/model.pt": "5a3e49837b1e895145d0a1edc586383b5453081ce369dfb65d9b27ac640ea8a4"
+  },
+  "source_unchanged": true,
+  "summary": [
+    {
+      "method": "state_onepass",
+      "mse": 0.00015131480620488627,
+      "standardized_mse": 0.05743363874162444
+    },
+    {
+      "method": "state_diffusion_zero",
+      "mse": 0.00017288282134232858,
+      "standardized_mse": 0.08440300132523085
+    },
+    {
+      "method": "state_fourstep",
+      "mse": 0.00015191453906734546,
+      "standardized_mse": 0.054813056963288954
+    },
+    {
+      "method": "delta_onepass",
+      "mse": 0.0001517753223839059,
+      "standardized_mse": 0.05576512053026818
+    },
+    {
+      "method": "delta_diffusion_zero",
+      "mse": 0.0001817701891188032,
+      "standardized_mse": 0.08422016300041124
+    },
+    {
+      "method": "delta_fourstep",
+      "mse": 0.00015209907036427872,
+      "standardized_mse": 0.05260475230959451
+    }
+  ]
+}

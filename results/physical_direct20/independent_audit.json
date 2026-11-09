@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "checked_point_rows": 13104,
+  "max_errors": {
+    "mse": 3.092672296034493e-07,
+    "calibration": 0.0,
+    "coverage": 5.960464477539063e-08,
+    "score": 2.795188958071293e-07,
+    "structure": 3.515681786803171e-07
+  },
+  "max_forecast_regeneration_error": 0.0,
+  "source_unchanged": true,
+  "fit_isolation": true,
+  "no_temporal_subdivision": true,
+  "regenerated_cases": [
+    "calibration_start0",
+    "test_start580"
+  ],
+  "code_sha256": "73f4d6ac3145222ca48661760f32b20a641a9951add1ac40111a947a8ae8c3c9"
+}

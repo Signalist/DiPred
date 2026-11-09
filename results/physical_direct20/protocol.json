@@ -1,0 +1,43 @@
+{
+  "seed": 42,
+  "arms": [
+    "state_diffusion",
+    "delta_diffusion",
+    "state_cnn",
+    "delta_cnn"
+  ],
+  "steps": 6000,
+  "batch": 8,
+  "fit_pairs": 1551,
+  "task": "20 observed physical frames ->20 jointly generated physical future frames; no10+10 or5frame recursion.",
+  "fitting": "Only47train trajectories first200frames; reuse audited train-only mean/std; no codec, pretrained predictor or teacher labels.",
+  "hypothesis": "Remove learned state compression and compare physical last-state increments against physical state prediction.",
+  "coordinates": "State:y_normalized. Delta:y_normalized-last_observed_normalized, with the same original field scale. No increment-RMS fitting.",
+  "objectives": "Diffusion:unchanged native clean-state error/(1-alpha_bar),4noise levels. CNN:standardized physical MSE on same target coordinates.",
+  "initialization": "All4 identical net weights after seed42 fresh initialization; no loading old fitted model weights.",
+  "selection": "Fixed6000 endpoints; no development/test selection. All4 frozen before held-out field access.",
+  "sampling": "32paths500000:500032,4DDIM steps, entire20frame tensor; additionally one zero-initial-noise path.",
+  "intervals": "Per-channel q90 calibrated only on2calibration Re groups first200; raw sigma floor trainstd*1e-4. Online sqrt(scale*q90) update after entire current20truth, affecting next window.",
+  "compute": "Physical network runs at32x64 vs codec latents16x32; same width, different input/output channels and larger spatial compute. Not an equal-FLOP representation comparison.",
+  "scope": "Historically reused groups, exploratory. New train excludes all protected dev/test/calibration groups. No cross-validation, distillation or multiple training seeds.",
+  "source_sha256": {
+    "runs/clean_direct20_20261107/manifest.json": "addb9330a402834b79caca41f563b3f88139d5f293644eca43a8ef1e91ddcea1",
+    "runs/clean_direct20_20261107/normalization.pt": "81b7d8cfe540fff6bb2fae140a7d3b8befb4feb05a97a5c6e62adff8aa77726a",
+    "runs/clean_direct20_20261107/ae/representation.pt": "8436ad266518fb4868749bf2bb5dea54bbff708659a990ae1b8674fcc89f5eb0",
+    "runs/clean_direct20_20261107/ae/diffusion.pt": "05a956a455c19d585ca71588b6826ccfc836b1c69712d638c965c5dfeafeeda8",
+    "runs/clean_direct20_cnn_controls_20261108/ae/model.pt": "d24d8916bc0a8cdce7757f28bb18ff5d0e6a687e79c7f655f7f9ae6f494b5b85",
+    "runs/clean_direct20_delta_20261108/ae/diffusion/model.pt": "ef62a80b91f1ff02de0727155400368f6ef8f3ad86b1e59485f5ae963a3d9cba",
+    "runs/clean_direct20_20261107/vae/representation.pt": "7676e803aaf399dd9b98defaefddddb6a8781fdd7dea72147050b75790fe5034",
+    "runs/clean_direct20_20261107/vae/diffusion.pt": "f9897f08161a3563a47ca8ffd332a34d2a6a76d741b8fdc6ff6c97e82489faad",
+    "runs/clean_direct20_cnn_controls_20261108/vae/model.pt": "60a424f358863812b13541931a68afcba7d23d0acf7007f85b2b41af251f5b36",
+    "runs/clean_direct20_delta_20261108/vae/diffusion/model.pt": "334c2d4b166af076383dbce48923ee612304009311eb3b9ec6d119b81fc07b19"
+  },
+  "code_sha256": {
+    "experiment_clean_physical_direct20.py": "dbe1c3c6edb8b66260f74d5d3b95bc82770c121915f0b9a9dbd359e8dfe21a93",
+    "joint20_physical_meanrisk.py": "9b30285e739d3f1aadd904af48767023783b1ee8ebeb14e2b5b05f61ce5d38b7",
+    "joint20_data_head_diffusion.py": "c4cb6946f81da3945982c89a0937187483d4b03a892e8decafc1e89e2617c4ad",
+    "joint20_state_grid_diffusion.py": "2b3246d722ef0f38b94c6586f67d0e8a610c6b8b4ee807f625b5de7b6e29c78a",
+    "fullblock_diffusion_parameterization.py": "a6a54dd9eaa6ee729a71539cd4ca9b5f072f93652e570472d4f6d35903fe66c3",
+    "retrain_clean_direct20.py": "bc0e5827feb166affc389262627d1774ecb9969368b642efd93ad5776c8b838e"
+  }
+}

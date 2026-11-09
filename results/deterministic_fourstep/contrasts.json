@@ -1,0 +1,1298 @@
+[
+  {
+    "split": "development",
+    "period": "main",
+    "group": "6300",
+    "candidate": "physical_state_zero",
+    "control": "state_fourstep",
+    "mse_gain_percent": 16.404020476311754,
+    "standardized_gain_percent": 12.619447006595252
+  },
+  {
+    "split": "development",
+    "period": "main",
+    "group": "6300",
+    "candidate": "physical_delta_zero",
+    "control": "delta_fourstep",
+    "mse_gain_percent": 8.862852950835542,
+    "standardized_gain_percent": 4.586416285961414
+  },
+  {
+    "split": "development",
+    "period": "main",
+    "group": "6300",
+    "candidate": "state_fourstep",
+    "control": "physical_state_cnn",
+    "mse_gain_percent": -0.04566564158712261,
+    "standardized_gain_percent": -1.782917421275343
+  },
+  {
+    "split": "development",
+    "period": "main",
+    "group": "6300",
+    "candidate": "delta_fourstep",
+    "control": "physical_delta_cnn",
+    "mse_gain_percent": -5.269484280800674,
+    "standardized_gain_percent": -2.9734460316522826
+  },
+  {
+    "split": "development",
+    "period": "main",
+    "group": "6300",
+    "candidate": "physical_state_diffusion",
+    "control": "state_fourstep",
+    "mse_gain_percent": 14.748931741459737,
+    "standardized_gain_percent": 11.311860056076684
+  },
+  {
+    "split": "development",
+    "period": "main",
+    "group": "6300",
+    "candidate": "physical_state_diffusion",
+    "control": "delta_fourstep",
+    "mse_gain_percent": 11.049112190813526,
+    "standardized_gain_percent": 8.689744029869928
+  },
+  {
+    "split": "development",
+    "period": "main",
+    "group": "26700",
+    "candidate": "physical_state_zero",
+    "control": "state_fourstep",
+    "mse_gain_percent": 3.5654742223974134,
+    "standardized_gain_percent": 7.142270305145704
+  },
+  {
+    "split": "development",
+    "period": "main",
+    "group": "26700",
+    "candidate": "physical_delta_zero",
+    "control": "delta_fourstep",
+    "mse_gain_percent": 0.1308130153976017,
+    "standardized_gain_percent": 5.085715379609224
+  },
+  {
+    "split": "development",
+    "period": "main",
+    "group": "26700",
+    "candidate": "state_fourstep",
+    "control": "physical_state_cnn",
+    "mse_gain_percent": -0.7063819205033184,
+    "standardized_gain_percent": 1.7316375662271288
+  },
+  {
+    "split": "development",
+    "period": "main",
+    "group": "26700",
+    "candidate": "delta_fourstep",
+    "control": "physical_delta_cnn",
+    "mse_gain_percent": 1.7748388451728214,
+    "standardized_gain_percent": 2.6956757246052288
+  },
+  {
+    "split": "development",
+    "period": "main",
+    "group": "26700",
+    "candidate": "physical_state_diffusion",
+    "control": "state_fourstep",
+    "mse_gain_percent": 3.36434153899533,
+    "standardized_gain_percent": 7.049699746284366
+  },
+  {
+    "split": "development",
+    "period": "main",
+    "group": "26700",
+    "candidate": "physical_state_diffusion",
+    "control": "delta_fourstep",
+    "mse_gain_percent": 5.748939221388005,
+    "standardized_gain_percent": 9.919972372529218
+  },
+  {
+    "split": "development",
+    "period": "main",
+    "group": "7575",
+    "candidate": "physical_state_zero",
+    "control": "state_fourstep",
+    "mse_gain_percent": 8.081202276953581,
+    "standardized_gain_percent": 7.747471980324939
+  },
+  {
+    "split": "development",
+    "period": "main",
+    "group": "7575",
+    "candidate": "physical_delta_zero",
+    "control": "delta_fourstep",
+    "mse_gain_percent": 2.8905830408163746,
+    "standardized_gain_percent": 3.26422910675479
+  },
+  {
+    "split": "development",
+    "period": "main",
+    "group": "7575",
+    "candidate": "state_fourstep",
+    "control": "physical_state_cnn",
+    "mse_gain_percent": -1.9275728494181577,
+    "standardized_gain_percent": -5.12642538737027
+  },
+  {
+    "split": "development",
+    "period": "main",
+    "group": "7575",
+    "candidate": "delta_fourstep",
+    "control": "physical_delta_cnn",
+    "mse_gain_percent": -5.0560511190293145,
+    "standardized_gain_percent": -0.3588915350752009
+  },
+  {
+    "split": "development",
+    "period": "main",
+    "group": "7575",
+    "candidate": "physical_state_diffusion",
+    "control": "state_fourstep",
+    "mse_gain_percent": 6.6765155403386895,
+    "standardized_gain_percent": 6.887284701616414
+  },
+  {
+    "split": "development",
+    "period": "main",
+    "group": "7575",
+    "candidate": "physical_state_diffusion",
+    "control": "delta_fourstep",
+    "mse_gain_percent": 5.45292788960503,
+    "standardized_gain_percent": 4.989094992410514
+  },
+  {
+    "split": "development",
+    "period": "main",
+    "group": "macro",
+    "candidate": "physical_state_zero",
+    "control": "state_fourstep",
+    "mse_gain_percent": 4.657401977650089,
+    "standardized_gain_percent": 8.010842133175943
+  },
+  {
+    "split": "development",
+    "period": "main",
+    "group": "macro",
+    "candidate": "physical_delta_zero",
+    "control": "delta_fourstep",
+    "mse_gain_percent": 0.813309470981094,
+    "standardized_gain_percent": 4.686754751898448
+  },
+  {
+    "split": "development",
+    "period": "main",
+    "group": "macro",
+    "candidate": "state_fourstep",
+    "control": "physical_state_cnn",
+    "mse_gain_percent": -0.7591392606826952,
+    "standardized_gain_percent": 0.022625747931093176
+  },
+  {
+    "split": "development",
+    "period": "main",
+    "group": "macro",
+    "candidate": "delta_fourstep",
+    "control": "physical_delta_cnn",
+    "mse_gain_percent": 0.9371396820642475,
+    "standardized_gain_percent": 1.431191053101999
+  },
+  {
+    "split": "development",
+    "period": "main",
+    "group": "macro",
+    "candidate": "physical_state_diffusion",
+    "control": "state_fourstep",
+    "mse_gain_percent": 4.28009322522489,
+    "standardized_gain_percent": 7.605788689205484
+  },
+  {
+    "split": "development",
+    "period": "main",
+    "group": "macro",
+    "candidate": "physical_state_diffusion",
+    "control": "delta_fourstep",
+    "mse_gain_percent": 6.018259686399718,
+    "standardized_gain_percent": 8.85597632534374
+  },
+  {
+    "split": "development",
+    "period": "confirmation",
+    "group": "6300",
+    "candidate": "physical_state_zero",
+    "control": "state_fourstep",
+    "mse_gain_percent": 16.617166645819005,
+    "standardized_gain_percent": 14.026426868668606
+  },
+  {
+    "split": "development",
+    "period": "confirmation",
+    "group": "6300",
+    "candidate": "physical_delta_zero",
+    "control": "delta_fourstep",
+    "mse_gain_percent": 10.89599850194266,
+    "standardized_gain_percent": 6.05790730167527
+  },
+  {
+    "split": "development",
+    "period": "confirmation",
+    "group": "6300",
+    "candidate": "state_fourstep",
+    "control": "physical_state_cnn",
+    "mse_gain_percent": -1.020831717896531,
+    "standardized_gain_percent": -6.7788434936904896
+  },
+  {
+    "split": "development",
+    "period": "confirmation",
+    "group": "6300",
+    "candidate": "delta_fourstep",
+    "control": "physical_delta_cnn",
+    "mse_gain_percent": -6.79269962067568,
+    "standardized_gain_percent": -5.373323652246498
+  },
+  {
+    "split": "development",
+    "period": "confirmation",
+    "group": "6300",
+    "candidate": "physical_state_diffusion",
+    "control": "state_fourstep",
+    "mse_gain_percent": 15.17181231240322,
+    "standardized_gain_percent": 13.195362263700849
+  },
+  {
+    "split": "development",
+    "period": "confirmation",
+    "group": "6300",
+    "candidate": "physical_state_diffusion",
+    "control": "delta_fourstep",
+    "mse_gain_percent": 10.697542550546846,
+    "standardized_gain_percent": 9.663106448652513
+  },
+  {
+    "split": "development",
+    "period": "confirmation",
+    "group": "26700",
+    "candidate": "physical_state_zero",
+    "control": "state_fourstep",
+    "mse_gain_percent": 4.511563658666007,
+    "standardized_gain_percent": 3.8575815901137234
+  },
+  {
+    "split": "development",
+    "period": "confirmation",
+    "group": "26700",
+    "candidate": "physical_delta_zero",
+    "control": "delta_fourstep",
+    "mse_gain_percent": 0.3622239950604733,
+    "standardized_gain_percent": 4.984411711715209
+  },
+  {
+    "split": "development",
+    "period": "confirmation",
+    "group": "26700",
+    "candidate": "state_fourstep",
+    "control": "physical_state_cnn",
+    "mse_gain_percent": 1.6545667206822712,
+    "standardized_gain_percent": 7.0006484837371925
+  },
+  {
+    "split": "development",
+    "period": "confirmation",
+    "group": "26700",
+    "candidate": "delta_fourstep",
+    "control": "physical_delta_cnn",
+    "mse_gain_percent": 0.6598230658117266,
+    "standardized_gain_percent": 2.2359731847950703
+  },
+  {
+    "split": "development",
+    "period": "confirmation",
+    "group": "26700",
+    "candidate": "physical_state_diffusion",
+    "control": "state_fourstep",
+    "mse_gain_percent": 4.214172948689443,
+    "standardized_gain_percent": 3.9529540925894557
+  },
+  {
+    "split": "development",
+    "period": "confirmation",
+    "group": "26700",
+    "candidate": "physical_state_diffusion",
+    "control": "delta_fourstep",
+    "mse_gain_percent": 8.326317597165001,
+    "standardized_gain_percent": 9.75606579164271
+  },
+  {
+    "split": "development",
+    "period": "confirmation",
+    "group": "7575",
+    "candidate": "physical_state_zero",
+    "control": "state_fourstep",
+    "mse_gain_percent": 6.607028282970894,
+    "standardized_gain_percent": 5.943504373434982
+  },
+  {
+    "split": "development",
+    "period": "confirmation",
+    "group": "7575",
+    "candidate": "physical_delta_zero",
+    "control": "delta_fourstep",
+    "mse_gain_percent": 0.19058925245113434,
+    "standardized_gain_percent": -1.3775913635413861
+  },
+  {
+    "split": "development",
+    "period": "confirmation",
+    "group": "7575",
+    "candidate": "state_fourstep",
+    "control": "physical_state_cnn",
+    "mse_gain_percent": -2.6770210163790997,
+    "standardized_gain_percent": -5.731363676031775
+  },
+  {
+    "split": "development",
+    "period": "confirmation",
+    "group": "7575",
+    "candidate": "delta_fourstep",
+    "control": "physical_delta_cnn",
+    "mse_gain_percent": -0.7117132850652741,
+    "standardized_gain_percent": 3.694851671473176
+  },
+  {
+    "split": "development",
+    "period": "confirmation",
+    "group": "7575",
+    "candidate": "physical_state_diffusion",
+    "control": "state_fourstep",
+    "mse_gain_percent": 6.04896760380732,
+    "standardized_gain_percent": 5.86633185796911
+  },
+  {
+    "split": "development",
+    "period": "confirmation",
+    "group": "7575",
+    "candidate": "physical_state_diffusion",
+    "control": "delta_fourstep",
+    "mse_gain_percent": 2.307352907548621,
+    "standardized_gain_percent": 1.1219991419587627
+  },
+  {
+    "split": "development",
+    "period": "confirmation",
+    "group": "macro",
+    "candidate": "physical_state_zero",
+    "control": "state_fourstep",
+    "mse_gain_percent": 5.388705669177907,
+    "standardized_gain_percent": 5.726752072854014
+  },
+  {
+    "split": "development",
+    "period": "confirmation",
+    "group": "macro",
+    "candidate": "physical_delta_zero",
+    "control": "delta_fourstep",
+    "mse_gain_percent": 0.9413905713270165,
+    "standardized_gain_percent": 4.202102104880323
+  },
+  {
+    "split": "development",
+    "period": "confirmation",
+    "group": "macro",
+    "candidate": "state_fourstep",
+    "control": "physical_state_cnn",
+    "mse_gain_percent": 1.2174732041253078,
+    "standardized_gain_percent": 3.2618450856046977
+  },
+  {
+    "split": "development",
+    "period": "confirmation",
+    "group": "macro",
+    "candidate": "delta_fourstep",
+    "control": "physical_delta_cnn",
+    "mse_gain_percent": 0.18551526795663742,
+    "standardized_gain_percent": 1.451914593730741
+  },
+  {
+    "split": "development",
+    "period": "confirmation",
+    "group": "macro",
+    "candidate": "physical_state_diffusion",
+    "control": "state_fourstep",
+    "mse_gain_percent": 5.004007327938997,
+    "standardized_gain_percent": 5.654612739742748
+  },
+  {
+    "split": "development",
+    "period": "confirmation",
+    "group": "macro",
+    "candidate": "physical_state_diffusion",
+    "control": "delta_fourstep",
+    "mse_gain_percent": 8.085852388321113,
+    "standardized_gain_percent": 8.475904281187196
+  },
+  {
+    "split": "development",
+    "period": "all",
+    "group": "6300",
+    "candidate": "physical_state_zero",
+    "control": "state_fourstep",
+    "mse_gain_percent": 16.46208699632662,
+    "standardized_gain_percent": 13.011716382493743
+  },
+  {
+    "split": "development",
+    "period": "all",
+    "group": "6300",
+    "candidate": "physical_delta_zero",
+    "control": "delta_fourstep",
+    "mse_gain_percent": 9.41314798812356,
+    "standardized_gain_percent": 4.993498754724602
+  },
+  {
+    "split": "development",
+    "period": "all",
+    "group": "6300",
+    "candidate": "state_fourstep",
+    "control": "physical_state_cnn",
+    "mse_gain_percent": -0.30945531125088355,
+    "standardized_gain_percent": -3.128172484353975
+  },
+  {
+    "split": "development",
+    "period": "all",
+    "group": "6300",
+    "candidate": "delta_fourstep",
+    "control": "physical_delta_cnn",
+    "mse_gain_percent": -5.677455204520299,
+    "standardized_gain_percent": -3.6263561956067836
+  },
+  {
+    "split": "development",
+    "period": "all",
+    "group": "6300",
+    "candidate": "physical_state_diffusion",
+    "control": "state_fourstep",
+    "mse_gain_percent": 14.864135327774974,
+    "standardized_gain_percent": 11.83698501017474
+  },
+  {
+    "split": "development",
+    "period": "all",
+    "group": "6300",
+    "candidate": "physical_state_diffusion",
+    "control": "delta_fourstep",
+    "mse_gain_percent": 10.953955684091953,
+    "standardized_gain_percent": 8.95902109116895
+  },
+  {
+    "split": "development",
+    "period": "all",
+    "group": "26700",
+    "candidate": "physical_state_zero",
+    "control": "state_fourstep",
+    "mse_gain_percent": 3.8166613098733704,
+    "standardized_gain_percent": 6.27153137510631
+  },
+  {
+    "split": "development",
+    "period": "all",
+    "group": "26700",
+    "candidate": "physical_delta_zero",
+    "control": "delta_fourstep",
+    "mse_gain_percent": 0.19310910555533356,
+    "standardized_gain_percent": 5.058245415570761
+  },
+  {
+    "split": "development",
+    "period": "all",
+    "group": "26700",
+    "candidate": "state_fourstep",
+    "control": "physical_state_cnn",
+    "mse_gain_percent": -0.06856632167253629,
+    "standardized_gain_percent": 3.185697944736754
+  },
+  {
+    "split": "development",
+    "period": "all",
+    "group": "26700",
+    "candidate": "delta_fourstep",
+    "control": "physical_delta_cnn",
+    "mse_gain_percent": 1.4771449682106863,
+    "standardized_gain_percent": 2.571448441100521
+  },
+  {
+    "split": "development",
+    "period": "all",
+    "group": "26700",
+    "candidate": "physical_state_diffusion",
+    "control": "state_fourstep",
+    "mse_gain_percent": 3.58997208560472,
+    "standardized_gain_percent": 6.228782688067447
+  },
+  {
+    "split": "development",
+    "period": "all",
+    "group": "26700",
+    "candidate": "physical_state_diffusion",
+    "control": "delta_fourstep",
+    "mse_gain_percent": 6.442772313931721,
+    "standardized_gain_percent": 9.875526717438731
+  },
+  {
+    "split": "development",
+    "period": "all",
+    "group": "7575",
+    "candidate": "physical_state_zero",
+    "control": "state_fourstep",
+    "mse_gain_percent": 7.72802290835235,
+    "standardized_gain_percent": 7.335812415167553
+  },
+  {
+    "split": "development",
+    "period": "all",
+    "group": "7575",
+    "candidate": "physical_delta_zero",
+    "control": "delta_fourstep",
+    "mse_gain_percent": 2.2564396379121887,
+    "standardized_gain_percent": 2.228494085138255
+  },
+  {
+    "split": "development",
+    "period": "all",
+    "group": "7575",
+    "candidate": "state_fourstep",
+    "control": "physical_state_cnn",
+    "mse_gain_percent": -2.106125671881265,
+    "standardized_gain_percent": -5.263859963466455
+  },
+  {
+    "split": "development",
+    "period": "all",
+    "group": "7575",
+    "candidate": "delta_fourstep",
+    "control": "physical_delta_cnn",
+    "mse_gain_percent": -4.002364335970587,
+    "standardized_gain_percent": 0.5749280226300058
+  },
+  {
+    "split": "development",
+    "period": "all",
+    "group": "7575",
+    "candidate": "physical_state_diffusion",
+    "control": "state_fourstep",
+    "mse_gain_percent": 6.52616898362568,
+    "standardized_gain_percent": 6.654306569383428
+  },
+  {
+    "split": "development",
+    "period": "all",
+    "group": "7575",
+    "candidate": "physical_state_diffusion",
+    "control": "delta_fourstep",
+    "mse_gain_percent": 4.714131514662512,
+    "standardized_gain_percent": 4.126225213216916
+  },
+  {
+    "split": "development",
+    "period": "all",
+    "group": "macro",
+    "candidate": "physical_state_zero",
+    "control": "state_fourstep",
+    "mse_gain_percent": 4.850470230587678,
+    "standardized_gain_percent": 7.416205761656136
+  },
+  {
+    "split": "development",
+    "period": "all",
+    "group": "macro",
+    "candidate": "physical_delta_zero",
+    "control": "delta_fourstep",
+    "mse_gain_percent": 0.8474895481628941,
+    "standardized_gain_percent": 4.559012832070142
+  },
+  {
+    "split": "development",
+    "period": "all",
+    "group": "macro",
+    "candidate": "state_fourstep",
+    "control": "physical_state_cnn",
+    "mse_gain_percent": -0.2296578131633531,
+    "standardized_gain_percent": 0.8866244100452558
+  },
+  {
+    "split": "development",
+    "period": "all",
+    "group": "macro",
+    "candidate": "delta_fourstep",
+    "control": "physical_delta_cnn",
+    "mse_gain_percent": 0.7376686800580567,
+    "standardized_gain_percent": 1.4366540889891866
+  },
+  {
+    "split": "development",
+    "period": "all",
+    "group": "macro",
+    "candidate": "physical_state_diffusion",
+    "control": "state_fourstep",
+    "mse_gain_percent": 4.471210585505025,
+    "standardized_gain_percent": 7.0978226475242545
+  },
+  {
+    "split": "development",
+    "period": "all",
+    "group": "macro",
+    "candidate": "physical_state_diffusion",
+    "control": "delta_fourstep",
+    "mse_gain_percent": 6.570023201402075,
+    "standardized_gain_percent": 8.755799151253518
+  },
+  {
+    "split": "test",
+    "period": "main",
+    "group": "22875",
+    "candidate": "physical_state_zero",
+    "control": "state_fourstep",
+    "mse_gain_percent": 2.997098590500258,
+    "standardized_gain_percent": 6.435907592188494
+  },
+  {
+    "split": "test",
+    "period": "main",
+    "group": "22875",
+    "candidate": "physical_delta_zero",
+    "control": "delta_fourstep",
+    "mse_gain_percent": -2.571049950798465,
+    "standardized_gain_percent": 3.5166365422002244
+  },
+  {
+    "split": "test",
+    "period": "main",
+    "group": "22875",
+    "candidate": "state_fourstep",
+    "control": "physical_state_cnn",
+    "mse_gain_percent": -2.0327347156334996,
+    "standardized_gain_percent": -0.6503724985729153
+  },
+  {
+    "split": "test",
+    "period": "main",
+    "group": "22875",
+    "candidate": "delta_fourstep",
+    "control": "physical_delta_cnn",
+    "mse_gain_percent": -0.19719396936876965,
+    "standardized_gain_percent": 1.5356462151766892
+  },
+  {
+    "split": "test",
+    "period": "main",
+    "group": "22875",
+    "candidate": "physical_state_diffusion",
+    "control": "state_fourstep",
+    "mse_gain_percent": 3.010614440879822,
+    "standardized_gain_percent": 6.42522071066799
+  },
+  {
+    "split": "test",
+    "period": "main",
+    "group": "22875",
+    "candidate": "physical_state_diffusion",
+    "control": "delta_fourstep",
+    "mse_gain_percent": 5.332080692116392,
+    "standardized_gain_percent": 7.112017563460171
+  },
+  {
+    "split": "test",
+    "period": "main",
+    "group": "13950",
+    "candidate": "physical_state_zero",
+    "control": "state_fourstep",
+    "mse_gain_percent": 3.2615729508243207,
+    "standardized_gain_percent": 5.301498099247315
+  },
+  {
+    "split": "test",
+    "period": "main",
+    "group": "13950",
+    "candidate": "physical_delta_zero",
+    "control": "delta_fourstep",
+    "mse_gain_percent": 0.8474734572995746,
+    "standardized_gain_percent": 4.567614420150578
+  },
+  {
+    "split": "test",
+    "period": "main",
+    "group": "13950",
+    "candidate": "state_fourstep",
+    "control": "physical_state_cnn",
+    "mse_gain_percent": -1.12148273602104,
+    "standardized_gain_percent": -1.8899271631192427
+  },
+  {
+    "split": "test",
+    "period": "main",
+    "group": "13950",
+    "candidate": "delta_fourstep",
+    "control": "physical_delta_cnn",
+    "mse_gain_percent": -2.569609351572111,
+    "standardized_gain_percent": -1.3229574788918397
+  },
+  {
+    "split": "test",
+    "period": "main",
+    "group": "13950",
+    "candidate": "physical_state_diffusion",
+    "control": "state_fourstep",
+    "mse_gain_percent": 3.9372390560535986,
+    "standardized_gain_percent": 5.839001753672724
+  },
+  {
+    "split": "test",
+    "period": "main",
+    "group": "13950",
+    "candidate": "physical_state_diffusion",
+    "control": "delta_fourstep",
+    "mse_gain_percent": 6.593345467500478,
+    "standardized_gain_percent": 6.482773441659962
+  },
+  {
+    "split": "test",
+    "period": "main",
+    "group": "3750",
+    "candidate": "physical_state_zero",
+    "control": "state_fourstep",
+    "mse_gain_percent": 45.789314661020875,
+    "standardized_gain_percent": 38.64812140107375
+  },
+  {
+    "split": "test",
+    "period": "main",
+    "group": "3750",
+    "candidate": "physical_delta_zero",
+    "control": "delta_fourstep",
+    "mse_gain_percent": 33.148537572365974,
+    "standardized_gain_percent": 12.997046042970496
+  },
+  {
+    "split": "test",
+    "period": "main",
+    "group": "3750",
+    "candidate": "state_fourstep",
+    "control": "physical_state_cnn",
+    "mse_gain_percent": -0.19549831320870847,
+    "standardized_gain_percent": 8.309189068951838
+  },
+  {
+    "split": "test",
+    "period": "main",
+    "group": "3750",
+    "candidate": "delta_fourstep",
+    "control": "physical_delta_cnn",
+    "mse_gain_percent": -21.956975233399987,
+    "standardized_gain_percent": -6.16705500482404
+  },
+  {
+    "split": "test",
+    "period": "main",
+    "group": "3750",
+    "candidate": "physical_state_diffusion",
+    "control": "state_fourstep",
+    "mse_gain_percent": 45.99151773775778,
+    "standardized_gain_percent": 38.234819811401074
+  },
+  {
+    "split": "test",
+    "period": "main",
+    "group": "3750",
+    "candidate": "physical_state_diffusion",
+    "control": "delta_fourstep",
+    "mse_gain_percent": 26.12794770277711,
+    "standardized_gain_percent": 36.01916444722304
+  },
+  {
+    "split": "test",
+    "period": "main",
+    "group": "macro",
+    "candidate": "physical_state_zero",
+    "control": "state_fourstep",
+    "mse_gain_percent": 7.45058212103149,
+    "standardized_gain_percent": 11.090591898256086
+  },
+  {
+    "split": "test",
+    "period": "main",
+    "group": "macro",
+    "candidate": "physical_delta_zero",
+    "control": "delta_fourstep",
+    "mse_gain_percent": 0.8713248979107635,
+    "standardized_gain_percent": 5.273217477816273
+  },
+  {
+    "split": "test",
+    "period": "main",
+    "group": "macro",
+    "candidate": "state_fourstep",
+    "control": "physical_state_cnn",
+    "mse_gain_percent": -1.6478504822688533,
+    "standardized_gain_percent": 0.4810405999153611
+  },
+  {
+    "split": "test",
+    "period": "main",
+    "group": "macro",
+    "candidate": "delta_fourstep",
+    "control": "physical_delta_cnn",
+    "mse_gain_percent": -2.08738321580646,
+    "standardized_gain_percent": -0.457670876309324
+  },
+  {
+    "split": "test",
+    "period": "main",
+    "group": "macro",
+    "candidate": "physical_state_diffusion",
+    "control": "state_fourstep",
+    "mse_gain_percent": 7.623248687784423,
+    "standardized_gain_percent": 11.190115347796558
+  },
+  {
+    "split": "test",
+    "period": "main",
+    "group": "macro",
+    "candidate": "physical_state_diffusion",
+    "control": "delta_fourstep",
+    "mse_gain_percent": 7.1772164297076895,
+    "standardized_gain_percent": 11.251700009213339
+  },
+  {
+    "split": "test",
+    "period": "confirmation",
+    "group": "22875",
+    "candidate": "physical_state_zero",
+    "control": "state_fourstep",
+    "mse_gain_percent": 4.349132132417777,
+    "standardized_gain_percent": 1.5184546060708182
+  },
+  {
+    "split": "test",
+    "period": "confirmation",
+    "group": "22875",
+    "candidate": "physical_delta_zero",
+    "control": "delta_fourstep",
+    "mse_gain_percent": 0.13490732303995667,
+    "standardized_gain_percent": 4.392228870250636
+  },
+  {
+    "split": "test",
+    "period": "confirmation",
+    "group": "22875",
+    "candidate": "state_fourstep",
+    "control": "physical_state_cnn",
+    "mse_gain_percent": -2.2465943961029966,
+    "standardized_gain_percent": -1.319079652191446
+  },
+  {
+    "split": "test",
+    "period": "confirmation",
+    "group": "22875",
+    "candidate": "delta_fourstep",
+    "control": "physical_delta_cnn",
+    "mse_gain_percent": -1.9820632814580685,
+    "standardized_gain_percent": -1.9214720185733558
+  },
+  {
+    "split": "test",
+    "period": "confirmation",
+    "group": "22875",
+    "candidate": "physical_state_diffusion",
+    "control": "state_fourstep",
+    "mse_gain_percent": 3.972278355804848,
+    "standardized_gain_percent": 1.1541685659103407
+  },
+  {
+    "split": "test",
+    "period": "confirmation",
+    "group": "22875",
+    "candidate": "physical_state_diffusion",
+    "control": "delta_fourstep",
+    "mse_gain_percent": 7.818202158712251,
+    "standardized_gain_percent": 7.275430071976141
+  },
+  {
+    "split": "test",
+    "period": "confirmation",
+    "group": "13950",
+    "candidate": "physical_state_zero",
+    "control": "state_fourstep",
+    "mse_gain_percent": 2.691361634386591,
+    "standardized_gain_percent": 2.8192138847100146
+  },
+  {
+    "split": "test",
+    "period": "confirmation",
+    "group": "13950",
+    "candidate": "physical_delta_zero",
+    "control": "delta_fourstep",
+    "mse_gain_percent": -0.04181888218210972,
+    "standardized_gain_percent": 2.844498152288555
+  },
+  {
+    "split": "test",
+    "period": "confirmation",
+    "group": "13950",
+    "candidate": "state_fourstep",
+    "control": "physical_state_cnn",
+    "mse_gain_percent": 0.8070269839533184,
+    "standardized_gain_percent": 1.1873255309319486
+  },
+  {
+    "split": "test",
+    "period": "confirmation",
+    "group": "13950",
+    "candidate": "delta_fourstep",
+    "control": "physical_delta_cnn",
+    "mse_gain_percent": -1.2002119814018108,
+    "standardized_gain_percent": 0.486752209903174
+  },
+  {
+    "split": "test",
+    "period": "confirmation",
+    "group": "13950",
+    "candidate": "physical_state_diffusion",
+    "control": "state_fourstep",
+    "mse_gain_percent": 3.1862674735159247,
+    "standardized_gain_percent": 2.842107766002966
+  },
+  {
+    "split": "test",
+    "period": "confirmation",
+    "group": "13950",
+    "candidate": "physical_state_diffusion",
+    "control": "delta_fourstep",
+    "mse_gain_percent": 5.887424183441469,
+    "standardized_gain_percent": 5.6707245007173395
+  },
+  {
+    "split": "test",
+    "period": "confirmation",
+    "group": "3750",
+    "candidate": "physical_state_zero",
+    "control": "state_fourstep",
+    "mse_gain_percent": 47.76049152743601,
+    "standardized_gain_percent": 43.129461478977845
+  },
+  {
+    "split": "test",
+    "period": "confirmation",
+    "group": "3750",
+    "candidate": "physical_delta_zero",
+    "control": "delta_fourstep",
+    "mse_gain_percent": 33.372927254872366,
+    "standardized_gain_percent": 18.074335672404672
+  },
+  {
+    "split": "test",
+    "period": "confirmation",
+    "group": "3750",
+    "candidate": "state_fourstep",
+    "control": "physical_state_cnn",
+    "mse_gain_percent": -0.677905083782604,
+    "standardized_gain_percent": 3.046549462223147
+  },
+  {
+    "split": "test",
+    "period": "confirmation",
+    "group": "3750",
+    "candidate": "delta_fourstep",
+    "control": "physical_delta_cnn",
+    "mse_gain_percent": -20.217431958156507,
+    "standardized_gain_percent": -4.714293845425455
+  },
+  {
+    "split": "test",
+    "period": "confirmation",
+    "group": "3750",
+    "candidate": "physical_state_diffusion",
+    "control": "state_fourstep",
+    "mse_gain_percent": 47.94161897528624,
+    "standardized_gain_percent": 42.178284783484074
+  },
+  {
+    "split": "test",
+    "period": "confirmation",
+    "group": "3750",
+    "candidate": "physical_state_diffusion",
+    "control": "delta_fourstep",
+    "mse_gain_percent": 26.468355189166314,
+    "standardized_gain_percent": 37.37231745123826
+  },
+  {
+    "split": "test",
+    "period": "confirmation",
+    "group": "macro",
+    "candidate": "physical_state_zero",
+    "control": "state_fourstep",
+    "mse_gain_percent": 8.606290436608177,
+    "standardized_gain_percent": 8.689264693141086
+  },
+  {
+    "split": "test",
+    "period": "confirmation",
+    "group": "macro",
+    "candidate": "physical_delta_zero",
+    "control": "delta_fourstep",
+    "mse_gain_percent": 2.5901455113360172,
+    "standardized_gain_percent": 5.882636086683746
+  },
+  {
+    "split": "test",
+    "period": "confirmation",
+    "group": "macro",
+    "candidate": "state_fourstep",
+    "control": "physical_state_cnn",
+    "mse_gain_percent": -1.3995563365026165,
+    "standardized_gain_percent": 0.224174664614174
+  },
+  {
+    "split": "test",
+    "period": "confirmation",
+    "group": "macro",
+    "candidate": "delta_fourstep",
+    "control": "physical_delta_cnn",
+    "mse_gain_percent": -2.977010442257244,
+    "standardized_gain_percent": -1.525401187107045
+  },
+  {
+    "split": "test",
+    "period": "confirmation",
+    "group": "macro",
+    "candidate": "physical_state_diffusion",
+    "control": "state_fourstep",
+    "mse_gain_percent": 8.478409154416134,
+    "standardized_gain_percent": 8.354303968320288
+  },
+  {
+    "split": "test",
+    "period": "confirmation",
+    "group": "macro",
+    "candidate": "physical_state_diffusion",
+    "control": "delta_fourstep",
+    "mse_gain_percent": 8.787407471566633,
+    "standardized_gain_percent": 11.132251495268253
+  },
+  {
+    "split": "test",
+    "period": "all",
+    "group": "22875",
+    "candidate": "physical_state_zero",
+    "control": "state_fourstep",
+    "mse_gain_percent": 3.3389629409224297,
+    "standardized_gain_percent": 5.184359646107406
+  },
+  {
+    "split": "test",
+    "period": "all",
+    "group": "22875",
+    "candidate": "physical_delta_zero",
+    "control": "delta_fourstep",
+    "mse_gain_percent": -1.878297901190784,
+    "standardized_gain_percent": 3.7490110954111366
+  },
+  {
+    "split": "test",
+    "period": "all",
+    "group": "22875",
+    "candidate": "state_fourstep",
+    "control": "physical_state_cnn",
+    "mse_gain_percent": -2.086725008435719,
+    "standardized_gain_percent": -0.8197273050038589
+  },
+  {
+    "split": "test",
+    "period": "all",
+    "group": "22875",
+    "candidate": "delta_fourstep",
+    "control": "physical_delta_cnn",
+    "mse_gain_percent": -0.6481615885548964,
+    "standardized_gain_percent": 0.6412264506386767
+  },
+  {
+    "split": "test",
+    "period": "all",
+    "group": "22875",
+    "candidate": "physical_state_diffusion",
+    "control": "state_fourstep",
+    "mse_gain_percent": 3.2537730604019655,
+    "standardized_gain_percent": 5.083677740337301
+  },
+  {
+    "split": "test",
+    "period": "all",
+    "group": "22875",
+    "candidate": "physical_state_diffusion",
+    "control": "delta_fourstep",
+    "mse_gain_percent": 5.968552582566778,
+    "standardized_gain_percent": 7.155385815372595
+  },
+  {
+    "split": "test",
+    "period": "all",
+    "group": "13950",
+    "candidate": "physical_state_zero",
+    "control": "state_fourstep",
+    "mse_gain_percent": 3.112512262526679,
+    "standardized_gain_percent": 4.648280770410162
+  },
+  {
+    "split": "test",
+    "period": "all",
+    "group": "13950",
+    "candidate": "physical_delta_zero",
+    "control": "delta_fourstep",
+    "mse_gain_percent": 0.6149565153099834,
+    "standardized_gain_percent": 4.106553228530297
+  },
+  {
+    "split": "test",
+    "period": "all",
+    "group": "13950",
+    "candidate": "state_fourstep",
+    "control": "physical_state_cnn",
+    "mse_gain_percent": -0.6101424862747784,
+    "standardized_gain_percent": -1.061711674764143
+  },
+  {
+    "split": "test",
+    "period": "all",
+    "group": "13950",
+    "candidate": "delta_fourstep",
+    "control": "physical_delta_cnn",
+    "mse_gain_percent": -2.207997215912627,
+    "standardized_gain_percent": -0.8323075918673872
+  },
+  {
+    "split": "test",
+    "period": "all",
+    "group": "13950",
+    "candidate": "physical_state_diffusion",
+    "control": "state_fourstep",
+    "mse_gain_percent": 3.740925272447282,
+    "standardized_gain_percent": 5.050363984488571
+  },
+  {
+    "split": "test",
+    "period": "all",
+    "group": "13950",
+    "candidate": "physical_state_diffusion",
+    "control": "delta_fourstep",
+    "mse_gain_percent": 6.408773250955324,
+    "standardized_gain_percent": 6.265490220934799
+  },
+  {
+    "split": "test",
+    "period": "all",
+    "group": "3750",
+    "candidate": "physical_state_zero",
+    "control": "state_fourstep",
+    "mse_gain_percent": 46.30628158820221,
+    "standardized_gain_percent": 39.84652137010312
+  },
+  {
+    "split": "test",
+    "period": "all",
+    "group": "3750",
+    "candidate": "physical_delta_zero",
+    "control": "delta_fourstep",
+    "mse_gain_percent": 33.206001328985494,
+    "standardized_gain_percent": 14.31091582364955
+  },
+  {
+    "split": "test",
+    "period": "all",
+    "group": "3750",
+    "candidate": "state_fourstep",
+    "control": "physical_state_cnn",
+    "mse_gain_percent": -0.3215680082520267,
+    "standardized_gain_percent": 6.958640226163826
+  },
+  {
+    "split": "test",
+    "period": "all",
+    "group": "3750",
+    "candidate": "delta_fourstep",
+    "control": "physical_delta_cnn",
+    "mse_gain_percent": -21.50671953633376,
+    "standardized_gain_percent": -5.787266310702743
+  },
+  {
+    "split": "test",
+    "period": "all",
+    "group": "3750",
+    "candidate": "physical_state_diffusion",
+    "control": "state_fourstep",
+    "mse_gain_percent": 46.502957305477054,
+    "standardized_gain_percent": 39.289381218984076
+  },
+  {
+    "split": "test",
+    "period": "all",
+    "group": "3750",
+    "candidate": "physical_state_diffusion",
+    "control": "delta_fourstep",
+    "mse_gain_percent": 26.215122356846933,
+    "standardized_gain_percent": 36.36932505856654
+  },
+  {
+    "split": "test",
+    "period": "all",
+    "group": "macro",
+    "candidate": "physical_state_zero",
+    "control": "state_fourstep",
+    "mse_gain_percent": 7.746037671750116,
+    "standardized_gain_percent": 10.467972876722232
+  },
+  {
+    "split": "test",
+    "period": "all",
+    "group": "macro",
+    "candidate": "physical_delta_zero",
+    "control": "delta_fourstep",
+    "mse_gain_percent": 1.313426482346658,
+    "standardized_gain_percent": 5.434775125910873
+  },
+  {
+    "split": "test",
+    "period": "all",
+    "group": "macro",
+    "candidate": "state_fourstep",
+    "control": "physical_state_cnn",
+    "mse_gain_percent": -1.584258735231403,
+    "standardized_gain_percent": 0.41456717687903266
+  },
+  {
+    "split": "test",
+    "period": "all",
+    "group": "macro",
+    "candidate": "delta_fourstep",
+    "control": "physical_delta_cnn",
+    "mse_gain_percent": -2.314734538871921,
+    "standardized_gain_percent": -0.7385337230485067
+  },
+  {
+    "split": "test",
+    "period": "all",
+    "group": "macro",
+    "candidate": "physical_state_diffusion",
+    "control": "state_fourstep",
+    "mse_gain_percent": 7.841869513832023,
+    "standardized_gain_percent": 10.454842744136739
+  },
+  {
+    "split": "test",
+    "period": "all",
+    "group": "macro",
+    "candidate": "physical_state_diffusion",
+    "control": "delta_fourstep",
+    "mse_gain_percent": 7.591377166023083,
+    "standardized_gain_percent": 11.220034056286144
+  }
+]

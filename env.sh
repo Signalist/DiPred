@@ -1,0 +1,7 @@
+BUNDLE_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+export PYTHONDONTWRITEBYTECODE=1
+export TORCH_ALLOW_TF32_CUBLAS_OVERRIDE=0
+export CUBLAS_WORKSPACE_CONFIG=:4096:8
+export MPLCONFIGDIR="$BUNDLE_DIR/.cache/matplotlib"
+export CUDA_CACHE_PATH="$BUNDLE_DIR/.cache/cuda"
+export OMP_NUM_THREADS=4

@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "initialization_sha256": {
+    "state_diffusion": "74639cf96b0ef5a0f9f7308b9f40a01206fc6adb8a1b91b6a429a597c4d13e99",
+    "delta_diffusion": "74639cf96b0ef5a0f9f7308b9f40a01206fc6adb8a1b91b6a429a597c4d13e99",
+    "state_cnn": "74639cf96b0ef5a0f9f7308b9f40a01206fc6adb8a1b91b6a429a597c4d13e99",
+    "delta_cnn": "74639cf96b0ef5a0f9f7308b9f40a01206fc6adb8a1b91b6a429a597c4d13e99"
+  },
+  "state_shape": [
+    2,
+    2,
+    20,
+    32,
+    64
+  ],
+  "first_input_channels": 80,
+  "output_channels": 40,
+  "reverse_levels": 4,
+  "temporal_subdivision": false,
+  "parameters": 1597672
+}

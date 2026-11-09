@@ -1,0 +1,8 @@
+{
+  "torch": "1.14.0a0+44dac51",
+  "numpy": "1.22.2",
+  "h5py": "3.11.0",
+  "matplotlib": "3.6.2",
+  "cuda": "12.0",
+  "note": "Recorded research environment; GPU/kernel changes may affect numerical reproducibility."
+}

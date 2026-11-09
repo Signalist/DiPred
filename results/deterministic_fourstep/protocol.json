@@ -1,0 +1,42 @@
+{
+  "arms": [
+    "state_fourstep",
+    "delta_fourstep"
+  ],
+  "seed": 42,
+  "steps": 6000,
+  "batch": 8,
+  "pairs": 1551,
+  "hypothesis": "Test whether physical diffusion point gains survive a deterministic same-four-step inference graph.",
+  "architecture": "Exactly physical zero-noise4step graph, tied weights, same time embeddings and coefficients; entire20frame tensor each stage.",
+  "fitting": "Only47train trajectories first200frames; same training-only normalization; fresh seed42 initialization matching previous models.",
+  "objective": "Only terminal true-future standardized physical MSE, backpropagated through all4calls. No denoising loss or random-noise training.",
+  "coordinates": "State output, or last observed normalized physical frame + full20increment output.",
+  "initialization": "No old fitted weights loaded by new training. Old diffusion is used only after freezing in independent audits/comparisons.",
+  "selection": "Fixed6000steps; no development/test selection, cross-validation, distillation or multiple training seeds.",
+  "inference_compute": "4netcalls and1,597,672parameters, same as zero-noise diffusion; 32path diffusion costs128calls, onepassCNN costs1call.",
+  "training_compute": "6000updates each, but4forward/backprop stages per update versus1denoising call for native diffusion; not equal training FLOPs.",
+  "evaluation": "All forecasts saved from observed history before target access; no online weight fitting or new intervals.",
+  "scope": "Exploratory attribution control on historically reused groups; not fresh external confirmation or exhaustive deterministic optimization.",
+  "source_sha256": {
+    "runs/clean_direct20_20261107/manifest.json": "addb9330a402834b79caca41f563b3f88139d5f293644eca43a8ef1e91ddcea1",
+    "runs/clean_direct20_20261107/normalization.pt": "81b7d8cfe540fff6bb2fae140a7d3b8befb4feb05a97a5c6e62adff8aa77726a",
+    "runs/clean_physical_direct20_20261109/independent_audit.json": "6e2c86414b5c9c02ae74affc874222e7d7f2244b2c97f227633abcc4b59497dc",
+    "runs/clean_physical_direct20_20261109/state_diffusion/model.pt": "37b50a993551cf54460b2fdd68240e09c845d704fccfe84ef10b316a7e1e84ef",
+    "runs/clean_physical_direct20_20261109/state_cnn/model.pt": "abff49c6a702318eb7132845cb39916d45ea42b8d963ea20507b5def2053f48b",
+    "runs/clean_physical_direct20_20261109/delta_cnn/model.pt": "d481c7ade66ad3444ecaedb22efd3cfd3eba385ff2faf5a92d64f01e5245ecf4",
+    "runs/clean_physical_direct20_20261109/delta_diffusion/model.pt": "3fc12535bc9c7ee0b53725dddbddbb460936a1f305e47bb3765372359f46a430",
+    "runs/clean_direct20_20261107/ae/representation.pt": "8436ad266518fb4868749bf2bb5dea54bbff708659a990ae1b8674fcc89f5eb0",
+    "runs/clean_direct20_20261107/ae/diffusion.pt": "05a956a455c19d585ca71588b6826ccfc836b1c69712d638c965c5dfeafeeda8",
+    "runs/clean_direct20_20261107/vae/representation.pt": "7676e803aaf399dd9b98defaefddddb6a8781fdd7dea72147050b75790fe5034",
+    "runs/clean_direct20_20261107/vae/diffusion.pt": "f9897f08161a3563a47ca8ffd332a34d2a6a76d741b8fdc6ff6c97e82489faad"
+  },
+  "code_sha256": {
+    "experiment_clean_deterministic_fourstep.py": "de5fae1f051d47a7fcfb1c373042b465be87060b2b8a71dc4396f7c391a11c0f",
+    "joint20_physical_meanrisk.py": "9b30285e739d3f1aadd904af48767023783b1ee8ebeb14e2b5b05f61ce5d38b7",
+    "joint20_data_head_diffusion.py": "c4cb6946f81da3945982c89a0937187483d4b03a892e8decafc1e89e2617c4ad",
+    "joint20_state_grid_diffusion.py": "2b3246d722ef0f38b94c6586f67d0e8a610c6b8b4ee807f625b5de7b6e29c78a",
+    "fullblock_diffusion_parameterization.py": "a6a54dd9eaa6ee729a71539cd4ca9b5f072f93652e570472d4f6d35903fe66c3",
+    "retrain_clean_direct20.py": "bc0e5827feb166affc389262627d1774ecb9969368b642efd93ad5776c8b838e"
+  }
+}

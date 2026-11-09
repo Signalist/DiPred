@@ -1,0 +1,50 @@
+{
+  "passed": true,
+  "initialization_sha256": "74639cf96b0ef5a0f9f7308b9f40a01206fc6adb8a1b91b6a429a597c4d13e99",
+  "inference_graph_max_error": 0.0,
+  "calls": [
+    [
+      [
+        2,
+        2,
+        20,
+        32,
+        64
+      ],
+      99
+    ],
+    [
+      [
+        2,
+        2,
+        20,
+        32,
+        64
+      ],
+      66
+    ],
+    [
+      [
+        2,
+        2,
+        20,
+        32,
+        64
+      ],
+      33
+    ],
+    [
+      [
+        2,
+        2,
+        20,
+        32,
+        64
+      ],
+      0
+    ]
+  ],
+  "terminal_gradient_reaches_first_layer": true,
+  "parameters": 1597672,
+  "temporal_subdivision": false
+}
