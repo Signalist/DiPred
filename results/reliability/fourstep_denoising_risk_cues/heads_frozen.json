@@ -1,0 +1,11 @@
+{
+  "time": 1794250791.2987485,
+  "parameters_each": 13090,
+  "matched_initialization": true,
+  "examples": 414,
+  "artifacts": {
+    "none.pt": "9e9f9941ea9416ba5f91b30498dcaa5806a774b6c18ce732c2d6ed9b5ff6fe41",
+    "history_change.pt": "1b4642ef826a580a161f880467e1038df6a395b7229a7fd601f2346ccc8fb6ed",
+    "denoising_change.pt": "5b2a629b29fac6ec9bd85f45e1e1104442bc84f11b18d1b7869f27399097f61c"
+  }
+}

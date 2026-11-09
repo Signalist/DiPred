@@ -1,0 +1,76 @@
+{
+  "sources": {
+    "runs/causal_shape_calibration_20261109/per_case.json": "aac85a91bc30d13a8fb3e9952548ac79e2ed3929de2f4aca441f4237973a091c",
+    "runs/causal_shape_calibration_20261109/summary.json": "7513368397469fb5e7e3f3bc328db80e2246158002d0f8d6e5e1d542e6d7af68",
+    "runs/tail_scale_risk_adapter_20261109/per_case.json": "0ee3b1f749067417207a53d8f489bfb5fb4c06e8489bb2797e64b53863c9c572",
+    "runs/tail_scale_risk_adapter_20261109/summary.json": "196bbecffa0744fc929962b0d7a9b71a99afccd6b71918ecaa49edab96538fac",
+    "runs/fourstep_cue_tails_20261109/per_case.json": "9a3e1561dfac32207a20a3916434eedae1e456ecdc4c33234f6971fbd7f90da9",
+    "runs/fourstep_cue_tails_20261109/summary.json": "f0c4b7a1b821f2b1149fbaf21446560f980a17208d7933ead5a6b0e12a6aad86",
+    "runs/fourstep_denoising_risk_cues_20261109/per_case.json": "85b4608b0d897894bbd3dab09c8a17b9ee9eb1ab28702c1c785a4c78a9d768a4",
+    "runs/fourstep_denoising_risk_cues_20261109/summary.json": "1785df88e929957cefdc9ca7e7a82a00bd84205fb329eb3e395b901f0f949943"
+  },
+  "selections": [
+    [
+      "causal_shape_calibration",
+      "previous_2d",
+      "global_smooth",
+      "previous_2d"
+    ],
+    [
+      "tail_scale_risk_adapter",
+      "rich",
+      "scale_fastcal",
+      "rich_scale"
+    ],
+    [
+      "tail_scale_risk_adapter",
+      "tied_tails",
+      "scale_fastcal",
+      "tied_tails"
+    ],
+    [
+      "tail_scale_risk_adapter",
+      "separate_tails",
+      "scale_fastcal",
+      "low_regression"
+    ],
+    [
+      "fourstep_cue_tails",
+      "asym_history",
+      "memory_dynamic",
+      "best_mean_score"
+    ],
+    [
+      "fourstep_cue_tails",
+      "asym_none",
+      "memory_dynamic",
+      "no_cue_asymmetric"
+    ],
+    [
+      "fourstep_cue_tails",
+      "asym_denoising",
+      "memory_dynamic",
+      "denoising_asymmetric"
+    ],
+    [
+      "fourstep_denoising_risk_cues",
+      "none",
+      "memory_dynamic",
+      "symmetric_no_cue"
+    ],
+    [
+      "fourstep_denoising_risk_cues",
+      "history_change",
+      "memory_dynamic",
+      "symmetric_history"
+    ],
+    [
+      "fourstep_denoising_risk_cues",
+      "denoising_change",
+      "memory_dynamic",
+      "symmetric_denoising"
+    ]
+  ],
+  "case_rows": 18720,
+  "limits": "All historically reused exploratory data. No selection by window gain; all selected methods retain every evaluated window/channel."
+}

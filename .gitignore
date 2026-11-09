@@ -20,3 +20,4 @@ demo/
 runs/
 retrain_*/
 tmp/
+!reliability/checkpoints/current.pt

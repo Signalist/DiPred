@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "case_rows": 18720,
+  "checked_numeric_group_metrics": 14880,
+  "primary_cells_per_comparison": 96,
+  "tolerance": 1e-06,
+  "caveat": "Exploratory reused trajectories; windows/pixels correlated, no independent confirmation or coverage guarantee."
+}

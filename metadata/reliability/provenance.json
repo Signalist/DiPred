@@ -1,0 +1,29 @@
+{
+  "source_artifacts": {
+    "runs/physical20_augmented_dynamics_20261109/augmented_diffusion/model.pt": "f99b7fdb15219c0df10b8f93647c003379a307d59afb6660eb66d9b2830ffdbd",
+    "runs/physical20_augmented_dynamics_20261109/dynamics_scale.pt": "749d3666d0fcc355ee0fc9af30a3bfd6b1ce4a00db3583c1b7461ac215900e4d",
+    "runs/structured_quantile_uncertainty_20261109/rich.pt": "b5d1758aac422bb2c5309e714ca42f596b90ec3648fe02bc524a8e7d22fbb062",
+    "runs/structured_quantile_uncertainty_20261109/statistics.pt": "2646a6a6a6b072f8645d7fcacab96cd088e7bcd5027dcd7a820f728fd6829e35",
+    "runs/tail_scale_risk_adapter_20261109/separate_tails.pt": "80676466b90ed5425a3c26249708678937e08e5d5813de72275f107cd7764dd7",
+    "runs/fourstep_cue_tails_20261109/asym_history.pt": "97d4b4bb7b533ea2d3c72b0ef5e52e61054ab76e3c8e4eccb799a382526690bf",
+    "runs/tail_scale_risk_adapter_20261109/calibration.pt": "d8c896545930621a4fdb6e0a9c14e02b179608df0a7b7d084a6fc4d3a98cfd91",
+    "runs/fourstep_cue_tails_20261109/calibration.pt": "01013040665614bd234fda1098cb0a682ca42429299f6f2b571f60192806a005",
+    "runs/clean_direct20_20261107/normalization.pt": "81b7d8cfe540fff6bb2fae140a7d3b8befb4feb05a97a5c6e62adff8aa77726a"
+  },
+  "checkpoint_sha256": "834260c9838b058d3e415b1efbd3fa19f7998884a36e46d14d62b10ed3ad8cfe",
+  "original_native_labels": [
+    99,
+    66,
+    33,
+    0
+  ],
+  "forecast_shape": [
+    2,
+    20,
+    32,
+    64
+  ],
+  "default_preset": "low_regression",
+  "second_preset": "best_mean_score",
+  "note": "Consolidated inference state only; no raw trajectories or prediction caches. Original source files remain frozen."
+}

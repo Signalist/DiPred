@@ -1,10 +1,33 @@
 # DiPred
 
+当前主线：**Reliability-aware PDE Forecasting**。冻结原4步DiPred（99→66→33→0），输入20帧、联合预测后20帧，再直接输出预测误差区间，不需要32路采样。没有点预测残差修正网络。
+
+本次更新的入口是 [`reliability/`](reliability/README.md)，已包含约7.1 MiB推理权重、归一化/校准参数与两个完整在线接口预设：
+
+|预设|定位|测试90%逐点覆盖|标准化区间评分↓|标准化宽度↓|
+|---|---|---:|---:|---:|
+|`low_regression`（默认）|当前低反例主线|89.977%|0.631915|0.479664|
+|`best_mean_score`|当前平均评分最优候选|89.905%|0.628699|0.478440|
+
+统计为历史测试轨迹窗口2–39，Re及u/v等权；两者使用完全相同的点预测，MSE均约1.28793e-4。默认相对早期2D区间参考仍有4/96项退步，相对匹配对称尾控制仍有46/96项退步；没有单个全指标最优版本。未证明独立泛化或严格/联合时空覆盖。
+
+```bash
+pip install -r requirements.txt
+TORCH_ALLOW_TF32_CUBLAS_OVERRIDE=0 python -m reliability.verify --device cpu
+python analyze_reliability.py
+```
+
+[`results/reliability/`](results/reliability/README.md)包含18,720条完整窗口/通道记录、强参考、全部反例及独立推理核验。以下保留的是较早的点预测实验，指标时段与新主线不同，不直接横向计算提升。
+
+---
+
+## 历史点预测版本
+
 Physical-field diffusion forecasting with a matched deterministic four-step control.
 
 给定连续20帧，联合预测紧接的20帧。主模型直接在物理场上生成，不依赖AE/VAE/RAE或额外残差修正网络。每一次网络调用都处理全部未来20帧，未进行10+10或5帧时间分块。
 
-## 当前证据
+## 历史点预测证据
 
 测试目标帧索引[600,800)，按Re组及u/v等权，原数据MSE：
 
@@ -30,7 +53,7 @@ Physical-field diffusion forecasting with a matched deterministic four-step cont
 - `metadata/`：完整划分、训练归一化和已锁定校准。
 - `results/`、`docs/`：分组结果、对照表、原始审计记录和两份研究说明。
 
-本仓库包含主要代码与轻量结果；权重、初始化张量、原始数据和预测缓存保存在本地研究压缩包中，未上传到GitHub。文档中的原工作区路径/图片引用保留为溯源信息，相关大文件不在仓库内。
+旧点预测六个arm的权重、初始化张量、原始数据和预测缓存保存在本地研究压缩包中，未上传到GitHub。新的可靠性主线推理权重已包含于`reliability/checkpoints/current.pt`，与旧六个arm权重不是同一包。历史文档中的原工作区路径/图片引用保留为溯源信息。
 
 用于后续分析的[完整窗口指标、配对提升和同色标图](results/analysis/README.md)位于`results/analysis/`：16,848条窗口/通道记录、11,232条配对比较，保留全部退步项。运行`python analyze_results.py`即可用Python标准库重算分组误差与提升，不需要原始数据或权重。
 

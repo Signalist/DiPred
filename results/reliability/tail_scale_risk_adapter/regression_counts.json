@@ -1,0 +1,326 @@
+[
+  {
+    "candidate": "rich",
+    "variant": "memory_dynamic",
+    "reference": "previous_2d",
+    "baseline_variant": "global_smooth",
+    "wins": 87,
+    "ties": 0,
+    "regressions": 9
+  },
+  {
+    "candidate": "rich",
+    "variant": "memory_dynamic",
+    "reference": "rich",
+    "baseline_variant": "memory_dynamic",
+    "wins": 0,
+    "ties": 96,
+    "regressions": 0
+  },
+  {
+    "candidate": "rich",
+    "variant": "memory_dynamic",
+    "reference": "rich",
+    "baseline_variant": "scale_fastcal",
+    "wins": 56,
+    "ties": 0,
+    "regressions": 40
+  },
+  {
+    "candidate": "rich",
+    "variant": "memory_dynamic",
+    "reference": "adapter_no_memory",
+    "baseline_variant": "memory_dynamic",
+    "wins": 25,
+    "ties": 0,
+    "regressions": 71
+  },
+  {
+    "candidate": "rich",
+    "variant": "memory_dynamic",
+    "reference": "tied_tails",
+    "baseline_variant": "memory_dynamic",
+    "wins": 25,
+    "ties": 0,
+    "regressions": 71
+  },
+  {
+    "candidate": "rich",
+    "variant": "memory_dynamic",
+    "reference": "tied_tails",
+    "baseline_variant": "scale_fastcal",
+    "wins": 25,
+    "ties": 0,
+    "regressions": 71
+  },
+  {
+    "candidate": "rich",
+    "variant": "scale_fastcal",
+    "reference": "previous_2d",
+    "baseline_variant": "global_smooth",
+    "wins": 91,
+    "ties": 0,
+    "regressions": 5
+  },
+  {
+    "candidate": "rich",
+    "variant": "scale_fastcal",
+    "reference": "rich",
+    "baseline_variant": "memory_dynamic",
+    "wins": 40,
+    "ties": 0,
+    "regressions": 56
+  },
+  {
+    "candidate": "rich",
+    "variant": "scale_fastcal",
+    "reference": "rich",
+    "baseline_variant": "scale_fastcal",
+    "wins": 0,
+    "ties": 96,
+    "regressions": 0
+  },
+  {
+    "candidate": "rich",
+    "variant": "scale_fastcal",
+    "reference": "adapter_no_memory",
+    "baseline_variant": "memory_dynamic",
+    "wins": 28,
+    "ties": 0,
+    "regressions": 68
+  },
+  {
+    "candidate": "rich",
+    "variant": "scale_fastcal",
+    "reference": "tied_tails",
+    "baseline_variant": "memory_dynamic",
+    "wins": 28,
+    "ties": 0,
+    "regressions": 68
+  },
+  {
+    "candidate": "rich",
+    "variant": "scale_fastcal",
+    "reference": "tied_tails",
+    "baseline_variant": "scale_fastcal",
+    "wins": 30,
+    "ties": 0,
+    "regressions": 66
+  },
+  {
+    "candidate": "tied_tails",
+    "variant": "memory_dynamic",
+    "reference": "previous_2d",
+    "baseline_variant": "global_smooth",
+    "wins": 89,
+    "ties": 0,
+    "regressions": 7
+  },
+  {
+    "candidate": "tied_tails",
+    "variant": "memory_dynamic",
+    "reference": "rich",
+    "baseline_variant": "memory_dynamic",
+    "wins": 71,
+    "ties": 0,
+    "regressions": 25
+  },
+  {
+    "candidate": "tied_tails",
+    "variant": "memory_dynamic",
+    "reference": "rich",
+    "baseline_variant": "scale_fastcal",
+    "wins": 68,
+    "ties": 0,
+    "regressions": 28
+  },
+  {
+    "candidate": "tied_tails",
+    "variant": "memory_dynamic",
+    "reference": "adapter_no_memory",
+    "baseline_variant": "memory_dynamic",
+    "wins": 36,
+    "ties": 25,
+    "regressions": 35
+  },
+  {
+    "candidate": "tied_tails",
+    "variant": "memory_dynamic",
+    "reference": "tied_tails",
+    "baseline_variant": "memory_dynamic",
+    "wins": 0,
+    "ties": 96,
+    "regressions": 0
+  },
+  {
+    "candidate": "tied_tails",
+    "variant": "memory_dynamic",
+    "reference": "tied_tails",
+    "baseline_variant": "scale_fastcal",
+    "wins": 56,
+    "ties": 0,
+    "regressions": 40
+  },
+  {
+    "candidate": "tied_tails",
+    "variant": "scale_fastcal",
+    "reference": "previous_2d",
+    "baseline_variant": "global_smooth",
+    "wins": 92,
+    "ties": 0,
+    "regressions": 4
+  },
+  {
+    "candidate": "tied_tails",
+    "variant": "scale_fastcal",
+    "reference": "rich",
+    "baseline_variant": "memory_dynamic",
+    "wins": 71,
+    "ties": 0,
+    "regressions": 25
+  },
+  {
+    "candidate": "tied_tails",
+    "variant": "scale_fastcal",
+    "reference": "rich",
+    "baseline_variant": "scale_fastcal",
+    "wins": 66,
+    "ties": 0,
+    "regressions": 30
+  },
+  {
+    "candidate": "tied_tails",
+    "variant": "scale_fastcal",
+    "reference": "adapter_no_memory",
+    "baseline_variant": "memory_dynamic",
+    "wins": 40,
+    "ties": 0,
+    "regressions": 56
+  },
+  {
+    "candidate": "tied_tails",
+    "variant": "scale_fastcal",
+    "reference": "tied_tails",
+    "baseline_variant": "memory_dynamic",
+    "wins": 40,
+    "ties": 0,
+    "regressions": 56
+  },
+  {
+    "candidate": "tied_tails",
+    "variant": "scale_fastcal",
+    "reference": "tied_tails",
+    "baseline_variant": "scale_fastcal",
+    "wins": 0,
+    "ties": 96,
+    "regressions": 0
+  },
+  {
+    "candidate": "separate_tails",
+    "variant": "memory_dynamic",
+    "reference": "previous_2d",
+    "baseline_variant": "global_smooth",
+    "wins": 88,
+    "ties": 0,
+    "regressions": 8
+  },
+  {
+    "candidate": "separate_tails",
+    "variant": "memory_dynamic",
+    "reference": "rich",
+    "baseline_variant": "memory_dynamic",
+    "wins": 74,
+    "ties": 0,
+    "regressions": 22
+  },
+  {
+    "candidate": "separate_tails",
+    "variant": "memory_dynamic",
+    "reference": "rich",
+    "baseline_variant": "scale_fastcal",
+    "wins": 67,
+    "ties": 0,
+    "regressions": 29
+  },
+  {
+    "candidate": "separate_tails",
+    "variant": "memory_dynamic",
+    "reference": "adapter_no_memory",
+    "baseline_variant": "memory_dynamic",
+    "wins": 42,
+    "ties": 0,
+    "regressions": 54
+  },
+  {
+    "candidate": "separate_tails",
+    "variant": "memory_dynamic",
+    "reference": "tied_tails",
+    "baseline_variant": "memory_dynamic",
+    "wins": 41,
+    "ties": 1,
+    "regressions": 54
+  },
+  {
+    "candidate": "separate_tails",
+    "variant": "memory_dynamic",
+    "reference": "tied_tails",
+    "baseline_variant": "scale_fastcal",
+    "wins": 56,
+    "ties": 1,
+    "regressions": 39
+  },
+  {
+    "candidate": "separate_tails",
+    "variant": "scale_fastcal",
+    "reference": "previous_2d",
+    "baseline_variant": "global_smooth",
+    "wins": 92,
+    "ties": 0,
+    "regressions": 4
+  },
+  {
+    "candidate": "separate_tails",
+    "variant": "scale_fastcal",
+    "reference": "rich",
+    "baseline_variant": "memory_dynamic",
+    "wins": 66,
+    "ties": 0,
+    "regressions": 30
+  },
+  {
+    "candidate": "separate_tails",
+    "variant": "scale_fastcal",
+    "reference": "rich",
+    "baseline_variant": "scale_fastcal",
+    "wins": 64,
+    "ties": 0,
+    "regressions": 32
+  },
+  {
+    "candidate": "separate_tails",
+    "variant": "scale_fastcal",
+    "reference": "adapter_no_memory",
+    "baseline_variant": "memory_dynamic",
+    "wins": 44,
+    "ties": 1,
+    "regressions": 51
+  },
+  {
+    "candidate": "separate_tails",
+    "variant": "scale_fastcal",
+    "reference": "tied_tails",
+    "baseline_variant": "memory_dynamic",
+    "wins": 44,
+    "ties": 1,
+    "regressions": 51
+  },
+  {
+    "candidate": "separate_tails",
+    "variant": "scale_fastcal",
+    "reference": "tied_tails",
+    "baseline_variant": "scale_fastcal",
+    "wins": 50,
+    "ties": 0,
+    "regressions": 46
+  }
+]

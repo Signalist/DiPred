@@ -1,0 +1,95 @@
+{
+  "passed": true,
+  "cases": [
+    {
+      "preset": "low_regression",
+      "start": 0,
+      "batch": 12,
+      "outputs_exact": true,
+      "controller_state_exact": true,
+      "native_labels": [
+        99,
+        66,
+        33,
+        0
+      ]
+    },
+    {
+      "preset": "low_regression",
+      "start": 20,
+      "batch": 12,
+      "outputs_exact": true,
+      "controller_state_exact": true,
+      "native_labels": [
+        99,
+        66,
+        33,
+        0
+      ]
+    },
+    {
+      "preset": "low_regression",
+      "start": 40,
+      "batch": 12,
+      "outputs_exact": true,
+      "controller_state_exact": true,
+      "native_labels": [
+        99,
+        66,
+        33,
+        0
+      ]
+    },
+    {
+      "preset": "best_mean_score",
+      "start": 0,
+      "batch": 12,
+      "outputs_exact": true,
+      "controller_state_exact": true,
+      "native_labels": [
+        99,
+        66,
+        33,
+        0
+      ]
+    },
+    {
+      "preset": "best_mean_score",
+      "start": 20,
+      "batch": 12,
+      "outputs_exact": true,
+      "controller_state_exact": true,
+      "native_labels": [
+        99,
+        66,
+        33,
+        0
+      ]
+    },
+    {
+      "preset": "best_mean_score",
+      "start": 40,
+      "batch": 12,
+      "outputs_exact": true,
+      "controller_state_exact": true,
+      "native_labels": [
+        99,
+        66,
+        33,
+        0
+      ]
+    }
+  ],
+  "real_trajectory_window_forecasts": 72,
+  "independently_compared_outputs": [
+    "prediction",
+    "lower",
+    "upper",
+    "risk_half_width"
+  ],
+  "full_feedback_guard": true,
+  "duplicate_issue_guard": true,
+  "reset_checked": true,
+  "checkpoint_sha256": "834260c9838b058d3e415b1efbd3fa19f7998884a36e46d14d62b10ed3ad8cfe",
+  "limitation": "CUDA/PyTorch source environment exact comparison. CPU/other hardware need not be bitwise identical; historical data reused."
+}

@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "synthetic_smoke": {
+    "low_regression_cpu": true,
+    "best_mean_score_cpu": true
+  },
+  "real_window_exact_audit": "portable_inference_audit.json",
+  "real_forecasts_checked": 72,
+  "analysis_rows": 18720,
+  "analysis_metrics_checked": 14880,
+  "syntax_all_modules": true,
+  "python": "3.8.10",
+  "torch": "1.14.0a0+44dac51",
+  "native_labels": [
+    99,
+    66,
+    33,
+    0
+  ],
+  "private_repository_required": true
+}

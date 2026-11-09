@@ -1,0 +1,72 @@
+[
+  {
+    "candidate": "low_regression",
+    "reference": "previous_2d",
+    "wins": 92,
+    "ties": 0,
+    "regressions": 4
+  },
+  {
+    "candidate": "low_regression",
+    "reference": "rich_scale",
+    "wins": 64,
+    "ties": 0,
+    "regressions": 32
+  },
+  {
+    "candidate": "low_regression",
+    "reference": "tied_tails",
+    "wins": 50,
+    "ties": 0,
+    "regressions": 46
+  },
+  {
+    "candidate": "low_regression",
+    "reference": "low_regression",
+    "wins": 0,
+    "ties": 96,
+    "regressions": 0
+  },
+  {
+    "candidate": "low_regression",
+    "reference": "symmetric_denoising",
+    "wins": 38,
+    "ties": 0,
+    "regressions": 58
+  },
+  {
+    "candidate": "best_mean_score",
+    "reference": "previous_2d",
+    "wins": 89,
+    "ties": 0,
+    "regressions": 7
+  },
+  {
+    "candidate": "best_mean_score",
+    "reference": "rich_scale",
+    "wins": 65,
+    "ties": 0,
+    "regressions": 31
+  },
+  {
+    "candidate": "best_mean_score",
+    "reference": "tied_tails",
+    "wins": 57,
+    "ties": 0,
+    "regressions": 39
+  },
+  {
+    "candidate": "best_mean_score",
+    "reference": "low_regression",
+    "wins": 55,
+    "ties": 0,
+    "regressions": 41
+  },
+  {
+    "candidate": "best_mean_score",
+    "reference": "symmetric_denoising",
+    "wins": 45,
+    "ties": 0,
+    "regressions": 51
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "time": 1794251404.881883,
+  "parameters_each": 13124,
+  "matched_initialization": true,
+  "examples": 414,
+  "artifacts": {
+    "asym_none.pt": "f861c7aa7dca913f6b69cb81d361506c46185680cc1a1faa94ec26f5559988de",
+    "asym_history.pt": "97d4b4bb7b533ea2d3c72b0ef5e52e61054ab76e3c8e4eccb799a382526690bf",
+    "asym_denoising.pt": "d31982edb1651552a0db88e28e465c575a4ccb2fd607fc55c510d2452a7f2a69"
+  }
+}

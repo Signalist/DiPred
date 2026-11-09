@@ -1,0 +1,10 @@
+{
+  "time": 1794249466.6081262,
+  "parameters_each": 13124,
+  "matched_initialization": true,
+  "examples": 414,
+  "artifacts": {
+    "tied_tails.pt": "98d9df48aca74162d97d39aabeef0b09124aebfb1b0e798a769fd0211bd8844f",
+    "separate_tails.pt": "80676466b90ed5425a3c26249708678937e08e5d5813de72275f107cd7764dd7"
+  }
+}
