@@ -1,0 +1,41 @@
+{
+  "pairs": 819,
+  "sizes": [
+    46,
+    46,
+    46,
+    46,
+    46,
+    46,
+    46,
+    46,
+    46,
+    45,
+    45,
+    45,
+    45,
+    45,
+    45,
+    45,
+    45,
+    45
+  ],
+  "later_cache_hashes": {
+    "400": "5c69883e3fcc389d2244be7c0effa26357315e2bd7a142e11fe5a8183a6e0d36",
+    "420": "6107018366148f5e524038b2d5310a30fec84e72eefda0dd7087d2d33554a62e",
+    "440": "6f777964b4d67f55761d952a84685bb59ecfd264d686ffae7f7c7b73f3e8d360",
+    "460": "a407ec962e6edf44b0665701e636f7a40779c8abea043189565e298dec2f6f8f",
+    "480": "6dbe352c94b13ca0148dddc12dd11d5cba24e2b508f47df392a1daded9f3748f",
+    "500": "1ffa127cd99432cc3e0c2bf3bbbbfe2b6a581912d7e5f0d2f20f6cdf64bd4f86",
+    "520": "dee86d78f574b412c170cc06766f9101c61be8e77534dc035040d25ad5752031",
+    "540": "3a416be0dfe7d1a1a259bdde3425426cb9e697ba8ac29dddffca4f4b4d9c5a7b",
+    "560": "7168c24c9870e107d655f13aaa663794d6692b55e6f31a4e509c8a80bfb4de64"
+  },
+  "previous180_matches_archived": true,
+  "native_prelude_forecasts": 92,
+  "previous380_created_before_loading400history": true,
+  "previous180_sha256": "7703c91ca296c027f5733382442cbfc8d0f443256fb1639bccce138195c9cf45",
+  "previous380_sha256": "a2e65ab98b46f949f7d972abaae4d4354c4377645abbfce11d33e25afc98fa80",
+  "memory_scale_source": "RMS of all819known previous-error inputs, original train IDs only; not current target labels.",
+  "offline_packet_note": "Later compact fitting packets already include labels, explicitly excluded from feature inputs and used only for supervision."
+}

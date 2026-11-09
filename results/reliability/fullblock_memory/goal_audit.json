@@ -1,0 +1,10 @@
+{
+  "achieved": false,
+  "reason": "Matched memory evidence and all strong-reference failures must be retained; no full-line claim from macro score.",
+  "evidence": [
+    "regression_counts.json",
+    "counterexamples.csv",
+    "memory_and_mean_audit.json",
+    "independent_audit.json"
+  ]
+}

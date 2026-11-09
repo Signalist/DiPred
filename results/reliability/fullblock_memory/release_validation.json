@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "portable_actual_forecasts": 384,
+  "cpu_smoke_policies": 8,
+  "all390_comparisons_recomputed": true,
+  "case_rows": 18720,
+  "all_counterexamples_verified": 15619,
+  "original_shared_and_context_checkpoints_unchanged": true,
+  "no_raw_data_caches_or_credentials": true,
+  "recommended_average_score": "full/memory_dynamic",
+  "default_legacy_preset_preserved": "low_regression",
+  "limitation": "Exploratory reused held-out trajectories; full-line improvement not achieved; no formal coverage guarantee."
+}

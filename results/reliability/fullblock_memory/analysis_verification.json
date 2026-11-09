@@ -1,0 +1,73 @@
+{
+  "passed": true,
+  "case_rows": 18720,
+  "numeric_group_checks": 3720,
+  "comparisons": 390,
+  "cells_per_comparison": 96,
+  "tolerance": 1e-06,
+  "all_counterexamples_verified": 15619,
+  "point_forecasts_unchanged": true,
+  "test_warm_macro": {
+    "frozen_rich/memory_dynamic": {
+      "coverage": 0.8992292832604974,
+      "interval_score": 0.6340788653675924,
+      "interval_width": 0.48109473394698393,
+      "mean_absolute_group_coverage_error": 0.0011240823793481163
+    },
+    "frozen_rich/scale_fastcal": {
+      "coverage": 0.899901607567281,
+      "interval_score": 0.6366616768718899,
+      "interval_width": 0.4847506733850865,
+      "mean_absolute_group_coverage_error": 0.0006420946827060218
+    },
+    "none/memory_dynamic": {
+      "coverage": 0.8992357914733607,
+      "interval_score": 0.6263171603325863,
+      "interval_width": 0.47668589813667434,
+      "mean_absolute_group_coverage_error": 0.0010798822020926895
+    },
+    "none/scale_fastcal": {
+      "coverage": 0.8998817619568075,
+      "interval_score": 0.6285086842885579,
+      "interval_width": 0.4802690190715138,
+      "mean_absolute_group_coverage_error": 0.0005250927344051711
+    },
+    "last/memory_dynamic": {
+      "coverage": 0.8993730733791987,
+      "interval_score": 0.6257622078224494,
+      "interval_width": 0.47657345925888034,
+      "mean_absolute_group_coverage_error": 0.0010074359021688961
+    },
+    "last/scale_fastcal": {
+      "coverage": 0.9000276849675946,
+      "interval_score": 0.6280301943987783,
+      "interval_width": 0.4802708080572169,
+      "mean_absolute_group_coverage_error": 0.0005116807830612599
+    },
+    "mean/memory_dynamic": {
+      "coverage": 0.8994000147439931,
+      "interval_score": 0.625801989830464,
+      "interval_width": 0.4768701694186842,
+      "mean_absolute_group_coverage_error": 0.0009854736166042266
+    },
+    "mean/scale_fastcal": {
+      "coverage": 0.9000535744498348,
+      "interval_score": 0.6280028597827544,
+      "interval_width": 0.48051817211872566,
+      "mean_absolute_group_coverage_error": 0.0004929115723448415
+    },
+    "full/memory_dynamic": {
+      "coverage": 0.8994059225969147,
+      "interval_score": 0.6257497675814911,
+      "interval_width": 0.47687890602776795,
+      "mean_absolute_group_coverage_error": 0.0009811199286528145
+    },
+    "full/scale_fastcal": {
+      "coverage": 0.9000579477794337,
+      "interval_score": 0.6279412272348128,
+      "interval_width": 0.4804893494725271,
+      "mean_absolute_group_coverage_error": 0.0004897181794308684
+    }
+  },
+  "caveat": "Repeatedly examined historical data; no independent confirmation or formal joint coverage."
+}

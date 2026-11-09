@@ -1,0 +1,32 @@
+{
+  "passed": true,
+  "training_identities_disjoint_from_heldout": true,
+  "actual_prelude_forecasts_exact": 92,
+  "all819previous_error_inputs_used_in_independent_scale_check": true,
+  "numpy_memory_scale_max_error": 9.275109735806808e-09,
+  "projection_checks": [
+    {
+      "mode": "none",
+      "encoded_numpy_max_error": 0.0,
+      "projection_numpy_max_error": 0.0,
+      "learned_input_time_contrast_fraction": null
+    },
+    {
+      "mode": "last",
+      "encoded_numpy_max_error": 9.178868132231344e-08,
+      "projection_numpy_max_error": 6.706386361798877e-07,
+      "learned_input_time_contrast_fraction": 0.0
+    },
+    {
+      "mode": "full",
+      "encoded_numpy_max_error": 1.0488432877764353e-07,
+      "projection_numpy_max_error": 1.7837467092274295e-07,
+      "learned_input_time_contrast_fraction": 0.13634654796535037
+    }
+  ],
+  "minibatches_and_availability_masks_identical": true,
+  "allocated_parameters": 48340,
+  "frozen_rich_calibration_exact": true,
+  "training_feature_supervision_order_pairs": 18,
+  "limits": "Same allocated capacity, deliberately different temporal information rank. Temporal weight contrast is not a transport-quality or causal-mechanism proof. Later offline packets contain labels, but labels are excluded from features."
+}

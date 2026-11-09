@@ -1,0 +1,17 @@
+{
+  "time": 1794265215.2617996,
+  "source_sha256": "6121c67d4e37b9553176320e0628aa770213feb40e0f189562baefbac1f9ba06",
+  "source_train_protocol_sha256": "32d2346e3d9e9f148186697043ded0ce5347c922ec8604208837f54b72b3fa48",
+  "original_artifacts": {
+    "runs/fullblock_memory_risk_20261109/full.pt": "fec1953f35d8984287150f717e902e6c7eb8e9350623853fa13af67fea3933cc",
+    "runs/fullblock_memory_risk_20261109/previous_fit380.pt": "a2e65ab98b46f949f7d972abaae4d4354c4377645abbfce11d33e25afc98fa80",
+    "runs/fullblock_memory_risk_20261109/previous_fit180.pt": "7703c91ca296c027f5733382442cbfc8d0f443256fb1639bccce138195c9cf45",
+    "runs/fullblock_memory_risk_20261109/statistics.pt": "b0efaaf2ac9704efa9d0b3a2a54624a261e8f6ee3fd3906d3bdfc4083a14a02c",
+    "runs/fullblock_memory_risk_20261109/none.pt": "b272ba564c0ea84aba1fd643d405d2341d94bf31039413d3a13c0526d00ce6dc",
+    "runs/fullblock_memory_risk_20261109/last.pt": "53585f5d666c386d8681b928cbae32c2a1257c400df17b72ec9f8edd30a496b6",
+    "runs/fullblock_memory_risk_20261109/calibration.pt": "c7739b86432d96a1887815793b7c6ddb8d94b3f0ec31956a75c6b202c6b487bb"
+  },
+  "comparison": "Same48340allocatedparameters,seed42,819pairs,2000updates,initialcore,optimizer and exactavailability/minibatchschedule. Mean encodedmemory over20previousframes and repeat; preserves per-pixel/channelencodedmean,removes temporalcontrast.",
+  "reason": "Original train-only pilot passed forfull andlast. Meancontrol added before any development/test field evaluation to distinguish averaging from full-history temporal structure. Not a gain or seed scan.",
+  "limits": "Same training IDs/later times reused. No claim that temporalcontrast or non-diagonalprojection is useful without this control."
+}

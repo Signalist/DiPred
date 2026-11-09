@@ -1,6 +1,6 @@
 """Native four-call DiPred with direct predictive-error reliability."""
 
-__all__ = ["ReliabilityPredictor"]
+__all__ = ["ReliabilityPredictor", "MemoryReliabilityPredictor"]
 
 
 def __getattr__(name):
@@ -8,4 +8,7 @@ def __getattr__(name):
     if name == "ReliabilityPredictor":
         from .predict import ReliabilityPredictor
         return ReliabilityPredictor
+    if name == "MemoryReliabilityPredictor":
+        from .memory_predict import MemoryReliabilityPredictor
+        return MemoryReliabilityPredictor
     raise AttributeError(name)

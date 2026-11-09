@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "mean_control_encoded_mean_preserved": true,
+  "numpy_mean_encoding_max_error": 1.757350411857317e-07,
+  "availability_and_minibatch_schedule_identical": true,
+  "actual_current_history_equals_previous_revealed_target": true,
+  "no_current_future_in_memory": true,
+  "all_allocated_parameters": 48340,
+  "limit": "Inputrank differs bydesign; meanaveraging or learnedoffdiagonalweights alone is not a transport mechanism proof."
+}

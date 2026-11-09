@@ -1,0 +1,6 @@
+{
+  "passed": true,
+  "reference_rows_exact": 3744,
+  "original_frozen_rich_calibration_exact": true,
+  "all_point_predictions_common": true
+}

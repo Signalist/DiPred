@@ -1,5 +1,35 @@
 # DiPred
 
+最新发布的平均区间评分最优方案是**冻结四步DiPred＋历史误差风险头**。输入连续20帧，一次联合预测完整后20帧；保持99→66→33→0四次调用，直接输出预测误差区间，无需32路采样。
+
+入口：[`reliability/memory_predict.py`](reliability/memory_predict.py)，使用说明：[`reliability/MEMORY.md`](reliability/MEMORY.md)。权重、归一化、校准参数和完整对照均已包含。
+
+|测试窗口2–39，Re及u/v等权|90%逐点覆盖|标准化区间评分↓|标准化宽度↓|
+|---|---:|---:|---:|
+|匹配无记忆头 `none`|89.924%|0.626317|0.476686|
+|末帧误差 `last`|89.937%|0.625762|0.476573|
+|时间均值 `mean`|89.940%|0.625802|0.476870|
+|完整窗口误差 `full`|89.941%|**0.625750**|0.476879|
+
+推荐`full/memory_dynamic`，48,340参数风险头；点预测保持原样。评分从上一局部最好0.626485降至0.625750，但对该强参考仍有**36/96项退步**。相对匹配无记忆是77改善/1持平/18退步。末帧与时间均值已接近完整序列，未证明完整误差时序或迁移机制的独有优势。旧低反例默认`low_regression`继续保留，没有单个全指标最优方案。
+
+```bash
+pip install -r requirements.txt
+TORCH_ALLOW_TF32_CUBLAS_OVERRIDE=0 python -m reliability.memory_predict \
+  --input history.pt --output forecast.pt \
+  --geometry 0.0034 -0.0034 0.02 --memory full --strategy memory_dynamic
+python analyze_memory_reliability.py
+TORCH_ALLOW_TF32_CUBLAS_OVERRIDE=0 python -m reliability.verify_memory --device cpu
+```
+
+几何参数需替换成真实dx、dy、dt。单次CLI为冷启动；连续在线实验使用`MemoryReliabilityPredictor.predict/reveal/reset`，只在完整20帧真值揭示后反馈。独立入口不依赖本地研究缓存。
+
+新增[`results/reliability/fullblock_memory/`](results/reliability/fullblock_memory/README.md)含18,720条窗口记录、39个参考的390组96项比较、全部反例、指标图与逐轨迹评分。384次真实窗口预测的仓库输出和完整反馈状态与冻结实验逐位一致。Score/Width为训练通道标准化的无量纲指标，点MSE仍约1.28793e-4。开发/测试数据历史已反复使用，不能视作独立确认或严格/联合覆盖保证。
+
+---
+
+## 此前发布的可靠性版本
+
 当前主线：**Reliability-aware PDE Forecasting**。冻结原4步DiPred（99→66→33→0），输入20帧、联合预测后20帧，再直接输出预测误差区间，不需要32路采样。没有点预测残差修正网络。
 
 本次更新的入口是 [`reliability/`](reliability/README.md)。已包含共享预测权重、归一化/校准参数，以及最新“扩展训练风险头＋已知上下文尺度预测”方案。新增权重约0.91 MiB，继续使用原4次网络调用：

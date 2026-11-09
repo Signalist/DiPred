@@ -1,0 +1,53 @@
+{
+  "checkpoint_sha256": "603a78288a44b9d64406e853176befcc2c644c1098eb88eae9d46e42a5804c6a",
+  "shared_checkpoint_sha256": "834260c9838b058d3e415b1efbd3fa19f7998884a36e46d14d62b10ed3ad8cfe",
+  "source_artifacts": {
+    "runs/fullblock_memory_risk_20261109/none.pt": "b272ba564c0ea84aba1fd643d405d2341d94bf31039413d3a13c0526d00ce6dc",
+    "runs/fullblock_memory_risk_20261109/last.pt": "53585f5d666c386d8681b928cbae32c2a1257c400df17b72ec9f8edd30a496b6",
+    "runs/fullblock_memory_risk_20261109/full.pt": "fec1953f35d8984287150f717e902e6c7eb8e9350623853fa13af67fea3933cc",
+    "runs/fullblock_memory_risk_20261109/statistics.pt": "b0efaaf2ac9704efa9d0b3a2a54624a261e8f6ee3fd3906d3bdfc4083a14a02c",
+    "runs/fullblock_temporal_mean_control_20261109/mean.pt": "20463b7db74585e210acb5553c61dfc713d90879418e505720e2a605f5a31b19",
+    "runs/fullblock_memory_evaluation_20261109/calibration.pt": "bdf0f10fd80ce9bb4e8552dc1b315414a2e7b56069f84f4197227fd8ff384d11",
+    "runs/causal_shape_calibration_20261109/summary.json": "7513368397469fb5e7e3f3bc328db80e2246158002d0f8d6e5e1d542e6d7af68",
+    "runs/tail_scale_risk_adapter_20261109/summary.json": "196bbecffa0744fc929962b0d7a9b71a99afccd6b71918ecaa49edab96538fac",
+    "runs/fourstep_cue_tails_20261109/summary.json": "f0c4b7a1b821f2b1149fbaf21446560f980a17208d7933ead5a6b0e12a6aad86",
+    "runs/extended_train_error_adapters_20261109/summary.json": "508e1514e5b500cb06cc2764f5d4b4191618edb70289374ed6e09dc895b1b129",
+    "runs/fourstep_denoising_risk_cues_20261109/summary.json": "1785df88e929957cefdc9ca7e7a82a00bd84205fb329eb3e395b901f0f949943",
+    "runs/extended_train_rich_risk_20261109/summary.json": "9bd8a24d2872f9cbd047ee997d9eae35fa27ea9b967556bf17642281a04ec505",
+    "runs/centered_score_control_followup_20261109/summary.json": "4063cb7b6b38720520b31bb4d993ff0d77a2017982f28081e95f44cdbbfbbad8",
+    "runs/context_scale_forecasting_20261109/summary.json": "35abc6134eb698f13cb0fdde9ce768b77f2be14b9de189363dbba0052adeb362",
+    "runs/fullblock_memory_evaluation_20261109/summary.json": "f8a32c77a4252458b132ca047b71a2b3eb0f766315ec3a1590f85504d84aeae3",
+    "runs/fullblock_memory_evaluation_20261109/per_case.json": "165670bdb8dd5670fbe7a66b4ca7593299efe51c9be76f5d1743b4a7265147b9",
+    "runs/fullblock_memory_evaluation_20261109/regression_counts.json": "0016b3ce140258051e14474385ad799a30062b8f26d5f4f7bf3b52ec1332b0b4"
+  },
+  "modes": [
+    "none",
+    "last",
+    "mean",
+    "full"
+  ],
+  "recommended_mean_score": [
+    "full",
+    "memory_dynamic"
+  ],
+  "old_default_preserved": "low_regression",
+  "native_labels": [
+    99,
+    66,
+    33,
+    0
+  ],
+  "forecast_shape": [
+    2,
+    20,
+    32,
+    64
+  ],
+  "parameters_per_head": 48340,
+  "fit_pairs": 819,
+  "continuation_steps": 2000,
+  "seed": 42,
+  "calibration_identities": 10,
+  "no_development_or_test_identities_fitted": true,
+  "caveat": "Historical held-out data repeatedly examined; exploratory model selection, no independent confirmation or formal coverage guarantee."
+}

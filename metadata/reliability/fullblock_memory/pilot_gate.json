@@ -1,0 +1,63 @@
+{
+  "results": {
+    "memory_dynamic": {
+      "values": {
+        "frozen_rich": {
+          "score": 0.7713078269872953,
+          "coverage_error": 0.004976016603134325,
+          "top10": 0.580801387420959
+        },
+        "none": {
+          "score": 0.761680697173708,
+          "coverage_error": 0.004971569163931761,
+          "top10": 0.5854987988041507
+        },
+        "last": {
+          "score": 0.7612100187413119,
+          "coverage_error": 0.004513144807683106,
+          "top10": 0.5855402429043143
+        },
+        "full": {
+          "score": 0.7609108511813812,
+          "coverage_error": 0.004381576362583389,
+          "top10": 0.5856557162547553
+        }
+      },
+      "passed_memory_modes": [
+        "last",
+        "full"
+      ],
+      "full_history_beats_last_on_score_and_ranking": true
+    },
+    "scale_fastcal": {
+      "values": {
+        "frozen_rich": {
+          "score": 0.7732859440989517,
+          "coverage_error": 0.0031895085065453354,
+          "top10": 0.5803123678570544
+        },
+        "none": {
+          "score": 0.7639328113432835,
+          "coverage_error": 0.0031552751527892386,
+          "top10": 0.5848351823262594
+        },
+        "last": {
+          "score": 0.7633595162450715,
+          "coverage_error": 0.0028406894262190396,
+          "top10": 0.5848971160942757
+        },
+        "full": {
+          "score": 0.7630210175227236,
+          "coverage_error": 0.002755260627578815,
+          "top10": 0.5850535076001177
+        }
+      },
+      "passed_memory_modes": [
+        "last",
+        "full"
+      ],
+      "full_history_beats_last_on_score_and_ranking": true
+    }
+  },
+  "proceed_full_evaluation": true
+}

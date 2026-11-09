@@ -1,0 +1,3512 @@
+[
+  {
+    "candidate": "frozen_rich",
+    "variant": "memory_dynamic",
+    "reference": "previous_2d",
+    "baseline_variant": "global_smooth",
+    "wins": 88,
+    "ties": 0,
+    "regressions": 8
+  },
+  {
+    "candidate": "frozen_rich",
+    "variant": "memory_dynamic",
+    "reference": "separate_tails",
+    "baseline_variant": "scale_fastcal",
+    "wins": 33,
+    "ties": 0,
+    "regressions": 63
+  },
+  {
+    "candidate": "frozen_rich",
+    "variant": "memory_dynamic",
+    "reference": "tied_tails",
+    "baseline_variant": "scale_fastcal",
+    "wins": 32,
+    "ties": 0,
+    "regressions": 64
+  },
+  {
+    "candidate": "frozen_rich",
+    "variant": "memory_dynamic",
+    "reference": "tied_tails",
+    "baseline_variant": "memory_dynamic",
+    "wins": 28,
+    "ties": 0,
+    "regressions": 68
+  },
+  {
+    "candidate": "frozen_rich",
+    "variant": "memory_dynamic",
+    "reference": "asym_history",
+    "baseline_variant": "memory_dynamic",
+    "wins": 32,
+    "ties": 0,
+    "regressions": 64
+  },
+  {
+    "candidate": "frozen_rich",
+    "variant": "memory_dynamic",
+    "reference": "denoising_change",
+    "baseline_variant": "memory_dynamic",
+    "wins": 24,
+    "ties": 0,
+    "regressions": 72
+  },
+  {
+    "candidate": "frozen_rich",
+    "variant": "memory_dynamic",
+    "reference": "expanded_separate",
+    "baseline_variant": "scale_fastcal",
+    "wins": 34,
+    "ties": 0,
+    "regressions": 62
+  },
+  {
+    "candidate": "frozen_rich",
+    "variant": "memory_dynamic",
+    "reference": "expanded_history",
+    "baseline_variant": "memory_dynamic",
+    "wins": 30,
+    "ties": 0,
+    "regressions": 66
+  },
+  {
+    "candidate": "frozen_rich",
+    "variant": "memory_dynamic",
+    "reference": "core_separate_all",
+    "baseline_variant": "scale_fastcal",
+    "wins": 18,
+    "ties": 0,
+    "regressions": 78
+  },
+  {
+    "candidate": "frozen_rich",
+    "variant": "memory_dynamic",
+    "reference": "core_separate_all",
+    "baseline_variant": "memory_dynamic",
+    "wins": 20,
+    "ties": 0,
+    "regressions": 76
+  },
+  {
+    "candidate": "frozen_rich",
+    "variant": "memory_dynamic",
+    "reference": "core_history_old",
+    "baseline_variant": "memory_dynamic",
+    "wins": 23,
+    "ties": 0,
+    "regressions": 73
+  },
+  {
+    "candidate": "frozen_rich",
+    "variant": "memory_dynamic",
+    "reference": "core_history_old",
+    "baseline_variant": "scale_fastcal",
+    "wins": 19,
+    "ties": 0,
+    "regressions": 77
+  },
+  {
+    "candidate": "frozen_rich",
+    "variant": "memory_dynamic",
+    "reference": "core_history_all",
+    "baseline_variant": "memory_dynamic",
+    "wins": 19,
+    "ties": 0,
+    "regressions": 77
+  },
+  {
+    "candidate": "frozen_rich",
+    "variant": "memory_dynamic",
+    "reference": "core_history_all",
+    "baseline_variant": "scale_fastcal",
+    "wins": 18,
+    "ties": 0,
+    "regressions": 78
+  },
+  {
+    "candidate": "frozen_rich",
+    "variant": "memory_dynamic",
+    "reference": "core_history_old",
+    "baseline_variant": "context",
+    "wins": 22,
+    "ties": 0,
+    "regressions": 74
+  },
+  {
+    "candidate": "frozen_rich",
+    "variant": "memory_dynamic",
+    "reference": "core_separate_all",
+    "baseline_variant": "context",
+    "wins": 19,
+    "ties": 0,
+    "regressions": 77
+  },
+  {
+    "candidate": "frozen_rich",
+    "variant": "memory_dynamic",
+    "reference": "core_separate_all",
+    "baseline_variant": "ordinary_mse",
+    "wins": 17,
+    "ties": 0,
+    "regressions": 79
+  },
+  {
+    "candidate": "frozen_rich",
+    "variant": "memory_dynamic",
+    "reference": "core_separate_all",
+    "baseline_variant": "interval_score",
+    "wins": 17,
+    "ties": 0,
+    "regressions": 79
+  },
+  {
+    "candidate": "frozen_rich",
+    "variant": "memory_dynamic",
+    "reference": "core_separate_all",
+    "baseline_variant": "raw_context",
+    "wins": 19,
+    "ties": 0,
+    "regressions": 77
+  },
+  {
+    "candidate": "frozen_rich",
+    "variant": "memory_dynamic",
+    "reference": "core_separate_all",
+    "baseline_variant": "unrestricted_ordinary",
+    "wins": 19,
+    "ties": 0,
+    "regressions": 77
+  },
+  {
+    "candidate": "frozen_rich",
+    "variant": "memory_dynamic",
+    "reference": "core_separate_all",
+    "baseline_variant": "unrestricted_score",
+    "wins": 28,
+    "ties": 0,
+    "regressions": 68
+  },
+  {
+    "candidate": "frozen_rich",
+    "variant": "memory_dynamic",
+    "reference": "core_history_old",
+    "baseline_variant": "ordinary_mse",
+    "wins": 19,
+    "ties": 0,
+    "regressions": 77
+  },
+  {
+    "candidate": "frozen_rich",
+    "variant": "memory_dynamic",
+    "reference": "core_history_old",
+    "baseline_variant": "interval_score",
+    "wins": 19,
+    "ties": 0,
+    "regressions": 77
+  },
+  {
+    "candidate": "frozen_rich",
+    "variant": "memory_dynamic",
+    "reference": "core_history_old",
+    "baseline_variant": "raw_context",
+    "wins": 22,
+    "ties": 0,
+    "regressions": 74
+  },
+  {
+    "candidate": "frozen_rich",
+    "variant": "memory_dynamic",
+    "reference": "core_history_old",
+    "baseline_variant": "unrestricted_ordinary",
+    "wins": 4,
+    "ties": 0,
+    "regressions": 92
+  },
+  {
+    "candidate": "frozen_rich",
+    "variant": "memory_dynamic",
+    "reference": "core_history_old",
+    "baseline_variant": "unrestricted_score",
+    "wins": 27,
+    "ties": 0,
+    "regressions": 69
+  },
+  {
+    "candidate": "frozen_rich",
+    "variant": "memory_dynamic",
+    "reference": "core_separate_all",
+    "baseline_variant": "effective_context",
+    "wins": 16,
+    "ties": 0,
+    "regressions": 80
+  },
+  {
+    "candidate": "frozen_rich",
+    "variant": "memory_dynamic",
+    "reference": "expanded_rich",
+    "baseline_variant": "memory_dynamic",
+    "wins": 0,
+    "ties": 96,
+    "regressions": 0
+  },
+  {
+    "candidate": "frozen_rich",
+    "variant": "memory_dynamic",
+    "reference": "expanded_rich",
+    "baseline_variant": "scale_fastcal",
+    "wins": 54,
+    "ties": 0,
+    "regressions": 42
+  },
+  {
+    "candidate": "frozen_rich",
+    "variant": "memory_dynamic",
+    "reference": "frozen_rich",
+    "baseline_variant": "memory_dynamic",
+    "wins": 0,
+    "ties": 96,
+    "regressions": 0
+  },
+  {
+    "candidate": "frozen_rich",
+    "variant": "memory_dynamic",
+    "reference": "frozen_rich",
+    "baseline_variant": "scale_fastcal",
+    "wins": 54,
+    "ties": 0,
+    "regressions": 42
+  },
+  {
+    "candidate": "frozen_rich",
+    "variant": "memory_dynamic",
+    "reference": "none",
+    "baseline_variant": "memory_dynamic",
+    "wins": 20,
+    "ties": 0,
+    "regressions": 76
+  },
+  {
+    "candidate": "frozen_rich",
+    "variant": "memory_dynamic",
+    "reference": "none",
+    "baseline_variant": "scale_fastcal",
+    "wins": 19,
+    "ties": 0,
+    "regressions": 77
+  },
+  {
+    "candidate": "frozen_rich",
+    "variant": "memory_dynamic",
+    "reference": "last",
+    "baseline_variant": "memory_dynamic",
+    "wins": 14,
+    "ties": 0,
+    "regressions": 82
+  },
+  {
+    "candidate": "frozen_rich",
+    "variant": "memory_dynamic",
+    "reference": "last",
+    "baseline_variant": "scale_fastcal",
+    "wins": 17,
+    "ties": 0,
+    "regressions": 79
+  },
+  {
+    "candidate": "frozen_rich",
+    "variant": "memory_dynamic",
+    "reference": "mean",
+    "baseline_variant": "memory_dynamic",
+    "wins": 12,
+    "ties": 0,
+    "regressions": 84
+  },
+  {
+    "candidate": "frozen_rich",
+    "variant": "memory_dynamic",
+    "reference": "mean",
+    "baseline_variant": "scale_fastcal",
+    "wins": 15,
+    "ties": 0,
+    "regressions": 81
+  },
+  {
+    "candidate": "frozen_rich",
+    "variant": "memory_dynamic",
+    "reference": "full",
+    "baseline_variant": "memory_dynamic",
+    "wins": 12,
+    "ties": 0,
+    "regressions": 84
+  },
+  {
+    "candidate": "frozen_rich",
+    "variant": "memory_dynamic",
+    "reference": "full",
+    "baseline_variant": "scale_fastcal",
+    "wins": 15,
+    "ties": 0,
+    "regressions": 81
+  },
+  {
+    "candidate": "frozen_rich",
+    "variant": "scale_fastcal",
+    "reference": "previous_2d",
+    "baseline_variant": "global_smooth",
+    "wins": 91,
+    "ties": 0,
+    "regressions": 5
+  },
+  {
+    "candidate": "frozen_rich",
+    "variant": "scale_fastcal",
+    "reference": "separate_tails",
+    "baseline_variant": "scale_fastcal",
+    "wins": 36,
+    "ties": 0,
+    "regressions": 60
+  },
+  {
+    "candidate": "frozen_rich",
+    "variant": "scale_fastcal",
+    "reference": "tied_tails",
+    "baseline_variant": "scale_fastcal",
+    "wins": 36,
+    "ties": 0,
+    "regressions": 60
+  },
+  {
+    "candidate": "frozen_rich",
+    "variant": "scale_fastcal",
+    "reference": "tied_tails",
+    "baseline_variant": "memory_dynamic",
+    "wins": 29,
+    "ties": 0,
+    "regressions": 67
+  },
+  {
+    "candidate": "frozen_rich",
+    "variant": "scale_fastcal",
+    "reference": "asym_history",
+    "baseline_variant": "memory_dynamic",
+    "wins": 33,
+    "ties": 0,
+    "regressions": 63
+  },
+  {
+    "candidate": "frozen_rich",
+    "variant": "scale_fastcal",
+    "reference": "denoising_change",
+    "baseline_variant": "memory_dynamic",
+    "wins": 29,
+    "ties": 0,
+    "regressions": 67
+  },
+  {
+    "candidate": "frozen_rich",
+    "variant": "scale_fastcal",
+    "reference": "expanded_separate",
+    "baseline_variant": "scale_fastcal",
+    "wins": 39,
+    "ties": 0,
+    "regressions": 57
+  },
+  {
+    "candidate": "frozen_rich",
+    "variant": "scale_fastcal",
+    "reference": "expanded_history",
+    "baseline_variant": "memory_dynamic",
+    "wins": 30,
+    "ties": 0,
+    "regressions": 66
+  },
+  {
+    "candidate": "frozen_rich",
+    "variant": "scale_fastcal",
+    "reference": "core_separate_all",
+    "baseline_variant": "scale_fastcal",
+    "wins": 28,
+    "ties": 0,
+    "regressions": 68
+  },
+  {
+    "candidate": "frozen_rich",
+    "variant": "scale_fastcal",
+    "reference": "core_separate_all",
+    "baseline_variant": "memory_dynamic",
+    "wins": 26,
+    "ties": 0,
+    "regressions": 70
+  },
+  {
+    "candidate": "frozen_rich",
+    "variant": "scale_fastcal",
+    "reference": "core_history_old",
+    "baseline_variant": "memory_dynamic",
+    "wins": 28,
+    "ties": 0,
+    "regressions": 68
+  },
+  {
+    "candidate": "frozen_rich",
+    "variant": "scale_fastcal",
+    "reference": "core_history_old",
+    "baseline_variant": "scale_fastcal",
+    "wins": 30,
+    "ties": 0,
+    "regressions": 66
+  },
+  {
+    "candidate": "frozen_rich",
+    "variant": "scale_fastcal",
+    "reference": "core_history_all",
+    "baseline_variant": "memory_dynamic",
+    "wins": 26,
+    "ties": 0,
+    "regressions": 70
+  },
+  {
+    "candidate": "frozen_rich",
+    "variant": "scale_fastcal",
+    "reference": "core_history_all",
+    "baseline_variant": "scale_fastcal",
+    "wins": 25,
+    "ties": 0,
+    "regressions": 71
+  },
+  {
+    "candidate": "frozen_rich",
+    "variant": "scale_fastcal",
+    "reference": "core_history_old",
+    "baseline_variant": "context",
+    "wins": 29,
+    "ties": 0,
+    "regressions": 67
+  },
+  {
+    "candidate": "frozen_rich",
+    "variant": "scale_fastcal",
+    "reference": "core_separate_all",
+    "baseline_variant": "context",
+    "wins": 29,
+    "ties": 0,
+    "regressions": 67
+  },
+  {
+    "candidate": "frozen_rich",
+    "variant": "scale_fastcal",
+    "reference": "core_separate_all",
+    "baseline_variant": "ordinary_mse",
+    "wins": 32,
+    "ties": 0,
+    "regressions": 64
+  },
+  {
+    "candidate": "frozen_rich",
+    "variant": "scale_fastcal",
+    "reference": "core_separate_all",
+    "baseline_variant": "interval_score",
+    "wins": 29,
+    "ties": 0,
+    "regressions": 67
+  },
+  {
+    "candidate": "frozen_rich",
+    "variant": "scale_fastcal",
+    "reference": "core_separate_all",
+    "baseline_variant": "raw_context",
+    "wins": 29,
+    "ties": 0,
+    "regressions": 67
+  },
+  {
+    "candidate": "frozen_rich",
+    "variant": "scale_fastcal",
+    "reference": "core_separate_all",
+    "baseline_variant": "unrestricted_ordinary",
+    "wins": 33,
+    "ties": 0,
+    "regressions": 63
+  },
+  {
+    "candidate": "frozen_rich",
+    "variant": "scale_fastcal",
+    "reference": "core_separate_all",
+    "baseline_variant": "unrestricted_score",
+    "wins": 33,
+    "ties": 0,
+    "regressions": 63
+  },
+  {
+    "candidate": "frozen_rich",
+    "variant": "scale_fastcal",
+    "reference": "core_history_old",
+    "baseline_variant": "ordinary_mse",
+    "wins": 28,
+    "ties": 0,
+    "regressions": 68
+  },
+  {
+    "candidate": "frozen_rich",
+    "variant": "scale_fastcal",
+    "reference": "core_history_old",
+    "baseline_variant": "interval_score",
+    "wins": 28,
+    "ties": 0,
+    "regressions": 68
+  },
+  {
+    "candidate": "frozen_rich",
+    "variant": "scale_fastcal",
+    "reference": "core_history_old",
+    "baseline_variant": "raw_context",
+    "wins": 29,
+    "ties": 0,
+    "regressions": 67
+  },
+  {
+    "candidate": "frozen_rich",
+    "variant": "scale_fastcal",
+    "reference": "core_history_old",
+    "baseline_variant": "unrestricted_ordinary",
+    "wins": 29,
+    "ties": 0,
+    "regressions": 67
+  },
+  {
+    "candidate": "frozen_rich",
+    "variant": "scale_fastcal",
+    "reference": "core_history_old",
+    "baseline_variant": "unrestricted_score",
+    "wins": 29,
+    "ties": 0,
+    "regressions": 67
+  },
+  {
+    "candidate": "frozen_rich",
+    "variant": "scale_fastcal",
+    "reference": "core_separate_all",
+    "baseline_variant": "effective_context",
+    "wins": 24,
+    "ties": 0,
+    "regressions": 72
+  },
+  {
+    "candidate": "frozen_rich",
+    "variant": "scale_fastcal",
+    "reference": "expanded_rich",
+    "baseline_variant": "memory_dynamic",
+    "wins": 42,
+    "ties": 0,
+    "regressions": 54
+  },
+  {
+    "candidate": "frozen_rich",
+    "variant": "scale_fastcal",
+    "reference": "expanded_rich",
+    "baseline_variant": "scale_fastcal",
+    "wins": 0,
+    "ties": 96,
+    "regressions": 0
+  },
+  {
+    "candidate": "frozen_rich",
+    "variant": "scale_fastcal",
+    "reference": "frozen_rich",
+    "baseline_variant": "memory_dynamic",
+    "wins": 42,
+    "ties": 0,
+    "regressions": 54
+  },
+  {
+    "candidate": "frozen_rich",
+    "variant": "scale_fastcal",
+    "reference": "frozen_rich",
+    "baseline_variant": "scale_fastcal",
+    "wins": 0,
+    "ties": 96,
+    "regressions": 0
+  },
+  {
+    "candidate": "frozen_rich",
+    "variant": "scale_fastcal",
+    "reference": "none",
+    "baseline_variant": "memory_dynamic",
+    "wins": 31,
+    "ties": 0,
+    "regressions": 65
+  },
+  {
+    "candidate": "frozen_rich",
+    "variant": "scale_fastcal",
+    "reference": "none",
+    "baseline_variant": "scale_fastcal",
+    "wins": 16,
+    "ties": 0,
+    "regressions": 80
+  },
+  {
+    "candidate": "frozen_rich",
+    "variant": "scale_fastcal",
+    "reference": "last",
+    "baseline_variant": "memory_dynamic",
+    "wins": 27,
+    "ties": 0,
+    "regressions": 69
+  },
+  {
+    "candidate": "frozen_rich",
+    "variant": "scale_fastcal",
+    "reference": "last",
+    "baseline_variant": "scale_fastcal",
+    "wins": 15,
+    "ties": 0,
+    "regressions": 81
+  },
+  {
+    "candidate": "frozen_rich",
+    "variant": "scale_fastcal",
+    "reference": "mean",
+    "baseline_variant": "memory_dynamic",
+    "wins": 28,
+    "ties": 0,
+    "regressions": 68
+  },
+  {
+    "candidate": "frozen_rich",
+    "variant": "scale_fastcal",
+    "reference": "mean",
+    "baseline_variant": "scale_fastcal",
+    "wins": 15,
+    "ties": 0,
+    "regressions": 81
+  },
+  {
+    "candidate": "frozen_rich",
+    "variant": "scale_fastcal",
+    "reference": "full",
+    "baseline_variant": "memory_dynamic",
+    "wins": 28,
+    "ties": 0,
+    "regressions": 68
+  },
+  {
+    "candidate": "frozen_rich",
+    "variant": "scale_fastcal",
+    "reference": "full",
+    "baseline_variant": "scale_fastcal",
+    "wins": 15,
+    "ties": 0,
+    "regressions": 81
+  },
+  {
+    "candidate": "none",
+    "variant": "memory_dynamic",
+    "reference": "previous_2d",
+    "baseline_variant": "global_smooth",
+    "wins": 91,
+    "ties": 0,
+    "regressions": 5
+  },
+  {
+    "candidate": "none",
+    "variant": "memory_dynamic",
+    "reference": "separate_tails",
+    "baseline_variant": "scale_fastcal",
+    "wins": 55,
+    "ties": 0,
+    "regressions": 41
+  },
+  {
+    "candidate": "none",
+    "variant": "memory_dynamic",
+    "reference": "tied_tails",
+    "baseline_variant": "scale_fastcal",
+    "wins": 56,
+    "ties": 0,
+    "regressions": 40
+  },
+  {
+    "candidate": "none",
+    "variant": "memory_dynamic",
+    "reference": "tied_tails",
+    "baseline_variant": "memory_dynamic",
+    "wins": 62,
+    "ties": 0,
+    "regressions": 34
+  },
+  {
+    "candidate": "none",
+    "variant": "memory_dynamic",
+    "reference": "asym_history",
+    "baseline_variant": "memory_dynamic",
+    "wins": 66,
+    "ties": 0,
+    "regressions": 30
+  },
+  {
+    "candidate": "none",
+    "variant": "memory_dynamic",
+    "reference": "denoising_change",
+    "baseline_variant": "memory_dynamic",
+    "wins": 60,
+    "ties": 0,
+    "regressions": 36
+  },
+  {
+    "candidate": "none",
+    "variant": "memory_dynamic",
+    "reference": "expanded_separate",
+    "baseline_variant": "scale_fastcal",
+    "wins": 59,
+    "ties": 0,
+    "regressions": 37
+  },
+  {
+    "candidate": "none",
+    "variant": "memory_dynamic",
+    "reference": "expanded_history",
+    "baseline_variant": "memory_dynamic",
+    "wins": 61,
+    "ties": 0,
+    "regressions": 35
+  },
+  {
+    "candidate": "none",
+    "variant": "memory_dynamic",
+    "reference": "core_separate_all",
+    "baseline_variant": "scale_fastcal",
+    "wins": 53,
+    "ties": 0,
+    "regressions": 43
+  },
+  {
+    "candidate": "none",
+    "variant": "memory_dynamic",
+    "reference": "core_separate_all",
+    "baseline_variant": "memory_dynamic",
+    "wins": 59,
+    "ties": 0,
+    "regressions": 37
+  },
+  {
+    "candidate": "none",
+    "variant": "memory_dynamic",
+    "reference": "core_history_old",
+    "baseline_variant": "memory_dynamic",
+    "wins": 59,
+    "ties": 0,
+    "regressions": 37
+  },
+  {
+    "candidate": "none",
+    "variant": "memory_dynamic",
+    "reference": "core_history_old",
+    "baseline_variant": "scale_fastcal",
+    "wins": 56,
+    "ties": 0,
+    "regressions": 40
+  },
+  {
+    "candidate": "none",
+    "variant": "memory_dynamic",
+    "reference": "core_history_all",
+    "baseline_variant": "memory_dynamic",
+    "wins": 58,
+    "ties": 0,
+    "regressions": 38
+  },
+  {
+    "candidate": "none",
+    "variant": "memory_dynamic",
+    "reference": "core_history_all",
+    "baseline_variant": "scale_fastcal",
+    "wins": 53,
+    "ties": 0,
+    "regressions": 43
+  },
+  {
+    "candidate": "none",
+    "variant": "memory_dynamic",
+    "reference": "core_history_old",
+    "baseline_variant": "context",
+    "wins": 55,
+    "ties": 0,
+    "regressions": 41
+  },
+  {
+    "candidate": "none",
+    "variant": "memory_dynamic",
+    "reference": "core_separate_all",
+    "baseline_variant": "context",
+    "wins": 52,
+    "ties": 0,
+    "regressions": 44
+  },
+  {
+    "candidate": "none",
+    "variant": "memory_dynamic",
+    "reference": "core_separate_all",
+    "baseline_variant": "ordinary_mse",
+    "wins": 51,
+    "ties": 0,
+    "regressions": 45
+  },
+  {
+    "candidate": "none",
+    "variant": "memory_dynamic",
+    "reference": "core_separate_all",
+    "baseline_variant": "interval_score",
+    "wins": 53,
+    "ties": 0,
+    "regressions": 43
+  },
+  {
+    "candidate": "none",
+    "variant": "memory_dynamic",
+    "reference": "core_separate_all",
+    "baseline_variant": "raw_context",
+    "wins": 52,
+    "ties": 0,
+    "regressions": 44
+  },
+  {
+    "candidate": "none",
+    "variant": "memory_dynamic",
+    "reference": "core_separate_all",
+    "baseline_variant": "unrestricted_ordinary",
+    "wins": 52,
+    "ties": 0,
+    "regressions": 44
+  },
+  {
+    "candidate": "none",
+    "variant": "memory_dynamic",
+    "reference": "core_separate_all",
+    "baseline_variant": "unrestricted_score",
+    "wins": 57,
+    "ties": 0,
+    "regressions": 39
+  },
+  {
+    "candidate": "none",
+    "variant": "memory_dynamic",
+    "reference": "core_history_old",
+    "baseline_variant": "ordinary_mse",
+    "wins": 52,
+    "ties": 0,
+    "regressions": 44
+  },
+  {
+    "candidate": "none",
+    "variant": "memory_dynamic",
+    "reference": "core_history_old",
+    "baseline_variant": "interval_score",
+    "wins": 51,
+    "ties": 0,
+    "regressions": 45
+  },
+  {
+    "candidate": "none",
+    "variant": "memory_dynamic",
+    "reference": "core_history_old",
+    "baseline_variant": "raw_context",
+    "wins": 55,
+    "ties": 0,
+    "regressions": 41
+  },
+  {
+    "candidate": "none",
+    "variant": "memory_dynamic",
+    "reference": "core_history_old",
+    "baseline_variant": "unrestricted_ordinary",
+    "wins": 45,
+    "ties": 0,
+    "regressions": 51
+  },
+  {
+    "candidate": "none",
+    "variant": "memory_dynamic",
+    "reference": "core_history_old",
+    "baseline_variant": "unrestricted_score",
+    "wins": 61,
+    "ties": 0,
+    "regressions": 35
+  },
+  {
+    "candidate": "none",
+    "variant": "memory_dynamic",
+    "reference": "core_separate_all",
+    "baseline_variant": "effective_context",
+    "wins": 53,
+    "ties": 0,
+    "regressions": 43
+  },
+  {
+    "candidate": "none",
+    "variant": "memory_dynamic",
+    "reference": "expanded_rich",
+    "baseline_variant": "memory_dynamic",
+    "wins": 76,
+    "ties": 0,
+    "regressions": 20
+  },
+  {
+    "candidate": "none",
+    "variant": "memory_dynamic",
+    "reference": "expanded_rich",
+    "baseline_variant": "scale_fastcal",
+    "wins": 65,
+    "ties": 0,
+    "regressions": 31
+  },
+  {
+    "candidate": "none",
+    "variant": "memory_dynamic",
+    "reference": "frozen_rich",
+    "baseline_variant": "memory_dynamic",
+    "wins": 76,
+    "ties": 0,
+    "regressions": 20
+  },
+  {
+    "candidate": "none",
+    "variant": "memory_dynamic",
+    "reference": "frozen_rich",
+    "baseline_variant": "scale_fastcal",
+    "wins": 65,
+    "ties": 0,
+    "regressions": 31
+  },
+  {
+    "candidate": "none",
+    "variant": "memory_dynamic",
+    "reference": "none",
+    "baseline_variant": "memory_dynamic",
+    "wins": 0,
+    "ties": 96,
+    "regressions": 0
+  },
+  {
+    "candidate": "none",
+    "variant": "memory_dynamic",
+    "reference": "none",
+    "baseline_variant": "scale_fastcal",
+    "wins": 55,
+    "ties": 0,
+    "regressions": 41
+  },
+  {
+    "candidate": "none",
+    "variant": "memory_dynamic",
+    "reference": "last",
+    "baseline_variant": "memory_dynamic",
+    "wins": 14,
+    "ties": 0,
+    "regressions": 82
+  },
+  {
+    "candidate": "none",
+    "variant": "memory_dynamic",
+    "reference": "last",
+    "baseline_variant": "scale_fastcal",
+    "wins": 45,
+    "ties": 0,
+    "regressions": 51
+  },
+  {
+    "candidate": "none",
+    "variant": "memory_dynamic",
+    "reference": "mean",
+    "baseline_variant": "memory_dynamic",
+    "wins": 17,
+    "ties": 0,
+    "regressions": 79
+  },
+  {
+    "candidate": "none",
+    "variant": "memory_dynamic",
+    "reference": "mean",
+    "baseline_variant": "scale_fastcal",
+    "wins": 45,
+    "ties": 0,
+    "regressions": 51
+  },
+  {
+    "candidate": "none",
+    "variant": "memory_dynamic",
+    "reference": "full",
+    "baseline_variant": "memory_dynamic",
+    "wins": 18,
+    "ties": 1,
+    "regressions": 77
+  },
+  {
+    "candidate": "none",
+    "variant": "memory_dynamic",
+    "reference": "full",
+    "baseline_variant": "scale_fastcal",
+    "wins": 44,
+    "ties": 0,
+    "regressions": 52
+  },
+  {
+    "candidate": "none",
+    "variant": "scale_fastcal",
+    "reference": "previous_2d",
+    "baseline_variant": "global_smooth",
+    "wins": 92,
+    "ties": 0,
+    "regressions": 4
+  },
+  {
+    "candidate": "none",
+    "variant": "scale_fastcal",
+    "reference": "separate_tails",
+    "baseline_variant": "scale_fastcal",
+    "wins": 67,
+    "ties": 0,
+    "regressions": 29
+  },
+  {
+    "candidate": "none",
+    "variant": "scale_fastcal",
+    "reference": "tied_tails",
+    "baseline_variant": "scale_fastcal",
+    "wins": 67,
+    "ties": 0,
+    "regressions": 29
+  },
+  {
+    "candidate": "none",
+    "variant": "scale_fastcal",
+    "reference": "tied_tails",
+    "baseline_variant": "memory_dynamic",
+    "wins": 59,
+    "ties": 0,
+    "regressions": 37
+  },
+  {
+    "candidate": "none",
+    "variant": "scale_fastcal",
+    "reference": "asym_history",
+    "baseline_variant": "memory_dynamic",
+    "wins": 59,
+    "ties": 0,
+    "regressions": 37
+  },
+  {
+    "candidate": "none",
+    "variant": "scale_fastcal",
+    "reference": "denoising_change",
+    "baseline_variant": "memory_dynamic",
+    "wins": 57,
+    "ties": 0,
+    "regressions": 39
+  },
+  {
+    "candidate": "none",
+    "variant": "scale_fastcal",
+    "reference": "expanded_separate",
+    "baseline_variant": "scale_fastcal",
+    "wins": 66,
+    "ties": 0,
+    "regressions": 30
+  },
+  {
+    "candidate": "none",
+    "variant": "scale_fastcal",
+    "reference": "expanded_history",
+    "baseline_variant": "memory_dynamic",
+    "wins": 61,
+    "ties": 0,
+    "regressions": 35
+  },
+  {
+    "candidate": "none",
+    "variant": "scale_fastcal",
+    "reference": "core_separate_all",
+    "baseline_variant": "scale_fastcal",
+    "wins": 62,
+    "ties": 0,
+    "regressions": 34
+  },
+  {
+    "candidate": "none",
+    "variant": "scale_fastcal",
+    "reference": "core_separate_all",
+    "baseline_variant": "memory_dynamic",
+    "wins": 56,
+    "ties": 0,
+    "regressions": 40
+  },
+  {
+    "candidate": "none",
+    "variant": "scale_fastcal",
+    "reference": "core_history_old",
+    "baseline_variant": "memory_dynamic",
+    "wins": 56,
+    "ties": 0,
+    "regressions": 40
+  },
+  {
+    "candidate": "none",
+    "variant": "scale_fastcal",
+    "reference": "core_history_old",
+    "baseline_variant": "scale_fastcal",
+    "wins": 66,
+    "ties": 0,
+    "regressions": 30
+  },
+  {
+    "candidate": "none",
+    "variant": "scale_fastcal",
+    "reference": "core_history_all",
+    "baseline_variant": "memory_dynamic",
+    "wins": 54,
+    "ties": 0,
+    "regressions": 42
+  },
+  {
+    "candidate": "none",
+    "variant": "scale_fastcal",
+    "reference": "core_history_all",
+    "baseline_variant": "scale_fastcal",
+    "wins": 61,
+    "ties": 0,
+    "regressions": 35
+  },
+  {
+    "candidate": "none",
+    "variant": "scale_fastcal",
+    "reference": "core_history_old",
+    "baseline_variant": "context",
+    "wins": 55,
+    "ties": 0,
+    "regressions": 41
+  },
+  {
+    "candidate": "none",
+    "variant": "scale_fastcal",
+    "reference": "core_separate_all",
+    "baseline_variant": "context",
+    "wins": 66,
+    "ties": 0,
+    "regressions": 30
+  },
+  {
+    "candidate": "none",
+    "variant": "scale_fastcal",
+    "reference": "core_separate_all",
+    "baseline_variant": "ordinary_mse",
+    "wins": 63,
+    "ties": 0,
+    "regressions": 33
+  },
+  {
+    "candidate": "none",
+    "variant": "scale_fastcal",
+    "reference": "core_separate_all",
+    "baseline_variant": "interval_score",
+    "wins": 63,
+    "ties": 0,
+    "regressions": 33
+  },
+  {
+    "candidate": "none",
+    "variant": "scale_fastcal",
+    "reference": "core_separate_all",
+    "baseline_variant": "raw_context",
+    "wins": 66,
+    "ties": 0,
+    "regressions": 30
+  },
+  {
+    "candidate": "none",
+    "variant": "scale_fastcal",
+    "reference": "core_separate_all",
+    "baseline_variant": "unrestricted_ordinary",
+    "wins": 63,
+    "ties": 0,
+    "regressions": 33
+  },
+  {
+    "candidate": "none",
+    "variant": "scale_fastcal",
+    "reference": "core_separate_all",
+    "baseline_variant": "unrestricted_score",
+    "wins": 63,
+    "ties": 0,
+    "regressions": 33
+  },
+  {
+    "candidate": "none",
+    "variant": "scale_fastcal",
+    "reference": "core_history_old",
+    "baseline_variant": "ordinary_mse",
+    "wins": 55,
+    "ties": 0,
+    "regressions": 41
+  },
+  {
+    "candidate": "none",
+    "variant": "scale_fastcal",
+    "reference": "core_history_old",
+    "baseline_variant": "interval_score",
+    "wins": 55,
+    "ties": 0,
+    "regressions": 41
+  },
+  {
+    "candidate": "none",
+    "variant": "scale_fastcal",
+    "reference": "core_history_old",
+    "baseline_variant": "raw_context",
+    "wins": 55,
+    "ties": 0,
+    "regressions": 41
+  },
+  {
+    "candidate": "none",
+    "variant": "scale_fastcal",
+    "reference": "core_history_old",
+    "baseline_variant": "unrestricted_ordinary",
+    "wins": 52,
+    "ties": 0,
+    "regressions": 44
+  },
+  {
+    "candidate": "none",
+    "variant": "scale_fastcal",
+    "reference": "core_history_old",
+    "baseline_variant": "unrestricted_score",
+    "wins": 55,
+    "ties": 0,
+    "regressions": 41
+  },
+  {
+    "candidate": "none",
+    "variant": "scale_fastcal",
+    "reference": "core_separate_all",
+    "baseline_variant": "effective_context",
+    "wins": 61,
+    "ties": 0,
+    "regressions": 35
+  },
+  {
+    "candidate": "none",
+    "variant": "scale_fastcal",
+    "reference": "expanded_rich",
+    "baseline_variant": "memory_dynamic",
+    "wins": 77,
+    "ties": 0,
+    "regressions": 19
+  },
+  {
+    "candidate": "none",
+    "variant": "scale_fastcal",
+    "reference": "expanded_rich",
+    "baseline_variant": "scale_fastcal",
+    "wins": 80,
+    "ties": 0,
+    "regressions": 16
+  },
+  {
+    "candidate": "none",
+    "variant": "scale_fastcal",
+    "reference": "frozen_rich",
+    "baseline_variant": "memory_dynamic",
+    "wins": 77,
+    "ties": 0,
+    "regressions": 19
+  },
+  {
+    "candidate": "none",
+    "variant": "scale_fastcal",
+    "reference": "frozen_rich",
+    "baseline_variant": "scale_fastcal",
+    "wins": 80,
+    "ties": 0,
+    "regressions": 16
+  },
+  {
+    "candidate": "none",
+    "variant": "scale_fastcal",
+    "reference": "none",
+    "baseline_variant": "memory_dynamic",
+    "wins": 41,
+    "ties": 0,
+    "regressions": 55
+  },
+  {
+    "candidate": "none",
+    "variant": "scale_fastcal",
+    "reference": "none",
+    "baseline_variant": "scale_fastcal",
+    "wins": 0,
+    "ties": 96,
+    "regressions": 0
+  },
+  {
+    "candidate": "none",
+    "variant": "scale_fastcal",
+    "reference": "last",
+    "baseline_variant": "memory_dynamic",
+    "wins": 35,
+    "ties": 0,
+    "regressions": 61
+  },
+  {
+    "candidate": "none",
+    "variant": "scale_fastcal",
+    "reference": "last",
+    "baseline_variant": "scale_fastcal",
+    "wins": 19,
+    "ties": 0,
+    "regressions": 77
+  },
+  {
+    "candidate": "none",
+    "variant": "scale_fastcal",
+    "reference": "mean",
+    "baseline_variant": "memory_dynamic",
+    "wins": 41,
+    "ties": 0,
+    "regressions": 55
+  },
+  {
+    "candidate": "none",
+    "variant": "scale_fastcal",
+    "reference": "mean",
+    "baseline_variant": "scale_fastcal",
+    "wins": 22,
+    "ties": 0,
+    "regressions": 74
+  },
+  {
+    "candidate": "none",
+    "variant": "scale_fastcal",
+    "reference": "full",
+    "baseline_variant": "memory_dynamic",
+    "wins": 41,
+    "ties": 0,
+    "regressions": 55
+  },
+  {
+    "candidate": "none",
+    "variant": "scale_fastcal",
+    "reference": "full",
+    "baseline_variant": "scale_fastcal",
+    "wins": 23,
+    "ties": 0,
+    "regressions": 73
+  },
+  {
+    "candidate": "last",
+    "variant": "memory_dynamic",
+    "reference": "previous_2d",
+    "baseline_variant": "global_smooth",
+    "wins": 90,
+    "ties": 0,
+    "regressions": 6
+  },
+  {
+    "candidate": "last",
+    "variant": "memory_dynamic",
+    "reference": "separate_tails",
+    "baseline_variant": "scale_fastcal",
+    "wins": 57,
+    "ties": 0,
+    "regressions": 39
+  },
+  {
+    "candidate": "last",
+    "variant": "memory_dynamic",
+    "reference": "tied_tails",
+    "baseline_variant": "scale_fastcal",
+    "wins": 58,
+    "ties": 0,
+    "regressions": 38
+  },
+  {
+    "candidate": "last",
+    "variant": "memory_dynamic",
+    "reference": "tied_tails",
+    "baseline_variant": "memory_dynamic",
+    "wins": 71,
+    "ties": 0,
+    "regressions": 25
+  },
+  {
+    "candidate": "last",
+    "variant": "memory_dynamic",
+    "reference": "asym_history",
+    "baseline_variant": "memory_dynamic",
+    "wins": 75,
+    "ties": 1,
+    "regressions": 20
+  },
+  {
+    "candidate": "last",
+    "variant": "memory_dynamic",
+    "reference": "denoising_change",
+    "baseline_variant": "memory_dynamic",
+    "wins": 68,
+    "ties": 0,
+    "regressions": 28
+  },
+  {
+    "candidate": "last",
+    "variant": "memory_dynamic",
+    "reference": "expanded_separate",
+    "baseline_variant": "scale_fastcal",
+    "wins": 64,
+    "ties": 0,
+    "regressions": 32
+  },
+  {
+    "candidate": "last",
+    "variant": "memory_dynamic",
+    "reference": "expanded_history",
+    "baseline_variant": "memory_dynamic",
+    "wins": 72,
+    "ties": 0,
+    "regressions": 24
+  },
+  {
+    "candidate": "last",
+    "variant": "memory_dynamic",
+    "reference": "core_separate_all",
+    "baseline_variant": "scale_fastcal",
+    "wins": 57,
+    "ties": 0,
+    "regressions": 39
+  },
+  {
+    "candidate": "last",
+    "variant": "memory_dynamic",
+    "reference": "core_separate_all",
+    "baseline_variant": "memory_dynamic",
+    "wins": 65,
+    "ties": 0,
+    "regressions": 31
+  },
+  {
+    "candidate": "last",
+    "variant": "memory_dynamic",
+    "reference": "core_history_old",
+    "baseline_variant": "memory_dynamic",
+    "wins": 63,
+    "ties": 0,
+    "regressions": 33
+  },
+  {
+    "candidate": "last",
+    "variant": "memory_dynamic",
+    "reference": "core_history_old",
+    "baseline_variant": "scale_fastcal",
+    "wins": 58,
+    "ties": 0,
+    "regressions": 38
+  },
+  {
+    "candidate": "last",
+    "variant": "memory_dynamic",
+    "reference": "core_history_all",
+    "baseline_variant": "memory_dynamic",
+    "wins": 61,
+    "ties": 0,
+    "regressions": 35
+  },
+  {
+    "candidate": "last",
+    "variant": "memory_dynamic",
+    "reference": "core_history_all",
+    "baseline_variant": "scale_fastcal",
+    "wins": 58,
+    "ties": 0,
+    "regressions": 38
+  },
+  {
+    "candidate": "last",
+    "variant": "memory_dynamic",
+    "reference": "core_history_old",
+    "baseline_variant": "context",
+    "wins": 59,
+    "ties": 1,
+    "regressions": 36
+  },
+  {
+    "candidate": "last",
+    "variant": "memory_dynamic",
+    "reference": "core_separate_all",
+    "baseline_variant": "context",
+    "wins": 58,
+    "ties": 0,
+    "regressions": 38
+  },
+  {
+    "candidate": "last",
+    "variant": "memory_dynamic",
+    "reference": "core_separate_all",
+    "baseline_variant": "ordinary_mse",
+    "wins": 56,
+    "ties": 0,
+    "regressions": 40
+  },
+  {
+    "candidate": "last",
+    "variant": "memory_dynamic",
+    "reference": "core_separate_all",
+    "baseline_variant": "interval_score",
+    "wins": 56,
+    "ties": 0,
+    "regressions": 40
+  },
+  {
+    "candidate": "last",
+    "variant": "memory_dynamic",
+    "reference": "core_separate_all",
+    "baseline_variant": "raw_context",
+    "wins": 58,
+    "ties": 0,
+    "regressions": 38
+  },
+  {
+    "candidate": "last",
+    "variant": "memory_dynamic",
+    "reference": "core_separate_all",
+    "baseline_variant": "unrestricted_ordinary",
+    "wins": 55,
+    "ties": 0,
+    "regressions": 41
+  },
+  {
+    "candidate": "last",
+    "variant": "memory_dynamic",
+    "reference": "core_separate_all",
+    "baseline_variant": "unrestricted_score",
+    "wins": 62,
+    "ties": 0,
+    "regressions": 34
+  },
+  {
+    "candidate": "last",
+    "variant": "memory_dynamic",
+    "reference": "core_history_old",
+    "baseline_variant": "ordinary_mse",
+    "wins": 60,
+    "ties": 0,
+    "regressions": 36
+  },
+  {
+    "candidate": "last",
+    "variant": "memory_dynamic",
+    "reference": "core_history_old",
+    "baseline_variant": "interval_score",
+    "wins": 58,
+    "ties": 1,
+    "regressions": 37
+  },
+  {
+    "candidate": "last",
+    "variant": "memory_dynamic",
+    "reference": "core_history_old",
+    "baseline_variant": "raw_context",
+    "wins": 59,
+    "ties": 1,
+    "regressions": 36
+  },
+  {
+    "candidate": "last",
+    "variant": "memory_dynamic",
+    "reference": "core_history_old",
+    "baseline_variant": "unrestricted_ordinary",
+    "wins": 49,
+    "ties": 0,
+    "regressions": 47
+  },
+  {
+    "candidate": "last",
+    "variant": "memory_dynamic",
+    "reference": "core_history_old",
+    "baseline_variant": "unrestricted_score",
+    "wins": 65,
+    "ties": 0,
+    "regressions": 31
+  },
+  {
+    "candidate": "last",
+    "variant": "memory_dynamic",
+    "reference": "core_separate_all",
+    "baseline_variant": "effective_context",
+    "wins": 57,
+    "ties": 0,
+    "regressions": 39
+  },
+  {
+    "candidate": "last",
+    "variant": "memory_dynamic",
+    "reference": "expanded_rich",
+    "baseline_variant": "memory_dynamic",
+    "wins": 82,
+    "ties": 0,
+    "regressions": 14
+  },
+  {
+    "candidate": "last",
+    "variant": "memory_dynamic",
+    "reference": "expanded_rich",
+    "baseline_variant": "scale_fastcal",
+    "wins": 69,
+    "ties": 0,
+    "regressions": 27
+  },
+  {
+    "candidate": "last",
+    "variant": "memory_dynamic",
+    "reference": "frozen_rich",
+    "baseline_variant": "memory_dynamic",
+    "wins": 82,
+    "ties": 0,
+    "regressions": 14
+  },
+  {
+    "candidate": "last",
+    "variant": "memory_dynamic",
+    "reference": "frozen_rich",
+    "baseline_variant": "scale_fastcal",
+    "wins": 69,
+    "ties": 0,
+    "regressions": 27
+  },
+  {
+    "candidate": "last",
+    "variant": "memory_dynamic",
+    "reference": "none",
+    "baseline_variant": "memory_dynamic",
+    "wins": 82,
+    "ties": 0,
+    "regressions": 14
+  },
+  {
+    "candidate": "last",
+    "variant": "memory_dynamic",
+    "reference": "none",
+    "baseline_variant": "scale_fastcal",
+    "wins": 61,
+    "ties": 0,
+    "regressions": 35
+  },
+  {
+    "candidate": "last",
+    "variant": "memory_dynamic",
+    "reference": "last",
+    "baseline_variant": "memory_dynamic",
+    "wins": 0,
+    "ties": 96,
+    "regressions": 0
+  },
+  {
+    "candidate": "last",
+    "variant": "memory_dynamic",
+    "reference": "last",
+    "baseline_variant": "scale_fastcal",
+    "wins": 54,
+    "ties": 0,
+    "regressions": 42
+  },
+  {
+    "candidate": "last",
+    "variant": "memory_dynamic",
+    "reference": "mean",
+    "baseline_variant": "memory_dynamic",
+    "wins": 48,
+    "ties": 0,
+    "regressions": 48
+  },
+  {
+    "candidate": "last",
+    "variant": "memory_dynamic",
+    "reference": "mean",
+    "baseline_variant": "scale_fastcal",
+    "wins": 55,
+    "ties": 0,
+    "regressions": 41
+  },
+  {
+    "candidate": "last",
+    "variant": "memory_dynamic",
+    "reference": "full",
+    "baseline_variant": "memory_dynamic",
+    "wins": 49,
+    "ties": 0,
+    "regressions": 47
+  },
+  {
+    "candidate": "last",
+    "variant": "memory_dynamic",
+    "reference": "full",
+    "baseline_variant": "scale_fastcal",
+    "wins": 55,
+    "ties": 0,
+    "regressions": 41
+  },
+  {
+    "candidate": "last",
+    "variant": "scale_fastcal",
+    "reference": "previous_2d",
+    "baseline_variant": "global_smooth",
+    "wins": 92,
+    "ties": 0,
+    "regressions": 4
+  },
+  {
+    "candidate": "last",
+    "variant": "scale_fastcal",
+    "reference": "separate_tails",
+    "baseline_variant": "scale_fastcal",
+    "wins": 70,
+    "ties": 0,
+    "regressions": 26
+  },
+  {
+    "candidate": "last",
+    "variant": "scale_fastcal",
+    "reference": "tied_tails",
+    "baseline_variant": "scale_fastcal",
+    "wins": 70,
+    "ties": 0,
+    "regressions": 26
+  },
+  {
+    "candidate": "last",
+    "variant": "scale_fastcal",
+    "reference": "tied_tails",
+    "baseline_variant": "memory_dynamic",
+    "wins": 61,
+    "ties": 0,
+    "regressions": 35
+  },
+  {
+    "candidate": "last",
+    "variant": "scale_fastcal",
+    "reference": "asym_history",
+    "baseline_variant": "memory_dynamic",
+    "wins": 63,
+    "ties": 0,
+    "regressions": 33
+  },
+  {
+    "candidate": "last",
+    "variant": "scale_fastcal",
+    "reference": "denoising_change",
+    "baseline_variant": "memory_dynamic",
+    "wins": 60,
+    "ties": 0,
+    "regressions": 36
+  },
+  {
+    "candidate": "last",
+    "variant": "scale_fastcal",
+    "reference": "expanded_separate",
+    "baseline_variant": "scale_fastcal",
+    "wins": 72,
+    "ties": 0,
+    "regressions": 24
+  },
+  {
+    "candidate": "last",
+    "variant": "scale_fastcal",
+    "reference": "expanded_history",
+    "baseline_variant": "memory_dynamic",
+    "wins": 63,
+    "ties": 0,
+    "regressions": 33
+  },
+  {
+    "candidate": "last",
+    "variant": "scale_fastcal",
+    "reference": "core_separate_all",
+    "baseline_variant": "scale_fastcal",
+    "wins": 65,
+    "ties": 0,
+    "regressions": 31
+  },
+  {
+    "candidate": "last",
+    "variant": "scale_fastcal",
+    "reference": "core_separate_all",
+    "baseline_variant": "memory_dynamic",
+    "wins": 60,
+    "ties": 0,
+    "regressions": 36
+  },
+  {
+    "candidate": "last",
+    "variant": "scale_fastcal",
+    "reference": "core_history_old",
+    "baseline_variant": "memory_dynamic",
+    "wins": 59,
+    "ties": 0,
+    "regressions": 37
+  },
+  {
+    "candidate": "last",
+    "variant": "scale_fastcal",
+    "reference": "core_history_old",
+    "baseline_variant": "scale_fastcal",
+    "wins": 66,
+    "ties": 0,
+    "regressions": 30
+  },
+  {
+    "candidate": "last",
+    "variant": "scale_fastcal",
+    "reference": "core_history_all",
+    "baseline_variant": "memory_dynamic",
+    "wins": 58,
+    "ties": 0,
+    "regressions": 38
+  },
+  {
+    "candidate": "last",
+    "variant": "scale_fastcal",
+    "reference": "core_history_all",
+    "baseline_variant": "scale_fastcal",
+    "wins": 65,
+    "ties": 0,
+    "regressions": 31
+  },
+  {
+    "candidate": "last",
+    "variant": "scale_fastcal",
+    "reference": "core_history_old",
+    "baseline_variant": "context",
+    "wins": 60,
+    "ties": 0,
+    "regressions": 36
+  },
+  {
+    "candidate": "last",
+    "variant": "scale_fastcal",
+    "reference": "core_separate_all",
+    "baseline_variant": "context",
+    "wins": 67,
+    "ties": 0,
+    "regressions": 29
+  },
+  {
+    "candidate": "last",
+    "variant": "scale_fastcal",
+    "reference": "core_separate_all",
+    "baseline_variant": "ordinary_mse",
+    "wins": 67,
+    "ties": 0,
+    "regressions": 29
+  },
+  {
+    "candidate": "last",
+    "variant": "scale_fastcal",
+    "reference": "core_separate_all",
+    "baseline_variant": "interval_score",
+    "wins": 66,
+    "ties": 0,
+    "regressions": 30
+  },
+  {
+    "candidate": "last",
+    "variant": "scale_fastcal",
+    "reference": "core_separate_all",
+    "baseline_variant": "raw_context",
+    "wins": 67,
+    "ties": 0,
+    "regressions": 29
+  },
+  {
+    "candidate": "last",
+    "variant": "scale_fastcal",
+    "reference": "core_separate_all",
+    "baseline_variant": "unrestricted_ordinary",
+    "wins": 67,
+    "ties": 0,
+    "regressions": 29
+  },
+  {
+    "candidate": "last",
+    "variant": "scale_fastcal",
+    "reference": "core_separate_all",
+    "baseline_variant": "unrestricted_score",
+    "wins": 72,
+    "ties": 0,
+    "regressions": 24
+  },
+  {
+    "candidate": "last",
+    "variant": "scale_fastcal",
+    "reference": "core_history_old",
+    "baseline_variant": "ordinary_mse",
+    "wins": 58,
+    "ties": 0,
+    "regressions": 38
+  },
+  {
+    "candidate": "last",
+    "variant": "scale_fastcal",
+    "reference": "core_history_old",
+    "baseline_variant": "interval_score",
+    "wins": 59,
+    "ties": 0,
+    "regressions": 37
+  },
+  {
+    "candidate": "last",
+    "variant": "scale_fastcal",
+    "reference": "core_history_old",
+    "baseline_variant": "raw_context",
+    "wins": 60,
+    "ties": 0,
+    "regressions": 36
+  },
+  {
+    "candidate": "last",
+    "variant": "scale_fastcal",
+    "reference": "core_history_old",
+    "baseline_variant": "unrestricted_ordinary",
+    "wins": 55,
+    "ties": 0,
+    "regressions": 41
+  },
+  {
+    "candidate": "last",
+    "variant": "scale_fastcal",
+    "reference": "core_history_old",
+    "baseline_variant": "unrestricted_score",
+    "wins": 60,
+    "ties": 0,
+    "regressions": 36
+  },
+  {
+    "candidate": "last",
+    "variant": "scale_fastcal",
+    "reference": "core_separate_all",
+    "baseline_variant": "effective_context",
+    "wins": 66,
+    "ties": 0,
+    "regressions": 30
+  },
+  {
+    "candidate": "last",
+    "variant": "scale_fastcal",
+    "reference": "expanded_rich",
+    "baseline_variant": "memory_dynamic",
+    "wins": 79,
+    "ties": 0,
+    "regressions": 17
+  },
+  {
+    "candidate": "last",
+    "variant": "scale_fastcal",
+    "reference": "expanded_rich",
+    "baseline_variant": "scale_fastcal",
+    "wins": 81,
+    "ties": 0,
+    "regressions": 15
+  },
+  {
+    "candidate": "last",
+    "variant": "scale_fastcal",
+    "reference": "frozen_rich",
+    "baseline_variant": "memory_dynamic",
+    "wins": 79,
+    "ties": 0,
+    "regressions": 17
+  },
+  {
+    "candidate": "last",
+    "variant": "scale_fastcal",
+    "reference": "frozen_rich",
+    "baseline_variant": "scale_fastcal",
+    "wins": 81,
+    "ties": 0,
+    "regressions": 15
+  },
+  {
+    "candidate": "last",
+    "variant": "scale_fastcal",
+    "reference": "none",
+    "baseline_variant": "memory_dynamic",
+    "wins": 51,
+    "ties": 0,
+    "regressions": 45
+  },
+  {
+    "candidate": "last",
+    "variant": "scale_fastcal",
+    "reference": "none",
+    "baseline_variant": "scale_fastcal",
+    "wins": 77,
+    "ties": 0,
+    "regressions": 19
+  },
+  {
+    "candidate": "last",
+    "variant": "scale_fastcal",
+    "reference": "last",
+    "baseline_variant": "memory_dynamic",
+    "wins": 42,
+    "ties": 0,
+    "regressions": 54
+  },
+  {
+    "candidate": "last",
+    "variant": "scale_fastcal",
+    "reference": "last",
+    "baseline_variant": "scale_fastcal",
+    "wins": 0,
+    "ties": 96,
+    "regressions": 0
+  },
+  {
+    "candidate": "last",
+    "variant": "scale_fastcal",
+    "reference": "mean",
+    "baseline_variant": "memory_dynamic",
+    "wins": 42,
+    "ties": 0,
+    "regressions": 54
+  },
+  {
+    "candidate": "last",
+    "variant": "scale_fastcal",
+    "reference": "mean",
+    "baseline_variant": "scale_fastcal",
+    "wins": 44,
+    "ties": 0,
+    "regressions": 52
+  },
+  {
+    "candidate": "last",
+    "variant": "scale_fastcal",
+    "reference": "full",
+    "baseline_variant": "memory_dynamic",
+    "wins": 43,
+    "ties": 0,
+    "regressions": 53
+  },
+  {
+    "candidate": "last",
+    "variant": "scale_fastcal",
+    "reference": "full",
+    "baseline_variant": "scale_fastcal",
+    "wins": 42,
+    "ties": 0,
+    "regressions": 54
+  },
+  {
+    "candidate": "mean",
+    "variant": "memory_dynamic",
+    "reference": "previous_2d",
+    "baseline_variant": "global_smooth",
+    "wins": 90,
+    "ties": 0,
+    "regressions": 6
+  },
+  {
+    "candidate": "mean",
+    "variant": "memory_dynamic",
+    "reference": "separate_tails",
+    "baseline_variant": "scale_fastcal",
+    "wins": 58,
+    "ties": 0,
+    "regressions": 38
+  },
+  {
+    "candidate": "mean",
+    "variant": "memory_dynamic",
+    "reference": "tied_tails",
+    "baseline_variant": "scale_fastcal",
+    "wins": 57,
+    "ties": 0,
+    "regressions": 39
+  },
+  {
+    "candidate": "mean",
+    "variant": "memory_dynamic",
+    "reference": "tied_tails",
+    "baseline_variant": "memory_dynamic",
+    "wins": 68,
+    "ties": 0,
+    "regressions": 28
+  },
+  {
+    "candidate": "mean",
+    "variant": "memory_dynamic",
+    "reference": "asym_history",
+    "baseline_variant": "memory_dynamic",
+    "wins": 72,
+    "ties": 0,
+    "regressions": 24
+  },
+  {
+    "candidate": "mean",
+    "variant": "memory_dynamic",
+    "reference": "denoising_change",
+    "baseline_variant": "memory_dynamic",
+    "wins": 66,
+    "ties": 0,
+    "regressions": 30
+  },
+  {
+    "candidate": "mean",
+    "variant": "memory_dynamic",
+    "reference": "expanded_separate",
+    "baseline_variant": "scale_fastcal",
+    "wins": 62,
+    "ties": 0,
+    "regressions": 34
+  },
+  {
+    "candidate": "mean",
+    "variant": "memory_dynamic",
+    "reference": "expanded_history",
+    "baseline_variant": "memory_dynamic",
+    "wins": 71,
+    "ties": 0,
+    "regressions": 25
+  },
+  {
+    "candidate": "mean",
+    "variant": "memory_dynamic",
+    "reference": "core_separate_all",
+    "baseline_variant": "scale_fastcal",
+    "wins": 56,
+    "ties": 0,
+    "regressions": 40
+  },
+  {
+    "candidate": "mean",
+    "variant": "memory_dynamic",
+    "reference": "core_separate_all",
+    "baseline_variant": "memory_dynamic",
+    "wins": 66,
+    "ties": 0,
+    "regressions": 30
+  },
+  {
+    "candidate": "mean",
+    "variant": "memory_dynamic",
+    "reference": "core_history_old",
+    "baseline_variant": "memory_dynamic",
+    "wins": 64,
+    "ties": 0,
+    "regressions": 32
+  },
+  {
+    "candidate": "mean",
+    "variant": "memory_dynamic",
+    "reference": "core_history_old",
+    "baseline_variant": "scale_fastcal",
+    "wins": 57,
+    "ties": 0,
+    "regressions": 39
+  },
+  {
+    "candidate": "mean",
+    "variant": "memory_dynamic",
+    "reference": "core_history_all",
+    "baseline_variant": "memory_dynamic",
+    "wins": 60,
+    "ties": 0,
+    "regressions": 36
+  },
+  {
+    "candidate": "mean",
+    "variant": "memory_dynamic",
+    "reference": "core_history_all",
+    "baseline_variant": "scale_fastcal",
+    "wins": 58,
+    "ties": 0,
+    "regressions": 38
+  },
+  {
+    "candidate": "mean",
+    "variant": "memory_dynamic",
+    "reference": "core_history_old",
+    "baseline_variant": "context",
+    "wins": 60,
+    "ties": 0,
+    "regressions": 36
+  },
+  {
+    "candidate": "mean",
+    "variant": "memory_dynamic",
+    "reference": "core_separate_all",
+    "baseline_variant": "context",
+    "wins": 57,
+    "ties": 0,
+    "regressions": 39
+  },
+  {
+    "candidate": "mean",
+    "variant": "memory_dynamic",
+    "reference": "core_separate_all",
+    "baseline_variant": "ordinary_mse",
+    "wins": 55,
+    "ties": 0,
+    "regressions": 41
+  },
+  {
+    "candidate": "mean",
+    "variant": "memory_dynamic",
+    "reference": "core_separate_all",
+    "baseline_variant": "interval_score",
+    "wins": 55,
+    "ties": 0,
+    "regressions": 41
+  },
+  {
+    "candidate": "mean",
+    "variant": "memory_dynamic",
+    "reference": "core_separate_all",
+    "baseline_variant": "raw_context",
+    "wins": 57,
+    "ties": 0,
+    "regressions": 39
+  },
+  {
+    "candidate": "mean",
+    "variant": "memory_dynamic",
+    "reference": "core_separate_all",
+    "baseline_variant": "unrestricted_ordinary",
+    "wins": 55,
+    "ties": 0,
+    "regressions": 41
+  },
+  {
+    "candidate": "mean",
+    "variant": "memory_dynamic",
+    "reference": "core_separate_all",
+    "baseline_variant": "unrestricted_score",
+    "wins": 62,
+    "ties": 0,
+    "regressions": 34
+  },
+  {
+    "candidate": "mean",
+    "variant": "memory_dynamic",
+    "reference": "core_history_old",
+    "baseline_variant": "ordinary_mse",
+    "wins": 60,
+    "ties": 0,
+    "regressions": 36
+  },
+  {
+    "candidate": "mean",
+    "variant": "memory_dynamic",
+    "reference": "core_history_old",
+    "baseline_variant": "interval_score",
+    "wins": 59,
+    "ties": 0,
+    "regressions": 37
+  },
+  {
+    "candidate": "mean",
+    "variant": "memory_dynamic",
+    "reference": "core_history_old",
+    "baseline_variant": "raw_context",
+    "wins": 60,
+    "ties": 0,
+    "regressions": 36
+  },
+  {
+    "candidate": "mean",
+    "variant": "memory_dynamic",
+    "reference": "core_history_old",
+    "baseline_variant": "unrestricted_ordinary",
+    "wins": 49,
+    "ties": 0,
+    "regressions": 47
+  },
+  {
+    "candidate": "mean",
+    "variant": "memory_dynamic",
+    "reference": "core_history_old",
+    "baseline_variant": "unrestricted_score",
+    "wins": 63,
+    "ties": 0,
+    "regressions": 33
+  },
+  {
+    "candidate": "mean",
+    "variant": "memory_dynamic",
+    "reference": "core_separate_all",
+    "baseline_variant": "effective_context",
+    "wins": 57,
+    "ties": 0,
+    "regressions": 39
+  },
+  {
+    "candidate": "mean",
+    "variant": "memory_dynamic",
+    "reference": "expanded_rich",
+    "baseline_variant": "memory_dynamic",
+    "wins": 84,
+    "ties": 0,
+    "regressions": 12
+  },
+  {
+    "candidate": "mean",
+    "variant": "memory_dynamic",
+    "reference": "expanded_rich",
+    "baseline_variant": "scale_fastcal",
+    "wins": 68,
+    "ties": 0,
+    "regressions": 28
+  },
+  {
+    "candidate": "mean",
+    "variant": "memory_dynamic",
+    "reference": "frozen_rich",
+    "baseline_variant": "memory_dynamic",
+    "wins": 84,
+    "ties": 0,
+    "regressions": 12
+  },
+  {
+    "candidate": "mean",
+    "variant": "memory_dynamic",
+    "reference": "frozen_rich",
+    "baseline_variant": "scale_fastcal",
+    "wins": 68,
+    "ties": 0,
+    "regressions": 28
+  },
+  {
+    "candidate": "mean",
+    "variant": "memory_dynamic",
+    "reference": "none",
+    "baseline_variant": "memory_dynamic",
+    "wins": 79,
+    "ties": 0,
+    "regressions": 17
+  },
+  {
+    "candidate": "mean",
+    "variant": "memory_dynamic",
+    "reference": "none",
+    "baseline_variant": "scale_fastcal",
+    "wins": 55,
+    "ties": 0,
+    "regressions": 41
+  },
+  {
+    "candidate": "mean",
+    "variant": "memory_dynamic",
+    "reference": "last",
+    "baseline_variant": "memory_dynamic",
+    "wins": 48,
+    "ties": 0,
+    "regressions": 48
+  },
+  {
+    "candidate": "mean",
+    "variant": "memory_dynamic",
+    "reference": "last",
+    "baseline_variant": "scale_fastcal",
+    "wins": 54,
+    "ties": 0,
+    "regressions": 42
+  },
+  {
+    "candidate": "mean",
+    "variant": "memory_dynamic",
+    "reference": "mean",
+    "baseline_variant": "memory_dynamic",
+    "wins": 0,
+    "ties": 96,
+    "regressions": 0
+  },
+  {
+    "candidate": "mean",
+    "variant": "memory_dynamic",
+    "reference": "mean",
+    "baseline_variant": "scale_fastcal",
+    "wins": 54,
+    "ties": 0,
+    "regressions": 42
+  },
+  {
+    "candidate": "mean",
+    "variant": "memory_dynamic",
+    "reference": "full",
+    "baseline_variant": "memory_dynamic",
+    "wins": 29,
+    "ties": 4,
+    "regressions": 63
+  },
+  {
+    "candidate": "mean",
+    "variant": "memory_dynamic",
+    "reference": "full",
+    "baseline_variant": "scale_fastcal",
+    "wins": 55,
+    "ties": 0,
+    "regressions": 41
+  },
+  {
+    "candidate": "mean",
+    "variant": "scale_fastcal",
+    "reference": "previous_2d",
+    "baseline_variant": "global_smooth",
+    "wins": 92,
+    "ties": 0,
+    "regressions": 4
+  },
+  {
+    "candidate": "mean",
+    "variant": "scale_fastcal",
+    "reference": "separate_tails",
+    "baseline_variant": "scale_fastcal",
+    "wins": 71,
+    "ties": 0,
+    "regressions": 25
+  },
+  {
+    "candidate": "mean",
+    "variant": "scale_fastcal",
+    "reference": "tied_tails",
+    "baseline_variant": "scale_fastcal",
+    "wins": 71,
+    "ties": 0,
+    "regressions": 25
+  },
+  {
+    "candidate": "mean",
+    "variant": "scale_fastcal",
+    "reference": "tied_tails",
+    "baseline_variant": "memory_dynamic",
+    "wins": 59,
+    "ties": 0,
+    "regressions": 37
+  },
+  {
+    "candidate": "mean",
+    "variant": "scale_fastcal",
+    "reference": "asym_history",
+    "baseline_variant": "memory_dynamic",
+    "wins": 64,
+    "ties": 0,
+    "regressions": 32
+  },
+  {
+    "candidate": "mean",
+    "variant": "scale_fastcal",
+    "reference": "denoising_change",
+    "baseline_variant": "memory_dynamic",
+    "wins": 60,
+    "ties": 0,
+    "regressions": 36
+  },
+  {
+    "candidate": "mean",
+    "variant": "scale_fastcal",
+    "reference": "expanded_separate",
+    "baseline_variant": "scale_fastcal",
+    "wins": 72,
+    "ties": 0,
+    "regressions": 24
+  },
+  {
+    "candidate": "mean",
+    "variant": "scale_fastcal",
+    "reference": "expanded_history",
+    "baseline_variant": "memory_dynamic",
+    "wins": 64,
+    "ties": 0,
+    "regressions": 32
+  },
+  {
+    "candidate": "mean",
+    "variant": "scale_fastcal",
+    "reference": "core_separate_all",
+    "baseline_variant": "scale_fastcal",
+    "wins": 66,
+    "ties": 0,
+    "regressions": 30
+  },
+  {
+    "candidate": "mean",
+    "variant": "scale_fastcal",
+    "reference": "core_separate_all",
+    "baseline_variant": "memory_dynamic",
+    "wins": 63,
+    "ties": 0,
+    "regressions": 33
+  },
+  {
+    "candidate": "mean",
+    "variant": "scale_fastcal",
+    "reference": "core_history_old",
+    "baseline_variant": "memory_dynamic",
+    "wins": 61,
+    "ties": 0,
+    "regressions": 35
+  },
+  {
+    "candidate": "mean",
+    "variant": "scale_fastcal",
+    "reference": "core_history_old",
+    "baseline_variant": "scale_fastcal",
+    "wins": 67,
+    "ties": 0,
+    "regressions": 29
+  },
+  {
+    "candidate": "mean",
+    "variant": "scale_fastcal",
+    "reference": "core_history_all",
+    "baseline_variant": "memory_dynamic",
+    "wins": 57,
+    "ties": 0,
+    "regressions": 39
+  },
+  {
+    "candidate": "mean",
+    "variant": "scale_fastcal",
+    "reference": "core_history_all",
+    "baseline_variant": "scale_fastcal",
+    "wins": 66,
+    "ties": 0,
+    "regressions": 30
+  },
+  {
+    "candidate": "mean",
+    "variant": "scale_fastcal",
+    "reference": "core_history_old",
+    "baseline_variant": "context",
+    "wins": 61,
+    "ties": 0,
+    "regressions": 35
+  },
+  {
+    "candidate": "mean",
+    "variant": "scale_fastcal",
+    "reference": "core_separate_all",
+    "baseline_variant": "context",
+    "wins": 69,
+    "ties": 0,
+    "regressions": 27
+  },
+  {
+    "candidate": "mean",
+    "variant": "scale_fastcal",
+    "reference": "core_separate_all",
+    "baseline_variant": "ordinary_mse",
+    "wins": 66,
+    "ties": 0,
+    "regressions": 30
+  },
+  {
+    "candidate": "mean",
+    "variant": "scale_fastcal",
+    "reference": "core_separate_all",
+    "baseline_variant": "interval_score",
+    "wins": 68,
+    "ties": 0,
+    "regressions": 28
+  },
+  {
+    "candidate": "mean",
+    "variant": "scale_fastcal",
+    "reference": "core_separate_all",
+    "baseline_variant": "raw_context",
+    "wins": 69,
+    "ties": 0,
+    "regressions": 27
+  },
+  {
+    "candidate": "mean",
+    "variant": "scale_fastcal",
+    "reference": "core_separate_all",
+    "baseline_variant": "unrestricted_ordinary",
+    "wins": 67,
+    "ties": 0,
+    "regressions": 29
+  },
+  {
+    "candidate": "mean",
+    "variant": "scale_fastcal",
+    "reference": "core_separate_all",
+    "baseline_variant": "unrestricted_score",
+    "wins": 71,
+    "ties": 0,
+    "regressions": 25
+  },
+  {
+    "candidate": "mean",
+    "variant": "scale_fastcal",
+    "reference": "core_history_old",
+    "baseline_variant": "ordinary_mse",
+    "wins": 60,
+    "ties": 0,
+    "regressions": 36
+  },
+  {
+    "candidate": "mean",
+    "variant": "scale_fastcal",
+    "reference": "core_history_old",
+    "baseline_variant": "interval_score",
+    "wins": 60,
+    "ties": 0,
+    "regressions": 36
+  },
+  {
+    "candidate": "mean",
+    "variant": "scale_fastcal",
+    "reference": "core_history_old",
+    "baseline_variant": "raw_context",
+    "wins": 61,
+    "ties": 0,
+    "regressions": 35
+  },
+  {
+    "candidate": "mean",
+    "variant": "scale_fastcal",
+    "reference": "core_history_old",
+    "baseline_variant": "unrestricted_ordinary",
+    "wins": 58,
+    "ties": 0,
+    "regressions": 38
+  },
+  {
+    "candidate": "mean",
+    "variant": "scale_fastcal",
+    "reference": "core_history_old",
+    "baseline_variant": "unrestricted_score",
+    "wins": 62,
+    "ties": 0,
+    "regressions": 34
+  },
+  {
+    "candidate": "mean",
+    "variant": "scale_fastcal",
+    "reference": "core_separate_all",
+    "baseline_variant": "effective_context",
+    "wins": 67,
+    "ties": 0,
+    "regressions": 29
+  },
+  {
+    "candidate": "mean",
+    "variant": "scale_fastcal",
+    "reference": "expanded_rich",
+    "baseline_variant": "memory_dynamic",
+    "wins": 81,
+    "ties": 0,
+    "regressions": 15
+  },
+  {
+    "candidate": "mean",
+    "variant": "scale_fastcal",
+    "reference": "expanded_rich",
+    "baseline_variant": "scale_fastcal",
+    "wins": 81,
+    "ties": 0,
+    "regressions": 15
+  },
+  {
+    "candidate": "mean",
+    "variant": "scale_fastcal",
+    "reference": "frozen_rich",
+    "baseline_variant": "memory_dynamic",
+    "wins": 81,
+    "ties": 0,
+    "regressions": 15
+  },
+  {
+    "candidate": "mean",
+    "variant": "scale_fastcal",
+    "reference": "frozen_rich",
+    "baseline_variant": "scale_fastcal",
+    "wins": 81,
+    "ties": 0,
+    "regressions": 15
+  },
+  {
+    "candidate": "mean",
+    "variant": "scale_fastcal",
+    "reference": "none",
+    "baseline_variant": "memory_dynamic",
+    "wins": 51,
+    "ties": 0,
+    "regressions": 45
+  },
+  {
+    "candidate": "mean",
+    "variant": "scale_fastcal",
+    "reference": "none",
+    "baseline_variant": "scale_fastcal",
+    "wins": 74,
+    "ties": 0,
+    "regressions": 22
+  },
+  {
+    "candidate": "mean",
+    "variant": "scale_fastcal",
+    "reference": "last",
+    "baseline_variant": "memory_dynamic",
+    "wins": 41,
+    "ties": 0,
+    "regressions": 55
+  },
+  {
+    "candidate": "mean",
+    "variant": "scale_fastcal",
+    "reference": "last",
+    "baseline_variant": "scale_fastcal",
+    "wins": 52,
+    "ties": 0,
+    "regressions": 44
+  },
+  {
+    "candidate": "mean",
+    "variant": "scale_fastcal",
+    "reference": "mean",
+    "baseline_variant": "memory_dynamic",
+    "wins": 42,
+    "ties": 0,
+    "regressions": 54
+  },
+  {
+    "candidate": "mean",
+    "variant": "scale_fastcal",
+    "reference": "mean",
+    "baseline_variant": "scale_fastcal",
+    "wins": 0,
+    "ties": 96,
+    "regressions": 0
+  },
+  {
+    "candidate": "mean",
+    "variant": "scale_fastcal",
+    "reference": "full",
+    "baseline_variant": "memory_dynamic",
+    "wins": 42,
+    "ties": 0,
+    "regressions": 54
+  },
+  {
+    "candidate": "mean",
+    "variant": "scale_fastcal",
+    "reference": "full",
+    "baseline_variant": "scale_fastcal",
+    "wins": 31,
+    "ties": 3,
+    "regressions": 62
+  },
+  {
+    "candidate": "full",
+    "variant": "memory_dynamic",
+    "reference": "previous_2d",
+    "baseline_variant": "global_smooth",
+    "wins": 91,
+    "ties": 0,
+    "regressions": 5
+  },
+  {
+    "candidate": "full",
+    "variant": "memory_dynamic",
+    "reference": "separate_tails",
+    "baseline_variant": "scale_fastcal",
+    "wins": 58,
+    "ties": 0,
+    "regressions": 38
+  },
+  {
+    "candidate": "full",
+    "variant": "memory_dynamic",
+    "reference": "tied_tails",
+    "baseline_variant": "scale_fastcal",
+    "wins": 58,
+    "ties": 0,
+    "regressions": 38
+  },
+  {
+    "candidate": "full",
+    "variant": "memory_dynamic",
+    "reference": "tied_tails",
+    "baseline_variant": "memory_dynamic",
+    "wins": 68,
+    "ties": 1,
+    "regressions": 27
+  },
+  {
+    "candidate": "full",
+    "variant": "memory_dynamic",
+    "reference": "asym_history",
+    "baseline_variant": "memory_dynamic",
+    "wins": 72,
+    "ties": 0,
+    "regressions": 24
+  },
+  {
+    "candidate": "full",
+    "variant": "memory_dynamic",
+    "reference": "denoising_change",
+    "baseline_variant": "memory_dynamic",
+    "wins": 66,
+    "ties": 0,
+    "regressions": 30
+  },
+  {
+    "candidate": "full",
+    "variant": "memory_dynamic",
+    "reference": "expanded_separate",
+    "baseline_variant": "scale_fastcal",
+    "wins": 62,
+    "ties": 0,
+    "regressions": 34
+  },
+  {
+    "candidate": "full",
+    "variant": "memory_dynamic",
+    "reference": "expanded_history",
+    "baseline_variant": "memory_dynamic",
+    "wins": 71,
+    "ties": 0,
+    "regressions": 25
+  },
+  {
+    "candidate": "full",
+    "variant": "memory_dynamic",
+    "reference": "core_separate_all",
+    "baseline_variant": "scale_fastcal",
+    "wins": 55,
+    "ties": 1,
+    "regressions": 40
+  },
+  {
+    "candidate": "full",
+    "variant": "memory_dynamic",
+    "reference": "core_separate_all",
+    "baseline_variant": "memory_dynamic",
+    "wins": 65,
+    "ties": 0,
+    "regressions": 31
+  },
+  {
+    "candidate": "full",
+    "variant": "memory_dynamic",
+    "reference": "core_history_old",
+    "baseline_variant": "memory_dynamic",
+    "wins": 64,
+    "ties": 0,
+    "regressions": 32
+  },
+  {
+    "candidate": "full",
+    "variant": "memory_dynamic",
+    "reference": "core_history_old",
+    "baseline_variant": "scale_fastcal",
+    "wins": 58,
+    "ties": 0,
+    "regressions": 38
+  },
+  {
+    "candidate": "full",
+    "variant": "memory_dynamic",
+    "reference": "core_history_all",
+    "baseline_variant": "memory_dynamic",
+    "wins": 61,
+    "ties": 0,
+    "regressions": 35
+  },
+  {
+    "candidate": "full",
+    "variant": "memory_dynamic",
+    "reference": "core_history_all",
+    "baseline_variant": "scale_fastcal",
+    "wins": 58,
+    "ties": 0,
+    "regressions": 38
+  },
+  {
+    "candidate": "full",
+    "variant": "memory_dynamic",
+    "reference": "core_history_old",
+    "baseline_variant": "context",
+    "wins": 60,
+    "ties": 0,
+    "regressions": 36
+  },
+  {
+    "candidate": "full",
+    "variant": "memory_dynamic",
+    "reference": "core_separate_all",
+    "baseline_variant": "context",
+    "wins": 57,
+    "ties": 1,
+    "regressions": 38
+  },
+  {
+    "candidate": "full",
+    "variant": "memory_dynamic",
+    "reference": "core_separate_all",
+    "baseline_variant": "ordinary_mse",
+    "wins": 55,
+    "ties": 1,
+    "regressions": 40
+  },
+  {
+    "candidate": "full",
+    "variant": "memory_dynamic",
+    "reference": "core_separate_all",
+    "baseline_variant": "interval_score",
+    "wins": 55,
+    "ties": 1,
+    "regressions": 40
+  },
+  {
+    "candidate": "full",
+    "variant": "memory_dynamic",
+    "reference": "core_separate_all",
+    "baseline_variant": "raw_context",
+    "wins": 57,
+    "ties": 1,
+    "regressions": 38
+  },
+  {
+    "candidate": "full",
+    "variant": "memory_dynamic",
+    "reference": "core_separate_all",
+    "baseline_variant": "unrestricted_ordinary",
+    "wins": 54,
+    "ties": 1,
+    "regressions": 41
+  },
+  {
+    "candidate": "full",
+    "variant": "memory_dynamic",
+    "reference": "core_separate_all",
+    "baseline_variant": "unrestricted_score",
+    "wins": 62,
+    "ties": 1,
+    "regressions": 33
+  },
+  {
+    "candidate": "full",
+    "variant": "memory_dynamic",
+    "reference": "core_history_old",
+    "baseline_variant": "ordinary_mse",
+    "wins": 60,
+    "ties": 0,
+    "regressions": 36
+  },
+  {
+    "candidate": "full",
+    "variant": "memory_dynamic",
+    "reference": "core_history_old",
+    "baseline_variant": "interval_score",
+    "wins": 60,
+    "ties": 0,
+    "regressions": 36
+  },
+  {
+    "candidate": "full",
+    "variant": "memory_dynamic",
+    "reference": "core_history_old",
+    "baseline_variant": "raw_context",
+    "wins": 60,
+    "ties": 0,
+    "regressions": 36
+  },
+  {
+    "candidate": "full",
+    "variant": "memory_dynamic",
+    "reference": "core_history_old",
+    "baseline_variant": "unrestricted_ordinary",
+    "wins": 49,
+    "ties": 0,
+    "regressions": 47
+  },
+  {
+    "candidate": "full",
+    "variant": "memory_dynamic",
+    "reference": "core_history_old",
+    "baseline_variant": "unrestricted_score",
+    "wins": 63,
+    "ties": 0,
+    "regressions": 33
+  },
+  {
+    "candidate": "full",
+    "variant": "memory_dynamic",
+    "reference": "core_separate_all",
+    "baseline_variant": "effective_context",
+    "wins": 56,
+    "ties": 1,
+    "regressions": 39
+  },
+  {
+    "candidate": "full",
+    "variant": "memory_dynamic",
+    "reference": "expanded_rich",
+    "baseline_variant": "memory_dynamic",
+    "wins": 84,
+    "ties": 0,
+    "regressions": 12
+  },
+  {
+    "candidate": "full",
+    "variant": "memory_dynamic",
+    "reference": "expanded_rich",
+    "baseline_variant": "scale_fastcal",
+    "wins": 68,
+    "ties": 0,
+    "regressions": 28
+  },
+  {
+    "candidate": "full",
+    "variant": "memory_dynamic",
+    "reference": "frozen_rich",
+    "baseline_variant": "memory_dynamic",
+    "wins": 84,
+    "ties": 0,
+    "regressions": 12
+  },
+  {
+    "candidate": "full",
+    "variant": "memory_dynamic",
+    "reference": "frozen_rich",
+    "baseline_variant": "scale_fastcal",
+    "wins": 68,
+    "ties": 0,
+    "regressions": 28
+  },
+  {
+    "candidate": "full",
+    "variant": "memory_dynamic",
+    "reference": "none",
+    "baseline_variant": "memory_dynamic",
+    "wins": 77,
+    "ties": 1,
+    "regressions": 18
+  },
+  {
+    "candidate": "full",
+    "variant": "memory_dynamic",
+    "reference": "none",
+    "baseline_variant": "scale_fastcal",
+    "wins": 55,
+    "ties": 0,
+    "regressions": 41
+  },
+  {
+    "candidate": "full",
+    "variant": "memory_dynamic",
+    "reference": "last",
+    "baseline_variant": "memory_dynamic",
+    "wins": 47,
+    "ties": 0,
+    "regressions": 49
+  },
+  {
+    "candidate": "full",
+    "variant": "memory_dynamic",
+    "reference": "last",
+    "baseline_variant": "scale_fastcal",
+    "wins": 53,
+    "ties": 0,
+    "regressions": 43
+  },
+  {
+    "candidate": "full",
+    "variant": "memory_dynamic",
+    "reference": "mean",
+    "baseline_variant": "memory_dynamic",
+    "wins": 63,
+    "ties": 4,
+    "regressions": 29
+  },
+  {
+    "candidate": "full",
+    "variant": "memory_dynamic",
+    "reference": "mean",
+    "baseline_variant": "scale_fastcal",
+    "wins": 54,
+    "ties": 0,
+    "regressions": 42
+  },
+  {
+    "candidate": "full",
+    "variant": "memory_dynamic",
+    "reference": "full",
+    "baseline_variant": "memory_dynamic",
+    "wins": 0,
+    "ties": 96,
+    "regressions": 0
+  },
+  {
+    "candidate": "full",
+    "variant": "memory_dynamic",
+    "reference": "full",
+    "baseline_variant": "scale_fastcal",
+    "wins": 54,
+    "ties": 0,
+    "regressions": 42
+  },
+  {
+    "candidate": "full",
+    "variant": "scale_fastcal",
+    "reference": "previous_2d",
+    "baseline_variant": "global_smooth",
+    "wins": 92,
+    "ties": 0,
+    "regressions": 4
+  },
+  {
+    "candidate": "full",
+    "variant": "scale_fastcal",
+    "reference": "separate_tails",
+    "baseline_variant": "scale_fastcal",
+    "wins": 71,
+    "ties": 0,
+    "regressions": 25
+  },
+  {
+    "candidate": "full",
+    "variant": "scale_fastcal",
+    "reference": "tied_tails",
+    "baseline_variant": "scale_fastcal",
+    "wins": 71,
+    "ties": 0,
+    "regressions": 25
+  },
+  {
+    "candidate": "full",
+    "variant": "scale_fastcal",
+    "reference": "tied_tails",
+    "baseline_variant": "memory_dynamic",
+    "wins": 59,
+    "ties": 0,
+    "regressions": 37
+  },
+  {
+    "candidate": "full",
+    "variant": "scale_fastcal",
+    "reference": "asym_history",
+    "baseline_variant": "memory_dynamic",
+    "wins": 64,
+    "ties": 0,
+    "regressions": 32
+  },
+  {
+    "candidate": "full",
+    "variant": "scale_fastcal",
+    "reference": "denoising_change",
+    "baseline_variant": "memory_dynamic",
+    "wins": 59,
+    "ties": 0,
+    "regressions": 37
+  },
+  {
+    "candidate": "full",
+    "variant": "scale_fastcal",
+    "reference": "expanded_separate",
+    "baseline_variant": "scale_fastcal",
+    "wins": 73,
+    "ties": 0,
+    "regressions": 23
+  },
+  {
+    "candidate": "full",
+    "variant": "scale_fastcal",
+    "reference": "expanded_history",
+    "baseline_variant": "memory_dynamic",
+    "wins": 64,
+    "ties": 0,
+    "regressions": 32
+  },
+  {
+    "candidate": "full",
+    "variant": "scale_fastcal",
+    "reference": "core_separate_all",
+    "baseline_variant": "scale_fastcal",
+    "wins": 67,
+    "ties": 0,
+    "regressions": 29
+  },
+  {
+    "candidate": "full",
+    "variant": "scale_fastcal",
+    "reference": "core_separate_all",
+    "baseline_variant": "memory_dynamic",
+    "wins": 63,
+    "ties": 0,
+    "regressions": 33
+  },
+  {
+    "candidate": "full",
+    "variant": "scale_fastcal",
+    "reference": "core_history_old",
+    "baseline_variant": "memory_dynamic",
+    "wins": 61,
+    "ties": 0,
+    "regressions": 35
+  },
+  {
+    "candidate": "full",
+    "variant": "scale_fastcal",
+    "reference": "core_history_old",
+    "baseline_variant": "scale_fastcal",
+    "wins": 68,
+    "ties": 0,
+    "regressions": 28
+  },
+  {
+    "candidate": "full",
+    "variant": "scale_fastcal",
+    "reference": "core_history_all",
+    "baseline_variant": "memory_dynamic",
+    "wins": 57,
+    "ties": 0,
+    "regressions": 39
+  },
+  {
+    "candidate": "full",
+    "variant": "scale_fastcal",
+    "reference": "core_history_all",
+    "baseline_variant": "scale_fastcal",
+    "wins": 66,
+    "ties": 0,
+    "regressions": 30
+  },
+  {
+    "candidate": "full",
+    "variant": "scale_fastcal",
+    "reference": "core_history_old",
+    "baseline_variant": "context",
+    "wins": 61,
+    "ties": 0,
+    "regressions": 35
+  },
+  {
+    "candidate": "full",
+    "variant": "scale_fastcal",
+    "reference": "core_separate_all",
+    "baseline_variant": "context",
+    "wins": 69,
+    "ties": 0,
+    "regressions": 27
+  },
+  {
+    "candidate": "full",
+    "variant": "scale_fastcal",
+    "reference": "core_separate_all",
+    "baseline_variant": "ordinary_mse",
+    "wins": 66,
+    "ties": 0,
+    "regressions": 30
+  },
+  {
+    "candidate": "full",
+    "variant": "scale_fastcal",
+    "reference": "core_separate_all",
+    "baseline_variant": "interval_score",
+    "wins": 68,
+    "ties": 0,
+    "regressions": 28
+  },
+  {
+    "candidate": "full",
+    "variant": "scale_fastcal",
+    "reference": "core_separate_all",
+    "baseline_variant": "raw_context",
+    "wins": 69,
+    "ties": 0,
+    "regressions": 27
+  },
+  {
+    "candidate": "full",
+    "variant": "scale_fastcal",
+    "reference": "core_separate_all",
+    "baseline_variant": "unrestricted_ordinary",
+    "wins": 67,
+    "ties": 0,
+    "regressions": 29
+  },
+  {
+    "candidate": "full",
+    "variant": "scale_fastcal",
+    "reference": "core_separate_all",
+    "baseline_variant": "unrestricted_score",
+    "wins": 71,
+    "ties": 0,
+    "regressions": 25
+  },
+  {
+    "candidate": "full",
+    "variant": "scale_fastcal",
+    "reference": "core_history_old",
+    "baseline_variant": "ordinary_mse",
+    "wins": 60,
+    "ties": 0,
+    "regressions": 36
+  },
+  {
+    "candidate": "full",
+    "variant": "scale_fastcal",
+    "reference": "core_history_old",
+    "baseline_variant": "interval_score",
+    "wins": 60,
+    "ties": 0,
+    "regressions": 36
+  },
+  {
+    "candidate": "full",
+    "variant": "scale_fastcal",
+    "reference": "core_history_old",
+    "baseline_variant": "raw_context",
+    "wins": 61,
+    "ties": 0,
+    "regressions": 35
+  },
+  {
+    "candidate": "full",
+    "variant": "scale_fastcal",
+    "reference": "core_history_old",
+    "baseline_variant": "unrestricted_ordinary",
+    "wins": 58,
+    "ties": 0,
+    "regressions": 38
+  },
+  {
+    "candidate": "full",
+    "variant": "scale_fastcal",
+    "reference": "core_history_old",
+    "baseline_variant": "unrestricted_score",
+    "wins": 61,
+    "ties": 0,
+    "regressions": 35
+  },
+  {
+    "candidate": "full",
+    "variant": "scale_fastcal",
+    "reference": "core_separate_all",
+    "baseline_variant": "effective_context",
+    "wins": 66,
+    "ties": 0,
+    "regressions": 30
+  },
+  {
+    "candidate": "full",
+    "variant": "scale_fastcal",
+    "reference": "expanded_rich",
+    "baseline_variant": "memory_dynamic",
+    "wins": 81,
+    "ties": 0,
+    "regressions": 15
+  },
+  {
+    "candidate": "full",
+    "variant": "scale_fastcal",
+    "reference": "expanded_rich",
+    "baseline_variant": "scale_fastcal",
+    "wins": 81,
+    "ties": 0,
+    "regressions": 15
+  },
+  {
+    "candidate": "full",
+    "variant": "scale_fastcal",
+    "reference": "frozen_rich",
+    "baseline_variant": "memory_dynamic",
+    "wins": 81,
+    "ties": 0,
+    "regressions": 15
+  },
+  {
+    "candidate": "full",
+    "variant": "scale_fastcal",
+    "reference": "frozen_rich",
+    "baseline_variant": "scale_fastcal",
+    "wins": 81,
+    "ties": 0,
+    "regressions": 15
+  },
+  {
+    "candidate": "full",
+    "variant": "scale_fastcal",
+    "reference": "none",
+    "baseline_variant": "memory_dynamic",
+    "wins": 52,
+    "ties": 0,
+    "regressions": 44
+  },
+  {
+    "candidate": "full",
+    "variant": "scale_fastcal",
+    "reference": "none",
+    "baseline_variant": "scale_fastcal",
+    "wins": 73,
+    "ties": 0,
+    "regressions": 23
+  },
+  {
+    "candidate": "full",
+    "variant": "scale_fastcal",
+    "reference": "last",
+    "baseline_variant": "memory_dynamic",
+    "wins": 41,
+    "ties": 0,
+    "regressions": 55
+  },
+  {
+    "candidate": "full",
+    "variant": "scale_fastcal",
+    "reference": "last",
+    "baseline_variant": "scale_fastcal",
+    "wins": 54,
+    "ties": 0,
+    "regressions": 42
+  },
+  {
+    "candidate": "full",
+    "variant": "scale_fastcal",
+    "reference": "mean",
+    "baseline_variant": "memory_dynamic",
+    "wins": 41,
+    "ties": 0,
+    "regressions": 55
+  },
+  {
+    "candidate": "full",
+    "variant": "scale_fastcal",
+    "reference": "mean",
+    "baseline_variant": "scale_fastcal",
+    "wins": 62,
+    "ties": 3,
+    "regressions": 31
+  },
+  {
+    "candidate": "full",
+    "variant": "scale_fastcal",
+    "reference": "full",
+    "baseline_variant": "memory_dynamic",
+    "wins": 42,
+    "ties": 0,
+    "regressions": 54
+  },
+  {
+    "candidate": "full",
+    "variant": "scale_fastcal",
+    "reference": "full",
+    "baseline_variant": "scale_fastcal",
+    "wins": 0,
+    "ties": 96,
+    "regressions": 0
+  }
+]

@@ -1,0 +1,32 @@
+{
+  "time": 1794265431.776661,
+  "source_sha256": "2a42371c1164768f4ba6690dcdea0ede3ad967175f1a66f14fe7fa9af6a48fd5",
+  "predictor_sha256": "f99b7fdb15219c0df10b8f93647c003379a307d59afb6660eb66d9b2830ffdbd",
+  "artifacts": {
+    "runs/physical20_augmented_dynamics_20261109/augmented_diffusion/model.pt": "f99b7fdb15219c0df10b8f93647c003379a307d59afb6660eb66d9b2830ffdbd",
+    "runs/fullblock_memory_risk_20261109/calibration.pt": "c7739b86432d96a1887815793b7c6ddb8d94b3f0ec31956a75c6b202c6b487bb",
+    "runs/fullblock_temporal_mean_control_20261109/calibration.pt": "c5c3cd34e3f2c8780612652d94baa6766d099f268ef43d9911cffeffff123f23",
+    "runs/fullblock_temporal_mean_control_20261109/mean.pt": "20463b7db74585e210acb5553c61dfc713d90879418e505720e2a605f5a31b19",
+    "runs/fullblock_memory_risk_20261109/none.pt": "b272ba564c0ea84aba1fd643d405d2341d94bf31039413d3a13c0526d00ce6dc",
+    "runs/fullblock_memory_risk_20261109/last.pt": "53585f5d666c386d8681b928cbae32c2a1257c400df17b72ec9f8edd30a496b6",
+    "runs/fullblock_memory_risk_20261109/full.pt": "fec1953f35d8984287150f717e902e6c7eb8e9350623853fa13af67fea3933cc"
+  },
+  "heads": [
+    "frozen_rich",
+    "none",
+    "last",
+    "mean",
+    "full"
+  ],
+  "modes": [
+    "memory_dynamic",
+    "scale_fastcal"
+  ],
+  "source_training_protocol_sha256": "32d2346e3d9e9f148186697043ded0ce5347c922ec8604208837f54b72b3fa48",
+  "temporal_mean_control_protocol_sha256": "b17c44e4d09518c7240ece677e8043a2a958dc615190ed73468a13c3a0b3ef17",
+  "information": "Frozen same48340parameter controls:none,lastsnapshot,encodedtemporalmean,full20residualframes. Warm core,819pairs,2000updates,seed42,initialization/minibatches/availabilitymasks identical. Reference45060core not a matched memory control.",
+  "gate": "Originaltrain-ID pilot last/full passed jointScore/top10/coverage versusnone before development/test field evaluation. Temporalmean added as stronger averaging control before evaluation, not used to select a test-regime policy.",
+  "invariant": "Original4calls99,66,33,0,joint20to20,commonpointfrozen. Memory=currentknownhistory minus actual savedpreviouspoint,never currentfuturelabel or regeneratedstochasticsample. Each whole20target follows allforecastissues.",
+  "comparisons": "Keep all8metrics/96cells,tolerance1e-6,allstrongreferences and failures. Rawrisk rankings retained alongside actual issuedhalfwidth. No extra amplitude forecaster/adapters trained for these heads.",
+  "limits": "Same historically reused evaluation trajectories, not independentconfirmation. Identical allocatedparameters, intentionally different input temporalrank; no temporal transport or physicaluncertainty claim from weights alone."
+}
