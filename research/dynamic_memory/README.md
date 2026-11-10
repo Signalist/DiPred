@@ -1,0 +1,1 @@
+Historical research sources for provenance. These scripts reference the original local research environment and caches. For portable inference use reliability/dynamic_predict.py; for data-free metric reproduction use analyze_dynamic_memory.py at repository root. Raw training data and prediction caches are not included.

@@ -1,0 +1,54 @@
+{
+  "time": 1794275862.0762932,
+  "source_sha256": "0254a9620ff1922b857bfa839373566325459384f6726fe63b87a917d3629575",
+  "predictor_sha256": "f99b7fdb15219c0df10b8f93647c003379a307d59afb6660eb66d9b2830ffdbd",
+  "artifacts": {
+    "runs/dynamic_risk_memory_20261110/modulate.pt": "a8eb0e6281d45234b3617fb3eb771f07de767e2634ac13a1db5ef87e9c292866",
+    "runs/dynamic_risk_memory_20261110/warp.pt": "4fd5f248275cb0b88290071df1548765165baabda5410b51fc2e815cc2e9a6c7",
+    "runs/dynamic_risk_memory_20261110/calibration.pt": "5cf77bec68641e0c4e2f8192534e4beda766054b092a8a9b095577243e327d9a",
+    "runs/physical20_augmented_dynamics_20261109/augmented_diffusion/model.pt": "f99b7fdb15219c0df10b8f93647c003379a307d59afb6660eb66d9b2830ffdbd"
+  },
+  "names": [
+    "frozen_best",
+    "modulate",
+    "warp"
+  ],
+  "modes": [
+    "memory_dynamic",
+    "scale_fastcal"
+  ],
+  "original_mechanism_gate_passed": false,
+  "original_failed_gate_sha256": "0ac37ad1e32f87563bf9bdb759264087eda0f337080a32f3357ac6b575cd113a",
+  "original_train_only_evidence": {
+    "memory_dynamic": {
+      "gains": {
+        "standardized_interval_score": 0.0002068419878681338,
+        "standardized_width": 1.6368604782601714e-05,
+        "relative_aurc": 3.5298023786822785e-05,
+        "top10_energy": 0.00011200670842770322,
+        "per_frame_top10_energy": 0.0001962001483749587,
+        "worst_frame_coverage": 8.938259548607608e-05,
+        "worst_patch_coverage": 0.00022446595960190496,
+        "coverage_error": 6.70862529012833e-05
+      },
+      "all_eight_strictly_improved": true
+    },
+    "scale_fastcal": {
+      "gains": {
+        "standardized_interval_score": 0.0002526627687944316,
+        "standardized_width": 0.00016097240494905574,
+        "relative_aurc": 4.0994852229386813e-05,
+        "top10_energy": 0.00014557374020418568,
+        "per_frame_top10_energy": 0.00013613972674919594,
+        "worst_frame_coverage": 3.04723668981266e-05,
+        "worst_patch_coverage": 0.0001446037380783416,
+        "coverage_error": 7.313903835098889e-06
+      },
+      "all_eight_strictly_improved": true
+    }
+  },
+  "reason": "Transportdoesnotdominateequalcapacitymodulation,so originalmechanismgate remainsfalse. WarpneverthelessimprovesALL8train-IDpilotmacrocriteria versus currentfrozenbest under BOTHfixedcontrollers. Separate prospectivecompletehistorical evaluation keepsall3heads/2controllers andallstrongreferences. No claimofunique transportbenefit, no test-driven refit or policychoice.",
+  "fitting": "No new fitting. Existing48340riskweights andfour-callpointfrozen; eachcandidate adds10430trainablemoduleparams fitonly819originaltrainpairs/2000updates/seed42. Independent10IDcalibrationlockedbeforepilot/fullreplay.",
+  "scope": "Alloriginal8metrics/96development-testRe-channelcells/tolerance1e-6/all55previousreferencepairs, plusall6new controls. Keepall failures andcold/warmwindows; no macro-only achievement. Reuseddata,not independentconfirmation.",
+  "invariant": "Native99,66,33,0, full20to20,actualsavedpreviousPerror,truthonlyafterwhole20issue. No pointcorrector,folds,distillation,seedsweep,extraDiffusioncalls or32sampleinference."
+}

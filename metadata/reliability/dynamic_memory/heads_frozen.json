@@ -1,0 +1,19 @@
+{
+  "time": 1794275661.4475763,
+  "allocated_parameters": 58770,
+  "trainable_parameters": 10430,
+  "fit_pairs": 819,
+  "steps": 2000,
+  "seed": 42,
+  "initial_existing_bounds_exact": true,
+  "original48340weights_unchanged": true,
+  "identical_initial_modifier_parameters": true,
+  "minibatches_and_availability_masks_sha256": {
+    "modulate": "c1bb8a6c039263c5e17f26afa683db54ce4740db07965757d7afec1dbef9d7ee",
+    "warp": "c1bb8a6c039263c5e17f26afa683db54ce4740db07965757d7afec1dbef9d7ee"
+  },
+  "artifacts": {
+    "modulate": "a8eb0e6281d45234b3617fb3eb771f07de767e2634ac13a1db5ef87e9c292866",
+    "warp": "4fd5f248275cb0b88290071df1548765165baabda5410b51fc2e815cc2e9a6c7"
+  }
+}

@@ -1,0 +1,423 @@
+{
+  "best_mean_candidate": [
+    "warp",
+    "memory_dynamic"
+  ],
+  "test_warm": {
+    "head": "warp",
+    "policy": "memory_dynamic",
+    "mse": 0.00012879280353449865,
+    "coverage": 0.899374152484693,
+    "standardized_width": 0.47389652655835734,
+    "standardized_interval_score": 0.6200799015388764,
+    "lower_miss": 0.052004013554607,
+    "upper_miss": 0.04862184834452781,
+    "worst_frame_coverage": 0.8718684324744153,
+    "worst_patch_coverage": 0.7561528706541883,
+    "window90": 0.5113304093567251,
+    "window95": 0.01432748538011696,
+    "whole_block_joint_covered": 0.0,
+    "top10_energy": 0.5341787579202513,
+    "top10_peak_recall": 0.5123123972039474,
+    "per_frame_top10_energy": 0.46856779933563975,
+    "relative_aurc": 0.26770854685891265,
+    "lead_risk_error_correlation": 0.9203017831632965,
+    "retained_risk10": 0.04333653887001966,
+    "retained_risk25": 0.07612638007754144,
+    "retained_risk50": 0.13308956387360193,
+    "retained_risk75": 0.25675909175314227,
+    "retained_risk100": 1.0,
+    "raw_top10_energy": 0.5249672650942329,
+    "raw_top10_peak_recall": 0.5002307111059713,
+    "raw_per_frame_top10_energy": 0.45798860038712363,
+    "raw_relative_aurc": 0.28228728999193126,
+    "raw_lead_risk_error_correlation": 0.9217728133438623,
+    "raw_retained_risk10": 0.06366163910760092,
+    "raw_retained_risk25": 0.09840118716108716,
+    "raw_retained_risk50": 0.15013609663556104,
+    "raw_retained_risk75": 0.2682786551266037,
+    "raw_retained_risk100": 1.0,
+    "worst_group_coverage": 0.8990631754461087,
+    "mean_absolute_group_coverage_error": 0.0006917595601918514
+  },
+  "previous_best_mean": {
+    "head": "frozen_best",
+    "policy": "memory_dynamic",
+    "mse": 0.00012879280353449865,
+    "coverage": 0.8993577305902862,
+    "standardized_width": 0.4740264203241476,
+    "standardized_interval_score": 0.6204418338715421,
+    "lower_miss": 0.05198982911271571,
+    "upper_miss": 0.048652455181956336,
+    "worst_frame_coverage": 0.8717938696431835,
+    "worst_patch_coverage": 0.7558187823502989,
+    "window90": 0.5151315789473684,
+    "window95": 0.01345029239766082,
+    "whole_block_joint_covered": 0.0,
+    "top10_energy": 0.5339492647968538,
+    "top10_peak_recall": 0.512109160841557,
+    "per_frame_top10_energy": 0.46828830076806377,
+    "relative_aurc": 0.26781491917280253,
+    "lead_risk_error_correlation": 0.9201221888307591,
+    "retained_risk10": 0.04340690541290814,
+    "retained_risk25": 0.07603177498394285,
+    "retained_risk50": 0.13315746211147275,
+    "retained_risk75": 0.257128706758526,
+    "retained_risk100": 1.0,
+    "raw_top10_energy": 0.5247665666218041,
+    "raw_top10_peak_recall": 0.5000992445917853,
+    "raw_per_frame_top10_energy": 0.457817868429797,
+    "raw_relative_aurc": 0.2822772256746801,
+    "raw_lead_risk_error_correlation": 0.9215912504895041,
+    "raw_retained_risk10": 0.06363975432301784,
+    "raw_retained_risk25": 0.09809257573399104,
+    "raw_retained_risk50": 0.15010775670420096,
+    "raw_retained_risk75": 0.268524217786409,
+    "raw_retained_risk100": 1.0,
+    "worst_group_coverage": 0.8990552522111357,
+    "mean_absolute_group_coverage_error": 0.0007000439827553976
+  },
+  "test_eight_macro_directional_gains": {
+    "standardized_interval_score": 0.00036193233266568203,
+    "standardized_width": 0.00012989376579025658,
+    "relative_aurc": 0.00010637231388987978,
+    "top10_energy": 0.00022949312339748396,
+    "per_frame_top10_energy": 0.00027949856757597535,
+    "worst_frame_coverage": 7.456283123175034e-05,
+    "worst_patch_coverage": 0.0003340883038894793,
+    "mean_absolute_group_coverage_error": 8.284422563546224e-06
+  },
+  "relative_score_improvement_percent": 0.058334611386088045,
+  "paired_test_trajectory_scores": {
+    "memory_dynamic/frozen_best": {
+      "improved": 23,
+      "total": 24
+    },
+    "memory_dynamic/modulate": {
+      "improved": 16,
+      "total": 24
+    },
+    "scale_fastcal/frozen_best": {
+      "improved": 23,
+      "total": 24
+    },
+    "scale_fastcal/modulate": {
+      "improved": 15,
+      "total": 24
+    }
+  },
+  "selected_original96cell_comparisons": [
+    {
+      "candidate": "warp",
+      "variant": "memory_dynamic",
+      "reference": "previous_2d",
+      "baseline_variant": "global_smooth",
+      "wins": 92,
+      "ties": 0,
+      "regressions": 4
+    },
+    {
+      "candidate": "warp",
+      "variant": "memory_dynamic",
+      "reference": "separate_tails",
+      "baseline_variant": "scale_fastcal",
+      "wins": 69,
+      "ties": 0,
+      "regressions": 27
+    },
+    {
+      "candidate": "warp",
+      "variant": "memory_dynamic",
+      "reference": "core_history_old",
+      "baseline_variant": "ordinary_mse",
+      "wins": 71,
+      "ties": 0,
+      "regressions": 25
+    },
+    {
+      "candidate": "warp",
+      "variant": "memory_dynamic",
+      "reference": "full",
+      "baseline_variant": "memory_dynamic",
+      "wins": 78,
+      "ties": 0,
+      "regressions": 18
+    },
+    {
+      "candidate": "warp",
+      "variant": "memory_dynamic",
+      "reference": "density_quantile",
+      "baseline_variant": "memory_dynamic",
+      "wins": 83,
+      "ties": 1,
+      "regressions": 12
+    },
+    {
+      "candidate": "warp",
+      "variant": "memory_dynamic",
+      "reference": "density_quantile",
+      "baseline_variant": "scale_fastcal",
+      "wins": 56,
+      "ties": 0,
+      "regressions": 40
+    },
+    {
+      "candidate": "warp",
+      "variant": "memory_dynamic",
+      "reference": "modulate",
+      "baseline_variant": "memory_dynamic",
+      "wins": 52,
+      "ties": 0,
+      "regressions": 44
+    },
+    {
+      "candidate": "warp",
+      "variant": "memory_dynamic",
+      "reference": "modulate",
+      "baseline_variant": "scale_fastcal",
+      "wins": 54,
+      "ties": 0,
+      "regressions": 42
+    },
+    {
+      "candidate": "warp",
+      "variant": "scale_fastcal",
+      "reference": "previous_2d",
+      "baseline_variant": "global_smooth",
+      "wins": 94,
+      "ties": 0,
+      "regressions": 2
+    },
+    {
+      "candidate": "warp",
+      "variant": "scale_fastcal",
+      "reference": "separate_tails",
+      "baseline_variant": "scale_fastcal",
+      "wins": 78,
+      "ties": 0,
+      "regressions": 18
+    },
+    {
+      "candidate": "warp",
+      "variant": "scale_fastcal",
+      "reference": "core_history_old",
+      "baseline_variant": "ordinary_mse",
+      "wins": 71,
+      "ties": 0,
+      "regressions": 25
+    },
+    {
+      "candidate": "warp",
+      "variant": "scale_fastcal",
+      "reference": "full",
+      "baseline_variant": "memory_dynamic",
+      "wins": 76,
+      "ties": 0,
+      "regressions": 20
+    },
+    {
+      "candidate": "warp",
+      "variant": "scale_fastcal",
+      "reference": "density_quantile",
+      "baseline_variant": "memory_dynamic",
+      "wins": 48,
+      "ties": 0,
+      "regressions": 48
+    },
+    {
+      "candidate": "warp",
+      "variant": "scale_fastcal",
+      "reference": "density_quantile",
+      "baseline_variant": "scale_fastcal",
+      "wins": 79,
+      "ties": 0,
+      "regressions": 17
+    },
+    {
+      "candidate": "warp",
+      "variant": "scale_fastcal",
+      "reference": "modulate",
+      "baseline_variant": "memory_dynamic",
+      "wins": 43,
+      "ties": 0,
+      "regressions": 53
+    },
+    {
+      "candidate": "warp",
+      "variant": "scale_fastcal",
+      "reference": "modulate",
+      "baseline_variant": "scale_fastcal",
+      "wins": 59,
+      "ties": 1,
+      "regressions": 36
+    }
+  ],
+  "twelve_regressions_against_previous_best": [
+    {
+      "candidate": "warp",
+      "variant": "memory_dynamic",
+      "reference": "density_quantile",
+      "baseline_variant": "memory_dynamic",
+      "split": "development",
+      "group": "26700",
+      "channel": "u",
+      "metric": "standardized_width",
+      "baseline": 0.6256513119789592,
+      "value": 0.6256955320897856,
+      "directional_gain": -4.4220110826387327e-05
+    },
+    {
+      "candidate": "warp",
+      "variant": "memory_dynamic",
+      "reference": "density_quantile",
+      "baseline_variant": "memory_dynamic",
+      "split": "development",
+      "group": "26700",
+      "channel": "u",
+      "metric": "top10_energy",
+      "baseline": 0.5404074338444492,
+      "value": 0.5403225210152174,
+      "directional_gain": -8.49128292318424e-05
+    },
+    {
+      "candidate": "warp",
+      "variant": "memory_dynamic",
+      "reference": "density_quantile",
+      "baseline_variant": "memory_dynamic",
+      "split": "development",
+      "group": "26700",
+      "channel": "u",
+      "metric": "worst_patch_coverage",
+      "baseline": 0.7640556596350252,
+      "value": 0.7638020972933686,
+      "directional_gain": -0.0002535623416566324
+    },
+    {
+      "candidate": "warp",
+      "variant": "memory_dynamic",
+      "reference": "density_quantile",
+      "baseline_variant": "memory_dynamic",
+      "split": "development",
+      "group": "26700",
+      "channel": "v",
+      "metric": "top10_energy",
+      "baseline": 0.6015372746869138,
+      "value": 0.6013407898053789,
+      "directional_gain": -0.0001964848815348974
+    },
+    {
+      "candidate": "warp",
+      "variant": "memory_dynamic",
+      "reference": "density_quantile",
+      "baseline_variant": "memory_dynamic",
+      "split": "development",
+      "group": "6300",
+      "channel": "v",
+      "metric": "worst_frame_coverage",
+      "baseline": 0.8765085320723685,
+      "value": 0.8764314350328948,
+      "directional_gain": -7.709703947367252e-05
+    },
+    {
+      "candidate": "warp",
+      "variant": "memory_dynamic",
+      "reference": "density_quantile",
+      "baseline_variant": "memory_dynamic",
+      "split": "development",
+      "group": "7575",
+      "channel": "u",
+      "metric": "worst_frame_coverage",
+      "baseline": 0.869982267680921,
+      "value": 0.8699662057976973,
+      "directional_gain": -1.6061883223672524e-05
+    },
+    {
+      "candidate": "warp",
+      "variant": "memory_dynamic",
+      "reference": "density_quantile",
+      "baseline_variant": "memory_dynamic",
+      "split": "test",
+      "group": "13950",
+      "channel": "u",
+      "metric": "worst_patch_coverage",
+      "baseline": 0.7579029732628872,
+      "value": 0.7577384991081137,
+      "directional_gain": -0.00016447415477349736
+    },
+    {
+      "candidate": "warp",
+      "variant": "memory_dynamic",
+      "reference": "density_quantile",
+      "baseline_variant": "memory_dynamic",
+      "split": "test",
+      "group": "13950",
+      "channel": "v",
+      "metric": "worst_frame_coverage",
+      "baseline": 0.8723170230263158,
+      "value": 0.8722707648026315,
+      "directional_gain": -4.6258223684203514e-05
+    },
+    {
+      "candidate": "warp",
+      "variant": "memory_dynamic",
+      "reference": "density_quantile",
+      "baseline_variant": "memory_dynamic",
+      "split": "test",
+      "group": "22875",
+      "channel": "u",
+      "metric": "worst_frame_coverage",
+      "baseline": 0.8694447299890351,
+      "value": 0.8692776864035088,
+      "directional_gain": -0.00016704358552632748
+    },
+    {
+      "candidate": "warp",
+      "variant": "memory_dynamic",
+      "reference": "density_quantile",
+      "baseline_variant": "memory_dynamic",
+      "split": "test",
+      "group": "22875",
+      "channel": "u",
+      "metric": "worst_patch_coverage",
+      "baseline": 0.7505276971741727,
+      "value": 0.7500616892387992,
+      "directional_gain": -0.0004660079353734359
+    },
+    {
+      "candidate": "warp",
+      "variant": "memory_dynamic",
+      "reference": "density_quantile",
+      "baseline_variant": "memory_dynamic",
+      "split": "test",
+      "group": "22875",
+      "channel": "v",
+      "metric": "worst_patch_coverage",
+      "baseline": 0.7360266028789052,
+      "value": 0.7359991931078727,
+      "directional_gain": -2.740977103254938e-05
+    },
+    {
+      "candidate": "warp",
+      "variant": "memory_dynamic",
+      "reference": "density_quantile",
+      "baseline_variant": "memory_dynamic",
+      "split": "test",
+      "group": "3750",
+      "channel": "u",
+      "metric": "coverage_error",
+      "baseline": 0.0001733237191250403,
+      "value": 0.00019773613465456918,
+      "directional_gain": -2.4412415529528886e-05
+    }
+  ],
+  "current_failure_metric_counts": {
+    "standardized_width": 1,
+    "top10_energy": 2,
+    "worst_patch_coverage": 4,
+    "worst_frame_coverage": 4,
+    "coverage_error": 1
+  },
+  "original_mechanism_gate_passed": false,
+  "whole_goal_achieved": false,
+  "caveat": "All eight test macro metrics improve, but12 originalcells still regress versus preceding mean candidate and44 versus matched modulation. Reused exploratory identities, not independent statistical confirmation."
+}

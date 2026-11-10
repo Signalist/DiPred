@@ -1,3 +1,30 @@
+# DiPred — 动态风险记忆支线
+
+本分支 `research/dynamic-risk-memory` 发布当前**平均区间评分最佳的完整审计版本**：冻结原四步DiPred，20帧输入→联合预测完整后20帧，新增动态历史误差风险记忆。入口 [`reliability/dynamic_predict.py`](reliability/dynamic_predict.py)，使用说明与在线接口见 [`reliability/DYNAMIC_MEMORY.md`](reliability/DYNAMIC_MEMORY.md)。推理权重和初始校准已包含，不需要32路采样。
+
+|测试窗口2–39，Re/u/v等权|上次发布 `39d7085`|本分支 `warp/memory_dynamic`|
+|---|---:|---:|
+|Interval Score↓|0.620441834|**0.620079902**|
+|Width↓|0.474026420|**0.473896527**|
+|AURC↓|0.267814919|**0.267708547**|
+|最差空间块覆盖率↑|75.5819%|**75.6153%**|
+|90%逐点覆盖率|89.9358%|89.9374%|
+
+Score仅降低约0.05833%，点预测MSE不变。原8指标×12分组比较为83改善/1持平/12退步；对同容量纯调幅对照仍有44项退步，未证明空间迁移独有优势，原机制门槛保持失败。开发/测试历史反复使用，结果是探索性的；不声称全面胜出、独立泛化或严格/联合覆盖。Score/Width为训练通道标准化无量纲指标。
+
+```bash
+pip install -r requirements.txt
+TORCH_ALLOW_TF32_CUBLAS_OVERRIDE=0 python -m reliability.dynamic_predict \
+  --input history.pt --output forecast.pt \
+  --geometry 0.0034 -0.0034 0.02 --objective warp --strategy memory_dynamic
+python analyze_dynamic_memory.py
+TORCH_ALLOW_TF32_CUBLAS_OVERRIDE=0 python -m reliability.verify_dynamic --device cpu
+```
+
+几何值必须换成真实dx/dy/dt。CLI是无历史误差的冷启动；连续20帧反馈使用 `DynamicRiskMemoryPredictor.predict/reveal/reset`。另保留 `--objective modulate` 同容量对照与 `--strategy scale_fastcal` 固定策略。全部11,232条窗口/通道记录、61个参考组合、366组96项比较及9,536反例见[完整证据](results/reliability/dynamic_memory/README.md)。旧版本全部保留，main分支不变。
+
+---
+
 # DiPred
 
 当前推荐的平均区间评分方案是**冻结四步DiPred＋续训分位数风险头**。输入20帧，一次联合预测完整后20帧；保留99→66→33→0四次调用，直接输出误差区间，无需32路采样。入口为[`reliability/continued_predict.py`](reliability/continued_predict.py)，完整用法见[`reliability/CONTINUED.md`](reliability/CONTINUED.md)。推理权重和初始校准参数已包含。

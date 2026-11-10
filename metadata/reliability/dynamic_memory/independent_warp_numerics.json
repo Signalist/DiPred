@@ -1,0 +1,32 @@
+{
+  "passed": true,
+  "numpy_bilinear_output_max_error": 1.3322676295501878e-15,
+  "finite_difference_checks": [
+    {
+      "coordinate": [
+        0,
+        0,
+        1,
+        2,
+        3
+      ],
+      "autograd": -0.00753172700914348,
+      "numpy_finite_difference": -0.00753172699208271
+    },
+    {
+      "coordinate": [
+        0,
+        1,
+        1,
+        2,
+        3
+      ],
+      "autograd": 0.010417040391029234,
+      "numpy_finite_difference": 0.010417040424703927
+    }
+  ],
+  "zero_displacement_identity_exact": true,
+  "positive_x_moves_features_right": true,
+  "border_replication_and_no_periodic_wrap": true,
+  "limitation": "Numerical feature transport, not evidence of a physical error velocity or useful reliability gains."
+}

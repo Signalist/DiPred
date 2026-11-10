@@ -1,0 +1,80 @@
+{
+  "results": {
+    "memory_dynamic": {
+      "comparisons": {
+        "modulate": {
+          "gains": {
+            "standardized_interval_score": -3.1457398500744915e-05,
+            "standardized_width": -0.00024474864135737295,
+            "relative_aurc": -1.3152642382496804e-05,
+            "top10_energy": 2.2435643606710798e-05,
+            "per_frame_top10_energy": 6.365557511645026e-05,
+            "worst_frame_coverage": 3.7299262152790114e-05,
+            "worst_patch_coverage": 0.0006489447697445305,
+            "coverage_error": -5.784436508460798e-05
+          },
+          "regressions": [
+            "standardized_interval_score",
+            "standardized_width",
+            "relative_aurc",
+            "coverage_error"
+          ],
+          "strict_score_gain": false
+        },
+        "frozen_best": {
+          "gains": {
+            "standardized_interval_score": 0.0002068419878681338,
+            "standardized_width": 1.6368604782601714e-05,
+            "relative_aurc": 3.5298023786822785e-05,
+            "top10_energy": 0.00011200670842770322,
+            "per_frame_top10_energy": 0.0001962001483749587,
+            "worst_frame_coverage": 8.938259548607608e-05,
+            "worst_patch_coverage": 0.00022446595960190496,
+            "coverage_error": 6.70862529012833e-05
+          },
+          "regressions": [],
+          "strict_score_gain": true
+        }
+      },
+      "passed": false
+    },
+    "scale_fastcal": {
+      "comparisons": {
+        "modulate": {
+          "gains": {
+            "standardized_interval_score": -4.335750722228582e-05,
+            "standardized_width": 0.00023098410279664972,
+            "relative_aurc": 4.7555165710311265e-06,
+            "top10_energy": 6.225562757922187e-05,
+            "per_frame_top10_energy": 4.090755074115382e-05,
+            "worst_frame_coverage": -7.09816261579288e-06,
+            "worst_patch_coverage": 0.0006732496508845554,
+            "coverage_error": -5.57893845770153e-05
+          },
+          "regressions": [
+            "standardized_interval_score",
+            "worst_frame_coverage",
+            "coverage_error"
+          ],
+          "strict_score_gain": false
+        },
+        "frozen_best": {
+          "gains": {
+            "standardized_interval_score": 0.0002526627687944316,
+            "standardized_width": 0.00016097240494905574,
+            "relative_aurc": 4.0994852229386813e-05,
+            "top10_energy": 0.00014557374020418568,
+            "per_frame_top10_energy": 0.00013613972674919594,
+            "worst_frame_coverage": 3.04723668981266e-05,
+            "worst_patch_coverage": 0.0001446037380783416,
+            "coverage_error": 7.313903835098889e-06
+          },
+          "regressions": [],
+          "strict_score_gain": true
+        }
+      },
+      "passed": false
+    }
+  },
+  "proceed_full_evaluation": false
+}

@@ -1,0 +1,7 @@
+{
+  "achieved": false,
+  "original_mechanism_gate_passed": false,
+  "all55_previous_reference_pairs_preserved": true,
+  "comparisons": 366,
+  "reason": "Original96-cell scope and every strong reference must improve; no full-line conclusion from mean score or trainpilot."
+}

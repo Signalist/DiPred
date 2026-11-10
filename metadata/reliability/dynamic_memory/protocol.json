@@ -1,0 +1,36 @@
+{
+  "time": 1794275510.9527273,
+  "source_sha256": "89190ff59d1da8507023a233f9abb894b2946178dbdb6a40bbbf60326bc9bc31",
+  "module_sha256": "dd8edfbc879d3d60b1ff4906697960e21db7aa128d7122060bf6d08f8851dabc",
+  "frozen_artifacts": {
+    "runs/distribution_error_risk_20261110/density_quantile.pt": "21a08cd22d4a3857218342c0d9665b2d31afa60e249de346b3a71c46539ee5c6",
+    "runs/distribution_error_risk_20261110/calibration.pt": "3b8ee8c428a953ef88eab202b692ded0fdc082d9cef02b64d422f749e2c2a13f",
+    "runs/fullblock_memory_risk_20261109/statistics.pt": "b0efaaf2ac9704efa9d0b3a2a54624a261e8f6ee3fd3906d3bdfc4083a14a02c",
+    "runs/physical20_augmented_dynamics_20261109/augmented_diffusion/model.pt": "f99b7fdb15219c0df10b8f93647c003379a307d59afb6660eb66d9b2830ffdbd"
+  },
+  "names": [
+    "frozen_best",
+    "modulate",
+    "warp"
+  ],
+  "arms": [
+    "modulate",
+    "warp"
+  ],
+  "modes": [
+    "memory_dynamic",
+    "scale_fastcal"
+  ],
+  "steps": 2000,
+  "fit_pairs": 819,
+  "allocated_parameters": 58770,
+  "trainable_parameters": 10430,
+  "question": "Can forecast-conditioned spatial movement of actuallyrevealed error features improve risk beyond equal-capacity diagonal gain? Distinct from old static depthwise memory filters, fixed velocity advection, and old5frame pointCorrector.",
+  "architecture": "Existing48340parameter best quantile risk head fullyfrozen. Inputcontext32=base14+history4+lastdenoising8+coordinates2+revealedfutureprojectedmemory4. ModifierConv3d32->12,k3,GN3,SiLU,Conv12->2,k1. Same10430trainableparams,zero last layer,initialriskbounds exactly currentbest forboth.",
+  "transformation": "warp:two output fields,4*tanh signedgridpixel displacements perfuturelead; backwardbilinear border sampling align_cornersFalse on4future-lead projected risk-memoryfeatures. No physicalvelocity claim. modulate:same2fields give exp(log2*tanh) gains for2latentfeaturegroups; no spatialshift. Both act only on alreadyrevealederrorfeatures, neverP or currentY.",
+  "fitting": "Onlyoriginal819trainingidentitypairs,query200..360/400..560,actualtargets220:400/420:600;seed42,batch4,2000updates,AdamW3e-4cosine1e-6,clip1,same20%availability masks and exact batches. Bothinitialmodifierweights identical; oldriskweights/normalizers neverchange. Pixelbound4 is fixed halfexisting8x8regionwidth, not tuned on known failures; gaincontrol strengths have different units, not perturbation-norm matching.",
+  "calibration": "Afterboth headsfreeze independently recompute10calibrationIDs; frozen_best initialstates and1760pilotrows mustexactly reproduce currentquantile. No heldout or calibrationlabels train moduleparameters.",
+  "pilot_gate": "44originaltrainIDs,580coldthen600..760warm queries(targets620:800). Underatleastonefixedcontroller warp mustlower actualScore>1e-6 and allother7primarymacro metrics no worse>1e-6 versus BOTH equalcapacitymodulate andfrozen_best. Keepallmethods; fulloriginaldevtest onlyaftergate. Nocoefficient/motionbound/gain/seedscan.",
+  "invariants": "Native99,66,33,0, joint20to20, actualsavedpreviousP residual, feedbackonlyafterwhole20, all8metrics96cells/tolerance1e-6/all55strongreferences. No time subdivision,pointcorrection,distillation,folds or32pathinference.",
+  "limitation": "Latent risk-feature warping is a candidate statistical motion model, not a physical errorPDE or a new jointcoverage theorem. Learned displacement alone doesnot prove transport benefit; actualrisk metrics and matchedgaincontrol decide. Allidentities historically reused."
+}

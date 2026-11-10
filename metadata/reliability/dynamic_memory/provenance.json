@@ -1,0 +1,37 @@
+{
+  "format_version": 1,
+  "checkpoint_sha256": "f709a21b80e06dc1831f2706832f8fd7d735de6cd9ad9d54de7f40671183b594",
+  "shared_checkpoint_sha256": "834260c9838b058d3e415b1efbd3fa19f7998884a36e46d14d62b10ed3ad8cfe",
+  "continued_checkpoint_sha256": "229627dbfc1fd72f48d6baba9c7ddfa9f89cb3ee5b58f2d99ed445a4ceff7c55",
+  "source_artifacts": {
+    "runs/dynamic_risk_memory_20261110/warp.pt": "4fd5f248275cb0b88290071df1548765165baabda5410b51fc2e815cc2e9a6c7",
+    "runs/dynamic_risk_memory_20261110/modulate.pt": "a8eb0e6281d45234b3617fb3eb771f07de767e2634ac13a1db5ef87e9c292866",
+    "runs/dynamic_risk_memory_followup_20261110/calibration.pt": "5cf77bec68641e0c4e2f8192534e4beda766054b092a8a9b095577243e327d9a",
+    "runs/dynamic_risk_memory_followup_20261110/per_case.json": "3a8c8a8a810b56b4ca6f29c55ff17b4dcde7fd498dd94693e54074dbc916e706",
+    "github/DiPred/reliability/checkpoints/continued.pt": "229627dbfc1fd72f48d6baba9c7ddfa9f89cb3ee5b58f2d99ed445a4ceff7c55"
+  },
+  "recommended_objective": "warp",
+  "recommended_strategy": "memory_dynamic",
+  "native_labels": [
+    99,
+    66,
+    33,
+    0
+  ],
+  "forecast_shape": [
+    2,
+    20,
+    32,
+    64
+  ],
+  "frozen_risk_parameters": 48340,
+  "additional_fit_parameters": 10430,
+  "risk_parameters": 58770,
+  "fit_pairs": 819,
+  "updates": 2000,
+  "seed": 42,
+  "calibration_identities": 10,
+  "development_and_test_identities_not_fitted": true,
+  "mechanism_gate_passed": false,
+  "caveat": "Repeatedly examined historical data; exploratory selection, no independent confirmation or formal coverage guarantee."
+}

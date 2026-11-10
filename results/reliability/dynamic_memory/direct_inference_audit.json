@@ -1,0 +1,208 @@
+{
+  "passed": true,
+  "cases": [
+    {
+      "objective": "frozen_best",
+      "strategy": "memory_dynamic",
+      "start": 0,
+      "batch": 12,
+      "point_intervals_previous_error_and_complete_states_exact": true,
+      "native_four_calls": true
+    },
+    {
+      "objective": "frozen_best",
+      "strategy": "memory_dynamic",
+      "start": 20,
+      "batch": 12,
+      "point_intervals_previous_error_and_complete_states_exact": true,
+      "native_four_calls": true
+    },
+    {
+      "objective": "frozen_best",
+      "strategy": "memory_dynamic",
+      "start": 40,
+      "batch": 12,
+      "point_intervals_previous_error_and_complete_states_exact": true,
+      "native_four_calls": true
+    },
+    {
+      "objective": "frozen_best",
+      "strategy": "memory_dynamic",
+      "start": 60,
+      "batch": 12,
+      "point_intervals_previous_error_and_complete_states_exact": true,
+      "native_four_calls": true
+    },
+    {
+      "objective": "frozen_best",
+      "strategy": "scale_fastcal",
+      "start": 0,
+      "batch": 12,
+      "point_intervals_previous_error_and_complete_states_exact": true,
+      "native_four_calls": true
+    },
+    {
+      "objective": "frozen_best",
+      "strategy": "scale_fastcal",
+      "start": 20,
+      "batch": 12,
+      "point_intervals_previous_error_and_complete_states_exact": true,
+      "native_four_calls": true
+    },
+    {
+      "objective": "frozen_best",
+      "strategy": "scale_fastcal",
+      "start": 40,
+      "batch": 12,
+      "point_intervals_previous_error_and_complete_states_exact": true,
+      "native_four_calls": true
+    },
+    {
+      "objective": "frozen_best",
+      "strategy": "scale_fastcal",
+      "start": 60,
+      "batch": 12,
+      "point_intervals_previous_error_and_complete_states_exact": true,
+      "native_four_calls": true
+    },
+    {
+      "objective": "modulate",
+      "strategy": "memory_dynamic",
+      "start": 0,
+      "batch": 12,
+      "point_intervals_previous_error_and_complete_states_exact": true,
+      "native_four_calls": true
+    },
+    {
+      "objective": "modulate",
+      "strategy": "memory_dynamic",
+      "start": 20,
+      "batch": 12,
+      "point_intervals_previous_error_and_complete_states_exact": true,
+      "native_four_calls": true
+    },
+    {
+      "objective": "modulate",
+      "strategy": "memory_dynamic",
+      "start": 40,
+      "batch": 12,
+      "point_intervals_previous_error_and_complete_states_exact": true,
+      "native_four_calls": true
+    },
+    {
+      "objective": "modulate",
+      "strategy": "memory_dynamic",
+      "start": 60,
+      "batch": 12,
+      "point_intervals_previous_error_and_complete_states_exact": true,
+      "native_four_calls": true
+    },
+    {
+      "objective": "modulate",
+      "strategy": "scale_fastcal",
+      "start": 0,
+      "batch": 12,
+      "point_intervals_previous_error_and_complete_states_exact": true,
+      "native_four_calls": true
+    },
+    {
+      "objective": "modulate",
+      "strategy": "scale_fastcal",
+      "start": 20,
+      "batch": 12,
+      "point_intervals_previous_error_and_complete_states_exact": true,
+      "native_four_calls": true
+    },
+    {
+      "objective": "modulate",
+      "strategy": "scale_fastcal",
+      "start": 40,
+      "batch": 12,
+      "point_intervals_previous_error_and_complete_states_exact": true,
+      "native_four_calls": true
+    },
+    {
+      "objective": "modulate",
+      "strategy": "scale_fastcal",
+      "start": 60,
+      "batch": 12,
+      "point_intervals_previous_error_and_complete_states_exact": true,
+      "native_four_calls": true
+    },
+    {
+      "objective": "warp",
+      "strategy": "memory_dynamic",
+      "start": 0,
+      "batch": 12,
+      "point_intervals_previous_error_and_complete_states_exact": true,
+      "native_four_calls": true
+    },
+    {
+      "objective": "warp",
+      "strategy": "memory_dynamic",
+      "start": 20,
+      "batch": 12,
+      "point_intervals_previous_error_and_complete_states_exact": true,
+      "native_four_calls": true
+    },
+    {
+      "objective": "warp",
+      "strategy": "memory_dynamic",
+      "start": 40,
+      "batch": 12,
+      "point_intervals_previous_error_and_complete_states_exact": true,
+      "native_four_calls": true
+    },
+    {
+      "objective": "warp",
+      "strategy": "memory_dynamic",
+      "start": 60,
+      "batch": 12,
+      "point_intervals_previous_error_and_complete_states_exact": true,
+      "native_four_calls": true
+    },
+    {
+      "objective": "warp",
+      "strategy": "scale_fastcal",
+      "start": 0,
+      "batch": 12,
+      "point_intervals_previous_error_and_complete_states_exact": true,
+      "native_four_calls": true
+    },
+    {
+      "objective": "warp",
+      "strategy": "scale_fastcal",
+      "start": 20,
+      "batch": 12,
+      "point_intervals_previous_error_and_complete_states_exact": true,
+      "native_four_calls": true
+    },
+    {
+      "objective": "warp",
+      "strategy": "scale_fastcal",
+      "start": 40,
+      "batch": 12,
+      "point_intervals_previous_error_and_complete_states_exact": true,
+      "native_four_calls": true
+    },
+    {
+      "objective": "warp",
+      "strategy": "scale_fastcal",
+      "start": 60,
+      "batch": 12,
+      "point_intervals_previous_error_and_complete_states_exact": true,
+      "native_four_calls": true
+    }
+  ],
+  "actual_forecasts": 288,
+  "native_labels": [
+    99,
+    66,
+    33,
+    0
+  ],
+  "full_deque_and_moment_states_exact": true,
+  "duplicate_partial_nonfinite_noncontiguous_and_reset_guards": true,
+  "no_sampling_or_issued_forecast_cache_needed_for_actual_interface": true,
+  "caveat": "Implementation reproduction on historical inputs, not independent statistical confirmation or coverage guarantee."
+}

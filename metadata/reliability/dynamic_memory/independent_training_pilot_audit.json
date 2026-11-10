@@ -1,0 +1,32 @@
+{
+  "passed": true,
+  "first_update_checks": [
+    {
+      "name": "modulate",
+      "loss": 0.044146578758955,
+      "gradient_max_error": 0.0,
+      "first_update_max_error": 0.0,
+      "original48340parameters_and_buffers_exact": true,
+      "raw_cold_bounds_ignore_unavailable_memory": true
+    },
+    {
+      "name": "warp",
+      "loss": 0.044146578758955,
+      "gradient_max_error": 0.0,
+      "first_update_max_error": 0.0,
+      "original48340parameters_and_buffers_exact": true,
+      "raw_cold_bounds_ignore_unavailable_memory": true
+    }
+  ],
+  "original_risk_weights_and_norms_exact": true,
+  "initial_raw_bounds_equal_current_best": true,
+  "cold_raw_bounds_independent_of_memory": true,
+  "identical_initial_module_parameters": true,
+  "same2000step_sampler_regenerated": true,
+  "original_reference_pilot_rows_exact": 1760,
+  "all_pilot_rows": 5280,
+  "complete_pilot_issue_reveal_pairs": 10,
+  "all_eight_macro_metrics_and_gates_exact": true,
+  "no_heldout_or_calibration_labels_fit_parameters": true,
+  "limitation": "Latent risk features and learned statistical displacement only; no physical velocity, transport benefit, independent generalization or joint coverage proven by implementation checks."
+}

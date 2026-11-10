@@ -1,0 +1,66 @@
+{
+  "memory_dynamic": {
+    "frozen_best": {
+      "standardized_interval_score": 0.7539967092471542,
+      "standardized_width": 0.5672211772920909,
+      "relative_aurc": 0.22420238829321332,
+      "top10_energy": 0.5883146527492338,
+      "per_frame_top10_energy": 0.5249208944870366,
+      "worst_frame_coverage": 0.8669210702401621,
+      "worst_patch_coverage": 0.7459120486152393,
+      "coverage_error": 0.003908569459561967
+    },
+    "modulate": {
+      "standardized_interval_score": 0.7537584098607853,
+      "standardized_width": 0.5669600600459509,
+      "relative_aurc": 0.224153937627044,
+      "top10_energy": 0.5884042238140548,
+      "per_frame_top10_energy": 0.5250534390602951,
+      "worst_frame_coverage": 0.8669731535734954,
+      "worst_patch_coverage": 0.7454875698050967,
+      "coverage_error": 0.003783638841576076
+    },
+    "warp": {
+      "standardized_interval_score": 0.7537898672592861,
+      "standardized_width": 0.5672048086873083,
+      "relative_aurc": 0.2241670902694265,
+      "top10_energy": 0.5884266594576615,
+      "per_frame_top10_energy": 0.5251170946354116,
+      "worst_frame_coverage": 0.8670104528356481,
+      "worst_patch_coverage": 0.7461365145748412,
+      "coverage_error": 0.003841483206660684
+    }
+  },
+  "scale_fastcal": {
+    "frozen_best": {
+      "standardized_interval_score": 0.7564366141899869,
+      "standardized_width": 0.57657803500968,
+      "relative_aurc": 0.22418899743783252,
+      "top10_energy": 0.5877479679689364,
+      "per_frame_top10_energy": 0.5246334175406783,
+      "worst_frame_coverage": 0.8695294415509259,
+      "worst_patch_coverage": 0.7493401447738762,
+      "coverage_error": 0.002298403398858201
+    },
+    "modulate": {
+      "standardized_interval_score": 0.7561405939139701,
+      "standardized_width": 0.5766480467075276,
+      "relative_aurc": 0.22415275810217417,
+      "top10_energy": 0.5878312860815613,
+      "per_frame_top10_energy": 0.5247286497166863,
+      "worst_frame_coverage": 0.8695670120804398,
+      "worst_patch_coverage": 0.74881149886107,
+      "coverage_error": 0.0022353001104460867
+    },
+    "warp": {
+      "standardized_interval_score": 0.7561839514211924,
+      "standardized_width": 0.5764170626047309,
+      "relative_aurc": 0.22414800258560313,
+      "top10_energy": 0.5878935417091405,
+      "per_frame_top10_energy": 0.5247695572674275,
+      "worst_frame_coverage": 0.8695599139178241,
+      "worst_patch_coverage": 0.7494847485119546,
+      "coverage_error": 0.002291089495023102
+    }
+  }
+}

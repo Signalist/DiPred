@@ -1,0 +1,9 @@
+{
+  "min": -3.899034023284912,
+  "max": 3.354724168777466,
+  "mean": 0.11139960587024689,
+  "rms": 0.6053091287612915,
+  "units": "gridpixels",
+  "diagnostic_only": true,
+  "no_proof_of_useful_transport": true
+}

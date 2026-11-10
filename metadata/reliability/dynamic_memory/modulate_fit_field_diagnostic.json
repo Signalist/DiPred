@@ -1,0 +1,9 @@
+{
+  "min": 0.6363499760627747,
+  "max": 1.9336789846420288,
+  "mean": 1.1486858129501343,
+  "rms": 1.1743357181549072,
+  "units": "multiplicative_feature_gain",
+  "diagnostic_only": true,
+  "no_proof_of_useful_transport": true
+}

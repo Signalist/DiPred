@@ -24,3 +24,5 @@ tmp/
 !reliability/checkpoints/context.pt
 !reliability/checkpoints/memory.pt
 !reliability/checkpoints/continued.pt
+
+!reliability/checkpoints/dynamic_memory.pt

@@ -1,0 +1,30 @@
+{
+  "passed": true,
+  "case_rows": 11232,
+  "numeric_group_checks": 2232,
+  "comparisons": 366,
+  "cells_per_comparison": 96,
+  "tolerance": 1e-06,
+  "all_counterexamples_verified": 9536,
+  "point_forecast_mse_unchanged": true,
+  "all55_old_reference_pairs_preserved": true,
+  "paired_trajectory_scores": {
+    "memory_dynamic/frozen_best": {
+      "improved": 23,
+      "total": 24
+    },
+    "memory_dynamic/modulate": {
+      "improved": 16,
+      "total": 24
+    },
+    "scale_fastcal/frozen_best": {
+      "improved": 23,
+      "total": 24
+    },
+    "scale_fastcal/modulate": {
+      "improved": 15,
+      "total": 24
+    }
+  },
+  "caveat": "Exploratory repeatedly examined historical data; not independent statistical confirmation or formal coverage."
+}
