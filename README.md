@@ -1,3 +1,31 @@
+# DiPred — 16通道精简版与三组正式对照
+
+<!-- selected16_three_method_release -->
+本次仅发布**16通道、原28通道、32-noise**三组正式比较。入口 [`reliability/selected16_predict.py`](reliability/selected16_predict.py)，完整用法见 [`reliability/SELECTED16.md`](reliability/SELECTED16.md)，权重及初始校准已包含。原四步99→66→33→0、20帧输入→联合预测完整后20帧保持冻结。
+
+|测试窗口2–39，Re/u/v等权|风险头参数|Interval Score↓|Width↓|90%逐点覆盖|
+|---|---:|---:|---:|---:|
+|16通道|**34004**|0.626680|0.477147|89.932%|
+|原28通道（同预算续训）|58770|**0.618357**|**0.473093**|89.933%|
+|32-noise标准差|无额外神经头|0.659619|0.479577|89.985%|
+
+16通道为梯度2＋坐标2＋历史时间波动2＋去噪特征8＋预测时间变化2；真实16输入卷积，移除历史/误差投影和位移模块。风险参数少42.14%，Score比原28差1.346%、比32-noise低4.994%。原96项分别23改善/73退步、70改善/26退步，仍有局部覆盖代价；不是无损裁剪或全线胜出。原28复用上一轮完全匹配的819训练对/2000步/seed42权重，并非本分支旧warp的0.620080版本。
+
+```bash
+pip install -r requirements.txt
+TORCH_ALLOW_TF32_CUBLAS_OVERRIDE=0 python -m reliability.selected16_predict \
+  --input history.pt --output forecast.pt \
+  --geometry 0.0034 -0.0034 0.02 --method selected16
+python analyze_selected16_comparison.py
+TORCH_ALLOW_TF32_CUBLAS_OVERRIDE=0 python -m reliability.verify_selected16 --device cpu
+```
+
+几何值须换成真实dx/dy/dt。另外两组用 `--method original28` 或 `--method noise32`。CLI为冷启动；连续在线反馈使用`RequestedThreePredictor.predict/reveal/reset`，仅完整20帧真值揭示后反馈。三组共用零噪声点预测中心；32-noise实际生成32条路径取std并独立校准，不是32路径均值中心，也非经验5/95分位数。16/28各4次主干调用，32加共同中心为132次；未声称端到端加速。
+
+[完整证据](results/reliability/selected16_comparison/README.md)保留全部5616条窗口/通道记录、两组96项对照、全部99反例及逐轨迹分析。Score/Width无量纲，点预测MSE不变。在线校准器仍有部分重叠物理特征；16仅指神经风险头。历史数据反复使用，结果探索性，无独立统计或严格/联合覆盖保证。旧版本作为历史归档保留，main分支不变。
+
+---
+
 # DiPred — 动态风险记忆支线
 
 本分支 `research/dynamic-risk-memory` 发布当前**平均区间评分最佳的完整审计版本**：冻结原四步DiPred，20帧输入→联合预测完整后20帧，新增动态历史误差风险记忆。入口 [`reliability/dynamic_predict.py`](reliability/dynamic_predict.py)，使用说明与在线接口见 [`reliability/DYNAMIC_MEMORY.md`](reliability/DYNAMIC_MEMORY.md)。推理权重和初始校准已包含，不需要32路采样。

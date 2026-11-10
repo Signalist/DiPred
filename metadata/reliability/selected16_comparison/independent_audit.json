@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "updates": [
+    {
+      "name": "compact16",
+      "gradient_max_error": 0.0,
+      "update_max_error": 0.0
+    },
+    {
+      "name": "masked16",
+      "gradient_max_error": 0.0,
+      "update_max_error": 0.0
+    }
+  ],
+  "real16_input_and34004parameters": true,
+  "unused_projections_and_modifier_removed": true,
+  "initial_retained_weights_exact": true,
+  "omitted_inputs_and_availability_invariant": true,
+  "compact_forward_matches_independent_feature_construction": true,
+  "full28_reused_run_exact_same_sampler_and_budget": true,
+  "old_control_rows_exact": 3520,
+  "all_rows": 7040,
+  "all_macro_metrics_verified": true,
+  "issue_before_full_reveal": true,
+  "no_calibration_or_heldout_labels_fit_weights": true,
+  "frozen_artifacts_unchanged": true,
+  "caveat": "Userselectedsubset from previously studieddata; exploratory conditional comparison, not independent confirmation or formal coverage."
+}

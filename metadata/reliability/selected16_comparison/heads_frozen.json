@@ -1,0 +1,27 @@
+{
+  "time": 1794283463.0977552,
+  "parameters": {
+    "compact16": 34004,
+    "masked16": 58770,
+    "matched_full28": 58770
+  },
+  "source_checks": {
+    "compact16": {
+      "omitted_base_history_memory_and_availability_invariant": true
+    },
+    "masked16": {
+      "omitted_base_history_memory_and_availability_invariant": true
+    }
+  },
+  "steps": 2000,
+  "fit_pairs": 819,
+  "same_sampler_as_full28": {
+    "compact16": "c1bb8a6c039263c5e17f26afa683db54ce4740db07965757d7afec1dbef9d7ee",
+    "masked16": "c1bb8a6c039263c5e17f26afa683db54ce4740db07965757d7afec1dbef9d7ee"
+  },
+  "full28_reused_checkpoint_sha256": "c3c2a7f3df68cf92a1493c3da0975953f2ae9ca4c0690b52c2a34a8700b11c37",
+  "artifacts": {
+    "compact16": "d7484a123b9721f7103683077e4720c7f65756dc26236aa0c6969b5572595832",
+    "masked16": "345ce3a4e2ef0f74bfa61bd3a56b8faa9c972da2a3db12e084b53709d9a6289a"
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "passed": true,
+  "cases": [
+    {
+      "method": "selected16",
+      "start": 0,
+      "batch": 12,
+      "actual_backbone_calls": 4,
+      "point_intervals_previous_error_and_all_states_exact": true,
+      "original32path_std_exact": false
+    },
+    {
+      "method": "selected16",
+      "start": 20,
+      "batch": 12,
+      "actual_backbone_calls": 4,
+      "point_intervals_previous_error_and_all_states_exact": true,
+      "original32path_std_exact": false
+    },
+    {
+      "method": "original28",
+      "start": 0,
+      "batch": 12,
+      "actual_backbone_calls": 4,
+      "point_intervals_previous_error_and_all_states_exact": true,
+      "original32path_std_exact": false
+    },
+    {
+      "method": "original28",
+      "start": 20,
+      "batch": 12,
+      "actual_backbone_calls": 4,
+      "point_intervals_previous_error_and_all_states_exact": true,
+      "original32path_std_exact": false
+    },
+    {
+      "method": "noise32",
+      "start": 0,
+      "batch": 12,
+      "actual_backbone_calls": 132,
+      "point_intervals_previous_error_and_all_states_exact": true,
+      "original32path_std_exact": true
+    },
+    {
+      "method": "noise32",
+      "start": 20,
+      "batch": 12,
+      "actual_backbone_calls": 132,
+      "point_intervals_previous_error_and_all_states_exact": true,
+      "original32path_std_exact": true
+    }
+  ],
+  "actual_forecasts": 72,
+  "original32sample_std_regenerated_exact": true,
+  "original_fourcall_point_labels": [
+    99,
+    66,
+    33,
+    0
+  ],
+  "complete_online_states_and_stream_guards_exact": true,
+  "caveat": "Implementation validation on historicalinputs, not independent statistical or formal coverage proof."
+}

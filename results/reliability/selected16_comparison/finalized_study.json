@@ -1,0 +1,68 @@
+{
+  "time": 1794284277.0316353,
+  "completed": true,
+  "user_scope": "Only16,original28and32-noise;24wasusercorrectedto28.",
+  "formal_methods": [
+    "selected16",
+    "original28",
+    "noise32"
+  ],
+  "online_strategy": "memory_dynamic",
+  "neural_head_selected_features": [
+    "history_variability2",
+    "forecast_gradient2",
+    "forecast_time_change2",
+    "denoising8",
+    "coordinates2"
+  ],
+  "selected_core_channels": 16,
+  "full_core_channels": 28,
+  "actual_selected_head_parameters": 34004,
+  "full_head_parameters": 58770,
+  "risk_head_parameter_reduction_percent": 42.14054789858771,
+  "actual_unused_branches_removed": [
+    "history_projection",
+    "memory_projection",
+    "modifier"
+  ],
+  "training": {
+    "fit_pairs": 819,
+    "steps": 2000,
+    "seed": 42,
+    "original28_audited_matched_run_reused": true,
+    "point_predictor_frozen": true,
+    "calibration_and_heldout_ids_not_fit_neural_weights": true
+  },
+  "primary_comparison_count": 2,
+  "cells_per_comparison": 96,
+  "tolerance": 1e-06,
+  "vs_original28": {
+    "score_increase_percent": 1.345995414618062,
+    "wins": 23,
+    "ties": 0,
+    "regressions": 73
+  },
+  "vs_noise32": {
+    "score_reduction_percent": 4.9937652040922265,
+    "wins": 70,
+    "ties": 0,
+    "regressions": 26
+  },
+  "test_window_rows": 5616,
+  "all_counterexamples": 99,
+  "point_mse_unchanged": true,
+  "actual_forecasts_exact": 72,
+  "actual_backbone_calls": {
+    "selected16": 4,
+    "original28": 4,
+    "noise32_with_common_point_center": 132
+  },
+  "original32sampling_cache_reproduced_exact": true,
+  "previous_extra_control_note": "Auxiliary masked16 training and a four-method replay finished before/during user narrowing; archived only, excluded from final comparisons. No new control training after narrowing.",
+  "latest_recommendation": "Selected16 is a real compact option, not a lossless replacement of full28. Full28 has bettermeanScore;selected16 improvesmeanScore over32sampling butstill26originalcell regressions.",
+  "no_end_to_end_speedup_measured": true,
+  "no_auto_github_publication": true,
+  "whole_goal_achieved": false,
+  "report": "研究结果_16对照原28与32noise_20261110.md",
+  "caveat": "Only neuralhead restricted to16inputs; sharedcalibrator retains originalfeatures.32-noise uses common zero-noise center rather thanensemblemean. Reused historicaldata; no independent statistical or formalcoverage guarantee."
+}

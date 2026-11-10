@@ -26,3 +26,5 @@ tmp/
 !reliability/checkpoints/continued.pt
 
 !reliability/checkpoints/dynamic_memory.pt
+
+!reliability/checkpoints/selected16_comparison.pt

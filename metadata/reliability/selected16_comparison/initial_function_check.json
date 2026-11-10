@@ -1,0 +1,5 @@
+{
+  "passed": true,
+  "maximum_absolute_bound_error": 0.0,
+  "tolerance": "float32 rtol1e-5/atol2e-6 for sliced-convolution reduction, not relaxed primary metric tolerance1e-6"
+}

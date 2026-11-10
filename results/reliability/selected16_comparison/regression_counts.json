@@ -1,0 +1,20 @@
+[
+  {
+    "candidate": "selected16",
+    "variant": "memory_dynamic",
+    "reference": "original28",
+    "baseline_variant": "memory_dynamic",
+    "wins": 23,
+    "ties": 0,
+    "regressions": 73
+  },
+  {
+    "candidate": "selected16",
+    "variant": "memory_dynamic",
+    "reference": "noise32",
+    "baseline_variant": "memory_dynamic",
+    "wins": 70,
+    "ties": 0,
+    "regressions": 26
+  }
+]

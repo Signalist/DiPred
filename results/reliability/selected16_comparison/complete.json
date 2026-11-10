@@ -1,0 +1,9 @@
+{
+  "time": 1794283969.0789576,
+  "scope_exactly_requested_three_methods": true,
+  "references_only_original28_and_noise32": true,
+  "new_neural_training": false,
+  "original28_never_refitted": true,
+  "score_change_vs_full_percent": 1.345995414618062,
+  "score_change_vs_noise_percent": -4.9937652040922265
+}

@@ -1,0 +1,40 @@
+{
+  "checkpoint_sha256": "02eb8efc7509d60eda4bf7f78752a6a15ae6558a4c62db1d7d658a94643224cf",
+  "shared_checkpoint_sha256": "834260c9838b058d3e415b1efbd3fa19f7998884a36e46d14d62b10ed3ad8cfe",
+  "dynamic_checkpoint_sha256": "f709a21b80e06dc1831f2706832f8fd7d735de6cd9ad9d54de7f40671183b594",
+  "source_artifacts": {
+    "runs/selected16_quantile_20261110/compact16.pt": "d7484a123b9721f7103683077e4720c7f65756dc26236aa0c6969b5572595832",
+    "runs/feature_ablation28_20261110/full.pt": "c3c2a7f3df68cf92a1493c3da0975953f2ae9ca4c0690b52c2a34a8700b11c37",
+    "runs/requested16_28_noise32_20261110/calibration.pt": "e7a6ea2fa344befbceb0b7ad75c5007ebf6f45d6562361c7c522c71e206298b4",
+    "runs/requested16_28_noise32_20261110/per_case.json": "cfe9ff6751bb0fe72ba028b3d5713321f00ce45efcccfa7b5dda906001260666"
+  },
+  "formal_methods": [
+    "selected16",
+    "original28",
+    "noise32"
+  ],
+  "native_point_labels": [
+    99,
+    66,
+    33,
+    0
+  ],
+  "effective_core_channels": {
+    "selected16": 16,
+    "original28": 28
+  },
+  "risk_parameters": {
+    "selected16": 34004,
+    "original28": 58770,
+    "noise32": 0
+  },
+  "four_call_point_predictor_frozen": true,
+  "original28": "same-budget full28 continuation, not the older published warp weights",
+  "fit_pairs": 819,
+  "steps": 2000,
+  "seed": 42,
+  "calibration_identities": 10,
+  "scope": "Only these three methods. Auxiliary masked-control training retained in source provenance, not a formal published baseline.",
+  "caveat": "Previously examined historical data; no fresh independent statistical or formal coverage confirmation.32noise uses same zero-noise point center, actual32pathstd and independent calibration.",
+  "sampling_export_note": "Portablepointmodel defaults tosign0;32-noise explicitlypassessign1 to reproduce original stochastic sampling. Failed exportaudit log preserved locally; correctedexport verifies72actualforecasts andoriginal32stdexact."
+}

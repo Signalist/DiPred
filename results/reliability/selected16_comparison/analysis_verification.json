@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "scope_exactly_three_methods": true,
+  "window_channel_rows": 5616,
+  "independent_summary_numeric_checks": 1116,
+  "primary_comparisons": 2,
+  "cells_per_comparison": 96,
+  "tolerance": 1e-06,
+  "all_counterexamples_verified": 99,
+  "point_mse_unchanged": true,
+  "paired_score_improvements": {
+    "original28": 0,
+    "noise32": 23
+  },
+  "caveat": "Repeated historicaldata; no independent statistical or formalcoverage confirmation.32-noise reference shares zero-noise center andcalibrator."
+}

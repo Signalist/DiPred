@@ -1,0 +1,156 @@
+{"event": "issued", "split": "development", "start": 0, "feedback": 0, "time": 1794283786.513279}
+{"event": "revealed", "split": "development", "start": 0, "time": 1794283786.5159626}
+{"event": "issued", "split": "development", "start": 20, "feedback": 1, "time": 1794283786.6849952}
+{"event": "revealed", "split": "development", "start": 20, "time": 1794283786.6876595}
+{"event": "issued", "split": "development", "start": 40, "feedback": 2, "time": 1794283786.8604457}
+{"event": "revealed", "split": "development", "start": 40, "time": 1794283786.8629503}
+{"event": "issued", "split": "development", "start": 60, "feedback": 3, "time": 1794283787.0317512}
+{"event": "revealed", "split": "development", "start": 60, "time": 1794283787.034285}
+{"event": "issued", "split": "development", "start": 80, "feedback": 4, "time": 1794283787.2260172}
+{"event": "revealed", "split": "development", "start": 80, "time": 1794283787.2286975}
+{"event": "issued", "split": "development", "start": 100, "feedback": 5, "time": 1794283787.45569}
+{"event": "revealed", "split": "development", "start": 100, "time": 1794283787.4583454}
+{"event": "issued", "split": "development", "start": 120, "feedback": 6, "time": 1794283787.6384528}
+{"event": "revealed", "split": "development", "start": 120, "time": 1794283787.6409538}
+{"event": "issued", "split": "development", "start": 140, "feedback": 7, "time": 1794283787.8154387}
+{"event": "revealed", "split": "development", "start": 140, "time": 1794283787.81811}
+{"event": "issued", "split": "development", "start": 160, "feedback": 8, "time": 1794283788.0027888}
+{"event": "revealed", "split": "development", "start": 160, "time": 1794283788.0055726}
+{"event": "issued", "split": "development", "start": 180, "feedback": 9, "time": 1794283788.211934}
+{"event": "revealed", "split": "development", "start": 180, "time": 1794283788.2143521}
+{"event": "issued", "split": "development", "start": 200, "feedback": 10, "time": 1794283788.4248624}
+{"event": "revealed", "split": "development", "start": 200, "time": 1794283788.4276607}
+{"event": "issued", "split": "development", "start": 220, "feedback": 11, "time": 1794283788.63868}
+{"event": "revealed", "split": "development", "start": 220, "time": 1794283788.6411695}
+{"event": "issued", "split": "development", "start": 240, "feedback": 12, "time": 1794283788.8159587}
+{"event": "revealed", "split": "development", "start": 240, "time": 1794283788.8185709}
+{"event": "issued", "split": "development", "start": 260, "feedback": 13, "time": 1794283789.0464485}
+{"event": "revealed", "split": "development", "start": 260, "time": 1794283789.0489492}
+{"event": "issued", "split": "development", "start": 280, "feedback": 14, "time": 1794283789.2197993}
+{"event": "revealed", "split": "development", "start": 280, "time": 1794283789.2224965}
+{"event": "issued", "split": "development", "start": 300, "feedback": 15, "time": 1794283789.4249392}
+{"event": "revealed", "split": "development", "start": 300, "time": 1794283789.4273705}
+{"event": "issued", "split": "development", "start": 320, "feedback": 16, "time": 1794283789.5978806}
+{"event": "revealed", "split": "development", "start": 320, "time": 1794283789.600681}
+{"event": "issued", "split": "development", "start": 340, "feedback": 17, "time": 1794283789.77427}
+{"event": "revealed", "split": "development", "start": 340, "time": 1794283789.776785}
+{"event": "issued", "split": "development", "start": 360, "feedback": 18, "time": 1794283789.9487467}
+{"event": "revealed", "split": "development", "start": 360, "time": 1794283789.9515512}
+{"event": "issued", "split": "development", "start": 380, "feedback": 19, "time": 1794283790.1548293}
+{"event": "revealed", "split": "development", "start": 380, "time": 1794283790.1573637}
+{"event": "issued", "split": "development", "start": 400, "feedback": 20, "time": 1794283790.3856227}
+{"event": "revealed", "split": "development", "start": 400, "time": 1794283790.3879955}
+{"event": "issued", "split": "development", "start": 420, "feedback": 21, "time": 1794283790.557117}
+{"event": "revealed", "split": "development", "start": 420, "time": 1794283790.5652943}
+{"event": "issued", "split": "development", "start": 440, "feedback": 22, "time": 1794283790.7393403}
+{"event": "revealed", "split": "development", "start": 440, "time": 1794283790.7419991}
+{"event": "issued", "split": "development", "start": 460, "feedback": 23, "time": 1794283790.989265}
+{"event": "revealed", "split": "development", "start": 460, "time": 1794283790.9918537}
+{"event": "issued", "split": "development", "start": 480, "feedback": 24, "time": 1794283791.1604187}
+{"event": "revealed", "split": "development", "start": 480, "time": 1794283791.163101}
+{"event": "issued", "split": "development", "start": 500, "feedback": 25, "time": 1794283791.3290634}
+{"event": "revealed", "split": "development", "start": 500, "time": 1794283791.331393}
+{"event": "issued", "split": "development", "start": 520, "feedback": 26, "time": 1794283791.5314112}
+{"event": "revealed", "split": "development", "start": 520, "time": 1794283791.5339985}
+{"event": "issued", "split": "development", "start": 540, "feedback": 27, "time": 1794283791.7597642}
+{"event": "revealed", "split": "development", "start": 540, "time": 1794283791.763071}
+{"event": "issued", "split": "development", "start": 560, "feedback": 28, "time": 1794283791.9332354}
+{"event": "revealed", "split": "development", "start": 560, "time": 1794283791.935769}
+{"event": "issued", "split": "development", "start": 580, "feedback": 29, "time": 1794283792.1095405}
+{"event": "revealed", "split": "development", "start": 580, "time": 1794283792.1122603}
+{"event": "issued", "split": "development", "start": 600, "feedback": 30, "time": 1794283792.3146255}
+{"event": "revealed", "split": "development", "start": 600, "time": 1794283792.3172786}
+{"event": "issued", "split": "development", "start": 620, "feedback": 31, "time": 1794283792.508856}
+{"event": "revealed", "split": "development", "start": 620, "time": 1794283792.511778}
+{"event": "issued", "split": "development", "start": 640, "feedback": 32, "time": 1794283792.7450027}
+{"event": "revealed", "split": "development", "start": 640, "time": 1794283792.7475114}
+{"event": "issued", "split": "development", "start": 660, "feedback": 33, "time": 1794283792.9786959}
+{"event": "revealed", "split": "development", "start": 660, "time": 1794283792.981097}
+{"event": "issued", "split": "development", "start": 680, "feedback": 34, "time": 1794283793.1791062}
+{"event": "revealed", "split": "development", "start": 680, "time": 1794283793.1813884}
+{"event": "issued", "split": "development", "start": 700, "feedback": 35, "time": 1794283793.4244342}
+{"event": "revealed", "split": "development", "start": 700, "time": 1794283793.4269488}
+{"event": "issued", "split": "development", "start": 720, "feedback": 36, "time": 1794283793.6456172}
+{"event": "revealed", "split": "development", "start": 720, "time": 1794283793.6479824}
+{"event": "issued", "split": "development", "start": 740, "feedback": 37, "time": 1794283793.8301167}
+{"event": "revealed", "split": "development", "start": 740, "time": 1794283793.832761}
+{"event": "issued", "split": "development", "start": 760, "feedback": 38, "time": 1794283793.9995272}
+{"event": "revealed", "split": "development", "start": 760, "time": 1794283794.001823}
+{"event": "issued", "split": "test", "start": 0, "feedback": 0, "time": 1794283794.1822865}
+{"event": "revealed", "split": "test", "start": 0, "time": 1794283794.1847644}
+{"event": "issued", "split": "test", "start": 20, "feedback": 1, "time": 1794283794.387057}
+{"event": "revealed", "split": "test", "start": 20, "time": 1794283794.389322}
+{"event": "issued", "split": "test", "start": 40, "feedback": 2, "time": 1794283794.611075}
+{"event": "revealed", "split": "test", "start": 40, "time": 1794283794.6138828}
+{"event": "issued", "split": "test", "start": 60, "feedback": 3, "time": 1794283794.7876158}
+{"event": "revealed", "split": "test", "start": 60, "time": 1794283794.7903004}
+{"event": "issued", "split": "test", "start": 80, "feedback": 4, "time": 1794283794.9857843}
+{"event": "revealed", "split": "test", "start": 80, "time": 1794283794.9885123}
+{"event": "issued", "split": "test", "start": 100, "feedback": 5, "time": 1794283795.1633985}
+{"event": "revealed", "split": "test", "start": 100, "time": 1794283795.165877}
+{"event": "issued", "split": "test", "start": 120, "feedback": 6, "time": 1794283795.3438828}
+{"event": "revealed", "split": "test", "start": 120, "time": 1794283795.3465497}
+{"event": "issued", "split": "test", "start": 140, "feedback": 7, "time": 1794283795.549228}
+{"event": "revealed", "split": "test", "start": 140, "time": 1794283795.5517673}
+{"event": "issued", "split": "test", "start": 160, "feedback": 8, "time": 1794283795.741717}
+{"event": "revealed", "split": "test", "start": 160, "time": 1794283795.7442272}
+{"event": "issued", "split": "test", "start": 180, "feedback": 9, "time": 1794283795.9263542}
+{"event": "revealed", "split": "test", "start": 180, "time": 1794283795.928734}
+{"event": "issued", "split": "test", "start": 200, "feedback": 10, "time": 1794283796.0992463}
+{"event": "revealed", "split": "test", "start": 200, "time": 1794283796.102139}
+{"event": "issued", "split": "test", "start": 220, "feedback": 11, "time": 1794283796.3341608}
+{"event": "revealed", "split": "test", "start": 220, "time": 1794283796.3364892}
+{"event": "issued", "split": "test", "start": 240, "feedback": 12, "time": 1794283796.5759673}
+{"event": "revealed", "split": "test", "start": 240, "time": 1794283796.578859}
+{"event": "issued", "split": "test", "start": 260, "feedback": 13, "time": 1794283796.763274}
+{"event": "revealed", "split": "test", "start": 260, "time": 1794283796.765633}
+{"event": "issued", "split": "test", "start": 280, "feedback": 14, "time": 1794283796.937108}
+{"event": "revealed", "split": "test", "start": 280, "time": 1794283796.9396746}
+{"event": "issued", "split": "test", "start": 300, "feedback": 15, "time": 1794283797.1082413}
+{"event": "revealed", "split": "test", "start": 300, "time": 1794283797.1109836}
+{"event": "issued", "split": "test", "start": 320, "feedback": 16, "time": 1794283797.2899845}
+{"event": "revealed", "split": "test", "start": 320, "time": 1794283797.2924}
+{"event": "issued", "split": "test", "start": 340, "feedback": 17, "time": 1794283797.4910464}
+{"event": "revealed", "split": "test", "start": 340, "time": 1794283797.4938965}
+{"event": "issued", "split": "test", "start": 360, "feedback": 18, "time": 1794283797.68434}
+{"event": "revealed", "split": "test", "start": 360, "time": 1794283797.686882}
+{"event": "issued", "split": "test", "start": 380, "feedback": 19, "time": 1794283797.8500414}
+{"event": "revealed", "split": "test", "start": 380, "time": 1794283797.852789}
+{"event": "issued", "split": "test", "start": 400, "feedback": 20, "time": 1794283798.034455}
+{"event": "revealed", "split": "test", "start": 400, "time": 1794283798.0375373}
+{"event": "issued", "split": "test", "start": 420, "feedback": 21, "time": 1794283798.2497818}
+{"event": "revealed", "split": "test", "start": 420, "time": 1794283798.252947}
+{"event": "issued", "split": "test", "start": 440, "feedback": 22, "time": 1794283798.4286203}
+{"event": "revealed", "split": "test", "start": 440, "time": 1794283798.4313548}
+{"event": "issued", "split": "test", "start": 460, "feedback": 23, "time": 1794283798.59905}
+{"event": "revealed", "split": "test", "start": 460, "time": 1794283798.6018815}
+{"event": "issued", "split": "test", "start": 480, "feedback": 24, "time": 1794283798.7965534}
+{"event": "revealed", "split": "test", "start": 480, "time": 1794283798.79921}
+{"event": "issued", "split": "test", "start": 500, "feedback": 25, "time": 1794283798.9996285}
+{"event": "revealed", "split": "test", "start": 500, "time": 1794283799.0019722}
+{"event": "issued", "split": "test", "start": 520, "feedback": 26, "time": 1794283799.1829169}
+{"event": "revealed", "split": "test", "start": 520, "time": 1794283799.1856382}
+{"event": "issued", "split": "test", "start": 540, "feedback": 27, "time": 1794283799.368848}
+{"event": "revealed", "split": "test", "start": 540, "time": 1794283799.3715324}
+{"event": "issued", "split": "test", "start": 560, "feedback": 28, "time": 1794283799.5421731}
+{"event": "revealed", "split": "test", "start": 560, "time": 1794283799.5448596}
+{"event": "issued", "split": "test", "start": 580, "feedback": 29, "time": 1794283799.7622662}
+{"event": "revealed", "split": "test", "start": 580, "time": 1794283799.764915}
+{"event": "issued", "split": "test", "start": 600, "feedback": 30, "time": 1794283799.9398735}
+{"event": "revealed", "split": "test", "start": 600, "time": 1794283799.9422562}
+{"event": "issued", "split": "test", "start": 620, "feedback": 31, "time": 1794283800.1364095}
+{"event": "revealed", "split": "test", "start": 620, "time": 1794283800.1391168}
+{"event": "issued", "split": "test", "start": 640, "feedback": 32, "time": 1794283800.3305836}
+{"event": "revealed", "split": "test", "start": 640, "time": 1794283800.3329425}
+{"event": "issued", "split": "test", "start": 660, "feedback": 33, "time": 1794283800.5180461}
+{"event": "revealed", "split": "test", "start": 660, "time": 1794283800.5208163}
+{"event": "issued", "split": "test", "start": 680, "feedback": 34, "time": 1794283800.7016332}
+{"event": "revealed", "split": "test", "start": 680, "time": 1794283800.704329}
+{"event": "issued", "split": "test", "start": 700, "feedback": 35, "time": 1794283800.9211457}
+{"event": "revealed", "split": "test", "start": 700, "time": 1794283800.9240255}
+{"event": "issued", "split": "test", "start": 720, "feedback": 36, "time": 1794283801.0921884}
+{"event": "revealed", "split": "test", "start": 720, "time": 1794283801.094701}
+{"event": "issued", "split": "test", "start": 740, "feedback": 37, "time": 1794283801.292661}
+{"event": "revealed", "split": "test", "start": 740, "time": 1794283801.295175}
+{"event": "issued", "split": "test", "start": 760, "feedback": 38, "time": 1794283801.4959314}
+{"event": "revealed", "split": "test", "start": 760, "time": 1794283801.498767}

@@ -1,0 +1,30 @@
+{
+  "time": 1794283965.7759483,
+  "source_sha256": "4bc09008282f68ea8d376b2a7926f19ca6003942bc8e227b74e3f4c15998bd99",
+  "predictor_sha256": "f99b7fdb15219c0df10b8f93647c003379a307d59afb6660eb66d9b2830ffdbd",
+  "artifacts": {
+    "runs/selected16_noise32_requested_20261110/per_case.json": "ed82bfd3178f171cf2701c95a7ce1bfe915831e503ce2c7812516723b3d15b87",
+    "runs/feature_ablation28_followup_20261110/per_case.json": "31d492ad4d39e2acae1bab50f80b4b78ca59e49ab136600a3f8b9e5071567b59",
+    "runs/selected16_quantile_20261110/compact16.pt": "d7484a123b9721f7103683077e4720c7f65756dc26236aa0c6969b5572595832",
+    "runs/feature_ablation28_20261110/full.pt": "c3c2a7f3df68cf92a1493c3da0975953f2ae9ca4c0690b52c2a34a8700b11c37",
+    "runs/selected16_noise32_requested_20261110/calibration.pt": "5c6098d072c032f3a71413b06d0085ee29ae4508233fdb06d6b51f91e8799715",
+    "runs/feature_ablation28_20261110/calibration.pt": "24b1a685f908de2fbe28e10a17551aaeb1471443e386ec9af7a2d2ccf1e698d5",
+    "runs/physical20_augmented_dynamics_20261109/augmented_diffusion/model.pt": "f99b7fdb15219c0df10b8f93647c003379a307d59afb6660eb66d9b2830ffdbd"
+  },
+  "user_clarification": "原来的28，说错了。直接对照原28以及32-noise，不需要另外对照。",
+  "names": [
+    "selected16",
+    "original28",
+    "noise32"
+  ],
+  "modes": [
+    "memory_dynamic"
+  ],
+  "no_other_baselines_evaluated_in_this_report": true,
+  "original28": "Prior complete-source continuation full.pt, same publishedinitialstate and819pairs/2000updates/seed42 asselected16. Reuse frozenactualreplay without newtraining.",
+  "scope": "Alloriginal8metrics/96development-testRe/channelcells/1e-6, onlyselected16vsoriginal28 andnoise32. Oldbroadcomparisonrequest superseded byuser; oldartifacts preserved butnot newcomparison targets.",
+  "common_center": "Allmethods share frozen4call zero-noise P.32-noise uses actual32pathstd with independent recalibration on10IDs and samefixedmemory_dynamic controller. This is not32ensemblemean pointforecast or empirical5/95samplequantiles.",
+  "online_scope": "Onlycomplete20reveals update calibrators; noneuralweight updates. Sharedcalibrator retains its originalphysicalfeatures.16channels describes neuralquantilehead, not allinputs ofentirepipeline.",
+  "computation": "16and28require4DiPredcalls+onehead. Fresh32-noisestd with commonP needs128samplingcalls+4center calls. Cachedmoments reused; no speedup inferred from cachedIO.",
+  "caveat": "Repeated historicaldata; subsetchosen afterpriorablation. Exploratory comparison, no independentstatistical or strictcoverage claim."
+}
