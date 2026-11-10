@@ -1,0 +1,28 @@
+{
+  "time": 1794268359.8432643,
+  "source_sha256": "9f4f0825e23f111452b36e4928a8df48d13feb512de66dc0de5d0d877dcdb961",
+  "frozen_artifacts": {
+    "runs/fullblock_memory_risk_20261109/full.pt": "fec1953f35d8984287150f717e902e6c7eb8e9350623853fa13af67fea3933cc",
+    "runs/fullblock_memory_risk_20261109/statistics.pt": "b0efaaf2ac9704efa9d0b3a2a54624a261e8f6ee3fd3906d3bdfc4083a14a02c",
+    "runs/fullblock_memory_risk_20261109/calibration.pt": "c7739b86432d96a1887815793b7c6ddb8d94b3f0ec31956a75c6b202c6b487bb",
+    "runs/physical20_augmented_dynamics_20261109/augmented_diffusion/model.pt": "f99b7fdb15219c0df10b8f93647c003379a307d59afb6660eb66d9b2830ffdbd"
+  },
+  "predictor_sha256": "f99b7fdb15219c0df10b8f93647c003379a307d59afb6660eb66d9b2830ffdbd",
+  "names": [
+    "identity",
+    "quantile",
+    "centered_nll",
+    "point_nll"
+  ],
+  "modes": [
+    "memory_dynamic",
+    "scale_fastcal"
+  ],
+  "hypotheses": "Quantile radius orders R-mid while primaryriskranking targets R. Test Gaussian scale loss about detachedmid versus originalfixedP residual. Neither assumes Gaussian future physics nor substitutes centered-error scoring for primaryRrisk.",
+  "training": "Same48340parameters,full-memoryinitialweights,819originaltrainpairs200:600,2000additionalupdates,seed42,batch4,AdamW3e-4->1e-6,clip1,same20%availabilitydropout. Purepinball matchedcontinuedcontrol. No extra inference output/parameters/calls.",
+  "auxiliary_weight": "One prespecified10% initialradiusgradientL2 ratio,computed separately forcentered/pointtargets on32evenlyspaced originalfitexamples. Freezeweightbeforeupdates; no pilot/evalselection or gainscan. Midpoint detached forbothauxiliarycontrols.",
+  "calibration": "Allheadsfreezefirst,recomputeindependent10IDinitialization. Pointpredictor and trainnormalization fixed. Allcurrenttargets read after allissues in pilot.",
+  "pilot_gate": "44originaltrainID queries600..760 after580cold. Centered/pointauxiliary mustloweractualScore and primaryR-AURC versusmatchedpurepinball,withoutworse top10energy or meanabsoluteRe/channelcoverageerror,tolerance1e-6. Retain all4heads/2controllers ifproceeding.",
+  "invariants": "Native99,66,33,0,joint20to20,actualsavedpreviousP,fullwindowfeedback,alloriginal8metrics/96cells and strongreferences unchanged. No folds,distillation,seedscan or heldoutidentity fitting.",
+  "limits": "Historicallyreusedtrainpilot. Per-radiusgradient normalization is not identical parametergradient/FLOP matching. Diagnostic doesnotprove the testAURCgap has this cause. Full-line goal remains unachieved."
+}

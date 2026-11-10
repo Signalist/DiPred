@@ -1,0 +1,42 @@
+[
+  {
+    "step": 1,
+    "loss": 0.0446733795106411,
+    "quantile": 0.0446733795106411,
+    "auxiliary": 0.0,
+    "auxiliary_weight": 0.0,
+    "elapsed": 0.3233475685119629
+  },
+  {
+    "step": 500,
+    "loss": 0.036531101912260056,
+    "quantile": 0.036531101912260056,
+    "auxiliary": 0.0,
+    "auxiliary_weight": 0.0,
+    "elapsed": 13.070565938949585
+  },
+  {
+    "step": 1000,
+    "loss": 0.04211157187819481,
+    "quantile": 0.04211157187819481,
+    "auxiliary": 0.0,
+    "auxiliary_weight": 0.0,
+    "elapsed": 28.20342516899109
+  },
+  {
+    "step": 1500,
+    "loss": 0.03894520923495293,
+    "quantile": 0.03894520923495293,
+    "auxiliary": 0.0,
+    "auxiliary_weight": 0.0,
+    "elapsed": 40.926509618759155
+  },
+  {
+    "step": 2000,
+    "loss": 0.027489542961120605,
+    "quantile": 0.027489542961120605,
+    "auxiliary": 0.0,
+    "auxiliary_weight": 0.0,
+    "elapsed": 56.0187611579895
+  }
+]

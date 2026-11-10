@@ -1,6 +1,8 @@
 # 当前可靠性主线
 
-最新平均区间评分候选是**完整历史误差风险头**：[`MEMORY.md`](MEMORY.md)。入口`MemoryReliabilityPredictor(memory_mode="full", strategy="memory_dynamic")`，Score **0.625750**、逐点覆盖89.941%，保留原4步及完整20→20。包含权重、四种信息对照和384次实际推理逐位核验。仍有强参考退步项，旧`low_regression`默认继续保留。
+最新平均区间评分方案见[CONTINUED.md](CONTINUED.md)：`ContinuedReliabilityPredictor(strategy="memory_dynamic")`，Score **0.620442**、逐点覆盖89.9358%，保留原四步和完整20→20。推理权重、完整对照和96次实际窗口逐位核验均包含。相对上次发布为76改善、20退步，没有全指标最优结论。
+
+上一版完整历史误差风险头及四种匹配信息对照保留在[`MEMORY.md`](MEMORY.md)，Score0.625750，384次实际推理核验。旧`low_regression`预设继续保留。
 
 以下为此前发布并保留的四种预设；相关“当前最优”描述仅指此前版本。
 

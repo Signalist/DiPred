@@ -1,0 +1,44 @@
+{
+  "time": 1794272367.9546032,
+  "parameters": 48340,
+  "fit_pairs": 819,
+  "additional_steps": 2000,
+  "initial90percentbounds_identical": true,
+  "location_and_scale_both_trained": true,
+  "minibatches_and_availability_masks_sha256": {
+    "density_quantile": "c1bb8a6c039263c5e17f26afa683db54ce4740db07965757d7afec1dbef9d7ee",
+    "density_gaussian": "c1bb8a6c039263c5e17f26afa683db54ce4740db07965757d7afec1dbef9d7ee",
+    "density_student4": "c1bb8a6c039263c5e17f26afa683db54ce4740db07965757d7afec1dbef9d7ee"
+  },
+  "coefficients": {
+    "density_quantile": {
+      "coefficient": 1.0,
+      "details": null
+    },
+    "density_gaussian": {
+      "coefficient": 0.002078067744150758,
+      "details": {
+        "initial_quantile_radius_gradient_l2": 0.00018132422701455653,
+        "initial_nll_radius_gradient_l2": 0.08725617080926895,
+        "target_initial_gradient_ratio": 1.0
+      }
+    },
+    "density_student4": {
+      "coefficient": 0.01558288186788559,
+      "details": {
+        "initial_quantile_radius_gradient_l2": 0.00018132422701455653,
+        "initial_nll_radius_gradient_l2": 0.011636116541922092,
+        "target_initial_gradient_ratio": 1.0
+      }
+    }
+  },
+  "q95": {
+    "density_gaussian": 1.6448536269514722,
+    "density_student4": 2.13184678133629
+  },
+  "artifacts": {
+    "density_quantile": "21a08cd22d4a3857218342c0d9665b2d31afa60e249de346b3a71c46539ee5c6",
+    "density_gaussian": "edbf0e2870c0f04e4e0e67fb911a72724304dbe95b5c60ae867bb6139a3175da",
+    "density_student4": "dff84a4af4adc10a5bfdd38e5cda860dffd4985a31d8c263eb337635a3e5916a"
+  }
+}

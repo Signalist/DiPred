@@ -1,0 +1,86 @@
+{
+  "memory_dynamic": {
+    "density_reference": {
+      "standardized_interval_score": 0.7566292362577386,
+      "standardized_width": 0.5679527023110401,
+      "relative_aurc": 0.2245260291463799,
+      "top10_energy": 0.5873218601472951,
+      "per_frame_top10_energy": 0.5238800049711156,
+      "worst_frame_coverage": 0.8667347547743055,
+      "worst_patch_coverage": 0.7458619913072497,
+      "coverage_error": 0.003972899991053136
+    },
+    "density_quantile": {
+      "standardized_interval_score": 0.7539967092471542,
+      "standardized_width": 0.5672211772920909,
+      "relative_aurc": 0.22420238829321332,
+      "top10_energy": 0.5883146527492338,
+      "per_frame_top10_energy": 0.5249208944870366,
+      "worst_frame_coverage": 0.8669210702401621,
+      "worst_patch_coverage": 0.7459120486152393,
+      "coverage_error": 0.003908569459561967
+    },
+    "density_gaussian": {
+      "standardized_interval_score": 0.7651981483703411,
+      "standardized_width": 0.5676992790111237,
+      "relative_aurc": 0.2247078394834642,
+      "top10_energy": 0.5832897483171137,
+      "per_frame_top10_energy": 0.5196981151236428,
+      "worst_frame_coverage": 0.8684737594039352,
+      "worst_patch_coverage": 0.7430853698071507,
+      "coverage_error": 0.003151297254694846
+    },
+    "density_student4": {
+      "standardized_interval_score": 0.7726990930542902,
+      "standardized_width": 0.5707310708453533,
+      "relative_aurc": 0.22663525306516225,
+      "top10_energy": 0.5803776922463267,
+      "per_frame_top10_energy": 0.5168951878586301,
+      "worst_frame_coverage": 0.8689986165364584,
+      "worst_patch_coverage": 0.7404215986529986,
+      "coverage_error": 0.0028965352696401327
+    }
+  },
+  "scale_fastcal": {
+    "density_reference": {
+      "standardized_interval_score": 0.7589285384849818,
+      "standardized_width": 0.5764974437212502,
+      "relative_aurc": 0.22450790670182968,
+      "top10_energy": 0.5866402993571979,
+      "per_frame_top10_energy": 0.5236914699248694,
+      "worst_frame_coverage": 0.8693274377893518,
+      "worst_patch_coverage": 0.7489721616743892,
+      "coverage_error": 0.002367622201089514
+    },
+    "density_quantile": {
+      "standardized_interval_score": 0.7564366141899869,
+      "standardized_width": 0.57657803500968,
+      "relative_aurc": 0.22418899743783252,
+      "top10_energy": 0.5877479679689364,
+      "per_frame_top10_energy": 0.5246334175406783,
+      "worst_frame_coverage": 0.8695294415509259,
+      "worst_patch_coverage": 0.7493401447738762,
+      "coverage_error": 0.002298403398858201
+    },
+    "density_gaussian": {
+      "standardized_interval_score": 0.7669283514097334,
+      "standardized_width": 0.5754899003660238,
+      "relative_aurc": 0.2247862100104491,
+      "top10_energy": 0.582941101519046,
+      "per_frame_top10_energy": 0.5196760227696763,
+      "worst_frame_coverage": 0.87130615234375,
+      "worst_patch_coverage": 0.7462783676303095,
+      "coverage_error": 0.0019539137405377937
+    },
+    "density_student4": {
+      "standardized_interval_score": 0.7743405674742879,
+      "standardized_width": 0.577533330215762,
+      "relative_aurc": 0.22679609060977343,
+      "top10_energy": 0.5798442548182275,
+      "per_frame_top10_energy": 0.5167449048299481,
+      "worst_frame_coverage": 0.8718162706163194,
+      "worst_patch_coverage": 0.7438405077435353,
+      "coverage_error": 0.0018461578201364626
+    }
+  }
+}

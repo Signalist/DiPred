@@ -1,0 +1,37 @@
+{
+  "time": 1794268596.4590018,
+  "parameters": 48340,
+  "fit_pairs": 819,
+  "minibatches_and_availability_masks_sha256": {
+    "quantile": "c1bb8a6c039263c5e17f26afa683db54ce4740db07965757d7afec1dbef9d7ee",
+    "centered_nll": "c1bb8a6c039263c5e17f26afa683db54ce4740db07965757d7afec1dbef9d7ee",
+    "point_nll": "c1bb8a6c039263c5e17f26afa683db54ce4740db07965757d7afec1dbef9d7ee"
+  },
+  "coefficients": {
+    "quantile": {
+      "weight": 0.0,
+      "balance": null
+    },
+    "centered_nll": {
+      "weight": 0.000635273871012032,
+      "balance": {
+        "initial_quantile_radius_gradient_l2": 0.0001808320957934484,
+        "initial_auxiliary_radius_gradient_l2": 0.02846521884202957,
+        "target_gradient_ratio": 0.1
+      }
+    },
+    "point_nll": {
+      "weight": 0.0006095453863963485,
+      "balance": {
+        "initial_quantile_radius_gradient_l2": 0.0001808320957934484,
+        "initial_auxiliary_radius_gradient_l2": 0.02966671623289585,
+        "target_gradient_ratio": 0.1
+      }
+    }
+  },
+  "artifacts": {
+    "quantile": "15fd6b7b04a9601f7b44a8dc7437f4044a0c6ca111824c7fa9249fda3ac1ee4f",
+    "centered_nll": "ac447cd9f3b99e85cda7ede58ed26fbe80c1597f4b3e89a28300c11b815ecc98",
+    "point_nll": "3a185b384e2c3946f87059f0f681462a8f6d5605f21ed0eb81294a2eb318af1a"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "time": 1794272140.873491,
+  "source_sha256": "945c24a316049fdfa024acf2600e8479c9e7df17a6be47e09ce5f1f1f45530fe",
+  "helper_sha256": {
+    "distribution_error_risk.py": "c002c856ba2ee884c5a4fdca734213b85cff1ab47a840026e110faa0837f0348",
+    "risk_head_pilot_protocol.py": "b388c7ff7dc899b63038020041d788ed0f29aa59dae60ae56d69660fdba12d09"
+  },
+  "frozen_artifacts": {
+    "runs/point_error_scale_alignment_20261109/quantile.pt": "15fd6b7b04a9601f7b44a8dc7437f4044a0c6ca111824c7fa9249fda3ac1ee4f",
+    "runs/point_error_scale_alignment_20261109/calibration.pt": "50f75973089a9a1d337496a28167cace6b4488ec7fb9e7c7b91114fabe144522",
+    "runs/fullblock_memory_risk_20261109/statistics.pt": "b0efaaf2ac9704efa9d0b3a2a54624a261e8f6ee3fd3906d3bdfc4083a14a02c",
+    "runs/physical20_augmented_dynamics_20261109/augmented_diffusion/model.pt": "f99b7fdb15219c0df10b8f93647c003379a307d59afb6660eb66d9b2830ffdbd"
+  },
+  "predictor_sha256": "f99b7fdb15219c0df10b8f93647c003379a307d59afb6660eb66d9b2830ffdbd",
+  "names": [
+    "density_reference",
+    "density_quantile",
+    "density_gaussian",
+    "density_student4"
+  ],
+  "objectives": [
+    "density_quantile",
+    "density_gaussian",
+    "density_student4"
+  ],
+  "modes": [
+    "memory_dynamic",
+    "scale_fastcal"
+  ],
+  "q95": {
+    "density_gaussian": 1.6448536269514722,
+    "density_student4": 2.13184678133629
+  },
+  "rationale": "Stopaddingtailpenalties aftertargetedgainsstillworsenjointmetrics. Compareproperpointwiseerror-densityfamilies versus twoendpointpinball underidenticalinferencearchitecture. This isnotweakauxiliaryGaussian-scale loss: fullnormalizedNLL replacespinball andtrainsbotherrorlocation andscale.",
+  "fit": "Same48340parameters,bestcurrentquantileinitialweights,819originaltrainpairs200:600,seed42,batch4,2000updates,AdamW3e-4->1e-6,clip1,same20%memoryavailabilitymasksandexactrandomwindowminibatches. No addedpredictortraining.",
+  "families": "Quantileordered90%bounds;Gaussianloc=midpoint,scale=radius/Normalq95;Student-tfixeddf4,loc=midpoint,scale=radius/Studentq95. All3initial90%boundsidentical. No degreesoffreedomscan. Midpointdescribeserrorlocation,notachangetofixedP. No jointspatiotemporal or physicalrandomness claim.",
+  "normalization": "Entirelikelihood multipliedbyfixedpositivecoefficientsettinginitialradiusgradientL2to100%ofpinball on32evenlyspacedfitexamples. Freeze beforeupdates,no pilot/dev/testcoefficientfit. ThisdoesnotmatchallparametergradientsorFLOPs exactly.",
+  "calibration": "Afterallheadsfreeze,recomputeindependent10IDdeploymentscales; density_reference mustexactlyreproducecurrentquantilecalibration. Existingonlinecontrollers unchanged,no extrainferencemodules orsamples.",
+  "pilot_gate": "Original44trainID600..760after580cold. Densitycandidate mustloweractualScore by1e-6 andallother7primarymacro metrics no worse thanmatchedfreshdensity_quantile by1e-6. Groupcoverage absoluteerrors averaged perRe/channel first. Gate isonlytrainpilot screening,notall96cellcompletion.",
+  "invariant": "Frozenoriginal4nativecalls99,66,33,0,joint20to20,actualsavedpreviousPerror,8primarymetrics/96cells/tolerance1e-6/all47strongreferences remain. No heldoutidentityfitting,folds,distillation,seedsweep,variableforecastblocks or32sampleinference.",
+  "limitations": "Historicallyreusedtrainingpilot. A densityfamily assumptionisnotprooftruePDEerrorsfollowit. Independent90%calibrationdoesnotprovefullCDF,conditionalcoverage orwhole20framecoverage. CurrentmeanScore0.622351 andearlyreference2/96 remainuntilfullscopeverification."
+}

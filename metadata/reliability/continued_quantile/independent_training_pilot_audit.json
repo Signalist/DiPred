@@ -1,0 +1,43 @@
+{
+  "passed": true,
+  "density_and_gradient_checks": [
+    {
+      "kind": "density_gaussian",
+      "initial_nll": -1.0298607349395752,
+      "scipy_nll": -1.0298607297183848,
+      "max_location_gradient_error": 7.548605464660629e-10,
+      "max_radius_gradient_error": 6.126219059821025e-09,
+      "coefficient": 0.002078067744150758,
+      "numpy_analytic_coefficient": 0.002078067973545066,
+      "initial_radius_gradient_ratio": 0.9999998896117398,
+      "location_and_scale_both_receive_gradients": true,
+      "decoded_upper_quantile_probability": 0.95,
+      "scipy_ppf_cdf_round_trip_error": 0.0,
+      "independently_refined_q95": 1.6448536269514724,
+      "nominal_probability_bracketed_by_adjacent_float32_quantiles": true
+    },
+    {
+      "kind": "density_student4",
+      "initial_nll": -1.0454524755477905,
+      "scipy_nll": -1.0454524976365844,
+      "max_location_gradient_error": 3.153464546646256e-11,
+      "max_radius_gradient_error": 3.542908464705414e-11,
+      "coefficient": 0.01558288186788559,
+      "numpy_analytic_coefficient": 0.015582881909099865,
+      "initial_radius_gradient_ratio": 0.9999999973551571,
+      "location_and_scale_both_receive_gradients": true,
+      "decoded_upper_quantile_probability": 0.9499999997194165,
+      "scipy_ppf_cdf_round_trip_error": -2.805834453667444e-10,
+      "independently_refined_q95": 2.1318467863266495,
+      "nominal_probability_bracketed_by_adjacent_float32_quantiles": true
+    }
+  ],
+  "same_initial90percentintervals": true,
+  "matched_minibatches_and_availability": true,
+  "existing_frozen_reference_rows_exact": 1760,
+  "all_pilot_rows": 7040,
+  "complete_issue_reveal_pairs": 10,
+  "pilot_group_metrics_and_gates_exact": true,
+  "independent_calibration_not_used_for_fitting": true,
+  "limitation": "Per-location marginal density assumptions, not jointfield uncertainty or prooftruePDEerrorfamily. Reusedtrainpilot, not independentconfirmation."
+}

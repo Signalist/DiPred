@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "case_rows": 14976,
+  "comparisons": 440,
+  "cells_per_comparison": 96,
+  "tolerance": 1e-06,
+  "all_counterexamples_verified": 16550,
+  "portable_actual_forecasts": 96,
+  "cpu_smoke_strategies": 2,
+  "original_shared_predictor_preserved": true,
+  "no_raw_data_or_issued_caches_or_credentials": true,
+  "best_mean_score": "density_quantile/memory_dynamic",
+  "full_line_improvement_achieved": false
+}

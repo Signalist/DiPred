@@ -1,0 +1,56 @@
+{
+  "time": 1794273028.370256,
+  "source_sha256": "8951b0800e920c66ecbff262bd7cab32b18b4ca72f2768af9110687e83208311",
+  "predictor_sha256": "f99b7fdb15219c0df10b8f93647c003379a307d59afb6660eb66d9b2830ffdbd",
+  "artifacts": {
+    "runs/physical20_augmented_dynamics_20261109/augmented_diffusion/model.pt": "f99b7fdb15219c0df10b8f93647c003379a307d59afb6660eb66d9b2830ffdbd",
+    "runs/distribution_error_risk_20261110/calibration.pt": "3b8ee8c428a953ef88eab202b692ded0fdc082d9cef02b64d422f749e2c2a13f",
+    "runs/distribution_error_risk_20261110/density_quantile.pt": "21a08cd22d4a3857218342c0d9665b2d31afa60e249de346b3a71c46539ee5c6",
+    "runs/distribution_error_risk_20261110/density_gaussian.pt": "edbf0e2870c0f04e4e0e67fb911a72724304dbe95b5c60ae867bb6139a3175da",
+    "runs/distribution_error_risk_20261110/density_student4.pt": "dff84a4af4adc10a5bfdd38e5cda860dffd4985a31d8c263eb337635a3e5916a"
+  },
+  "names": [
+    "density_reference",
+    "density_quantile",
+    "density_gaussian",
+    "density_student4"
+  ],
+  "modes": [
+    "memory_dynamic",
+    "scale_fastcal"
+  ],
+  "original_density_gate_passed": false,
+  "original_failed_gate_sha256": "3d9193d4638f8d5017067807fb09cc97eb6f3756951159d97ac79381dc158dd1",
+  "original_train_only_evidence": {
+    "memory_dynamic": {
+      "gains": {
+        "standardized_interval_score": 0.0026325270105843623,
+        "standardized_width": 0.0007315250189492417,
+        "relative_aurc": 0.0003236408531665791,
+        "top10_energy": 0.0009927926019386302,
+        "per_frame_top10_energy": 0.001040889515920962,
+        "worst_frame_coverage": 0.000186315465856568,
+        "worst_patch_coverage": 5.005730798957053e-05,
+        "coverage_error": 6.433053149116838e-05
+      },
+      "all_eight_strictly_improved": true
+    },
+    "scale_fastcal": {
+      "gains": {
+        "standardized_interval_score": 0.002491924294994896,
+        "standardized_width": -8.059128842974328e-05,
+        "relative_aurc": 0.00031890926399716357,
+        "top10_energy": 0.0011076686117384993,
+        "per_frame_top10_energy": 0.0009419476158089024,
+        "worst_frame_coverage": 0.00020200376157408773,
+        "worst_patch_coverage": 0.0003679830994870459,
+        "coverage_error": 6.92188022313133e-05
+      },
+      "all_eight_strictly_improved": false
+    }
+  },
+  "reason": "GaussianandStudent-tfulldensityobjectivesfailversusmatchedquantile. Quantilecontrolitself improvesall8pilotmacrocriteria versusfrozencurrent under memory_dynamic. Separate exploratoryfollowup retainsall4heads/2controllers; originaldensityfailureisnotrewritten.",
+  "fitting": "Onlyoriginal819trainpairs200:600,seed42,2000additionalriskheadupdates,48340parameters. Samefixednativefourcallpointforecaster,statsandgeometry. No development/testfitting or calibration-labelNNtraining.",
+  "scope": "Alloriginal8metrics,96development/testRe-channelcells,1e-6tolerance,all47previousreferencepairs,allmethods/failures retained. Same reused evalidentities; pilot improvement doesnotestablishfull-line success or independentconfirmation.",
+  "invariant": "Original99,66,33,0,joint20to20,actualsavedpreviousPerror,truthonlyaftercomplete20issue. No extrasampling,pointcorrection,folds,distillation or newtrainingseeds."
+}

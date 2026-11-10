@@ -1,0 +1,42 @@
+[
+  {
+    "step": 1,
+    "loss": -0.0014863281976431608,
+    "unscaled_objective": -0.7152453064918518,
+    "quantile_diagnostic": 0.04436240345239639,
+    "objective_coefficient": 0.002078067744150758,
+    "elapsed": 0.02580118179321289
+  },
+  {
+    "step": 500,
+    "loss": -0.001954528270289302,
+    "unscaled_objective": -0.9405508041381836,
+    "quantile_diagnostic": 0.03668021783232689,
+    "objective_coefficient": 0.002078067744150758,
+    "elapsed": 15.073779344558716
+  },
+  {
+    "step": 1000,
+    "loss": -0.0017311895499005914,
+    "unscaled_objective": -0.8330765962600708,
+    "quantile_diagnostic": 0.04273475334048271,
+    "objective_coefficient": 0.002078067744150758,
+    "elapsed": 27.814480304718018
+  },
+  {
+    "step": 1500,
+    "loss": -0.002144920639693737,
+    "unscaled_objective": -1.0321706533432007,
+    "quantile_diagnostic": 0.039867233484983444,
+    "objective_coefficient": 0.002078067744150758,
+    "elapsed": 42.838927030563354
+  },
+  {
+    "step": 2000,
+    "loss": -0.002594959456473589,
+    "unscaled_objective": -1.2487367391586304,
+    "quantile_diagnostic": 0.027767246589064598,
+    "objective_coefficient": 0.002078067744150758,
+    "elapsed": 55.51663780212402
+  }
+]

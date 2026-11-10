@@ -1,6 +1,32 @@
 # DiPred
 
-最新发布的平均区间评分最优方案是**冻结四步DiPred＋历史误差风险头**。输入连续20帧，一次联合预测完整后20帧；保持99→66→33→0四次调用，直接输出预测误差区间，无需32路采样。
+当前推荐的平均区间评分方案是**冻结四步DiPred＋续训分位数风险头**。输入20帧，一次联合预测完整后20帧；保留99→66→33→0四次调用，直接输出误差区间，无需32路采样。入口为[`reliability/continued_predict.py`](reliability/continued_predict.py)，完整用法见[`reliability/CONTINUED.md`](reliability/CONTINUED.md)。推理权重和初始校准参数已包含。
+
+|测试窗口2–39，Re及u/v等权|90%逐点覆盖|标准化区间评分↓|标准化宽度↓|
+|---|---:|---:|---:|
+|上次GitHub发布 `full/memory_dynamic`|89.9406%|0.625750|0.476879|
+|上一轮本地分位数头|89.9430%|0.622351|0.475139|
+|本次 `memory_dynamic`|89.9358%|**0.620442**|**0.474026**|
+|同一头 `scale_fastcal`|89.9994%|0.622563|0.478305|
+
+相对上次GitHub发布，平均区间评分降低约0.8482%，原八指标/96项比较为76改善、20退步。相对上一轮本地头仍有23项退步，AURC和最差区域覆盖略差，尚未全线超过强参考。点预测MSE保持原值。Gaussian和Student-t对照未胜过纯分位数，改进属于风险头续训收益，不作为新分布机制的证明。
+
+```bash
+pip install -r requirements.txt
+TORCH_ALLOW_TF32_CUBLAS_OVERRIDE=0 python -m reliability.continued_predict \
+  --input history.pt --output forecast.pt \
+  --geometry 0.0034 -0.0034 0.02 --strategy memory_dynamic
+python analyze_continued_reliability.py
+TORCH_ALLOW_TF32_CUBLAS_OVERRIDE=0 python -m reliability.verify_continued --device cpu
+```
+
+几何参数需换为真实dx、dy、dt。CLI是冷启动；在线连续反馈使用`ContinuedReliabilityPredictor.predict/reveal/reset`，完整20帧真值到达后才反馈。[结果目录](results/reliability/continued_quantile/README.md)包含14,976条窗口/通道记录、全部47个既有参考和本次控制、440组96项比较、所有反例及逐轨迹分析。开发/测试历史已反复使用，结果为探索性；90%逐点覆盖不代表严格条件覆盖或完整20帧联合覆盖。Score和Width为训练通道标准化的无量纲值。
+
+---
+
+## 上次发布：完整窗口误差记忆对照
+
+上次发布的平均区间评分方案是**冻结四步DiPred＋历史误差风险头**。输入连续20帧，一次联合预测完整后20帧；保持99→66→33→0四次调用，直接输出预测误差区间，无需32路采样。
 
 入口：[`reliability/memory_predict.py`](reliability/memory_predict.py)，使用说明：[`reliability/MEMORY.md`](reliability/MEMORY.md)。权重、归一化、校准参数和完整对照均已包含。
 

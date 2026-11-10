@@ -1,0 +1,33 @@
+{
+  "checkpoint_sha256": "229627dbfc1fd72f48d6baba9c7ddfa9f89cb3ee5b58f2d99ed445a4ceff7c55",
+  "shared_checkpoint_sha256": "834260c9838b058d3e415b1efbd3fa19f7998884a36e46d14d62b10ed3ad8cfe",
+  "source_artifacts": {
+    "runs/distribution_error_risk_20261110/density_quantile.pt": "21a08cd22d4a3857218342c0d9665b2d31afa60e249de346b3a71c46539ee5c6",
+    "runs/random_window_continuation_followup_20261110/calibration.pt": "3b8ee8c428a953ef88eab202b692ded0fdc082d9cef02b64d422f749e2c2a13f",
+    "runs/distribution_error_risk_20261110/protocol.json": "411a903f27bc18946551700095230b9b1ef9c010ae85472993026e71337aa6f2",
+    "runs/random_window_continuation_followup_20261110/per_case.json": "07521302d2ef73769f3838113165cc78c09fa5f0766e3b08736931e6aff4e255",
+    "runs/point_error_scale_alignment_20261109/quantile.pt": "15fd6b7b04a9601f7b44a8dc7437f4044a0c6ca111824c7fa9249fda3ac1ee4f",
+    "github/DiPred/reliability/checkpoints/memory.pt": "603a78288a44b9d64406e853176befcc2c644c1098eb88eae9d46e42a5804c6a"
+  },
+  "objective": "density_quantile",
+  "recommended_strategy": "memory_dynamic",
+  "native_labels": [
+    99,
+    66,
+    33,
+    0
+  ],
+  "forecast_shape": [
+    2,
+    20,
+    32,
+    64
+  ],
+  "parameters_per_head": 48340,
+  "fit_pairs": 819,
+  "additional_steps": 2000,
+  "seed": 42,
+  "calibration_identities": 10,
+  "no_development_or_test_identities_fitted": true,
+  "caveat": "Repeatedly examined historical development/test data; exploratory selection, not independent confirmation or formal coverage."
+}

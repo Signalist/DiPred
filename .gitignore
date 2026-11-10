@@ -23,3 +23,4 @@ tmp/
 !reliability/checkpoints/current.pt
 !reliability/checkpoints/context.pt
 !reliability/checkpoints/memory.pt
+!reliability/checkpoints/continued.pt

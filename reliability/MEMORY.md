@@ -1,4 +1,6 @@
-# 当前平均评分最优：历史误差风险头
+# 上次发布：历史误差风险头
+
+更新的分位数续训版本及权重见[CONTINUED.md](CONTINUED.md)。本页保留匹配的记忆信息消融，不再是当前平均评分记录。
 
 入口是`MemoryReliabilityPredictor(memory_mode="full", strategy="memory_dynamic")`。冻结原四步DiPred（99→66→33→0），输入20帧、联合预测完整后20帧。48,340参数风险头读取物理历史、实际去噪特征和已揭示的上一窗口误差，直接输出非对称误差区间。点预测不变，不接点预测Corrector，也不需要32次采样。
 

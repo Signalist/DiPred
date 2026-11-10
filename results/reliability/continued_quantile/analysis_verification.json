@@ -1,0 +1,71 @@
+{
+  "passed": true,
+  "case_rows": 14976,
+  "numeric_group_checks": 2976,
+  "comparisons": 440,
+  "cells_per_comparison": 96,
+  "tolerance": 1e-06,
+  "all_counterexamples_verified": 16550,
+  "point_forecasts_unchanged": true,
+  "test_warm_macro": {
+    "density_reference/memory_dynamic": {
+      "coverage": 0.8994301861228302,
+      "interval_score": 0.6223511100643211,
+      "interval_width": 0.47513857341769056,
+      "mean_absolute_group_coverage_error": 0.0007988065829751348
+    },
+    "density_reference/scale_fastcal": {
+      "coverage": 0.900066262697093,
+      "interval_score": 0.6244514618156074,
+      "interval_width": 0.47900796059126916,
+      "mean_absolute_group_coverage_error": 0.00025133793378434577
+    },
+    "density_quantile/memory_dynamic": {
+      "coverage": 0.8993577305902863,
+      "interval_score": 0.620441833871542,
+      "interval_width": 0.4740264203241476,
+      "mean_absolute_group_coverage_error": 0.0007000439827553976
+    },
+    "density_quantile/scale_fastcal": {
+      "coverage": 0.8999942026160962,
+      "interval_score": 0.62256250378093,
+      "interval_width": 0.47830481359909416,
+      "mean_absolute_group_coverage_error": 0.00017827414194045618
+    },
+    "density_gaussian/memory_dynamic": {
+      "coverage": 0.8995498002490454,
+      "interval_score": 0.6250410004589728,
+      "interval_width": 0.47149916471891673,
+      "mean_absolute_group_coverage_error": 0.0005364246666431464
+    },
+    "density_gaussian/scale_fastcal": {
+      "coverage": 0.900229422560735,
+      "interval_score": 0.6267122331941337,
+      "interval_width": 0.4752489078468616,
+      "mean_absolute_group_coverage_error": 0.00040933852742987736
+    },
+    "density_student4/memory_dynamic": {
+      "coverage": 0.8995526703651886,
+      "interval_score": 0.6300490411276226,
+      "interval_width": 0.4717354682628174,
+      "mean_absolute_group_coverage_error": 0.00048207056801223097
+    },
+    "density_student4/scale_fastcal": {
+      "coverage": 0.9002718136760226,
+      "interval_score": 0.6315918981342723,
+      "interval_width": 0.4743782860352195,
+      "mean_absolute_group_coverage_error": 0.000409530704481557
+    }
+  },
+  "paired_test_trajectory_scores": {
+    "full": {
+      "improved": 24,
+      "total": 24
+    },
+    "density_reference": {
+      "improved": 21,
+      "total": 24
+    }
+  },
+  "caveat": "Repeatedly examined historical data; no independent confirmation or formal joint coverage."
+}
