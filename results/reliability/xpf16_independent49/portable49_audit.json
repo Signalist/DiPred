@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "levels": [
+    1,
+    5,
+    49
+  ],
+  "windows": [
+    0,
+    20
+  ],
+  "max_metric_difference": 0.00048828125,
+  "per_metric": {
+    "lower_coverage": 0,
+    "upper_coverage": 0.00048828125,
+    "coverage": 0.00048828125,
+    "width": 2.384185791015625e-07,
+    "interval_score": 4.76837158203125e-07,
+    "lower_pinball": 2.9802322387695312e-08,
+    "upper_pinball": 2.9802322387695312e-08,
+    "lower_miss": 0,
+    "upper_miss": 0.00048828125
+  }
+}

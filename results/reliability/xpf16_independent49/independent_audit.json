@@ -1,0 +1,660 @@
+{
+  "passed": true,
+  "models": 49,
+  "unique_model_sha256": {
+    "XPF16-Q01": "f4444204b2a2255492a06f30167bd2d49b5d260e46829e3206711de84120a2d2",
+    "XPF16-Q02": "4cfee3d29c8cdb545eac9b6b8a5f6e4fed240e90699436f795f61658f79b79fa",
+    "XPF16-Q03": "3ed5e38838db7fec803fa6953e8f82cd93b04877b372e2a98dd9898def9a21d4",
+    "XPF16-Q04": "9920098868596daf612667bba14ae6ff0e58a24f05bfecffec7e9995387870ae",
+    "XPF16-Q05": "f1de0d2c3adcefca55f063a8560f82b77b8f5b5e0428a4fc421380d10dbc115d",
+    "XPF16-Q06": "f6666992526504f4aaed68c60f9dd87a77cb16f2da280c2be1bb839380868b1f",
+    "XPF16-Q07": "f781614cfd31b486fb07d9509be827768b95808db8f23b66e7ca09c573cd054d",
+    "XPF16-Q08": "0df274c411e349193d988ca2263abc60605c22913de86373a59b9f5bcd91eb78",
+    "XPF16-Q09": "458183eed8e3e7cf33852d34ef32b1587eb133b5c761a7f502ac626091940329",
+    "XPF16-Q10": "b54a9bf40fdf8456f1b555a4e7dc4a84df34a8e3dd0c7c39b2b2aeee3887d3ad",
+    "XPF16-Q11": "1c64c02b65607a5b2b55e9ef81a97460136d96a57cc61e8a669aed29bcf7535c",
+    "XPF16-Q12": "7c3b0f86f69667f11b2dcaaff313f433bb37badfd83c8e7d2d0d5fd203038c65",
+    "XPF16-Q13": "7135c606a5533f91036bb3a20e6e08366d68747f95f4b6473308201178cda802",
+    "XPF16-Q14": "5b7e2e5c84c0df5260555bbdc5537056e779e2404dcbbbe4559c081ab5c1c27c",
+    "XPF16-Q15": "206232c356d8c956c2b04db94f8e9fdf62ea3c6b078e4b8bc617972ff905ca0e",
+    "XPF16-Q16": "1615aaefe530029c1e05b9ad23e816840d82d9b04db203daefc0e46b9b58de5d",
+    "XPF16-Q17": "6d0c52e69d4d2a7177e9f58985c0feb0528d88097cef93a057e0fbb95826a5d6",
+    "XPF16-Q18": "87225d32a0536bd0fc385ff9bb1b948f5c236a396f7a4b0de21afa0924431973",
+    "XPF16-Q19": "8b90f4f128b0b89e961ffd34d08f8d4b9df07fe5b57ffbd3922092b6abfb4425",
+    "XPF16-Q20": "e46d98e21d7b499b725b5631c856d5d3ae6f296a559c46293f84588159a62784",
+    "XPF16-Q21": "9d3d67f29d86ec1f5ce752277e0b8132b8bc1dc3b1d506716b49a8e62f839761",
+    "XPF16-Q22": "095d0a543b485ca66ef9110610cafdad9ab6a926e6f47c3060c2e83444d5fa6e",
+    "XPF16-Q23": "8070b79382e9e1342571069e25509bb8759af3e3461927dfe68f54f64970352f",
+    "XPF16-Q24": "7e326aa7d591d69493df28586d69d531f9c29d7fe3d7ed46d4dcf2c4fe83a078",
+    "XPF16-Q25": "f6d387e292af7da65c2a14596c47ea4085402a7687085aae88f2ca2b701e84f1",
+    "XPF16-Q26": "85cf3e4f2ba7047297785133f8f558ffa99fd00569a0eef46cc3076dbe67f798",
+    "XPF16-Q27": "fe2653cabed0be06256c613ce6173147aff4c435bfc2521a2126e74a285d3eb3",
+    "XPF16-Q28": "08218cacd83437e52d225663491c111142a9e26837034ce781ac63a78dab6c5f",
+    "XPF16-Q29": "21fd8745a10288b7cfb71df2da44fe16bd88cb7775b10f37808ef7ac3f3a680a",
+    "XPF16-Q30": "ba87bd63009fdf37c667495c1c8c013fc4aaea26a0d5a7d6bda3a4d289d0549e",
+    "XPF16-Q31": "5d5c67acc54cada8c05383461f90ad5c2866c92e23cf5728c4519e3d7435df84",
+    "XPF16-Q32": "30bfb799b90a39ca83ec66399191991d7cca16a207d095852acf0710f9751720",
+    "XPF16-Q33": "3b6981ed852b8533ac498de103f50ea58ad08c583490bde2afd15f67bfb656c0",
+    "XPF16-Q34": "77d1ea4b32b0623148a73e18052f14d73beb779a294019532096dfce80e086ff",
+    "XPF16-Q35": "b7d1494fd1e86a5b7f6cfd1faad1e5b67edc2481015630eb2b086725749b9afa",
+    "XPF16-Q36": "7f9b558edad0522e8eaa3fa6ba7064a2e020f98fdabc2e75017b003059f73714",
+    "XPF16-Q37": "c7e1c765a63d22035d8c89df498d1b665b3310bbca4f66831a4cdd4789ff5f26",
+    "XPF16-Q38": "9d5d538e82efd8b3d9f83cf7804082c4538b96453f6b9b4c8686e4e3883f4788",
+    "XPF16-Q39": "775bac7b61b53e3bd628c18c403d64b9ffb3a1e85b44005d8ee9503ef5aa9245",
+    "XPF16-Q40": "cc8ec0d74daa9644f6303f92ddf611d74d1b41f53f456138e08a324f6950c806",
+    "XPF16-Q41": "2a47e016893717f4aa4e298d712bb73d8b406dbc85e606b364eb63fa23b48fef",
+    "XPF16-Q42": "111213bb1537018439bdf10ea355b4ae520fcfcf1349c6703e44be74abdd931f",
+    "XPF16-Q43": "f975a6c70cd034fba44553817cdf4329300dc6a4d002246c7cee6bc5cf654c65",
+    "XPF16-Q44": "93a63c0f8a0218112999fdcc47501912789052cdcb25dc3583c1a02fa84ae62a",
+    "XPF16-Q45": "170e7be631ed593f7e4bbf9604153a10c86829ef9c4ff9827dd960ed64751086",
+    "XPF16-Q46": "162cf1d4d1b3b139e5afc95c87b751fde200703459000629d6d76177fb5a95b4",
+    "XPF16-Q47": "b16e27f369cfa16116020f3f4d6462b2fb8ac395b3dbe1f47da322d092f85a6a",
+    "XPF16-Q48": "0be3289766eeda5d9c121a89f3ec42e0e9369cbfd369e934f8fa5ad3585ce497",
+    "XPF16-Q49": "5bfc51cabe73f4dd2bcc0573c3beccca1cdb23ef7b85252086f47fdb836bb851"
+  },
+  "unique_parameter_sha256": {
+    "XPF16-Q01": "25c3bea218ed0c1d116e0ce0732b2343abf2d138980b54b1a382430634e07dff",
+    "XPF16-Q02": "6c91d7f303c092c2aa808c737871c08cbb88f5fd65b163e632765b03a9343349",
+    "XPF16-Q03": "3fa1fd92c4c4f6630de56cebc9012dc7fbc093281450851f98b873c82ddcf404",
+    "XPF16-Q04": "109e8adb7b890ae14330a637f2af5b2163a9aca4e6ac148640ea8f60355cd851",
+    "XPF16-Q05": "efa6c7b5dba43cd906b69323dab1a38900e7ecd593506ea8b8d9ca64b9be7d8b",
+    "XPF16-Q06": "a7cee398775fe4817caf23ae1502b850d5559cd015fef97ae4225ea58aec0b90",
+    "XPF16-Q07": "f06d35025224fe10a568acd0d2d72c20a3b04e7f9436dc600c11b373c44c1b95",
+    "XPF16-Q08": "07130ad5db17b97e9fd89398cc7a3278943370fc1051e28da4285d4d3500c5ab",
+    "XPF16-Q09": "15e044b05a20f79f4a81e4c2e6ec3fb3519f23dde8424937f3618b2cd162d4bb",
+    "XPF16-Q10": "3e2da3e96772f4b4c74e15a379325afc2e3f5efcfc5c074f4fe485ed93e87058",
+    "XPF16-Q11": "02cff8a8c3b575a7e5f06274c04414bd08d75341949a97cef3b0349a73eb534c",
+    "XPF16-Q12": "303e730648ba4287758ebc9d829fd54bbdac9d09d5a0cd6c37e33d190b110dfb",
+    "XPF16-Q13": "c7202f7d581e89c5e069eaec727f28ece63d71049472cde9c62b9365e7c7154b",
+    "XPF16-Q14": "627712434999b0376a61de36b27f88982665b227a222803b2225e90c41f8024a",
+    "XPF16-Q15": "cbdf1ab6d35a543c56b77f49e2a584745433fa853ff52d3511843df109df9163",
+    "XPF16-Q16": "be79cd6918fbb51468d4cf7b10d3b8dcf46f732fe7977129ad0e1f6c7e23fd1d",
+    "XPF16-Q17": "2fe68fc9ed9c6a3020dce30b410d644b0df373ed35751160ffff019d30cb16ea",
+    "XPF16-Q18": "39b5cfa12efca084a19118939f8c8091748c7c809888979542257648abacd49e",
+    "XPF16-Q19": "de4fbda1f3bcab5913452af2599f122c88ceeaf20cbbfb0214db462d0d9d3ec0",
+    "XPF16-Q20": "9c428b23f6f80ba2b824e4f2bdb74807ba47b86cdc72aef6cff4ad32ad0b3523",
+    "XPF16-Q21": "c1781a638647185cef0f2f703724f33478ac6b76b98271a748562d788f89dcdc",
+    "XPF16-Q22": "432bfed0e1794dd0045fd21f11e75913779c9bd7d38d2cabbbb956f9d8d7bc91",
+    "XPF16-Q23": "6c16f95361dfe7c62a8b33a571a7ba50ef07edefe945c85c3d76ecae656c7f21",
+    "XPF16-Q24": "4e9bcc95d6d429847d18fd86e56d083fa6423be2fb831c43c470f81aace8d7e7",
+    "XPF16-Q25": "bfd5c0ce28b183969c630bbb6af0f39dd43e67d115241800359b2082f15b4d98",
+    "XPF16-Q26": "7445b53578418a14125040833190dbc3c3d43fab53ec143a3231ad174084e67b",
+    "XPF16-Q27": "c3dc5cb9b1af6eda85c6d58e03cb817b8fbffe3deaccc1f00a71b1c06944e364",
+    "XPF16-Q28": "f04a19bdb8ef209c1d3b4dc4fb5e1450050800f58fcbda8dcdd4723ce01cc3c6",
+    "XPF16-Q29": "1c12c8751e94837b2ba10d3f1d51c36d4917ba19ae934c7097b4adf1c242b7f5",
+    "XPF16-Q30": "91d589b139762caa365795b0f078843864c8139d628dbb8158aff382aed3ccae",
+    "XPF16-Q31": "8d5847babe3d97d42838f8fec4dda45a5170c58a006e17e8cc5609afaf88cdc3",
+    "XPF16-Q32": "c7333c4184ca6266f7ae9eb88b190986502edaf958db7aa6940be3664edd1114",
+    "XPF16-Q33": "b1a389e631849b85189b59973d5dc5d45f83701bcab047556ae097ffbe05fa83",
+    "XPF16-Q34": "701121a7e51e403df6a271038a78ce20487654b0d84139f64eadddb7b1318cc8",
+    "XPF16-Q35": "f9b640862a108a01447765fa4aface8370df96a935d7a6b1a1fd60e20f9b2cd6",
+    "XPF16-Q36": "fc6ada01840245462d16d8c908bb716c8a40034dff4769d84d36946e6b6b9b61",
+    "XPF16-Q37": "2dacbc2a9b59c919e0c97d3356d753362c578bd10da729ae5738ee1d5c66c86d",
+    "XPF16-Q38": "fe3c38f65cffc87bc45ad216a16b5ed19972e862b43ee8905a849f88db2753d2",
+    "XPF16-Q39": "d5f3d8cb2630018fe1c6bb129f5de30d7f13cbbdeaa442360986211ea640ffe0",
+    "XPF16-Q40": "4119de8c9e9a59bd7736c66ed246b4dfdd61d7dc7827787620a799867fb5bcdf",
+    "XPF16-Q41": "1041f00dcb9541da770ca963c8b9bf59e1e241da0f5ca1f4aafc5f8cafa68bf7",
+    "XPF16-Q42": "71689d1ae9902269697f83b4323107ee2230c192a42eefe97e062cdb18cd5b14",
+    "XPF16-Q43": "12755db286c300f5c0cec8616219c6647e47ed92604bad0116218338c63d1c60",
+    "XPF16-Q44": "58118f0abdc68b1d7fa5b23bec5d301228e9163fe6bde3691e5b50f7838c2984",
+    "XPF16-Q45": "5ac3a493375a79855a38f88910c2d77e9c44e6eb12bb54cf018fa04f46e0891a",
+    "XPF16-Q46": "5a3f94af07e16bc58e6d0a5b0c956e97ccbbca8b07f92916cdfd529abe040b0e",
+    "XPF16-Q47": "08833da7c237b05caadb584db12e53889da186cf25f9c1912e53a8bee93948dc",
+    "XPF16-Q48": "b4458b3624b8d5f81820a165351030e6c98f93649a1cc9505c629d9ec5adb680",
+    "XPF16-Q49": "82238507c724cada0bfc555df00088f1aefce43aeb148073428d0112a89f1ddf"
+  },
+  "split": {
+    "development": {
+      "windows": 42,
+      "max_interval_score_identity_error": 5.7220458984375e-06,
+      "max_inclusive_coverage_identity_error": 0.0,
+      "projection": [
+        {
+          "experiment": "XPF16-Q01",
+          "points": 0,
+          "total": 41287680
+        },
+        {
+          "experiment": "XPF16-Q02",
+          "points": 0,
+          "total": 41287680
+        },
+        {
+          "experiment": "XPF16-Q03",
+          "points": 0,
+          "total": 41287680
+        },
+        {
+          "experiment": "XPF16-Q04",
+          "points": 0,
+          "total": 41287680
+        },
+        {
+          "experiment": "XPF16-Q05",
+          "points": 0,
+          "total": 41287680
+        },
+        {
+          "experiment": "XPF16-Q06",
+          "points": 0,
+          "total": 41287680
+        },
+        {
+          "experiment": "XPF16-Q07",
+          "points": 0,
+          "total": 41287680
+        },
+        {
+          "experiment": "XPF16-Q08",
+          "points": 5,
+          "total": 41287680
+        },
+        {
+          "experiment": "XPF16-Q09",
+          "points": 14,
+          "total": 41287680
+        },
+        {
+          "experiment": "XPF16-Q10",
+          "points": 32,
+          "total": 41287680
+        },
+        {
+          "experiment": "XPF16-Q11",
+          "points": 77,
+          "total": 41287680
+        },
+        {
+          "experiment": "XPF16-Q12",
+          "points": 108,
+          "total": 41287680
+        },
+        {
+          "experiment": "XPF16-Q13",
+          "points": 113,
+          "total": 41287680
+        },
+        {
+          "experiment": "XPF16-Q14",
+          "points": 162,
+          "total": 41287680
+        },
+        {
+          "experiment": "XPF16-Q15",
+          "points": 219,
+          "total": 41287680
+        },
+        {
+          "experiment": "XPF16-Q16",
+          "points": 295,
+          "total": 41287680
+        },
+        {
+          "experiment": "XPF16-Q17",
+          "points": 389,
+          "total": 41287680
+        },
+        {
+          "experiment": "XPF16-Q18",
+          "points": 377,
+          "total": 41287680
+        },
+        {
+          "experiment": "XPF16-Q19",
+          "points": 515,
+          "total": 41287680
+        },
+        {
+          "experiment": "XPF16-Q20",
+          "points": 589,
+          "total": 41287680
+        },
+        {
+          "experiment": "XPF16-Q21",
+          "points": 602,
+          "total": 41287680
+        },
+        {
+          "experiment": "XPF16-Q22",
+          "points": 719,
+          "total": 41287680
+        },
+        {
+          "experiment": "XPF16-Q23",
+          "points": 725,
+          "total": 41287680
+        },
+        {
+          "experiment": "XPF16-Q24",
+          "points": 693,
+          "total": 41287680
+        },
+        {
+          "experiment": "XPF16-Q25",
+          "points": 884,
+          "total": 41287680
+        },
+        {
+          "experiment": "XPF16-Q26",
+          "points": 1053,
+          "total": 41287680
+        },
+        {
+          "experiment": "XPF16-Q27",
+          "points": 881,
+          "total": 41287680
+        },
+        {
+          "experiment": "XPF16-Q28",
+          "points": 1102,
+          "total": 41287680
+        },
+        {
+          "experiment": "XPF16-Q29",
+          "points": 1457,
+          "total": 41287680
+        },
+        {
+          "experiment": "XPF16-Q30",
+          "points": 1473,
+          "total": 41287680
+        },
+        {
+          "experiment": "XPF16-Q31",
+          "points": 1940,
+          "total": 41287680
+        },
+        {
+          "experiment": "XPF16-Q32",
+          "points": 2307,
+          "total": 41287680
+        },
+        {
+          "experiment": "XPF16-Q33",
+          "points": 3423,
+          "total": 41287680
+        },
+        {
+          "experiment": "XPF16-Q34",
+          "points": 5215,
+          "total": 41287680
+        },
+        {
+          "experiment": "XPF16-Q35",
+          "points": 7471,
+          "total": 41287680
+        },
+        {
+          "experiment": "XPF16-Q36",
+          "points": 10767,
+          "total": 41287680
+        },
+        {
+          "experiment": "XPF16-Q37",
+          "points": 16687,
+          "total": 41287680
+        },
+        {
+          "experiment": "XPF16-Q38",
+          "points": 25137,
+          "total": 41287680
+        },
+        {
+          "experiment": "XPF16-Q39",
+          "points": 37524,
+          "total": 41287680
+        },
+        {
+          "experiment": "XPF16-Q40",
+          "points": 55019,
+          "total": 41287680
+        },
+        {
+          "experiment": "XPF16-Q41",
+          "points": 90285,
+          "total": 41287680
+        },
+        {
+          "experiment": "XPF16-Q42",
+          "points": 142673,
+          "total": 41287680
+        },
+        {
+          "experiment": "XPF16-Q43",
+          "points": 243441,
+          "total": 41287680
+        },
+        {
+          "experiment": "XPF16-Q44",
+          "points": 432608,
+          "total": 41287680
+        },
+        {
+          "experiment": "XPF16-Q45",
+          "points": 808563,
+          "total": 41287680
+        },
+        {
+          "experiment": "XPF16-Q46",
+          "points": 1560817,
+          "total": 41287680
+        },
+        {
+          "experiment": "XPF16-Q47",
+          "points": 2885647,
+          "total": 41287680
+        },
+        {
+          "experiment": "XPF16-Q48",
+          "points": 5166827,
+          "total": 41287680
+        },
+        {
+          "experiment": "XPF16-Q49",
+          "points": 8852259,
+          "total": 41287680
+        }
+      ]
+    },
+    "test": {
+      "windows": 42,
+      "max_interval_score_identity_error": 3.814697265625e-06,
+      "max_inclusive_coverage_identity_error": 0.0,
+      "projection": [
+        {
+          "experiment": "XPF16-Q01",
+          "points": 0,
+          "total": 41287680
+        },
+        {
+          "experiment": "XPF16-Q02",
+          "points": 0,
+          "total": 41287680
+        },
+        {
+          "experiment": "XPF16-Q03",
+          "points": 1,
+          "total": 41287680
+        },
+        {
+          "experiment": "XPF16-Q04",
+          "points": 2,
+          "total": 41287680
+        },
+        {
+          "experiment": "XPF16-Q05",
+          "points": 6,
+          "total": 41287680
+        },
+        {
+          "experiment": "XPF16-Q06",
+          "points": 11,
+          "total": 41287680
+        },
+        {
+          "experiment": "XPF16-Q07",
+          "points": 16,
+          "total": 41287680
+        },
+        {
+          "experiment": "XPF16-Q08",
+          "points": 20,
+          "total": 41287680
+        },
+        {
+          "experiment": "XPF16-Q09",
+          "points": 19,
+          "total": 41287680
+        },
+        {
+          "experiment": "XPF16-Q10",
+          "points": 16,
+          "total": 41287680
+        },
+        {
+          "experiment": "XPF16-Q11",
+          "points": 8,
+          "total": 41287680
+        },
+        {
+          "experiment": "XPF16-Q12",
+          "points": 10,
+          "total": 41287680
+        },
+        {
+          "experiment": "XPF16-Q13",
+          "points": 13,
+          "total": 41287680
+        },
+        {
+          "experiment": "XPF16-Q14",
+          "points": 12,
+          "total": 41287680
+        },
+        {
+          "experiment": "XPF16-Q15",
+          "points": 9,
+          "total": 41287680
+        },
+        {
+          "experiment": "XPF16-Q16",
+          "points": 10,
+          "total": 41287680
+        },
+        {
+          "experiment": "XPF16-Q17",
+          "points": 6,
+          "total": 41287680
+        },
+        {
+          "experiment": "XPF16-Q18",
+          "points": 9,
+          "total": 41287680
+        },
+        {
+          "experiment": "XPF16-Q19",
+          "points": 15,
+          "total": 41287680
+        },
+        {
+          "experiment": "XPF16-Q20",
+          "points": 12,
+          "total": 41287680
+        },
+        {
+          "experiment": "XPF16-Q21",
+          "points": 17,
+          "total": 41287680
+        },
+        {
+          "experiment": "XPF16-Q22",
+          "points": 28,
+          "total": 41287680
+        },
+        {
+          "experiment": "XPF16-Q23",
+          "points": 28,
+          "total": 41287680
+        },
+        {
+          "experiment": "XPF16-Q24",
+          "points": 32,
+          "total": 41287680
+        },
+        {
+          "experiment": "XPF16-Q25",
+          "points": 41,
+          "total": 41287680
+        },
+        {
+          "experiment": "XPF16-Q26",
+          "points": 40,
+          "total": 41287680
+        },
+        {
+          "experiment": "XPF16-Q27",
+          "points": 36,
+          "total": 41287680
+        },
+        {
+          "experiment": "XPF16-Q28",
+          "points": 33,
+          "total": 41287680
+        },
+        {
+          "experiment": "XPF16-Q29",
+          "points": 53,
+          "total": 41287680
+        },
+        {
+          "experiment": "XPF16-Q30",
+          "points": 62,
+          "total": 41287680
+        },
+        {
+          "experiment": "XPF16-Q31",
+          "points": 136,
+          "total": 41287680
+        },
+        {
+          "experiment": "XPF16-Q32",
+          "points": 222,
+          "total": 41287680
+        },
+        {
+          "experiment": "XPF16-Q33",
+          "points": 409,
+          "total": 41287680
+        },
+        {
+          "experiment": "XPF16-Q34",
+          "points": 634,
+          "total": 41287680
+        },
+        {
+          "experiment": "XPF16-Q35",
+          "points": 1100,
+          "total": 41287680
+        },
+        {
+          "experiment": "XPF16-Q36",
+          "points": 1875,
+          "total": 41287680
+        },
+        {
+          "experiment": "XPF16-Q37",
+          "points": 3275,
+          "total": 41287680
+        },
+        {
+          "experiment": "XPF16-Q38",
+          "points": 5847,
+          "total": 41287680
+        },
+        {
+          "experiment": "XPF16-Q39",
+          "points": 8858,
+          "total": 41287680
+        },
+        {
+          "experiment": "XPF16-Q40",
+          "points": 14039,
+          "total": 41287680
+        },
+        {
+          "experiment": "XPF16-Q41",
+          "points": 23769,
+          "total": 41287680
+        },
+        {
+          "experiment": "XPF16-Q42",
+          "points": 45579,
+          "total": 41287680
+        },
+        {
+          "experiment": "XPF16-Q43",
+          "points": 96736,
+          "total": 41287680
+        },
+        {
+          "experiment": "XPF16-Q44",
+          "points": 221117,
+          "total": 41287680
+        },
+        {
+          "experiment": "XPF16-Q45",
+          "points": 522770,
+          "total": 41287680
+        },
+        {
+          "experiment": "XPF16-Q46",
+          "points": 1208354,
+          "total": 41287680
+        },
+        {
+          "experiment": "XPF16-Q47",
+          "points": 2675281,
+          "total": 41287680
+        },
+        {
+          "experiment": "XPF16-Q48",
+          "points": 5235267,
+          "total": 41287680
+        },
+        {
+          "experiment": "XPF16-Q49",
+          "points": 9002348,
+          "total": 41287680
+        }
+      ]
+    }
+  },
+  "batched_training_independence": {
+    "passed": true,
+    "maximum_one_step_parameter_difference": 2.980232238769531e-07,
+    "levels": [
+      0.01,
+      0.05,
+      0.25,
+      0.49
+    ],
+    "meaning": "separate weights and optimizer moments, per-model gradient norm, identical initial weights and input"
+  },
+  "batched_noise_roundoff": {
+    "passed": true,
+    "sample_max_difference": 1.0251998901367188e-05,
+    "mean_max_difference": 8.940696716308594e-08,
+    "std_max_difference": 4.6100467443466187e-08,
+    "seeds": [
+      500000,
+      500031
+    ],
+    "note": "Same random initial tensors, CUDA convolution batching causes small rounding differences"
+  },
+  "portable_inference": {
+    "passed": true,
+    "levels": [
+      1,
+      5,
+      49
+    ],
+    "windows": [
+      0,
+      20
+    ],
+    "max_metric_difference": 0.00048828125,
+    "per_metric": {
+      "lower_coverage": 0,
+      "upper_coverage": 0.00048828125,
+      "coverage": 0.00048828125,
+      "width": 2.384185791015625e-07,
+      "interval_score": 4.76837158203125e-07,
+      "lower_pinball": 2.9802322387695312e-08,
+      "upper_pinball": 2.9802322387695312e-08,
+      "lower_miss": 0,
+      "upper_miss": 0.00048828125
+    }
+  },
+  "calibration": "fit on calibration identities; complete future revealed only after issue",
+  "historical_test_caveat": "test identities used during earlier exploratory research"
+}

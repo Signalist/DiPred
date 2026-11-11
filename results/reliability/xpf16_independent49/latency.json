@@ -1,0 +1,255 @@
+{
+  "device": "NVIDIA A100-SXM4-80GB",
+  "batch_size": 12,
+  "repetitions": 10,
+  "point_plus_feature_seconds": 0.02056710384786129,
+  "head49_batched_seconds": 0.42093734908849,
+  "interpretation": "latency excludes IO, interval calibration, output transfer, and 256 stochastic paths; wall seconds per batch",
+  "heads": [
+    {
+      "id": "XPF16-Q01",
+      "head_seconds_per_12_trajectory_batch": 0.009876927360892296,
+      "parameters": 34004
+    },
+    {
+      "id": "XPF16-Q02",
+      "head_seconds_per_12_trajectory_batch": 0.00981798805296421,
+      "parameters": 34004
+    },
+    {
+      "id": "XPF16-Q03",
+      "head_seconds_per_12_trajectory_batch": 0.009770308621227741,
+      "parameters": 34004
+    },
+    {
+      "id": "XPF16-Q04",
+      "head_seconds_per_12_trajectory_batch": 0.009773115999996662,
+      "parameters": 34004
+    },
+    {
+      "id": "XPF16-Q05",
+      "head_seconds_per_12_trajectory_batch": 0.009954172931611539,
+      "parameters": 34004
+    },
+    {
+      "id": "XPF16-Q06",
+      "head_seconds_per_12_trajectory_batch": 0.009719542413949966,
+      "parameters": 34004
+    },
+    {
+      "id": "XPF16-Q07",
+      "head_seconds_per_12_trajectory_batch": 0.009794964827597142,
+      "parameters": 34004
+    },
+    {
+      "id": "XPF16-Q08",
+      "head_seconds_per_12_trajectory_batch": 0.009774731658399104,
+      "parameters": 34004
+    },
+    {
+      "id": "XPF16-Q09",
+      "head_seconds_per_12_trajectory_batch": 0.009868110343813897,
+      "parameters": 34004
+    },
+    {
+      "id": "XPF16-Q10",
+      "head_seconds_per_12_trajectory_batch": 0.00989112425595522,
+      "parameters": 34004
+    },
+    {
+      "id": "XPF16-Q11",
+      "head_seconds_per_12_trajectory_batch": 0.009722035564482211,
+      "parameters": 34004
+    },
+    {
+      "id": "XPF16-Q12",
+      "head_seconds_per_12_trajectory_batch": 0.009724240005016326,
+      "parameters": 34004
+    },
+    {
+      "id": "XPF16-Q13",
+      "head_seconds_per_12_trajectory_batch": 0.00974018443375826,
+      "parameters": 34004
+    },
+    {
+      "id": "XPF16-Q14",
+      "head_seconds_per_12_trajectory_batch": 0.009751059859991074,
+      "parameters": 34004
+    },
+    {
+      "id": "XPF16-Q15",
+      "head_seconds_per_12_trajectory_batch": 0.009764254465699196,
+      "parameters": 34004
+    },
+    {
+      "id": "XPF16-Q16",
+      "head_seconds_per_12_trajectory_batch": 0.009766515344381332,
+      "parameters": 34004
+    },
+    {
+      "id": "XPF16-Q17",
+      "head_seconds_per_12_trajectory_batch": 0.009714958630502224,
+      "parameters": 34004
+    },
+    {
+      "id": "XPF16-Q18",
+      "head_seconds_per_12_trajectory_batch": 0.009779234044253826,
+      "parameters": 34004
+    },
+    {
+      "id": "XPF16-Q19",
+      "head_seconds_per_12_trajectory_batch": 0.009675244241952896,
+      "parameters": 34004
+    },
+    {
+      "id": "XPF16-Q20",
+      "head_seconds_per_12_trajectory_batch": 0.009701133146882058,
+      "parameters": 34004
+    },
+    {
+      "id": "XPF16-Q21",
+      "head_seconds_per_12_trajectory_batch": 0.009713923931121827,
+      "parameters": 34004
+    },
+    {
+      "id": "XPF16-Q22",
+      "head_seconds_per_12_trajectory_batch": 0.009720692038536071,
+      "parameters": 34004
+    },
+    {
+      "id": "XPF16-Q23",
+      "head_seconds_per_12_trajectory_batch": 0.009695618040859699,
+      "parameters": 34004
+    },
+    {
+      "id": "XPF16-Q24",
+      "head_seconds_per_12_trajectory_batch": 0.009681163169443608,
+      "parameters": 34004
+    },
+    {
+      "id": "XPF16-Q25",
+      "head_seconds_per_12_trajectory_batch": 0.009693239443004131,
+      "parameters": 34004
+    },
+    {
+      "id": "XPF16-Q26",
+      "head_seconds_per_12_trajectory_batch": 0.009718040376901627,
+      "parameters": 34004
+    },
+    {
+      "id": "XPF16-Q27",
+      "head_seconds_per_12_trajectory_batch": 0.009701705537736416,
+      "parameters": 34004
+    },
+    {
+      "id": "XPF16-Q28",
+      "head_seconds_per_12_trajectory_batch": 0.009724625945091247,
+      "parameters": 34004
+    },
+    {
+      "id": "XPF16-Q29",
+      "head_seconds_per_12_trajectory_batch": 0.009723461605608464,
+      "parameters": 34004
+    },
+    {
+      "id": "XPF16-Q30",
+      "head_seconds_per_12_trajectory_batch": 0.009730586595833302,
+      "parameters": 34004
+    },
+    {
+      "id": "XPF16-Q31",
+      "head_seconds_per_12_trajectory_batch": 0.00971526000648737,
+      "parameters": 34004
+    },
+    {
+      "id": "XPF16-Q32",
+      "head_seconds_per_12_trajectory_batch": 0.009858806245028972,
+      "parameters": 34004
+    },
+    {
+      "id": "XPF16-Q33",
+      "head_seconds_per_12_trajectory_batch": 0.009709736146032811,
+      "parameters": 34004
+    },
+    {
+      "id": "XPF16-Q34",
+      "head_seconds_per_12_trajectory_batch": 0.009721916168928146,
+      "parameters": 34004
+    },
+    {
+      "id": "XPF16-Q35",
+      "head_seconds_per_12_trajectory_batch": 0.00970445703715086,
+      "parameters": 34004
+    },
+    {
+      "id": "XPF16-Q36",
+      "head_seconds_per_12_trajectory_batch": 0.009713270515203477,
+      "parameters": 34004
+    },
+    {
+      "id": "XPF16-Q37",
+      "head_seconds_per_12_trajectory_batch": 0.009707919508218765,
+      "parameters": 34004
+    },
+    {
+      "id": "XPF16-Q38",
+      "head_seconds_per_12_trajectory_batch": 0.009696640260517597,
+      "parameters": 34004
+    },
+    {
+      "id": "XPF16-Q39",
+      "head_seconds_per_12_trajectory_batch": 0.009707963466644287,
+      "parameters": 34004
+    },
+    {
+      "id": "XPF16-Q40",
+      "head_seconds_per_12_trajectory_batch": 0.00970050971955061,
+      "parameters": 34004
+    },
+    {
+      "id": "XPF16-Q41",
+      "head_seconds_per_12_trajectory_batch": 0.009712143242359162,
+      "parameters": 34004
+    },
+    {
+      "id": "XPF16-Q42",
+      "head_seconds_per_12_trajectory_batch": 0.009730322100222111,
+      "parameters": 34004
+    },
+    {
+      "id": "XPF16-Q43",
+      "head_seconds_per_12_trajectory_batch": 0.009714100137352943,
+      "parameters": 34004
+    },
+    {
+      "id": "XPF16-Q44",
+      "head_seconds_per_12_trajectory_batch": 0.009716794267296791,
+      "parameters": 34004
+    },
+    {
+      "id": "XPF16-Q45",
+      "head_seconds_per_12_trajectory_batch": 0.009714413806796074,
+      "parameters": 34004
+    },
+    {
+      "id": "XPF16-Q46",
+      "head_seconds_per_12_trajectory_batch": 0.009711480140686036,
+      "parameters": 34004
+    },
+    {
+      "id": "XPF16-Q47",
+      "head_seconds_per_12_trajectory_batch": 0.009714031964540482,
+      "parameters": 34004
+    },
+    {
+      "id": "XPF16-Q48",
+      "head_seconds_per_12_trajectory_batch": 0.009700755774974822,
+      "parameters": 34004
+    },
+    {
+      "id": "XPF16-Q49",
+      "head_seconds_per_12_trajectory_batch": 0.009709821082651615,
+      "parameters": 34004
+    }
+  ]
+}

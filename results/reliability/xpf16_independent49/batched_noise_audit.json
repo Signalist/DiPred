@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "sample_max_difference": 1.0251998901367188e-05,
+  "mean_max_difference": 8.940696716308594e-08,
+  "std_max_difference": 4.6100467443466187e-08,
+  "seeds": [
+    500000,
+    500031
+  ],
+  "note": "Same random initial tensors, CUDA convolution batching causes small rounding differences"
+}

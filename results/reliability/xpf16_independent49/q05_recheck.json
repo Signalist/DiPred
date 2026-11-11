@@ -1,0 +1,5 @@
+{
+  "old_q05_checkpoint_rechecked": true,
+  "max_parameter_abs_difference": 5.339086055755615e-05,
+  "comparison": "old and new independent same starting weights and seed; old objective uses twice the present loss; optimizer clipping can alter equivalence"
+}

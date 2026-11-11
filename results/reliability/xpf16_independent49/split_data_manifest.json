@@ -1,0 +1,26 @@
+{
+  "development_per_window.csv.gz": {
+    "filename": "development_per_window.csv.gz",
+    "sha256": "029d8647acdbc815689c627b91f18321ef8499619b830c39468f7088eef79e39",
+    "size": 17567726,
+    "parts": 30
+  },
+  "development_group_lead.csv.gz": {
+    "filename": "development_group_lead.csv.gz",
+    "sha256": "b750f995305237a5da993150dfb26714153768f880dec6526241ec2724480b49",
+    "size": 3576638,
+    "parts": 6
+  },
+  "test_per_window.csv.gz": {
+    "filename": "test_per_window.csv.gz",
+    "sha256": "818afb5f3d69f005ecf6904357cf639280b1e889e29768b4e09a2b4d2893e9aa",
+    "size": 17519552,
+    "parts": 30
+  },
+  "test_group_lead.csv.gz": {
+    "filename": "test_group_lead.csv.gz",
+    "sha256": "4289fc63875fda3f4d5f3659f07a55d5aafd16c3d8ffee4d23e9728c5ad6259f",
+    "size": 3571040,
+    "parts": 6
+  }
+}
