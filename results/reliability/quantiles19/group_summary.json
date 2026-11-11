@@ -1,0 +1,4562 @@
+[
+  {
+    "split": "development",
+    "group": "26700",
+    "channel": "u",
+    "mode": "raw",
+    "percentile": 5,
+    "windows": 114,
+    "empirical_cdf": 0.054645097651110405,
+    "pinball": 0.022069442216633706
+  },
+  {
+    "split": "development",
+    "group": "26700",
+    "channel": "u",
+    "mode": "raw",
+    "percentile": 10,
+    "windows": 114,
+    "empirical_cdf": 0.09105545998011765,
+    "pinball": 0.03609633440838048
+  },
+  {
+    "split": "development",
+    "group": "26700",
+    "channel": "u",
+    "mode": "raw",
+    "percentile": 15,
+    "windows": 114,
+    "empirical_cdf": 0.13838105067087894,
+    "pinball": 0.046937749884499794
+  },
+  {
+    "split": "development",
+    "group": "26700",
+    "channel": "u",
+    "mode": "raw",
+    "percentile": 20,
+    "windows": 114,
+    "empirical_cdf": 0.19084044650458454,
+    "pinball": 0.055471153374303854
+  },
+  {
+    "split": "development",
+    "group": "26700",
+    "channel": "u",
+    "mode": "raw",
+    "percentile": 25,
+    "windows": 114,
+    "empirical_cdf": 0.2438498020433543,
+    "pinball": 0.062168416093316
+  },
+  {
+    "split": "development",
+    "group": "26700",
+    "channel": "u",
+    "mode": "raw",
+    "percentile": 30,
+    "windows": 114,
+    "empirical_cdf": 0.29542215521398346,
+    "pinball": 0.06729334998026229
+  },
+  {
+    "split": "development",
+    "group": "26700",
+    "channel": "u",
+    "mode": "raw",
+    "percentile": 35,
+    "windows": 114,
+    "empirical_cdf": 0.3453137908588376,
+    "pinball": 0.07102583567693568
+  },
+  {
+    "split": "development",
+    "group": "26700",
+    "channel": "u",
+    "mode": "raw",
+    "percentile": 40,
+    "windows": 114,
+    "empirical_cdf": 0.39342812670950306,
+    "pinball": 0.07348335825168249
+  },
+  {
+    "split": "development",
+    "group": "26700",
+    "channel": "u",
+    "mode": "raw",
+    "percentile": 45,
+    "windows": 114,
+    "empirical_cdf": 0.44058881255618315,
+    "pinball": 0.07474321891602717
+  },
+  {
+    "split": "development",
+    "group": "26700",
+    "channel": "u",
+    "mode": "raw",
+    "percentile": 50,
+    "windows": 114,
+    "empirical_cdf": 0.4887918118844953,
+    "pinball": 0.07484539474050204
+  },
+  {
+    "split": "development",
+    "group": "26700",
+    "channel": "u",
+    "mode": "raw",
+    "percentile": 55,
+    "windows": 114,
+    "empirical_cdf": 0.5379724437207506,
+    "pinball": 0.07381040004915312
+  },
+  {
+    "split": "development",
+    "group": "26700",
+    "channel": "u",
+    "mode": "raw",
+    "percentile": 60,
+    "windows": 114,
+    "empirical_cdf": 0.5873507423359051,
+    "pinball": 0.07165056712141163
+  },
+  {
+    "split": "development",
+    "group": "26700",
+    "channel": "u",
+    "mode": "raw",
+    "percentile": 65,
+    "windows": 114,
+    "empirical_cdf": 0.6374728125438356,
+    "pinball": 0.06835423586399932
+  },
+  {
+    "split": "development",
+    "group": "26700",
+    "channel": "u",
+    "mode": "raw",
+    "percentile": 70,
+    "windows": 114,
+    "empirical_cdf": 0.6885860086533061,
+    "pinball": 0.06388344184348457
+  },
+  {
+    "split": "development",
+    "group": "26700",
+    "channel": "u",
+    "mode": "raw",
+    "percentile": 75,
+    "windows": 114,
+    "empirical_cdf": 0.7408318885585718,
+    "pinball": 0.058157750013235365
+  },
+  {
+    "split": "development",
+    "group": "26700",
+    "channel": "u",
+    "mode": "raw",
+    "percentile": 80,
+    "windows": 114,
+    "empirical_cdf": 0.7941601271169227,
+    "pinball": 0.051050839308453236
+  },
+  {
+    "split": "development",
+    "group": "26700",
+    "channel": "u",
+    "mode": "raw",
+    "percentile": 85,
+    "windows": 114,
+    "empirical_cdf": 0.8476504793292597,
+    "pinball": 0.042373762858149255
+  },
+  {
+    "split": "development",
+    "group": "26700",
+    "channel": "u",
+    "mode": "raw",
+    "percentile": 90,
+    "windows": 114,
+    "empirical_cdf": 0.8971489207786426,
+    "pinball": 0.03182970056833144
+  },
+  {
+    "split": "development",
+    "group": "26700",
+    "channel": "u",
+    "mode": "raw",
+    "percentile": 95,
+    "windows": 114,
+    "empirical_cdf": 0.9371179514809659,
+    "pinball": 0.01890655651100372
+  },
+  {
+    "split": "development",
+    "group": "26700",
+    "channel": "v",
+    "mode": "raw",
+    "percentile": 5,
+    "windows": 114,
+    "empirical_cdf": 0.055617162598329675,
+    "pinball": 0.03462786858149788
+  },
+  {
+    "split": "development",
+    "group": "26700",
+    "channel": "v",
+    "mode": "raw",
+    "percentile": 10,
+    "windows": 114,
+    "empirical_cdf": 0.09237638929564702,
+    "pinball": 0.055789778123429994
+  },
+  {
+    "split": "development",
+    "group": "26700",
+    "channel": "v",
+    "mode": "raw",
+    "percentile": 15,
+    "windows": 114,
+    "empirical_cdf": 0.14012087332574943,
+    "pinball": 0.07214829979235665
+  },
+  {
+    "split": "development",
+    "group": "26700",
+    "channel": "v",
+    "mode": "raw",
+    "percentile": 20,
+    "windows": 114,
+    "empirical_cdf": 0.19296254243767053,
+    "pinball": 0.08509786168864944
+  },
+  {
+    "split": "development",
+    "group": "26700",
+    "channel": "v",
+    "mode": "raw",
+    "percentile": 25,
+    "windows": 114,
+    "empirical_cdf": 0.24672552158958033,
+    "pinball": 0.0953706314035675
+  },
+  {
+    "split": "development",
+    "group": "26700",
+    "channel": "v",
+    "mode": "raw",
+    "percentile": 30,
+    "windows": 114,
+    "empirical_cdf": 0.2993506781364742,
+    "pinball": 0.1033747891911812
+  },
+  {
+    "split": "development",
+    "group": "26700",
+    "channel": "v",
+    "mode": "raw",
+    "percentile": 35,
+    "windows": 114,
+    "empirical_cdf": 0.3504932125409444,
+    "pinball": 0.109369042737965
+  },
+  {
+    "split": "development",
+    "group": "26700",
+    "channel": "v",
+    "mode": "raw",
+    "percentile": 40,
+    "windows": 114,
+    "empirical_cdf": 0.40125947118851174,
+    "pinball": 0.11352539160533955
+  },
+  {
+    "split": "development",
+    "group": "26700",
+    "channel": "v",
+    "mode": "raw",
+    "percentile": 45,
+    "windows": 114,
+    "empirical_cdf": 0.45223453614795417,
+    "pinball": 0.1159437314460152
+  },
+  {
+    "split": "development",
+    "group": "26700",
+    "channel": "v",
+    "mode": "raw",
+    "percentile": 50,
+    "windows": 114,
+    "empirical_cdf": 0.5035573965624759,
+    "pinball": 0.11667311753620181
+  },
+  {
+    "split": "development",
+    "group": "26700",
+    "channel": "v",
+    "mode": "raw",
+    "percentile": 55,
+    "windows": 114,
+    "empirical_cdf": 0.5546369709466633,
+    "pinball": 0.11572491446215856
+  },
+  {
+    "split": "development",
+    "group": "26700",
+    "channel": "v",
+    "mode": "raw",
+    "percentile": 60,
+    "windows": 114,
+    "empirical_cdf": 0.6045757215796855,
+    "pinball": 0.11306331721706349
+  },
+  {
+    "split": "development",
+    "group": "26700",
+    "channel": "v",
+    "mode": "raw",
+    "percentile": 65,
+    "windows": 114,
+    "empirical_cdf": 0.6537261542521025,
+    "pinball": 0.1086306305308091
+  },
+  {
+    "split": "development",
+    "group": "26700",
+    "channel": "v",
+    "mode": "raw",
+    "percentile": 70,
+    "windows": 114,
+    "empirical_cdf": 0.7035531129753381,
+    "pinball": 0.10234303478347628
+  },
+  {
+    "split": "development",
+    "group": "26700",
+    "channel": "v",
+    "mode": "raw",
+    "percentile": 75,
+    "windows": 114,
+    "empirical_cdf": 0.7549648483594259,
+    "pinball": 0.09403986977249906
+  },
+  {
+    "split": "development",
+    "group": "26700",
+    "channel": "v",
+    "mode": "raw",
+    "percentile": 80,
+    "windows": 114,
+    "empirical_cdf": 0.8076690231498919,
+    "pinball": 0.08349480943983062
+  },
+  {
+    "split": "development",
+    "group": "26700",
+    "channel": "v",
+    "mode": "raw",
+    "percentile": 85,
+    "windows": 114,
+    "empirical_cdf": 0.8595919525414183,
+    "pinball": 0.0703300409868621
+  },
+  {
+    "split": "development",
+    "group": "26700",
+    "channel": "v",
+    "mode": "raw",
+    "percentile": 90,
+    "windows": 114,
+    "empirical_cdf": 0.9070400423125217,
+    "pinball": 0.05383366431322014
+  },
+  {
+    "split": "development",
+    "group": "26700",
+    "channel": "v",
+    "mode": "raw",
+    "percentile": 95,
+    "windows": 114,
+    "empirical_cdf": 0.9438776515032116,
+    "pinball": 0.03265031582365433
+  },
+  {
+    "split": "development",
+    "group": "6300",
+    "channel": "u",
+    "mode": "raw",
+    "percentile": 5,
+    "windows": 190,
+    "empirical_cdf": 0.07273399102452555,
+    "pinball": 0.005346821291421197
+  },
+  {
+    "split": "development",
+    "group": "6300",
+    "channel": "u",
+    "mode": "raw",
+    "percentile": 10,
+    "windows": 190,
+    "empirical_cdf": 0.11683915171184038,
+    "pinball": 0.008816662362139476
+  },
+  {
+    "split": "development",
+    "group": "6300",
+    "channel": "u",
+    "mode": "raw",
+    "percentile": 15,
+    "windows": 190,
+    "empirical_cdf": 0.1695597785476007,
+    "pinball": 0.01153865087973444
+  },
+  {
+    "split": "development",
+    "group": "6300",
+    "channel": "u",
+    "mode": "raw",
+    "percentile": 20,
+    "windows": 190,
+    "empirical_cdf": 0.223115752480532,
+    "pinball": 0.01372134428177225
+  },
+  {
+    "split": "development",
+    "group": "6300",
+    "channel": "u",
+    "mode": "raw",
+    "percentile": 25,
+    "windows": 190,
+    "empirical_cdf": 0.27390329916226236,
+    "pinball": 0.015456834111950899
+  },
+  {
+    "split": "development",
+    "group": "6300",
+    "channel": "u",
+    "mode": "raw",
+    "percentile": 30,
+    "windows": 190,
+    "empirical_cdf": 0.3213215780885596,
+    "pinball": 0.01680179566733147
+  },
+  {
+    "split": "development",
+    "group": "6300",
+    "channel": "u",
+    "mode": "raw",
+    "percentile": 35,
+    "windows": 190,
+    "empirical_cdf": 0.3658510288909862,
+    "pinball": 0.017797665415625823
+  },
+  {
+    "split": "development",
+    "group": "6300",
+    "channel": "u",
+    "mode": "raw",
+    "percentile": 40,
+    "windows": 190,
+    "empirical_cdf": 0.4079587348197636,
+    "pinball": 0.018476505758927057
+  },
+  {
+    "split": "development",
+    "group": "6300",
+    "channel": "u",
+    "mode": "raw",
+    "percentile": 45,
+    "windows": 190,
+    "empirical_cdf": 0.44836259594089106,
+    "pinball": 0.01885939444856424
+  },
+  {
+    "split": "development",
+    "group": "6300",
+    "channel": "u",
+    "mode": "raw",
+    "percentile": 50,
+    "windows": 190,
+    "empirical_cdf": 0.48962685795206773,
+    "pinball": 0.01895618607339106
+  },
+  {
+    "split": "development",
+    "group": "6300",
+    "channel": "u",
+    "mode": "raw",
+    "percentile": 55,
+    "windows": 190,
+    "empirical_cdf": 0.5321840386641653,
+    "pinball": 0.018767384130899845
+  },
+  {
+    "split": "development",
+    "group": "6300",
+    "channel": "u",
+    "mode": "raw",
+    "percentile": 60,
+    "windows": 190,
+    "empirical_cdf": 0.5762600330930007,
+    "pinball": 0.01829043653744616
+  },
+  {
+    "split": "development",
+    "group": "6300",
+    "channel": "u",
+    "mode": "raw",
+    "percentile": 65,
+    "windows": 190,
+    "empirical_cdf": 0.6220134010440425,
+    "pinball": 0.017517501449114396
+  },
+  {
+    "split": "development",
+    "group": "6300",
+    "channel": "u",
+    "mode": "raw",
+    "percentile": 70,
+    "windows": 190,
+    "empirical_cdf": 0.6701777204086906,
+    "pinball": 0.01643471095809027
+  },
+  {
+    "split": "development",
+    "group": "6300",
+    "channel": "u",
+    "mode": "raw",
+    "percentile": 75,
+    "windows": 190,
+    "empirical_cdf": 0.7216474467202236,
+    "pinball": 0.015021739493271237
+  },
+  {
+    "split": "development",
+    "group": "6300",
+    "channel": "u",
+    "mode": "raw",
+    "percentile": 80,
+    "windows": 190,
+    "empirical_cdf": 0.7766890805018576,
+    "pinball": 0.013247150016066276
+  },
+  {
+    "split": "development",
+    "group": "6300",
+    "channel": "u",
+    "mode": "raw",
+    "percentile": 85,
+    "windows": 190,
+    "empirical_cdf": 0.8339111450471376,
+    "pinball": 0.0110630589610848
+  },
+  {
+    "split": "development",
+    "group": "6300",
+    "channel": "u",
+    "mode": "raw",
+    "percentile": 90,
+    "windows": 190,
+    "empirical_cdf": 0.8892755561753323,
+    "pinball": 0.008378682633567797
+  },
+  {
+    "split": "development",
+    "group": "6300",
+    "channel": "u",
+    "mode": "raw",
+    "percentile": 95,
+    "windows": 190,
+    "empirical_cdf": 0.9340964354966816,
+    "pinball": 0.004997845073720734
+  },
+  {
+    "split": "development",
+    "group": "6300",
+    "channel": "v",
+    "mode": "raw",
+    "percentile": 5,
+    "windows": 190,
+    "empirical_cdf": 0.0363466288796381,
+    "pinball": 0.017320350199741753
+  },
+  {
+    "split": "development",
+    "group": "6300",
+    "channel": "v",
+    "mode": "raw",
+    "percentile": 10,
+    "windows": 190,
+    "empirical_cdf": 0.06909128407898703,
+    "pinball": 0.028851680879138017
+  },
+  {
+    "split": "development",
+    "group": "6300",
+    "channel": "v",
+    "mode": "raw",
+    "percentile": 15,
+    "windows": 190,
+    "empirical_cdf": 0.11523758918046952,
+    "pinball": 0.037598750152085955
+  },
+  {
+    "split": "development",
+    "group": "6300",
+    "channel": "v",
+    "mode": "raw",
+    "percentile": 20,
+    "windows": 190,
+    "empirical_cdf": 0.16793495832305205,
+    "pinball": 0.04458635160209317
+  },
+  {
+    "split": "development",
+    "group": "6300",
+    "channel": "v",
+    "mode": "raw",
+    "percentile": 25,
+    "windows": 190,
+    "empirical_cdf": 0.22143555024736805,
+    "pinball": 0.050255909091547916
+  },
+  {
+    "split": "development",
+    "group": "6300",
+    "channel": "v",
+    "mode": "raw",
+    "percentile": 30,
+    "windows": 190,
+    "empirical_cdf": 0.27287623858765553,
+    "pinball": 0.054795234277844426
+  },
+  {
+    "split": "development",
+    "group": "6300",
+    "channel": "v",
+    "mode": "raw",
+    "percentile": 35,
+    "windows": 190,
+    "empirical_cdf": 0.3223522370583133,
+    "pinball": 0.058294725712192685
+  },
+  {
+    "split": "development",
+    "group": "6300",
+    "channel": "v",
+    "mode": "raw",
+    "percentile": 40,
+    "windows": 190,
+    "empirical_cdf": 0.37098119368678645,
+    "pinball": 0.0608134625381545
+  },
+  {
+    "split": "development",
+    "group": "6300",
+    "channel": "v",
+    "mode": "raw",
+    "percentile": 45,
+    "windows": 190,
+    "empirical_cdf": 0.41996890996631825,
+    "pinball": 0.06238348395808747
+  },
+  {
+    "split": "development",
+    "group": "6300",
+    "channel": "v",
+    "mode": "raw",
+    "percentile": 50,
+    "windows": 190,
+    "empirical_cdf": 0.46973594929042617,
+    "pinball": 0.06302261381949249
+  },
+  {
+    "split": "development",
+    "group": "6300",
+    "channel": "v",
+    "mode": "raw",
+    "percentile": 55,
+    "windows": 190,
+    "empirical_cdf": 0.5199316504754519,
+    "pinball": 0.06273364703121938
+  },
+  {
+    "split": "development",
+    "group": "6300",
+    "channel": "v",
+    "mode": "raw",
+    "percentile": 60,
+    "windows": 190,
+    "empirical_cdf": 0.5701198968448137,
+    "pinball": 0.061507465866835496
+  },
+  {
+    "split": "development",
+    "group": "6300",
+    "channel": "v",
+    "mode": "raw",
+    "percentile": 65,
+    "windows": 190,
+    "empirical_cdf": 0.6205169483235008,
+    "pinball": 0.059309497338376545
+  },
+  {
+    "split": "development",
+    "group": "6300",
+    "channel": "v",
+    "mode": "raw",
+    "percentile": 70,
+    "windows": 190,
+    "empirical_cdf": 0.6733871447412592,
+    "pinball": 0.056061880545396556
+  },
+  {
+    "split": "development",
+    "group": "6300",
+    "channel": "v",
+    "mode": "raw",
+    "percentile": 75,
+    "windows": 190,
+    "empirical_cdf": 0.7298661197486677,
+    "pinball": 0.05165993900675522
+  },
+  {
+    "split": "development",
+    "group": "6300",
+    "channel": "v",
+    "mode": "raw",
+    "percentile": 80,
+    "windows": 190,
+    "empirical_cdf": 0.7892846791367781,
+    "pinball": 0.045984801208894505
+  },
+  {
+    "split": "development",
+    "group": "6300",
+    "channel": "v",
+    "mode": "raw",
+    "percentile": 85,
+    "windows": 190,
+    "empirical_cdf": 0.8492663054089797,
+    "pinball": 0.03885758504467575
+  },
+  {
+    "split": "development",
+    "group": "6300",
+    "channel": "v",
+    "mode": "raw",
+    "percentile": 90,
+    "windows": 190,
+    "empirical_cdf": 0.9044189566060117,
+    "pinball": 0.02993807913245339
+  },
+  {
+    "split": "development",
+    "group": "6300",
+    "channel": "v",
+    "mode": "raw",
+    "percentile": 95,
+    "windows": 190,
+    "empirical_cdf": 0.9460119109404714,
+    "pinball": 0.018426878534649548
+  },
+  {
+    "split": "development",
+    "group": "7575",
+    "channel": "u",
+    "mode": "raw",
+    "percentile": 5,
+    "windows": 152,
+    "empirical_cdf": 0.04610997329980723,
+    "pinball": 0.005671978673873175
+  },
+  {
+    "split": "development",
+    "group": "7575",
+    "channel": "u",
+    "mode": "raw",
+    "percentile": 10,
+    "windows": 152,
+    "empirical_cdf": 0.0824075810562231,
+    "pinball": 0.009386642627712143
+  },
+  {
+    "split": "development",
+    "group": "7575",
+    "channel": "u",
+    "mode": "raw",
+    "percentile": 15,
+    "windows": 152,
+    "empirical_cdf": 0.13162520802334735,
+    "pinball": 0.012242000887023383
+  },
+  {
+    "split": "development",
+    "group": "7575",
+    "channel": "u",
+    "mode": "raw",
+    "percentile": 20,
+    "windows": 152,
+    "empirical_cdf": 0.186616439617386,
+    "pinball": 0.014527581834332332
+  },
+  {
+    "split": "development",
+    "group": "7575",
+    "channel": "u",
+    "mode": "raw",
+    "percentile": 25,
+    "windows": 152,
+    "empirical_cdf": 0.2412925365037824,
+    "pinball": 0.016365108833844334
+  },
+  {
+    "split": "development",
+    "group": "7575",
+    "channel": "u",
+    "mode": "raw",
+    "percentile": 30,
+    "windows": 152,
+    "empirical_cdf": 0.29349895801983383,
+    "pinball": 0.017807364194212777
+  },
+  {
+    "split": "development",
+    "group": "7575",
+    "channel": "u",
+    "mode": "raw",
+    "percentile": 35,
+    "windows": 152,
+    "empirical_cdf": 0.3429073991352006,
+    "pinball": 0.018888890191814618
+  },
+  {
+    "split": "development",
+    "group": "7575",
+    "channel": "u",
+    "mode": "raw",
+    "percentile": 40,
+    "windows": 152,
+    "empirical_cdf": 0.39000662406416314,
+    "pinball": 0.01963463972788304
+  },
+  {
+    "split": "development",
+    "group": "7575",
+    "channel": "u",
+    "mode": "raw",
+    "percentile": 45,
+    "windows": 152,
+    "empirical_cdf": 0.435561016103939,
+    "pinball": 0.020062645407099473
+  },
+  {
+    "split": "development",
+    "group": "7575",
+    "channel": "u",
+    "mode": "raw",
+    "percentile": 50,
+    "windows": 152,
+    "empirical_cdf": 0.48163388728311185,
+    "pinball": 0.020181469894994638
+  },
+  {
+    "split": "development",
+    "group": "7575",
+    "channel": "u",
+    "mode": "raw",
+    "percentile": 55,
+    "windows": 152,
+    "empirical_cdf": 0.5291595545254255,
+    "pinball": 0.01999164235435034
+  },
+  {
+    "split": "development",
+    "group": "7575",
+    "channel": "u",
+    "mode": "raw",
+    "percentile": 60,
+    "windows": 152,
+    "empirical_cdf": 0.5778453728478206,
+    "pinball": 0.01949124825554655
+  },
+  {
+    "split": "development",
+    "group": "7575",
+    "channel": "u",
+    "mode": "raw",
+    "percentile": 65,
+    "windows": 152,
+    "empirical_cdf": 0.6282716579735279,
+    "pinball": 0.018673668885113376
+  },
+  {
+    "split": "development",
+    "group": "7575",
+    "channel": "u",
+    "mode": "raw",
+    "percentile": 70,
+    "windows": 152,
+    "empirical_cdf": 0.680741975378049,
+    "pinball": 0.017524888751244073
+  },
+  {
+    "split": "development",
+    "group": "7575",
+    "channel": "u",
+    "mode": "raw",
+    "percentile": 75,
+    "windows": 152,
+    "empirical_cdf": 0.7356540199957395,
+    "pinball": 0.016022449665653863
+  },
+  {
+    "split": "development",
+    "group": "7575",
+    "channel": "u",
+    "mode": "raw",
+    "percentile": 80,
+    "windows": 152,
+    "empirical_cdf": 0.7927279938992701,
+    "pinball": 0.014132774771975451
+  },
+  {
+    "split": "development",
+    "group": "7575",
+    "channel": "u",
+    "mode": "raw",
+    "percentile": 85,
+    "windows": 152,
+    "empirical_cdf": 0.8505472411450586,
+    "pinball": 0.011807573567095556
+  },
+  {
+    "split": "development",
+    "group": "7575",
+    "channel": "u",
+    "mode": "raw",
+    "percentile": 90,
+    "windows": 152,
+    "empirical_cdf": 0.9039019256045944,
+    "pinball": 0.008948138859858247
+  },
+  {
+    "split": "development",
+    "group": "7575",
+    "channel": "u",
+    "mode": "raw",
+    "percentile": 95,
+    "windows": 152,
+    "empirical_cdf": 0.945532080374266,
+    "pinball": 0.005328517218769871
+  },
+  {
+    "split": "development",
+    "group": "7575",
+    "channel": "v",
+    "mode": "raw",
+    "percentile": 5,
+    "windows": 152,
+    "empirical_cdf": 0.03982913442642281,
+    "pinball": 0.01931326839411141
+  },
+  {
+    "split": "development",
+    "group": "7575",
+    "channel": "v",
+    "mode": "raw",
+    "percentile": 10,
+    "windows": 152,
+    "empirical_cdf": 0.07351058265684467,
+    "pinball": 0.03194782123165695
+  },
+  {
+    "split": "development",
+    "group": "7575",
+    "channel": "v",
+    "mode": "raw",
+    "percentile": 15,
+    "windows": 152,
+    "empirical_cdf": 0.12062121114056361,
+    "pinball": 0.041568364948034286
+  },
+  {
+    "split": "development",
+    "group": "7575",
+    "channel": "v",
+    "mode": "raw",
+    "percentile": 20,
+    "windows": 152,
+    "empirical_cdf": 0.17433134662477592,
+    "pinball": 0.04924073039652094
+  },
+  {
+    "split": "development",
+    "group": "7575",
+    "channel": "v",
+    "mode": "raw",
+    "percentile": 25,
+    "windows": 152,
+    "empirical_cdf": 0.22975142917742855,
+    "pinball": 0.055430969247888574
+  },
+  {
+    "split": "development",
+    "group": "7575",
+    "channel": "v",
+    "mode": "raw",
+    "percentile": 30,
+    "windows": 152,
+    "empirical_cdf": 0.2839834170514031,
+    "pinball": 0.060348296464469875
+  },
+  {
+    "split": "development",
+    "group": "7575",
+    "channel": "v",
+    "mode": "raw",
+    "percentile": 35,
+    "windows": 152,
+    "empirical_cdf": 0.336165102100686,
+    "pinball": 0.06410137735503285
+  },
+  {
+    "split": "development",
+    "group": "7575",
+    "channel": "v",
+    "mode": "raw",
+    "percentile": 40,
+    "windows": 152,
+    "empirical_cdf": 0.38730132011206525,
+    "pinball": 0.06675821905465502
+  },
+  {
+    "split": "development",
+    "group": "7575",
+    "channel": "v",
+    "mode": "raw",
+    "percentile": 45,
+    "windows": 152,
+    "empirical_cdf": 0.43850965621440036,
+    "pinball": 0.0683592637804778
+  },
+  {
+    "split": "development",
+    "group": "7575",
+    "channel": "v",
+    "mode": "raw",
+    "percentile": 50,
+    "windows": 152,
+    "empirical_cdf": 0.4899767501965949,
+    "pinball": 0.06892463670259244
+  },
+  {
+    "split": "development",
+    "group": "7575",
+    "channel": "v",
+    "mode": "raw",
+    "percentile": 55,
+    "windows": 152,
+    "empirical_cdf": 0.5414279452279994,
+    "pinball": 0.06846173592892132
+  },
+  {
+    "split": "development",
+    "group": "7575",
+    "channel": "v",
+    "mode": "raw",
+    "percentile": 60,
+    "windows": 152,
+    "empirical_cdf": 0.5922642856052047,
+    "pinball": 0.06696636207695854
+  },
+  {
+    "split": "development",
+    "group": "7575",
+    "channel": "v",
+    "mode": "raw",
+    "percentile": 65,
+    "windows": 152,
+    "empirical_cdf": 0.6430004027328993,
+    "pinball": 0.06440315608817496
+  },
+  {
+    "split": "development",
+    "group": "7575",
+    "channel": "v",
+    "mode": "raw",
+    "percentile": 70,
+    "windows": 152,
+    "empirical_cdf": 0.6956298951255647,
+    "pinball": 0.06070472314757736
+  },
+  {
+    "split": "development",
+    "group": "7575",
+    "channel": "v",
+    "mode": "raw",
+    "percentile": 75,
+    "windows": 152,
+    "empirical_cdf": 0.7511808836930677,
+    "pinball": 0.05577588157336179
+  },
+  {
+    "split": "development",
+    "group": "7575",
+    "channel": "v",
+    "mode": "raw",
+    "percentile": 80,
+    "windows": 152,
+    "empirical_cdf": 0.8090789929816598,
+    "pinball": 0.04949403893643696
+  },
+  {
+    "split": "development",
+    "group": "7575",
+    "channel": "v",
+    "mode": "raw",
+    "percentile": 85,
+    "windows": 152,
+    "empirical_cdf": 0.8663834517723635,
+    "pinball": 0.041683325249897804
+  },
+  {
+    "split": "development",
+    "group": "7575",
+    "channel": "v",
+    "mode": "raw",
+    "percentile": 90,
+    "windows": 152,
+    "empirical_cdf": 0.9174708429920045,
+    "pinball": 0.031957028274375354
+  },
+  {
+    "split": "development",
+    "group": "7575",
+    "channel": "v",
+    "mode": "raw",
+    "percentile": 95,
+    "windows": 152,
+    "empirical_cdf": 0.9547477446888623,
+    "pinball": 0.019373714862587422
+  },
+  {
+    "split": "development",
+    "group": "26700",
+    "channel": "u",
+    "mode": "online",
+    "percentile": 5,
+    "windows": 114,
+    "empirical_cdf": 0.04672937291233163,
+    "pinball": 0.022040527689744505
+  },
+  {
+    "split": "development",
+    "group": "26700",
+    "channel": "u",
+    "mode": "online",
+    "percentile": 10,
+    "windows": 114,
+    "empirical_cdf": 0.0821134882832044,
+    "pinball": 0.036238769804568666
+  },
+  {
+    "split": "development",
+    "group": "26700",
+    "channel": "u",
+    "mode": "online",
+    "percentile": 15,
+    "windows": 114,
+    "empirical_cdf": 0.1297665267463839,
+    "pinball": 0.047022163524831594
+  },
+  {
+    "split": "development",
+    "group": "26700",
+    "channel": "u",
+    "mode": "online",
+    "percentile": 20,
+    "windows": 114,
+    "empirical_cdf": 0.1834549785575323,
+    "pinball": 0.05550192757264564
+  },
+  {
+    "split": "development",
+    "group": "26700",
+    "channel": "u",
+    "mode": "online",
+    "percentile": 25,
+    "windows": 114,
+    "empirical_cdf": 0.23817139014340283,
+    "pinball": 0.06218601576983929
+  },
+  {
+    "split": "development",
+    "group": "26700",
+    "channel": "u",
+    "mode": "online",
+    "percentile": 30,
+    "windows": 114,
+    "empirical_cdf": 0.29171699978280485,
+    "pinball": 0.06732717845915702
+  },
+  {
+    "split": "development",
+    "group": "26700",
+    "channel": "u",
+    "mode": "online",
+    "percentile": 35,
+    "windows": 114,
+    "empirical_cdf": 0.34350093924685526,
+    "pinball": 0.07108554126400697
+  },
+  {
+    "split": "development",
+    "group": "26700",
+    "channel": "u",
+    "mode": "online",
+    "percentile": 40,
+    "windows": 114,
+    "empirical_cdf": 0.3934990117947261,
+    "pinball": 0.07356478829394307
+  },
+  {
+    "split": "development",
+    "group": "26700",
+    "channel": "u",
+    "mode": "online",
+    "percentile": 45,
+    "windows": 114,
+    "empirical_cdf": 0.44237853612816125,
+    "pinball": 0.07483844452521257
+  },
+  {
+    "split": "development",
+    "group": "26700",
+    "channel": "u",
+    "mode": "online",
+    "percentile": 50,
+    "windows": 114,
+    "empirical_cdf": 0.4923222143399088,
+    "pinball": 0.07495493111772496
+  },
+  {
+    "split": "development",
+    "group": "26700",
+    "channel": "u",
+    "mode": "online",
+    "percentile": 55,
+    "windows": 114,
+    "empirical_cdf": 0.5431846309649316,
+    "pinball": 0.0739334293624811
+  },
+  {
+    "split": "development",
+    "group": "26700",
+    "channel": "u",
+    "mode": "online",
+    "percentile": 60,
+    "windows": 114,
+    "empirical_cdf": 0.5942612078629042,
+    "pinball": 0.07177849113941193
+  },
+  {
+    "split": "development",
+    "group": "26700",
+    "channel": "u",
+    "mode": "online",
+    "percentile": 65,
+    "windows": 114,
+    "empirical_cdf": 0.6457945835172084,
+    "pinball": 0.06847932196238585
+  },
+  {
+    "split": "development",
+    "group": "26700",
+    "channel": "u",
+    "mode": "online",
+    "percentile": 70,
+    "windows": 114,
+    "empirical_cdf": 0.6984171673916933,
+    "pinball": 0.06399737759248207
+  },
+  {
+    "split": "development",
+    "group": "26700",
+    "channel": "u",
+    "mode": "online",
+    "percentile": 75,
+    "windows": 114,
+    "empirical_cdf": 0.751958278710382,
+    "pinball": 0.05826379538497381
+  },
+  {
+    "split": "development",
+    "group": "26700",
+    "channel": "u",
+    "mode": "online",
+    "percentile": 80,
+    "windows": 114,
+    "empirical_cdf": 0.8063266784475561,
+    "pinball": 0.051168510673992466
+  },
+  {
+    "split": "development",
+    "group": "26700",
+    "channel": "u",
+    "mode": "online",
+    "percentile": 85,
+    "windows": 114,
+    "empirical_cdf": 0.859882781902949,
+    "pinball": 0.04252534792676829
+  },
+  {
+    "split": "development",
+    "group": "26700",
+    "channel": "u",
+    "mode": "online",
+    "percentile": 90,
+    "windows": 114,
+    "empirical_cdf": 0.9083898851746007,
+    "pinball": 0.032000640080424775
+  },
+  {
+    "split": "development",
+    "group": "26700",
+    "channel": "u",
+    "mode": "online",
+    "percentile": 95,
+    "windows": 114,
+    "empirical_cdf": 0.9459451374254728,
+    "pinball": 0.018900891096053415
+  },
+  {
+    "split": "development",
+    "group": "26700",
+    "channel": "v",
+    "mode": "online",
+    "percentile": 5,
+    "windows": 114,
+    "empirical_cdf": 0.05194905718886539,
+    "pinball": 0.034561350974336005
+  },
+  {
+    "split": "development",
+    "group": "26700",
+    "channel": "v",
+    "mode": "online",
+    "percentile": 10,
+    "windows": 114,
+    "empirical_cdf": 0.08796922248183635,
+    "pinball": 0.056103244619934184
+  },
+  {
+    "split": "development",
+    "group": "26700",
+    "channel": "v",
+    "mode": "online",
+    "percentile": 15,
+    "windows": 114,
+    "empirical_cdf": 0.13594050035534197,
+    "pinball": 0.07244521885979593
+  },
+  {
+    "split": "development",
+    "group": "26700",
+    "channel": "v",
+    "mode": "online",
+    "percentile": 20,
+    "windows": 114,
+    "empirical_cdf": 0.18932955855863137,
+    "pinball": 0.0852814740909819
+  },
+  {
+    "split": "development",
+    "group": "26700",
+    "channel": "v",
+    "mode": "online",
+    "percentile": 25,
+    "windows": 114,
+    "empirical_cdf": 0.24385836811964973,
+    "pinball": 0.09546261081439361
+  },
+  {
+    "split": "development",
+    "group": "26700",
+    "channel": "v",
+    "mode": "online",
+    "percentile": 30,
+    "windows": 114,
+    "empirical_cdf": 0.29714291686551614,
+    "pinball": 0.10341198128043559
+  },
+  {
+    "split": "development",
+    "group": "26700",
+    "channel": "v",
+    "mode": "online",
+    "percentile": 35,
+    "windows": 114,
+    "empirical_cdf": 0.3489613367015855,
+    "pinball": 0.10937867673081264
+  },
+  {
+    "split": "development",
+    "group": "26700",
+    "channel": "v",
+    "mode": "online",
+    "percentile": 40,
+    "windows": 114,
+    "empirical_cdf": 0.4002077383430381,
+    "pinball": 0.11351687983985533
+  },
+  {
+    "split": "development",
+    "group": "26700",
+    "channel": "v",
+    "mode": "online",
+    "percentile": 45,
+    "windows": 114,
+    "empirical_cdf": 0.4515948441990635,
+    "pinball": 0.11592068274815877
+  },
+  {
+    "split": "development",
+    "group": "26700",
+    "channel": "v",
+    "mode": "online",
+    "percentile": 50,
+    "windows": 114,
+    "empirical_cdf": 0.5033282446756697,
+    "pinball": 0.11664336772733613
+  },
+  {
+    "split": "development",
+    "group": "26700",
+    "channel": "v",
+    "mode": "online",
+    "percentile": 55,
+    "windows": 114,
+    "empirical_cdf": 0.5550845639224637,
+    "pinball": 0.11570556661146775
+  },
+  {
+    "split": "development",
+    "group": "26700",
+    "channel": "v",
+    "mode": "online",
+    "percentile": 60,
+    "windows": 114,
+    "empirical_cdf": 0.6057912848497692,
+    "pinball": 0.11307467980996559
+  },
+  {
+    "split": "development",
+    "group": "26700",
+    "channel": "v",
+    "mode": "online",
+    "percentile": 65,
+    "windows": 114,
+    "empirical_cdf": 0.6560262169754296,
+    "pinball": 0.10869155967967552
+  },
+  {
+    "split": "development",
+    "group": "26700",
+    "channel": "v",
+    "mode": "online",
+    "percentile": 70,
+    "windows": 114,
+    "empirical_cdf": 0.7071760359563326,
+    "pinball": 0.10247953147872498
+  },
+  {
+    "split": "development",
+    "group": "26700",
+    "channel": "v",
+    "mode": "online",
+    "percentile": 75,
+    "windows": 114,
+    "empirical_cdf": 0.7601718954872667,
+    "pinball": 0.09430561067634508
+  },
+  {
+    "split": "development",
+    "group": "26700",
+    "channel": "v",
+    "mode": "online",
+    "percentile": 80,
+    "windows": 114,
+    "empirical_cdf": 0.8141417498128456,
+    "pinball": 0.08394140348230537
+  },
+  {
+    "split": "development",
+    "group": "26700",
+    "channel": "v",
+    "mode": "online",
+    "percentile": 85,
+    "windows": 114,
+    "empirical_cdf": 0.8672174889790384,
+    "pinball": 0.07099109270462864
+  },
+  {
+    "split": "development",
+    "group": "26700",
+    "channel": "v",
+    "mode": "online",
+    "percentile": 90,
+    "windows": 114,
+    "empirical_cdf": 0.914656801181927,
+    "pinball": 0.054642046099169214
+  },
+  {
+    "split": "development",
+    "group": "26700",
+    "channel": "v",
+    "mode": "online",
+    "percentile": 95,
+    "windows": 114,
+    "empirical_cdf": 0.9503625830014547,
+    "pinball": 0.033200672566237155
+  },
+  {
+    "split": "development",
+    "group": "6300",
+    "channel": "u",
+    "mode": "online",
+    "percentile": 5,
+    "windows": 190,
+    "empirical_cdf": 0.048277139033828124,
+    "pinball": 0.00514478111443551
+  },
+  {
+    "split": "development",
+    "group": "6300",
+    "channel": "u",
+    "mode": "online",
+    "percentile": 10,
+    "windows": 190,
+    "empirical_cdf": 0.09098761475792057,
+    "pinball": 0.008601949751181039
+  },
+  {
+    "split": "development",
+    "group": "6300",
+    "channel": "u",
+    "mode": "online",
+    "percentile": 15,
+    "windows": 190,
+    "empirical_cdf": 0.14655209438581215,
+    "pinball": 0.011305849303148294
+  },
+  {
+    "split": "development",
+    "group": "6300",
+    "channel": "u",
+    "mode": "online",
+    "percentile": 20,
+    "windows": 190,
+    "empirical_cdf": 0.20459498661129097,
+    "pinball": 0.013494423173956181
+  },
+  {
+    "split": "development",
+    "group": "6300",
+    "channel": "u",
+    "mode": "online",
+    "percentile": 25,
+    "windows": 190,
+    "empirical_cdf": 0.2599528468753162,
+    "pinball": 0.015255934313723915
+  },
+  {
+    "split": "development",
+    "group": "6300",
+    "channel": "u",
+    "mode": "online",
+    "percentile": 30,
+    "windows": 190,
+    "empirical_cdf": 0.31127172088936755,
+    "pinball": 0.01663582680844947
+  },
+  {
+    "split": "development",
+    "group": "6300",
+    "channel": "u",
+    "mode": "online",
+    "percentile": 35,
+    "windows": 190,
+    "empirical_cdf": 0.3589350386669761,
+    "pinball": 0.017666977712590442
+  },
+  {
+    "split": "development",
+    "group": "6300",
+    "channel": "u",
+    "mode": "online",
+    "percentile": 40,
+    "windows": 190,
+    "empirical_cdf": 0.4036071196982735,
+    "pinball": 0.018376851949448648
+  },
+  {
+    "split": "development",
+    "group": "6300",
+    "channel": "u",
+    "mode": "online",
+    "percentile": 45,
+    "windows": 190,
+    "empirical_cdf": 0.4462091441217222,
+    "pinball": 0.01878402233123779
+  },
+  {
+    "split": "development",
+    "group": "6300",
+    "channel": "u",
+    "mode": "online",
+    "percentile": 50,
+    "windows": 190,
+    "empirical_cdf": 0.4894640558644345,
+    "pinball": 0.018897593496857504
+  },
+  {
+    "split": "development",
+    "group": "6300",
+    "channel": "u",
+    "mode": "online",
+    "percentile": 55,
+    "windows": 190,
+    "empirical_cdf": 0.5340842247009278,
+    "pinball": 0.01871801653484765
+  },
+  {
+    "split": "development",
+    "group": "6300",
+    "channel": "u",
+    "mode": "online",
+    "percentile": 60,
+    "windows": 190,
+    "empirical_cdf": 0.5802465929796822,
+    "pinball": 0.018243833415602383
+  },
+  {
+    "split": "development",
+    "group": "6300",
+    "channel": "u",
+    "mode": "online",
+    "percentile": 65,
+    "windows": 190,
+    "empirical_cdf": 0.6282073778541465,
+    "pinball": 0.01746818892363655
+  },
+  {
+    "split": "development",
+    "group": "6300",
+    "channel": "u",
+    "mode": "online",
+    "percentile": 70,
+    "windows": 190,
+    "empirical_cdf": 0.6788240250788237,
+    "pinball": 0.016379368942427006
+  },
+  {
+    "split": "development",
+    "group": "6300",
+    "channel": "u",
+    "mode": "online",
+    "percentile": 75,
+    "windows": 190,
+    "empirical_cdf": 0.732841421114771,
+    "pinball": 0.014959521773026178
+  },
+  {
+    "split": "development",
+    "group": "6300",
+    "channel": "u",
+    "mode": "online",
+    "percentile": 80,
+    "windows": 190,
+    "empirical_cdf": 0.7903209943520395,
+    "pinball": 0.01318224726833011
+  },
+  {
+    "split": "development",
+    "group": "6300",
+    "channel": "u",
+    "mode": "online",
+    "percentile": 85,
+    "windows": 190,
+    "empirical_cdf": 0.8493446864579853,
+    "pinball": 0.0110038501725189
+  },
+  {
+    "split": "development",
+    "group": "6300",
+    "channel": "u",
+    "mode": "online",
+    "percentile": 90,
+    "windows": 190,
+    "empirical_cdf": 0.9046950908083665,
+    "pinball": 0.008326008173293974
+  },
+  {
+    "split": "development",
+    "group": "6300",
+    "channel": "u",
+    "mode": "online",
+    "percentile": 95,
+    "windows": 190,
+    "empirical_cdf": 0.9475548794395046,
+    "pinball": 0.004925065904267525
+  },
+  {
+    "split": "development",
+    "group": "6300",
+    "channel": "v",
+    "mode": "online",
+    "percentile": 5,
+    "windows": 190,
+    "empirical_cdf": 0.042686061580714425,
+    "pinball": 0.01718525629686682
+  },
+  {
+    "split": "development",
+    "group": "6300",
+    "channel": "v",
+    "mode": "online",
+    "percentile": 10,
+    "windows": 190,
+    "empirical_cdf": 0.07877390163117333,
+    "pinball": 0.028705855047232227
+  },
+  {
+    "split": "development",
+    "group": "6300",
+    "channel": "v",
+    "mode": "online",
+    "percentile": 15,
+    "windows": 190,
+    "empirical_cdf": 0.12726665527412767,
+    "pinball": 0.037534530235356404
+  },
+  {
+    "split": "development",
+    "group": "6300",
+    "channel": "v",
+    "mode": "online",
+    "percentile": 20,
+    "windows": 190,
+    "empirical_cdf": 0.1800890503353194,
+    "pinball": 0.04461264338736472
+  },
+  {
+    "split": "development",
+    "group": "6300",
+    "channel": "v",
+    "mode": "online",
+    "percentile": 25,
+    "windows": 190,
+    "empirical_cdf": 0.2327757541286318,
+    "pinball": 0.050340632310039116
+  },
+  {
+    "split": "development",
+    "group": "6300",
+    "channel": "v",
+    "mode": "online",
+    "percentile": 30,
+    "windows": 190,
+    "empirical_cdf": 0.2824484789057782,
+    "pinball": 0.05490726250174798
+  },
+  {
+    "split": "development",
+    "group": "6300",
+    "channel": "v",
+    "mode": "online",
+    "percentile": 35,
+    "windows": 190,
+    "empirical_cdf": 0.3297090938216762,
+    "pinball": 0.05841240002528617
+  },
+  {
+    "split": "development",
+    "group": "6300",
+    "channel": "v",
+    "mode": "online",
+    "percentile": 40,
+    "windows": 190,
+    "empirical_cdf": 0.3757288306951523,
+    "pinball": 0.060920838227397515
+  },
+  {
+    "split": "development",
+    "group": "6300",
+    "channel": "v",
+    "mode": "online",
+    "percentile": 45,
+    "windows": 190,
+    "empirical_cdf": 0.4219405375028911,
+    "pinball": 0.062468676386695156
+  },
+  {
+    "split": "development",
+    "group": "6300",
+    "channel": "v",
+    "mode": "online",
+    "percentile": 50,
+    "windows": 190,
+    "empirical_cdf": 0.4687500081564251,
+    "pinball": 0.06307379838667418
+  },
+  {
+    "split": "development",
+    "group": "6300",
+    "channel": "v",
+    "mode": "online",
+    "percentile": 55,
+    "windows": 190,
+    "empirical_cdf": 0.5158918920316194,
+    "pinball": 0.06273999837668319
+  },
+  {
+    "split": "development",
+    "group": "6300",
+    "channel": "v",
+    "mode": "online",
+    "percentile": 60,
+    "windows": 190,
+    "empirical_cdf": 0.5631657454528307,
+    "pinball": 0.06145924406224176
+  },
+  {
+    "split": "development",
+    "group": "6300",
+    "channel": "v",
+    "mode": "online",
+    "percentile": 65,
+    "windows": 190,
+    "empirical_cdf": 0.61114554499325,
+    "pinball": 0.05919723683281949
+  },
+  {
+    "split": "development",
+    "group": "6300",
+    "channel": "v",
+    "mode": "online",
+    "percentile": 70,
+    "windows": 190,
+    "empirical_cdf": 0.6621409968325966,
+    "pinball": 0.05587325611788976
+  },
+  {
+    "split": "development",
+    "group": "6300",
+    "channel": "v",
+    "mode": "online",
+    "percentile": 75,
+    "windows": 190,
+    "empirical_cdf": 0.7174610781042199,
+    "pinball": 0.0513812254918249
+  },
+  {
+    "split": "development",
+    "group": "6300",
+    "channel": "v",
+    "mode": "online",
+    "percentile": 80,
+    "windows": 190,
+    "empirical_cdf": 0.7770118600443789,
+    "pinball": 0.04560301656785764
+  },
+  {
+    "split": "development",
+    "group": "6300",
+    "channel": "v",
+    "mode": "online",
+    "percentile": 85,
+    "windows": 190,
+    "empirical_cdf": 0.8389565019231093,
+    "pinball": 0.038378405090617504
+  },
+  {
+    "split": "development",
+    "group": "6300",
+    "channel": "v",
+    "mode": "online",
+    "percentile": 90,
+    "windows": 190,
+    "empirical_cdf": 0.8972044709481691,
+    "pinball": 0.029400779424529327
+  },
+  {
+    "split": "development",
+    "group": "6300",
+    "channel": "v",
+    "mode": "online",
+    "percentile": 95,
+    "windows": 190,
+    "empirical_cdf": 0.9422010042165455,
+    "pinball": 0.01793954945414474
+  },
+  {
+    "split": "development",
+    "group": "7575",
+    "channel": "u",
+    "mode": "online",
+    "percentile": 5,
+    "windows": 152,
+    "empirical_cdf": 0.04357283811489316,
+    "pinball": 0.005615341913653538
+  },
+  {
+    "split": "development",
+    "group": "7575",
+    "channel": "u",
+    "mode": "online",
+    "percentile": 10,
+    "windows": 152,
+    "empirical_cdf": 0.08090049511213836,
+    "pinball": 0.009330476511661944
+  },
+  {
+    "split": "development",
+    "group": "7575",
+    "channel": "u",
+    "mode": "online",
+    "percentile": 15,
+    "windows": 152,
+    "empirical_cdf": 0.13194162692678602,
+    "pinball": 0.012186747819405833
+  },
+  {
+    "split": "development",
+    "group": "7575",
+    "channel": "u",
+    "mode": "online",
+    "percentile": 20,
+    "windows": 152,
+    "empirical_cdf": 0.18808674302540326,
+    "pinball": 0.014477390164852534
+  },
+  {
+    "split": "development",
+    "group": "7575",
+    "channel": "u",
+    "mode": "online",
+    "percentile": 25,
+    "windows": 152,
+    "empirical_cdf": 0.24359565007647402,
+    "pinball": 0.01632416278344432
+  },
+  {
+    "split": "development",
+    "group": "7575",
+    "channel": "u",
+    "mode": "online",
+    "percentile": 30,
+    "windows": 152,
+    "empirical_cdf": 0.29599786598823574,
+    "pinball": 0.017777901142835617
+  },
+  {
+    "split": "development",
+    "group": "7575",
+    "channel": "u",
+    "mode": "online",
+    "percentile": 35,
+    "windows": 152,
+    "empirical_cdf": 0.3452299468611416,
+    "pinball": 0.01887013346545006
+  },
+  {
+    "split": "development",
+    "group": "7575",
+    "channel": "u",
+    "mode": "online",
+    "percentile": 40,
+    "windows": 152,
+    "empirical_cdf": 0.3917318302157678,
+    "pinball": 0.019625760277880256
+  },
+  {
+    "split": "development",
+    "group": "7575",
+    "channel": "u",
+    "mode": "online",
+    "percentile": 45,
+    "windows": 152,
+    "empirical_cdf": 0.4364863427257852,
+    "pinball": 0.020061292458864812
+  },
+  {
+    "split": "development",
+    "group": "7575",
+    "channel": "u",
+    "mode": "online",
+    "percentile": 50,
+    "windows": 152,
+    "empirical_cdf": 0.4816493076321326,
+    "pinball": 0.02018595833061753
+  },
+  {
+    "split": "development",
+    "group": "7575",
+    "channel": "u",
+    "mode": "online",
+    "percentile": 55,
+    "windows": 152,
+    "empirical_cdf": 0.5281229211311591,
+    "pinball": 0.020000729771134883
+  },
+  {
+    "split": "development",
+    "group": "7575",
+    "channel": "u",
+    "mode": "online",
+    "percentile": 60,
+    "windows": 152,
+    "empirical_cdf": 0.5757501035144454,
+    "pinball": 0.01950366172547403
+  },
+  {
+    "split": "development",
+    "group": "7575",
+    "channel": "u",
+    "mode": "online",
+    "percentile": 65,
+    "windows": 152,
+    "empirical_cdf": 0.6252635862482222,
+    "pinball": 0.018688453520697198
+  },
+  {
+    "split": "development",
+    "group": "7575",
+    "channel": "u",
+    "mode": "online",
+    "percentile": 70,
+    "windows": 152,
+    "empirical_cdf": 0.6767856123808184,
+    "pinball": 0.017541260262461084
+  },
+  {
+    "split": "development",
+    "group": "7575",
+    "channel": "u",
+    "mode": "online",
+    "percentile": 75,
+    "windows": 152,
+    "empirical_cdf": 0.7309467655263449,
+    "pinball": 0.016039672142237817
+  },
+  {
+    "split": "development",
+    "group": "7575",
+    "channel": "u",
+    "mode": "online",
+    "percentile": 80,
+    "windows": 152,
+    "empirical_cdf": 0.7876466559736353,
+    "pinball": 0.014151136292830893
+  },
+  {
+    "split": "development",
+    "group": "7575",
+    "channel": "u",
+    "mode": "online",
+    "percentile": 85,
+    "windows": 152,
+    "empirical_cdf": 0.8455984129717475,
+    "pinball": 0.011828823431738113
+  },
+  {
+    "split": "development",
+    "group": "7575",
+    "channel": "u",
+    "mode": "online",
+    "percentile": 90,
+    "windows": 152,
+    "empirical_cdf": 0.8997341861066065,
+    "pinball": 0.008970744129711468
+  },
+  {
+    "split": "development",
+    "group": "7575",
+    "channel": "u",
+    "mode": "online",
+    "percentile": 95,
+    "windows": 152,
+    "empirical_cdf": 0.9421396463325149,
+    "pinball": 0.005343828267589407
+  },
+  {
+    "split": "development",
+    "group": "7575",
+    "channel": "v",
+    "mode": "online",
+    "percentile": 5,
+    "windows": 152,
+    "empirical_cdf": 0.04751619121893064,
+    "pinball": 0.019213042883692605
+  },
+  {
+    "split": "development",
+    "group": "7575",
+    "channel": "v",
+    "mode": "online",
+    "percentile": 10,
+    "windows": 152,
+    "empirical_cdf": 0.08484111726284027,
+    "pinball": 0.031819924908249
+  },
+  {
+    "split": "development",
+    "group": "7575",
+    "channel": "v",
+    "mode": "online",
+    "percentile": 15,
+    "windows": 152,
+    "empirical_cdf": 0.13491869683524496,
+    "pinball": 0.041476441731088255
+  },
+  {
+    "split": "development",
+    "group": "7575",
+    "channel": "v",
+    "mode": "online",
+    "percentile": 20,
+    "windows": 152,
+    "empirical_cdf": 0.18979412126109788,
+    "pinball": 0.04919011123772515
+  },
+  {
+    "split": "development",
+    "group": "7575",
+    "channel": "v",
+    "mode": "online",
+    "percentile": 25,
+    "windows": 152,
+    "empirical_cdf": 0.24461461466393972,
+    "pinball": 0.05541253792072989
+  },
+  {
+    "split": "development",
+    "group": "7575",
+    "channel": "v",
+    "mode": "online",
+    "percentile": 30,
+    "windows": 152,
+    "empirical_cdf": 0.2967412096301192,
+    "pinball": 0.060348389278116976
+  },
+  {
+    "split": "development",
+    "group": "7575",
+    "channel": "v",
+    "mode": "online",
+    "percentile": 35,
+    "windows": 152,
+    "empirical_cdf": 0.3460086268421851,
+    "pinball": 0.06411067989507788
+  },
+  {
+    "split": "development",
+    "group": "7575",
+    "channel": "v",
+    "mode": "online",
+    "percentile": 40,
+    "windows": 152,
+    "empirical_cdf": 0.3937556276980199,
+    "pinball": 0.06677117782007706
+  },
+  {
+    "split": "development",
+    "group": "7575",
+    "channel": "v",
+    "mode": "online",
+    "percentile": 45,
+    "windows": 152,
+    "empirical_cdf": 0.4412141552096919,
+    "pinball": 0.06837196895656616
+  },
+  {
+    "split": "development",
+    "group": "7575",
+    "channel": "v",
+    "mode": "online",
+    "percentile": 50,
+    "windows": 152,
+    "empirical_cdf": 0.4888467976921483,
+    "pinball": 0.06893526341177915
+  },
+  {
+    "split": "development",
+    "group": "7575",
+    "channel": "v",
+    "mode": "online",
+    "percentile": 55,
+    "windows": 152,
+    "empirical_cdf": 0.5365827171818206,
+    "pinball": 0.06846915342305836
+  },
+  {
+    "split": "development",
+    "group": "7575",
+    "channel": "v",
+    "mode": "online",
+    "percentile": 60,
+    "windows": 152,
+    "empirical_cdf": 0.5839445539995244,
+    "pinball": 0.06696839927156505
+  },
+  {
+    "split": "development",
+    "group": "7575",
+    "channel": "v",
+    "mode": "online",
+    "percentile": 65,
+    "windows": 152,
+    "empirical_cdf": 0.6316929988955197,
+    "pinball": 0.06440037116408348
+  },
+  {
+    "split": "development",
+    "group": "7575",
+    "channel": "v",
+    "mode": "online",
+    "percentile": 70,
+    "windows": 152,
+    "empirical_cdf": 0.6818200498819351,
+    "pinball": 0.06069591587507411
+  },
+  {
+    "split": "development",
+    "group": "7575",
+    "channel": "v",
+    "mode": "online",
+    "percentile": 75,
+    "windows": 152,
+    "empirical_cdf": 0.7354265847488454,
+    "pinball": 0.05575467689011834
+  },
+  {
+    "split": "development",
+    "group": "7575",
+    "channel": "v",
+    "mode": "online",
+    "percentile": 80,
+    "windows": 152,
+    "empirical_cdf": 0.7926271240177908,
+    "pinball": 0.04944595005853396
+  },
+  {
+    "split": "development",
+    "group": "7575",
+    "channel": "v",
+    "mode": "online",
+    "percentile": 85,
+    "windows": 152,
+    "empirical_cdf": 0.8512242487386653,
+    "pinball": 0.041590707278565356
+  },
+  {
+    "split": "development",
+    "group": "7575",
+    "channel": "v",
+    "mode": "online",
+    "percentile": 90,
+    "windows": 152,
+    "empirical_cdf": 0.9053993738795582,
+    "pinball": 0.03182120169022758
+  },
+  {
+    "split": "development",
+    "group": "7575",
+    "channel": "v",
+    "mode": "online",
+    "percentile": 95,
+    "windows": 152,
+    "empirical_cdf": 0.9468353394615022,
+    "pinball": 0.019259752760837346
+  },
+  {
+    "split": "test",
+    "group": "13950",
+    "channel": "u",
+    "mode": "raw",
+    "percentile": 5,
+    "windows": 190,
+    "empirical_cdf": 0.055173726262230625,
+    "pinball": 0.007958686395891403
+  },
+  {
+    "split": "test",
+    "group": "13950",
+    "channel": "u",
+    "mode": "raw",
+    "percentile": 10,
+    "windows": 190,
+    "empirical_cdf": 0.09288445860147476,
+    "pinball": 0.013044228019977086
+  },
+  {
+    "split": "test",
+    "group": "13950",
+    "channel": "u",
+    "mode": "raw",
+    "percentile": 15,
+    "windows": 190,
+    "empirical_cdf": 0.14151958507534704,
+    "pinball": 0.01695381048576612
+  },
+  {
+    "split": "test",
+    "group": "13950",
+    "channel": "u",
+    "mode": "raw",
+    "percentile": 20,
+    "windows": 190,
+    "empirical_cdf": 0.1943944060880887,
+    "pinball": 0.020045489611986437
+  },
+  {
+    "split": "test",
+    "group": "13950",
+    "channel": "u",
+    "mode": "raw",
+    "percentile": 25,
+    "windows": 190,
+    "empirical_cdf": 0.24686048411225017,
+    "pinball": 0.022492678615411644
+  },
+  {
+    "split": "test",
+    "group": "13950",
+    "channel": "u",
+    "mode": "raw",
+    "percentile": 30,
+    "windows": 190,
+    "empirical_cdf": 0.2971894330884281,
+    "pinball": 0.024386756450526025
+  },
+  {
+    "split": "test",
+    "group": "13950",
+    "channel": "u",
+    "mode": "raw",
+    "percentile": 35,
+    "windows": 190,
+    "empirical_cdf": 0.3449285637391241,
+    "pinball": 0.0257854783221295
+  },
+  {
+    "split": "test",
+    "group": "13950",
+    "channel": "u",
+    "mode": "raw",
+    "percentile": 40,
+    "windows": 190,
+    "empirical_cdf": 0.3905010088493949,
+    "pinball": 0.026728014295038426
+  },
+  {
+    "split": "test",
+    "group": "13950",
+    "channel": "u",
+    "mode": "raw",
+    "percentile": 45,
+    "windows": 190,
+    "empirical_cdf": 0.434800838326153,
+    "pinball": 0.027241928007845816
+  },
+  {
+    "split": "test",
+    "group": "13950",
+    "channel": "u",
+    "mode": "raw",
+    "percentile": 50,
+    "windows": 190,
+    "empirical_cdf": 0.47997495234012605,
+    "pinball": 0.027341575949992005
+  },
+  {
+    "split": "test",
+    "group": "13950",
+    "channel": "u",
+    "mode": "raw",
+    "percentile": 55,
+    "windows": 190,
+    "empirical_cdf": 0.5265751037158464,
+    "pinball": 0.027031494775100758
+  },
+  {
+    "split": "test",
+    "group": "13950",
+    "channel": "u",
+    "mode": "raw",
+    "percentile": 60,
+    "windows": 190,
+    "empirical_cdf": 0.5742537095358498,
+    "pinball": 0.026310549916601495
+  },
+  {
+    "split": "test",
+    "group": "13950",
+    "channel": "u",
+    "mode": "raw",
+    "percentile": 65,
+    "windows": 190,
+    "empirical_cdf": 0.6233985789512333,
+    "pinball": 0.02517007853541719
+  },
+  {
+    "split": "test",
+    "group": "13950",
+    "channel": "u",
+    "mode": "raw",
+    "percentile": 70,
+    "windows": 190,
+    "empirical_cdf": 0.6746792888955067,
+    "pinball": 0.023593231486646753
+  },
+  {
+    "split": "test",
+    "group": "13950",
+    "channel": "u",
+    "mode": "raw",
+    "percentile": 75,
+    "windows": 190,
+    "empirical_cdf": 0.7283362558013514,
+    "pinball": 0.021549942011111663
+  },
+  {
+    "split": "test",
+    "group": "13950",
+    "channel": "u",
+    "mode": "raw",
+    "percentile": 80,
+    "windows": 190,
+    "empirical_cdf": 0.7842039848628797,
+    "pinball": 0.01899432026241955
+  },
+  {
+    "split": "test",
+    "group": "13950",
+    "channel": "u",
+    "mode": "raw",
+    "percentile": 85,
+    "windows": 190,
+    "empirical_cdf": 0.8407828042381689,
+    "pinball": 0.015858439238447892
+  },
+  {
+    "split": "test",
+    "group": "13950",
+    "channel": "u",
+    "mode": "raw",
+    "percentile": 90,
+    "windows": 190,
+    "empirical_cdf": 0.8940183087399132,
+    "pinball": 0.012020828971933377
+  },
+  {
+    "split": "test",
+    "group": "13950",
+    "channel": "u",
+    "mode": "raw",
+    "percentile": 95,
+    "windows": 190,
+    "empirical_cdf": 0.936538869456241,
+    "pinball": 0.007229255262370172
+  },
+  {
+    "split": "test",
+    "group": "13950",
+    "channel": "v",
+    "mode": "raw",
+    "percentile": 5,
+    "windows": 190,
+    "empirical_cdf": 0.04862960102526765,
+    "pinball": 0.022384746853066118
+  },
+  {
+    "split": "test",
+    "group": "13950",
+    "channel": "v",
+    "mode": "raw",
+    "percentile": 10,
+    "windows": 190,
+    "empirical_cdf": 0.08719289859658794,
+    "pinball": 0.036996440579624555
+  },
+  {
+    "split": "test",
+    "group": "13950",
+    "channel": "v",
+    "mode": "raw",
+    "percentile": 15,
+    "windows": 190,
+    "empirical_cdf": 0.13854274000776443,
+    "pinball": 0.048387601981429676
+  },
+  {
+    "split": "test",
+    "group": "13950",
+    "channel": "v",
+    "mode": "raw",
+    "percentile": 20,
+    "windows": 190,
+    "empirical_cdf": 0.1949982043943907,
+    "pinball": 0.057570269096054526
+  },
+  {
+    "split": "test",
+    "group": "13950",
+    "channel": "v",
+    "mode": "raw",
+    "percentile": 25,
+    "windows": 190,
+    "empirical_cdf": 0.2512020749481101,
+    "pinball": 0.06498707262308974
+  },
+  {
+    "split": "test",
+    "group": "13950",
+    "channel": "v",
+    "mode": "raw",
+    "percentile": 30,
+    "windows": 190,
+    "empirical_cdf": 0.30451545119285583,
+    "pinball": 0.07084833610998957
+  },
+  {
+    "split": "test",
+    "group": "13950",
+    "channel": "v",
+    "mode": "raw",
+    "percentile": 35,
+    "windows": 190,
+    "empirical_cdf": 0.3551093556379017,
+    "pinball": 0.0752976513810848
+  },
+  {
+    "split": "test",
+    "group": "13950",
+    "channel": "v",
+    "mode": "raw",
+    "percentile": 40,
+    "windows": 190,
+    "empirical_cdf": 0.40420847613560523,
+    "pinball": 0.07844399829444132
+  },
+  {
+    "split": "test",
+    "group": "13950",
+    "channel": "v",
+    "mode": "raw",
+    "percentile": 45,
+    "windows": 190,
+    "empirical_cdf": 0.4528835647984555,
+    "pinball": 0.08035435833429036
+  },
+  {
+    "split": "test",
+    "group": "13950",
+    "channel": "v",
+    "mode": "raw",
+    "percentile": 50,
+    "windows": 190,
+    "empirical_cdf": 0.5016072257568962,
+    "pinball": 0.08105628717886774
+  },
+  {
+    "split": "test",
+    "group": "13950",
+    "channel": "v",
+    "mode": "raw",
+    "percentile": 55,
+    "windows": 190,
+    "empirical_cdf": 0.5500433140679409,
+    "pinball": 0.08055034166103915
+  },
+  {
+    "split": "test",
+    "group": "13950",
+    "channel": "v",
+    "mode": "raw",
+    "percentile": 60,
+    "windows": 190,
+    "empirical_cdf": 0.597683502498426,
+    "pinball": 0.07881901856315764
+  },
+  {
+    "split": "test",
+    "group": "13950",
+    "channel": "v",
+    "mode": "raw",
+    "percentile": 65,
+    "windows": 190,
+    "empirical_cdf": 0.6451430261135102,
+    "pinball": 0.07582713008711213
+  },
+  {
+    "split": "test",
+    "group": "13950",
+    "channel": "v",
+    "mode": "raw",
+    "percentile": 70,
+    "windows": 190,
+    "empirical_cdf": 0.6942341823326914,
+    "pinball": 0.07151165877125765
+  },
+  {
+    "split": "test",
+    "group": "13950",
+    "channel": "v",
+    "mode": "raw",
+    "percentile": 75,
+    "windows": 190,
+    "empirical_cdf": 0.7461391216830203,
+    "pinball": 0.06577134785291396
+  },
+  {
+    "split": "test",
+    "group": "13950",
+    "channel": "v",
+    "mode": "raw",
+    "percentile": 80,
+    "windows": 190,
+    "empirical_cdf": 0.8002472397528196,
+    "pinball": 0.05844801851597271
+  },
+  {
+    "split": "test",
+    "group": "13950",
+    "channel": "v",
+    "mode": "raw",
+    "percentile": 85,
+    "windows": 190,
+    "empirical_cdf": 0.854917519029818,
+    "pinball": 0.049281914120441986
+  },
+  {
+    "split": "test",
+    "group": "13950",
+    "channel": "v",
+    "mode": "raw",
+    "percentile": 90,
+    "windows": 190,
+    "empirical_cdf": 0.9051890269706123,
+    "pinball": 0.037751130387187005
+  },
+  {
+    "split": "test",
+    "group": "13950",
+    "channel": "v",
+    "mode": "raw",
+    "percentile": 95,
+    "windows": 190,
+    "empirical_cdf": 0.94388056177842,
+    "pinball": 0.02277911498554443
+  },
+  {
+    "split": "test",
+    "group": "22875",
+    "channel": "u",
+    "mode": "raw",
+    "percentile": 5,
+    "windows": 114,
+    "empirical_cdf": 0.05241142491107447,
+    "pinball": 0.015305494693549056
+  },
+  {
+    "split": "test",
+    "group": "22875",
+    "channel": "u",
+    "mode": "raw",
+    "percentile": 10,
+    "windows": 114,
+    "empirical_cdf": 0.09024958221013085,
+    "pinball": 0.024833797003354943
+  },
+  {
+    "split": "test",
+    "group": "22875",
+    "channel": "u",
+    "mode": "raw",
+    "percentile": 15,
+    "windows": 114,
+    "empirical_cdf": 0.14101305786977736,
+    "pinball": 0.03213540949907742
+  },
+  {
+    "split": "test",
+    "group": "22875",
+    "channel": "u",
+    "mode": "raw",
+    "percentile": 20,
+    "windows": 114,
+    "empirical_cdf": 0.19759222002405868,
+    "pinball": 0.03788650841370486
+  },
+  {
+    "split": "test",
+    "group": "22875",
+    "channel": "u",
+    "mode": "raw",
+    "percentile": 25,
+    "windows": 114,
+    "empirical_cdf": 0.25488088946593435,
+    "pinball": 0.0424209499502914
+  },
+  {
+    "split": "test",
+    "group": "22875",
+    "channel": "u",
+    "mode": "raw",
+    "percentile": 30,
+    "windows": 114,
+    "empirical_cdf": 0.3101027164804308,
+    "pinball": 0.04590953598942673
+  },
+  {
+    "split": "test",
+    "group": "22875",
+    "channel": "u",
+    "mode": "raw",
+    "percentile": 35,
+    "windows": 114,
+    "empirical_cdf": 0.36292296883307007,
+    "pinball": 0.048454963357040755
+  },
+  {
+    "split": "test",
+    "group": "22875",
+    "channel": "u",
+    "mode": "raw",
+    "percentile": 40,
+    "windows": 114,
+    "empirical_cdf": 0.4133178764267972,
+    "pinball": 0.05012564955834757
+  },
+  {
+    "split": "test",
+    "group": "22875",
+    "channel": "u",
+    "mode": "raw",
+    "percentile": 45,
+    "windows": 114,
+    "empirical_cdf": 0.46202072030619573,
+    "pinball": 0.05097282385420904
+  },
+  {
+    "split": "test",
+    "group": "22875",
+    "channel": "u",
+    "mode": "raw",
+    "percentile": 50,
+    "windows": 114,
+    "empirical_cdf": 0.5110775679349899,
+    "pinball": 0.051032394873337786
+  },
+  {
+    "split": "test",
+    "group": "22875",
+    "channel": "u",
+    "mode": "raw",
+    "percentile": 55,
+    "windows": 114,
+    "empirical_cdf": 0.5610405188380626,
+    "pinball": 0.05032338089260616
+  },
+  {
+    "split": "test",
+    "group": "22875",
+    "channel": "u",
+    "mode": "raw",
+    "percentile": 60,
+    "windows": 114,
+    "empirical_cdf": 0.6108811847996294,
+    "pinball": 0.048852547692755856
+  },
+  {
+    "split": "test",
+    "group": "22875",
+    "channel": "u",
+    "mode": "raw",
+    "percentile": 65,
+    "windows": 114,
+    "empirical_cdf": 0.6612491121417597,
+    "pinball": 0.04661352215171383
+  },
+  {
+    "split": "test",
+    "group": "22875",
+    "channel": "u",
+    "mode": "raw",
+    "percentile": 70,
+    "windows": 114,
+    "empirical_cdf": 0.7119374149724057,
+    "pinball": 0.043580328931280395
+  },
+  {
+    "split": "test",
+    "group": "22875",
+    "channel": "u",
+    "mode": "raw",
+    "percentile": 75,
+    "windows": 114,
+    "empirical_cdf": 0.7633161717339566,
+    "pinball": 0.039696569701558666
+  },
+  {
+    "split": "test",
+    "group": "22875",
+    "channel": "u",
+    "mode": "raw",
+    "percentile": 80,
+    "windows": 114,
+    "empirical_cdf": 0.8152091168520743,
+    "pinball": 0.03487869937038213
+  },
+  {
+    "split": "test",
+    "group": "22875",
+    "channel": "u",
+    "mode": "raw",
+    "percentile": 85,
+    "windows": 114,
+    "empirical_cdf": 0.8663323777809477,
+    "pinball": 0.02900119454256798
+  },
+  {
+    "split": "test",
+    "group": "22875",
+    "channel": "u",
+    "mode": "raw",
+    "percentile": 90,
+    "windows": 114,
+    "empirical_cdf": 0.9127867708080694,
+    "pinball": 0.02182408601960592
+  },
+  {
+    "split": "test",
+    "group": "22875",
+    "channel": "u",
+    "mode": "raw",
+    "percentile": 95,
+    "windows": 114,
+    "empirical_cdf": 0.9487362629488895,
+    "pinball": 0.0128897649048125
+  },
+  {
+    "split": "test",
+    "group": "22875",
+    "channel": "v",
+    "mode": "raw",
+    "percentile": 5,
+    "windows": 114,
+    "empirical_cdf": 0.05361927849681754,
+    "pinball": 0.02967709002264759
+  },
+  {
+    "split": "test",
+    "group": "22875",
+    "channel": "v",
+    "mode": "raw",
+    "percentile": 10,
+    "windows": 114,
+    "empirical_cdf": 0.0912619085753696,
+    "pinball": 0.04878595618433074
+  },
+  {
+    "split": "test",
+    "group": "22875",
+    "channel": "v",
+    "mode": "raw",
+    "percentile": 15,
+    "windows": 114,
+    "empirical_cdf": 0.14069182007459172,
+    "pinball": 0.06356949414731118
+  },
+  {
+    "split": "test",
+    "group": "22875",
+    "channel": "v",
+    "mode": "raw",
+    "percentile": 20,
+    "windows": 114,
+    "empirical_cdf": 0.19535619170780769,
+    "pinball": 0.07539595905364606
+  },
+  {
+    "split": "test",
+    "group": "22875",
+    "channel": "v",
+    "mode": "raw",
+    "percentile": 25,
+    "windows": 114,
+    "empirical_cdf": 0.2507185065432599,
+    "pinball": 0.08491945106601506
+  },
+  {
+    "split": "test",
+    "group": "22875",
+    "channel": "v",
+    "mode": "raw",
+    "percentile": 30,
+    "windows": 114,
+    "empirical_cdf": 0.3040598075379405,
+    "pinball": 0.0924566869803688
+  },
+  {
+    "split": "test",
+    "group": "22875",
+    "channel": "v",
+    "mode": "raw",
+    "percentile": 35,
+    "windows": 114,
+    "empirical_cdf": 0.3555321481667067,
+    "pinball": 0.09818628280047785
+  },
+  {
+    "split": "test",
+    "group": "22875",
+    "channel": "v",
+    "mode": "raw",
+    "percentile": 40,
+    "windows": 114,
+    "empirical_cdf": 0.406093241352784,
+    "pinball": 0.10224022445056521
+  },
+  {
+    "split": "test",
+    "group": "22875",
+    "channel": "v",
+    "mode": "raw",
+    "percentile": 45,
+    "windows": 114,
+    "empirical_cdf": 0.4563836416131572,
+    "pinball": 0.10468639773234986
+  },
+  {
+    "split": "test",
+    "group": "22875",
+    "channel": "v",
+    "mode": "raw",
+    "percentile": 50,
+    "windows": 114,
+    "empirical_cdf": 0.5069944244204906,
+    "pinball": 0.10557135606282636
+  },
+  {
+    "split": "test",
+    "group": "22875",
+    "channel": "v",
+    "mode": "raw",
+    "percentile": 55,
+    "windows": 114,
+    "empirical_cdf": 0.5571122138123763,
+    "pinball": 0.10491399362421873
+  },
+  {
+    "split": "test",
+    "group": "22875",
+    "channel": "v",
+    "mode": "raw",
+    "percentile": 60,
+    "windows": 114,
+    "empirical_cdf": 0.6060859665536044,
+    "pinball": 0.10268870996017206
+  },
+  {
+    "split": "test",
+    "group": "22875",
+    "channel": "v",
+    "mode": "raw",
+    "percentile": 65,
+    "windows": 114,
+    "empirical_cdf": 0.6542658335284183,
+    "pinball": 0.09884704652716193
+  },
+  {
+    "split": "test",
+    "group": "22875",
+    "channel": "v",
+    "mode": "raw",
+    "percentile": 70,
+    "windows": 114,
+    "empirical_cdf": 0.7034096304784742,
+    "pinball": 0.09329736500717047
+  },
+  {
+    "split": "test",
+    "group": "22875",
+    "channel": "v",
+    "mode": "raw",
+    "percentile": 75,
+    "windows": 114,
+    "empirical_cdf": 0.7544690694725305,
+    "pinball": 0.08589283073026883
+  },
+  {
+    "split": "test",
+    "group": "22875",
+    "channel": "v",
+    "mode": "raw",
+    "percentile": 80,
+    "windows": 114,
+    "empirical_cdf": 0.8073075282991978,
+    "pinball": 0.07642003416753652
+  },
+  {
+    "split": "test",
+    "group": "22875",
+    "channel": "v",
+    "mode": "raw",
+    "percentile": 85,
+    "windows": 114,
+    "empirical_cdf": 0.8597939030120247,
+    "pinball": 0.06453898676524036
+  },
+  {
+    "split": "test",
+    "group": "22875",
+    "channel": "v",
+    "mode": "raw",
+    "percentile": 90,
+    "windows": 114,
+    "empirical_cdf": 0.9076707431098872,
+    "pinball": 0.04960969721146843
+  },
+  {
+    "split": "test",
+    "group": "22875",
+    "channel": "v",
+    "mode": "raw",
+    "percentile": 95,
+    "windows": 114,
+    "empirical_cdf": 0.9446595405277453,
+    "pinball": 0.03035094402730465
+  },
+  {
+    "split": "test",
+    "group": "3750",
+    "channel": "u",
+    "mode": "raw",
+    "percentile": 5,
+    "windows": 152,
+    "empirical_cdf": 0.12682977186417893,
+    "pinball": 0.005518283946194539
+  },
+  {
+    "split": "test",
+    "group": "3750",
+    "channel": "u",
+    "mode": "raw",
+    "percentile": 10,
+    "windows": 152,
+    "empirical_cdf": 0.1896717308187171,
+    "pinball": 0.008751733969946048
+  },
+  {
+    "split": "test",
+    "group": "3750",
+    "channel": "u",
+    "mode": "raw",
+    "percentile": 15,
+    "windows": 152,
+    "empirical_cdf": 0.26228172243817854,
+    "pinball": 0.011447617820905228
+  },
+  {
+    "split": "test",
+    "group": "3750",
+    "channel": "u",
+    "mode": "raw",
+    "percentile": 20,
+    "windows": 152,
+    "empirical_cdf": 0.33238092280532183,
+    "pinball": 0.013667045063094088
+  },
+  {
+    "split": "test",
+    "group": "3750",
+    "channel": "u",
+    "mode": "raw",
+    "percentile": 25,
+    "windows": 152,
+    "empirical_cdf": 0.3954681471774453,
+    "pinball": 0.015420181419406282
+  },
+  {
+    "split": "test",
+    "group": "3750",
+    "channel": "u",
+    "mode": "raw",
+    "percentile": 30,
+    "windows": 152,
+    "empirical_cdf": 0.45125508367231015,
+    "pinball": 0.01673598155550855
+  },
+  {
+    "split": "test",
+    "group": "3750",
+    "channel": "u",
+    "mode": "raw",
+    "percentile": 35,
+    "windows": 152,
+    "empirical_cdf": 0.5009709496639276,
+    "pinball": 0.01765502108211972
+  },
+  {
+    "split": "test",
+    "group": "3750",
+    "channel": "u",
+    "mode": "raw",
+    "percentile": 40,
+    "windows": 152,
+    "empirical_cdf": 0.5463607109298831,
+    "pinball": 0.018215563552650183
+  },
+  {
+    "split": "test",
+    "group": "3750",
+    "channel": "u",
+    "mode": "raw",
+    "percentile": 45,
+    "windows": 152,
+    "empirical_cdf": 0.5888231894687602,
+    "pinball": 0.01845636550263551
+  },
+  {
+    "split": "test",
+    "group": "3750",
+    "channel": "u",
+    "mode": "raw",
+    "percentile": 50,
+    "windows": 152,
+    "empirical_cdf": 0.6304094928659891,
+    "pinball": 0.01842337867588197
+  },
+  {
+    "split": "test",
+    "group": "3750",
+    "channel": "u",
+    "mode": "raw",
+    "percentile": 55,
+    "windows": 152,
+    "empirical_cdf": 0.672356225158039,
+    "pinball": 0.01813226476875379
+  },
+  {
+    "split": "test",
+    "group": "3750",
+    "channel": "u",
+    "mode": "raw",
+    "percentile": 60,
+    "windows": 152,
+    "empirical_cdf": 0.7141781535587812,
+    "pinball": 0.01757959007457095
+  },
+  {
+    "split": "test",
+    "group": "3750",
+    "channel": "u",
+    "mode": "raw",
+    "percentile": 65,
+    "windows": 152,
+    "empirical_cdf": 0.7556941101425573,
+    "pinball": 0.016766137229033598
+  },
+  {
+    "split": "test",
+    "group": "3750",
+    "channel": "u",
+    "mode": "raw",
+    "percentile": 70,
+    "windows": 152,
+    "empirical_cdf": 0.7974280220897574,
+    "pinball": 0.015688408570560187
+  },
+  {
+    "split": "test",
+    "group": "3750",
+    "channel": "u",
+    "mode": "raw",
+    "percentile": 75,
+    "windows": 152,
+    "empirical_cdf": 0.8389830079517866,
+    "pinball": 0.014338104470976089
+  },
+  {
+    "split": "test",
+    "group": "3750",
+    "channel": "u",
+    "mode": "raw",
+    "percentile": 80,
+    "windows": 152,
+    "empirical_cdf": 0.8793100604885503,
+    "pinball": 0.012688985884826826
+  },
+  {
+    "split": "test",
+    "group": "3750",
+    "channel": "u",
+    "mode": "raw",
+    "percentile": 85,
+    "windows": 152,
+    "empirical_cdf": 0.9164875334030703,
+    "pinball": 0.010673411282416629
+  },
+  {
+    "split": "test",
+    "group": "3750",
+    "channel": "u",
+    "mode": "raw",
+    "percentile": 90,
+    "windows": 152,
+    "empirical_cdf": 0.9470532967856056,
+    "pinball": 0.008133955309044962
+  },
+  {
+    "split": "test",
+    "group": "3750",
+    "channel": "u",
+    "mode": "raw",
+    "percentile": 95,
+    "windows": 152,
+    "empirical_cdf": 0.9682697610635507,
+    "pinball": 0.004765620464336519
+  },
+  {
+    "split": "test",
+    "group": "3750",
+    "channel": "v",
+    "mode": "raw",
+    "percentile": 5,
+    "windows": 152,
+    "empirical_cdf": 0.03464243100269845,
+    "pinball": 0.016250474439737827
+  },
+  {
+    "split": "test",
+    "group": "3750",
+    "channel": "v",
+    "mode": "raw",
+    "percentile": 10,
+    "windows": 152,
+    "empirical_cdf": 0.06611633391462658,
+    "pinball": 0.02701371630016518
+  },
+  {
+    "split": "test",
+    "group": "3750",
+    "channel": "v",
+    "mode": "raw",
+    "percentile": 15,
+    "windows": 152,
+    "empirical_cdf": 0.11130339132719919,
+    "pinball": 0.03510670023235051
+  },
+  {
+    "split": "test",
+    "group": "3750",
+    "channel": "v",
+    "mode": "raw",
+    "percentile": 20,
+    "windows": 152,
+    "empirical_cdf": 0.1631896996282433,
+    "pinball": 0.04156039853727347
+  },
+  {
+    "split": "test",
+    "group": "3750",
+    "channel": "v",
+    "mode": "raw",
+    "percentile": 25,
+    "windows": 152,
+    "empirical_cdf": 0.21564234969647308,
+    "pinball": 0.04677588919079617
+  },
+  {
+    "split": "test",
+    "group": "3750",
+    "channel": "v",
+    "mode": "raw",
+    "percentile": 30,
+    "windows": 152,
+    "empirical_cdf": 0.26613529124542284,
+    "pinball": 0.050900485023464025
+  },
+  {
+    "split": "test",
+    "group": "3750",
+    "channel": "v",
+    "mode": "raw",
+    "percentile": 35,
+    "windows": 152,
+    "empirical_cdf": 0.3149923292037688,
+    "pinball": 0.05402232022759946
+  },
+  {
+    "split": "test",
+    "group": "3750",
+    "channel": "v",
+    "mode": "raw",
+    "percentile": 40,
+    "windows": 152,
+    "empirical_cdf": 0.36293961911609296,
+    "pinball": 0.05619897989948329
+  },
+  {
+    "split": "test",
+    "group": "3750",
+    "channel": "v",
+    "mode": "raw",
+    "percentile": 45,
+    "windows": 152,
+    "empirical_cdf": 0.41167924317874405,
+    "pinball": 0.057463902612461856
+  },
+  {
+    "split": "test",
+    "group": "3750",
+    "channel": "v",
+    "mode": "raw",
+    "percentile": 50,
+    "windows": 152,
+    "empirical_cdf": 0.46159267190255615,
+    "pinball": 0.057840062820009495
+  },
+  {
+    "split": "test",
+    "group": "3750",
+    "channel": "v",
+    "mode": "raw",
+    "percentile": 55,
+    "windows": 152,
+    "empirical_cdf": 0.5123175490451487,
+    "pinball": 0.05733245858726533
+  },
+  {
+    "split": "test",
+    "group": "3750",
+    "channel": "v",
+    "mode": "raw",
+    "percentile": 60,
+    "windows": 152,
+    "empirical_cdf": 0.5632970025272745,
+    "pinball": 0.05593926702184897
+  },
+  {
+    "split": "test",
+    "group": "3750",
+    "channel": "v",
+    "mode": "raw",
+    "percentile": 65,
+    "windows": 152,
+    "empirical_cdf": 0.615136409668546,
+    "pinball": 0.053643422912022
+  },
+  {
+    "split": "test",
+    "group": "3750",
+    "channel": "v",
+    "mode": "raw",
+    "percentile": 70,
+    "windows": 152,
+    "empirical_cdf": 0.6702876161587866,
+    "pinball": 0.05040354409108037
+  },
+  {
+    "split": "test",
+    "group": "3750",
+    "channel": "v",
+    "mode": "raw",
+    "percentile": 75,
+    "windows": 152,
+    "empirical_cdf": 0.7303352853969524,
+    "pinball": 0.046173639840593465
+  },
+  {
+    "split": "test",
+    "group": "3750",
+    "channel": "v",
+    "mode": "raw",
+    "percentile": 80,
+    "windows": 152,
+    "empirical_cdf": 0.7937842223205065,
+    "pinball": 0.04089896489964112
+  },
+  {
+    "split": "test",
+    "group": "3750",
+    "channel": "v",
+    "mode": "raw",
+    "percentile": 85,
+    "windows": 152,
+    "empirical_cdf": 0.8569238091769972,
+    "pinball": 0.03446636551157817
+  },
+  {
+    "split": "test",
+    "group": "3750",
+    "channel": "v",
+    "mode": "raw",
+    "percentile": 90,
+    "windows": 152,
+    "empirical_cdf": 0.9124180960812067,
+    "pinball": 0.026510592709344468
+  },
+  {
+    "split": "test",
+    "group": "3750",
+    "channel": "v",
+    "mode": "raw",
+    "percentile": 95,
+    "windows": 152,
+    "empirical_cdf": 0.9515692579903101,
+    "pinball": 0.01604502867466133
+  },
+  {
+    "split": "test",
+    "group": "13950",
+    "channel": "u",
+    "mode": "online",
+    "percentile": 5,
+    "windows": 190,
+    "empirical_cdf": 0.047766756447718335,
+    "pinball": 0.007957607578780305
+  },
+  {
+    "split": "test",
+    "group": "13950",
+    "channel": "u",
+    "mode": "online",
+    "percentile": 10,
+    "windows": 190,
+    "empirical_cdf": 0.08360814271788848,
+    "pinball": 0.013094986443358816
+  },
+  {
+    "split": "test",
+    "group": "13950",
+    "channel": "u",
+    "mode": "online",
+    "percentile": 15,
+    "windows": 190,
+    "empirical_cdf": 0.13165604632936026,
+    "pinball": 0.016988428829139784
+  },
+  {
+    "split": "test",
+    "group": "13950",
+    "channel": "u",
+    "mode": "online",
+    "percentile": 20,
+    "windows": 190,
+    "empirical_cdf": 0.18525699349610428,
+    "pinball": 0.020057178950427395
+  },
+  {
+    "split": "test",
+    "group": "13950",
+    "channel": "u",
+    "mode": "online",
+    "percentile": 25,
+    "windows": 190,
+    "empirical_cdf": 0.23932553427784067,
+    "pinball": 0.022494612903775354
+  },
+  {
+    "split": "test",
+    "group": "13950",
+    "channel": "u",
+    "mode": "online",
+    "percentile": 30,
+    "windows": 190,
+    "empirical_cdf": 0.2916605473348969,
+    "pinball": 0.024388227302973207
+  },
+  {
+    "split": "test",
+    "group": "13950",
+    "channel": "u",
+    "mode": "online",
+    "percentile": 35,
+    "windows": 190,
+    "empirical_cdf": 0.3415270410870251,
+    "pinball": 0.02579051813012675
+  },
+  {
+    "split": "test",
+    "group": "13950",
+    "channel": "u",
+    "mode": "online",
+    "percentile": 40,
+    "windows": 190,
+    "empirical_cdf": 0.3894022458478024,
+    "pinball": 0.02673678252061731
+  },
+  {
+    "split": "test",
+    "group": "13950",
+    "channel": "u",
+    "mode": "online",
+    "percentile": 45,
+    "windows": 190,
+    "empirical_cdf": 0.4357256183498784,
+    "pinball": 0.027250667234980746
+  },
+  {
+    "split": "test",
+    "group": "13950",
+    "channel": "u",
+    "mode": "online",
+    "percentile": 50,
+    "windows": 190,
+    "empirical_cdf": 0.4830432868317554,
+    "pinball": 0.027347522493647903
+  },
+  {
+    "split": "test",
+    "group": "13950",
+    "channel": "u",
+    "mode": "online",
+    "percentile": 55,
+    "windows": 190,
+    "empirical_cdf": 0.5317549959609383,
+    "pinball": 0.027032084307192186
+  },
+  {
+    "split": "test",
+    "group": "13950",
+    "channel": "u",
+    "mode": "online",
+    "percentile": 60,
+    "windows": 190,
+    "empirical_cdf": 0.5815456784085223,
+    "pinball": 0.026304362964277204
+  },
+  {
+    "split": "test",
+    "group": "13950",
+    "channel": "u",
+    "mode": "online",
+    "percentile": 65,
+    "windows": 190,
+    "empirical_cdf": 0.6327569989781631,
+    "pinball": 0.025156482412038664
+  },
+  {
+    "split": "test",
+    "group": "13950",
+    "channel": "u",
+    "mode": "online",
+    "percentile": 70,
+    "windows": 190,
+    "empirical_cdf": 0.6857912846301731,
+    "pinball": 0.02357305956906394
+  },
+  {
+    "split": "test",
+    "group": "13950",
+    "channel": "u",
+    "mode": "online",
+    "percentile": 75,
+    "windows": 190,
+    "empirical_cdf": 0.7411459301647387,
+    "pinball": 0.021527954112542304
+  },
+  {
+    "split": "test",
+    "group": "13950",
+    "channel": "u",
+    "mode": "online",
+    "percentile": 80,
+    "windows": 190,
+    "empirical_cdf": 0.7981553372583892,
+    "pinball": 0.018980116132450733
+  },
+  {
+    "split": "test",
+    "group": "13950",
+    "channel": "u",
+    "mode": "online",
+    "percentile": 85,
+    "windows": 190,
+    "empirical_cdf": 0.855139686559376,
+    "pinball": 0.01586266868306618
+  },
+  {
+    "split": "test",
+    "group": "13950",
+    "channel": "u",
+    "mode": "online",
+    "percentile": 90,
+    "windows": 190,
+    "empirical_cdf": 0.9072242642703809,
+    "pinball": 0.012041219140059853
+  },
+  {
+    "split": "test",
+    "group": "13950",
+    "channel": "u",
+    "mode": "online",
+    "percentile": 95,
+    "windows": 190,
+    "empirical_cdf": 0.946972154629858,
+    "pinball": 0.007206579345572544
+  },
+  {
+    "split": "test",
+    "group": "13950",
+    "channel": "v",
+    "mode": "online",
+    "percentile": 5,
+    "windows": 190,
+    "empirical_cdf": 0.049001594074070454,
+    "pinball": 0.022520549551240707
+  },
+  {
+    "split": "test",
+    "group": "13950",
+    "channel": "v",
+    "mode": "online",
+    "percentile": 10,
+    "windows": 190,
+    "empirical_cdf": 0.08773064978028598,
+    "pinball": 0.037224206357802214
+  },
+  {
+    "split": "test",
+    "group": "13950",
+    "channel": "v",
+    "mode": "online",
+    "percentile": 15,
+    "windows": 190,
+    "empirical_cdf": 0.13915630418219063,
+    "pinball": 0.048608070837431835
+  },
+  {
+    "split": "test",
+    "group": "13950",
+    "channel": "v",
+    "mode": "online",
+    "percentile": 20,
+    "windows": 190,
+    "empirical_cdf": 0.19584357295381397,
+    "pinball": 0.057750917647622135
+  },
+  {
+    "split": "test",
+    "group": "13950",
+    "channel": "v",
+    "mode": "online",
+    "percentile": 25,
+    "windows": 190,
+    "empirical_cdf": 0.25186986452654786,
+    "pinball": 0.06512496451798239
+  },
+  {
+    "split": "test",
+    "group": "13950",
+    "channel": "v",
+    "mode": "online",
+    "percentile": 30,
+    "windows": 190,
+    "empirical_cdf": 0.30502634746463675,
+    "pinball": 0.07095470277494506
+  },
+  {
+    "split": "test",
+    "group": "13950",
+    "channel": "v",
+    "mode": "online",
+    "percentile": 35,
+    "windows": 190,
+    "empirical_cdf": 0.35544742549720565,
+    "pinball": 0.07537873689281313
+  },
+  {
+    "split": "test",
+    "group": "13950",
+    "channel": "v",
+    "mode": "online",
+    "percentile": 40,
+    "windows": 190,
+    "empirical_cdf": 0.4043496924011331,
+    "pinball": 0.07850296767918687
+  },
+  {
+    "split": "test",
+    "group": "13950",
+    "channel": "v",
+    "mode": "online",
+    "percentile": 45,
+    "windows": 190,
+    "empirical_cdf": 0.4528772678814436,
+    "pinball": 0.08039238680350153
+  },
+  {
+    "split": "test",
+    "group": "13950",
+    "channel": "v",
+    "mode": "online",
+    "percentile": 50,
+    "windows": 190,
+    "empirical_cdf": 0.5016731428472619,
+    "pinball": 0.08107818678805703
+  },
+  {
+    "split": "test",
+    "group": "13950",
+    "channel": "v",
+    "mode": "online",
+    "percentile": 55,
+    "windows": 190,
+    "empirical_cdf": 0.550155234336853,
+    "pinball": 0.08056148645517074
+  },
+  {
+    "split": "test",
+    "group": "13950",
+    "channel": "v",
+    "mode": "online",
+    "percentile": 60,
+    "windows": 190,
+    "empirical_cdf": 0.5980247866166265,
+    "pinball": 0.07882498277253226
+  },
+  {
+    "split": "test",
+    "group": "13950",
+    "channel": "v",
+    "mode": "online",
+    "percentile": 65,
+    "windows": 190,
+    "empirical_cdf": 0.6458173698500583,
+    "pinball": 0.07583527753227635
+  },
+  {
+    "split": "test",
+    "group": "13950",
+    "channel": "v",
+    "mode": "online",
+    "percentile": 70,
+    "windows": 190,
+    "empirical_cdf": 0.6953861412249114,
+    "pinball": 0.07153084680045906
+  },
+  {
+    "split": "test",
+    "group": "13950",
+    "channel": "v",
+    "mode": "online",
+    "percentile": 75,
+    "windows": 190,
+    "empirical_cdf": 0.7479694055883508,
+    "pinball": 0.06581316019751524
+  },
+  {
+    "split": "test",
+    "group": "13950",
+    "channel": "v",
+    "mode": "online",
+    "percentile": 80,
+    "windows": 190,
+    "empirical_cdf": 0.8030439323500583,
+    "pinball": 0.05852760299059905
+  },
+  {
+    "split": "test",
+    "group": "13950",
+    "channel": "v",
+    "mode": "online",
+    "percentile": 85,
+    "windows": 190,
+    "empirical_cdf": 0.8585030439652894,
+    "pinball": 0.04941349043265769
+  },
+  {
+    "split": "test",
+    "group": "13950",
+    "channel": "v",
+    "mode": "online",
+    "percentile": 90,
+    "windows": 190,
+    "empirical_cdf": 0.9093111496222647,
+    "pinball": 0.0379274378775766
+  },
+  {
+    "split": "test",
+    "group": "13950",
+    "channel": "v",
+    "mode": "online",
+    "percentile": 95,
+    "windows": 190,
+    "empirical_cdf": 0.948173840736088,
+    "pinball": 0.022902323805580015
+  },
+  {
+    "split": "test",
+    "group": "22875",
+    "channel": "u",
+    "mode": "online",
+    "percentile": 5,
+    "windows": 114,
+    "empirical_cdf": 0.05187046076089405,
+    "pinball": 0.015390050209437808
+  },
+  {
+    "split": "test",
+    "group": "22875",
+    "channel": "u",
+    "mode": "online",
+    "percentile": 10,
+    "windows": 114,
+    "empirical_cdf": 0.08956149060344487,
+    "pinball": 0.024984028084170922
+  },
+  {
+    "split": "test",
+    "group": "22875",
+    "channel": "u",
+    "mode": "online",
+    "percentile": 15,
+    "windows": 114,
+    "empirical_cdf": 0.1407128076085396,
+    "pinball": 0.03224719993835479
+  },
+  {
+    "split": "test",
+    "group": "22875",
+    "channel": "u",
+    "mode": "online",
+    "percentile": 20,
+    "windows": 114,
+    "empirical_cdf": 0.19764083388604617,
+    "pinball": 0.0379516297232425
+  },
+  {
+    "split": "test",
+    "group": "22875",
+    "channel": "u",
+    "mode": "online",
+    "percentile": 25,
+    "windows": 114,
+    "empirical_cdf": 0.25514987137234,
+    "pinball": 0.04245493953165255
+  },
+  {
+    "split": "test",
+    "group": "22875",
+    "channel": "u",
+    "mode": "online",
+    "percentile": 30,
+    "windows": 114,
+    "empirical_cdf": 0.310718422788277,
+    "pinball": 0.045926800569552076
+  },
+  {
+    "split": "test",
+    "group": "22875",
+    "channel": "u",
+    "mode": "online",
+    "percentile": 35,
+    "windows": 114,
+    "empirical_cdf": 0.3636836606943816,
+    "pinball": 0.04846539863042141
+  },
+  {
+    "split": "test",
+    "group": "22875",
+    "channel": "u",
+    "mode": "online",
+    "percentile": 40,
+    "windows": 114,
+    "empirical_cdf": 0.41440087739835707,
+    "pinball": 0.05013300409834636
+  },
+  {
+    "split": "test",
+    "group": "22875",
+    "channel": "u",
+    "mode": "online",
+    "percentile": 45,
+    "windows": 114,
+    "empirical_cdf": 0.4633140237184993,
+    "pinball": 0.05098094719282368
+  },
+  {
+    "split": "test",
+    "group": "22875",
+    "channel": "u",
+    "mode": "online",
+    "percentile": 50,
+    "windows": 114,
+    "empirical_cdf": 0.512607514596822,
+    "pinball": 0.05104864003104076
+  },
+  {
+    "split": "test",
+    "group": "22875",
+    "channel": "u",
+    "mode": "online",
+    "percentile": 55,
+    "windows": 114,
+    "empirical_cdf": 0.5628054006057873,
+    "pinball": 0.05035432500013134
+  },
+  {
+    "split": "test",
+    "group": "22875",
+    "channel": "u",
+    "mode": "online",
+    "percentile": 60,
+    "windows": 114,
+    "empirical_cdf": 0.6128902098065928,
+    "pinball": 0.04890128109081272
+  },
+  {
+    "split": "test",
+    "group": "22875",
+    "channel": "u",
+    "mode": "online",
+    "percentile": 65,
+    "windows": 114,
+    "empirical_cdf": 0.6633395113443074,
+    "pinball": 0.04667910935128467
+  },
+  {
+    "split": "test",
+    "group": "22875",
+    "channel": "u",
+    "mode": "online",
+    "percentile": 70,
+    "windows": 114,
+    "empirical_cdf": 0.7144107321898142,
+    "pinball": 0.04366304328371035
+  },
+  {
+    "split": "test",
+    "group": "22875",
+    "channel": "u",
+    "mode": "online",
+    "percentile": 75,
+    "windows": 114,
+    "empirical_cdf": 0.7659843679060016,
+    "pinball": 0.039800392545498255
+  },
+  {
+    "split": "test",
+    "group": "22875",
+    "channel": "u",
+    "mode": "online",
+    "percentile": 80,
+    "windows": 114,
+    "empirical_cdf": 0.8182426732883119,
+    "pinball": 0.035015130791355646
+  },
+  {
+    "split": "test",
+    "group": "22875",
+    "channel": "u",
+    "mode": "online",
+    "percentile": 85,
+    "windows": 114,
+    "empirical_cdf": 0.8693402346811796,
+    "pinball": 0.02917134640901758
+  },
+  {
+    "split": "test",
+    "group": "22875",
+    "channel": "u",
+    "mode": "online",
+    "percentile": 90,
+    "windows": 114,
+    "empirical_cdf": 0.9155466305582147,
+    "pinball": 0.02200491482947479
+  },
+  {
+    "split": "test",
+    "group": "22875",
+    "channel": "u",
+    "mode": "online",
+    "percentile": 95,
+    "windows": 114,
+    "empirical_cdf": 0.9509003329695317,
+    "pinball": 0.012991501827185092
+  },
+  {
+    "split": "test",
+    "group": "22875",
+    "channel": "v",
+    "mode": "online",
+    "percentile": 5,
+    "windows": 114,
+    "empirical_cdf": 0.049721594769180866,
+    "pinball": 0.029808764738079748
+  },
+  {
+    "split": "test",
+    "group": "22875",
+    "channel": "v",
+    "mode": "online",
+    "percentile": 10,
+    "windows": 114,
+    "empirical_cdf": 0.08677528942363304,
+    "pinball": 0.04915909439717468
+  },
+  {
+    "split": "test",
+    "group": "22875",
+    "channel": "v",
+    "mode": "online",
+    "percentile": 15,
+    "windows": 114,
+    "empirical_cdf": 0.13620006054509104,
+    "pinball": 0.0639340485723918
+  },
+  {
+    "split": "test",
+    "group": "22875",
+    "channel": "v",
+    "mode": "online",
+    "percentile": 20,
+    "windows": 114,
+    "empirical_cdf": 0.19154160175668566,
+    "pinball": 0.07569694849090618
+  },
+  {
+    "split": "test",
+    "group": "22875",
+    "channel": "v",
+    "mode": "online",
+    "percentile": 25,
+    "windows": 114,
+    "empirical_cdf": 0.24762412944906637,
+    "pinball": 0.08517553036411603
+  },
+  {
+    "split": "test",
+    "group": "22875",
+    "channel": "v",
+    "mode": "online",
+    "percentile": 30,
+    "windows": 114,
+    "empirical_cdf": 0.30148240963095113,
+    "pinball": 0.09269481446397931
+  },
+  {
+    "split": "test",
+    "group": "22875",
+    "channel": "v",
+    "mode": "online",
+    "percentile": 35,
+    "windows": 114,
+    "empirical_cdf": 0.3536670428880474,
+    "pinball": 0.09841982183749215
+  },
+  {
+    "split": "test",
+    "group": "22875",
+    "channel": "v",
+    "mode": "online",
+    "percentile": 40,
+    "windows": 114,
+    "empirical_cdf": 0.404565435752534,
+    "pinball": 0.10246025466997373
+  },
+  {
+    "split": "test",
+    "group": "22875",
+    "channel": "v",
+    "mode": "online",
+    "percentile": 45,
+    "windows": 114,
+    "empirical_cdf": 0.4553944437127364,
+    "pinball": 0.10487739232025649
+  },
+  {
+    "split": "test",
+    "group": "22875",
+    "channel": "v",
+    "mode": "online",
+    "percentile": 50,
+    "windows": 114,
+    "empirical_cdf": 0.5065770308699524,
+    "pinball": 0.10572584489719909
+  },
+  {
+    "split": "test",
+    "group": "22875",
+    "channel": "v",
+    "mode": "online",
+    "percentile": 55,
+    "windows": 114,
+    "empirical_cdf": 0.557352285113251,
+    "pinball": 0.10503206879161951
+  },
+  {
+    "split": "test",
+    "group": "22875",
+    "channel": "v",
+    "mode": "online",
+    "percentile": 60,
+    "windows": 114,
+    "empirical_cdf": 0.6071126434886664,
+    "pinball": 0.10277903089789968
+  },
+  {
+    "split": "test",
+    "group": "22875",
+    "channel": "v",
+    "mode": "online",
+    "percentile": 65,
+    "windows": 114,
+    "empirical_cdf": 0.6562013986863588,
+    "pinball": 0.0989162754594234
+  },
+  {
+    "split": "test",
+    "group": "22875",
+    "channel": "v",
+    "mode": "online",
+    "percentile": 70,
+    "windows": 114,
+    "empirical_cdf": 0.7062196020494428,
+    "pinball": 0.09335600568406414
+  },
+  {
+    "split": "test",
+    "group": "22875",
+    "channel": "v",
+    "mode": "online",
+    "percentile": 75,
+    "windows": 114,
+    "empirical_cdf": 0.7584044447070674,
+    "pinball": 0.0859686645368735
+  },
+  {
+    "split": "test",
+    "group": "22875",
+    "channel": "v",
+    "mode": "online",
+    "percentile": 80,
+    "windows": 114,
+    "empirical_cdf": 0.8118748832167241,
+    "pinball": 0.07655277763280952
+  },
+  {
+    "split": "test",
+    "group": "22875",
+    "channel": "v",
+    "mode": "online",
+    "percentile": 85,
+    "windows": 114,
+    "empirical_cdf": 0.8646043345593569,
+    "pinball": 0.06473452532500551
+  },
+  {
+    "split": "test",
+    "group": "22875",
+    "channel": "v",
+    "mode": "online",
+    "percentile": 90,
+    "windows": 114,
+    "empirical_cdf": 0.9122849953802008,
+    "pinball": 0.04981274739430662
+  },
+  {
+    "split": "test",
+    "group": "22875",
+    "channel": "v",
+    "mode": "online",
+    "percentile": 95,
+    "windows": 114,
+    "empirical_cdf": 0.9486281150265744,
+    "pinball": 0.030336622949362846
+  },
+  {
+    "split": "test",
+    "group": "3750",
+    "channel": "u",
+    "mode": "online",
+    "percentile": 5,
+    "windows": 152,
+    "empirical_cdf": 0.06812390905657881,
+    "pinball": 0.004073294351416591
+  },
+  {
+    "split": "test",
+    "group": "3750",
+    "channel": "u",
+    "mode": "online",
+    "percentile": 10,
+    "windows": 152,
+    "empirical_cdf": 0.1424396746840916,
+    "pinball": 0.007058809499109262
+  },
+  {
+    "split": "test",
+    "group": "3750",
+    "channel": "u",
+    "mode": "online",
+    "percentile": 15,
+    "windows": 152,
+    "empirical_cdf": 0.23133175790702043,
+    "pinball": 0.009775774798503048
+  },
+  {
+    "split": "test",
+    "group": "3750",
+    "channel": "u",
+    "mode": "online",
+    "percentile": 20,
+    "windows": 152,
+    "empirical_cdf": 0.31608967620291206,
+    "pinball": 0.012187397260660012
+  },
+  {
+    "split": "test",
+    "group": "3750",
+    "channel": "u",
+    "mode": "online",
+    "percentile": 25,
+    "windows": 152,
+    "empirical_cdf": 0.38927098951841654,
+    "pinball": 0.014198018280838273
+  },
+  {
+    "split": "test",
+    "group": "3750",
+    "channel": "u",
+    "mode": "online",
+    "percentile": 30,
+    "windows": 152,
+    "empirical_cdf": 0.45068986419784396,
+    "pinball": 0.01577847368255454
+  },
+  {
+    "split": "test",
+    "group": "3750",
+    "channel": "u",
+    "mode": "online",
+    "percentile": 35,
+    "windows": 152,
+    "empirical_cdf": 0.5030125767776841,
+    "pinball": 0.01694503616492607
+  },
+  {
+    "split": "test",
+    "group": "3750",
+    "channel": "u",
+    "mode": "online",
+    "percentile": 40,
+    "windows": 152,
+    "empirical_cdf": 0.548645671849188,
+    "pinball": 0.017727627994884785
+  },
+  {
+    "split": "test",
+    "group": "3750",
+    "channel": "u",
+    "mode": "online",
+    "percentile": 45,
+    "windows": 152,
+    "empirical_cdf": 0.5894928084392297,
+    "pinball": 0.01816363121064282
+  },
+  {
+    "split": "test",
+    "group": "3750",
+    "channel": "u",
+    "mode": "online",
+    "percentile": 50,
+    "windows": 152,
+    "empirical_cdf": 0.6283585523304186,
+    "pinball": 0.01830203390655745
+  },
+  {
+    "split": "test",
+    "group": "3750",
+    "channel": "u",
+    "mode": "online",
+    "percentile": 55,
+    "windows": 152,
+    "empirical_cdf": 0.6669832040604792,
+    "pinball": 0.018156060520069378
+  },
+  {
+    "split": "test",
+    "group": "3750",
+    "channel": "u",
+    "mode": "online",
+    "percentile": 60,
+    "windows": 152,
+    "empirical_cdf": 0.705191853799318,
+    "pinball": 0.017718780166959686
+  },
+  {
+    "split": "test",
+    "group": "3750",
+    "channel": "u",
+    "mode": "online",
+    "percentile": 65,
+    "windows": 152,
+    "empirical_cdf": 0.7432731331179017,
+    "pinball": 0.016988498587651474
+  },
+  {
+    "split": "test",
+    "group": "3750",
+    "channel": "u",
+    "mode": "online",
+    "percentile": 70,
+    "windows": 152,
+    "empirical_cdf": 0.7822151709544031,
+    "pinball": 0.01595778504729663
+  },
+  {
+    "split": "test",
+    "group": "3750",
+    "channel": "u",
+    "mode": "online",
+    "percentile": 75,
+    "windows": 152,
+    "empirical_cdf": 0.8219930651156526,
+    "pinball": 0.01461323154600043
+  },
+  {
+    "split": "test",
+    "group": "3750",
+    "channel": "u",
+    "mode": "online",
+    "percentile": 80,
+    "windows": 152,
+    "empirical_cdf": 0.8624702974369651,
+    "pinball": 0.012923779162137132
+  },
+  {
+    "split": "test",
+    "group": "3750",
+    "channel": "u",
+    "mode": "online",
+    "percentile": 85,
+    "windows": 152,
+    "empirical_cdf": 0.9027234653108999,
+    "pinball": 0.010824186218853452
+  },
+  {
+    "split": "test",
+    "group": "3750",
+    "channel": "u",
+    "mode": "online",
+    "percentile": 90,
+    "windows": 152,
+    "empirical_cdf": 0.9402274807032786,
+    "pinball": 0.008182551665844298
+  },
+  {
+    "split": "test",
+    "group": "3750",
+    "channel": "u",
+    "mode": "online",
+    "percentile": 95,
+    "windows": 152,
+    "empirical_cdf": 0.9686558874029862,
+    "pinball": 0.004741099774898765
+  },
+  {
+    "split": "test",
+    "group": "3750",
+    "channel": "v",
+    "mode": "online",
+    "percentile": 5,
+    "windows": 152,
+    "empirical_cdf": 0.04668241877746033,
+    "pinball": 0.015359172236027294
+  },
+  {
+    "split": "test",
+    "group": "3750",
+    "channel": "v",
+    "mode": "online",
+    "percentile": 10,
+    "windows": 152,
+    "empirical_cdf": 0.08823900831569183,
+    "pinball": 0.02588324182617821
+  },
+  {
+    "split": "test",
+    "group": "3750",
+    "channel": "v",
+    "mode": "online",
+    "percentile": 15,
+    "windows": 152,
+    "empirical_cdf": 0.1416227671464807,
+    "pinball": 0.03422331988909527
+  },
+  {
+    "split": "test",
+    "group": "3750",
+    "channel": "v",
+    "mode": "online",
+    "percentile": 20,
+    "windows": 152,
+    "empirical_cdf": 0.19661785172004448,
+    "pinball": 0.041015209005165254
+  },
+  {
+    "split": "test",
+    "group": "3750",
+    "channel": "v",
+    "mode": "online",
+    "percentile": 25,
+    "windows": 152,
+    "empirical_cdf": 0.247950026177262,
+    "pinball": 0.046492366965762096
+  },
+  {
+    "split": "test",
+    "group": "3750",
+    "channel": "v",
+    "mode": "online",
+    "percentile": 30,
+    "windows": 152,
+    "empirical_cdf": 0.29463324862483303,
+    "pinball": 0.05078168921662789
+  },
+  {
+    "split": "test",
+    "group": "3750",
+    "channel": "v",
+    "mode": "online",
+    "percentile": 35,
+    "windows": 152,
+    "empirical_cdf": 0.33771700264984056,
+    "pinball": 0.054000628940565024
+  },
+  {
+    "split": "test",
+    "group": "3750",
+    "channel": "v",
+    "mode": "online",
+    "percentile": 40,
+    "windows": 152,
+    "empirical_cdf": 0.37881036769402654,
+    "pinball": 0.05622754929783313
+  },
+  {
+    "split": "test",
+    "group": "3750",
+    "channel": "v",
+    "mode": "online",
+    "percentile": 45,
+    "windows": 152,
+    "empirical_cdf": 0.41960642545631055,
+    "pinball": 0.05750860379224545
+  },
+  {
+    "split": "test",
+    "group": "3750",
+    "channel": "v",
+    "mode": "online",
+    "percentile": 50,
+    "windows": 152,
+    "empirical_cdf": 0.46108865071284144,
+    "pinball": 0.057862500807172375
+  },
+  {
+    "split": "test",
+    "group": "3750",
+    "channel": "v",
+    "mode": "online",
+    "percentile": 55,
+    "windows": 152,
+    "empirical_cdf": 0.5032025885425115,
+    "pinball": 0.05729472068579573
+  },
+  {
+    "split": "test",
+    "group": "3750",
+    "channel": "v",
+    "mode": "online",
+    "percentile": 60,
+    "windows": 152,
+    "empirical_cdf": 0.5460695098889502,
+    "pinball": 0.05580679339503771
+  },
+  {
+    "split": "test",
+    "group": "3750",
+    "channel": "v",
+    "mode": "online",
+    "percentile": 65,
+    "windows": 152,
+    "empirical_cdf": 0.5906168210663294,
+    "pinball": 0.05338001136030806
+  },
+  {
+    "split": "test",
+    "group": "3750",
+    "channel": "v",
+    "mode": "online",
+    "percentile": 70,
+    "windows": 152,
+    "empirical_cdf": 0.6395393884495685,
+    "pinball": 0.049950895414344575
+  },
+  {
+    "split": "test",
+    "group": "3750",
+    "channel": "v",
+    "mode": "online",
+    "percentile": 75,
+    "windows": 152,
+    "empirical_cdf": 0.695186589501406,
+    "pinball": 0.045436546574101636
+  },
+  {
+    "split": "test",
+    "group": "3750",
+    "channel": "v",
+    "mode": "online",
+    "percentile": 80,
+    "windows": 152,
+    "empirical_cdf": 0.7583375745698026,
+    "pinball": 0.03977254123770093
+  },
+  {
+    "split": "test",
+    "group": "3750",
+    "channel": "v",
+    "mode": "online",
+    "percentile": 85,
+    "windows": 152,
+    "empirical_cdf": 0.8273741195076391,
+    "pinball": 0.032916575437411666
+  },
+  {
+    "split": "test",
+    "group": "3750",
+    "channel": "v",
+    "mode": "online",
+    "percentile": 90,
+    "windows": 152,
+    "empirical_cdf": 0.8945995259441828,
+    "pinball": 0.024757230629850375
+  },
+  {
+    "split": "test",
+    "group": "3750",
+    "channel": "v",
+    "mode": "online",
+    "percentile": 95,
+    "windows": 152,
+    "empirical_cdf": 0.9457752551687392,
+    "pinball": 0.014716330756384292
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "source_sha256": "52685862af4d1ad1f18d053bd3bfb63fd55384a8e1c10e5df4df2813e2f86c86",
+  "frozen_artifacts": {
+    "runs/selected16_quantile_20261110/compact16.pt": "d7484a123b9721f7103683077e4720c7f65756dc26236aa0c6969b5572595832",
+    "runs/xpf16_noise8_noise32_20261111/calibration.pt": "08cdfc1b0022d0eaa9009cc4d866b0b32d600f37fda45447fac43e19116b94e9"
+  },
+  "model": "Frozen XPF16 05/95 bounds, plus separately trained16-input positive-gap CNN predicting17 ordered interior quantiles.",
+  "train": "819 real frozen predictor residual windows, training identities only; 2000 updates seed42, AdamW3e-4 cosine, batch4.",
+  "calibration": "Unchanged XPF16 memory_dynamic controller, positive affine mapping applied to every quantile after full-window issue.",
+  "reporting": "Empirical CDF Pr(Y<=Q_tau), standardized pinball, development and test, windows2..39, Re/channel equal weighting.",
+  "limitations": "Prior data reused; empirical marginal statistics only; tails below05 and above95 unspecified."
+}

@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "rows": 7488,
+  "actual_paths": true,
+  "native32_reproduced_rows": 3744,
+  "full32_cached_moments_exact": 78,
+  "full_window_causal_pairs": 78
+}

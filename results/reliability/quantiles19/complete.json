@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "rows": 71136,
+  "monotonic_all_windows": true,
+  "old_online_endpoints_reproduced": true,
+  "full_window_causality": true,
+  "probabilities": "5..95 by5;17 new interior levels",
+  "caveat": "Reused development/test trajectories; no fresh independent confirmation.19 quantiles do not uniquely define tail CDF or joint distribution."
+}

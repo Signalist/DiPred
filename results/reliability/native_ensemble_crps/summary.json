@@ -1,0 +1,90 @@
+[
+  {
+    "split": "development",
+    "samples": 8,
+    "estimator": "empirical",
+    "crps": 0.09940826237291556,
+    "raw_crps": 0.004760260631700322,
+    "abs_term": 0.1415684623777191,
+    "half_pair_term": 0.042160200027541984,
+    "raw_abs_term": 0.006668429262519131,
+    "raw_half_pair_term": 0.0019081686390053252
+  },
+  {
+    "split": "development",
+    "samples": 8,
+    "estimator": "fair",
+    "crps": 0.09338537449907641,
+    "raw_crps": 0.004487665008223542,
+    "abs_term": 0.1415684623777191,
+    "half_pair_term": 0.04818308793065514,
+    "raw_abs_term": 0.006668429262519131,
+    "raw_half_pair_term": 0.002180764248649275
+  },
+  {
+    "split": "development",
+    "samples": 32,
+    "estimator": "empirical",
+    "crps": 0.09518259422967962,
+    "raw_crps": 0.004569171833090398,
+    "abs_term": 0.14173248903716953,
+    "half_pair_term": 0.04654989473927461,
+    "raw_abs_term": 0.006667820783774504,
+    "raw_half_pair_term": 0.002098648977656209
+  },
+  {
+    "split": "development",
+    "samples": 32,
+    "estimator": "fair",
+    "crps": 0.09368098623007645,
+    "raw_crps": 0.0045014735413856505,
+    "abs_term": 0.14173248903716953,
+    "half_pair_term": 0.048051502817236864,
+    "raw_abs_term": 0.006667820783774504,
+    "raw_half_pair_term": 0.002166347261914801
+  },
+  {
+    "split": "test",
+    "samples": 8,
+    "estimator": "empirical",
+    "crps": 0.09379740487539062,
+    "raw_crps": 0.004196793263482286,
+    "abs_term": 0.1372644031915966,
+    "half_pair_term": 0.043466997654749116,
+    "raw_abs_term": 0.0061088225127052115,
+    "raw_half_pair_term": 0.0019120292433936485
+  },
+  {
+    "split": "test",
+    "samples": 8,
+    "estimator": "fair",
+    "crps": 0.08758783157947554,
+    "raw_crps": 0.003923646149220257,
+    "abs_term": 0.1372644031915966,
+    "half_pair_term": 0.04967657093051277,
+    "raw_abs_term": 0.0061088225127052115,
+    "raw_half_pair_term": 0.0021851763832661983
+  },
+  {
+    "split": "test",
+    "samples": 32,
+    "estimator": "empirical",
+    "crps": 0.08912720896415303,
+    "raw_crps": 0.003995301622013379,
+    "abs_term": 0.1373231436782217,
+    "half_pair_term": 0.04819593496419141,
+    "raw_abs_term": 0.006113652027112007,
+    "raw_half_pair_term": 0.002118350391099856
+  },
+  {
+    "split": "test",
+    "samples": 32,
+    "estimator": "fair",
+    "crps": 0.08757250272554525,
+    "raw_crps": 0.003926967840184075,
+    "abs_term": 0.1373231436782217,
+    "half_pair_term": 0.049750640938515986,
+    "raw_abs_term": 0.006113652027112007,
+    "raw_half_pair_term": 0.002186684203288199
+  }
+]

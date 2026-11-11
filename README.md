@@ -1,3 +1,24 @@
+## XPF16 的 19 个分位水平与原生 Ensemble CRPS
+
+冻结原 5%/95% 端点，新增 26,964 参数学习 10%–90% 的 17 个有序分位点。输入连续 20 帧，四步 DiPred 一次联合预测后续 20 帧。在线分位平均绝对覆盖偏差为 1.190 个百分点，35% 水平偏差最大，为 +2.584 个百分点；已用测试数据，结果探索性。
+
+| 原生扩散样本，测试窗口 2–39，Re/u-v 等权 | 经验 CRPS↓ | Fair CRPS↓ |
+|---|---:|---:|
+| 8-noise | 0.0937974 | 0.0875878 |
+| 32-noise | 0.0891272 | 0.0875725 |
+
+CRPS 已按训练通道标准差缩放；原始量纲与按工况、通道及轨迹汇总的 A/B 评分组成项也已发布。经验 CRPS 与 fair CRPS 估计量不同。这里是**未经在线校准的真实样本分布**，其均值与固定零噪声预测不同；不能与两分位区间的高斯/Laplace 假设补全当作同一种分布直接比较。完整 78 窗口样本约 9.8 GB，未放入仓库；包含实际样本小快照、可复核的分组统计量、种子与重放代码。
+
+```bash
+python analyze_quantiles19_native_crps.py
+TORCH_ALLOW_TF32_CUBLAS_OVERRIDE=0 python -m reliability.quantiles19_predict \
+  --input history.pt --output forecast.pt --geometry 0.0034 -0.0034 0.02
+```
+
+实际使用时需替换网格几何值；CLI 为冷启动。连续反馈请使用 `Quantiles19Predictor.predict/reveal/reset`。[19 分位报告和结果](results/reliability/quantiles19/README.md) · [原生 Ensemble CRPS 数据与口径](results/reliability/native_ensemble_crps/README.md)。19 个分位节点尚不唯一确定完整 CDF、尾部或时空联合分布。
+
+---
+
 ## 研究评估报告：当前瓶颈与 CRPS 改进路线
 
 [阅读报告](docs/研究报告_当前瓶颈与CRPS改进路线_20261111.md) · [结构化证据与来源](results/reliability/research_review_20261111/evidence.json)

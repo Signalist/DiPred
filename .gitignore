@@ -28,3 +28,6 @@ tmp/
 !reliability/checkpoints/dynamic_memory.pt
 
 !reliability/checkpoints/selected16_comparison.pt
+
+!reliability/checkpoints/quantiles19.pt
+!results/reliability/native_ensemble_crps/snapshot.npz

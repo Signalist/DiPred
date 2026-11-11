@@ -1,0 +1,8 @@
+{
+  "endpoint_sha256": "d7484a123b9721f7103683077e4720c7f65756dc26236aa0c6969b5572595832",
+  "training_pairs": 819,
+  "steps": 2000,
+  "minibatches_match_original": true,
+  "added_trainable_parameters": 26964,
+  "checkpoint_sha256": "b150d8079d2de3273af0771f30c518d31d6d873a11f398317cc4f426ab594e08"
+}

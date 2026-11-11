@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "rows": 71136,
+  "curves": 3744,
+  "checked_monotone_empirical_curves": true,
+  "independent_macro_recomputed": true,
+  "online_old_05_95_endpoint_counts_checked": 3744,
+  "lower_endpoint_ties": 1,
+  "complete_window_event_pairs": 78,
+  "endpoint_and_new_checkpoint_hash_verified": true,
+  "evaluation_source_sha256": "1ba41a0bf4d7cede4fccc4f85f0788336e0f79359d64da04011341942dcda8d6",
+  "first_replay_note": "Original lower-bound comparison used <= versus old strict <; resumed from frozen trained checkpoint after correcting audit."
+}

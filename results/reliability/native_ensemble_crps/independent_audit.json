@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "rows": 7488,
+  "source32_old_rows_exact": 3744,
+  "independent_pairwise_calculation": true,
+  "max_absolute_snapshot_discrepancy": 1.0414664908253712e-07,
+  "separate_A_B_terms_checked": true,
+  "macro_group_recomputed": true,
+  "full_window_causal_pairs": 78
+}
