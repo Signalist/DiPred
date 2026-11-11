@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "unchanged_point_rows": 5616,
+  "exact_old_interval_and_crps_rows": 3744,
+  "actual8_sample_std_max_error": 9.956443020302935e-09,
+  "independent_crps_max_error": 2.523280953070639e-07,
+  "chronological_issue_reveal_pairs": 87,
+  "real_two_window_numpy_metric_checks": 60,
+  "identical_input_controllers_exact": true,
+  "partial_truth_rejected": true
+}

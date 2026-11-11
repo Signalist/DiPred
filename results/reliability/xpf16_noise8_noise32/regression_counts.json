@@ -1,0 +1,20 @@
+[
+  {
+    "candidate": "XPF16",
+    "variant": "memory_dynamic",
+    "reference": "8-noise",
+    "baseline_variant": "memory_dynamic",
+    "wins": 66,
+    "ties": 0,
+    "regressions": 30
+  },
+  {
+    "candidate": "XPF16",
+    "variant": "memory_dynamic",
+    "reference": "32-noise",
+    "baseline_variant": "memory_dynamic",
+    "wins": 70,
+    "ties": 0,
+    "regressions": 26
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "scope_exactly_three_methods": true,
+  "window_channel_rows": 5616,
+  "independent_summary_numeric_checks": 900,
+  "primary_comparisons": 2,
+  "cells_per_comparison": 96,
+  "tolerance": 1e-06,
+  "all_counterexamples_verified": 56,
+  "point_mse_unchanged": true,
+  "paired_score_improvements": {
+    "8-noise": 24,
+    "32-noise": 23
+  },
+  "caveat": "Repeated historicaldata; no independent statistical or formalcoverage confirmation.All three share the zero-noise point and online spatiotemporal calibrator; own calibration states. Gaussian/Laplace CRPS are assumed CDF completions."
+}

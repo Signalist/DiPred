@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "records": 5616,
+  "only_requested_three_methods": true,
+  "XPF16_noise32_initial_states_exact": true,
+  "same_calibrator_class_and_features": true,
+  "independent_noise8_calibration": true,
+  "no_neural_training": true,
+  "frozen_artifacts_unchanged": true
+}

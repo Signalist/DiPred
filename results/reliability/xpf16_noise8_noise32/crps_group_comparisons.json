@@ -1,0 +1,482 @@
+[
+  {
+    "split": "development",
+    "group": "26700",
+    "channel": "u",
+    "reference": "8-noise",
+    "distribution": "gaussian",
+    "XPF16": 0.11032770296329991,
+    "baseline": 0.10938471052468869,
+    "gain": -0.0009429924386112204
+  },
+  {
+    "split": "development",
+    "group": "26700",
+    "channel": "v",
+    "reference": "8-noise",
+    "distribution": "gaussian",
+    "XPF16": 0.17249262319845066,
+    "baseline": 0.17301572486758232,
+    "gain": 0.0005231016691316648
+  },
+  {
+    "split": "development",
+    "group": "6300",
+    "channel": "u",
+    "reference": "8-noise",
+    "distribution": "gaussian",
+    "XPF16": 0.027526943993411566,
+    "baseline": 0.026792386811422673,
+    "gain": -0.000734557181988893
+  },
+  {
+    "split": "development",
+    "group": "6300",
+    "channel": "v",
+    "reference": "8-noise",
+    "distribution": "gaussian",
+    "XPF16": 0.09139489237415163,
+    "baseline": 0.09162384095160585,
+    "gain": 0.00022894857745421604
+  },
+  {
+    "split": "development",
+    "group": "7575",
+    "channel": "u",
+    "reference": "8-noise",
+    "distribution": "gaussian",
+    "XPF16": 0.029400389065573875,
+    "baseline": 0.02905155507553565,
+    "gain": -0.0003488339900382248
+  },
+  {
+    "split": "development",
+    "group": "7575",
+    "channel": "v",
+    "reference": "8-noise",
+    "distribution": "gaussian",
+    "XPF16": 0.09974200523605473,
+    "baseline": 0.10052401317577613,
+    "gain": 0.0007820079397213991
+  },
+  {
+    "split": "test",
+    "group": "13950",
+    "channel": "u",
+    "reference": "8-noise",
+    "distribution": "gaussian",
+    "XPF16": 0.040092076547443865,
+    "baseline": 0.04028529335597628,
+    "gain": 0.00019321680853241763
+  },
+  {
+    "split": "test",
+    "group": "13950",
+    "channel": "v",
+    "reference": "8-noise",
+    "distribution": "gaussian",
+    "XPF16": 0.1177299010910486,
+    "baseline": 0.11971938141474599,
+    "gain": 0.00198948032369739
+  },
+  {
+    "split": "test",
+    "group": "22875",
+    "channel": "u",
+    "reference": "8-noise",
+    "distribution": "gaussian",
+    "XPF16": 0.07520235074978125,
+    "baseline": 0.07509439997375011,
+    "gain": -0.00010795077603113767
+  },
+  {
+    "split": "test",
+    "group": "22875",
+    "channel": "v",
+    "reference": "8-noise",
+    "distribution": "gaussian",
+    "XPF16": 0.15381346080909697,
+    "baseline": 0.15520390090450906,
+    "gain": 0.0013904400954120877
+  },
+  {
+    "split": "test",
+    "group": "3750",
+    "channel": "u",
+    "reference": "8-noise",
+    "distribution": "gaussian",
+    "XPF16": 0.025796815691711873,
+    "baseline": 0.02650614879339149,
+    "gain": 0.0007093331016796191
+  },
+  {
+    "split": "test",
+    "group": "3750",
+    "channel": "v",
+    "reference": "8-noise",
+    "distribution": "gaussian",
+    "XPF16": 0.08241652917901152,
+    "baseline": 0.08151201795982688,
+    "gain": -0.0009045112191846394
+  },
+  {
+    "split": "development",
+    "group": "26700",
+    "channel": "u",
+    "reference": "8-noise",
+    "distribution": "laplace",
+    "XPF16": 0.11169010355022915,
+    "baseline": 0.10948539231168597,
+    "gain": -0.0022047112385431833
+  },
+  {
+    "split": "development",
+    "group": "26700",
+    "channel": "v",
+    "reference": "8-noise",
+    "distribution": "laplace",
+    "XPF16": 0.17349342825381378,
+    "baseline": 0.1728303937012689,
+    "gain": -0.0006630345525448778
+  },
+  {
+    "split": "development",
+    "group": "6300",
+    "channel": "u",
+    "reference": "8-noise",
+    "distribution": "laplace",
+    "XPF16": 0.027826080647738356,
+    "baseline": 0.026939849359424492,
+    "gain": -0.0008862312883138636
+  },
+  {
+    "split": "development",
+    "group": "6300",
+    "channel": "v",
+    "reference": "8-noise",
+    "distribution": "laplace",
+    "XPF16": 0.09202362200931499,
+    "baseline": 0.09183501358094968,
+    "gain": -0.00018860842836530833
+  },
+  {
+    "split": "development",
+    "group": "7575",
+    "channel": "u",
+    "reference": "8-noise",
+    "distribution": "laplace",
+    "XPF16": 0.029673470135189985,
+    "baseline": 0.029141280199646166,
+    "gain": -0.0005321899355438184
+  },
+  {
+    "split": "development",
+    "group": "7575",
+    "channel": "v",
+    "reference": "8-noise",
+    "distribution": "laplace",
+    "XPF16": 0.10035122212904848,
+    "baseline": 0.10052681140797703,
+    "gain": 0.0001755892789285507
+  },
+  {
+    "split": "test",
+    "group": "13950",
+    "channel": "u",
+    "reference": "8-noise",
+    "distribution": "laplace",
+    "XPF16": 0.04045977651288635,
+    "baseline": 0.04033800269428053,
+    "gain": -0.00012177381860582065
+  },
+  {
+    "split": "test",
+    "group": "13950",
+    "channel": "v",
+    "reference": "8-noise",
+    "distribution": "laplace",
+    "XPF16": 0.11846680729404876,
+    "baseline": 0.11966761338867639,
+    "gain": 0.0012008060946276239
+  },
+  {
+    "split": "test",
+    "group": "22875",
+    "channel": "u",
+    "reference": "8-noise",
+    "distribution": "laplace",
+    "XPF16": 0.0760120691960318,
+    "baseline": 0.07503908313810825,
+    "gain": -0.00097298605792355
+  },
+  {
+    "split": "test",
+    "group": "22875",
+    "channel": "v",
+    "reference": "8-noise",
+    "distribution": "laplace",
+    "XPF16": 0.15461810730528414,
+    "baseline": 0.15501380398085243,
+    "gain": 0.0003956966755682967
+  },
+  {
+    "split": "test",
+    "group": "3750",
+    "channel": "u",
+    "reference": "8-noise",
+    "distribution": "laplace",
+    "XPF16": 0.02625706486747061,
+    "baseline": 0.02693744533156094,
+    "gain": 0.0006803804640903299
+  },
+  {
+    "split": "test",
+    "group": "3750",
+    "channel": "v",
+    "reference": "8-noise",
+    "distribution": "laplace",
+    "XPF16": 0.08344215642366755,
+    "baseline": 0.08235560257085844,
+    "gain": -0.001086553852809105
+  },
+  {
+    "split": "development",
+    "group": "26700",
+    "channel": "u",
+    "reference": "32-noise",
+    "distribution": "gaussian",
+    "XPF16": 0.11032770296329991,
+    "baseline": 0.10878218779046285,
+    "gain": -0.0015455151728370614
+  },
+  {
+    "split": "development",
+    "group": "26700",
+    "channel": "v",
+    "reference": "32-noise",
+    "distribution": "gaussian",
+    "XPF16": 0.17249262319845066,
+    "baseline": 0.17174283049085684,
+    "gain": -0.000749792707593816
+  },
+  {
+    "split": "development",
+    "group": "6300",
+    "channel": "u",
+    "reference": "32-noise",
+    "distribution": "gaussian",
+    "XPF16": 0.027526943993411566,
+    "baseline": 0.02668562241290745,
+    "gain": -0.000841321580504116
+  },
+  {
+    "split": "development",
+    "group": "6300",
+    "channel": "v",
+    "reference": "32-noise",
+    "distribution": "gaussian",
+    "XPF16": 0.09139489237415163,
+    "baseline": 0.09112031200998708,
+    "gain": -0.0002745803641645561
+  },
+  {
+    "split": "development",
+    "group": "7575",
+    "channel": "u",
+    "reference": "32-noise",
+    "distribution": "gaussian",
+    "XPF16": 0.029400389065573875,
+    "baseline": 0.028912614957478485,
+    "gain": -0.0004877741080953901
+  },
+  {
+    "split": "development",
+    "group": "7575",
+    "channel": "v",
+    "reference": "32-noise",
+    "distribution": "gaussian",
+    "XPF16": 0.09974200523605473,
+    "baseline": 0.09982148065280758,
+    "gain": 7.947541675284997e-05
+  },
+  {
+    "split": "test",
+    "group": "13950",
+    "channel": "u",
+    "reference": "32-noise",
+    "distribution": "gaussian",
+    "XPF16": 0.040092076547443865,
+    "baseline": 0.0400861805206851,
+    "gain": -5.896026758767103e-06
+  },
+  {
+    "split": "test",
+    "group": "13950",
+    "channel": "v",
+    "reference": "32-noise",
+    "distribution": "gaussian",
+    "XPF16": 0.1177299010910486,
+    "baseline": 0.11885838994854375,
+    "gain": 0.0011284888574951552
+  },
+  {
+    "split": "test",
+    "group": "22875",
+    "channel": "u",
+    "reference": "32-noise",
+    "distribution": "gaussian",
+    "XPF16": 0.07520235074978125,
+    "baseline": 0.07466715727851056,
+    "gain": -0.0005351934712706924
+  },
+  {
+    "split": "test",
+    "group": "22875",
+    "channel": "v",
+    "reference": "32-noise",
+    "distribution": "gaussian",
+    "XPF16": 0.15381346080909697,
+    "baseline": 0.15400007922659842,
+    "gain": 0.00018661841750144958
+  },
+  {
+    "split": "test",
+    "group": "3750",
+    "channel": "u",
+    "reference": "32-noise",
+    "distribution": "gaussian",
+    "XPF16": 0.025796815691711873,
+    "baseline": 0.026441385332298905,
+    "gain": 0.0006445696405870324
+  },
+  {
+    "split": "test",
+    "group": "3750",
+    "channel": "v",
+    "reference": "32-noise",
+    "distribution": "gaussian",
+    "XPF16": 0.08241652917901152,
+    "baseline": 0.08121223247757084,
+    "gain": -0.001204296701440677
+  },
+  {
+    "split": "development",
+    "group": "26700",
+    "channel": "u",
+    "reference": "32-noise",
+    "distribution": "laplace",
+    "XPF16": 0.11169010355022915,
+    "baseline": 0.10912925795766346,
+    "gain": -0.002560845592565697
+  },
+  {
+    "split": "development",
+    "group": "26700",
+    "channel": "v",
+    "reference": "32-noise",
+    "distribution": "laplace",
+    "XPF16": 0.17349342825381378,
+    "baseline": 0.17201006458255283,
+    "gain": -0.001483363671260951
+  },
+  {
+    "split": "development",
+    "group": "6300",
+    "channel": "u",
+    "reference": "32-noise",
+    "distribution": "laplace",
+    "XPF16": 0.027826080647738356,
+    "baseline": 0.026872942135914377,
+    "gain": -0.0009531385118239782
+  },
+  {
+    "split": "development",
+    "group": "6300",
+    "channel": "v",
+    "reference": "32-noise",
+    "distribution": "laplace",
+    "XPF16": 0.09202362200931499,
+    "baseline": 0.09150012268831856,
+    "gain": -0.0005234993209964345
+  },
+  {
+    "split": "development",
+    "group": "7575",
+    "channel": "u",
+    "reference": "32-noise",
+    "distribution": "laplace",
+    "XPF16": 0.029673470135189985,
+    "baseline": 0.02904407472937907,
+    "gain": -0.000629395405810914
+  },
+  {
+    "split": "development",
+    "group": "7575",
+    "channel": "v",
+    "reference": "32-noise",
+    "distribution": "laplace",
+    "XPF16": 0.10035122212904848,
+    "baseline": 0.10004799558143866,
+    "gain": -0.00030322654760982226
+  },
+  {
+    "split": "test",
+    "group": "13950",
+    "channel": "u",
+    "reference": "32-noise",
+    "distribution": "laplace",
+    "XPF16": 0.04045977651288635,
+    "baseline": 0.04019582950951237,
+    "gain": -0.0002639470033739752
+  },
+  {
+    "split": "test",
+    "group": "13950",
+    "channel": "v",
+    "reference": "32-noise",
+    "distribution": "laplace",
+    "XPF16": 0.11846680729404876,
+    "baseline": 0.1190849627711271,
+    "gain": 0.0006181554770783304
+  },
+  {
+    "split": "test",
+    "group": "22875",
+    "channel": "u",
+    "reference": "32-noise",
+    "distribution": "laplace",
+    "XPF16": 0.0760120691960318,
+    "baseline": 0.0747737211028212,
+    "gain": -0.0012383480932106061
+  },
+  {
+    "split": "test",
+    "group": "22875",
+    "channel": "v",
+    "reference": "32-noise",
+    "distribution": "laplace",
+    "XPF16": 0.15461810730528414,
+    "baseline": 0.1541699548170232,
+    "gain": -0.0004481524882609389
+  },
+  {
+    "split": "test",
+    "group": "3750",
+    "channel": "u",
+    "reference": "32-noise",
+    "distribution": "laplace",
+    "XPF16": 0.02625706486747061,
+    "baseline": 0.026903586805258926,
+    "gain": 0.0006465219377883163
+  },
+  {
+    "split": "test",
+    "group": "3750",
+    "channel": "v",
+    "reference": "32-noise",
+    "distribution": "laplace",
+    "XPF16": 0.08344215642366755,
+    "baseline": 0.08218115455421962,
+    "gain": -0.001261001869447928
+  }
+]
