@@ -1,3 +1,9 @@
+## XPF129 与在线校准的扩散样本
+
+[完整 129 个分位表及实验口径](results/reliability/quantiles129_calibrated/README.md)：两侧尾部按 0.25% 划分、中央按 1% 划分；20 帧联合预测，获得真实 20 帧后才更新。8/32-noise 使用在线校准后的真实随机路径计算 Ensemble CRPS，并分别报告经验区间与原高斯代理区间的覆盖。测试轨迹此前已用于开发，结果为探索性。
+
+---
+
 ## 测试集逐窗口数据与快照
 
 [下载精简数据包](results/reliability/compact_test_distribution/README.md)：完整测试集逐窗口 8/32-noise CRPS 和 19 分位评分，附 3 个不同 Re 工况的对齐物理场快照。ZIP 约 44.6 MiB，包含样本索引与校验信息；快照不支持重算完整测试集的逐点指标。

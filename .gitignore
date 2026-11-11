@@ -31,3 +31,6 @@ tmp/
 
 !reliability/checkpoints/quantiles19.pt
 !results/reliability/native_ensemble_crps/snapshot.npz
+!reliability/checkpoints/quantiles129.pt
+!reliability/checkpoints/calibrated_ensembles.pt
+!results/reliability/quantiles129_calibrated/snapshot64.npz

@@ -1,0 +1,20 @@
+{
+  "8-noise": {
+    "sample_transform_max_error": 1.6671427993664167e-07,
+    "crps_pairwise_max_error": {
+      "empirical": 0.0,
+      "fair": 0.0
+    }
+  },
+  "32-noise": {
+    "sample_transform_max_error": 1.6802638880264453e-07,
+    "crps_pairwise_max_error": {
+      "empirical": 0.0,
+      "fair": 0.0
+    }
+  },
+  "quantiles129_raw_min_gap": 0.00011778809130191803,
+  "quantiles129_online_min_gap": 0.00013095978647470474,
+  "issue_reveal_pairs": 84,
+  "passed": true
+}

@@ -1,0 +1,258 @@
+[
+  {
+    "split": "development",
+    "period": "historic_warm",
+    "mode": "raw",
+    "method": "XPF",
+    "approx_crps": 0.08681143708200308,
+    "mean_abs_calibration_error_pp": 0.7391686859988778
+  },
+  {
+    "split": "development",
+    "period": "historic_warm",
+    "mode": "online",
+    "method": "XPF",
+    "approx_crps": 0.08679927682234466,
+    "mean_abs_calibration_error_pp": 0.7519597712614503
+  },
+  {
+    "split": "development",
+    "period": "historic_warm",
+    "method": "8-noise",
+    "mode": "raw",
+    "empirical_crps": 0.09940826237291554,
+    "fair_crps": 0.09338537449907641,
+    "empirical_interval_coverage": 0.591718325604908,
+    "proxy_interval_coverage": null,
+    "proxy_interval_width": null,
+    "proxy_interval_score": null
+  },
+  {
+    "split": "development",
+    "period": "historic_warm",
+    "method": "8-noise",
+    "mode": "online",
+    "empirical_crps": 0.09841830311928555,
+    "fair_crps": 0.08683965044798687,
+    "empirical_interval_coverage": 0.7758031352221617,
+    "proxy_interval_coverage": 0.899825543304633,
+    "proxy_interval_width": 0.5215713281625588,
+    "proxy_interval_score": 0.7276097143559079
+  },
+  {
+    "split": "development",
+    "period": "historic_warm",
+    "method": "32-noise",
+    "mode": "raw",
+    "empirical_crps": 0.09518259422967962,
+    "fair_crps": 0.09368098623007647,
+    "empirical_interval_coverage": 0.6976098671250525,
+    "proxy_interval_coverage": null,
+    "proxy_interval_width": null,
+    "proxy_interval_score": null
+  },
+  {
+    "split": "development",
+    "period": "historic_warm",
+    "method": "32-noise",
+    "mode": "online",
+    "empirical_crps": 0.090003690827224,
+    "fair_crps": 0.08723285691227155,
+    "empirical_interval_coverage": 0.8665051401445739,
+    "proxy_interval_coverage": 0.899915111544188,
+    "proxy_interval_width": 0.5133736689803762,
+    "proxy_interval_score": 0.7087290360510612
+  },
+  {
+    "split": "development",
+    "period": "full_warm",
+    "mode": "raw",
+    "method": "XPF",
+    "approx_crps": 0.0867980103008449,
+    "mean_abs_calibration_error_pp": 0.7273253800390846
+  },
+  {
+    "split": "development",
+    "period": "full_warm",
+    "mode": "online",
+    "method": "XPF",
+    "approx_crps": 0.08677696996724339,
+    "mean_abs_calibration_error_pp": 0.7400467114074892
+  },
+  {
+    "split": "development",
+    "period": "full_warm",
+    "method": "8-noise",
+    "mode": "raw",
+    "empirical_crps": 0.09939864870844799,
+    "fair_crps": 0.0933721805420429,
+    "empirical_interval_coverage": 0.5914495497881397,
+    "proxy_interval_coverage": null,
+    "proxy_interval_width": null,
+    "proxy_interval_score": null
+  },
+  {
+    "split": "development",
+    "period": "full_warm",
+    "method": "8-noise",
+    "mode": "online",
+    "empirical_crps": 0.09839454000300872,
+    "fair_crps": 0.08682389382341105,
+    "empirical_interval_coverage": 0.7757356830930645,
+    "proxy_interval_coverage": 0.9000319016335133,
+    "proxy_interval_width": 0.5212065650922496,
+    "proxy_interval_score": 0.7260882356514534
+  },
+  {
+    "split": "development",
+    "period": "full_warm",
+    "method": "32-noise",
+    "mode": "raw",
+    "empirical_crps": 0.09516028698134994,
+    "fair_crps": 0.09365771917076049,
+    "empirical_interval_coverage": 0.6973852897724161,
+    "proxy_interval_coverage": null,
+    "proxy_interval_width": null,
+    "proxy_interval_score": null
+  },
+  {
+    "split": "development",
+    "period": "full_warm",
+    "method": "32-noise",
+    "mode": "online",
+    "empirical_crps": 0.08997611275805933,
+    "fair_crps": 0.08720490324416963,
+    "empirical_interval_coverage": 0.8666834668374968,
+    "proxy_interval_coverage": 0.9001277796298185,
+    "proxy_interval_width": 0.513440074266356,
+    "proxy_interval_score": 0.7076694197427774
+  },
+  {
+    "split": "test",
+    "period": "historic_warm",
+    "mode": "raw",
+    "method": "XPF",
+    "approx_crps": 0.08160305103513125,
+    "mean_abs_calibration_error_pp": 1.0458493447886013
+  },
+  {
+    "split": "test",
+    "period": "historic_warm",
+    "mode": "online",
+    "method": "XPF",
+    "approx_crps": 0.08137337890690552,
+    "mean_abs_calibration_error_pp": 0.8779792854518027
+  },
+  {
+    "split": "test",
+    "period": "historic_warm",
+    "method": "8-noise",
+    "mode": "raw",
+    "empirical_crps": 0.09379740487539062,
+    "fair_crps": 0.08758783157947554,
+    "empirical_interval_coverage": 0.6058302558392112,
+    "proxy_interval_coverage": null,
+    "proxy_interval_width": null,
+    "proxy_interval_score": null
+  },
+  {
+    "split": "test",
+    "period": "historic_warm",
+    "method": "8-noise",
+    "mode": "online",
+    "empirical_crps": 0.09269233062531124,
+    "fair_crps": 0.08190243129485031,
+    "empirical_interval_coverage": 0.7696006026140778,
+    "proxy_interval_coverage": 0.8997895633747354,
+    "proxy_interval_width": 0.48610740817200987,
+    "proxy_interval_score": 0.6770559078648861
+  },
+  {
+    "split": "test",
+    "period": "historic_warm",
+    "method": "32-noise",
+    "mode": "raw",
+    "empirical_crps": 0.08912720896415303,
+    "fair_crps": 0.08757250272554525,
+    "empirical_interval_coverage": 0.7126684053076638,
+    "proxy_interval_coverage": null,
+    "proxy_interval_width": null,
+    "proxy_interval_score": null
+  },
+  {
+    "split": "test",
+    "period": "historic_warm",
+    "method": "32-noise",
+    "mode": "online",
+    "empirical_crps": 0.0845361675335944,
+    "fair_crps": 0.0819475471321221,
+    "empirical_interval_coverage": 0.8642039495427706,
+    "proxy_interval_coverage": 0.8998490982019066,
+    "proxy_interval_width": 0.4795770089338092,
+    "proxy_interval_score": 0.6596194465421358
+  },
+  {
+    "split": "test",
+    "period": "full_warm",
+    "mode": "raw",
+    "method": "XPF",
+    "approx_crps": 0.08168593577025988,
+    "mean_abs_calibration_error_pp": 1.0271808236351148
+  },
+  {
+    "split": "test",
+    "period": "full_warm",
+    "mode": "online",
+    "method": "XPF",
+    "approx_crps": 0.08144929642602296,
+    "mean_abs_calibration_error_pp": 0.8562493761229972
+  },
+  {
+    "split": "test",
+    "period": "full_warm",
+    "method": "8-noise",
+    "mode": "raw",
+    "empirical_crps": 0.09386895790653238,
+    "fair_crps": 0.0876579410795294,
+    "empirical_interval_coverage": 0.6056896214158878,
+    "proxy_interval_coverage": null,
+    "proxy_interval_width": null,
+    "proxy_interval_score": null
+  },
+  {
+    "split": "test",
+    "period": "full_warm",
+    "method": "8-noise",
+    "mode": "online",
+    "empirical_crps": 0.09273654889582901,
+    "fair_crps": 0.08195943762459931,
+    "empirical_interval_coverage": 0.7691779956060051,
+    "proxy_interval_coverage": 0.8996569210759348,
+    "proxy_interval_width": 0.4855339478711449,
+    "proxy_interval_score": 0.6765897520340797
+  },
+  {
+    "split": "test",
+    "period": "full_warm",
+    "method": "32-noise",
+    "mode": "raw",
+    "empirical_crps": 0.08919282979723116,
+    "fair_crps": 0.08763780952103152,
+    "empirical_interval_coverage": 0.7125292435692255,
+    "proxy_interval_coverage": null,
+    "proxy_interval_width": null,
+    "proxy_interval_score": null
+  },
+  {
+    "split": "test",
+    "period": "full_warm",
+    "method": "32-noise",
+    "mode": "online",
+    "empirical_crps": 0.08458304599073885,
+    "fair_crps": 0.08199605252732571,
+    "empirical_interval_coverage": 0.8639761599906416,
+    "proxy_interval_coverage": 0.8996972779473316,
+    "proxy_interval_width": 0.4792776852058686,
+    "proxy_interval_score": 0.6594372672551289
+  }
+]
