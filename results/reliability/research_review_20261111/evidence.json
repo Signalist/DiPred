@@ -1,0 +1,559 @@
+{
+  "date": "2026-11-11",
+  "scope": "Research review of completed experiments; no new training or validation of proposed methods.",
+  "current_test_macro": [
+    {
+      "method": "XPF16",
+      "mse": 0.00012879280353449865,
+      "coverage": 0.8993231644712344,
+      "standardized_width": 0.47714653005605634,
+      "standardized_interval_score": 0.6266796001412889,
+      "lower_miss": 0.05219443423376685,
+      "upper_miss": 0.048482415152779006,
+      "worst_frame_coverage": 0.8715816386261879,
+      "worst_patch_coverage": 0.7546403961179897,
+      "window90": 0.506578947368421,
+      "window95": 0.01929824561403509,
+      "whole_block_joint_covered": 0.0,
+      "top10_energy": 0.5330284928282102,
+      "top10_peak_recall": 0.5134337665044773,
+      "per_frame_top10_energy": 0.46572158954689025,
+      "relative_aurc": 0.26756191063585166,
+      "lead_risk_error_correlation": 0.9203217933749595,
+      "retained_risk10": 0.04258599778840166,
+      "retained_risk25": 0.0755472784256018,
+      "retained_risk50": 0.13211239866302377,
+      "retained_risk75": 0.25789681159025224,
+      "retained_risk100": 1.0,
+      "gaussian_crps": 0.08250852234468234,
+      "raw_gaussian_crps": 0.003689450978462132,
+      "laplace_crps": 0.08320933026656487,
+      "raw_laplace_crps": 0.0037278548705855204,
+      "worst_group_coverage": 0.8989681980588979
+    },
+    {
+      "method": "8-noise",
+      "mse": 0.00012879280353449865,
+      "coverage": 0.8997895633747355,
+      "standardized_width": 0.4861074081720098,
+      "standardized_interval_score": 0.6770559078648859,
+      "lower_miss": 0.05638812418403485,
+      "upper_miss": 0.043822325722345734,
+      "worst_frame_coverage": 0.8747352287783261,
+      "worst_patch_coverage": 0.761439385740032,
+      "window90": 0.5030701754385964,
+      "window95": 0.0008771929824561404,
+      "whole_block_joint_covered": 0.0,
+      "top10_energy": 0.49315620794761594,
+      "top10_peak_recall": 0.4860033001816063,
+      "per_frame_top10_energy": 0.42243263097098693,
+      "relative_aurc": 0.28219303084286856,
+      "lead_risk_error_correlation": 0.9069985229674488,
+      "retained_risk10": 0.052322217675840915,
+      "retained_risk25": 0.08547780195643243,
+      "retained_risk50": 0.14607035105296393,
+      "retained_risk75": 0.2857456032219425,
+      "retained_risk100": 1.0,
+      "gaussian_crps": 0.08305352373369997,
+      "raw_gaussian_crps": 0.0037116114638055804,
+      "laplace_crps": 0.0832252585173895,
+      "raw_laplace_crps": 0.0037214628225340496,
+      "worst_group_coverage": 0.8981089656682391
+    },
+    {
+      "method": "32-noise",
+      "mse": 0.00012879280353449865,
+      "coverage": 0.8998490982019064,
+      "standardized_width": 0.4795770089338093,
+      "standardized_interval_score": 0.6596194465421358,
+      "lower_miss": 0.056500528827010066,
+      "upper_miss": 0.04365038671871179,
+      "worst_frame_coverage": 0.8736689338907163,
+      "worst_patch_coverage": 0.7566120822222261,
+      "window90": 0.5092105263157894,
+      "window95": 0.004678362573099415,
+      "whole_block_joint_covered": 0.0,
+      "top10_energy": 0.5086359321853222,
+      "top10_peak_recall": 0.4970085277891996,
+      "per_frame_top10_energy": 0.4383729653149756,
+      "relative_aurc": 0.27574575316509486,
+      "lead_risk_error_correlation": 0.9056358271349243,
+      "retained_risk10": 0.04563402890854744,
+      "retained_risk25": 0.0791721513129945,
+      "retained_risk50": 0.140008590083395,
+      "retained_risk75": 0.2756481430967126,
+      "retained_risk100": 1.0,
+      "gaussian_crps": 0.0825442374640346,
+      "raw_gaussian_crps": 0.0036917302056158853,
+      "laplace_crps": 0.08288486825999374,
+      "raw_laplace_crps": 0.0037085050789755765,
+      "worst_group_coverage": 0.897977980539987
+    }
+  ],
+  "XPF16_vs_noise32_relative_change_percent": {
+    "standardized_interval_score": -4.9937652040922265,
+    "standardized_width": -0.5067963710679857,
+    "relative_aurc": -2.967894313985453,
+    "gaussian_crps": -0.04326785303191416,
+    "laplace_crps": 0.3914610873885449
+  },
+  "original96_comparisons": [
+    {
+      "candidate": "XPF16",
+      "variant": "memory_dynamic",
+      "reference": "8-noise",
+      "baseline_variant": "memory_dynamic",
+      "wins": 66,
+      "ties": 0,
+      "regressions": 30
+    },
+    {
+      "candidate": "XPF16",
+      "variant": "memory_dynamic",
+      "reference": "32-noise",
+      "baseline_variant": "memory_dynamic",
+      "wins": 70,
+      "ties": 0,
+      "regressions": 26
+    }
+  ],
+  "denoising_stage_test_macro": [
+    {
+      "method": "F0",
+      "standardized_interval_score": 0.6266796001412889,
+      "standardized_width": 0.47714653005605634,
+      "coverage": 0.8993231644712344,
+      "relative_aurc": 0.26756191063585166,
+      "worst_patch_coverage": 0.7546403961179897
+    },
+    {
+      "method": "F99",
+      "standardized_interval_score": 0.6309842996876578,
+      "standardized_width": 0.4801443614408766,
+      "coverage": 0.899374881935747,
+      "relative_aurc": 0.2676493007471861,
+      "worst_patch_coverage": 0.7530946870993451
+    },
+    {
+      "method": "F66",
+      "standardized_interval_score": 0.6291801245131514,
+      "standardized_width": 0.4777970155793628,
+      "coverage": 0.8992866355163313,
+      "relative_aurc": 0.2695684975013137,
+      "worst_patch_coverage": 0.7550499820656944
+    },
+    {
+      "method": "F33",
+      "standardized_interval_score": 0.6275838145517815,
+      "standardized_width": 0.4774598710255272,
+      "coverage": 0.8992642831819796,
+      "relative_aurc": 0.2683209764754825,
+      "worst_patch_coverage": 0.7552414112795166
+    },
+    {
+      "method": "mean4",
+      "standardized_interval_score": 0.6280774398832119,
+      "standardized_width": 0.47761743480709995,
+      "coverage": 0.8992946292355395,
+      "relative_aurc": 0.26825980552259765,
+      "worst_patch_coverage": 0.755051981631601
+    },
+    {
+      "method": "late_change",
+      "standardized_interval_score": 0.6336482064057773,
+      "standardized_width": 0.4799271163890106,
+      "coverage": 0.8993236569502548,
+      "relative_aurc": 0.27052327898706785,
+      "worst_patch_coverage": 0.7561058691283415
+    },
+    {
+      "method": "F0_F99",
+      "standardized_interval_score": 0.6281588235750185,
+      "standardized_width": 0.47777083928299224,
+      "coverage": 0.8992930401966237,
+      "relative_aurc": 0.2674544619897391,
+      "worst_patch_coverage": 0.7556209001189087
+    },
+    {
+      "method": "F0_F66",
+      "standardized_interval_score": 0.6274595094637738,
+      "standardized_width": 0.4767500608495018,
+      "coverage": 0.8992844903765367,
+      "relative_aurc": 0.2688943922312723,
+      "worst_patch_coverage": 0.7555194735047761
+    },
+    {
+      "method": "F0_F33",
+      "standardized_interval_score": 0.6270170487724899,
+      "standardized_width": 0.47704552655211757,
+      "coverage": 0.8993007893407206,
+      "relative_aurc": 0.2680677094687408,
+      "worst_patch_coverage": 0.7550951549881383
+    },
+    {
+      "method": "noise32",
+      "standardized_interval_score": 0.6596194465421358,
+      "standardized_width": 0.4795770089338093,
+      "coverage": 0.8998490982019064,
+      "relative_aurc": 0.27574575316509486,
+      "worst_patch_coverage": 0.7566120822222261
+    }
+  ],
+  "CRPS_diagnostic_findings": {
+    "gaussian_XPF16_vs_noise32_change_percent": -0.04326785303191416,
+    "laplace_XPF16_vs_noise32_change_percent": 0.3914610873885449,
+    "rankings_reverse_between_completion_families": true,
+    "late_change_vs_F0_gaussian_percent": -0.05292164769632457,
+    "late_change_vs_F0_laplace_percent": -0.18378984190072778
+  },
+  "CRPS_completion_macro": [
+    {
+      "split": "development",
+      "method": "F0",
+      "distribution": "gaussian",
+      "crps": 0.08848075947182373,
+      "raw_crps": 0.004213112087864824
+    },
+    {
+      "split": "development",
+      "method": "F0",
+      "distribution": "laplace",
+      "crps": 0.08917632112088912,
+      "raw_crps": 0.0042562028132321185
+    },
+    {
+      "split": "development",
+      "method": "F99",
+      "distribution": "gaussian",
+      "crps": 0.08851112937241554,
+      "raw_crps": 0.004210703577964576
+    },
+    {
+      "split": "development",
+      "method": "F99",
+      "distribution": "laplace",
+      "crps": 0.08916125109797747,
+      "raw_crps": 0.004250761370595997
+    },
+    {
+      "split": "development",
+      "method": "F66",
+      "distribution": "gaussian",
+      "crps": 0.08851098014009104,
+      "raw_crps": 0.0042149465854699406
+    },
+    {
+      "split": "development",
+      "method": "F66",
+      "distribution": "laplace",
+      "crps": 0.08921317679723126,
+      "raw_crps": 0.004257819125675072
+    },
+    {
+      "split": "development",
+      "method": "F33",
+      "distribution": "gaussian",
+      "crps": 0.08849904328483914,
+      "raw_crps": 0.00421498855347854
+    },
+    {
+      "split": "development",
+      "method": "F33",
+      "distribution": "laplace",
+      "crps": 0.08920077729101528,
+      "raw_crps": 0.004258069690665481
+    },
+    {
+      "split": "development",
+      "method": "mean4",
+      "distribution": "gaussian",
+      "crps": 0.08851491313996829,
+      "raw_crps": 0.00421430532202194
+    },
+    {
+      "split": "development",
+      "method": "mean4",
+      "distribution": "laplace",
+      "crps": 0.0892122967197282,
+      "raw_crps": 0.004256932659306814
+    },
+    {
+      "split": "development",
+      "method": "late_change",
+      "distribution": "gaussian",
+      "crps": 0.08834898198072455,
+      "raw_crps": 0.004199832293338738
+    },
+    {
+      "split": "development",
+      "method": "late_change",
+      "distribution": "laplace",
+      "crps": 0.08894286787134666,
+      "raw_crps": 0.004238510259565161
+    },
+    {
+      "split": "development",
+      "method": "F0_F99",
+      "distribution": "gaussian",
+      "crps": 0.08851670126161097,
+      "raw_crps": 0.004213813952240434
+    },
+    {
+      "split": "development",
+      "method": "F0_F99",
+      "distribution": "laplace",
+      "crps": 0.0891981443642143,
+      "raw_crps": 0.004255943323305314
+    },
+    {
+      "split": "development",
+      "method": "F0_F66",
+      "distribution": "gaussian",
+      "crps": 0.0884482299888572,
+      "raw_crps": 0.004212228795550103
+    },
+    {
+      "split": "development",
+      "method": "F0_F66",
+      "distribution": "laplace",
+      "crps": 0.08914570181197569,
+      "raw_crps": 0.004255090232052478
+    },
+    {
+      "split": "development",
+      "method": "F0_F33",
+      "distribution": "gaussian",
+      "crps": 0.08846060003913743,
+      "raw_crps": 0.004213178541372756
+    },
+    {
+      "split": "development",
+      "method": "F0_F33",
+      "distribution": "laplace",
+      "crps": 0.08915644175950328,
+      "raw_crps": 0.00425616418478169
+    },
+    {
+      "split": "development",
+      "method": "noise32",
+      "distribution": "gaussian",
+      "crps": 0.08784417471908337,
+      "raw_crps": 0.0041559145458747926
+    },
+    {
+      "split": "development",
+      "method": "noise32",
+      "distribution": "laplace",
+      "crps": 0.08810074294587783,
+      "raw_crps": 0.00417104082461855
+    },
+    {
+      "split": "test",
+      "method": "F0",
+      "distribution": "gaussian",
+      "crps": 0.08250852234468234,
+      "raw_crps": 0.0036894509784621324
+    },
+    {
+      "split": "test",
+      "method": "F0",
+      "distribution": "laplace",
+      "crps": 0.08320933026656487,
+      "raw_crps": 0.0037278548705855204
+    },
+    {
+      "split": "test",
+      "method": "F99",
+      "distribution": "gaussian",
+      "crps": 0.08266759373884844,
+      "raw_crps": 0.00370483348782706
+    },
+    {
+      "split": "test",
+      "method": "F99",
+      "distribution": "laplace",
+      "crps": 0.08331915448468767,
+      "raw_crps": 0.0037419143757916992
+    },
+    {
+      "split": "test",
+      "method": "F66",
+      "distribution": "gaussian",
+      "crps": 0.08267992936314372,
+      "raw_crps": 0.0036975713800364894
+    },
+    {
+      "split": "test",
+      "method": "F66",
+      "distribution": "laplace",
+      "crps": 0.08337880566264148,
+      "raw_crps": 0.003735563774824303
+    },
+    {
+      "split": "test",
+      "method": "F33",
+      "distribution": "gaussian",
+      "crps": 0.08262034405978691,
+      "raw_crps": 0.003694430756902939
+    },
+    {
+      "split": "test",
+      "method": "F33",
+      "distribution": "laplace",
+      "crps": 0.0833263787661532,
+      "raw_crps": 0.0037327821727138155
+    },
+    {
+      "split": "test",
+      "method": "mean4",
+      "distribution": "gaussian",
+      "crps": 0.08263417686354804,
+      "raw_crps": 0.0036935466717343507
+    },
+    {
+      "split": "test",
+      "method": "mean4",
+      "distribution": "laplace",
+      "crps": 0.08333798167241291,
+      "raw_crps": 0.0037317864034595158
+    },
+    {
+      "split": "test",
+      "method": "late_change",
+      "distribution": "gaussian",
+      "crps": 0.08246485747516764,
+      "raw_crps": 0.0036751066242979176
+    },
+    {
+      "split": "test",
+      "method": "late_change",
+      "distribution": "laplace",
+      "crps": 0.08305639997002129,
+      "raw_crps": 0.0037087530731233736
+    },
+    {
+      "split": "test",
+      "method": "F0_F99",
+      "distribution": "gaussian",
+      "crps": 0.0826242577432987,
+      "raw_crps": 0.0036967895207788773
+    },
+    {
+      "split": "test",
+      "method": "F0_F99",
+      "distribution": "laplace",
+      "crps": 0.0833231929930646,
+      "raw_crps": 0.003735132867884645
+    },
+    {
+      "split": "test",
+      "method": "F0_F66",
+      "distribution": "gaussian",
+      "crps": 0.08251011728919085,
+      "raw_crps": 0.003689297834233917
+    },
+    {
+      "split": "test",
+      "method": "F0_F66",
+      "distribution": "laplace",
+      "crps": 0.0832101694498843,
+      "raw_crps": 0.0037272719326646923
+    },
+    {
+      "split": "test",
+      "method": "F0_F33",
+      "distribution": "gaussian",
+      "crps": 0.08251702923992137,
+      "raw_crps": 0.0036903204623581188
+    },
+    {
+      "split": "test",
+      "method": "F0_F33",
+      "distribution": "laplace",
+      "crps": 0.08321751702497904,
+      "raw_crps": 0.0037285210356920993
+    },
+    {
+      "split": "test",
+      "method": "noise32",
+      "distribution": "gaussian",
+      "crps": 0.0825442374640346,
+      "raw_crps": 0.0036917302056158857
+    },
+    {
+      "split": "test",
+      "method": "noise32",
+      "distribution": "laplace",
+      "crps": 0.08288486825999374,
+      "raw_crps": 0.003708505078975577
+    }
+  ],
+  "CRPS_native_macro": [
+    {
+      "split": "development",
+      "method": "empirical",
+      "crps": 0.09518259422967962,
+      "raw_crps": 0.004569171833090398
+    },
+    {
+      "split": "development",
+      "method": "fair",
+      "crps": 0.09368098623007645,
+      "raw_crps": 0.0045014735413856505
+    },
+    {
+      "split": "development",
+      "method": "gaussian_moments",
+      "crps": 0.09453902369520317,
+      "raw_crps": 0.00453994770917537
+    },
+    {
+      "split": "development",
+      "method": "point_mass",
+      "crps": 0.1213865112731157,
+      "raw_crps": 0.005762203212055427
+    },
+    {
+      "split": "test",
+      "method": "empirical",
+      "crps": 0.08912720896415303,
+      "raw_crps": 0.003995301622013379
+    },
+    {
+      "split": "test",
+      "method": "fair",
+      "crps": 0.08757250272554525,
+      "raw_crps": 0.003926967840184075
+    },
+    {
+      "split": "test",
+      "method": "gaussian_moments",
+      "crps": 0.08850532386939407,
+      "raw_crps": 0.003966917939528711
+    },
+    {
+      "split": "test",
+      "method": "point_mass",
+      "crps": 0.11442067634997814,
+      "raw_crps": 0.005126470011694368
+    }
+  ],
+  "limitations": [
+    "Repeated historical development/test: exploratory, no fresh independent confirmation.",
+    "Two-quantile head does not identify a full CDF. Gaussian/Laplace completions are assumptions.",
+    "Pointwise CRPS and marginal coverage do not validate joint spatiotemporal dependence.",
+    "Single training seed and finite correlated trajectories;96 cells are not independent replications."
+  ],
+  "proposed_methods_status": "Monotone full quantile head, CRPS training and multi-level online calibration are proposals only.",
+  "workspace_source_sha256": {
+    "runs/xpf16_noise8_noise32_20261111/test_macro.json": "398e9b073a1498e513fb5c8a84cb430e6f654d81b7e738db8c6925eb8beafca9",
+    "runs/xpf16_split_stages_20261110/all_stage_test_macro.json": "01139eecd140014c52a3fe15a5b5a8e223daebaebd14739fd901f75f616cdd81",
+    "runs/xpf16_noise8_noise32_20261111/regression_counts.json": "6db1d6271f34cb3c5181ae5e4866774c2c3b6ebf62a362c6b6979d13ce6fc2f3",
+    "runs/xpf16_crps_20261111/findings.json": "9cf8f5f01124b6fe1b74009c65e6bfb21b8aecf9476b522fdbb4d6b257308234",
+    "runs/xpf16_crps_20261111/completion_macro.json": "968d3e167597f6a36ed8511499f9b4ab1a68a39d02a2619ffa511a86b2bd5fe5",
+    "runs/xpf16_crps_20261111/native_macro.json": "f54422ffda751848b712d572e2c895eabc7a6f36928b45c4c7e55fee8b2947d7",
+    "研究结果_XPF16_CRPS诊断_20261111.md": "9855eb39f922e11363999f088cb76d670c933ffbba6413f7283a28b1940d6ecd",
+    "研究结果_XPF16去噪阶段隐表示对照_20261110.md": "dee53b68053f211dd13f4f8c2fd245705ed7445189258eaeaa15dce0f96baf9c",
+    "研究结果_XPF16去噪阶段互补表示_20261110.md": "931ae4142bb56a5cbe8a36dc5bd2b22d7a47711961570760f5218a654dfce698"
+  }
+}
