@@ -1,0 +1,87 @@
+{
+  "archive": "DiPred_测试集逐窗口CRPS与样本快照_20261111.zip",
+  "archive_bytes": 46748151,
+  "archive_sha256": "50d81b13fc2f975b805ffc1fed0ebf0e0c005bedc178e0bb93a4326027089c01",
+  "parts": [
+    {
+      "file": "part_000",
+      "bytes": 3000000,
+      "sha256": "19ced3b4e1e028a952fcbfa68d82532904fb891737f431bea98cce2d8eb36797"
+    },
+    {
+      "file": "part_001",
+      "bytes": 3000000,
+      "sha256": "9e52dd34c4a50c3ed5440d15edc7d374cef870ad5acbb61d821497ef76575b68"
+    },
+    {
+      "file": "part_002",
+      "bytes": 3000000,
+      "sha256": "cb1e2bb49049d5190e74db1007f69db2f8866f5cd22065d09d748e787bf0917f"
+    },
+    {
+      "file": "part_003",
+      "bytes": 3000000,
+      "sha256": "043f6793bd8bbdb16be15def1c2f9f091de17addc7d15772894e087d207ab38a"
+    },
+    {
+      "file": "part_004",
+      "bytes": 3000000,
+      "sha256": "9aa1dde1887e3425bb21995579f21a4582e20c10a12fc92d1f1945da409aa69f"
+    },
+    {
+      "file": "part_005",
+      "bytes": 3000000,
+      "sha256": "d046010ccdf8cc7a688e423d9502a7b2e83ec1554254cfc81a4b07eb919637c0"
+    },
+    {
+      "file": "part_006",
+      "bytes": 3000000,
+      "sha256": "d30cfb471771bf3d5ff8de6962e0c02b9f574d1bd801340ca77c7a0d6c8ec502"
+    },
+    {
+      "file": "part_007",
+      "bytes": 3000000,
+      "sha256": "6b03afba95a8f3072ba511793550066d6546704db5d911bb2b2eac5b86fc002a"
+    },
+    {
+      "file": "part_008",
+      "bytes": 3000000,
+      "sha256": "ed34990151d4f54fde89f64c085f0400f0174fbb9ef0e367e9f6a64c71fad0c5"
+    },
+    {
+      "file": "part_009",
+      "bytes": 3000000,
+      "sha256": "c62241f75209042da8c9537d81d624ae63cd7ef2621dfe2c48e778c358575682"
+    },
+    {
+      "file": "part_010",
+      "bytes": 3000000,
+      "sha256": "1508961fe369e7561b72d52d8ded657021d79dfc1d27928962461320bef3d8a3"
+    },
+    {
+      "file": "part_011",
+      "bytes": 3000000,
+      "sha256": "19f1c1c658dea564a8dffa8f6c766adc88a5ecec07a4f232e127dce7dd62367e"
+    },
+    {
+      "file": "part_012",
+      "bytes": 3000000,
+      "sha256": "ae84efa6c05f79fc3598f9137df024bceee762ed1f89ced3b60e0da7d8d7a792"
+    },
+    {
+      "file": "part_013",
+      "bytes": 3000000,
+      "sha256": "74bac8b44aa70ab62032c2f3092467a3bd0bdc6095b7725b2b542f2038ed2c87"
+    },
+    {
+      "file": "part_014",
+      "bytes": 3000000,
+      "sha256": "1df4ab1df12d7f6a73fc4a358029b63120c4be38f2cf34935e32146a61a47945"
+    },
+    {
+      "file": "part_015",
+      "bytes": 1748151,
+      "sha256": "d1daf484ff4b4aa7f361e3d1d676126c758e0d98264816be2b3c69abff730df8"
+    }
+  ]
+}

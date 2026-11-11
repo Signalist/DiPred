@@ -1,0 +1,112 @@
+{
+  "test_samples": 504,
+  "test_trajectories": 12,
+  "windows_per_trajectory": 42,
+  "index_order": "window-major: history_start ascending, then manifest trajectory order",
+  "prior_starts": "0..760 step20",
+  "extra_full_starts": [
+    780,
+    800,
+    820
+  ],
+  "incomplete_tail": "frames860..867",
+  "snapshot_count": 3,
+  "snapshot_selection": "three Re groups, history starts0,100,200 (deterministic representative choices)",
+  "snapshot_arrays": "float32 original data scale, channels u/v, no inverse transform required",
+  "snapshot_shapes": {
+    "Y": [
+      3,
+      2,
+      20,
+      32,
+      64
+    ],
+    "diffusion_samples32": [
+      3,
+      32,
+      2,
+      20,
+      32,
+      64
+    ],
+    "xpf_quantiles19": [
+      3,
+      2,
+      19,
+      20,
+      32,
+      64
+    ]
+  },
+  "ensemble_seeds": [
+    500000,
+    500001,
+    500002,
+    500003,
+    500004,
+    500005,
+    500006,
+    500007,
+    500008,
+    500009,
+    500010,
+    500011,
+    500012,
+    500013,
+    500014,
+    500015,
+    500016,
+    500017,
+    500018,
+    500019,
+    500020,
+    500021,
+    500022,
+    500023,
+    500024,
+    500025,
+    500026,
+    500027,
+    500028,
+    500029,
+    500030,
+    500031
+  ],
+  "quantile_levels": [
+    0.05,
+    0.1,
+    0.15,
+    0.2,
+    0.25,
+    0.3,
+    0.35,
+    0.4,
+    0.45,
+    0.5,
+    0.55,
+    0.6,
+    0.65,
+    0.7,
+    0.75,
+    0.8,
+    0.85,
+    0.9,
+    0.95
+  ],
+  "normalization_reference": {
+    "mean": [
+      0.1733045130968094,
+      -0.00037393238744698465
+    ],
+    "std": [
+      0.11372903734445572,
+      0.01720684953033924
+    ]
+  },
+  "forecast_protocol": "XPF online memory_dynamic uses only previous complete-window truth; diffusion samples are native and uncalibrated.",
+  "prior_data_sources_sha256": {
+    "runs/native_ensemble8_32_crps_20261111/per_case.json": "716efba63774e159066464f921cfce4a279940e6ff61f3dfe36ae3e7c5484f57",
+    "runs/xpf16_quantiles19_20261111/per_case.json": "d8dc029d6f7d03e7ba649d8924e6c2ad499546bdb65fb25f3db437044d5f4efb"
+  },
+  "limitations": "Snapshots only: cannot recalculate full-test arbitrary metrics, true full-field PIT or full CRPS. Quantiles below05/above95 and interpolation unspecified; all previous test trajectories reused."
+}
