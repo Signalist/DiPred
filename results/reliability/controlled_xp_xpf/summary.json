@@ -1,0 +1,201 @@
+{
+  "passed": true,
+  "arms": [
+    "xp_fixed_cqr",
+    "xp_online",
+    "xpf_fixed_cqr",
+    "xpf_online",
+    "xp_raw",
+    "xpf_raw"
+  ],
+  "observations_per_channel": 20152320,
+  "starts": [
+    20,
+    40,
+    60,
+    80,
+    100,
+    120,
+    140,
+    160,
+    180,
+    200,
+    220,
+    240,
+    260,
+    280,
+    300,
+    320,
+    340,
+    360,
+    380,
+    400,
+    420,
+    440,
+    460,
+    480,
+    500,
+    520,
+    540,
+    560,
+    580,
+    600,
+    620,
+    640,
+    660,
+    680,
+    700,
+    720,
+    740,
+    760,
+    780,
+    800,
+    820
+  ],
+  "calibration_trajectories": 10,
+  "cqr": "fixed separate-per-channel Romano nonconformity quantile, voxel-time pooled; no exchangeability guarantee",
+  "online": "same alpha-dependent two-tail adaptive rule, .5 gain, independent per-model trajectory-channel state",
+  "notes": "no model retraining; same DiPred and same 41 post-cold-start test windows; XP and XPF differ in architecture, initialization and inputs; comparison does not isolate F alone",
+  "cdf": "498 sorted quantiles, linear probability interpolation, endpoint atoms; median interpolated for equal CRPS quadrature",
+  "fixed_projected_interval_fraction": [
+    0.05071774188701699,
+    0.02049640288985357
+  ],
+  "mean_adjacent_crossing": [
+    0.11520206364916592,
+    0.10535981233527021,
+    0.01970236648510142,
+    0.02724964126217656,
+    0.15577905679621348,
+    0.03671367720859807
+  ],
+  "records": [
+    {
+      "file": "13950_0.h5",
+      "group": "13950",
+      "re": 13977.0,
+      "aoa": 0.0,
+      "frames": 868,
+      "sha256_first200": "be01275cfd8ba460186942562df33fc35c10eb918d3c0e3ae1cc095693b9b5de"
+    },
+    {
+      "file": "13950_10.h5",
+      "group": "13950",
+      "re": 13977.0,
+      "aoa": 10.0,
+      "frames": 868,
+      "sha256_first200": "419f003cf0230b6f4abd7b2de5bbbf0c5f97178088487804f1ad1730941206f3"
+    },
+    {
+      "file": "13950_15.h5",
+      "group": "13950",
+      "re": 13977.0,
+      "aoa": 15.0,
+      "frames": 868,
+      "sha256_first200": "203aeb744a92f339d784fa1e28fed2f69b13fb1eb6a93a767df05beb77aaa950"
+    },
+    {
+      "file": "13950_20.h5",
+      "group": "13950",
+      "re": 13977.0,
+      "aoa": 20.0,
+      "frames": 868,
+      "sha256_first200": "51e4b3f884bf243428659d86b228b11e2893b7bddda39ab4980a52b2fbf4caf2"
+    },
+    {
+      "file": "13950_5.h5",
+      "group": "13950",
+      "re": 13977.0,
+      "aoa": 5.0,
+      "frames": 868,
+      "sha256_first200": "f4945ce459a9b6017b0d4d66c31d8d164da3a4ceda16e042c7d178a3a694f60f"
+    },
+    {
+      "file": "22875_0.h5",
+      "group": "22875",
+      "re": 22926.0,
+      "aoa": 0.0,
+      "frames": 868,
+      "sha256_first200": "7cbb15a36e9aae84b5762bd802eafeb0d8d33bf6308bb20ac040415a967d43d9"
+    },
+    {
+      "file": "22875_10.h5",
+      "group": "22875",
+      "re": 22926.0,
+      "aoa": 10.0,
+      "frames": 868,
+      "sha256_first200": "81b1304de092df8313dbcaca844ce35d16280aba4059b2a519c972faf6b53b3c"
+    },
+    {
+      "file": "22875_15.h5",
+      "group": "22875",
+      "re": 22926.0,
+      "aoa": 15.0,
+      "frames": 868,
+      "sha256_first200": "27951a0501d04ea8a2d192aa084f70ba57bcad7ff6486b28fad0dcb5834dc578"
+    },
+    {
+      "file": "3750_0.h5",
+      "group": "3750",
+      "re": 3750.0,
+      "aoa": 0.0,
+      "frames": 868,
+      "sha256_first200": "4b8bfc567fdc0650e9e33d1af6a00d777127eb44cee265e7432ca64dec6553d0"
+    },
+    {
+      "file": "3750_10.h5",
+      "group": "3750",
+      "re": 3750.0,
+      "aoa": 10.0,
+      "frames": 868,
+      "sha256_first200": "0629bbfd139adf080c6e420e81ae0dc24e2ee3b539d0e6db3c8f6ef0b2902640"
+    },
+    {
+      "file": "3750_20.h5",
+      "group": "3750",
+      "re": 3750.0,
+      "aoa": 20.0,
+      "frames": 868,
+      "sha256_first200": "e0350d44b2573b9e7f4a95cc4f0fa6c573df876df263d270cd864bc20e2e2e9f"
+    },
+    {
+      "file": "3750_5.h5",
+      "group": "3750",
+      "re": 3750.0,
+      "aoa": 5.0,
+      "frames": 868,
+      "sha256_first200": "add9d81180a247e6dc337d328030c7a7437eb8c2bcc3b3147feb1e62c4651098"
+    }
+  ],
+  "mean_crps": [
+    [
+      0.046970076858997345,
+      0.11976435780525208
+    ],
+    [
+      0.04586151987314224,
+      0.11950277537107468
+    ],
+    [
+      0.043507784605026245,
+      0.11398936063051224
+    ],
+    [
+      0.04284922406077385,
+      0.11392602324485779
+    ],
+    [
+      0.04755621403455734,
+      0.12030661106109619
+    ],
+    [
+      0.04355150833725929,
+      0.11400412023067474
+    ]
+  ],
+  "source_sha256": {
+    "controlled_xp_xpf/evaluate_control.py": "f50ba8cc2eff309f2bdb311bae8fc57870e14669423ce1833036c885f9cb9098",
+    "runs/xp02_cqr_20261112/training_complete.json": "f227837687d80f1b9508b79498c97030ca7ec5561bcc0d3f8cb89d95d6d3ee35",
+    "runs/xpf16_02grid_2048_20261112/training_complete.json": "7138dcdb0c7ab70ae81d2d7536974a0486e5ffff6134300698958ac28e08676a"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "causal_events": 84,
+  "original_cdf_max_abs_difference": {
+    "u": {
+      "xp_fixed": 9.070189044280141e-12,
+      "xpf_online": 1.2224332657240211e-11
+    },
+    "v": {
+      "xp_fixed": 5.964428950733236e-11,
+      "xpf_online": 2.3128854387266529e-10
+    }
+  },
+  "observations_per_channel": 20152320
+}
