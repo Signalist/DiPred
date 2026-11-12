@@ -1,0 +1,6 @@
+{
+  "passed": true,
+  "heads": 250,
+  "quantiles": 499,
+  "samples": 2048
+}

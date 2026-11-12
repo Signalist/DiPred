@@ -1,0 +1,32 @@
+{
+  "xpf16_grid_250_weights.tar.gz": {
+    "filename": "xpf16_grid_250_weights.tar.gz",
+    "size": 32187876,
+    "sha256": "be8b7331c78c72ca41d9a883c711afd4b46d84fcfd286794977fb61bd47cdacd",
+    "parts": 54
+  },
+  "development_compact.npz": {
+    "filename": "development_compact.npz",
+    "size": 4068447,
+    "sha256": "80adaa44dc120208339a25c2b16828693209e91c4fcf3e1f7aea9eb20405ed96",
+    "parts": 7
+  },
+  "development_group_lead.npz": {
+    "filename": "development_group_lead.npz",
+    "size": 7443245,
+    "sha256": "b25be54c85f7cef859630c04968249563dcf9c7c741a3c46fa643e366d4bfbbe",
+    "parts": 13
+  },
+  "test_compact.npz": {
+    "filename": "test_compact.npz",
+    "size": 4111818,
+    "sha256": "aab8d0a47a4749ad885fcb04262c0cc5534505c80cb1ed85a38aa28194caf626",
+    "parts": 7
+  },
+  "test_group_lead.npz": {
+    "filename": "test_group_lead.npz",
+    "size": 7454952,
+    "sha256": "3ea0e55eeab8b9253bbf08870899ef4784695896bc8d5e2e21e62da33a43d254",
+    "parts": 13
+  }
+}

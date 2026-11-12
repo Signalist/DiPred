@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "tail_ids": [
+    1,
+    5,
+    249
+  ],
+  "median": true,
+  "windows": [
+    0,
+    20
+  ],
+  "max_coverage_difference": 0.00048828125,
+  "max_pinball_difference": 4.237517714500427e-08,
+  "note": "One grid point tolerance covers floating-point batch-order effects."
+}
