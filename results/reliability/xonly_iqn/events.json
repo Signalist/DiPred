@@ -1,0 +1,422 @@
+[
+  {
+    "event": "issued_both",
+    "start": 0,
+    "time": 1794479098.0606618
+  },
+  {
+    "event": "revealed_complete_20",
+    "start": 0,
+    "time": 1794479098.1260028
+  },
+  {
+    "event": "issued_both",
+    "start": 20,
+    "time": 1794479098.4845161
+  },
+  {
+    "event": "revealed_complete_20",
+    "start": 20,
+    "time": 1794479101.5580914
+  },
+  {
+    "event": "issued_both",
+    "start": 40,
+    "time": 1794479101.9242127
+  },
+  {
+    "event": "revealed_complete_20",
+    "start": 40,
+    "time": 1794479106.5869946
+  },
+  {
+    "event": "issued_both",
+    "start": 60,
+    "time": 1794479106.9391656
+  },
+  {
+    "event": "revealed_complete_20",
+    "start": 60,
+    "time": 1794479109.966584
+  },
+  {
+    "event": "issued_both",
+    "start": 80,
+    "time": 1794479110.3192909
+  },
+  {
+    "event": "revealed_complete_20",
+    "start": 80,
+    "time": 1794479113.320487
+  },
+  {
+    "event": "issued_both",
+    "start": 100,
+    "time": 1794479113.6775928
+  },
+  {
+    "event": "revealed_complete_20",
+    "start": 100,
+    "time": 1794479116.6777396
+  },
+  {
+    "event": "issued_both",
+    "start": 120,
+    "time": 1794479117.0352316
+  },
+  {
+    "event": "revealed_complete_20",
+    "start": 120,
+    "time": 1794479120.026566
+  },
+  {
+    "event": "issued_both",
+    "start": 140,
+    "time": 1794479120.3824692
+  },
+  {
+    "event": "revealed_complete_20",
+    "start": 140,
+    "time": 1794479123.3871953
+  },
+  {
+    "event": "issued_both",
+    "start": 160,
+    "time": 1794479123.7685041
+  },
+  {
+    "event": "revealed_complete_20",
+    "start": 160,
+    "time": 1794479126.781
+  },
+  {
+    "event": "issued_both",
+    "start": 180,
+    "time": 1794479127.1409311
+  },
+  {
+    "event": "revealed_complete_20",
+    "start": 180,
+    "time": 1794479130.1477027
+  },
+  {
+    "event": "issued_both",
+    "start": 200,
+    "time": 1794479130.5102587
+  },
+  {
+    "event": "revealed_complete_20",
+    "start": 200,
+    "time": 1794479133.510875
+  },
+  {
+    "event": "issued_both",
+    "start": 220,
+    "time": 1794479134.284569
+  },
+  {
+    "event": "revealed_complete_20",
+    "start": 220,
+    "time": 1794479138.6144593
+  },
+  {
+    "event": "issued_both",
+    "start": 240,
+    "time": 1794479138.9857593
+  },
+  {
+    "event": "revealed_complete_20",
+    "start": 240,
+    "time": 1794479141.9858177
+  },
+  {
+    "event": "issued_both",
+    "start": 260,
+    "time": 1794479142.3370738
+  },
+  {
+    "event": "revealed_complete_20",
+    "start": 260,
+    "time": 1794479145.3499932
+  },
+  {
+    "event": "issued_both",
+    "start": 280,
+    "time": 1794479145.7227015
+  },
+  {
+    "event": "revealed_complete_20",
+    "start": 280,
+    "time": 1794479148.742337
+  },
+  {
+    "event": "issued_both",
+    "start": 300,
+    "time": 1794479149.0990381
+  },
+  {
+    "event": "revealed_complete_20",
+    "start": 300,
+    "time": 1794479152.094321
+  },
+  {
+    "event": "issued_both",
+    "start": 320,
+    "time": 1794479152.4457242
+  },
+  {
+    "event": "revealed_complete_20",
+    "start": 320,
+    "time": 1794479155.4397058
+  },
+  {
+    "event": "issued_both",
+    "start": 340,
+    "time": 1794479155.7860184
+  },
+  {
+    "event": "revealed_complete_20",
+    "start": 340,
+    "time": 1794479158.8137946
+  },
+  {
+    "event": "issued_both",
+    "start": 360,
+    "time": 1794479159.1630955
+  },
+  {
+    "event": "revealed_complete_20",
+    "start": 360,
+    "time": 1794479162.1655378
+  },
+  {
+    "event": "issued_both",
+    "start": 380,
+    "time": 1794479162.512075
+  },
+  {
+    "event": "revealed_complete_20",
+    "start": 380,
+    "time": 1794479167.2503521
+  },
+  {
+    "event": "issued_both",
+    "start": 400,
+    "time": 1794479167.6003387
+  },
+  {
+    "event": "revealed_complete_20",
+    "start": 400,
+    "time": 1794479170.6195328
+  },
+  {
+    "event": "issued_both",
+    "start": 420,
+    "time": 1794479170.970033
+  },
+  {
+    "event": "revealed_complete_20",
+    "start": 420,
+    "time": 1794479173.9597828
+  },
+  {
+    "event": "issued_both",
+    "start": 440,
+    "time": 1794479174.324093
+  },
+  {
+    "event": "revealed_complete_20",
+    "start": 440,
+    "time": 1794479177.3160174
+  },
+  {
+    "event": "issued_both",
+    "start": 460,
+    "time": 1794479177.71031
+  },
+  {
+    "event": "revealed_complete_20",
+    "start": 460,
+    "time": 1794479180.7181315
+  },
+  {
+    "event": "issued_both",
+    "start": 480,
+    "time": 1794479181.078161
+  },
+  {
+    "event": "revealed_complete_20",
+    "start": 480,
+    "time": 1794479184.1228378
+  },
+  {
+    "event": "issued_both",
+    "start": 500,
+    "time": 1794479184.4890175
+  },
+  {
+    "event": "revealed_complete_20",
+    "start": 500,
+    "time": 1794479187.4886315
+  },
+  {
+    "event": "issued_both",
+    "start": 520,
+    "time": 1794479187.8472135
+  },
+  {
+    "event": "revealed_complete_20",
+    "start": 520,
+    "time": 1794479190.8558688
+  },
+  {
+    "event": "issued_both",
+    "start": 540,
+    "time": 1794479191.2093122
+  },
+  {
+    "event": "revealed_complete_20",
+    "start": 540,
+    "time": 1794479194.9077504
+  },
+  {
+    "event": "issued_both",
+    "start": 560,
+    "time": 1794479196.0167773
+  },
+  {
+    "event": "revealed_complete_20",
+    "start": 560,
+    "time": 1794479199.405083
+  },
+  {
+    "event": "issued_both",
+    "start": 580,
+    "time": 1794479199.764027
+  },
+  {
+    "event": "revealed_complete_20",
+    "start": 580,
+    "time": 1794479202.7788484
+  },
+  {
+    "event": "issued_both",
+    "start": 600,
+    "time": 1794479203.1286058
+  },
+  {
+    "event": "revealed_complete_20",
+    "start": 600,
+    "time": 1794479206.132187
+  },
+  {
+    "event": "issued_both",
+    "start": 620,
+    "time": 1794479206.4810529
+  },
+  {
+    "event": "revealed_complete_20",
+    "start": 620,
+    "time": 1794479209.4992185
+  },
+  {
+    "event": "issued_both",
+    "start": 640,
+    "time": 1794479209.8704014
+  },
+  {
+    "event": "revealed_complete_20",
+    "start": 640,
+    "time": 1794479212.877674
+  },
+  {
+    "event": "issued_both",
+    "start": 660,
+    "time": 1794479213.2560806
+  },
+  {
+    "event": "revealed_complete_20",
+    "start": 660,
+    "time": 1794479216.2531252
+  },
+  {
+    "event": "issued_both",
+    "start": 680,
+    "time": 1794479216.6015265
+  },
+  {
+    "event": "revealed_complete_20",
+    "start": 680,
+    "time": 1794479219.5963025
+  },
+  {
+    "event": "issued_both",
+    "start": 700,
+    "time": 1794479219.9575942
+  },
+  {
+    "event": "revealed_complete_20",
+    "start": 700,
+    "time": 1794479222.9909196
+  },
+  {
+    "event": "issued_both",
+    "start": 720,
+    "time": 1794479223.3613672
+  },
+  {
+    "event": "revealed_complete_20",
+    "start": 720,
+    "time": 1794479228.0633922
+  },
+  {
+    "event": "issued_both",
+    "start": 740,
+    "time": 1794479228.4282966
+  },
+  {
+    "event": "revealed_complete_20",
+    "start": 740,
+    "time": 1794479231.4397244
+  },
+  {
+    "event": "issued_both",
+    "start": 760,
+    "time": 1794479231.814732
+  },
+  {
+    "event": "revealed_complete_20",
+    "start": 760,
+    "time": 1794479234.7949173
+  },
+  {
+    "event": "issued_both",
+    "start": 780,
+    "time": 1794479238.3810105
+  },
+  {
+    "event": "revealed_complete_20",
+    "start": 780,
+    "time": 1794479241.9065785
+  },
+  {
+    "event": "issued_both",
+    "start": 800,
+    "time": 1794479242.7257636
+  },
+  {
+    "event": "revealed_complete_20",
+    "start": 800,
+    "time": 1794479246.5999403
+  },
+  {
+    "event": "issued_both",
+    "start": 820,
+    "time": 1794479247.774761
+  },
+  {
+    "event": "revealed_complete_20",
+    "start": 820,
+    "time": 1794479251.191375
+  }
+]

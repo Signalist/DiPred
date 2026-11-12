@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "fit_windows": 819,
+  "seed": 42,
+  "model_sha256": "da42f370ab4c81d0170d15a71c72b709554c13fedf265a39af43aa5e91613816",
+  "calibration_trajectories": 10,
+  "test_trajectories": 12,
+  "test_windows": 41,
+  "observations_per_channel": 20152320,
+  "causal_events": 84,
+  "warning": "Re groups disjoint, but development/test identities used in earlier exploration; no formal coverage guarantee"
+}
