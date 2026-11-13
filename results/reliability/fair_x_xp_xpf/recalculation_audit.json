@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "summary_crps_max_absolute_error": 0.0,
+  "snapshot_crps_max_absolute_error": 5.415795183844052e-09,
+  "paired_bootstrap_max_absolute_error": 1.5841617167361433e-08,
+  "paired_tolerance": 1e-07,
+  "note": "Paired reconstruction differs at float32/float64 rounding scale."
+}

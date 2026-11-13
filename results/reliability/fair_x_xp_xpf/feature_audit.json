@@ -1,0 +1,22 @@
+{
+  "checks": {
+    "four_denoising_steps": true,
+    "frozen": true,
+    "cache_input_only": true,
+    "issued_features_match": true,
+    "feature_shape": true
+  },
+  "passed": true,
+  "call_indices": [
+    99,
+    66,
+    33,
+    0
+  ],
+  "max_errors": {
+    "x": 0.0,
+    "p": 0.0,
+    "f": 0.0
+  },
+  "input": "calibration known history at start 0; no future target read"
+}

@@ -1,0 +1,13 @@
+{
+  "checks": {
+    "parameter_accounting": true,
+    "no_shared_first200_hash_between_splits": true,
+    "window_paired_means_match": true,
+    "training_and_inference_quantiles_match": true,
+    "training_cache_matches_frozen_backbone": true,
+    "matched_exact_window_channel_keys": true,
+    "complete_valid_quantile_grid": true,
+    "finite_window_metrics": true
+  },
+  "passed": true
+}

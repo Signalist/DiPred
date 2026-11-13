@@ -1,0 +1,7 @@
+{
+  "checks": {
+    "report_matches_csv": true,
+    "expected_18_raw_channel_rows": true
+  },
+  "passed": true
+}

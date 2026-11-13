@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "rows": 26568,
+  "frames_per_row": 20,
+  "max_window_crps_error": 3.307303153565755e-09,
+  "precision": "each decimal roundtrips the original float32 exactly"
+}

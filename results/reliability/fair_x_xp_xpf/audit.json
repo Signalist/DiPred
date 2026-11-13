@@ -1,0 +1,21 @@
+{
+  "checks": {
+    "genuine_frozen_four_step_features": true,
+    "trajectory_and_Re_disjoint": true,
+    "matched_initialization_and_parameter_count": true,
+    "nine_independent_weight_files": true,
+    "missing_slots_invariant": true,
+    "raw_architecture_noncrossing": true,
+    "causal_issue_reveal": true,
+    "all_model_results_complete": true,
+    "expected_row_counts": true,
+    "per_frame_matches_per_window": true,
+    "summary_matches_windows": true,
+    "snapshot_crps_independent_recomputation": true,
+    "snapshot_quantiles_nondecreasing": true,
+    "cdf_u_valid": true,
+    "cdf_v_valid": true
+  },
+  "passed": true,
+  "qualification": "Test trajectories have been reused in earlier development; findings are exploratory. Split CQR pools correlated observations and has no trajectory-level guarantee."
+}
