@@ -1,0 +1,8 @@
+method,heads,parameters_per_head,total_head_parameters,timing_batch_size,mean_batch_predict_seconds,mean_batch_heads_seconds,peak_gpu_allocated_bytes,timing_scope
+X,49,34004,1666196,12,0.7502187152461308,0.5825431745771955,4791729152,"four-step DiPred, all 49 heads and online issue; excludes I/O, truth, scoring and feature audit"
+P,49,34004,1666196,12,0.7794230171002265,0.6018627862468725,4839822848,"four-step DiPred, all 49 heads and online issue; excludes I/O, truth, scoring and feature audit"
+F,49,34004,1666196,12,0.7693467267857093,0.5955202364612643,4840644096,"four-step DiPred, all 49 heads and online issue; excludes I/O, truth, scoring and feature audit"
+XP,49,34004,1666196,12,0.7615357271236617,0.5909011700167889,4839822848,"four-step DiPred, all 49 heads and online issue; excludes I/O, truth, scoring and feature audit"
+XF,49,34004,1666196,12,0.7710240468291975,0.5955234304433916,4840644096,"four-step DiPred, all 49 heads and online issue; excludes I/O, truth, scoring and feature audit"
+PF,49,34004,1666196,12,0.29189942518203726,0.2634055936572755,4840644096,"four-step DiPred, all 49 heads and online issue; excludes I/O, truth, scoring and feature audit"
+XPF,49,34004,1666196,12,0.2808460269759341,0.2552377333546557,4790680576,"four-step DiPred, all 49 heads and online issue; excludes I/O, truth, scoring and feature audit"

@@ -1,0 +1,8 @@
+{
+  "xpf_replay_max_abs_diff": 2.5704503081591668e-08,
+  "historical_xpf_online_crps": 0.07838270713469177,
+  "expected_trajectory_windows": 984,
+  "paired_bootstrap_unit": "trajectory",
+  "paired_bootstrap_samples": 10000,
+  "caveat": "2048 and 49-grid noise used different original runs and calibration protocols; no claim of identical protocols."
+}

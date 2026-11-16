@@ -1,0 +1,5 @@
+verified runs/legacy_xpf16_feature_ablation_20261116/restored_250/xpf16_grid_250_weights.tar.gz
+verified runs/legacy_xpf16_feature_ablation_20261116/restored_250/development_compact.npz
+verified runs/legacy_xpf16_feature_ablation_20261116/restored_250/development_group_lead.npz
+verified runs/legacy_xpf16_feature_ablation_20261116/restored_250/test_compact.npz
+verified runs/legacy_xpf16_feature_ablation_20261116/restored_250/test_group_lead.npz

@@ -1,0 +1,9 @@
+{
+  "archive_files_verified": 5,
+  "independent_head_checkpoints": 250,
+  "paired_heads": 249,
+  "median_heads": 1,
+  "test_windows_compared": 42,
+  "max_abs_difference": 1.4901161193847656e-08,
+  "note": "The new feature combinations are not trained in this separate 250-head protocol."
+}

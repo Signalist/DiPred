@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "tested_head_count": 343,
+  "legacy_weight_hashes_match_existing_repository": true,
+  "split_file_ids_disjoint": true,
+  "split_groups_and_first200_hashes_disjoint": true,
+  "test_trajectories": 12,
+  "calibration_trajectories": 10,
+  "window_rows": 13776,
+  "missing_source_zero_after_normalization_and_projection": true,
+  "causal_issue_then_reveal_events": 294,
+  "seven_summaries_match_window_rows": true,
+  "all_noise_curves_have_41_real_distinct_window_records": true,
+  "both_figures_redrawn_from_exported_csv": true,
+  "limitations": [
+    "historical test data are exploratory",
+    "event ordering audit does not independently prove model-input provenance",
+    "noise versus quantile CRPS estimators and online calibration differ"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "windows": 41,
+  "trajectories": 12,
+  "history49_raw_mean": 0.0787707483623086,
+  "history49_online_mean": 0.07838270740538109,
+  "online_json_max_abs_diff": 0.0,
+  "noise_online_empirical_means": {
+    "8-noise": 0.08945106173206757,
+    "32-noise": 0.08162223482201618,
+    "256-noise": 0.0795554753328575
+  },
+  "trajectory_order_matches_both_published_protocols": true,
+  "protocol250_note": "Actual historical per-trajectory, per-lead NPZ; original report weights Re groups, while 49 primary window curves weight trajectories.",
+  "estimator_note": "Noise is the actual stored empirical ensemble CRPS; XPF is quantile-integral CRPS; 2048 uses 250-grid proxy-scale protocol.",
+  "limitation": "Old 49-head noise CRPS is saved per trajectory/channel/window, not by individual lead; do not invent lead values."
+}
