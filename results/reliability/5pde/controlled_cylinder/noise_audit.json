@@ -1,0 +1,12 @@
+{
+  "scenario": "controlled_cylinder",
+  "development_trajectory": "3562_0.7.h5",
+  "history_start": 0,
+  "first_seed": 500000,
+  "chunk_size": 4,
+  "prefix_max_absolute_error": {
+    "8": 0.0,
+    "32": 0.0
+  },
+  "passed": true
+}

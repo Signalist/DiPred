@@ -1,0 +1,23 @@
+{
+  "scenario": "controlled_cylinder",
+  "checks": {
+    "all_models_complete": true,
+    "all_windows_complete": true,
+    "causal_feedback": true,
+    "test_ids_ordered_and_disjoint": true,
+    "raw_crossings_zero": true,
+    "scores_finite": true,
+    "quantile_coverage_ordered": true,
+    "cdf_valid": true,
+    "crps_snapshot_recomputed": true,
+    "calibration_separate": true,
+    "preflight_passed": true,
+    "field_audit_passed": true,
+    "noise_prefix_passed": true
+  },
+  "passed": true,
+  "test_trajectories": 20,
+  "evaluated_windows_per_trajectory": 197,
+  "observations_per_channel": 161382400,
+  "caveat": "The prior project may have used these trajectories; no fresh-independent-test claim."
+}

@@ -1,0 +1,6 @@
+{
+  "scenario": "cylinder",
+  "passed": true,
+  "comparisons": 12,
+  "test_targets_read": false
+}

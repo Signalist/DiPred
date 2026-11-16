@@ -1,0 +1,18 @@
+{
+  "scenario": "cylinder",
+  "checks": {
+    "trajectory_splits_disjoint": true,
+    "official_test_never_in_training": true,
+    "head_fit_uses_only_training_trajectories": true,
+    "backbone_fit_uses_only_training_trajectories": true,
+    "normalization_uses_only_training_trajectories": true,
+    "three_equal_heads_per_seed": true,
+    "actual_four_denoising_calls": true,
+    "frozen_backbone": true,
+    "missing_P_F_slots_zeroed": true,
+    "raw_quantiles_monotone": true,
+    "dummy_channel_excluded": true
+  },
+  "passed": true,
+  "notes": "Four calls depend only on observed history. Test targets are not read by this audit."
+}

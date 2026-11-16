@@ -1,0 +1,13 @@
+method,seed,path
+X,42,runs/X_42/per_window.csv.gz
+XP,42,runs/XP_42/per_window.csv.gz
+XPF,42,runs/XPF_42/per_window.csv.gz
+X,123,runs/X_123/per_window.csv.gz
+XP,123,runs/XP_123/per_window.csv.gz
+XPF,123,runs/XPF_123/per_window.csv.gz
+X,2026,runs/X_2026/per_window.csv.gz
+XP,2026,runs/XP_2026/per_window.csv.gz
+XPF,2026,runs/XPF_2026/per_window.csv.gz
+8-noise,500000,runs/8-noise_500000/per_window.csv.gz
+32-noise,500000,runs/32-noise_500000/per_window.csv.gz
+256-noise,500000,runs/256-noise_500000/per_window.csv.gz
