@@ -1,0 +1,70 @@
+{
+  "passed": true,
+  "necc": [
+    {
+      "width": 3,
+      "numpy_max_error": 2.6490953253244243e-07,
+      "global_mean_max_error": 1.4901161193847656e-08
+    },
+    {
+      "width": 9,
+      "numpy_max_error": 1.711609922683266e-06,
+      "global_mean_max_error": 5.21540641784668e-08
+    }
+  ],
+  "gaussian_variance": [
+    {
+      "method": "pca__global",
+      "diagonal_variance_error": 3.5762786865234375e-07
+    },
+    {
+      "method": "pca__local",
+      "diagonal_variance_error": 3.5762786865234375e-07
+    },
+    {
+      "method": "unconditional__global",
+      "diagonal_variance_error": 3.5762786865234375e-07
+    },
+    {
+      "method": "unconditional__local",
+      "diagonal_variance_error": 3.5762786865234375e-07
+    },
+    {
+      "method": "X__global",
+      "diagonal_variance_error": 3.5762786865234375e-07
+    },
+    {
+      "method": "X__local",
+      "diagonal_variance_error": 3.5762786865234375e-07
+    },
+    {
+      "method": "P__global",
+      "diagonal_variance_error": 3.5762786865234375e-07
+    },
+    {
+      "method": "P__local",
+      "diagonal_variance_error": 3.5762786865234375e-07
+    },
+    {
+      "method": "F_last__global",
+      "diagonal_variance_error": 3.5762786865234375e-07
+    },
+    {
+      "method": "F_last__local",
+      "diagonal_variance_error": 3.5762786865234375e-07
+    },
+    {
+      "method": "F_mid0__global",
+      "diagonal_variance_error": 2.980232238769531e-07
+    },
+    {
+      "method": "F_mid0__local",
+      "diagonal_variance_error": 2.980232238769531e-07
+    }
+  ],
+  "normal_cdf_ks_16_coordinates": 0.008822428578638908,
+  "ar": null,
+  "conditional_templates_unique_train_trajectories": 32,
+  "continuous_uniform_claim": "Analytic: linear zero-mean Gaussian fields have normalized unit diagonal; normal CDF gives uniform marginals. Finite rank-coupled fields use discrete fixed nodes.",
+  "source_sha256": "026ab21d1406eb89b8cbbdf615fdd2e23b3c27c52075e41857a275f66edf9380"
+}

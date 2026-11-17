@@ -1,0 +1,505 @@
+{
+  "files": [
+    {
+      "file": "19050_0.h5",
+      "keys": {
+        "aoa": {
+          "shape": [],
+          "dtype": "int32"
+        },
+        "re": {
+          "shape": [],
+          "dtype": "int32"
+        },
+        "t": {
+          "shape": [
+            868
+          ],
+          "dtype": "float32"
+        },
+        "u": {
+          "shape": [
+            868,
+            64,
+            128
+          ],
+          "dtype": "float64"
+        },
+        "v": {
+          "shape": [
+            868,
+            64,
+            128
+          ],
+          "dtype": "float64"
+        },
+        "x": {
+          "shape": [
+            64,
+            128
+          ],
+          "dtype": "float64"
+        },
+        "y": {
+          "shape": [
+            64,
+            128
+          ],
+          "dtype": "float64"
+        }
+      },
+      "attributes": {}
+    },
+    {
+      "file": "19050_10.h5",
+      "keys": {
+        "aoa": {
+          "shape": [],
+          "dtype": "int32"
+        },
+        "re": {
+          "shape": [],
+          "dtype": "int32"
+        },
+        "t": {
+          "shape": [
+            868
+          ],
+          "dtype": "float32"
+        },
+        "u": {
+          "shape": [
+            868,
+            64,
+            128
+          ],
+          "dtype": "float64"
+        },
+        "v": {
+          "shape": [
+            868,
+            64,
+            128
+          ],
+          "dtype": "float64"
+        },
+        "x": {
+          "shape": [
+            64,
+            128
+          ],
+          "dtype": "float64"
+        },
+        "y": {
+          "shape": [
+            64,
+            128
+          ],
+          "dtype": "float64"
+        }
+      },
+      "attributes": {}
+    },
+    {
+      "file": "19050_15.h5",
+      "keys": {
+        "aoa": {
+          "shape": [],
+          "dtype": "int32"
+        },
+        "re": {
+          "shape": [],
+          "dtype": "int32"
+        },
+        "t": {
+          "shape": [
+            868
+          ],
+          "dtype": "float32"
+        },
+        "u": {
+          "shape": [
+            868,
+            64,
+            128
+          ],
+          "dtype": "float64"
+        },
+        "v": {
+          "shape": [
+            868,
+            64,
+            128
+          ],
+          "dtype": "float64"
+        },
+        "x": {
+          "shape": [
+            64,
+            128
+          ],
+          "dtype": "float64"
+        },
+        "y": {
+          "shape": [
+            64,
+            128
+          ],
+          "dtype": "float64"
+        }
+      },
+      "attributes": {}
+    },
+    {
+      "file": "19050_20.h5",
+      "keys": {
+        "aoa": {
+          "shape": [],
+          "dtype": "int32"
+        },
+        "re": {
+          "shape": [],
+          "dtype": "int32"
+        },
+        "t": {
+          "shape": [
+            868
+          ],
+          "dtype": "float32"
+        },
+        "u": {
+          "shape": [
+            868,
+            64,
+            128
+          ],
+          "dtype": "float64"
+        },
+        "v": {
+          "shape": [
+            868,
+            64,
+            128
+          ],
+          "dtype": "float64"
+        },
+        "x": {
+          "shape": [
+            64,
+            128
+          ],
+          "dtype": "float64"
+        },
+        "y": {
+          "shape": [
+            64,
+            128
+          ],
+          "dtype": "float64"
+        }
+      },
+      "attributes": {}
+    },
+    {
+      "file": "19050_5.h5",
+      "keys": {
+        "aoa": {
+          "shape": [],
+          "dtype": "int32"
+        },
+        "re": {
+          "shape": [],
+          "dtype": "int32"
+        },
+        "t": {
+          "shape": [
+            868
+          ],
+          "dtype": "float32"
+        },
+        "u": {
+          "shape": [
+            868,
+            64,
+            128
+          ],
+          "dtype": "float64"
+        },
+        "v": {
+          "shape": [
+            868,
+            64,
+            128
+          ],
+          "dtype": "float64"
+        },
+        "x": {
+          "shape": [
+            64,
+            128
+          ],
+          "dtype": "float64"
+        },
+        "y": {
+          "shape": [
+            64,
+            128
+          ],
+          "dtype": "float64"
+        }
+      },
+      "attributes": {}
+    },
+    {
+      "file": "5025_0.h5",
+      "keys": {
+        "aoa": {
+          "shape": [],
+          "dtype": "int32"
+        },
+        "re": {
+          "shape": [],
+          "dtype": "int32"
+        },
+        "t": {
+          "shape": [
+            868
+          ],
+          "dtype": "float32"
+        },
+        "u": {
+          "shape": [
+            868,
+            64,
+            128
+          ],
+          "dtype": "float64"
+        },
+        "v": {
+          "shape": [
+            868,
+            64,
+            128
+          ],
+          "dtype": "float64"
+        },
+        "x": {
+          "shape": [
+            64,
+            128
+          ],
+          "dtype": "float64"
+        },
+        "y": {
+          "shape": [
+            64,
+            128
+          ],
+          "dtype": "float64"
+        }
+      },
+      "attributes": {}
+    },
+    {
+      "file": "5025_10.h5",
+      "keys": {
+        "aoa": {
+          "shape": [],
+          "dtype": "int32"
+        },
+        "re": {
+          "shape": [],
+          "dtype": "int32"
+        },
+        "t": {
+          "shape": [
+            868
+          ],
+          "dtype": "float32"
+        },
+        "u": {
+          "shape": [
+            868,
+            64,
+            128
+          ],
+          "dtype": "float64"
+        },
+        "v": {
+          "shape": [
+            868,
+            64,
+            128
+          ],
+          "dtype": "float64"
+        },
+        "x": {
+          "shape": [
+            64,
+            128
+          ],
+          "dtype": "float64"
+        },
+        "y": {
+          "shape": [
+            64,
+            128
+          ],
+          "dtype": "float64"
+        }
+      },
+      "attributes": {}
+    },
+    {
+      "file": "5025_15.h5",
+      "keys": {
+        "aoa": {
+          "shape": [],
+          "dtype": "int32"
+        },
+        "re": {
+          "shape": [],
+          "dtype": "int32"
+        },
+        "t": {
+          "shape": [
+            868
+          ],
+          "dtype": "float32"
+        },
+        "u": {
+          "shape": [
+            868,
+            64,
+            128
+          ],
+          "dtype": "float64"
+        },
+        "v": {
+          "shape": [
+            868,
+            64,
+            128
+          ],
+          "dtype": "float64"
+        },
+        "x": {
+          "shape": [
+            64,
+            128
+          ],
+          "dtype": "float64"
+        },
+        "y": {
+          "shape": [
+            64,
+            128
+          ],
+          "dtype": "float64"
+        }
+      },
+      "attributes": {}
+    },
+    {
+      "file": "5025_20.h5",
+      "keys": {
+        "aoa": {
+          "shape": [],
+          "dtype": "int32"
+        },
+        "re": {
+          "shape": [],
+          "dtype": "int32"
+        },
+        "t": {
+          "shape": [
+            868
+          ],
+          "dtype": "float32"
+        },
+        "u": {
+          "shape": [
+            868,
+            64,
+            128
+          ],
+          "dtype": "float64"
+        },
+        "v": {
+          "shape": [
+            868,
+            64,
+            128
+          ],
+          "dtype": "float64"
+        },
+        "x": {
+          "shape": [
+            64,
+            128
+          ],
+          "dtype": "float64"
+        },
+        "y": {
+          "shape": [
+            64,
+            128
+          ],
+          "dtype": "float64"
+        }
+      },
+      "attributes": {}
+    },
+    {
+      "file": "5025_5.h5",
+      "keys": {
+        "aoa": {
+          "shape": [],
+          "dtype": "int32"
+        },
+        "re": {
+          "shape": [],
+          "dtype": "int32"
+        },
+        "t": {
+          "shape": [
+            868
+          ],
+          "dtype": "float32"
+        },
+        "u": {
+          "shape": [
+            868,
+            64,
+            128
+          ],
+          "dtype": "float64"
+        },
+        "v": {
+          "shape": [
+            868,
+            64,
+            128
+          ],
+          "dtype": "float64"
+        },
+        "x": {
+          "shape": [
+            64,
+            128
+          ],
+          "dtype": "float64"
+        },
+        "y": {
+          "shape": [
+            64,
+            128
+          ],
+          "dtype": "float64"
+        }
+      },
+      "attributes": {}
+    }
+  ],
+  "scope": "Metadata evidence only; governing equation, pressure, out-of-plane velocity, boundary-condition specification and discretization/error bounds are not present in these HDF5 datasets. Repository documentation still requires review before any stronger conclusion."
+}

@@ -1,0 +1,67 @@
+{
+  "passed": true,
+  "identifier": "linear",
+  "direct_stream_replay": true,
+  "actual_past_target_identification": true,
+  "rows": [
+    {
+      "method": "rolling",
+      "field_replay_max_error": 0.0,
+      "mean_mse_replay_error": 0.0,
+      "max_mse_replay_error": 0.0,
+      "identification_coefficient_max_error": 0.0,
+      "median_predict_ms": 7.461302913725376,
+      "median_reveal_identification_ms": 0.925709493458271,
+      "n": 9
+    },
+    {
+      "method": "rw",
+      "field_replay_max_error": 0.0,
+      "mean_mse_replay_error": 0.0,
+      "max_mse_replay_error": 0.0,
+      "identification_coefficient_max_error": 0.0,
+      "median_predict_ms": 7.500012405216694,
+      "median_reveal_identification_ms": 1.0265493765473366,
+      "n": 9
+    }
+  ],
+  "causal": {
+    "zero": {
+      "prefix_exact": true,
+      "trajectory_isolation_exact": true,
+      "early_reveal_rejected": true,
+      "skip_does_not_create_feedback": true
+    },
+    "mean": {
+      "prefix_exact": true,
+      "trajectory_isolation_exact": true,
+      "early_reveal_rejected": true,
+      "skip_does_not_create_feedback": true
+    },
+    "rolling": {
+      "prefix_exact": true,
+      "trajectory_isolation_exact": true,
+      "early_reveal_rejected": true,
+      "skip_does_not_create_feedback": true
+    },
+    "ema": {
+      "prefix_exact": true,
+      "trajectory_isolation_exact": true,
+      "early_reveal_rejected": true,
+      "skip_does_not_create_feedback": true
+    },
+    "rw": {
+      "prefix_exact": true,
+      "trajectory_isolation_exact": true,
+      "early_reveal_rejected": true,
+      "skip_does_not_create_feedback": true
+    },
+    "var": {
+      "prefix_exact": true,
+      "trajectory_isolation_exact": true,
+      "early_reveal_rejected": true,
+      "skip_does_not_create_feedback": true
+    }
+  },
+  "numerics_note": "Final efficacy uses actual single-window inference and identification. For nonlinear80-step identification, the legacy batch cache had small floating-point differences; that failed diagnostic is retained separately."
+}

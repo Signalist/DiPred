@@ -1,0 +1,22 @@
+{
+  "selected": "ar__mixed",
+  "secc": "secc3",
+  "necc": "necc3",
+  "necc_rank": "necc_rank3",
+  "objective": {
+    "ar__mixed": 1.0060026835948293,
+    "ecc32": 1.0051202259311625,
+    "necc3": 1.2988371757760622,
+    "necc9": 1.530844695769164,
+    "necc_rank3": 0.9989186365302603,
+    "necc_rank9": 1.0397426744674039,
+    "secc3": 0.998918646947073,
+    "secc9": 1.0397426511435677,
+    "smooth": 1.0
+  },
+  "quality_gate": {
+    "ar__mixed": true
+  },
+  "criterion": "mean ES/VS/physical functional CRPS relative to smooth, calibration only",
+  "seed": 42
+}

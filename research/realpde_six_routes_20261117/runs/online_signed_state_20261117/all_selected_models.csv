@@ -1,0 +1,23 @@
+method,configuration,calibration_mse
+base,"{'family': 'base', 'shrink': 1.0}",9.326033740183687e-05
+rolling_bias,"{'family': 'rolling_bias', 'memory': 4, 'shrink': 0.5}",9.30297981986711e-05
+ema,"{'family': 'ema', 'rate': 0.1, 'shrink': 0.5}",9.304955956788608e-05
+static,"{'family': 'static', 'static': '1.0', 'shrink': 0.5}",9.315689635439606e-05
+var,"{'family': 'var', 'shrink': 0.0}",9.326033740183687e-05
+rw_kalman,"{'family': 'rw_kalman', 'process': 0.1, 'noise': 4.0, 'shrink': 0.5}",9.30095952752495e-05
+var_kalman,"{'family': 'var_kalman', 'noise': 4.0, 'shrink': 0.5}",9.322501207599887e-05
+conditional_kalman,"{'family': 'conditional_kalman', 'static': '1.0', 'noise': 4.0, 'shrink': 0.5}",9.318112826732297e-05
+linear_ar,"{'family': 'linear_ar', 'alpha': '10.0', 'shrink': 1.0}",9.318914345186979e-05
+rnn,"{'family': 'rnn', 'shrink': 0.0}",9.326033740183687e-05
+geo_zero,"{'family': 'zero', 'shrink': 1.0}",9.326033614343032e-05
+geo_mean,"{'family': 'mean', 'shrink': 0.5}",9.323686390416697e-05
+geo_rolling,"{'family': 'rolling', 'memory': 4, 'shrink': 0.5}",9.239406062988564e-05
+geo_ema,"{'family': 'ema', 'rate': 0.1, 'shrink': 1.0}",9.256981138605624e-05
+geo_rw,"{'family': 'rw', 'process': 0.01, 'noise': 1.0, 'shrink': 1.0}",9.241305815521628e-05
+geo_var,"{'family': 'var', 'noise': 0.25, 'shrink': 1.0}",9.276516357203946e-05
+lin_zero,"{'family': 'zero', 'shrink': 1.0}",9.326033614343032e-05
+lin_mean,"{'family': 'mean', 'shrink': 0.0}",9.326033614343032e-05
+lin_rolling,"{'family': 'rolling', 'memory': 4, 'shrink': 0.5}",9.250196308130398e-05
+lin_ema,"{'family': 'ema', 'rate': 0.1, 'shrink': 1.0}",9.263823449146003e-05
+lin_rw,"{'family': 'rw', 'process': 0.1, 'noise': 1.0, 'shrink': 0.5}",9.262417734134942e-05
+lin_var,"{'family': 'var', 'noise': 0.25, 'shrink': 1.0}",9.29560192162171e-05

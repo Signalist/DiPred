@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "gain_changes": [],
+  "actual_public_max_error": 0.0,
+  "winner": "rescrct_block",
+  "scope": "Before development scoring; batch1 calibration refreeze only. Original batched choices retained."
+}

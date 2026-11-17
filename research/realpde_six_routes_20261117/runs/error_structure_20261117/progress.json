@@ -1,0 +1,23 @@
+{
+  "status": "active",
+  "classification": "progress",
+  "completed": [
+    "global and local target-assisted diagnostics",
+    "same-four-call deterministic representation control",
+    "single-seed global readouts and tiny local correction heads",
+    "trajectory-level observed-history evaluation and learning curves",
+    "target-free inference and actual timing",
+    "free-running rollout counterexample"
+  ],
+  "remaining": [
+    "joint low-cost generator with strong controls",
+    "online signed-state correction",
+    "active observations",
+    "compute allocation",
+    "empirical physical-task error estimation and certificate conditions",
+    "ResCrct comparison and stronger independent confirmation"
+  ],
+  "primary": "warp_F_last",
+  "source_manifest_sha256": "addb9330a402834b79caca41f563b3f88139d5f293644eca43a8ef1e91ddcea1",
+  "report_sha256": "732b7c1cc0c7a854583ad6566ce989b5bebe8289f61e3208493f741178e4bf12"
+}

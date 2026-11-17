@@ -1,0 +1,8 @@
+{
+  "coefficients": 2432,
+  "training_windows": 819,
+  "trajectory_balanced": true,
+  "common_assimilation_selection_sha256": "a7f869aa0869db043bea24067e4f3a2ed49ff2db4ac95407c965f0f102fb8e47",
+  "protocol_sha256": "4c85213f91a213dc166f48ef1e0f05c2128b2929facae38640cd2295d7addc6a",
+  "projection_sha256": "f8f058b972491e6ccef04d0bb7ebb12ba6a7c490da3414d6851b77280ec48b05"
+}

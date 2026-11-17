@@ -1,0 +1,6 @@
+{
+  "dense_F_additional_frozen_projection_bytes": 13312,
+  "projection_source": "/cpfs01/projects-HDD/cfff-3469a2cbe57f_HDD/wangxiyun/DiPred+ResCrct/Workspace/runs/error_structure_20261117/local/warp_F_last.pt",
+  "projection_source_sha256": "8116fca8fce7a3b1210446903b45a547be564cda6a7b0b554170d8e62f86f3a4",
+  "base_backbone_shared": "/cpfs01/projects-HDD/cfff-3469a2cbe57f_HDD/wangxiyun/DiPred+ResCrct/Workspace/github/DiPred/reliability/checkpoints/current.pt"
+}

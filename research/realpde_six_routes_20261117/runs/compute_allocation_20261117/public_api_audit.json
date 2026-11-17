@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "cpu_physical_and_normalized_inputs": true,
+  "budgeted_physical_conversion_max_error": 0.0,
+  "cheap_physical_conversion_max_error": 0.0,
+  "compact_cached_field_replay_max_error": 0.0,
+  "quotas_match": true
+}

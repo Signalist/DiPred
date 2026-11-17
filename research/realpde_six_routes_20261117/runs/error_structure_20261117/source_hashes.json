@@ -1,0 +1,13 @@
+{
+  "error_structure_20261117/report.py": "80b62f4ede5ef3578f387722cf2863491e3a9833862756357b9d52cb8090bf3d",
+  "error_structure_20261117/deterministic.py": "770cf537ffe569d60a78d8b93aa3758aa6065c2dae969f5dbfc128177d81ae84",
+  "error_structure_20261117/local_oracle.py": "e10bee61f40d833ef7ba95fd5788b581405d205de48b9c7a351f6e632ad7c124",
+  "error_structure_20261117/local_learn.py": "d053f86bd2f3e3020f526fd98ed1fbd750b68e644be2bc48e6d796ecd573e11f",
+  "error_structure_20261117/structure.py": "19bb4f37f54f183067c1b7cfd3274269c7c242a3023c26f40311a16644f5c194",
+  "error_structure_20261117/LOCAL_PROTOCOL.md": "9f0cf647dc2ffecce7774d80a31195feb207aebbcb3b0771f58e1cf5164cb57c",
+  "error_structure_20261117/README.md": "5db7cc80c1426164a8d8dd9fead0106cc63d959ca24177fd8b5c7d67621ac861",
+  "error_structure_20261117/inference_rollout.py": "2d8d83572c545a871c2156b1304476afa34c89612e4d0071c5d3f80b5c722b74",
+  "error_structure_20261117/audit.py": "5a8a9d6eb84c8378a1de4e41f8691b32d9caeab3ed16c8b92f6f068da08b85cc",
+  "error_structure_20261117/PROTOCOL.md": "4838529a34266b1c55511d438773439f68a3b23328c6e385b62358cc5fd3d707",
+  "error_structure_20261117/ablation.py": "339a12d39628362f27ea9ac53e1a59f8c2d48bc6dfa6c5b56007f95d51bdd433"
+}

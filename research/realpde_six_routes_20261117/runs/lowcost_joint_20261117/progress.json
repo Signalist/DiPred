@@ -1,0 +1,15 @@
+{
+  "status": "active",
+  "classification": "progress",
+  "stage": "four simple joint-dependence hypotheses tested",
+  "selected": "scorefit/ar__mixed",
+  "actual_speedup": 7.0162886063474375,
+  "scope": "near-macro-score cost tradeoff, not uniform task-quality equivalence",
+  "remaining": [
+    "online signed state",
+    "active observation value",
+    "expected compute benefit allocation",
+    "empirical task error estimation",
+    "strong correction controls and independent confirmation"
+  ]
+}

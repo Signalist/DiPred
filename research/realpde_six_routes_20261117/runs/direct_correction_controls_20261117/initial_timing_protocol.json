@@ -1,0 +1,11 @@
+{
+  "device": "NVIDIA A100-SXM4-80GB",
+  "windows": 6,
+  "repeats": 5,
+  "input": "CPU float32 physical history",
+  "output": "CPU physical future20",
+  "full": "selected gain; original backbone plus all correction operations",
+  "post": "active gain1, pooling/PCA included, original point and F already issued",
+  "phase": "before fit",
+  "seed": 42
+}

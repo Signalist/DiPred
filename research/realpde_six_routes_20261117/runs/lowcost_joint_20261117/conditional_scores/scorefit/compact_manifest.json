@@ -1,0 +1,10 @@
+{
+  "source_library_sha256": "e84a5f19768d988aa789ea0cc529bce81e5176e6369e092a601cb73dab7d3655",
+  "compact_sha256": "6528fdcbfeee30bd550d70ae6948939e4966bcf694e8463404ab571506545a2f",
+  "bytes": 10487125,
+  "fields": [
+    "pca",
+    "stats"
+  ],
+  "all_selected_inference_dependences_preserved": true
+}

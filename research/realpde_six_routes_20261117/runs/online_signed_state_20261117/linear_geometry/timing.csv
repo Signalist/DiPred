@@ -1,0 +1,3 @@
+method,field_replay_max_error,mean_mse_replay_error,max_mse_replay_error,identification_coefficient_max_error,median_predict_ms,median_reveal_identification_ms,n
+rolling,0.0,0.0,0.0,0.0,7.461302913725376,0.925709493458271,9
+rw,0.0,0.0,0.0,0.0,7.500012405216694,1.0265493765473366,9

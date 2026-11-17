@@ -1,0 +1,27 @@
+{
+  "methods": [
+    "base",
+    "pod_rw",
+    "rolling_bias",
+    "geo_shift",
+    "lin_shift",
+    "memory_gated",
+    "local_shift",
+    "geo_member_warp",
+    "lin_member_warp",
+    "local_member_warp"
+  ],
+  "calibration_windows": 90,
+  "trajectories": 10,
+  "procedure": "32node x2component quantile offsets, spatial stride4, separate fit per changed distribution; identical procedure",
+  "protocol_sha256": "7d67250143b8162e9d988344cf54fa023bf409025c13d7499b2189f4d9f6a1ec",
+  "frozen_models": {
+    "runs/online_signed_state_20261117/models.pt": "6ab0ec9dfdb1230676811513dd3ef0665f160d05fe710bb39188c1e5954f4f82",
+    "runs/online_signed_state_20261117/selection.json": "f237a6529405917fd03471a461e4bf17cf37c55cdba045d346448d4c0c6a6e8c",
+    "runs/online_signed_state_20261117/geometric/model.pt": "51cf5a99b5bebc49a30e1d6507711fb7c20095469b9ba509073bf719d1a2b519",
+    "runs/online_signed_state_20261117/geometric/selection.json": "40cd39595815a1c64620a311928ea40f80d355503dbd42889a87712e083a3886",
+    "runs/online_signed_state_20261117/linear_geometry/model.pt": "c0362c535f5cf939b54744f76bbdf340f4010ac483f0bca61ae217e8d52ac0d2",
+    "runs/online_signed_state_20261117/linear_geometry/selection.json": "a62ee1e863c5cc5b19332b592ab88b28c9d55292e7619e3a4d1da3213bdff6f1",
+    "runs/error_structure_20261117/local/warp_F_last.pt": "8116fca8fce7a3b1210446903b45a547be564cda6a7b0b554170d8e62f86f3a4"
+  }
+}

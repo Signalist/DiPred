@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "synthetic_recovery": {
+    "max_coefficient_error": 6.116926670074463e-06,
+    "median_coefficient_error": 1.5348196029663086e-06,
+    "remaining_mse_fraction": 2.0028745328914965e-10
+  },
+  "independent_numpy_mse_max_error": 6.80482513599253e-12,
+  "local_vs_global_max_error": 5.960464477539063e-08,
+  "independent_scipy_warp_max_error": 3.635883331298828e-06,
+  "exact_zero_identity": true,
+  "manifest_splits_disjoint": true,
+  "source_sha256": "19bb4f37f54f183067c1b7cfd3274269c7c242a3023c26f40311a16644f5c194",
+  "interpretation": "Known synthetic low-dimensional perturbation is identifiable here; this does not prove unique real-flow phase/amplitude decomposition."
+}

@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "actual_single_trajectory_replay_windows": 25,
+  "scenarios": 2,
+  "identifiers": 2,
+  "issued_coefficient_max_error": 0.0,
+  "mse_replay_max_error": 9.980080997729068e-17,
+  "future_feedback_preserves_issued_prefix": true,
+  "all_issue_before_full20_events": true,
+  "windows": 300,
+  "source_sha256": "5502766b6b0ed2377f58908dfa61f73b49c5703f76716146e6b9a8b2dde2769d"
+}

@@ -1,0 +1,7 @@
+{
+  "training_windows": 819,
+  "transitions": 728,
+  "max_singular_value": 0.33739446837196296,
+  "source_coefficients_sha256": "daf9bf99761e604a191a421780a8bfcda8ae008aa75a1fe98a6b5ff99a3db8d1",
+  "protocol_sha256": "9417ef53698cd7a57796353d1ba8d49648bb149e93c672220a0a2c781e361a34"
+}

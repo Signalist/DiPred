@@ -1,0 +1,54 @@
+{
+  "exploration_complete": true,
+  "scope": "Original RealPDE small data; primarily single training seed42; simple models; all six routes explored.",
+  "completed_utc": "2026-11-17T14:01:05.745879+00:00",
+  "attachment": "/cpfs01/projects-HDD/cfff-3469a2cbe57f_HDD/wangxiyun/.app/.codex-runtime/home/attachments/e8488a22-5727-49ed-b165-d54aaa9e579c/pasted-text-1.txt",
+  "attachment_sha256": "417938b89cfa0363773abb0b5454bdf8b3cdcc18dfc77420d260959bebea5007",
+  "requirements": 43,
+  "recomputed_comparisons": 94,
+  "checked_existing_hashes": 84,
+  "checks": 345,
+  "valid_local_document_links": 129,
+  "route_outcomes": {
+    "structured_correction": "Small observed-history benefit; free-rollout negative.",
+    "lowcost_joint": "Measured cost-quality tradeoff; extreme-speed degradation.",
+    "online_state": "Geometric error tracking benefit; no complex-transition advantage.",
+    "active_observation": "Three bounded mechanisms fail to establish stable VOI superiority or sensor savings.",
+    "compute_allocation": "Equal-budget mean benefit; some trajectory CIs cross zero.",
+    "physical_task_error": "Empirical task-estimation benefit; strict PDE-certificate assumptions unavailable."
+  },
+  "not_established": [
+    "Fresh independent confirmation",
+    "Unique diffusion-F advantage",
+    "Long-term autonomous dynamics improvement",
+    "Reliable VOI sensor-efficiency superiority",
+    "Strict physical or conformal error guarantee",
+    "Universal failure of any research route"
+  ],
+  "artifacts": {
+    "runs/research_completion_20261117/REPORT.md": "12f6f4e776cd81a059acda9cece5e5439904790a02e4d6d9f39172fa3f3b3f53",
+    "runs/research_completion_20261117/REQUIREMENTS.md": "8a9441575b5e993e889e3f57e382f748253b5ede77918e99d83860e71c2962a2",
+    "runs/research_completion_20261117/audit.json": "38aacc95b5fe0b420670f1a31ea0642864d9b95abdb10e2afad1d260a10278d7",
+    "runs/research_completion_20261117/conditional_mechanism_audit.json": "c47f4d44a24705f27233543c987f576b038194bf0311d86a5fca240cc992d1bd",
+    "runs/research_completion_20261117/evidence_inventory.csv": "8b6531e77291aa4639cf00b3046c39a37404028a2f135b37db7a18607c5c0546",
+    "runs/research_completion_20261117/mechanics_refresh.json": "410a262de0afcb49ccacbd05c118dcfa984f4113a02ff23794e10032d4b3a3d4",
+    "runs/research_completion_20261117/moment_ar_mechanism_audit.json": "ce321eba83debc461e5f289bd8d7bafb5e07b5d9706f76a25c5a1a791f3e3ae2",
+    "runs/research_completion_20261117/overview.pdf": "705c4a82e260e2dd72a4376cb85ff1f051e39553c08cfc38a253a82c97b33a85",
+    "runs/research_completion_20261117/overview.png": "65beaea3ba10b9d05f352f8f84d2ee32ada8bb66b7af6a45407a2267ace4d853",
+    "runs/research_completion_20261117/raw_mechanism_audit.json": "904286508232ae953f523bfd026fb7f2eacb30ce81a57ba8c807f32faab11cc0",
+    "runs/research_completion_20261117/recomputed_gains.csv": "291979fd7d240e48abea2fbcb72cc440333cce510e3334a75543531caead1282",
+    "runs/research_completion_20261117/requirements.csv": "a6a72e64f511e6d2d2247d8fc8eeea99f41d337e3d36e74520bbe431625859ef",
+    "runs/research_completion_20261117/scorefit_mechanism_audit.json": "43009dfcb3895efa8df5055d1cbe29f182b7dee0088385971c20f847e378ac96",
+    "runs/research_completion_20261117/verified_hashes.csv": "f1a89a5ad7f85887ee925a0aef6325e806869cba5dfbc4d853448268ebbcd94c"
+  },
+  "sources": {
+    "research_completion_20261117/README.md": "b54899616c3f97809e055c7c8ffed2b51d7e145ecf9455395c4fccfc9e0ff00f",
+    "research_completion_20261117/audit.py": "7aa735f875d1e16460a8781d62789f2f29b39ee8efd3b9f5db420c4afd5313a5",
+    "research_completion_20261117/finalize.py": "8f74e9af1739c4922eeccac9c148e2f304c599eed278439404b85bec25316e45",
+    "research_completion_20261117/plot.py": "0c084d0e7c67598d6cabc698f7e5b27dce053eba2f4332b088b979e94d849a12",
+    "research_completion_20261117/refresh_mechanics.py": "e0f9e73c97ade0abfedecdd67df056aeaf012eeacc455a8276c3643dd8e675d0",
+    "research_completion_20261117/requirements.tsv": "6810890d864b06a47332104a15076a5828f947e8004b3d45b52706ce61a3cc33"
+  },
+  "primary_weights_replaced": false,
+  "external_publish": false
+}

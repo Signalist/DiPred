@@ -1,0 +1,54 @@
+{
+  "passed": false,
+  "direct_stream_replay": false,
+  "actual_past_target_identification": true,
+  "rows": [
+    {
+      "method": "rolling",
+      "field_replay_max_error": 0.0011873245239257812,
+      "mean_mse_replay_error": 3.715589021643003e-09,
+      "max_mse_replay_error": 9.15315467864275e-09,
+      "identification_coefficient_max_error": 0.0033161044120788574,
+      "median_predict_ms": 8.311797864735126,
+      "median_reveal_identification_ms": 88.1621791049838,
+      "n": 9
+    },
+    {
+      "method": "rw",
+      "field_replay_max_error": 0.0014247894287109375,
+      "mean_mse_replay_error": 5.725370202627447e-09,
+      "max_mse_replay_error": 1.7258571460843086e-08,
+      "identification_coefficient_max_error": 0.0033161044120788574,
+      "median_predict_ms": 8.134063333272934,
+      "median_reveal_identification_ms": 84.77527741342783,
+      "n": 9
+    }
+  ],
+  "causal": {
+    "zero": {
+      "prefix_exact": true,
+      "trajectory_isolation_exact": true
+    },
+    "mean": {
+      "prefix_exact": true,
+      "trajectory_isolation_exact": true
+    },
+    "rolling": {
+      "prefix_exact": true,
+      "trajectory_isolation_exact": true
+    },
+    "ema": {
+      "prefix_exact": true,
+      "trajectory_isolation_exact": true
+    },
+    "rw": {
+      "prefix_exact": true,
+      "trajectory_isolation_exact": true
+    },
+    "var": {
+      "prefix_exact": true,
+      "trajectory_isolation_exact": true
+    }
+  },
+  "numerics_note": "80-step identification is batch-independent mathematically; Adam epsilon and raw backbone batch arithmetic give small floating-point replay differences. Final efficacy uses direct actual inference, not old batch-cache replay."
+}

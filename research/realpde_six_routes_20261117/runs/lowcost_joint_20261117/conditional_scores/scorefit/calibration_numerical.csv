@@ -1,0 +1,16 @@
+split,method,metric,error
+calibration,ecc32,es,4.824478455622838e-10
+calibration,ecc32,vs,3.550246832628723e-10
+calibration,ecc32,functional_crps,4.904796672977607e-09
+calibration,smooth,es,9.932621433672573e-09
+calibration,smooth,vs,8.082215799398718e-11
+calibration,smooth,functional_crps,3.0859159463880736e-09
+calibration,necc9,es,4.97914887098716e-09
+calibration,necc9,vs,8.178834692840198e-10
+calibration,necc9,functional_crps,7.254899958564209e-09
+calibration,necc_rank9,es,9.291677885436833e-09
+calibration,necc_rank9,vs,2.9668568816976215e-10
+calibration,necc_rank9,functional_crps,8.727692644983076e-09
+calibration,ar__mixed,es,1.6359191640225035e-09
+calibration,ar__mixed,vs,6.669732995068234e-11
+calibration,ar__mixed,functional_crps,6.252770756026704e-09

@@ -1,0 +1,35 @@
+{
+  "full_goal_complete": false,
+  "task_pilot": "evaluated; audit status explicit",
+  "chosen": "direct/F_det4_1500/16",
+  "protocol_sha256": "63edab4cb244c707392eff25869c28e3e3acfc4388f408fee218f7ded9527a22",
+  "additional_controls_protocol_sha256": "8e2db4a38f88c4a3e8a1315313e74cdb1a8b4ead388e5ff98c7ac753c5b11039",
+  "sources": {
+    "task_audit.py": "bb3e6832f2091d99869f82b20dfd2a44af8fb503797ace0c668cde91a550575f",
+    "report.py": "c925f066442f94e68966c1015a5fd36907fabadd25895506b7a0ebff723fcb5b",
+    "task_stream.py": "f1a19e7bfa6a35ffc088c261a0a01fcf0c1742e495cc4aa2e17730e5faa51b4c",
+    "benchmark.py": "9cb32a573c1e4decc3b28e8929bb78e975b78fff2ef989b459ed0f9fcb054e1e",
+    "task_error.py": "12c6bad7cb9ecb91287a50d3c8fc1fa4577ec40180cc9924f82998c2e844de8b",
+    "simple_controls.py": "e40b04cdfe4e803ac2900632c0083680a12df54ccf350cefa96c742c27bbde92"
+  },
+  "audit": {
+    "passed": true,
+    "checks": {
+      "frozen_hashes": true,
+      "original_primary_unchanged_after_additional_controls": true,
+      "trajectory_separation": true,
+      "signed_coordinate_stencil": true,
+      "independent_numpy_tasks_and_taylor": true,
+      "oracle_cauchy_bound": true,
+      "future_target_intervention": true,
+      "actual_batch1_public_replay": true,
+      "cpu_physical_input": true,
+      "whole_future_rejected": true
+    },
+    "numpy_max_error": 1.4210854715202004e-14,
+    "public_replay_max_error": 2.6645352591003757e-15,
+    "target_intervention_max_error": 0.0,
+    "selected": "direct/F_det4_1500/16",
+    "protocol_sha256": "63edab4cb244c707392eff25869c28e3e3acfc4388f408fee218f7ded9527a22"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "whole_trajectory_direct_inference": true,
+  "full20_registration_after_issue": true,
+  "median_identification_ms": 82.1746876463294,
+  "selection_sha256": "40cd39595815a1c64620a311928ea40f80d355503dbd42889a87712e083a3886",
+  "windows": 90
+}

@@ -1,0 +1,12 @@
+{
+  "eligible": [
+    "dense_F",
+    "additive_XP",
+    "rescrct_original",
+    "refine_two"
+  ],
+  "selected": "rescrct_original",
+  "rule": "positive selected gain; full and active-post median<=110% frozen warp; choose calibration MSE",
+  "warp_full_ms": 8.484016172587872,
+  "warp_post_ms": 0.591556541621685
+}

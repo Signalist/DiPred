@@ -1,0 +1,109 @@
+{
+  "passed": true,
+  "physical_mse_max_error": 1.0842021724855044e-19,
+  "physical_splits": {
+    "calibration": {
+      "windows": 90,
+      "physical_reconstruction_indices": [
+        0,
+        45,
+        89
+      ]
+    },
+    "development": {
+      "windows": 108,
+      "physical_reconstruction_indices": [
+        0,
+        54,
+        107
+      ]
+    },
+    "late": {
+      "windows": 120,
+      "physical_reconstruction_indices": [
+        0,
+        60,
+        119
+      ]
+    },
+    "future": {
+      "windows": 72,
+      "physical_reconstruction_indices": [
+        0,
+        36,
+        71
+      ]
+    }
+  },
+  "causal_checks": {
+    "base": {
+      "future_intervention_preserves_prefix": true,
+      "trajectory_isolation": true,
+      "early_reveal_rejected": true,
+      "skip_does_not_create_feedback": true
+    },
+    "rolling_bias": {
+      "future_intervention_preserves_prefix": true,
+      "trajectory_isolation": true,
+      "early_reveal_rejected": true,
+      "skip_does_not_create_feedback": true
+    },
+    "ema": {
+      "future_intervention_preserves_prefix": true,
+      "trajectory_isolation": true,
+      "early_reveal_rejected": true,
+      "skip_does_not_create_feedback": true
+    },
+    "static": {
+      "future_intervention_preserves_prefix": true,
+      "trajectory_isolation": true,
+      "early_reveal_rejected": true,
+      "skip_does_not_create_feedback": true
+    },
+    "var": {
+      "future_intervention_preserves_prefix": true,
+      "trajectory_isolation": true,
+      "early_reveal_rejected": true,
+      "skip_does_not_create_feedback": true
+    },
+    "rw_kalman": {
+      "future_intervention_preserves_prefix": true,
+      "trajectory_isolation": true,
+      "early_reveal_rejected": true,
+      "skip_does_not_create_feedback": true
+    },
+    "var_kalman": {
+      "future_intervention_preserves_prefix": true,
+      "trajectory_isolation": true,
+      "early_reveal_rejected": true,
+      "skip_does_not_create_feedback": true
+    },
+    "conditional_kalman": {
+      "future_intervention_preserves_prefix": true,
+      "trajectory_isolation": true,
+      "early_reveal_rejected": true,
+      "skip_does_not_create_feedback": true
+    },
+    "linear_ar": {
+      "future_intervention_preserves_prefix": true,
+      "trajectory_isolation": true,
+      "early_reveal_rejected": true,
+      "skip_does_not_create_feedback": true
+    },
+    "rnn": {
+      "future_intervention_preserves_prefix": true,
+      "trajectory_isolation": true,
+      "early_reveal_rejected": true,
+      "skip_does_not_create_feedback": true
+    }
+  },
+  "direct_normalized_field_max_error": {
+    "rolling_bias": 2.0856400206881176e-06,
+    "rw_kalman": 1.981227372382932e-06,
+    "conditional_kalman": 2.0553370347897726e-06,
+    "linear_ar": 2.1323935559536267e-06,
+    "rnn": 1.9073486328125e-06
+  },
+  "protocol_hash_matches": true,
+  "models_hash_matches": true
+}

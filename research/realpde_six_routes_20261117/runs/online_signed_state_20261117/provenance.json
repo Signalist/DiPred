@@ -1,0 +1,39 @@
+{
+  "source_files": {
+    "online_signed_state_20261117/geometric.py": "ecd7438f0d807bc282d487b2d930350da079779dda5cf8bcb35ee45ddde88b2f",
+    "online_signed_state_20261117/report.py": "c5c0cf14ec01871fdaa0f113e6a1e6f3e7c03be93867156c73ba7044714de758",
+    "online_signed_state_20261117/geometric_drift.py": "a79c48e4d41a04e056309f33a962b269a11fa2deaf57fa96c798bd28990567e4",
+    "online_signed_state_20261117/temporal_intervals.py": "accbfaa304d4b7e70426d0408091acbf9fcd052977a96a97624304c07589fd05",
+    "online_signed_state_20261117/temporal_report.py": "850cb42c89bb213bb52737d70fcf7df340c99efb2551cece0689c847a07d604a",
+    "online_signed_state_20261117/temporal_audit.py": "2965112ad179ba20e6eac752ae681ede2906337e109f9759b8904c6857a2cf02",
+    "online_signed_state_20261117/geo_inference.py": "932cadff0474b68027e7b5ad2f5245df5fb83f22696771936b69dcf63558bff4",
+    "online_signed_state_20261117/probability.py": "16a75a5b57a25370599cb95bf56bb8bb18f6056c1f2b0956ec6fd2928cb355c9",
+    "online_signed_state_20261117/controls.py": "41499328324d01d43181075f4c38fc7ab83259a8c614f81da8a042d10c26fe42",
+    "online_signed_state_20261117/predict.py": "b160d57a6fe8b2a25acfb79f876d1e29be83c1daa39df7a704bdd734735bc488",
+    "online_signed_state_20261117/state.py": "693788acb10b3ff147a9fab3371d3bb9c86ff74e42025f63071ea9f150f47eb8",
+    "online_signed_state_20261117/geometric_drift_audit.py": "5502766b6b0ed2377f58908dfa61f73b49c5703f76716146e6b9a8b2dde2769d",
+    "online_signed_state_20261117/audit.py": "e79508a5488d3ecd1a42d07a6955d2f95a22ccea06fe5023cb8b43566914a70e",
+    "online_signed_state_20261117/probability_report.py": "636f4b2a1261bda6c9e5a98647ef0f1733d69552fcd1de2f51cfdd1400ae214c",
+    "online_signed_state_20261117/probability_audit.py": "1073fcb3c819242d2337cc16b6771548c73604a4d89b44592688e165afb32784"
+  },
+  "protocols": {
+    "GEOMETRIC_DRIFT_PROTOCOL.md": "be6603c33db590a77c3fb65355e6c96272f3ece08b948ac319a4f9d27a250e9e",
+    "TEMPORAL_INTERVAL_PROTOCOL.md": "0bcd41658195ebd470e4b160adeefa4b03e377c43bc580ecfbb355a580975b77",
+    "GEOMETRIC_PROTOCOL.md": "9417ef53698cd7a57796353d1ba8d49648bb149e93c672220a0a2c781e361a34",
+    "LINEAR_PROTOCOL.md": "89b12c2f63cf63bb9b325f3503f6e041523d95e1032ace6fc123f39387da2e6f",
+    "PROTOCOL.md": "c6eaec9b11a83c1735c65b92385abac521f255d26c46a3c1048b41476cd23924",
+    "PROBABILITY_PROTOCOL.md": "7d67250143b8162e9d988344cf54fa023bf409025c13d7499b2189f4d9f6a1ec"
+  },
+  "main_model_sha256": "6ab0ec9dfdb1230676811513dd3ef0665f160d05fe710bb39188c1e5954f4f82",
+  "geometric_model_sha256": "51cf5a99b5bebc49a30e1d6507711fb7c20095469b9ba509073bf719d1a2b519",
+  "linear_geometric_model_sha256": "c0362c535f5cf939b54744f76bbdf340f4010ac483f0bca61ae217e8d52ac0d2",
+  "shared_memory_sha256": "efe28616f6a5d662de13e8c9809d0c210dff794913aecdc8b91d223e26943b9c",
+  "direct_vs_cache_base_mse_max_error": {
+    "calibration": 7.452119997475304e-11,
+    "development": 1.1264110000644423e-10,
+    "late": 1.0836200003711688e-10,
+    "future": 7.358789998797993e-11
+  },
+  "route_complete": false,
+  "full_goal_complete": false
+}

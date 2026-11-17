@@ -1,0 +1,224 @@
+{
+  "seed": 42,
+  "selection": "Only training scores select the configuration. Calibration is a gate, never used to refit these scales.",
+  "configs": [
+    {
+      "space": 0.125,
+      "temporal": 0.25,
+      "method": "ar__plain"
+    },
+    {
+      "space": 0.125,
+      "temporal": 0.25,
+      "method": "ar__mixed"
+    },
+    {
+      "space": 0.125,
+      "temporal": 0.5,
+      "method": "ar__plain"
+    },
+    {
+      "space": 0.125,
+      "temporal": 0.5,
+      "method": "ar__mixed"
+    },
+    {
+      "space": 0.125,
+      "temporal": 1.0,
+      "method": "ar__plain"
+    },
+    {
+      "space": 0.125,
+      "temporal": 1.0,
+      "method": "ar__mixed"
+    },
+    {
+      "space": 0.25,
+      "temporal": 0.25,
+      "method": "ar__plain"
+    },
+    {
+      "space": 0.25,
+      "temporal": 0.25,
+      "method": "ar__mixed"
+    },
+    {
+      "space": 0.25,
+      "temporal": 0.5,
+      "method": "ar__plain"
+    },
+    {
+      "space": 0.25,
+      "temporal": 0.5,
+      "method": "ar__mixed"
+    },
+    {
+      "space": 0.25,
+      "temporal": 1.0,
+      "method": "ar__plain"
+    },
+    {
+      "space": 0.25,
+      "temporal": 1.0,
+      "method": "ar__mixed"
+    },
+    {
+      "space": 0.5,
+      "temporal": 0.25,
+      "method": "ar__plain"
+    },
+    {
+      "space": 0.5,
+      "temporal": 0.25,
+      "method": "ar__mixed"
+    },
+    {
+      "space": 0.5,
+      "temporal": 0.5,
+      "method": "ar__plain"
+    },
+    {
+      "space": 0.5,
+      "temporal": 0.5,
+      "method": "ar__mixed"
+    },
+    {
+      "space": 0.5,
+      "temporal": 1.0,
+      "method": "ar__plain"
+    },
+    {
+      "space": 0.5,
+      "temporal": 1.0,
+      "method": "ar__mixed"
+    },
+    {
+      "space": 1.0,
+      "temporal": 0.25,
+      "method": "ar__plain"
+    },
+    {
+      "space": 1.0,
+      "temporal": 0.25,
+      "method": "ar__mixed"
+    },
+    {
+      "space": 1.0,
+      "temporal": 0.5,
+      "method": "ar__plain"
+    },
+    {
+      "space": 1.0,
+      "temporal": 0.5,
+      "method": "ar__mixed"
+    },
+    {
+      "space": 1.0,
+      "temporal": 1.0,
+      "method": "ar__plain"
+    },
+    {
+      "space": 1.0,
+      "temporal": 1.0,
+      "method": "ar__mixed"
+    }
+  ],
+  "training_windows": [
+    184,
+    594,
+    185,
+    595,
+    186,
+    596,
+    187,
+    597,
+    188,
+    598,
+    189,
+    599,
+    190,
+    600,
+    191,
+    601,
+    192,
+    602,
+    193,
+    603,
+    194,
+    604,
+    195,
+    605,
+    196,
+    606,
+    197,
+    607,
+    198,
+    608,
+    199,
+    609,
+    200,
+    610,
+    201,
+    611,
+    202,
+    612,
+    203,
+    613,
+    204,
+    614,
+    205,
+    615,
+    206,
+    616,
+    207,
+    617,
+    208,
+    618,
+    209,
+    619,
+    210,
+    620,
+    211,
+    621,
+    212,
+    622,
+    213,
+    623,
+    214,
+    624,
+    215,
+    625,
+    216,
+    626,
+    125,
+    309,
+    218,
+    627,
+    219,
+    628,
+    220,
+    629,
+    221,
+    630,
+    222,
+    631,
+    223,
+    632,
+    224,
+    633,
+    225,
+    634,
+    226,
+    635,
+    227,
+    636,
+    228,
+    637,
+    229,
+    638
+  ],
+  "trajectories": 46,
+  "window_rule": "two fixed quartile positions per training trajectory",
+  "loss": "mean of train ES/VS/functional-CRPS ratios relative to train smooth, trajectory equal",
+  "motivation": "Moment-fitted conditional covariance failed calibration; test direct scoring rule training without more model capacity."
+}

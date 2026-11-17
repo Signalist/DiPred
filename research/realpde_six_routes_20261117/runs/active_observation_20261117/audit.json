@@ -1,0 +1,130 @@
+{
+  "passed": true,
+  "numerical": {
+    "snapshots": 32,
+    "latent_max_error": 2.00036774078427e-06,
+    "mse_max_error": 1.2871836192404618e-11
+  },
+  "requests": {
+    "calibration": {
+      "windows": 90,
+      "budget_masks_valid": true,
+      "chronology_valid": true,
+      "zero_observation_exact": true
+    },
+    "development": {
+      "windows": 108,
+      "budget_masks_valid": true,
+      "chronology_valid": true,
+      "zero_observation_exact": true
+    },
+    "late": {
+      "windows": 120,
+      "budget_masks_valid": true,
+      "chronology_valid": true,
+      "zero_observation_exact": true
+    },
+    "future": {
+      "windows": 72,
+      "budget_masks_valid": true,
+      "chronology_valid": true,
+      "zero_observation_exact": true
+    }
+  },
+  "direct": [
+    {
+      "method": "uniform",
+      "index": 0,
+      "point_replay_exact": true,
+      "mask_match": true,
+      "mse_error": 3.2084744474962512e-12,
+      "early_reveal_rejected": true,
+      "full_target_rejected": true,
+      "unobserved_truth_isolation": true,
+      "selected_sensor_changes_prediction": true
+    },
+    {
+      "method": "uniform",
+      "index": 4,
+      "point_replay_exact": true,
+      "mask_match": true,
+      "mse_error": 1.068534085675978e-12,
+      "early_reveal_rejected": true,
+      "full_target_rejected": true,
+      "unobserved_truth_isolation": true,
+      "selected_sensor_changes_prediction": true
+    },
+    {
+      "method": "voi",
+      "index": 0,
+      "point_replay_exact": true,
+      "mask_match": true,
+      "mse_error": 1.7176461533478793e-12,
+      "early_reveal_rejected": true,
+      "full_target_rejected": true,
+      "unobserved_truth_isolation": true,
+      "selected_sensor_changes_prediction": true
+    },
+    {
+      "method": "voi",
+      "index": 4,
+      "point_replay_exact": true,
+      "mask_match": true,
+      "mse_error": 1.928358887230263e-12,
+      "early_reveal_rejected": true,
+      "full_target_rejected": true,
+      "unobserved_truth_isolation": true,
+      "selected_sensor_changes_prediction": true
+    },
+    {
+      "method": "variance",
+      "index": 0,
+      "point_replay_exact": true,
+      "mask_match": true,
+      "mse_error": 1.7051873693434139e-12,
+      "early_reveal_rejected": true,
+      "full_target_rejected": true,
+      "unobserved_truth_isolation": true,
+      "selected_sensor_changes_prediction": true
+    },
+    {
+      "method": "variance",
+      "index": 4,
+      "point_replay_exact": true,
+      "mask_match": true,
+      "mse_error": 4.57083667654767e-13,
+      "early_reveal_rejected": true,
+      "full_target_rejected": true,
+      "unobserved_truth_isolation": true,
+      "selected_sensor_changes_prediction": true
+    },
+    {
+      "method": "risk",
+      "index": 0,
+      "point_replay_exact": true,
+      "mask_match": true,
+      "mse_error": 1.7051873693434139e-12,
+      "early_reveal_rejected": true,
+      "full_target_rejected": true,
+      "unobserved_truth_isolation": true,
+      "selected_sensor_changes_prediction": true
+    },
+    {
+      "method": "risk",
+      "index": 4,
+      "point_replay_exact": true,
+      "mask_match": true,
+      "mse_error": 4.57083667654767e-13,
+      "early_reveal_rejected": true,
+      "full_target_rejected": true,
+      "unobserved_truth_isolation": true,
+      "selected_sensor_changes_prediction": true
+    },
+    {
+      "cpu_physical_interface": true,
+      "zero_budget_exact": true
+    }
+  ],
+  "protocol_hash_matches": true,
+  "source_sha256": "e94417a523e400fb02274c1027727bfbb99c338b624091925d560d4449cbd36d"
+}

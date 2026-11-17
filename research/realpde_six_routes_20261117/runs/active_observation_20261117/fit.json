@@ -1,0 +1,11 @@
+{
+  "seed": 42,
+  "windows": 819,
+  "trajectories": 46,
+  "uncentered_second_moment": true,
+  "trajectory_balanced": true,
+  "rank32_explained_second_moment": 0.2738079754234036,
+  "protocol_sha256": "fa3c647748d8e99f36c66b4a3ed1455be0003fa98b23f7ab512e8e7c65088e3f",
+  "train_source_sha256": "e9d3fd7b8b6a915a671936aba42018b52409689a8650f8e52a23c3b1059993a5",
+  "main_model_sha256": "834260c9838b058d3e415b1efbd3fa19f7998884a36e46d14d62b10ed3ad8cfe"
+}

@@ -1,0 +1,13 @@
+{
+  "device": "NVIDIA A100-SXM4-80GB",
+  "torch_version": "1.14.0a0+44dac51",
+  "windows": 6,
+  "repeats": 5,
+  "seed": 42,
+  "input": "CPU float32 physical history",
+  "output": "CPU task estimates",
+  "initialization_excluded": true,
+  "heads_and_joint_sampling": false,
+  "extra_four_call_backbone_for_deterministic_feature": true,
+  "selected": "direct/F_det4_1500/16"
+}

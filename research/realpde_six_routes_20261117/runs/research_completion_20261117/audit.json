@@ -1,0 +1,1702 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "check": "hash:lowcost_joint_20261117/report.py",
+      "passed": true,
+      "record": "runs/lowcost_joint_20261117/audit.json"
+    },
+    {
+      "check": "hash:lowcost_joint_20261117/scorefit.py",
+      "passed": true,
+      "record": "runs/lowcost_joint_20261117/audit.json"
+    },
+    {
+      "check": "hash:lowcost_joint_20261117/benchmark.py",
+      "passed": true,
+      "record": "runs/lowcost_joint_20261117/audit.json"
+    },
+    {
+      "check": "hash:lowcost_joint_20261117/study.py",
+      "passed": true,
+      "record": "runs/lowcost_joint_20261117/audit.json"
+    },
+    {
+      "check": "hash:lowcost_joint_20261117/calibrated.py",
+      "passed": true,
+      "record": "runs/lowcost_joint_20261117/audit.json"
+    },
+    {
+      "check": "hash:lowcost_joint_20261117/predict.py",
+      "passed": true,
+      "record": "runs/lowcost_joint_20261117/audit.json"
+    },
+    {
+      "check": "hash:lowcost_joint_20261117/audit.py",
+      "passed": true,
+      "record": "runs/lowcost_joint_20261117/audit.json"
+    },
+    {
+      "check": "hash:compute_allocation_20261117/audit_report.py",
+      "passed": true,
+      "record": "runs/compute_allocation_20261117/provenance.json"
+    },
+    {
+      "check": "hash:compute_allocation_20261117/api_audit.py",
+      "passed": true,
+      "record": "runs/compute_allocation_20261117/provenance.json"
+    },
+    {
+      "check": "hash:compute_allocation_20261117/benchmark.py",
+      "passed": true,
+      "record": "runs/compute_allocation_20261117/provenance.json"
+    },
+    {
+      "check": "hash:compute_allocation_20261117/allocation.py",
+      "passed": true,
+      "record": "runs/compute_allocation_20261117/provenance.json"
+    },
+    {
+      "check": "hash:compute_allocation_20261117/predict.py",
+      "passed": true,
+      "record": "runs/compute_allocation_20261117/provenance.json"
+    },
+    {
+      "check": "hash:compute_allocation_20261117/PROTOCOL.md",
+      "passed": true,
+      "record": "runs/compute_allocation_20261117/provenance.json"
+    },
+    {
+      "check": "hash:online_signed_state_20261117/geometric.py",
+      "passed": true,
+      "record": "runs/online_signed_state_20261117/provenance.json"
+    },
+    {
+      "check": "hash:online_signed_state_20261117/report.py",
+      "passed": true,
+      "record": "runs/online_signed_state_20261117/provenance.json"
+    },
+    {
+      "check": "hash:online_signed_state_20261117/geometric_drift.py",
+      "passed": true,
+      "record": "runs/online_signed_state_20261117/provenance.json"
+    },
+    {
+      "check": "hash:online_signed_state_20261117/temporal_intervals.py",
+      "passed": true,
+      "record": "runs/online_signed_state_20261117/provenance.json"
+    },
+    {
+      "check": "hash:online_signed_state_20261117/temporal_report.py",
+      "passed": true,
+      "record": "runs/online_signed_state_20261117/provenance.json"
+    },
+    {
+      "check": "hash:online_signed_state_20261117/temporal_audit.py",
+      "passed": true,
+      "record": "runs/online_signed_state_20261117/provenance.json"
+    },
+    {
+      "check": "hash:online_signed_state_20261117/geo_inference.py",
+      "passed": true,
+      "record": "runs/online_signed_state_20261117/provenance.json"
+    },
+    {
+      "check": "hash:online_signed_state_20261117/probability.py",
+      "passed": true,
+      "record": "runs/online_signed_state_20261117/provenance.json"
+    },
+    {
+      "check": "hash:online_signed_state_20261117/controls.py",
+      "passed": true,
+      "record": "runs/online_signed_state_20261117/provenance.json"
+    },
+    {
+      "check": "hash:online_signed_state_20261117/predict.py",
+      "passed": true,
+      "record": "runs/online_signed_state_20261117/provenance.json"
+    },
+    {
+      "check": "hash:online_signed_state_20261117/state.py",
+      "passed": true,
+      "record": "runs/online_signed_state_20261117/provenance.json"
+    },
+    {
+      "check": "hash:online_signed_state_20261117/geometric_drift_audit.py",
+      "passed": true,
+      "record": "runs/online_signed_state_20261117/provenance.json"
+    },
+    {
+      "check": "hash:online_signed_state_20261117/audit.py",
+      "passed": true,
+      "record": "runs/online_signed_state_20261117/provenance.json"
+    },
+    {
+      "check": "hash:online_signed_state_20261117/probability_report.py",
+      "passed": true,
+      "record": "runs/online_signed_state_20261117/provenance.json"
+    },
+    {
+      "check": "hash:online_signed_state_20261117/probability_audit.py",
+      "passed": true,
+      "record": "runs/online_signed_state_20261117/provenance.json"
+    },
+    {
+      "check": "hash:online_signed_state_20261117/GEOMETRIC_DRIFT_PROTOCOL.md",
+      "passed": true,
+      "record": "runs/online_signed_state_20261117/provenance.json"
+    },
+    {
+      "check": "hash:online_signed_state_20261117/TEMPORAL_INTERVAL_PROTOCOL.md",
+      "passed": true,
+      "record": "runs/online_signed_state_20261117/provenance.json"
+    },
+    {
+      "check": "hash:online_signed_state_20261117/GEOMETRIC_PROTOCOL.md",
+      "passed": true,
+      "record": "runs/online_signed_state_20261117/provenance.json"
+    },
+    {
+      "check": "hash:online_signed_state_20261117/LINEAR_PROTOCOL.md",
+      "passed": true,
+      "record": "runs/online_signed_state_20261117/provenance.json"
+    },
+    {
+      "check": "hash:online_signed_state_20261117/PROTOCOL.md",
+      "passed": true,
+      "record": "runs/online_signed_state_20261117/provenance.json"
+    },
+    {
+      "check": "hash:online_signed_state_20261117/PROBABILITY_PROTOCOL.md",
+      "passed": true,
+      "record": "runs/online_signed_state_20261117/provenance.json"
+    },
+    {
+      "check": "hash:active_observation_20261117/report.py",
+      "passed": true,
+      "record": "runs/active_observation_20261117/completion_manifest.json"
+    },
+    {
+      "check": "hash:active_observation_20261117/critic_audit.py",
+      "passed": true,
+      "record": "runs/active_observation_20261117/completion_manifest.json"
+    },
+    {
+      "check": "hash:active_observation_20261117/active_stream.py",
+      "passed": true,
+      "record": "runs/active_observation_20261117/completion_manifest.json"
+    },
+    {
+      "check": "hash:active_observation_20261117/observations.py",
+      "passed": true,
+      "record": "runs/active_observation_20261117/completion_manifest.json"
+    },
+    {
+      "check": "hash:active_observation_20261117/benchmark.py",
+      "passed": true,
+      "record": "runs/active_observation_20261117/completion_manifest.json"
+    },
+    {
+      "check": "hash:active_observation_20261117/critic.py",
+      "passed": true,
+      "record": "runs/active_observation_20261117/completion_manifest.json"
+    },
+    {
+      "check": "hash:active_observation_20261117/predictive.py",
+      "passed": true,
+      "record": "runs/active_observation_20261117/completion_manifest.json"
+    },
+    {
+      "check": "hash:active_observation_20261117/summary_report.py",
+      "passed": true,
+      "record": "runs/active_observation_20261117/completion_manifest.json"
+    },
+    {
+      "check": "hash:active_observation_20261117/audit.py",
+      "passed": true,
+      "record": "runs/active_observation_20261117/completion_manifest.json"
+    },
+    {
+      "check": "hash:active_observation_20261117/predictive_audit.py",
+      "passed": true,
+      "record": "runs/active_observation_20261117/completion_manifest.json"
+    },
+    {
+      "check": "hash:active_observation_20261117/PREDICTIVE_PROTOCOL.md",
+      "passed": true,
+      "record": "runs/active_observation_20261117/completion_manifest.json"
+    },
+    {
+      "check": "hash:active_observation_20261117/CRITIC_PROTOCOL.md",
+      "passed": true,
+      "record": "runs/active_observation_20261117/completion_manifest.json"
+    },
+    {
+      "check": "hash:active_observation_20261117/PROTOCOL.md",
+      "passed": true,
+      "record": "runs/active_observation_20261117/completion_manifest.json"
+    },
+    {
+      "check": "hash:goal_task_error_20261117/task_audit.py",
+      "passed": true,
+      "record": "runs/goal_task_error_20261117/completion_manifest.json"
+    },
+    {
+      "check": "hash:goal_task_error_20261117/report.py",
+      "passed": true,
+      "record": "runs/goal_task_error_20261117/completion_manifest.json"
+    },
+    {
+      "check": "hash:goal_task_error_20261117/task_stream.py",
+      "passed": true,
+      "record": "runs/goal_task_error_20261117/completion_manifest.json"
+    },
+    {
+      "check": "hash:goal_task_error_20261117/benchmark.py",
+      "passed": true,
+      "record": "runs/goal_task_error_20261117/completion_manifest.json"
+    },
+    {
+      "check": "hash:goal_task_error_20261117/task_error.py",
+      "passed": true,
+      "record": "runs/goal_task_error_20261117/completion_manifest.json"
+    },
+    {
+      "check": "hash:goal_task_error_20261117/simple_controls.py",
+      "passed": true,
+      "record": "runs/goal_task_error_20261117/completion_manifest.json"
+    },
+    {
+      "check": "hash:goal_task_error_20261117/PROTOCOL.md",
+      "passed": true,
+      "record": "runs/goal_task_error_20261117/completion_manifest.json"
+    },
+    {
+      "check": "hash:direct_correction_controls_20261117/rollout.py",
+      "passed": true,
+      "record": "runs/direct_correction_controls_20261117/completion_manifest.json"
+    },
+    {
+      "check": "hash:direct_correction_controls_20261117/report.py",
+      "passed": true,
+      "record": "runs/direct_correction_controls_20261117/completion_manifest.json"
+    },
+    {
+      "check": "hash:direct_correction_controls_20261117/benchmark.py",
+      "passed": true,
+      "record": "runs/direct_correction_controls_20261117/completion_manifest.json"
+    },
+    {
+      "check": "hash:direct_correction_controls_20261117/controls.py",
+      "passed": true,
+      "record": "runs/direct_correction_controls_20261117/completion_manifest.json"
+    },
+    {
+      "check": "hash:direct_correction_controls_20261117/audit.py",
+      "passed": true,
+      "record": "runs/direct_correction_controls_20261117/completion_manifest.json"
+    },
+    {
+      "check": "hash:direct_correction_controls_20261117/calibration_replay.py",
+      "passed": true,
+      "record": "runs/direct_correction_controls_20261117/completion_manifest.json"
+    },
+    {
+      "check": "hash:direct_correction_controls_20261117/PROTOCOL.md",
+      "passed": true,
+      "record": "runs/direct_correction_controls_20261117/completion_manifest.json"
+    },
+    {
+      "check": "hash:runs/compute_allocation_20261117/models.pt",
+      "passed": true,
+      "record": "runs/compute_allocation_20261117/provenance.json"
+    },
+    {
+      "check": "hash:runs/compute_allocation_20261117/selection.json",
+      "passed": true,
+      "record": "runs/compute_allocation_20261117/provenance.json"
+    },
+    {
+      "check": "hash:runs/online_signed_state_20261117/models.pt",
+      "passed": true,
+      "record": "runs/online_signed_state_20261117/provenance.json"
+    },
+    {
+      "check": "hash:runs/online_signed_state_20261117/geometric/model.pt",
+      "passed": true,
+      "record": "runs/online_signed_state_20261117/provenance.json"
+    },
+    {
+      "check": "hash:runs/online_signed_state_20261117/linear_geometry/model.pt",
+      "passed": true,
+      "record": "runs/online_signed_state_20261117/provenance.json"
+    },
+    {
+      "check": "hash:../Shared/online_residual_subspace.py",
+      "passed": true,
+      "record": "runs/online_signed_state_20261117/provenance.json"
+    },
+    {
+      "check": "hash:runs/active_observation_20261117/model.pt",
+      "passed": true,
+      "record": "runs/active_observation_20261117/selection.json"
+    },
+    {
+      "check": "hash:runs/active_observation_20261117/predictive/model.pt",
+      "passed": true,
+      "record": "runs/active_observation_20261117/predictive/selection.json"
+    },
+    {
+      "check": "hash:runs/active_observation_20261117/critic/model.pt",
+      "passed": true,
+      "record": "runs/active_observation_20261117/critic/selection.json"
+    },
+    {
+      "check": "hash:runs/goal_task_error_20261117/models.pt",
+      "passed": true,
+      "record": "runs/goal_task_error_20261117/selection.json"
+    },
+    {
+      "check": "hash:runs/direct_correction_controls_20261117/dense_F.pt",
+      "passed": true,
+      "record": "runs/direct_correction_controls_20261117/selection.json"
+    },
+    {
+      "check": "hash:runs/direct_correction_controls_20261117/additive_XP.pt",
+      "passed": true,
+      "record": "runs/direct_correction_controls_20261117/selection.json"
+    },
+    {
+      "check": "hash:runs/direct_correction_controls_20261117/rescrct_original.pt",
+      "passed": true,
+      "record": "runs/direct_correction_controls_20261117/selection.json"
+    },
+    {
+      "check": "hash:runs/direct_correction_controls_20261117/rescrct_block.pt",
+      "passed": true,
+      "record": "runs/direct_correction_controls_20261117/selection.json"
+    },
+    {
+      "check": "hash:runs/direct_correction_controls_20261117/refine_two.pt",
+      "passed": true,
+      "record": "runs/direct_correction_controls_20261117/selection.json"
+    },
+    {
+      "check": "hash:../Shared/models.py",
+      "passed": true,
+      "record": "runs/direct_correction_controls_20261117/selection.json"
+    },
+    {
+      "check": "hash:../Shared/crossfit_corrector.py",
+      "passed": true,
+      "record": "runs/direct_correction_controls_20261117/selection.json"
+    },
+    {
+      "check": "hash:runs/error_structure_20261117/local/warp_F_last.pt",
+      "passed": true,
+      "record": "runs/direct_correction_controls_20261117/selection.json"
+    },
+    {
+      "check": "hash:runs/error_structure_20261117/deterministic4/model6000.pt",
+      "passed": true,
+      "record": "runs/error_structure_20261117/deterministic4/complete.json"
+    },
+    {
+      "check": "hash:error_structure_20261117/structure.py",
+      "passed": true,
+      "record": "runs/error_structure_20261117/mechanism_audit.json"
+    },
+    {
+      "check": "hash:runs/lowcost_joint_20261117/conditional_scores/scorefit/compact_generator.pt",
+      "passed": true,
+      "record": "runs/lowcost_joint_20261117/conditional_scores/scorefit/compact_manifest.json"
+    },
+    {
+      "check": "current_dependence_mechanics",
+      "passed": true
+    },
+    {
+      "check": "hash:lowcost_joint_20261117/study.py",
+      "passed": true,
+      "record": "mechanics_refresh.json"
+    },
+    {
+      "check": "hash:lowcost_joint_20261117/audit.py",
+      "passed": true,
+      "record": "mechanics_refresh.json"
+    },
+    {
+      "check": "recorded_audit:runs/error_structure_20261117/mechanism_audit.json",
+      "passed": true
+    },
+    {
+      "check": "recorded_audit:runs/error_structure_20261117/inference_audit.json",
+      "passed": true
+    },
+    {
+      "check": "recorded_audit:runs/lowcost_joint_20261117/audit.json",
+      "passed": true
+    },
+    {
+      "check": "recorded_audit:runs/lowcost_joint_20261117/inference_audit.json",
+      "passed": true
+    },
+    {
+      "check": "recorded_audit:runs/lowcost_joint_20261117/conditional_scores/scorefit/inference_audit.json",
+      "passed": true
+    },
+    {
+      "check": "recorded_audit:runs/lowcost_joint_20261117/common_calibration/development/audit.json",
+      "passed": true
+    },
+    {
+      "check": "recorded_audit:runs/lowcost_joint_20261117/common_calibration/late/audit.json",
+      "passed": true
+    },
+    {
+      "check": "recorded_audit:runs/lowcost_joint_20261117/common_calibration/future/audit.json",
+      "passed": true
+    },
+    {
+      "check": "recorded_audit:runs/online_signed_state_20261117/audit.json",
+      "passed": true
+    },
+    {
+      "check": "recorded_audit:runs/online_signed_state_20261117/geometric/inference_audit.json",
+      "passed": true
+    },
+    {
+      "check": "recorded_audit:runs/online_signed_state_20261117/linear_geometry/inference_audit.json",
+      "passed": true
+    },
+    {
+      "check": "recorded_audit:runs/online_signed_state_20261117/probability/audit.json",
+      "passed": true
+    },
+    {
+      "check": "recorded_audit:runs/online_signed_state_20261117/temporal_intervals/audit.json",
+      "passed": true
+    },
+    {
+      "check": "recorded_audit:runs/online_signed_state_20261117/geometric_drift/audit.json",
+      "passed": true
+    },
+    {
+      "check": "recorded_audit:runs/active_observation_20261117/audit.json",
+      "passed": true
+    },
+    {
+      "check": "recorded_audit:runs/active_observation_20261117/predictive/audit.json",
+      "passed": true
+    },
+    {
+      "check": "recorded_audit:runs/active_observation_20261117/critic/audit.json",
+      "passed": true
+    },
+    {
+      "check": "recorded_audit:runs/compute_allocation_20261117/accounting_audit.json",
+      "passed": true
+    },
+    {
+      "check": "recorded_audit:runs/compute_allocation_20261117/dispatch_audit.json",
+      "passed": true
+    },
+    {
+      "check": "recorded_audit:runs/compute_allocation_20261117/public_api_audit.json",
+      "passed": true
+    },
+    {
+      "check": "recorded_audit:runs/goal_task_error_20261117/audit.json",
+      "passed": true
+    },
+    {
+      "check": "recorded_audit:runs/direct_correction_controls_20261117/audit.json",
+      "passed": true
+    },
+    {
+      "check": "trajectory_count:structured/development",
+      "passed": true,
+      "n": 12
+    },
+    {
+      "check": "stored_structure_gain",
+      "passed": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "trajectory_count:structured/development",
+      "passed": true,
+      "n": 12
+    },
+    {
+      "check": "stored_structure_gain",
+      "passed": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "trajectory_count:structured/development",
+      "passed": true,
+      "n": 12
+    },
+    {
+      "check": "trajectory_count:structured/late",
+      "passed": true,
+      "n": 12
+    },
+    {
+      "check": "stored_structure_gain",
+      "passed": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "trajectory_count:structured/late",
+      "passed": true,
+      "n": 12
+    },
+    {
+      "check": "stored_structure_gain",
+      "passed": true,
+      "absolute_difference": 8.326672684688674e-17
+    },
+    {
+      "check": "trajectory_count:structured/late",
+      "passed": true,
+      "n": 12
+    },
+    {
+      "check": "trajectory_count:structured/future",
+      "passed": true,
+      "n": 12
+    },
+    {
+      "check": "stored_structure_gain",
+      "passed": true,
+      "absolute_difference": 5.551115123125783e-17
+    },
+    {
+      "check": "trajectory_count:structured/future",
+      "passed": true,
+      "n": 12
+    },
+    {
+      "check": "stored_structure_gain",
+      "passed": true,
+      "absolute_difference": 5.551115123125783e-17
+    },
+    {
+      "check": "trajectory_count:structured/future",
+      "passed": true,
+      "n": 12
+    },
+    {
+      "check": "trajectory_count:free_200/continuous",
+      "passed": true,
+      "n": 12
+    },
+    {
+      "check": "trajectory_count:free_200/continuous",
+      "passed": true,
+      "n": 12
+    },
+    {
+      "check": "trajectory_count:free_200/continuous",
+      "passed": true,
+      "n": 12
+    },
+    {
+      "check": "trajectory_count:free_200/continuous",
+      "passed": true,
+      "n": 12
+    },
+    {
+      "check": "trajectory_count:free_200/continuous",
+      "passed": true,
+      "n": 12
+    },
+    {
+      "check": "trajectory_count:free_200/continuous",
+      "passed": true,
+      "n": 12
+    },
+    {
+      "check": "trajectory_count:free_200/continuous",
+      "passed": true,
+      "n": 12
+    },
+    {
+      "check": "trajectory_count:free_200/continuous",
+      "passed": true,
+      "n": 12
+    },
+    {
+      "check": "actual_cost_selection",
+      "passed": true,
+      "selected": "rescrct_original"
+    },
+    {
+      "check": "trajectory_count:task_error/development",
+      "passed": true,
+      "n": 12
+    },
+    {
+      "check": "stored_task_gain",
+      "passed": true,
+      "absolute_difference": 7.105427357601002e-15
+    },
+    {
+      "check": "trajectory_count:task_error/development",
+      "passed": true,
+      "n": 12
+    },
+    {
+      "check": "stored_task_gain",
+      "passed": true,
+      "absolute_difference": 7.105427357601002e-15
+    },
+    {
+      "check": "trajectory_count:task_error/development",
+      "passed": true,
+      "n": 12
+    },
+    {
+      "check": "stored_task_gain",
+      "passed": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "trajectory_count:task_error/development",
+      "passed": true,
+      "n": 12
+    },
+    {
+      "check": "stored_task_gain",
+      "passed": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "trajectory_count:task_component/development",
+      "passed": true,
+      "n": 12
+    },
+    {
+      "check": "trajectory_count:task_component/development",
+      "passed": true,
+      "n": 12
+    },
+    {
+      "check": "trajectory_count:task_component/development",
+      "passed": true,
+      "n": 12
+    },
+    {
+      "check": "trajectory_count:task_component/development",
+      "passed": true,
+      "n": 12
+    },
+    {
+      "check": "trajectory_count:task_error/late",
+      "passed": true,
+      "n": 12
+    },
+    {
+      "check": "stored_task_gain",
+      "passed": true,
+      "absolute_difference": 7.105427357601002e-15
+    },
+    {
+      "check": "trajectory_count:task_error/late",
+      "passed": true,
+      "n": 12
+    },
+    {
+      "check": "stored_task_gain",
+      "passed": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "trajectory_count:task_error/late",
+      "passed": true,
+      "n": 12
+    },
+    {
+      "check": "stored_task_gain",
+      "passed": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "trajectory_count:task_error/late",
+      "passed": true,
+      "n": 12
+    },
+    {
+      "check": "stored_task_gain",
+      "passed": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "trajectory_count:task_component/late",
+      "passed": true,
+      "n": 12
+    },
+    {
+      "check": "trajectory_count:task_component/late",
+      "passed": true,
+      "n": 12
+    },
+    {
+      "check": "trajectory_count:task_component/late",
+      "passed": true,
+      "n": 12
+    },
+    {
+      "check": "trajectory_count:task_component/late",
+      "passed": true,
+      "n": 12
+    },
+    {
+      "check": "trajectory_count:task_error/future",
+      "passed": true,
+      "n": 12
+    },
+    {
+      "check": "stored_task_gain",
+      "passed": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "trajectory_count:task_error/future",
+      "passed": true,
+      "n": 12
+    },
+    {
+      "check": "stored_task_gain",
+      "passed": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "trajectory_count:task_error/future",
+      "passed": true,
+      "n": 12
+    },
+    {
+      "check": "stored_task_gain",
+      "passed": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "trajectory_count:task_error/future",
+      "passed": true,
+      "n": 12
+    },
+    {
+      "check": "stored_task_gain",
+      "passed": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "trajectory_count:task_component/future",
+      "passed": true,
+      "n": 12
+    },
+    {
+      "check": "trajectory_count:task_component/future",
+      "passed": true,
+      "n": 12
+    },
+    {
+      "check": "trajectory_count:task_component/future",
+      "passed": true,
+      "n": 12
+    },
+    {
+      "check": "trajectory_count:task_component/future",
+      "passed": true,
+      "n": 12
+    },
+    {
+      "check": "trajectory_count:lowcost/development",
+      "passed": true,
+      "n": 12
+    },
+    {
+      "check": "predeclared_macro_quality_gate:es/development",
+      "passed": true
+    },
+    {
+      "check": "trajectory_count:lowcost/development",
+      "passed": true,
+      "n": 12
+    },
+    {
+      "check": "predeclared_macro_quality_gate:vs/development",
+      "passed": true
+    },
+    {
+      "check": "trajectory_count:lowcost/development",
+      "passed": true,
+      "n": 12
+    },
+    {
+      "check": "predeclared_macro_quality_gate:functional_crps/development",
+      "passed": true
+    },
+    {
+      "check": "trajectory_count:lowcost/development",
+      "passed": true,
+      "n": 12
+    },
+    {
+      "check": "trajectory_count:allocation_half/development",
+      "passed": true,
+      "n": 12
+    },
+    {
+      "check": "stored_allocation_gain",
+      "passed": true,
+      "absolute_difference": 1.0658141036401503e-14
+    },
+    {
+      "check": "trajectory_count:allocation_half/development",
+      "passed": true,
+      "n": 12
+    },
+    {
+      "check": "stored_allocation_gain",
+      "passed": true,
+      "absolute_difference": 2.4868995751603507e-14
+    },
+    {
+      "check": "trajectory_count:allocation_half/development",
+      "passed": true,
+      "n": 12
+    },
+    {
+      "check": "stored_allocation_gain",
+      "passed": true,
+      "absolute_difference": 2.708944180085382e-14
+    },
+    {
+      "check": "trajectory_count:lowcost/late",
+      "passed": true,
+      "n": 12
+    },
+    {
+      "check": "predeclared_macro_quality_gate:es/late",
+      "passed": true
+    },
+    {
+      "check": "trajectory_count:lowcost/late",
+      "passed": true,
+      "n": 12
+    },
+    {
+      "check": "predeclared_macro_quality_gate:vs/late",
+      "passed": true
+    },
+    {
+      "check": "trajectory_count:lowcost/late",
+      "passed": true,
+      "n": 12
+    },
+    {
+      "check": "predeclared_macro_quality_gate:functional_crps/late",
+      "passed": true
+    },
+    {
+      "check": "trajectory_count:lowcost/late",
+      "passed": true,
+      "n": 12
+    },
+    {
+      "check": "trajectory_count:allocation_half/late",
+      "passed": true,
+      "n": 12
+    },
+    {
+      "check": "stored_allocation_gain",
+      "passed": true,
+      "absolute_difference": 8.881784197001252e-16
+    },
+    {
+      "check": "trajectory_count:allocation_half/late",
+      "passed": true,
+      "n": 12
+    },
+    {
+      "check": "stored_allocation_gain",
+      "passed": true,
+      "absolute_difference": 1.5987211554602254e-14
+    },
+    {
+      "check": "trajectory_count:allocation_half/late",
+      "passed": true,
+      "n": 12
+    },
+    {
+      "check": "stored_allocation_gain",
+      "passed": true,
+      "absolute_difference": 1.4210854715202004e-14
+    },
+    {
+      "check": "trajectory_count:lowcost/future",
+      "passed": true,
+      "n": 12
+    },
+    {
+      "check": "predeclared_macro_quality_gate:es/future",
+      "passed": true
+    },
+    {
+      "check": "trajectory_count:lowcost/future",
+      "passed": true,
+      "n": 12
+    },
+    {
+      "check": "predeclared_macro_quality_gate:vs/future",
+      "passed": true
+    },
+    {
+      "check": "trajectory_count:lowcost/future",
+      "passed": true,
+      "n": 12
+    },
+    {
+      "check": "predeclared_macro_quality_gate:functional_crps/future",
+      "passed": true
+    },
+    {
+      "check": "trajectory_count:lowcost/future",
+      "passed": true,
+      "n": 12
+    },
+    {
+      "check": "trajectory_count:allocation_half/future",
+      "passed": true,
+      "n": 12
+    },
+    {
+      "check": "stored_allocation_gain",
+      "passed": true,
+      "absolute_difference": 2.886579864025407e-14
+    },
+    {
+      "check": "trajectory_count:allocation_half/future",
+      "passed": true,
+      "n": 12
+    },
+    {
+      "check": "stored_allocation_gain",
+      "passed": true,
+      "absolute_difference": 4.3520742565306136e-14
+    },
+    {
+      "check": "trajectory_count:allocation_half/future",
+      "passed": true,
+      "n": 12
+    },
+    {
+      "check": "stored_allocation_gain",
+      "passed": true,
+      "absolute_difference": 4.1744385725905886e-14
+    },
+    {
+      "check": "trajectory_count:online_natural/development",
+      "passed": true,
+      "n": 12
+    },
+    {
+      "check": "trajectory_count:online_natural/development",
+      "passed": true,
+      "n": 12
+    },
+    {
+      "check": "trajectory_count:online_natural/development",
+      "passed": true,
+      "n": 12
+    },
+    {
+      "check": "trajectory_count:online_natural/development",
+      "passed": true,
+      "n": 12
+    },
+    {
+      "check": "trajectory_count:online_natural/development",
+      "passed": true,
+      "n": 12
+    },
+    {
+      "check": "trajectory_count:online_natural/development",
+      "passed": true,
+      "n": 12
+    },
+    {
+      "check": "trajectory_count:online_natural/late",
+      "passed": true,
+      "n": 12
+    },
+    {
+      "check": "trajectory_count:online_natural/late",
+      "passed": true,
+      "n": 12
+    },
+    {
+      "check": "trajectory_count:online_natural/late",
+      "passed": true,
+      "n": 12
+    },
+    {
+      "check": "trajectory_count:online_natural/late",
+      "passed": true,
+      "n": 12
+    },
+    {
+      "check": "trajectory_count:online_natural/late",
+      "passed": true,
+      "n": 12
+    },
+    {
+      "check": "trajectory_count:online_natural/late",
+      "passed": true,
+      "n": 12
+    },
+    {
+      "check": "trajectory_count:online_natural/future",
+      "passed": true,
+      "n": 12
+    },
+    {
+      "check": "trajectory_count:online_natural/future",
+      "passed": true,
+      "n": 12
+    },
+    {
+      "check": "trajectory_count:online_natural/future",
+      "passed": true,
+      "n": 12
+    },
+    {
+      "check": "trajectory_count:online_natural/future",
+      "passed": true,
+      "n": 12
+    },
+    {
+      "check": "trajectory_count:online_natural/future",
+      "passed": true,
+      "n": 12
+    },
+    {
+      "check": "trajectory_count:online_natural/future",
+      "passed": true,
+      "n": 12
+    },
+    {
+      "check": "trajectory_count:online_probability/development",
+      "passed": true,
+      "n": 12
+    },
+    {
+      "check": "trajectory_count:online_probability/late",
+      "passed": true,
+      "n": 12
+    },
+    {
+      "check": "trajectory_count:online_probability/future",
+      "passed": true,
+      "n": 12
+    },
+    {
+      "check": "trajectory_count:injected_geometry/step",
+      "passed": true,
+      "n": 12
+    },
+    {
+      "check": "trajectory_count:injected_geometry/ramp",
+      "passed": true,
+      "n": 12
+    },
+    {
+      "check": "trajectory_count:observation_equal8/development",
+      "passed": true,
+      "n": 12
+    },
+    {
+      "check": "trajectory_count:observation_equal8/development",
+      "passed": true,
+      "n": 12
+    },
+    {
+      "check": "trajectory_count:observation_8_vs_32/development",
+      "passed": true,
+      "n": 12
+    },
+    {
+      "check": "stored_observation_efficiency",
+      "passed": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "no_confirmed_75pct_sensor_savings:development",
+      "passed": true
+    },
+    {
+      "check": "trajectory_count:observation_equal8/late",
+      "passed": true,
+      "n": 12
+    },
+    {
+      "check": "trajectory_count:observation_equal8/late",
+      "passed": true,
+      "n": 12
+    },
+    {
+      "check": "trajectory_count:observation_8_vs_32/late",
+      "passed": true,
+      "n": 12
+    },
+    {
+      "check": "stored_observation_efficiency",
+      "passed": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "no_confirmed_75pct_sensor_savings:late",
+      "passed": true
+    },
+    {
+      "check": "trajectory_count:observation_equal8/future",
+      "passed": true,
+      "n": 12
+    },
+    {
+      "check": "trajectory_count:observation_equal8/future",
+      "passed": true,
+      "n": 12
+    },
+    {
+      "check": "trajectory_count:observation_8_vs_32/future",
+      "passed": true,
+      "n": 12
+    },
+    {
+      "check": "stored_observation_efficiency",
+      "passed": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "no_confirmed_75pct_sensor_savings:future",
+      "passed": true
+    },
+    {
+      "check": "requirements_complete_inventory",
+      "passed": true,
+      "rows": 43
+    },
+    {
+      "check": "evidence:S01",
+      "passed": true,
+      "path": "error_structure_20261117/PROTOCOL.md"
+    },
+    {
+      "check": "evidence:S01",
+      "passed": true,
+      "path": "direct_correction_controls_20261117/PROTOCOL.md"
+    },
+    {
+      "check": "evidence:S01",
+      "passed": true,
+      "path": "goal_task_error_20261117/PROTOCOL.md"
+    },
+    {
+      "check": "evidence:S02",
+      "passed": true,
+      "path": "runs/error_structure_20261117/REPORT.md"
+    },
+    {
+      "check": "evidence:S02",
+      "passed": true,
+      "path": "runs/lowcost_joint_20261117/REPORT.md"
+    },
+    {
+      "check": "evidence:S02",
+      "passed": true,
+      "path": "runs/online_signed_state_20261117/REPORT.md"
+    },
+    {
+      "check": "evidence:S02",
+      "passed": true,
+      "path": "runs/active_observation_20261117/REPORT.md"
+    },
+    {
+      "check": "evidence:S02",
+      "passed": true,
+      "path": "runs/compute_allocation_20261117/REPORT.md"
+    },
+    {
+      "check": "evidence:S02",
+      "passed": true,
+      "path": "runs/goal_task_error_20261117/REPORT.md"
+    },
+    {
+      "check": "evidence:F01",
+      "passed": true,
+      "path": "runs/error_structure_20261117/ablation_summary.csv"
+    },
+    {
+      "check": "evidence:F01",
+      "passed": true,
+      "path": "runs/goal_task_error_20261117/REPORT.md"
+    },
+    {
+      "check": "evidence:F02",
+      "passed": true,
+      "path": "error_structure_20261117/deterministic.py"
+    },
+    {
+      "check": "evidence:F02",
+      "passed": true,
+      "path": "runs/error_structure_20261117/deterministic4/complete.json"
+    },
+    {
+      "check": "evidence:F03",
+      "passed": true,
+      "path": "runs/error_structure_20261117/selection_grid.csv"
+    },
+    {
+      "check": "evidence:F03",
+      "passed": true,
+      "path": "runs/goal_task_error_20261117/selection_grid.csv"
+    },
+    {
+      "check": "evidence:F04",
+      "passed": true,
+      "path": "runs/error_structure_20261117/learning_curve.csv"
+    },
+    {
+      "check": "evidence:R11",
+      "passed": true,
+      "path": "runs/error_structure_20261117/calibration_oracle.csv"
+    },
+    {
+      "check": "evidence:R11",
+      "passed": true,
+      "path": "runs/error_structure_20261117/calibration_oracle4.csv"
+    },
+    {
+      "check": "evidence:R11",
+      "passed": true,
+      "path": "runs/error_structure_20261117/calibration_local_oracle.csv"
+    },
+    {
+      "check": "evidence:R12",
+      "passed": true,
+      "path": "runs/error_structure_20261117/local/selection.json"
+    },
+    {
+      "check": "evidence:R12",
+      "passed": true,
+      "path": "runs/direct_correction_controls_20261117/all_trajectories.csv"
+    },
+    {
+      "check": "evidence:R13",
+      "passed": true,
+      "path": "runs/direct_correction_controls_20261117/REPORT.md"
+    },
+    {
+      "check": "evidence:R13",
+      "passed": true,
+      "path": "runs/direct_correction_controls_20261117/budget_selection.json"
+    },
+    {
+      "check": "evidence:R14",
+      "passed": true,
+      "path": "runs/error_structure_20261117/mechanism_audit.json"
+    },
+    {
+      "check": "evidence:R15",
+      "passed": true,
+      "path": "runs/direct_correction_controls_20261117/physical_tasks.csv"
+    },
+    {
+      "check": "evidence:R15",
+      "passed": true,
+      "path": "runs/online_signed_state_20261117/probability/REPORT.md"
+    },
+    {
+      "check": "evidence:R15",
+      "passed": true,
+      "path": "runs/lowcost_joint_20261117/REPORT.md"
+    },
+    {
+      "check": "evidence:R16",
+      "passed": true,
+      "path": "runs/direct_correction_controls_20261117/by_re.csv"
+    },
+    {
+      "check": "evidence:R16",
+      "passed": true,
+      "path": "runs/direct_correction_controls_20261117/rollout_paired.csv"
+    },
+    {
+      "check": "evidence:R21",
+      "passed": true,
+      "path": "runs/lowcost_joint_20261117/audit.json"
+    },
+    {
+      "check": "evidence:R22",
+      "passed": true,
+      "path": "runs/lowcost_joint_20261117/stage_gains.csv"
+    },
+    {
+      "check": "evidence:R22",
+      "passed": true,
+      "path": "lowcost_joint_20261117/CONDITIONAL_PROTOCOL.md"
+    },
+    {
+      "check": "evidence:R22",
+      "passed": true,
+      "path": "lowcost_joint_20261117/AR_PROTOCOL.md"
+    },
+    {
+      "check": "evidence:R23",
+      "passed": true,
+      "path": "runs/lowcost_joint_20261117/conditional_scores/scorefit/train_grid.csv"
+    },
+    {
+      "check": "evidence:R23",
+      "passed": true,
+      "path": "runs/lowcost_joint_20261117/conditional_scores/scorefit/selection.json"
+    },
+    {
+      "check": "evidence:R24",
+      "passed": true,
+      "path": "runs/lowcost_joint_20261117/REPORT.md"
+    },
+    {
+      "check": "evidence:R24",
+      "passed": true,
+      "path": "lowcost_joint_20261117/audit.py"
+    },
+    {
+      "check": "evidence:R25",
+      "passed": true,
+      "path": "runs/research_completion_20261117/mechanics_refresh.json"
+    },
+    {
+      "check": "evidence:R25",
+      "passed": true,
+      "path": "runs/lowcost_joint_20261117/conditional_scores/scorefit/development_numerical.csv"
+    },
+    {
+      "check": "evidence:R26",
+      "passed": true,
+      "path": "runs/lowcost_joint_20261117/conditional_scores/scorefit/timing.csv"
+    },
+    {
+      "check": "evidence:R26",
+      "passed": true,
+      "path": "runs/lowcost_joint_20261117/paired.csv"
+    },
+    {
+      "check": "evidence:R31",
+      "passed": true,
+      "path": "online_signed_state_20261117/PROTOCOL.md"
+    },
+    {
+      "check": "evidence:R31",
+      "passed": true,
+      "path": "runs/online_signed_state_20261117/audit.json"
+    },
+    {
+      "check": "evidence:R32",
+      "passed": true,
+      "path": "runs/online_signed_state_20261117/natural_gains.csv"
+    },
+    {
+      "check": "evidence:R32",
+      "passed": true,
+      "path": "runs/online_signed_state_20261117/by_re.csv"
+    },
+    {
+      "check": "evidence:R33",
+      "passed": true,
+      "path": "runs/online_signed_state_20261117/drift_recovery_curves.csv"
+    },
+    {
+      "check": "evidence:R33",
+      "passed": true,
+      "path": "runs/online_signed_state_20261117/geometric_drift/recovery_curve.csv"
+    },
+    {
+      "check": "evidence:R33",
+      "passed": true,
+      "path": "runs/online_signed_state_20261117/geometric_drift/REPORT.md"
+    },
+    {
+      "check": "evidence:R34",
+      "passed": true,
+      "path": "runs/online_signed_state_20261117/probability/REPORT.md"
+    },
+    {
+      "check": "evidence:R34",
+      "passed": true,
+      "path": "runs/online_signed_state_20261117/rollout_summary.csv"
+    },
+    {
+      "check": "evidence:R35",
+      "passed": true,
+      "path": "runs/online_signed_state_20261117/temporal_intervals/REPORT.md"
+    },
+    {
+      "check": "evidence:R35",
+      "passed": true,
+      "path": "runs/online_signed_state_20261117/temporal_intervals/audit.json"
+    },
+    {
+      "check": "evidence:R36",
+      "passed": true,
+      "path": "runs/online_signed_state_20261117/REPORT.md"
+    },
+    {
+      "check": "evidence:R36",
+      "passed": true,
+      "path": "runs/online_signed_state_20261117/geometric_drift/REPORT.md"
+    },
+    {
+      "check": "evidence:R41",
+      "passed": true,
+      "path": "runs/active_observation_20261117/REPORT.md"
+    },
+    {
+      "check": "evidence:R41",
+      "passed": true,
+      "path": "runs/active_observation_20261117/predictive_and_critic_summary.csv"
+    },
+    {
+      "check": "evidence:R42",
+      "passed": true,
+      "path": "runs/active_observation_20261117/audit.json"
+    },
+    {
+      "check": "evidence:R42",
+      "passed": true,
+      "path": "runs/active_observation_20261117/predictive/audit.json"
+    },
+    {
+      "check": "evidence:R42",
+      "passed": true,
+      "path": "runs/active_observation_20261117/critic/audit.json"
+    },
+    {
+      "check": "evidence:R43",
+      "passed": true,
+      "path": "runs/active_observation_20261117/observation_efficiency.csv"
+    },
+    {
+      "check": "evidence:R43",
+      "passed": true,
+      "path": "runs/active_observation_20261117/same_loss_observation_budget.csv"
+    },
+    {
+      "check": "evidence:R44",
+      "passed": true,
+      "path": "runs/active_observation_20261117/critic/audit.json"
+    },
+    {
+      "check": "evidence:R44",
+      "passed": true,
+      "path": "runs/active_observation_20261117/timing.csv"
+    },
+    {
+      "check": "evidence:R51",
+      "passed": true,
+      "path": "runs/compute_allocation_20261117/selection.json"
+    },
+    {
+      "check": "evidence:R51",
+      "passed": true,
+      "path": "runs/compute_allocation_20261117/development_issue_audit.json"
+    },
+    {
+      "check": "evidence:R52",
+      "passed": true,
+      "path": "runs/compute_allocation_20261117/paired.csv"
+    },
+    {
+      "check": "evidence:R52",
+      "passed": true,
+      "path": "runs/compute_allocation_20261117/task_gains.csv"
+    },
+    {
+      "check": "evidence:R53",
+      "passed": true,
+      "path": "runs/compute_allocation_20261117/accounting_audit.json"
+    },
+    {
+      "check": "evidence:R53",
+      "passed": true,
+      "path": "runs/compute_allocation_20261117/dispatch_audit.json"
+    },
+    {
+      "check": "evidence:R53",
+      "passed": true,
+      "path": "runs/compute_allocation_20261117/timing.csv"
+    },
+    {
+      "check": "evidence:R54",
+      "passed": true,
+      "path": "compute_allocation_20261117/PROTOCOL.md"
+    },
+    {
+      "check": "evidence:R54",
+      "passed": true,
+      "path": "runs/compute_allocation_20261117/REPORT.md"
+    },
+    {
+      "check": "evidence:R61",
+      "passed": true,
+      "path": "runs/goal_task_error_20261117/REPORT.md"
+    },
+    {
+      "check": "evidence:R61",
+      "passed": true,
+      "path": "runs/goal_task_error_20261117/coordinates.json"
+    },
+    {
+      "check": "evidence:R62",
+      "passed": true,
+      "path": "runs/goal_task_error_20261117/audit.json"
+    },
+    {
+      "check": "evidence:R62",
+      "passed": true,
+      "path": "runs/goal_task_error_20261117/selection_grid.csv"
+    },
+    {
+      "check": "evidence:R63",
+      "passed": true,
+      "path": "runs/goal_task_error_20261117/paired_gains.csv"
+    },
+    {
+      "check": "evidence:R63",
+      "passed": true,
+      "path": "goal_task_error_20261117/SIMPLE_CONTROL_ADDENDUM.md"
+    },
+    {
+      "check": "evidence:R64",
+      "passed": true,
+      "path": "runs/goal_task_error_20261117/REPORT.md"
+    },
+    {
+      "check": "evidence:R64",
+      "passed": true,
+      "path": "runs/goal_task_error_20261117/coordinates.json"
+    },
+    {
+      "check": "evidence:R65",
+      "passed": true,
+      "path": "runs/goal_task_error_20261117/empirical_bounds.csv"
+    },
+    {
+      "check": "evidence:C01",
+      "passed": true,
+      "path": "runs/lowcost_joint_20261117/common_calibration/development/audit.json"
+    },
+    {
+      "check": "evidence:C01",
+      "passed": true,
+      "path": "runs/online_signed_state_20261117/probability/audit.json"
+    },
+    {
+      "check": "evidence:C01",
+      "passed": true,
+      "path": "runs/compute_allocation_20261117/public_api_audit.json"
+    },
+    {
+      "check": "evidence:C02",
+      "passed": true,
+      "path": "runs/direct_correction_controls_20261117/paired_gains.csv"
+    },
+    {
+      "check": "evidence:C02",
+      "passed": true,
+      "path": "runs/compute_allocation_20261117/by_re.csv"
+    },
+    {
+      "check": "evidence:C02",
+      "passed": true,
+      "path": "runs/goal_task_error_20261117/by_re.csv"
+    },
+    {
+      "check": "evidence:C03",
+      "passed": true,
+      "path": "runs/direct_correction_controls_20261117/REPORT.md"
+    },
+    {
+      "check": "evidence:C03",
+      "passed": true,
+      "path": "runs/goal_task_error_20261117/REPORT.md"
+    },
+    {
+      "check": "evidence:C04",
+      "passed": true,
+      "path": "runs/direct_correction_controls_20261117/rollout_summary.csv"
+    },
+    {
+      "check": "evidence:C04",
+      "passed": true,
+      "path": "runs/active_observation_20261117/REPORT.md"
+    },
+    {
+      "check": "evidence:C05",
+      "passed": true,
+      "path": "lowcost_joint_20261117/PROTOCOL.md"
+    },
+    {
+      "check": "evidence:C05",
+      "passed": true,
+      "path": "active_observation_20261117/CRITIC_PROTOCOL.md"
+    },
+    {
+      "check": "evidence:C05",
+      "passed": true,
+      "path": "goal_task_error_20261117/SIMPLE_CONTROL_ADDENDUM.md"
+    },
+    {
+      "check": "evidence:C06",
+      "passed": true,
+      "path": "direct_correction_controls_20261117/README.md"
+    },
+    {
+      "check": "evidence:C06",
+      "passed": true,
+      "path": "lowcost_joint_20261117/README.md"
+    },
+    {
+      "check": "evidence:C06",
+      "passed": true,
+      "path": "online_signed_state_20261117/README.md"
+    },
+    {
+      "check": "evidence:C06",
+      "passed": true,
+      "path": "active_observation_20261117/README.md"
+    },
+    {
+      "check": "evidence:C06",
+      "passed": true,
+      "path": "compute_allocation_20261117/README.md"
+    },
+    {
+      "check": "evidence:C06",
+      "passed": true,
+      "path": "goal_task_error_20261117/README.md"
+    }
+  ],
+  "verified_existing_hashes": 84,
+  "recomputed_comparisons": 94,
+  "evidence_metadata_files": 547,
+  "claims": "Bounded original-data exploration; not independent statistical confirmation.",
+  "historical_records": "Early progress/full_goal_complete=false fields and pre-optimization source hashes are preserved snapshots, superseded by the final integration report.",
+  "source_sha256": "7aa735f875d1e16460a8781d62789f2f29b39ee8efd3b9f5db420c4afd5313a5",
+  "requirements_sha256": "6810890d864b06a47332104a15076a5828f947e8004b3d45b52706ce61a3cc33"
+}

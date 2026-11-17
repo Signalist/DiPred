@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "independently_indexed_acmcp_max_error": 1.7763568394002505e-15,
+  "saved_temporal_interval_replay_max_error": 0.0,
+  "future_residual_intervention_preserves_prefix": true,
+  "next_prediction_changes_after_intervention": true,
+  "common_full20_events_verified": true,
+  "trajectories": 12,
+  "windows_per_trajectory": 41,
+  "common_warmup": 10,
+  "scored_per_trajectory": 31,
+  "limitations": "No R runtime was available; reference audit is an independently indexed Python translation of the downloaded R recurrence. QRF is disclosed leaf-weighted adaptation, not author-package identity.",
+  "source_sha256": "2965112ad179ba20e6eac752ae681ede2906337e109f9759b8904c6857a2cf02"
+}

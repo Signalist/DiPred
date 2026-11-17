@@ -1,0 +1,78 @@
+{
+  "collection_file_bytes": 12150963,
+  "per_method": {
+    "base": {
+      "tensor_bytes": 0,
+      "readout_parameters": 0
+    },
+    "mean": {
+      "tensor_bytes": 32,
+      "readout_parameters": 4
+    },
+    "direct/P/16": {
+      "tensor_bytes": 37536,
+      "readout_parameters": 68
+    },
+    "direct/X+P/16": {
+      "tensor_bytes": 74400,
+      "readout_parameters": 68
+    },
+    "direct/F_last/16": {
+      "tensor_bytes": 221856,
+      "readout_parameters": 68
+    },
+    "direct/F_det4_1500/16": {
+      "tensor_bytes": 221856,
+      "readout_parameters": 68
+    },
+    "direct/F_det4_6000/16": {
+      "tensor_bytes": 221856,
+      "readout_parameters": 68
+    },
+    "direct/X+P+F_last/16": {
+      "tensor_bytes": 295584,
+      "readout_parameters": 68
+    },
+    "direct/kinematic/16": {
+      "tensor_bytes": 4416,
+      "readout_parameters": 68
+    },
+    "direct/task_weighted/16": {
+      "tensor_bytes": 7440,
+      "readout_parameters": 68
+    },
+    "direct/X+P+F_last/32": {
+      "tensor_bytes": 558368,
+      "readout_parameters": 132
+    },
+    "taylor/X+P+F_last/16": {
+      "tensor_bytes": 295992,
+      "readout_parameters": 119
+    },
+    "pod/X+P+F_last/16": {
+      "tensor_bytes": 10783008,
+      "readout_parameters": 272
+    },
+    "pod_q/X+P+F_last/16": {
+      "tensor_bytes": 10783008,
+      "readout_parameters": 272
+    },
+    "taylor_no_q/X+P+F_last/16": {
+      "tensor_bytes": 295992,
+      "readout_parameters": 119
+    },
+    "task_persistence": {
+      "tensor_bytes": 0,
+      "readout_parameters": 0
+    },
+    "task_affine": {
+      "tensor_bytes": 928,
+      "readout_parameters": 12
+    },
+    "direct/task_stats/8": {
+      "tensor_bytes": 1120,
+      "readout_parameters": 36
+    }
+  },
+  "scope": "Frozen backbone weights excluded; individual payload counts PCA/bases and duplicated tensors inside each dictionary."
+}

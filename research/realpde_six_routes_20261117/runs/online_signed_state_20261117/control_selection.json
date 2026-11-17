@@ -1,0 +1,10 @@
+{
+  "memory_unit": {
+    "shrink": 0.25,
+    "calibration_mse": 9.315490906692796e-05
+  },
+  "memory_gated": {
+    "shrink": 1.0,
+    "calibration_mse": 9.242020014429171e-05
+  }
+}

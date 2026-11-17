@@ -1,0 +1,10 @@
+{
+  "seed": 42,
+  "windows": 819,
+  "trajectories": 46,
+  "pca_rank": 32,
+  "explained_variance_fraction": 0.29005226492881775,
+  "manifest_sha256": "addb9330a402834b79caca41f563b3f88139d5f293644eca43a8ef1e91ddcea1",
+  "input_source_sha256": "e9d3fd7b8b6a915a671936aba42018b52409689a8650f8e52a23c3b1059993a5",
+  "description": "Gaussianized true train residual dependence; no held-out targets used."
+}

@@ -1,0 +1,39 @@
+{
+  "passed": true,
+  "replay": {
+    "maximum_error": 1.7462299997921676e-10,
+    "baseline_offset_exact": true,
+    "events": {
+      "calibration": {
+        "windows": 90,
+        "trajectories": 10,
+        "issue_before_reveal": true
+      },
+      "development": {
+        "windows": 108,
+        "trajectories": 12,
+        "issue_before_reveal": true
+      },
+      "late": {
+        "windows": 120,
+        "trajectories": 12,
+        "issue_before_reveal": true
+      },
+      "future": {
+        "windows": 72,
+        "trajectories": 12,
+        "issue_before_reveal": true
+      }
+    }
+  },
+  "numerical_max_error": 1.2691461245828428e-07,
+  "causal": {
+    "future_target_intervention_preserves_all_issued_prefixes": true,
+    "online_calibration_prefix_invariant": true,
+    "changed_feedback_affects_next_forecast": true,
+    "trajectory_isolation": true,
+    "early_reveal_rejected": true
+  },
+  "source_sha256": "1073fcb3c819242d2337cc16b6771548c73604a4d89b44592688e165afb32784",
+  "probability_source_sha256": "16a75a5b57a25370599cb95bf56bb8bb18f6056c1f2b0956ec6fd2928cb355c9"
+}

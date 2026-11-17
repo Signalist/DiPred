@@ -1,0 +1,55 @@
+{
+  "models": {
+    "zero": {
+      "config": {
+        "family": "zero",
+        "shrink": 1.0
+      },
+      "mse": 9.326033614343032e-05
+    },
+    "mean": {
+      "config": {
+        "family": "mean",
+        "shrink": 0.5
+      },
+      "mse": 9.323686390416697e-05
+    },
+    "rolling": {
+      "config": {
+        "family": "rolling",
+        "memory": 4,
+        "shrink": 0.5
+      },
+      "mse": 9.239406062988564e-05
+    },
+    "ema": {
+      "config": {
+        "family": "ema",
+        "rate": 0.1,
+        "shrink": 1.0
+      },
+      "mse": 9.256981138605624e-05
+    },
+    "rw": {
+      "config": {
+        "family": "rw",
+        "process": 0.01,
+        "noise": 1.0,
+        "shrink": 1.0
+      },
+      "mse": 9.241305815521628e-05
+    },
+    "var": {
+      "config": {
+        "family": "var",
+        "noise": 0.25,
+        "shrink": 1.0
+      },
+      "mse": 9.276516357203946e-05
+    }
+  },
+  "chosen": "rolling",
+  "criterion": "natural calibration MSE only",
+  "model_sha256": "51cf5a99b5bebc49a30e1d6507711fb7c20095469b9ba509073bf719d1a2b519",
+  "protocol_sha256": "9417ef53698cd7a57796353d1ba8d49648bb149e93c672220a0a2c781e361a34"
+}

@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "sorted_marginal_max_error": 0.0,
+  "windows": 72,
+  "trajectories": 12,
+  "all_issued_before_feedback": true,
+  "feedback_windows": {
+    "26700_0.h5": 6,
+    "26700_10.h5": 6,
+    "26700_15.h5": 6,
+    "6300_0.h5": 6,
+    "6300_10.h5": 6,
+    "6300_15.h5": 6,
+    "6300_20.h5": 6,
+    "6300_5.h5": 6,
+    "7575_10.h5": 6,
+    "7575_15.h5": 6,
+    "7575_20.h5": 6,
+    "7575_5.h5": 6
+  },
+  "issue_time_convention": "history start s has observed s:s+20, issue at s+20; target s+20:s+40; next consecutive window can issue at s+40 after this full reveal"
+}

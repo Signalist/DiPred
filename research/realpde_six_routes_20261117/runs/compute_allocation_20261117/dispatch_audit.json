@@ -1,0 +1,68 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "file": "26700_0.h5",
+      "expensive": true,
+      "max_score_error": 5.960464477539063e-08
+    },
+    {
+      "file": "26700_10.h5",
+      "expensive": true,
+      "max_score_error": 1.192092894952701e-07
+    },
+    {
+      "file": "26700_15.h5",
+      "expensive": false,
+      "max_score_error": 2.831220627663722e-07
+    },
+    {
+      "file": "6300_0.h5",
+      "expensive": false,
+      "max_score_error": 6.705522537925335e-08
+    },
+    {
+      "file": "6300_10.h5",
+      "expensive": true,
+      "max_score_error": 3.725290392136982e-09
+    },
+    {
+      "file": "6300_15.h5",
+      "expensive": false,
+      "max_score_error": 8.847089727481716e-17
+    },
+    {
+      "file": "6300_20.h5",
+      "expensive": false,
+      "max_score_error": 3.5017728813868665e-07
+    },
+    {
+      "file": "6300_5.h5",
+      "expensive": true,
+      "max_score_error": 2.9802322359939737e-08
+    },
+    {
+      "file": "7575_10.h5",
+      "expensive": false,
+      "max_score_error": 8.195638663555105e-08
+    },
+    {
+      "file": "7575_15.h5",
+      "expensive": false,
+      "max_score_error": 2.9802322387695312e-08
+    },
+    {
+      "file": "7575_20.h5",
+      "expensive": true,
+      "max_score_error": 1.4901161249358807e-08
+    },
+    {
+      "file": "7575_5.h5",
+      "expensive": true,
+      "max_score_error": 1.4901161228542126e-08
+    }
+  ],
+  "ranking_matches_feature_cache": true,
+  "gpu": "NVIDIA A100-SXM4-80GB",
+  "scope": "12 simultaneous requests; serialized GPU service including common forecasts, routing, selected dispatch, samples kept on GPU; no IO/scoring. Mean service cost is batch latency divided by12, not per-user response latency."
+}

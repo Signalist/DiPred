@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "checks": {
+    "frozen_model_protocol_hashes": true,
+    "exact_imported_rescrct_class_parity": true,
+    "trajectory_separation": true,
+    "single_seed_same_minibatch_prefix": true,
+    "actual_public_batch1_exact": true,
+    "independent_numpy_mse": true,
+    "gain_zero_exact_base": true,
+    "free_prefix_exact_replay": true,
+    "history_only_causal_interface": true,
+    "no_data_or_checkpoint_load_during_issue": true,
+    "cpu_physical_roundtrip": true,
+    "whole_future_rejected": true,
+    "rollout_timestamps": true
+  },
+  "public_max_error": 0.0,
+  "numpy_mse_max_error": 2.8939190426608905e-11,
+  "zero_gain_max_error": 0.0,
+  "rollout_prefix_max_error": 0.0,
+  "all_hyperparameters_selected_before_development": true
+}

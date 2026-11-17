@@ -1,0 +1,10 @@
+{
+  "protocol_sha256": "be6603c33db590a77c3fb65355e6c96272f3ece08b948ac319a4f9d27a250e9e",
+  "source_sha256": "a79c48e4d41a04e056309f33a962b269a11fa2deaf57fa96c798bd28990567e4",
+  "windows": 300,
+  "scenarios": [
+    "step",
+    "ramp"
+  ],
+  "scope": "Controlled forecast warp only. No PDE/parameter/physical-state claim."
+}

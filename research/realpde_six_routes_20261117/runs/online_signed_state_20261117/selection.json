@@ -1,0 +1,87 @@
+{
+  "models": {
+    "base": {
+      "config": {
+        "family": "base",
+        "shrink": 1.0
+      },
+      "mse": 9.326033740183687e-05
+    },
+    "rolling_bias": {
+      "config": {
+        "family": "rolling_bias",
+        "memory": 4,
+        "shrink": 0.5
+      },
+      "mse": 9.30297981986711e-05
+    },
+    "ema": {
+      "config": {
+        "family": "ema",
+        "rate": 0.1,
+        "shrink": 0.5
+      },
+      "mse": 9.304955956788608e-05
+    },
+    "static": {
+      "config": {
+        "family": "static",
+        "static": "1.0",
+        "shrink": 0.5
+      },
+      "mse": 9.315689635439606e-05
+    },
+    "var": {
+      "config": {
+        "family": "var",
+        "shrink": 0.0
+      },
+      "mse": 9.326033740183687e-05
+    },
+    "rw_kalman": {
+      "config": {
+        "family": "rw_kalman",
+        "process": 0.1,
+        "noise": 4.0,
+        "shrink": 0.5
+      },
+      "mse": 9.30095952752495e-05
+    },
+    "var_kalman": {
+      "config": {
+        "family": "var_kalman",
+        "noise": 4.0,
+        "shrink": 0.5
+      },
+      "mse": 9.322501207599887e-05
+    },
+    "conditional_kalman": {
+      "config": {
+        "family": "conditional_kalman",
+        "static": "1.0",
+        "noise": 4.0,
+        "shrink": 0.5
+      },
+      "mse": 9.318112826732297e-05
+    },
+    "linear_ar": {
+      "config": {
+        "family": "linear_ar",
+        "alpha": "10.0",
+        "shrink": 1.0
+      },
+      "mse": 9.318914345186979e-05
+    },
+    "rnn": {
+      "config": {
+        "family": "rnn",
+        "shrink": 0.0
+      },
+      "mse": 9.326033740183687e-05
+    }
+  },
+  "chosen": "rw_kalman",
+  "criterion": "natural calibration trajectory-equal physical MSE",
+  "models_sha256": "6ab0ec9dfdb1230676811513dd3ef0665f160d05fe710bb39188c1e5954f4f82",
+  "protocol_sha256": "c6eaec9b11a83c1735c65b92385abac521f255d26c46a3c1048b41476cd23924"
+}

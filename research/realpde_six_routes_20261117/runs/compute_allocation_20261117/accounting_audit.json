@@ -1,0 +1,31 @@
+{
+  "passed": true,
+  "quota_tests": 2720,
+  "score_composition_max_error": 4.440892098500626e-16,
+  "splits": {
+    "calibration": {
+      "windows": 90,
+      "trajectories": 10,
+      "random_expectation_enumeration_error": 1.3877787807814457e-17
+    },
+    "development": {
+      "windows": 108,
+      "trajectories": 12,
+      "random_expectation_enumeration_error": 6.938893903907228e-18
+    },
+    "late": {
+      "windows": 120,
+      "trajectories": 12,
+      "random_expectation_enumeration_error": 6.938893903907228e-18
+    },
+    "future": {
+      "windows": 72,
+      "trajectories": 12,
+      "random_expectation_enumeration_error": 1.3877787807814457e-17
+    }
+  },
+  "frozen_protocol_hash_matches": true,
+  "train_calibration_development_trajectory_disjoint": true,
+  "late_future_same_development_trajectories": true,
+  "notes": "Independent pandas top-k and exhaustive first-batch random subsets; score source numeric audit inherited from lowcost_joint; bootstrap conditions on frozen policies and realized batches."
+}

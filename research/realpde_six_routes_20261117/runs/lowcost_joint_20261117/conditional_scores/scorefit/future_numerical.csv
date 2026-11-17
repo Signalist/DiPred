@@ -1,0 +1,13 @@
+split,method,metric,error
+future,ecc32,es,1.115473907686848e-08
+future,ecc32,vs,7.312681640780916e-10
+future,ecc32,functional_crps,3.9291105535799176e-08
+future,smooth,es,1.8630975179290132e-08
+future,smooth,vs,9.606248123350536e-10
+future,smooth,functional_crps,5.0652071537093946e-08
+future,pca__global,es,2.243208177543643e-08
+future,pca__global,vs,1.6143324524375835e-10
+future,pca__global,functional_crps,9.225022684633544e-08
+future,ar__mixed,es,1.0998243454851675e-08
+future,ar__mixed,vs,2.241433934291326e-09
+future,ar__mixed,functional_crps,2.9584590777176345e-08

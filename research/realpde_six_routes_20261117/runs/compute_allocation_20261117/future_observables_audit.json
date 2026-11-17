@@ -1,0 +1,11 @@
+{
+  "cached_feature_max_difference": {
+    "F_mid0": 2.86102294921875e-06,
+    "F_last": 1.430511474609375e-06,
+    "X": 0,
+    "P": 8.344650268554688e-07
+  },
+  "windows": 72,
+  "targets_saved": false,
+  "predictor_inputs": "observed history only"
+}

@@ -1,0 +1,7 @@
+{
+  "point_replay_max_error": 0.0,
+  "taylor_max_error": 1.3322676295501878e-14,
+  "source_sha256": "11ffa4bbe69e5ce58222a43e935423ffeef5537f878f05e70ae77101975f1248",
+  "actual_point_sha256": "5e545b7dccd9fcd89154ccabd7b72af3f36a530f7f4b89538188b5c058e07992",
+  "windows": 90
+}

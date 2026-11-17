@@ -1,0 +1,25 @@
+{
+  "seed": 42,
+  "trajectory_balanced": true,
+  "rows": [
+    {
+      "shrink": 0.1,
+      "rank32_fraction_predictable_energy": 0.522901729482866,
+      "latent_prior_identity_error": 1.4011014570769476e-13
+    },
+    {
+      "shrink": 0.5,
+      "rank32_fraction_predictable_energy": 0.6137080239515631,
+      "latent_prior_identity_error": 1.270095140171179e-13
+    },
+    {
+      "shrink": 0.9,
+      "rank32_fraction_predictable_energy": 0.7309955037223497,
+      "latent_prior_identity_error": 1.3677947663381929e-13
+    }
+  ],
+  "main_protocol_sha256": "fa3c647748d8e99f36c66b4a3ed1455be0003fa98b23f7ab512e8e7c65088e3f",
+  "extension_protocol_sha256": "abed95e5c66aaf4261f36ab59e91a90dc72267411378622b7ab4937ec7668f02",
+  "source_sha256": "8af77834d15b2300373a7dec0b358be6a9c4598bcf287c18c8123bec0364965d",
+  "train_source_sha256": "e9d3fd7b8b6a915a671936aba42018b52409689a8650f8e52a23c3b1059993a5"
+}

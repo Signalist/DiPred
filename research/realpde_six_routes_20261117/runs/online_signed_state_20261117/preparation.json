@@ -1,0 +1,30 @@
+{
+  "train": {
+    "windows": 819,
+    "trajectories": 46,
+    "projected_oracle_gain_percent": 18.29107387430641
+  },
+  "calibration": {
+    "windows": 90,
+    "trajectories": 10,
+    "projected_oracle_gain_percent": 13.296130355546698
+  },
+  "development": {
+    "windows": 108,
+    "trajectories": 12,
+    "projected_oracle_gain_percent": 17.300736551061622
+  },
+  "late": {
+    "windows": 120,
+    "trajectories": 12,
+    "projected_oracle_gain_percent": 15.515047791296317
+  },
+  "future": {
+    "windows": 72,
+    "trajectories": 12,
+    "projected_oracle_gain_percent": 16.09545303224177
+  },
+  "basis_orthogonality_max_error": 9.992007221626409e-16,
+  "protocol_sha256": "c6eaec9b11a83c1735c65b92385abac521f255d26c46a3c1048b41476cd23924",
+  "train_source_sha256": "e9d3fd7b8b6a915a671936aba42018b52409689a8650f8e52a23c3b1059993a5"
+}

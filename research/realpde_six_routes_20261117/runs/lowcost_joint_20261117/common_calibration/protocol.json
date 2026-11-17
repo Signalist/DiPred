@@ -1,0 +1,7 @@
+{
+  "seed": 42,
+  "fit": "90 calibration windows, 10 trajectories,32 quantile-specific component offsets; spatial stride4",
+  "online": "For each split/trajectory initialize from calibration offsets; after full20 truth reveal update offsets=.5 old+.5 quantile(Y-Qraw); no skipped-window feedback and no retroactive changes.",
+  "comparison": "All methods use exactly the same issued quantile nodes, sort after offsets; frozen copula parameters; no recalibration-dependent method selection.",
+  "scope": "Empirical calibration, no finite-sample conditional coverage guarantee. This follows the same two-tail location-update principle with32 common nodes instead of49 head pairs."
+}

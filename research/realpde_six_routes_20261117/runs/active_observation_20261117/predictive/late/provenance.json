@@ -1,0 +1,10 @@
+{
+  "selection_sha256": "a7f869aa0869db043bea24067e4f3a2ed49ff2db4ac95407c965f0f102fb8e47",
+  "source_sha256": "9645ffa078486134e7ea9539cf287df43684f2a559e72649978e8b8af2b9cb6d",
+  "windows": 120,
+  "target": "unobserved future15 frames",
+  "sensor_time": "start+25, lead5",
+  "original_task": false,
+  "predictive_source_sha256": "291c6a49657b936345debf77308a8abaecacb93f45f16365f66564f3fa855b67",
+  "extension_protocol_sha256": "abed95e5c66aaf4261f36ab59e91a90dc72267411378622b7ab4937ec7668f02"
+}

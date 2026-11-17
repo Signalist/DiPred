@@ -1,0 +1,42 @@
+{
+  "passed": true,
+  "necc": [
+    {
+      "width": 3,
+      "numpy_max_error": 2.6490953253244243e-07,
+      "global_mean_max_error": 1.4901161193847656e-08
+    },
+    {
+      "width": 9,
+      "numpy_max_error": 1.711609922683266e-06,
+      "global_mean_max_error": 5.21540641784668e-08
+    }
+  ],
+  "gaussian_variance": [
+    {
+      "method": "ar__plain",
+      "diagonal_variance_error": 0.0
+    },
+    {
+      "method": "ar__mixed",
+      "diagonal_variance_error": 0.0
+    },
+    {
+      "method": "ar_F_last__plain",
+      "diagonal_variance_error": 0.0
+    },
+    {
+      "method": "ar_F_last__mixed",
+      "diagonal_variance_error": 0.0
+    }
+  ],
+  "normal_cdf_ks_16_coordinates": 0.008822428578638908,
+  "ar": {
+    "numpy_recurrence_max_error": 2.164525339631851e-06,
+    "conditional_mixed_marginal_ks": 0.02656656503677368,
+    "realizations": 2048
+  },
+  "conditional_templates_unique_train_trajectories": 32,
+  "continuous_uniform_claim": "Analytic: linear zero-mean Gaussian fields have normalized unit diagonal; normal CDF gives uniform marginals. Finite rank-coupled fields use discrete fixed nodes.",
+  "source_sha256": "026ab21d1406eb89b8cbbdf615fdd2e23b3c27c52075e41857a275f66edf9380"
+}

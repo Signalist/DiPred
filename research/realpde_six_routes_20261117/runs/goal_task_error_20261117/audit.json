@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "checks": {
+    "frozen_hashes": true,
+    "original_primary_unchanged_after_additional_controls": true,
+    "trajectory_separation": true,
+    "signed_coordinate_stencil": true,
+    "independent_numpy_tasks_and_taylor": true,
+    "oracle_cauchy_bound": true,
+    "future_target_intervention": true,
+    "actual_batch1_public_replay": true,
+    "cpu_physical_input": true,
+    "whole_future_rejected": true
+  },
+  "numpy_max_error": 1.4210854715202004e-14,
+  "public_replay_max_error": 2.6645352591003757e-15,
+  "target_intervention_max_error": 0.0,
+  "selected": "direct/F_det4_1500/16",
+  "protocol_sha256": "63edab4cb244c707392eff25869c28e3e3acfc4388f408fee218f7ded9527a22"
+}

@@ -1,0 +1,20 @@
+{
+  "seed": 42,
+  "parameters": 4,
+  "conditional_readout_parameters": 260,
+  "rho_order": [
+    "x",
+    "array_y",
+    "time",
+    "uv"
+  ],
+  "unconditional_rho": [
+    0.6175537705421448,
+    0.5349445343017578,
+    0.8440555930137634,
+    0.013529954478144646
+  ],
+  "ridge": 1.0,
+  "mixed_pca_variance": 0.25,
+  "description": "Stationary separable AR1 Gaussian innovations fitted to train conditional-score autocorrelation; optional F-conditioned four coefficients and fixed25% PCA covariance mixture."
+}

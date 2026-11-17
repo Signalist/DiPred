@@ -1,0 +1,87 @@
+{
+  "chosen": {
+    "benefit": "benefit/X+P+F_last",
+    "risk": "risk/F_mid0"
+  },
+  "models": {
+    "benefit/X": {
+      "kind": "X",
+      "dimensions": 4,
+      "alpha": 0.01,
+      "calibration_objective": 0.06836036281591208
+    },
+    "benefit/P": {
+      "kind": "P",
+      "dimensions": 16,
+      "alpha": 0.01,
+      "calibration_objective": 0.06843864156485152
+    },
+    "benefit/X+P": {
+      "kind": "X+P",
+      "dimensions": 16,
+      "alpha": 0.01,
+      "calibration_objective": 0.0682183058518502
+    },
+    "benefit/F_last": {
+      "kind": "F_last",
+      "dimensions": 16,
+      "alpha": 0.01,
+      "calibration_objective": 0.06830800510942932
+    },
+    "benefit/F_mid0": {
+      "kind": "F_mid0",
+      "dimensions": 16,
+      "alpha": 0.01,
+      "calibration_objective": 0.06830759343725659
+    },
+    "benefit/X+P+F_last": {
+      "kind": "X+P+F_last",
+      "dimensions": 16,
+      "alpha": 0.01,
+      "calibration_objective": 0.06809860374778505
+    },
+    "risk/X": {
+      "kind": "X",
+      "dimensions": 16,
+      "alpha": 0.01,
+      "calibration_objective": 0.06987909829864895
+    },
+    "risk/P": {
+      "kind": "P",
+      "dimensions": 16,
+      "alpha": 0.01,
+      "calibration_objective": 0.06962055143106861
+    },
+    "risk/X+P": {
+      "kind": "X+P",
+      "dimensions": 16,
+      "alpha": 0.01,
+      "calibration_objective": 0.06973417516176895
+    },
+    "risk/F_last": {
+      "kind": "F_last",
+      "dimensions": 16,
+      "alpha": 0.01,
+      "calibration_objective": 0.06954633550787409
+    },
+    "risk/F_mid0": {
+      "kind": "F_mid0",
+      "dimensions": 16,
+      "alpha": 0.01,
+      "calibration_objective": 0.06948346681547933
+    },
+    "risk/X+P+F_last": {
+      "kind": "X+P+F_last",
+      "dimensions": 16,
+      "alpha": 0.01,
+      "calibration_objective": 0.0697511901699558
+    }
+  },
+  "training_windows": 92,
+  "training_trajectories": 46,
+  "model_sha256": "72fea5debf766500849e289161a81eadf9c5b10ac06c459eb8d0a2ba235725a9",
+  "protocol_sha256": "0b8eededc2bec30acc31fb8ccc91c3936ab3cdaac78c9f9e61ec1adb781075cb",
+  "selection_before_policy_evaluation": true,
+  "primary": "functional_crps",
+  "seed": 42
+}

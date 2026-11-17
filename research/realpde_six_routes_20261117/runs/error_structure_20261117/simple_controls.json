@@ -1,0 +1,19 @@
+{
+  "shrink": 0.25,
+  "beta": 0.0,
+  "static_options": {
+    "0.0": 9.326033614343032e-05,
+    "0.25": 9.318359661847353e-05,
+    "0.5": 9.320410754298791e-05,
+    "1.0": 9.351565677206963e-05
+  },
+  "smooth_options": {
+    "0.0": 9.326033614343032e-05,
+    "0.05": 9.3270224169828e-05,
+    "0.1": 9.34800918912515e-05,
+    "0.25": 9.530959505354986e-05,
+    "0.5": 0.00010235844092676416,
+    "1.0": 0.00013145481352694333
+  },
+  "protocol": "Supplementary diagnosis after first development evaluation; constant56 coefficients fit train only, strength on calibration; uniform3x3 smoothing strength on calibration; no primary model replacement."
+}

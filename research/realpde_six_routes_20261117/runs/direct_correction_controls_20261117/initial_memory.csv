@@ -1,0 +1,9 @@
+method,peak_allocated_mb
+base,18.1572265625
+warp_F_last,18.0166015625
+additive_F_last,18.0166015625
+dense_F,18.0166015625
+additive_XP,17.99853515625
+rescrct_original,21.62060546875
+rescrct_block,21.0224609375
+refine_two,17.99755859375

@@ -1,0 +1,9 @@
+{
+  "alpha": 0.1,
+  "penalty": 1.0,
+  "criterion": "calibration physical future15 MSE at8 sites only",
+  "mse": 0.0001083301531237294,
+  "protocol_sha256": "4c85213f91a213dc166f48ef1e0f05c2128b2929facae38640cd2295d7addc6a",
+  "model_sha256": "63f0df38ade1582084400af22c3b591b29eb4d5ef3a1ef3c6603783726f069f7",
+  "common_assimilation_selection_sha256": "a7f869aa0869db043bea24067e4f3a2ed49ff2db4ac95407c965f0f102fb8e47"
+}

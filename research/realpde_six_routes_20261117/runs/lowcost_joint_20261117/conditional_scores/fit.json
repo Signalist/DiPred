@@ -1,0 +1,8 @@
+{
+  "seed": 42,
+  "windows": 819,
+  "pca_rank": 32,
+  "explained_variance_fraction": 0.2675188183784485,
+  "normalization": "per-window fixed XPF marginal inverse in Gaussian quantile coordinates, linear normal tails, clipped ±6, then train-only centering/scaling; covariance is no longer confounded by unconditional marginal scale",
+  "adaptation": "motivated by failure of raw-residual calibration quality gate, before reading current development results"
+}

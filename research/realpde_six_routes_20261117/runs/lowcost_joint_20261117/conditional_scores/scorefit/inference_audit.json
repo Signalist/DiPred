@@ -1,0 +1,98 @@
+{
+  "passed": true,
+  "replay_max_error": {
+    "ecc32": 0.0,
+    "smooth": 0.0,
+    "secc3": 0.0,
+    "necc3": 0.0,
+    "necc_rank3": 0.0,
+    "ar__mixed": 0.0,
+    "pca__global": 0.0,
+    "F_last__schaake": 0.0
+  },
+  "scope": "observed history only -> four-step P/F ->49 XPF heads ->sampling/coupling; preloaded models; excludes IO and scoring",
+  "gpu": "NVIDIA A100-SXM4-80GB",
+  "tf32_override": "0",
+  "benchmarks": [
+    {
+      "method": "ecc32",
+      "median_ms": 265.47140441834927,
+      "p10_ms": 256.45863451063633,
+      "p90_ms": 281.3405513763428,
+      "resident_mb": 33.40478515625,
+      "peak_allocated_mb": 250.79052734375,
+      "repeats": 15,
+      "extra_stochastic_backbone_paths": 32
+    },
+    {
+      "method": "smooth",
+      "median_ms": 262.7233285456896,
+      "p10_ms": 261.204906180501,
+      "p90_ms": 265.011328086257,
+      "resident_mb": 33.40478515625,
+      "peak_allocated_mb": 250.47802734375,
+      "repeats": 15,
+      "extra_stochastic_backbone_paths": 32
+    },
+    {
+      "method": "secc3",
+      "median_ms": 265.2526702731848,
+      "p10_ms": 256.2782157212496,
+      "p90_ms": 461.3468907773495,
+      "resident_mb": 33.40478515625,
+      "peak_allocated_mb": 250.47802734375,
+      "repeats": 15,
+      "extra_stochastic_backbone_paths": 32
+    },
+    {
+      "method": "necc3",
+      "median_ms": 296.58044315874577,
+      "p10_ms": 294.26802061498165,
+      "p90_ms": 298.2611831277609,
+      "resident_mb": 33.40478515625,
+      "peak_allocated_mb": 596.53564453125,
+      "repeats": 15,
+      "extra_stochastic_backbone_paths": 32
+    },
+    {
+      "method": "necc_rank3",
+      "median_ms": 297.3197493702173,
+      "p10_ms": 294.4361388683319,
+      "p90_ms": 299.06546883285046,
+      "resident_mb": 33.40478515625,
+      "peak_allocated_mb": 596.53564453125,
+      "repeats": 15,
+      "extra_stochastic_backbone_paths": 32
+    },
+    {
+      "method": "ar__mixed",
+      "median_ms": 37.44477219879627,
+      "p10_ms": 37.405168637633324,
+      "p90_ms": 37.628546357154846,
+      "resident_mb": 43.42919921875,
+      "peak_allocated_mb": 261.00244140625,
+      "repeats": 15,
+      "extra_stochastic_backbone_paths": 0
+    },
+    {
+      "method": "pca__global",
+      "median_ms": 36.536406725645065,
+      "p10_ms": 36.50993891060352,
+      "p90_ms": 36.680809408426285,
+      "resident_mb": 43.42919921875,
+      "peak_allocated_mb": 259.56494140625,
+      "repeats": 15,
+      "extra_stochastic_backbone_paths": 0
+    },
+    {
+      "method": "F_last__schaake",
+      "median_ms": 38.28991949558258,
+      "p10_ms": 38.03150616586208,
+      "p90_ms": 38.397206738591194,
+      "resident_mb": 219.8544921875,
+      "peak_allocated_mb": 436.744140625,
+      "repeats": 15,
+      "extra_stochastic_backbone_paths": 0
+    }
+  ]
+}

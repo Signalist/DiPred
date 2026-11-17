@@ -1,0 +1,12 @@
+{
+  "source_files": {
+    "compute_allocation_20261117/audit_report.py": "5d55dca61610b73ab7d23a06ac6708890fe1cf634a971d86719429ff55de365f",
+    "compute_allocation_20261117/api_audit.py": "ae555c75096081658ede5100f60626e851de43a260759745f67d7810c5ff5810",
+    "compute_allocation_20261117/benchmark.py": "0e79656a75bdac70a1e34b193fd0db5b425cdbab1609a9979ee6fd3dae652589",
+    "compute_allocation_20261117/allocation.py": "9e5f5301764b9ecc7c0bdbdc275d346678e928aed14c551ca203c384b2a61540",
+    "compute_allocation_20261117/predict.py": "91bbd42453c8c582669229bba04b829cf06902b81eacc3072170b08bf12729b2"
+  },
+  "protocol_sha256": "0b8eededc2bec30acc31fb8ccc91c3936ab3cdaac78c9f9e61ec1adb781075cb",
+  "model_sha256": "72fea5debf766500849e289161a81eadf9c5b10ac06c459eb8d0a2ba235725a9",
+  "selection_sha256": "89a11c489f76ce5c3966444c4ebde33b19bdfadc79008aeadf4f3774de54eca2"
+}

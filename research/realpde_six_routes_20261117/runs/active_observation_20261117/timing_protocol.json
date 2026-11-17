@@ -1,0 +1,11 @@
+{
+  "batch": 1,
+  "history_input": "CPU physical full20",
+  "observation_input": "CPU selected8x2",
+  "repeats": 5,
+  "windows_per_repeat": 6,
+  "interleaved_policy_order": true,
+  "excluded": "sensor acquisition/wait5frames; constructor/model loading; offline training",
+  "meaning": "Compute ms per forecast+one sparse update, not wallclock forecast horizon latency",
+  "source_sha256": "7559e9918fbd035a895aa919e0c32f032d9e453797c5d613d1eb631616d6bc81"
+}

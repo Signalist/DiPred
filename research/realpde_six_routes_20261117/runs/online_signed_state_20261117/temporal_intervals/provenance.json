@@ -1,0 +1,11 @@
+{
+  "protocol_sha256": "0bcd41658195ebd470e4b160adeefa4b03e377c43bc580ecfbb355a580975b77",
+  "source_sha256": "accbfaa304d4b7e70426d0408091acbf9fcd052977a96a97624304c07589fd05",
+  "references": {
+    "SPCI_class.py": "95472afad19571af87135c6fd9c3f45b638b16a3615955de28c72120af28bf6f",
+    "utils_SPCI.py": "8d89aeca82d6373125cdd7b721d0d165ffcf48221d7463fa75b25cc966cb505e",
+    "pid.R": "7f1f4612c9835dfe4fa7136e30b1dabc07390fe88e9f6bc4a41edea7906081b4",
+    "acmcp.R": "20f716b664c888a3437bcf9341a936703a976be2decbcf0a1afbf209afc0225d"
+  },
+  "claim": "Disclosed fixed-predictor SPCI QRF adaptation and AcMCP block-h1 Python recurrence, not original-package/full-frame-h20 benchmark."
+}

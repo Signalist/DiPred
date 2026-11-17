@@ -1,0 +1,8 @@
+{
+  "trajectories": 12,
+  "windows": 492,
+  "warmup_windows": 120,
+  "scored_windows": 372,
+  "protocol_sha256": "0bcd41658195ebd470e4b160adeefa4b03e377c43bc580ecfbb355a580975b77",
+  "source_sha256": "accbfaa304d4b7e70426d0408091acbf9fcd052977a96a97624304c07589fd05"
+}

@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "cached_vs_direct_max_error": {
+    "base": 1.430511474609375e-06,
+    "warp_F_last": 2.86102294921875e-06,
+    "additive_F_last": 1.430511474609375e-06
+  },
+  "input": "only observed standardized history",
+  "timing_scope": "A100 batch1 preloaded models; includes full four-step backbone, hooks, pooling, PCA, correction; excludes disk IO and scoring. Peak allocation includes loaded audit tensors."
+}

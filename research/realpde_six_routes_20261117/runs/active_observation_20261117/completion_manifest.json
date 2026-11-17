@@ -1,0 +1,26 @@
+{
+  "full_six_route_goal_complete": false,
+  "active_observation_pilot": "three mechanisms evaluated; limited gains, no stable VOI superiority",
+  "source_files": {
+    "report.py": "3f861cc0a3b6c7df7f9f0c2d82f24004b52fe53d76351a0c15acdca5579eb2cf",
+    "critic_audit.py": "2040069a85ed3c7e0c83945e888f1ed41567ec70db0081c9277322726b381f3b",
+    "active_stream.py": "84626bfa4f28a154cd39d4faea241ae0aef4083cf38f83c8bf46155fa6ba4b85",
+    "observations.py": "6b3b39cd8eadcacbfd7af9f1cc64761f2e31e8afcb979f65b84457049fa1f486",
+    "benchmark.py": "7559e9918fbd035a895aa919e0c32f032d9e453797c5d613d1eb631616d6bc81",
+    "critic.py": "7f862657a5ebd8c5eaeec974ba1d17b670e37989092ee98d6505139abb038217",
+    "predictive.py": "69547be09bfd41ad95bec812ea23ab429e5e9ffd94d32d0ec26c0d57216b6998",
+    "summary_report.py": "d699427d17b5c8ad9e1118438db5f59e7b807ca74d498c655cccc69c8966ae18",
+    "audit.py": "e94417a523e400fb02274c1027727bfbb99c338b624091925d560d4449cbd36d",
+    "predictive_audit.py": "219c5e05eb039b0cf83d94a48657120df9404adf325cc37676894073741550aa"
+  },
+  "protocols": {
+    "PREDICTIVE_PROTOCOL.md": "abed95e5c66aaf4261f36ab59e91a90dc72267411378622b7ab4937ec7668f02",
+    "CRITIC_PROTOCOL.md": "4c85213f91a213dc166f48ef1e0f05c2128b2929facae38640cd2295d7addc6a",
+    "PROTOCOL.md": "fa3c647748d8e99f36c66b4a3ed1455be0003fa98b23f7ab512e8e7c65088e3f"
+  },
+  "audits": {
+    "global": true,
+    "predictive": true,
+    "critic": true
+  }
+}

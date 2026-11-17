@@ -1,0 +1,76 @@
+{
+  "passed": true,
+  "replay_max_error": {
+    "ecc32": 0.0,
+    "smooth": 0.0,
+    "necc3": 0.0,
+    "necc_rank3": 0.0,
+    "F_last__schaake": 0.0,
+    "pca__global": 0.0
+  },
+  "scope": "observed history only -> four-step P/F ->49 XPF heads ->sampling/coupling; preloaded models; excludes IO and scoring",
+  "gpu": "NVIDIA A100-SXM4-80GB",
+  "tf32_override": "0",
+  "benchmarks": [
+    {
+      "method": "ecc32",
+      "median_ms": 255.14265708625317,
+      "p10_ms": 252.59350389242172,
+      "p90_ms": 265.9182995557785,
+      "resident_mb": 33.40478515625,
+      "peak_allocated_mb": 250.79052734375,
+      "repeats": 15,
+      "extra_stochastic_backbone_paths": 32
+    },
+    {
+      "method": "smooth",
+      "median_ms": 252.86742858588696,
+      "p10_ms": 252.2588074207306,
+      "p90_ms": 274.7529476881027,
+      "resident_mb": 33.40478515625,
+      "peak_allocated_mb": 250.47802734375,
+      "repeats": 15,
+      "extra_stochastic_backbone_paths": 32
+    },
+    {
+      "method": "necc3",
+      "median_ms": 286.5848895162344,
+      "p10_ms": 283.1352021545172,
+      "p90_ms": 296.6875646263361,
+      "resident_mb": 33.40478515625,
+      "peak_allocated_mb": 596.53564453125,
+      "repeats": 15,
+      "extra_stochastic_backbone_paths": 32
+    },
+    {
+      "method": "necc_rank3",
+      "median_ms": 299.34627562761307,
+      "p10_ms": 287.49860748648643,
+      "p90_ms": 550.3247633576393,
+      "resident_mb": 33.40478515625,
+      "peak_allocated_mb": 596.53564453125,
+      "repeats": 15,
+      "extra_stochastic_backbone_paths": 32
+    },
+    {
+      "method": "F_last__schaake",
+      "median_ms": 38.02149184048176,
+      "p10_ms": 37.664009258151054,
+      "p90_ms": 38.37651610374451,
+      "resident_mb": 219.8388671875,
+      "peak_allocated_mb": 436.728515625,
+      "repeats": 15,
+      "extra_stochastic_backbone_paths": 0
+    },
+    {
+      "method": "pca__global",
+      "median_ms": 36.07323579490185,
+      "p10_ms": 36.05242632329464,
+      "p90_ms": 36.11856885254383,
+      "resident_mb": 219.8388671875,
+      "peak_allocated_mb": 436.728515625,
+      "repeats": 15,
+      "extra_stochastic_backbone_paths": 0
+    }
+  ]
+}
