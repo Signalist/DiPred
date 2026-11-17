@@ -1,0 +1,6 @@
+{
+  "adjoint_relative_error": 7.471955427718058e-07,
+  "hodge_divergence_ratio": 1.9642679660591966e-07,
+  "idempotence_max_error": 8.344650268554688e-07,
+  "physical_coordinate_linear_field_error": 1.5497207641601562e-06
+}

@@ -1,0 +1,17 @@
+{
+  "starts": [
+    600,
+    640,
+    680,
+    720,
+    760,
+    800
+  ],
+  "windows": 72,
+  "trajectories": 12,
+  "selection_hashes": {
+    "physics": "8c2f0662ca419f0f0337322936d8913ff2fe2bab107b008391cf22b4b2f92f02",
+    "helmholtz_filter": "242fc060c6889877c60f72e9fb66d1d8de9d30f38b6d0fb11de12677028c8e73"
+  },
+  "scope": "temporally disjoint later windows of existing development trajectories; selected methods frozen before extraction; not a fresh independent Re test"
+}

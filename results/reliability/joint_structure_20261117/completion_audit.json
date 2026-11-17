@@ -1,0 +1,208 @@
+{
+  "passed": true,
+  "scope": "RealPDE small-data exploration until a verified positive joint-distribution benefit; not proof of ICML novelty or all-route failure",
+  "checks": {
+    "reference_sha256": "a961bbfc30fd32ac383aaf3100d048a84321393d47c58176e8775d0a279873f9",
+    "dataset": "/cpfs01/projects-HDD/cfff-3469a2cbe57f_HDD/wangxiyun/OLD/REALPDE/realpdebench-competition/data/train_real",
+    "five_pde_used": false,
+    "training_seed": 42,
+    "frozen_head_hashes": {
+      "XPF16-Q01": "f4444204b2a2255492a06f30167bd2d49b5d260e46829e3206711de84120a2d2",
+      "XPF16-Q02": "4cfee3d29c8cdb545eac9b6b8a5f6e4fed240e90699436f795f61658f79b79fa",
+      "XPF16-Q03": "3ed5e38838db7fec803fa6953e8f82cd93b04877b372e2a98dd9898def9a21d4",
+      "XPF16-Q04": "9920098868596daf612667bba14ae6ff0e58a24f05bfecffec7e9995387870ae",
+      "XPF16-Q05": "f1de0d2c3adcefca55f063a8560f82b77b8f5b5e0428a4fc421380d10dbc115d",
+      "XPF16-Q06": "f6666992526504f4aaed68c60f9dd87a77cb16f2da280c2be1bb839380868b1f",
+      "XPF16-Q07": "f781614cfd31b486fb07d9509be827768b95808db8f23b66e7ca09c573cd054d",
+      "XPF16-Q08": "0df274c411e349193d988ca2263abc60605c22913de86373a59b9f5bcd91eb78",
+      "XPF16-Q09": "458183eed8e3e7cf33852d34ef32b1587eb133b5c761a7f502ac626091940329",
+      "XPF16-Q10": "b54a9bf40fdf8456f1b555a4e7dc4a84df34a8e3dd0c7c39b2b2aeee3887d3ad",
+      "XPF16-Q11": "1c64c02b65607a5b2b55e9ef81a97460136d96a57cc61e8a669aed29bcf7535c",
+      "XPF16-Q12": "7c3b0f86f69667f11b2dcaaff313f433bb37badfd83c8e7d2d0d5fd203038c65",
+      "XPF16-Q13": "7135c606a5533f91036bb3a20e6e08366d68747f95f4b6473308201178cda802",
+      "XPF16-Q14": "5b7e2e5c84c0df5260555bbdc5537056e779e2404dcbbbe4559c081ab5c1c27c",
+      "XPF16-Q15": "206232c356d8c956c2b04db94f8e9fdf62ea3c6b078e4b8bc617972ff905ca0e",
+      "XPF16-Q16": "1615aaefe530029c1e05b9ad23e816840d82d9b04db203daefc0e46b9b58de5d",
+      "XPF16-Q17": "6d0c52e69d4d2a7177e9f58985c0feb0528d88097cef93a057e0fbb95826a5d6",
+      "XPF16-Q18": "87225d32a0536bd0fc385ff9bb1b948f5c236a396f7a4b0de21afa0924431973",
+      "XPF16-Q19": "8b90f4f128b0b89e961ffd34d08f8d4b9df07fe5b57ffbd3922092b6abfb4425",
+      "XPF16-Q20": "e46d98e21d7b499b725b5631c856d5d3ae6f296a559c46293f84588159a62784",
+      "XPF16-Q21": "9d3d67f29d86ec1f5ce752277e0b8132b8bc1dc3b1d506716b49a8e62f839761",
+      "XPF16-Q22": "095d0a543b485ca66ef9110610cafdad9ab6a926e6f47c3060c2e83444d5fa6e",
+      "XPF16-Q23": "8070b79382e9e1342571069e25509bb8759af3e3461927dfe68f54f64970352f",
+      "XPF16-Q24": "7e326aa7d591d69493df28586d69d531f9c29d7fe3d7ed46d4dcf2c4fe83a078",
+      "XPF16-Q25": "f6d387e292af7da65c2a14596c47ea4085402a7687085aae88f2ca2b701e84f1",
+      "XPF16-Q26": "85cf3e4f2ba7047297785133f8f558ffa99fd00569a0eef46cc3076dbe67f798",
+      "XPF16-Q27": "fe2653cabed0be06256c613ce6173147aff4c435bfc2521a2126e74a285d3eb3",
+      "XPF16-Q28": "08218cacd83437e52d225663491c111142a9e26837034ce781ac63a78dab6c5f",
+      "XPF16-Q29": "21fd8745a10288b7cfb71df2da44fe16bd88cb7775b10f37808ef7ac3f3a680a",
+      "XPF16-Q30": "ba87bd63009fdf37c667495c1c8c013fc4aaea26a0d5a7d6bda3a4d289d0549e",
+      "XPF16-Q31": "5d5c67acc54cada8c05383461f90ad5c2866c92e23cf5728c4519e3d7435df84",
+      "XPF16-Q32": "30bfb799b90a39ca83ec66399191991d7cca16a207d095852acf0710f9751720",
+      "XPF16-Q33": "3b6981ed852b8533ac498de103f50ea58ad08c583490bde2afd15f67bfb656c0",
+      "XPF16-Q34": "77d1ea4b32b0623148a73e18052f14d73beb779a294019532096dfce80e086ff",
+      "XPF16-Q35": "b7d1494fd1e86a5b7f6cfd1faad1e5b67edc2481015630eb2b086725749b9afa",
+      "XPF16-Q36": "7f9b558edad0522e8eaa3fa6ba7064a2e020f98fdabc2e75017b003059f73714",
+      "XPF16-Q37": "c7e1c765a63d22035d8c89df498d1b665b3310bbca4f66831a4cdd4789ff5f26",
+      "XPF16-Q38": "9d5d538e82efd8b3d9f83cf7804082c4538b96453f6b9b4c8686e4e3883f4788",
+      "XPF16-Q39": "775bac7b61b53e3bd628c18c403d64b9ffb3a1e85b44005d8ee9503ef5aa9245",
+      "XPF16-Q40": "cc8ec0d74daa9644f6303f92ddf611d74d1b41f53f456138e08a324f6950c806",
+      "XPF16-Q41": "2a47e016893717f4aa4e298d712bb73d8b406dbc85e606b364eb63fa23b48fef",
+      "XPF16-Q42": "111213bb1537018439bdf10ea355b4ae520fcfcf1349c6703e44be74abdd931f",
+      "XPF16-Q43": "f975a6c70cd034fba44553817cdf4329300dc6a4d002246c7cee6bc5cf654c65",
+      "XPF16-Q44": "93a63c0f8a0218112999fdcc47501912789052cdcb25dc3583c1a02fa84ae62a",
+      "XPF16-Q45": "170e7be631ed593f7e4bbf9604153a10c86829ef9c4ff9827dd960ed64751086",
+      "XPF16-Q46": "162cf1d4d1b3b139e5afc95c87b751fde200703459000629d6d76177fb5a95b4",
+      "XPF16-Q47": "b16e27f369cfa16116020f3f4d6462b2fb8ac395b3dbe1f47da322d092f85a6a",
+      "XPF16-Q48": "0be3289766eeda5d9c121a89f3ec42e0e9369cbfd369e934f8fa5ad3585ce497",
+      "XPF16-Q49": "5bfc51cabe73f4dd2bcc0573c3beccca1cdb23ef7b85252086f47fdb836bb851"
+    },
+    "checkpoint_sha256": "834260c9838b058d3e415b1efbd3fa19f7998884a36e46d14d62b10ed3ad8cfe",
+    "split_isolation": "original trajectory and Re partitions disjoint; later windows share development identities",
+    "raw_cache_replay": [
+      {
+        "split": "train",
+        "index": 0,
+        "max_error": 0.0
+      },
+      {
+        "split": "train",
+        "index": 818,
+        "max_error": 0.0
+      },
+      {
+        "split": "calibration",
+        "index": 0,
+        "max_error": 0.0
+      },
+      {
+        "split": "calibration",
+        "index": 89,
+        "max_error": 0.0
+      },
+      {
+        "split": "development",
+        "index": 0,
+        "max_error": 0.0
+      },
+      {
+        "split": "development",
+        "index": 107,
+        "max_error": 0.0
+      }
+    ],
+    "independent_audits_max_error": {
+      "transport": 1.6619015430485717e-07,
+      "sensitivity": 1.5921265283935782e-07,
+      "localized": 1.3751559890806675e-07,
+      "physics": 1.3238604879006743e-07,
+      "advection": 1.3238604879006743e-07,
+      "helmholtz_filter": 1.3238604879006743e-07
+    },
+    "positive_evidence": [
+      {
+        "split": "calibration",
+        "windows": 90,
+        "es_gain_percent": 0.01187431343301668,
+        "vs_gain_percent": 0.33410177269488234,
+        "functional_gain_percent": 1.1749180419617777,
+        "speed_gain_percent": 2.58904506464245,
+        "mvpe_gain_percent": -0.16265142348541248
+      },
+      {
+        "split": "development",
+        "windows": 108,
+        "es_gain_percent": 0.007629435628534864,
+        "vs_gain_percent": 0.2830138760767488,
+        "functional_gain_percent": 2.8810611249604676,
+        "speed_gain_percent": 2.3828905679362884,
+        "mvpe_gain_percent": -0.05848239251935022
+      },
+      {
+        "split": "late",
+        "windows": 120,
+        "es_gain_percent": 0.007389323553138175,
+        "vs_gain_percent": 0.3715186266105941,
+        "functional_gain_percent": 3.432248516369585,
+        "speed_gain_percent": 2.97115205113879,
+        "mvpe_gain_percent": -0.1659942790059773
+      },
+      {
+        "split": "future",
+        "windows": 72,
+        "es_gain_percent": 0.0074056333745145244,
+        "vs_gain_percent": 0.3244374640789589,
+        "functional_gain_percent": 3.0783467115342966,
+        "speed_gain_percent": 2.70346856260476,
+        "mvpe_gain_percent": -0.17252126492280212
+      }
+    ],
+    "inference": {
+      "replay_max_error": {
+        "ecc32": 0.0,
+        "smooth": 0.0,
+        "sol": 0.0
+      },
+      "scope": "input -> four-step P -> 49 frozen XPF heads -> 32 four-step paths -> joint transform; all weights preloaded, no disk I/O or scores in timed region",
+      "gpu": "NVIDIA A100-SXM4-80GB",
+      "tf32_override": "0",
+      "benchmarks": [
+        {
+          "method": "ecc32",
+          "median_ms": 268.30517314374447,
+          "p10_ms": 264.70007337629795,
+          "p90_ms": 269.9288772419095,
+          "repeats": 10,
+          "paths": 32,
+          "training_seed": 42
+        },
+        {
+          "method": "smooth",
+          "median_ms": 267.99441035836935,
+          "p10_ms": 266.79048016667366,
+          "p90_ms": 270.0068326666951,
+          "repeats": 10,
+          "paths": 32,
+          "training_seed": 42
+        },
+        {
+          "method": "sol",
+          "median_ms": 265.6671730801463,
+          "p10_ms": 265.13869371265173,
+          "p90_ms": 266.02560728788376,
+          "repeats": 10,
+          "paths": 32,
+          "training_seed": 42
+        }
+      ]
+    },
+    "mechanism": {
+      "adjoint_relative_error": 7.471955427718058e-07,
+      "hodge_divergence_ratio": 1.9642679660591966e-07,
+      "idempotence_max_error": 8.344650268554688e-07,
+      "physical_coordinate_linear_field_error": 1.5497207641601562e-06
+    },
+    "source_hashes": {
+      "report.py": "7f20273f8b0dfb3adfcbd6fae1c62819881d405e4625ac8cdf4e99cf9f56fbad",
+      "advection.py": "3c0087738f110f760fa51908ee5560cbd30b260f25959fabe131ef725bc64918",
+      "sensitivity.py": "bd77d41d7706a9cc2563bf8551d9006a652b4d4d745c3776eebfaf53d6c10deb",
+      "analyze_variants.py": "65ed43ea5d53fd0de2562a4ccca6c56ccc6d2146c323dba60edf78086932649e",
+      "prepare_future.py": "0a5340c80317220a8b0d70d94fe0131555efeac3f2b32f68f2ccf0ca211caabe",
+      "inference.py": "24dc44b60eca4f81ac6c6e2251e8dddc29a90a5d4e44aa993686771ffee0ee53",
+      "prepare_late.py": "fde51e601a3a240c0240159425491b4573db68e1544528ed7e0e9460e1fa64ed",
+      "localized.py": "e38f943eb3ef18271d24c703d97791187d6e520dfd5b8b1f2df96fc21c0c0c24",
+      "helmholtz_filter.py": "5f6e4168aa0311afdb7289e4490578645237095fa40d05ad30cb43fad51db9db",
+      "completion_audit.py": "b8adb4e9a8d5583ab022b16e554cb2ebfc23a06a036716b5e6b59534d05ec93e",
+      "physics.py": "7d520c513844cc5465b989416b2f4f3b49f47f5b590c17a9099f024c27888c37",
+      "audit.py": "037dbf89341e2c08aeb196d9b26b4d090e179b2c5ebc9ed444c1c77ce9f1466e",
+      "experiment.py": "657244aff435502b70a98d59174b4863ad988ea94bbc02768bb0e37fb5d4a9f6"
+    }
+  },
+  "limits": [
+    "same development trajectories used repeatedly",
+    "MVPE and some TKE/group regressions retained",
+    "physics and sensitivity mechanisms have not established overall unique superiority",
+    "DLL not reproduced",
+    "no claim of independent new-domain generalization"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "selected": "fd8",
+  "objective": {
+    "fd4": 1.0763689386850048,
+    "fd8": 1.0159806801121662
+  },
+  "criterion": "mean ES, VS, functional CRPS relative to ECC32; calibration only",
+  "seed": 42,
+  "tf32_override": 0
+}

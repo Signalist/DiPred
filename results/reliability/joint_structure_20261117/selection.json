@@ -1,0 +1,12 @@
+{
+  "selected": "transport_dynamic",
+  "criterion": "mean of empirical-normalized ES and VS on calibration only",
+  "objective": {
+    "matched": 0.9988221877333756,
+    "transport_static": 0.9970607873582282,
+    "transport_dynamic": 0.9969861443961198
+  },
+  "development_not_read": true,
+  "seed": 42,
+  "completed_windows": 90
+}

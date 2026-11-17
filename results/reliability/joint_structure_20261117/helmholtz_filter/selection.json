@@ -1,0 +1,30 @@
+{
+  "selected": "sol_ecc_b50_i1",
+  "smooth_selected": "smooth_ecc_b50_i1",
+  "matched_smooth": "smooth_ecc_b50_i1",
+  "objective": {
+    "sol_ecc_b25_i1": 0.9992992063097498,
+    "sol_ecc_b25_i3": 1.0001386923603082,
+    "sol_ecc_b50_i1": 0.9992790260212076,
+    "sol_ecc_b50_i3": 1.0081118998967462,
+    "sol_ecc_b100_i1": 1.0092089449273913,
+    "sol_ecc_b100_i3": 1.0317693650453972,
+    "pot_ecc_b25_i1": 1.0011394151921424,
+    "pot_ecc_b25_i3": 1.003579511966833,
+    "pot_ecc_b50_i1": 1.0034823099982262,
+    "pot_ecc_b50_i3": 1.0100306522232938,
+    "pot_ecc_b100_i1": 1.0085132470462606,
+    "pot_ecc_b100_i3": 1.0217832750946665,
+    "smooth_ecc_b25_i1": 0.9979243642654273,
+    "smooth_ecc_b25_i3": 0.9963655667991641,
+    "smooth_ecc_b50_i1": 0.9949303529063677,
+    "smooth_ecc_b50_i3": 0.9961204948640745,
+    "smooth_ecc_b100_i1": 0.9952017989867126,
+    "smooth_ecc_b100_i3": 1.0111415269549933
+  },
+  "criterion": "mean ES VS physical_functional_CRPS ratios vs ECC32; calibration only",
+  "tf32_override": 0,
+  "seed": 42,
+  "dx": 0.003421664,
+  "dy": -0.003421664
+}

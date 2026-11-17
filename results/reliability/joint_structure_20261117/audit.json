@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "splits": {
+    "calibration": {
+      "windows": 90,
+      "identical_sorted_marginals_max_error": 0.0,
+      "marginal_crps_max_difference": 2.9802322387695312e-08
+    },
+    "development": {
+      "windows": 108,
+      "identical_sorted_marginals_max_error": 0.0,
+      "marginal_crps_max_difference": 2.9802322387695312e-08
+    }
+  },
+  "numerical_max_error": 1.6619015430485717e-07,
+  "data": "original RealPDE; disjoint original trajectory and Re partitions",
+  "training_seed": 42,
+  "bootstrap_unit": "trajectory (Re shared, exploratory intervals)",
+  "code_sha256": {
+    "audit.py": "037dbf89341e2c08aeb196d9b26b4d090e179b2c5ebc9ed444c1c77ce9f1466e",
+    "experiment.py": "657244aff435502b70a98d59174b4863ad988ea94bbc02768bb0e37fb5d4a9f6"
+  }
+}

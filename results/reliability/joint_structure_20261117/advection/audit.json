@@ -1,0 +1,51 @@
+{
+  "passed": true,
+  "checks": {
+    "calibration": {
+      "windows": 90,
+      "identical_marginal_max_error": 0.0
+    },
+    "development": {
+      "windows": 108,
+      "identical_marginal_max_error": 0.0
+    },
+    "late": {
+      "windows": 120,
+      "identical_marginal_max_error": 0.0
+    }
+  },
+  "numerical_max_error": 1.3238604879006743e-07,
+  "selection": {
+    "selected": "flow_ecc_b100_i3",
+    "smooth_selected": "time_ecc_b100_i1",
+    "matched_smooth": "time_ecc_b100_i3",
+    "objective": {
+      "flow_ecc_b25_i1": 0.9991231903734646,
+      "flow_ecc_b25_i3": 0.9985391250607177,
+      "flow_ecc_b50_i1": 0.9966368518128705,
+      "flow_ecc_b50_i3": 0.9956454884656347,
+      "flow_ecc_b100_i1": 0.9960501450382396,
+      "flow_ecc_b100_i3": 0.9940457741956809,
+      "time_ecc_b25_i1": 0.9997122006131908,
+      "time_ecc_b25_i3": 0.99957040425365,
+      "time_ecc_b50_i1": 0.9986065693226633,
+      "time_ecc_b50_i3": 0.9980585042786974,
+      "time_ecc_b100_i1": 0.9972663901332454,
+      "time_ecc_b100_i3": 0.9976035041293224,
+      "reverse_ecc_b25_i1": 0.9984965701788918,
+      "reverse_ecc_b25_i3": 0.9976515822740257,
+      "reverse_ecc_b50_i1": 0.9956651660508985,
+      "reverse_ecc_b50_i3": 0.9954546347772334,
+      "reverse_ecc_b100_i1": 0.995784143624569,
+      "reverse_ecc_b100_i3": 0.9970391546352279
+    },
+    "criterion": "mean ES VS physical_functional_CRPS ratios vs ECC32; calibration only",
+    "tf32_override": 0,
+    "seed": 42,
+    "dx": 0.003421664,
+    "dy": -0.003421664
+  },
+  "seed": 42,
+  "tf32_override": 0,
+  "bootstrap": "trajectory; shared Re limits interpretation"
+}

@@ -1,0 +1,31 @@
+{
+  "passed": true,
+  "checks": {
+    "calibration": {
+      "windows": 90,
+      "identical_marginal_max_error": 0.0,
+      "halfstep_relative_rmse_mean": 0.00040865937448365407,
+      "full_noise_linearization_relative_rmse_mean": 0.15003483030531142
+    },
+    "development": {
+      "windows": 108,
+      "identical_marginal_max_error": 0.0,
+      "halfstep_relative_rmse_mean": 0.00044124589584060704,
+      "full_noise_linearization_relative_rmse_mean": 0.15694554108712408
+    }
+  },
+  "numerical_max_error": 1.5921265283935782e-07,
+  "selection": {
+    "selected": "fd8",
+    "objective": {
+      "fd4": 1.0763689386850048,
+      "fd8": 1.0159806801121662
+    },
+    "criterion": "mean ES, VS, functional CRPS relative to ECC32; calibration only",
+    "seed": 42,
+    "tf32_override": 0
+  },
+  "seed": 42,
+  "tf32_override": 0,
+  "bootstrap": "trajectory; shared Re limits interpretation"
+}

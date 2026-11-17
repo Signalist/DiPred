@@ -1,0 +1,39 @@
+{
+  "replay_max_error": {
+    "ecc32": 0.0,
+    "smooth": 0.0,
+    "sol": 0.0
+  },
+  "scope": "input -> four-step P -> 49 frozen XPF heads -> 32 four-step paths -> joint transform; all weights preloaded, no disk I/O or scores in timed region",
+  "gpu": "NVIDIA A100-SXM4-80GB",
+  "tf32_override": "0",
+  "benchmarks": [
+    {
+      "method": "ecc32",
+      "median_ms": 268.30517314374447,
+      "p10_ms": 264.70007337629795,
+      "p90_ms": 269.9288772419095,
+      "repeats": 10,
+      "paths": 32,
+      "training_seed": 42
+    },
+    {
+      "method": "smooth",
+      "median_ms": 267.99441035836935,
+      "p10_ms": 266.79048016667366,
+      "p90_ms": 270.0068326666951,
+      "repeats": 10,
+      "paths": 32,
+      "training_seed": 42
+    },
+    {
+      "method": "sol",
+      "median_ms": 265.6671730801463,
+      "p10_ms": 265.13869371265173,
+      "p90_ms": 266.02560728788376,
+      "repeats": 10,
+      "paths": 32,
+      "training_seed": 42
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "passed": true,
+  "checks": {
+    "calibration": {
+      "windows": 90,
+      "identical_marginal_max_error": 0.0
+    },
+    "development": {
+      "windows": 108,
+      "identical_marginal_max_error": 0.0
+    }
+  },
+  "numerical_max_error": 1.3751559890806675e-07,
+  "selection": {
+    "selected": "loc_fd8_l16",
+    "nonlinear_selected": "loc_native16_l8",
+    "objective": {
+      "loc_fd4_l4": 1.0324092635191908,
+      "loc_fd4_l8": 1.0408903352272938,
+      "loc_fd4_l16": 1.0444451130865422,
+      "loc_fd8_l4": 1.0186644959771316,
+      "loc_fd8_l8": 1.0151073575129859,
+      "loc_fd8_l16": 1.0114443554849493,
+      "loc_native8_l4": 1.021862553932854,
+      "loc_native8_l8": 1.0142763493887588,
+      "loc_native8_l16": 1.0152638187701621,
+      "loc_native16_l4": 1.010862493524999,
+      "loc_native16_l8": 1.009199153794766,
+      "loc_native16_l16": 1.014076481166958
+    },
+    "criterion": "mean ratios ES VS functional_CRPS to ECC32; calibration only",
+    "tf32_override": 0,
+    "seed": 42
+  },
+  "seed": 42,
+  "tf32_override": 0,
+  "bootstrap": "trajectory; shared Re limits interpretation"
+}
