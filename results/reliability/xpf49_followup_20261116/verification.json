@@ -1,0 +1,18 @@
+{
+  "original_x_max_error": 0.0,
+  "original_p_max_error": 0.0,
+  "original_selected_base_max_error": 4.76837158203125e-06,
+  "original_last_feature_max_error": 0.0,
+  "historical_replay_max_standardized_crps_difference": {
+    "XPF_raw": 7.733702659579178e-06,
+    "XPF_online": 7.703900337191483e-06,
+    "XPF_grid250_online": 7.808208465492905e-06
+  },
+  "all_original_head_checkpoints_and_250_hashes": true,
+  "independent_numpy_query_crps_max_error": 1.2931409373861946e-08,
+  "independent_ecc_crps_max_error": 4.265948508504203e-09,
+  "ecc_nested_events_consistent": true,
+  "causal_49_issue_then_reveal": true,
+  "single_seed_42": true,
+  "passed": true
+}

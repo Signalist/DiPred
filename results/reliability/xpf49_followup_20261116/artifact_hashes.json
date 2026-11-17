@@ -1,0 +1,42 @@
+{
+  "results": {
+    "REPORT.md": "30e10bdbd021aaca44f42090d19793ffb948b7a8116a3122b065d0eb0b2a4ca0",
+    "verification.json": "09119a64d59d6da59407421c65ccf16f41eb43be8782484ef61631cacef0a1d7",
+    "audit/summary.csv": "9843248f13b303a5a3836dd2c12898ab7a88b4010bd4a1cee687bc6574a28cbf",
+    "audit/grid250_per_group.csv": "251dbe6d7868b218f81c2f275f98a04dc818a46e1bc77ca4758a67fe7ec0c2fc",
+    "query/summary.csv": "2932ba5d5ed9af9eef9e6eba55a2111e490a2e1ee6b497e3da937d1ecae7f8b2",
+    "query/event_summary.csv": "201a36d97573caca68dd9668d9b48918cea32cb79afa112339716561b4a64296",
+    "query/paired_trajectory.csv": "74e6e68c70fdb4d10cad0c71cfc6885ae16c9650126f5e62c1636e5ddfd765bb",
+    "query/decisions.csv": "bff21cbb6c6ef8286d37b20451da48cbc1ca71badaf5db615c1d85a78b3d6cf4",
+    "query/reliability.csv": "d2ba81638ec31be31c3ffad54d3fe816ca974b6ac546df527a6a81122e66f0fd",
+    "query/inclusion_violations.json": "f6fc7f2f79d8eaa72ee51d4a90cb2ac0e0ef794e66675160e5eea0ee2229c5e8",
+    "query/latency.csv": "e4508f7c0647f7b18309ef33c2c84de7ec125e7615931a945521fb8eecdc143c",
+    "query/ecc_predictions.pt": "2d662cdc7f8855ee035f38336c5052c075402d40ab656a73ab058770b8ed9786",
+    "local/summary.csv": "ce27c77bbe73df9733ce693439566a9c152d68dec7b931b3713868bd3c99bf2e",
+    "figures/query.png": "7fff105c2a6a68c3b1c1d662d718dc93ef2e984c437300f79b74d78ea8f71031",
+    "figures/query.pdf": "3307aa28a9ac20acadc61563e69b1cfedb31e86d0460d78b89df0b67aed4b913",
+    "figures/local.png": "b9287973d8748002a47a5b66b7f2e7a0dc1dfd39169f18f91e8ed84ef5e311ec",
+    "figures/local.pdf": "6fd7651b971a6417bab48726bec011b62c4b42e20d8a7f7f06252fffbd3e03e5"
+  },
+  "source": {
+    "report.py": "787c9b2cf93b8b5064922a060461ccf5f89afd583a6ac7924ef0229797862c40",
+    "analysis.py": "057a3abf0ae4c748e20602a1fffd26e2773f77b5979a3b1bed48666e2aa54a5f",
+    "prepare.py": "2d0ef988ee6dc8e47392b43be87f0d2190381e824fee0be2b007d22103c42c35",
+    "audit_xpf.py": "f65bd7256d8eba3876af10fd110686101487ae6a6c7e90124d75577ccef66438",
+    "verify.py": "a867106e9e8f7c1acaa9f6ddb1ef43a987cf6800d7efce8b73fb74b23621e17a",
+    "benchmark.py": "46e037bb9ad7de2b4ce5e2f224159b6e4ab18cbd97e0507346ce96224a38605f",
+    "audit_grid250.py": "4a6f4f99a12bf69db652483be3a98d84bdae38125b08dbecca869eeb7ad9055b",
+    "local.py": "f1a7cd8c83b622f6612d31bc20d853a834902f1467b728951645458b587e7bbd",
+    "followcommon.py": "0d6e3e3104876a53e15c322159edd62d6bfcf9561865e0b66350e9c45f071edc",
+    "ecc.py": "6ec43533f403e7a547319ceaeab677532701afbc4d357a7afe59be3323b3e9b8",
+    "completion_audit.py": "7406db2c4329038e10cf1d1ac3fb0caa82030051de0734acb0e357e30fe6dfd0",
+    "query_xpf.py": "3beedf84ec7f316f92b9f3fe6f6f487d95fa8688769576a3ac71e471a760f2ef"
+  },
+  "query_weights": {
+    "XP": "a0697d71691d9eba197bd7dc744fe80f77e847504c5ac99018659a5734f1ac12",
+    "XPF": "8ccb0455ba020070296cabbb6150b039dcf8e0513354b8f49f3e9d962efeac58",
+    "XPQ": "fc57e713eeedc991937a1ce5a414d826df50798dcf6580c7e57236dfb7a29151",
+    "XPFQ": "8a7b4e3389acc07e1bf860ade78dacc9a0f5f64ae2fa404745f430fe06c83724",
+    "Q": "f0ddb7861306165c885d29f75fc595e4166d2819f599833783a7d8235e01c268"
+  }
+}

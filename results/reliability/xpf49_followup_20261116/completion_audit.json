@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "checks": {
+    "numerical_and_legacy_replay": true,
+    "independent_heads_verified": {
+      "xpf": 49,
+      "F": 49,
+      "XP": 49,
+      "grid_pairs": 249,
+      "grid_median": 1
+    },
+    "new_training_single_seed": 42,
+    "query_rows": 345600,
+    "ecc_rows": 276480,
+    "local_rows": 34560,
+    "train_calibration_development_only": true,
+    "artifacts_and_source": true
+  },
+  "scope": "RealPDE single seed legacy XPF16 independent 49/250 head mechanism, local coverage, and query pilot; exploratory development"
+}

@@ -1,0 +1,26 @@
+{
+  "query/per_query.csv.gz": {
+    "sha256": "c00303996ef2635f4dcc7a835ddac17c51d37adefe8adef26f3f7706027e7b4e",
+    "size": 9942907,
+    "parts": [
+      "query/per_query.csv.gz.part000",
+      "query/per_query.csv.gz.part001",
+      "query/per_query.csv.gz.part002",
+      "query/per_query.csv.gz.part003",
+      "query/per_query.csv.gz.part004",
+      "query/per_query.csv.gz.part005",
+      "query/per_query.csv.gz.part006"
+    ]
+  },
+  "query/ecc_per_query.csv.gz": {
+    "sha256": "b1f0e3b1ee249f6d5a2e4ec092ece258136127dc64955c1984a86325550e8480",
+    "size": 6465117,
+    "parts": [
+      "query/ecc_per_query.csv.gz.part000",
+      "query/ecc_per_query.csv.gz.part001",
+      "query/ecc_per_query.csv.gz.part002",
+      "query/ecc_per_query.csv.gz.part003",
+      "query/ecc_per_query.csv.gz.part004"
+    ]
+  }
+}

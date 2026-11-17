@@ -1,0 +1,9 @@
+{
+  "gpu": "NVIDIA A100-SXM4-80GB",
+  "batch": 1,
+  "warmup": 2,
+  "repeats": 10,
+  "includes": "four call DiPred; actual 3 original XPF heads if Q; query pooling and 3 predicted quantiles",
+  "excludes": "model loading, CPU transfer, feedback",
+  "noise": "prior noise latency generated once per group of queries; separate run under different load"
+}

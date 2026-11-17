@@ -1,0 +1,19 @@
+{
+  "heads": [
+    5,
+    25,
+    49
+  ],
+  "description": "Actual original XPF16 head output residuals 05/95, 25/75, 49/51. Spatial mean/std/max; no future targets.",
+  "hashes": {
+    "Q05": "f1de0d2c3adcefca55f063a8560f82b77b8f5b5e0428a4fc421380d10dbc115d",
+    "Q25": "f6d387e292af7da65c2a14596c47ea4085402a7687085aae88f2ca2b701e84f1",
+    "Q49": "5bfc51cabe73f4dd2bcc0573c3beccca1cdb23ef7b85252086f47fdb836bb851"
+  },
+  "split": [
+    "train",
+    "calibration",
+    "development"
+  ],
+  "seed": 42
+}

@@ -1,0 +1,272 @@
+[
+  {
+    "arm": "XPF",
+    "start": 0,
+    "event": "issue_all_49"
+  },
+  {
+    "arm": "XPF",
+    "start": 0,
+    "event": "reveal_full20"
+  },
+  {
+    "arm": "XPF",
+    "start": 20,
+    "event": "issue_all_49"
+  },
+  {
+    "arm": "XPF",
+    "start": 20,
+    "event": "reveal_full20"
+  },
+  {
+    "arm": "XPF",
+    "start": 40,
+    "event": "issue_all_49"
+  },
+  {
+    "arm": "XPF",
+    "start": 40,
+    "event": "reveal_full20"
+  },
+  {
+    "arm": "XPF",
+    "start": 60,
+    "event": "issue_all_49"
+  },
+  {
+    "arm": "XPF",
+    "start": 60,
+    "event": "reveal_full20"
+  },
+  {
+    "arm": "XPF",
+    "start": 80,
+    "event": "issue_all_49"
+  },
+  {
+    "arm": "XPF",
+    "start": 80,
+    "event": "reveal_full20"
+  },
+  {
+    "arm": "XPF",
+    "start": 100,
+    "event": "issue_all_49"
+  },
+  {
+    "arm": "XPF",
+    "start": 100,
+    "event": "reveal_full20"
+  },
+  {
+    "arm": "XPF",
+    "start": 120,
+    "event": "issue_all_49"
+  },
+  {
+    "arm": "XPF",
+    "start": 120,
+    "event": "reveal_full20"
+  },
+  {
+    "arm": "XPF",
+    "start": 140,
+    "event": "issue_all_49"
+  },
+  {
+    "arm": "XPF",
+    "start": 140,
+    "event": "reveal_full20"
+  },
+  {
+    "arm": "XPF",
+    "start": 160,
+    "event": "issue_all_49"
+  },
+  {
+    "arm": "XPF",
+    "start": 160,
+    "event": "reveal_full20"
+  },
+  {
+    "arm": "XP",
+    "start": 0,
+    "event": "issue_all_49"
+  },
+  {
+    "arm": "XP",
+    "start": 0,
+    "event": "reveal_full20"
+  },
+  {
+    "arm": "XP",
+    "start": 20,
+    "event": "issue_all_49"
+  },
+  {
+    "arm": "XP",
+    "start": 20,
+    "event": "reveal_full20"
+  },
+  {
+    "arm": "XP",
+    "start": 40,
+    "event": "issue_all_49"
+  },
+  {
+    "arm": "XP",
+    "start": 40,
+    "event": "reveal_full20"
+  },
+  {
+    "arm": "XP",
+    "start": 60,
+    "event": "issue_all_49"
+  },
+  {
+    "arm": "XP",
+    "start": 60,
+    "event": "reveal_full20"
+  },
+  {
+    "arm": "XP",
+    "start": 80,
+    "event": "issue_all_49"
+  },
+  {
+    "arm": "XP",
+    "start": 80,
+    "event": "reveal_full20"
+  },
+  {
+    "arm": "XP",
+    "start": 100,
+    "event": "issue_all_49"
+  },
+  {
+    "arm": "XP",
+    "start": 100,
+    "event": "reveal_full20"
+  },
+  {
+    "arm": "XP",
+    "start": 120,
+    "event": "issue_all_49"
+  },
+  {
+    "arm": "XP",
+    "start": 120,
+    "event": "reveal_full20"
+  },
+  {
+    "arm": "XP",
+    "start": 140,
+    "event": "issue_all_49"
+  },
+  {
+    "arm": "XP",
+    "start": 140,
+    "event": "reveal_full20"
+  },
+  {
+    "arm": "XP",
+    "start": 160,
+    "event": "issue_all_49"
+  },
+  {
+    "arm": "XP",
+    "start": 160,
+    "event": "reveal_full20"
+  },
+  {
+    "arm": "F",
+    "start": 0,
+    "event": "issue_all_49"
+  },
+  {
+    "arm": "F",
+    "start": 0,
+    "event": "reveal_full20"
+  },
+  {
+    "arm": "F",
+    "start": 20,
+    "event": "issue_all_49"
+  },
+  {
+    "arm": "F",
+    "start": 20,
+    "event": "reveal_full20"
+  },
+  {
+    "arm": "F",
+    "start": 40,
+    "event": "issue_all_49"
+  },
+  {
+    "arm": "F",
+    "start": 40,
+    "event": "reveal_full20"
+  },
+  {
+    "arm": "F",
+    "start": 60,
+    "event": "issue_all_49"
+  },
+  {
+    "arm": "F",
+    "start": 60,
+    "event": "reveal_full20"
+  },
+  {
+    "arm": "F",
+    "start": 80,
+    "event": "issue_all_49"
+  },
+  {
+    "arm": "F",
+    "start": 80,
+    "event": "reveal_full20"
+  },
+  {
+    "arm": "F",
+    "start": 100,
+    "event": "issue_all_49"
+  },
+  {
+    "arm": "F",
+    "start": 100,
+    "event": "reveal_full20"
+  },
+  {
+    "arm": "F",
+    "start": 120,
+    "event": "issue_all_49"
+  },
+  {
+    "arm": "F",
+    "start": 120,
+    "event": "reveal_full20"
+  },
+  {
+    "arm": "F",
+    "start": 140,
+    "event": "issue_all_49"
+  },
+  {
+    "arm": "F",
+    "start": 140,
+    "event": "reveal_full20"
+  },
+  {
+    "arm": "F",
+    "start": 160,
+    "event": "issue_all_49"
+  },
+  {
+    "arm": "F",
+    "start": 160,
+    "event": "reveal_full20"
+  }
+]

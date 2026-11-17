@@ -1,0 +1,14 @@
+{
+  "query/development.pt": {
+    "size": 77152759,
+    "sha256": "6188ff3539e01d823db419c719098112ba4c41534c1b923a24391642a434c6dd"
+  },
+  "query/train.pt": {
+    "size": 175534175,
+    "sha256": "ddd734d76641869b11a13aafd7b286803e316ed3365119d1ad47da40df0e1a7b"
+  },
+  "query/calibration.pt": {
+    "size": 64295415,
+    "sha256": "2c09cb01ce8151dad519c2a5d02bf18dd578a0267339b567e589b0d9a6ab5587"
+  }
+}
