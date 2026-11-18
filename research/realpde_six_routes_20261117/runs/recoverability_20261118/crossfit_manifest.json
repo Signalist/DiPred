@@ -1,0 +1,11 @@
+{
+  "folds": 5,
+  "seed": 42,
+  "fold_unit": "trajectory",
+  "unsupervised_projection_uses_all_training_inputs": true,
+  "head_labels_out_of_fold": true,
+  "head_gain": 0.5,
+  "alpha": 0.01,
+  "scope": "post-hoc diagnostic after primary held-out results; not independent confirmation",
+  "training_trajectories": 46
+}

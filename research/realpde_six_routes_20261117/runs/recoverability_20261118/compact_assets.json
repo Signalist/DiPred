@@ -1,0 +1,23 @@
+{
+  "42": {
+    "original_bytes": 13454055,
+    "compact_bytes": 297767,
+    "original_sha256": "053f91dbfb88125541d03ba53150cd05f855e66ee3f6c0903b6611d542d6e660",
+    "compact_sha256": "bbfbc07f857b60326a1531fe6e3c7f749fb74d78850f65b1c6952ad423692ad0",
+    "exact_tensor_equality": true
+  },
+  "123": {
+    "original_bytes": 13454063,
+    "compact_bytes": 297775,
+    "original_sha256": "61c032cecfbaa7cd3de2df524feec9b15ed54dc332f25f2b773a812aae59562d",
+    "compact_sha256": "0fd261416495bdf9d930168b9dce1aff33c24a13e11429e24cba2d50f3d4bb36",
+    "exact_tensor_equality": true
+  },
+  "2025": {
+    "original_bytes": 13454071,
+    "compact_bytes": 297783,
+    "original_sha256": "7f4cebf0f403818a8e07a822db12befd7d8ffc4172a4c187eeea69a067041a83",
+    "compact_sha256": "0f87c90601616906b96fdd73065d617c0f2056fdf8eec3921b203d86b84b45d6",
+    "exact_tensor_equality": true
+  }
+}

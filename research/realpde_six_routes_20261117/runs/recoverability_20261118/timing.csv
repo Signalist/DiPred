@@ -1,0 +1,5 @@
+method,median,min,max,per_request_ms,scope
+base,90.00962600111961,89.18616361916065,93.08761358261108,7.500802166759968,CPU physical histories -> serial 4-call GPU P/F -> policy/correction -> CPU physical outputs; 12 simultaneous requests; warmed; excludes setup
+benefit50,98.29706326127052,93.83917041122913,99.77084957063198,8.19142193843921,CPU physical histories -> serial 4-call GPU P/F -> policy/correction -> CPU physical outputs; 12 simultaneous requests; warmed; excludes setup
+rescrct_original,97.8796873241663,95.63380852341652,100.1159530133009,8.156640610347191,CPU physical histories -> serial 4-call GPU P/F -> policy/correction -> CPU physical outputs; 12 simultaneous requests; warmed; excludes setup
+warp,95.41060775518417,94.95878592133522,97.45384007692337,7.950883979598681,CPU physical histories -> serial 4-call GPU P/F -> policy/correction -> CPU physical outputs; 12 simultaneous requests; warmed; excludes setup

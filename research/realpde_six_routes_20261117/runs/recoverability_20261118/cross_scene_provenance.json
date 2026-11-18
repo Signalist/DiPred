@@ -1,0 +1,774 @@
+{
+  "protocol_sha256": "84dc5d3055ea632fbad6e2b81ca55d6c93cf830cb7c9cdb330d5048ef0e63861",
+  "records": [
+    {
+      "scene": "cylinder",
+      "file": "cylinder:10031.h5",
+      "group": "cylinder",
+      "start": 0,
+      "arrow": "data-00000-of-00073.arrow",
+      "shape": [
+        3990,
+        64,
+        128
+      ]
+    },
+    {
+      "scene": "cylinder",
+      "file": "cylinder:10031.h5",
+      "group": "cylinder",
+      "start": 100,
+      "arrow": "data-00000-of-00073.arrow",
+      "shape": [
+        3990,
+        64,
+        128
+      ]
+    },
+    {
+      "scene": "cylinder",
+      "file": "cylinder:10031.h5",
+      "group": "cylinder",
+      "start": 200,
+      "arrow": "data-00000-of-00073.arrow",
+      "shape": [
+        3990,
+        64,
+        128
+      ]
+    },
+    {
+      "scene": "cylinder",
+      "file": "cylinder:10031.h5",
+      "group": "cylinder",
+      "start": 300,
+      "arrow": "data-00000-of-00073.arrow",
+      "shape": [
+        3990,
+        64,
+        128
+      ]
+    },
+    {
+      "scene": "cylinder",
+      "file": "cylinder:1781.h5",
+      "group": "cylinder",
+      "start": 0,
+      "arrow": "data-00010-of-00073.arrow",
+      "shape": [
+        3990,
+        64,
+        128
+      ]
+    },
+    {
+      "scene": "cylinder",
+      "file": "cylinder:1781.h5",
+      "group": "cylinder",
+      "start": 100,
+      "arrow": "data-00010-of-00073.arrow",
+      "shape": [
+        3990,
+        64,
+        128
+      ]
+    },
+    {
+      "scene": "cylinder",
+      "file": "cylinder:1781.h5",
+      "group": "cylinder",
+      "start": 200,
+      "arrow": "data-00010-of-00073.arrow",
+      "shape": [
+        3990,
+        64,
+        128
+      ]
+    },
+    {
+      "scene": "cylinder",
+      "file": "cylinder:1781.h5",
+      "group": "cylinder",
+      "start": 300,
+      "arrow": "data-00010-of-00073.arrow",
+      "shape": [
+        3990,
+        64,
+        128
+      ]
+    },
+    {
+      "scene": "cylinder",
+      "file": "cylinder:3937.h5",
+      "group": "cylinder",
+      "start": 0,
+      "arrow": "data-00020-of-00073.arrow",
+      "shape": [
+        3990,
+        64,
+        128
+      ]
+    },
+    {
+      "scene": "cylinder",
+      "file": "cylinder:3937.h5",
+      "group": "cylinder",
+      "start": 100,
+      "arrow": "data-00020-of-00073.arrow",
+      "shape": [
+        3990,
+        64,
+        128
+      ]
+    },
+    {
+      "scene": "cylinder",
+      "file": "cylinder:3937.h5",
+      "group": "cylinder",
+      "start": 200,
+      "arrow": "data-00020-of-00073.arrow",
+      "shape": [
+        3990,
+        64,
+        128
+      ]
+    },
+    {
+      "scene": "cylinder",
+      "file": "cylinder:3937.h5",
+      "group": "cylinder",
+      "start": 300,
+      "arrow": "data-00020-of-00073.arrow",
+      "shape": [
+        3990,
+        64,
+        128
+      ]
+    },
+    {
+      "scene": "cylinder",
+      "file": "cylinder:4875.h5",
+      "group": "cylinder",
+      "start": 0,
+      "arrow": "data-00030-of-00073.arrow",
+      "shape": [
+        3990,
+        64,
+        128
+      ]
+    },
+    {
+      "scene": "cylinder",
+      "file": "cylinder:4875.h5",
+      "group": "cylinder",
+      "start": 100,
+      "arrow": "data-00030-of-00073.arrow",
+      "shape": [
+        3990,
+        64,
+        128
+      ]
+    },
+    {
+      "scene": "cylinder",
+      "file": "cylinder:4875.h5",
+      "group": "cylinder",
+      "start": 200,
+      "arrow": "data-00030-of-00073.arrow",
+      "shape": [
+        3990,
+        64,
+        128
+      ]
+    },
+    {
+      "scene": "cylinder",
+      "file": "cylinder:4875.h5",
+      "group": "cylinder",
+      "start": 300,
+      "arrow": "data-00030-of-00073.arrow",
+      "shape": [
+        3990,
+        64,
+        128
+      ]
+    },
+    {
+      "scene": "cylinder",
+      "file": "cylinder:6000.h5",
+      "group": "cylinder",
+      "start": 0,
+      "arrow": "data-00040-of-00073.arrow",
+      "shape": [
+        3990,
+        64,
+        128
+      ]
+    },
+    {
+      "scene": "cylinder",
+      "file": "cylinder:6000.h5",
+      "group": "cylinder",
+      "start": 100,
+      "arrow": "data-00040-of-00073.arrow",
+      "shape": [
+        3990,
+        64,
+        128
+      ]
+    },
+    {
+      "scene": "cylinder",
+      "file": "cylinder:6000.h5",
+      "group": "cylinder",
+      "start": 200,
+      "arrow": "data-00040-of-00073.arrow",
+      "shape": [
+        3990,
+        64,
+        128
+      ]
+    },
+    {
+      "scene": "cylinder",
+      "file": "cylinder:6000.h5",
+      "group": "cylinder",
+      "start": 300,
+      "arrow": "data-00040-of-00073.arrow",
+      "shape": [
+        3990,
+        64,
+        128
+      ]
+    },
+    {
+      "scene": "cylinder",
+      "file": "cylinder:7500.h5",
+      "group": "cylinder",
+      "start": 0,
+      "arrow": "data-00050-of-00073.arrow",
+      "shape": [
+        3990,
+        64,
+        128
+      ]
+    },
+    {
+      "scene": "cylinder",
+      "file": "cylinder:7500.h5",
+      "group": "cylinder",
+      "start": 100,
+      "arrow": "data-00050-of-00073.arrow",
+      "shape": [
+        3990,
+        64,
+        128
+      ]
+    },
+    {
+      "scene": "cylinder",
+      "file": "cylinder:7500.h5",
+      "group": "cylinder",
+      "start": 200,
+      "arrow": "data-00050-of-00073.arrow",
+      "shape": [
+        3990,
+        64,
+        128
+      ]
+    },
+    {
+      "scene": "cylinder",
+      "file": "cylinder:7500.h5",
+      "group": "cylinder",
+      "start": 300,
+      "arrow": "data-00050-of-00073.arrow",
+      "shape": [
+        3990,
+        64,
+        128
+      ]
+    },
+    {
+      "scene": "cylinder",
+      "file": "cylinder:8718.h5",
+      "group": "cylinder",
+      "start": 0,
+      "arrow": "data-00060-of-00073.arrow",
+      "shape": [
+        3990,
+        64,
+        128
+      ]
+    },
+    {
+      "scene": "cylinder",
+      "file": "cylinder:8718.h5",
+      "group": "cylinder",
+      "start": 100,
+      "arrow": "data-00060-of-00073.arrow",
+      "shape": [
+        3990,
+        64,
+        128
+      ]
+    },
+    {
+      "scene": "cylinder",
+      "file": "cylinder:8718.h5",
+      "group": "cylinder",
+      "start": 200,
+      "arrow": "data-00060-of-00073.arrow",
+      "shape": [
+        3990,
+        64,
+        128
+      ]
+    },
+    {
+      "scene": "cylinder",
+      "file": "cylinder:8718.h5",
+      "group": "cylinder",
+      "start": 300,
+      "arrow": "data-00060-of-00073.arrow",
+      "shape": [
+        3990,
+        64,
+        128
+      ]
+    },
+    {
+      "scene": "cylinder",
+      "file": "cylinder:9656.h5",
+      "group": "cylinder",
+      "start": 0,
+      "arrow": "data-00070-of-00073.arrow",
+      "shape": [
+        3990,
+        64,
+        128
+      ]
+    },
+    {
+      "scene": "cylinder",
+      "file": "cylinder:9656.h5",
+      "group": "cylinder",
+      "start": 100,
+      "arrow": "data-00070-of-00073.arrow",
+      "shape": [
+        3990,
+        64,
+        128
+      ]
+    },
+    {
+      "scene": "cylinder",
+      "file": "cylinder:9656.h5",
+      "group": "cylinder",
+      "start": 200,
+      "arrow": "data-00070-of-00073.arrow",
+      "shape": [
+        3990,
+        64,
+        128
+      ]
+    },
+    {
+      "scene": "cylinder",
+      "file": "cylinder:9656.h5",
+      "group": "cylinder",
+      "start": 300,
+      "arrow": "data-00070-of-00073.arrow",
+      "shape": [
+        3990,
+        64,
+        128
+      ]
+    },
+    {
+      "scene": "fsi",
+      "file": "fsi:3272_18.2_0.8_1.h5",
+      "group": "fsi",
+      "start": 0,
+      "arrow": "data-00000-of-00051.arrow",
+      "shape": [
+        4346,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "fsi",
+      "file": "fsi:3272_18.2_0.8_1.h5",
+      "group": "fsi",
+      "start": 100,
+      "arrow": "data-00000-of-00051.arrow",
+      "shape": [
+        4346,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "fsi",
+      "file": "fsi:3272_18.2_0.8_1.h5",
+      "group": "fsi",
+      "start": 200,
+      "arrow": "data-00000-of-00051.arrow",
+      "shape": [
+        4346,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "fsi",
+      "file": "fsi:3272_18.2_0.8_1.h5",
+      "group": "fsi",
+      "start": 300,
+      "arrow": "data-00000-of-00051.arrow",
+      "shape": [
+        4346,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "fsi",
+      "file": "fsi:3545_18.2_0.8_2.h5",
+      "group": "fsi",
+      "start": 0,
+      "arrow": "data-00007-of-00051.arrow",
+      "shape": [
+        4346,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "fsi",
+      "file": "fsi:3545_18.2_0.8_2.h5",
+      "group": "fsi",
+      "start": 100,
+      "arrow": "data-00007-of-00051.arrow",
+      "shape": [
+        4346,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "fsi",
+      "file": "fsi:3545_18.2_0.8_2.h5",
+      "group": "fsi",
+      "start": 200,
+      "arrow": "data-00007-of-00051.arrow",
+      "shape": [
+        4346,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "fsi",
+      "file": "fsi:3545_18.2_0.8_2.h5",
+      "group": "fsi",
+      "start": 300,
+      "arrow": "data-00007-of-00051.arrow",
+      "shape": [
+        4346,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "fsi",
+      "file": "fsi:3955_18.2_0.8_3.h5",
+      "group": "fsi",
+      "start": 0,
+      "arrow": "data-00014-of-00051.arrow",
+      "shape": [
+        4346,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "fsi",
+      "file": "fsi:3955_18.2_0.8_3.h5",
+      "group": "fsi",
+      "start": 100,
+      "arrow": "data-00014-of-00051.arrow",
+      "shape": [
+        4346,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "fsi",
+      "file": "fsi:3955_18.2_0.8_3.h5",
+      "group": "fsi",
+      "start": 200,
+      "arrow": "data-00014-of-00051.arrow",
+      "shape": [
+        4346,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "fsi",
+      "file": "fsi:3955_18.2_0.8_3.h5",
+      "group": "fsi",
+      "start": 300,
+      "arrow": "data-00014-of-00051.arrow",
+      "shape": [
+        4346,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "fsi",
+      "file": "fsi:4091_20.8_0.8_1.h5",
+      "group": "fsi",
+      "start": 0,
+      "arrow": "data-00021-of-00051.arrow",
+      "shape": [
+        4346,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "fsi",
+      "file": "fsi:4091_20.8_0.8_1.h5",
+      "group": "fsi",
+      "start": 100,
+      "arrow": "data-00021-of-00051.arrow",
+      "shape": [
+        4346,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "fsi",
+      "file": "fsi:4091_20.8_0.8_1.h5",
+      "group": "fsi",
+      "start": 200,
+      "arrow": "data-00021-of-00051.arrow",
+      "shape": [
+        4346,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "fsi",
+      "file": "fsi:4091_20.8_0.8_1.h5",
+      "group": "fsi",
+      "start": 300,
+      "arrow": "data-00021-of-00051.arrow",
+      "shape": [
+        4346,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "fsi",
+      "file": "fsi:5045_18.2_0.8_2.h5",
+      "group": "fsi",
+      "start": 0,
+      "arrow": "data-00028-of-00051.arrow",
+      "shape": [
+        4346,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "fsi",
+      "file": "fsi:5045_18.2_0.8_2.h5",
+      "group": "fsi",
+      "start": 100,
+      "arrow": "data-00028-of-00051.arrow",
+      "shape": [
+        4346,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "fsi",
+      "file": "fsi:5045_18.2_0.8_2.h5",
+      "group": "fsi",
+      "start": 200,
+      "arrow": "data-00028-of-00051.arrow",
+      "shape": [
+        4346,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "fsi",
+      "file": "fsi:5045_18.2_0.8_2.h5",
+      "group": "fsi",
+      "start": 300,
+      "arrow": "data-00028-of-00051.arrow",
+      "shape": [
+        4346,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "fsi",
+      "file": "fsi:5318_18.2_0.8_3.h5",
+      "group": "fsi",
+      "start": 0,
+      "arrow": "data-00035-of-00051.arrow",
+      "shape": [
+        4346,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "fsi",
+      "file": "fsi:5318_18.2_0.8_3.h5",
+      "group": "fsi",
+      "start": 100,
+      "arrow": "data-00035-of-00051.arrow",
+      "shape": [
+        4346,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "fsi",
+      "file": "fsi:5318_18.2_0.8_3.h5",
+      "group": "fsi",
+      "start": 200,
+      "arrow": "data-00035-of-00051.arrow",
+      "shape": [
+        4346,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "fsi",
+      "file": "fsi:5318_18.2_0.8_3.h5",
+      "group": "fsi",
+      "start": 300,
+      "arrow": "data-00035-of-00051.arrow",
+      "shape": [
+        4346,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "fsi",
+      "file": "fsi:6682_20.8_0.8_1.h5",
+      "group": "fsi",
+      "start": 0,
+      "arrow": "data-00042-of-00051.arrow",
+      "shape": [
+        4346,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "fsi",
+      "file": "fsi:6682_20.8_0.8_1.h5",
+      "group": "fsi",
+      "start": 100,
+      "arrow": "data-00042-of-00051.arrow",
+      "shape": [
+        4346,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "fsi",
+      "file": "fsi:6682_20.8_0.8_1.h5",
+      "group": "fsi",
+      "start": 200,
+      "arrow": "data-00042-of-00051.arrow",
+      "shape": [
+        4346,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "fsi",
+      "file": "fsi:6682_20.8_0.8_1.h5",
+      "group": "fsi",
+      "start": 300,
+      "arrow": "data-00042-of-00051.arrow",
+      "shape": [
+        4346,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "fsi",
+      "file": "fsi:9068_20.8_0.8_2.h5",
+      "group": "fsi",
+      "start": 0,
+      "arrow": "data-00049-of-00051.arrow",
+      "shape": [
+        4346,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "fsi",
+      "file": "fsi:9068_20.8_0.8_2.h5",
+      "group": "fsi",
+      "start": 100,
+      "arrow": "data-00049-of-00051.arrow",
+      "shape": [
+        4346,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "fsi",
+      "file": "fsi:9068_20.8_0.8_2.h5",
+      "group": "fsi",
+      "start": 200,
+      "arrow": "data-00049-of-00051.arrow",
+      "shape": [
+        4346,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "fsi",
+      "file": "fsi:9068_20.8_0.8_2.h5",
+      "group": "fsi",
+      "start": 300,
+      "arrow": "data-00049-of-00051.arrow",
+      "shape": [
+        4346,
+        128,
+        128
+      ]
+    }
+  ],
+  "independent_confirmation": false
+}

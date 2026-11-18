@@ -1,0 +1,3 @@
+method,parameters,batch,forward_profiler_reported_flops,training_step_profiler_reported_flops,updates,training_batch_size,note
+warp,2967,1,484464,847072,2000,8,torch profiler reports supported operators only; backward grid/interpolation/conv ops may be uncounted; not total FLOPs; profiler training step here is batch1
+rescrct_original,22082,1,81920,245760,2000,8,torch profiler reports supported operators only; backward grid/interpolation/conv ops may be uncounted; not total FLOPs; profiler training step here is batch1

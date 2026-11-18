@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "scenarios": [
+    "stable",
+    "viscosity_step",
+    "forcing_step",
+    "sensor_step"
+  ],
+  "seeds": [
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107
+  ],
+  "full_feedback_events": 768,
+  "protocol_sha256": "a5402cfd608dbeb74eddf2b0d7bc4235b6d0c5af02de4e9b583ceef56de5f9af",
+  "pde": "simulated periodic advection-diffusion; not real-world measurement",
+  "boundary_change_tested": false
+}

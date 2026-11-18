@@ -1,0 +1,105 @@
+method,layer,input_shape,output_shape,forward_flops,input_requires_grad,parameter_requires_grad
+DiPred,Linear,"(1, 4)","(1, 32)",256,False,True
+DiPred,Linear,"(1, 32)","(1, 32)",2048,False,True
+DiPred,Conv2d,"(1, 120, 32, 64)","(1, 48, 32, 64)",212336640,False,True
+DiPred,Linear,"(1, 32)","(1, 48)",3072,False,True
+DiPred,Conv2d,"(1, 120, 32, 64)","(1, 48, 32, 64)",23592960,False,True
+DiPred,Conv2d,"(1, 48, 32, 64)","(1, 48, 32, 64)",84934656,False,True
+DiPred,Conv2d,"(1, 48, 32, 64)","(1, 96, 16, 32)",75497472,False,True
+DiPred,Conv2d,"(1, 96, 16, 32)","(1, 96, 16, 32)",84934656,False,True
+DiPred,Linear,"(1, 32)","(1, 96)",6144,False,True
+DiPred,Conv2d,"(1, 96, 16, 32)","(1, 96, 16, 32)",84934656,False,True
+DiPred,Conv2d,"(1, 96, 16, 32)","(1, 176, 8, 16)",69206016,False,True
+DiPred,Conv2d,"(1, 176, 8, 16)","(1, 176, 8, 16)",71368704,False,True
+DiPred,Linear,"(1, 32)","(1, 176)",11264,False,True
+DiPred,Conv2d,"(1, 176, 8, 16)","(1, 176, 8, 16)",71368704,False,True
+DiPred,Conv2d,"(1, 272, 16, 32)","(1, 96, 16, 32)",240648192,False,True
+DiPred,Linear,"(1, 32)","(1, 96)",6144,False,True
+DiPred,Conv2d,"(1, 272, 16, 32)","(1, 96, 16, 32)",26738688,False,True
+DiPred,Conv2d,"(1, 96, 16, 32)","(1, 96, 16, 32)",84934656,False,True
+DiPred,Conv2d,"(1, 144, 32, 64)","(1, 48, 32, 64)",254803968,False,True
+DiPred,Linear,"(1, 32)","(1, 48)",3072,False,True
+DiPred,Conv2d,"(1, 144, 32, 64)","(1, 48, 32, 64)",28311552,False,True
+DiPred,Conv2d,"(1, 48, 32, 64)","(1, 48, 32, 64)",84934656,False,True
+DiPred,Conv2d,"(1, 48, 32, 64)","(1, 40, 32, 64)",70778880,False,True
+DiPred,Linear,"(1, 4)","(1, 32)",256,False,True
+DiPred,Linear,"(1, 32)","(1, 32)",2048,False,True
+DiPred,Conv2d,"(1, 120, 32, 64)","(1, 48, 32, 64)",212336640,False,True
+DiPred,Linear,"(1, 32)","(1, 48)",3072,False,True
+DiPred,Conv2d,"(1, 120, 32, 64)","(1, 48, 32, 64)",23592960,False,True
+DiPred,Conv2d,"(1, 48, 32, 64)","(1, 48, 32, 64)",84934656,False,True
+DiPred,Conv2d,"(1, 48, 32, 64)","(1, 96, 16, 32)",75497472,False,True
+DiPred,Conv2d,"(1, 96, 16, 32)","(1, 96, 16, 32)",84934656,False,True
+DiPred,Linear,"(1, 32)","(1, 96)",6144,False,True
+DiPred,Conv2d,"(1, 96, 16, 32)","(1, 96, 16, 32)",84934656,False,True
+DiPred,Conv2d,"(1, 96, 16, 32)","(1, 176, 8, 16)",69206016,False,True
+DiPred,Conv2d,"(1, 176, 8, 16)","(1, 176, 8, 16)",71368704,False,True
+DiPred,Linear,"(1, 32)","(1, 176)",11264,False,True
+DiPred,Conv2d,"(1, 176, 8, 16)","(1, 176, 8, 16)",71368704,False,True
+DiPred,Conv2d,"(1, 272, 16, 32)","(1, 96, 16, 32)",240648192,False,True
+DiPred,Linear,"(1, 32)","(1, 96)",6144,False,True
+DiPred,Conv2d,"(1, 272, 16, 32)","(1, 96, 16, 32)",26738688,False,True
+DiPred,Conv2d,"(1, 96, 16, 32)","(1, 96, 16, 32)",84934656,False,True
+DiPred,Conv2d,"(1, 144, 32, 64)","(1, 48, 32, 64)",254803968,False,True
+DiPred,Linear,"(1, 32)","(1, 48)",3072,False,True
+DiPred,Conv2d,"(1, 144, 32, 64)","(1, 48, 32, 64)",28311552,False,True
+DiPred,Conv2d,"(1, 48, 32, 64)","(1, 48, 32, 64)",84934656,False,True
+DiPred,Conv2d,"(1, 48, 32, 64)","(1, 40, 32, 64)",70778880,False,True
+DiPred,Linear,"(1, 4)","(1, 32)",256,False,True
+DiPred,Linear,"(1, 32)","(1, 32)",2048,False,True
+DiPred,Conv2d,"(1, 120, 32, 64)","(1, 48, 32, 64)",212336640,False,True
+DiPred,Linear,"(1, 32)","(1, 48)",3072,False,True
+DiPred,Conv2d,"(1, 120, 32, 64)","(1, 48, 32, 64)",23592960,False,True
+DiPred,Conv2d,"(1, 48, 32, 64)","(1, 48, 32, 64)",84934656,False,True
+DiPred,Conv2d,"(1, 48, 32, 64)","(1, 96, 16, 32)",75497472,False,True
+DiPred,Conv2d,"(1, 96, 16, 32)","(1, 96, 16, 32)",84934656,False,True
+DiPred,Linear,"(1, 32)","(1, 96)",6144,False,True
+DiPred,Conv2d,"(1, 96, 16, 32)","(1, 96, 16, 32)",84934656,False,True
+DiPred,Conv2d,"(1, 96, 16, 32)","(1, 176, 8, 16)",69206016,False,True
+DiPred,Conv2d,"(1, 176, 8, 16)","(1, 176, 8, 16)",71368704,False,True
+DiPred,Linear,"(1, 32)","(1, 176)",11264,False,True
+DiPred,Conv2d,"(1, 176, 8, 16)","(1, 176, 8, 16)",71368704,False,True
+DiPred,Conv2d,"(1, 272, 16, 32)","(1, 96, 16, 32)",240648192,False,True
+DiPred,Linear,"(1, 32)","(1, 96)",6144,False,True
+DiPred,Conv2d,"(1, 272, 16, 32)","(1, 96, 16, 32)",26738688,False,True
+DiPred,Conv2d,"(1, 96, 16, 32)","(1, 96, 16, 32)",84934656,False,True
+DiPred,Conv2d,"(1, 144, 32, 64)","(1, 48, 32, 64)",254803968,False,True
+DiPred,Linear,"(1, 32)","(1, 48)",3072,False,True
+DiPred,Conv2d,"(1, 144, 32, 64)","(1, 48, 32, 64)",28311552,False,True
+DiPred,Conv2d,"(1, 48, 32, 64)","(1, 48, 32, 64)",84934656,False,True
+DiPred,Conv2d,"(1, 48, 32, 64)","(1, 40, 32, 64)",70778880,False,True
+DiPred,Linear,"(1, 4)","(1, 32)",256,False,True
+DiPred,Linear,"(1, 32)","(1, 32)",2048,False,True
+DiPred,Conv2d,"(1, 120, 32, 64)","(1, 48, 32, 64)",212336640,False,True
+DiPred,Linear,"(1, 32)","(1, 48)",3072,False,True
+DiPred,Conv2d,"(1, 120, 32, 64)","(1, 48, 32, 64)",23592960,False,True
+DiPred,Conv2d,"(1, 48, 32, 64)","(1, 48, 32, 64)",84934656,False,True
+DiPred,Conv2d,"(1, 48, 32, 64)","(1, 96, 16, 32)",75497472,False,True
+DiPred,Conv2d,"(1, 96, 16, 32)","(1, 96, 16, 32)",84934656,False,True
+DiPred,Linear,"(1, 32)","(1, 96)",6144,False,True
+DiPred,Conv2d,"(1, 96, 16, 32)","(1, 96, 16, 32)",84934656,False,True
+DiPred,Conv2d,"(1, 96, 16, 32)","(1, 176, 8, 16)",69206016,False,True
+DiPred,Conv2d,"(1, 176, 8, 16)","(1, 176, 8, 16)",71368704,False,True
+DiPred,Linear,"(1, 32)","(1, 176)",11264,False,True
+DiPred,Conv2d,"(1, 176, 8, 16)","(1, 176, 8, 16)",71368704,False,True
+DiPred,Conv2d,"(1, 272, 16, 32)","(1, 96, 16, 32)",240648192,False,True
+DiPred,Linear,"(1, 32)","(1, 96)",6144,False,True
+DiPred,Conv2d,"(1, 272, 16, 32)","(1, 96, 16, 32)",26738688,False,True
+DiPred,Conv2d,"(1, 96, 16, 32)","(1, 96, 16, 32)",84934656,False,True
+DiPred,Conv2d,"(1, 144, 32, 64)","(1, 48, 32, 64)",254803968,False,True
+DiPred,Linear,"(1, 32)","(1, 48)",3072,False,True
+DiPred,Conv2d,"(1, 144, 32, 64)","(1, 48, 32, 64)",28311552,False,True
+DiPred,Conv2d,"(1, 48, 32, 64)","(1, 48, 32, 64)",84934656,False,True
+DiPred,Conv2d,"(1, 48, 32, 64)","(1, 40, 32, 64)",70778880,False,True
+warp,Conv2d,"(1, 32, 4, 8)","(1, 16, 4, 8)",32768,False,True
+warp,Conv2d,"(1, 16, 4, 8)","(1, 16, 4, 8)",147456,True,True
+warp,Conv2d,"(1, 16, 4, 8)","(1, 7, 4, 8)",7168,True,True
+rescrct,Conv3d,"(1, 8, 20, 32, 64)","(1, 24, 20, 32, 64)",424673280,False,True
+rescrct,Conv3d,"(1, 24, 20, 32, 64)","(1, 24, 20, 32, 64)",1274019840,True,True
+rescrct,Conv3d,"(1, 24, 20, 32, 64)","(1, 2, 20, 32, 64)",106168320,True,True
+warp_train_batch8,Conv2d,"(8, 32, 4, 8)","(8, 16, 4, 8)",262144,False,True
+warp_train_batch8,Conv2d,"(8, 16, 4, 8)","(8, 16, 4, 8)",1179648,True,True
+warp_train_batch8,Conv2d,"(8, 16, 4, 8)","(8, 7, 4, 8)",57344,True,True
+rescrct_train_batch8,Conv3d,"(8, 8, 20, 32, 64)","(8, 24, 20, 32, 64)",3397386240,False,True
+rescrct_train_batch8,Conv3d,"(8, 24, 20, 32, 64)","(8, 24, 20, 32, 64)",10192158720,True,True
+rescrct_train_batch8,Conv3d,"(8, 24, 20, 32, 64)","(8, 2, 20, 32, 64)",849346560,True,True
