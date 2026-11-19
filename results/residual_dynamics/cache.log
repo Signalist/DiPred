@@ -1,0 +1,6 @@
+CACHE train 400 [46, 32, 2, 20, 32, 64]
+CACHE train 420 [46, 32, 2, 20, 32, 64]
+CACHE development 400 [12, 32, 2, 20, 32, 64]
+CACHE development 420 [12, 32, 2, 20, 32, 64]
+CACHE test 400 [12, 32, 2, 20, 32, 64]
+CACHE test 420 [12, 32, 2, 20, 32, 64]

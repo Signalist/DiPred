@@ -1,0 +1,90 @@
+[
+  {
+    "split": "development",
+    "contrast": "B-A",
+    "mean_delta_mse": -0.00015435841059753116,
+    "trajectory_bootstrap_95": [
+      -0.00030032029529077276,
+      -4.810647020490034e-05
+    ],
+    "trajectories_improved": 12,
+    "trajectories": 12
+  },
+  {
+    "split": "development",
+    "contrast": "C-B",
+    "mean_delta_mse": -6.524840723772209e-06,
+    "trajectory_bootstrap_95": [
+      -1.4296910819595144e-05,
+      -9.754257175155367e-07
+    ],
+    "trajectories_improved": 12,
+    "trajectories": 12
+  },
+  {
+    "split": "development",
+    "contrast": "B_shuffle-B",
+    "mean_delta_mse": 4.9593484853905686e-05,
+    "trajectory_bootstrap_95": [
+      2.8857504320661453e-05,
+      7.529753984402057e-05
+    ],
+    "trajectories_improved": 0,
+    "trajectories": 12
+  },
+  {
+    "split": "development",
+    "contrast": "C_shuffle-C",
+    "mean_delta_mse": 5.199321883982868e-05,
+    "trajectory_bootstrap_95": [
+      3.0127735878215817e-05,
+      7.917921934908274e-05
+    ],
+    "trajectories_improved": 0,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "contrast": "B-A",
+    "mean_delta_mse": -0.00011888925953955981,
+    "trajectory_bootstrap_95": [
+      -0.00019750397585542977,
+      -5.8402531198284606e-05
+    ],
+    "trajectories_improved": 12,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "contrast": "C-B",
+    "mean_delta_mse": -4.972207551894221e-06,
+    "trajectory_bootstrap_95": [
+      -9.191015454087373e-06,
+      -1.8060555143306018e-06
+    ],
+    "trajectories_improved": 11,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "contrast": "B_shuffle-B",
+    "mean_delta_mse": 4.848647435729171e-05,
+    "trajectory_bootstrap_95": [
+      3.466799398928974e-05,
+      6.458392392203265e-05
+    ],
+    "trajectories_improved": 0,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "contrast": "C_shuffle-C",
+    "mean_delta_mse": 5.07079418218222e-05,
+    "trajectory_bootstrap_95": [
+      3.6197549184182464e-05,
+      6.765903041142435e-05
+    ],
+    "trajectories_improved": 0,
+    "trajectories": 12
+  }
+]

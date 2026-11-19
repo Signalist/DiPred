@@ -1,0 +1,31 @@
+{
+  "passed": true,
+  "trajectory_scores_reaggregated": true,
+  "contrasts_recomputed": true,
+  "split_disjoint": true,
+  "snapshot_frames_members_exact": true,
+  "B_C_initial_function_exact": true,
+  "shuffle_preserves_fields_and_targets": true,
+  "backbone_checkpoint_unchanged": true,
+  "cache_files_hash_checked": [
+    "/cpfs01/projects-HDD/cfff-3469a2cbe57f_HDD/wangxiyun/DiPred+ResCrct/Workspace/runs/residual_dynamics_20261119/train_400.pt",
+    "/cpfs01/projects-HDD/cfff-3469a2cbe57f_HDD/wangxiyun/DiPred+ResCrct/Workspace/runs/residual_dynamics_20261119/train_420.pt",
+    "/cpfs01/projects-HDD/cfff-3469a2cbe57f_HDD/wangxiyun/DiPred+ResCrct/Workspace/runs/residual_dynamics_20261119/development_400.pt",
+    "/cpfs01/projects-HDD/cfff-3469a2cbe57f_HDD/wangxiyun/DiPred+ResCrct/Workspace/runs/residual_dynamics_20261119/development_420.pt",
+    "/cpfs01/projects-HDD/cfff-3469a2cbe57f_HDD/wangxiyun/DiPred+ResCrct/Workspace/runs/residual_dynamics_20261119/test_400.pt",
+    "/cpfs01/projects-HDD/cfff-3469a2cbe57f_HDD/wangxiyun/DiPred+ResCrct/Workspace/runs/residual_dynamics_20261119/test_420.pt"
+  ],
+  "parameters": {
+    "A": 1250,
+    "B": 1316,
+    "C": 1332
+  },
+  "python": "3.8.10",
+  "torch": "1.14.0a0+44dac51",
+  "numpy": "1.22.2",
+  "gpu": "NVIDIA A100-SXM4-80GB",
+  "code_sha256": {
+    "run.py": "ba4c5a7c2e1146b5776a5fff8c290183b560ee45447f46c77c854287b0e75dbf",
+    "verify.py": "89b9179d85da3288d5259dc5a9d1a4edf589c96d948ad8f3192236476292312f"
+  }
+}
