@@ -29,7 +29,7 @@
 
 ## 复跑
 
-在仓库根目录，使用第二阶段保存在 Workspace/runs/residual_dynamics_phase2 的 with_memory 权重和既有 HDF5：
+在仓库根目录，使用本目录 [checkpoints](checkpoints/) 内的三个冻结偏差头权重、[SHA-256 清单](checkpoints/SHA256.json) 和既有 HDF5：
 
 ```bash
 source ../../env.sh

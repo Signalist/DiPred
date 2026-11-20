@@ -41,7 +41,9 @@ def main():
     sim = DATA.parent/'train_sim'
     sim_groups = {p.stem.split('_')[0] for p in sim.glob('*.h5')}
     threshold = json.loads((repo/'results/residual_dynamics_phase2/causal_training_protocol.json').read_text())['event_threshold']
-    weights = {s:EXTRA/f'causal_with_memory_{s}.pt' for s in SEEDS}
+    weights = {s:out/'checkpoints'/f'causal_with_memory_{s}.pt' for s in SEEDS}
+    expected = json.loads((out/'checkpoints/SHA256.json').read_text())
+    assert all(digest(path) == expected[path.name] for path in weights.values())
     dump(out/'protocol.json',dict(starts=starts,files=[r['file'] for r in records],heads={s:digest(p) for s,p in weights.items()},
         scope='Historical test trajectories; follow-on blocks distinct from both phase2 windows. New stream starts cold.',
         endpoints='warm macro standardized empirical CRPS and full-field20 RMS Energy Score; both lower',
