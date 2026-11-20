@@ -1,0 +1,21 @@
+{
+  "scale": 0.012425203807651997,
+  "event_threshold": 0.027165522798895836,
+  "parameters": 1154,
+  "allocated_input_channels": 20,
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "steps": 2000,
+  "method_boundaries": {
+    "history_only": "observed physical history+coords+lead",
+    "current_fields": "history+current issued ensemble mean/std/departure+coords+lead; no memory",
+    "with_memory": "current_fields+previous complete native ensemble bias, lead-aligned and last-frame+availability"
+  },
+  "cold": "history400:420; target420:440; no invented prior feedback",
+  "warm": "history420:440 equals previous truth; target440:460; previous whole20 bias allowed",
+  "primary_selection": "macro MSE of ensemble mean over development trajectories and two blocks",
+  "no_current_target_in_predict": true
+}

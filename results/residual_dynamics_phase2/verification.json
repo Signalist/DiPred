@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "forecast_rows": 768,
+  "old_files_checked": 17,
+  "native_files_checked": 6,
+  "phase1_B_C_exact_to_1e_minus12": true,
+  "score_macro_aggregates_checked": 64,
+  "complete_block_event_order": true,
+  "explicit_full_field_CRPS_and_ES": true,
+  "max_replay_difference": 0.0,
+  "max_float64_identity_error": 8.673617379884035e-19
+}

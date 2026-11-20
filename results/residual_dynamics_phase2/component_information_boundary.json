@@ -1,0 +1,13 @@
+{
+  "bias": "P ensemble mean minus Y; future bias is an offline label, never a causal input",
+  "delta": "issued native P minus ensemble mean; already available, prediction is diagnostic only",
+  "correlation": "centered Pearson pooled over window/member/time/space per channel; spatial nonstationarity remains",
+  "shuffle": "10 permutations of previous whole member fields, each window/time separately; target stays unchanged",
+  "linear_parameters": {
+    "A2_scaled": 2,
+    "A3_linear": 4,
+    "symmetric_linear3x3": 12,
+    "linear3x3": 36
+  },
+  "coefficients_fitted_on": "train only; sampled262144 train points except exact A2 all-data moments"
+}

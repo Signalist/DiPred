@@ -1,0 +1,38 @@
+{
+  "crps_standardized": {
+    "mean_delta": -8.67361737988403e-20,
+    "ci95": [
+      -1.3877787807814456e-18,
+      1.4456028966473395e-18
+    ],
+    "improved": 5,
+    "trajectories": 12
+  },
+  "energy_standardized": {
+    "mean_delta": 3.8075508853961657e-05,
+    "ci95": [
+      2.7503234709029712e-05,
+      4.7752180779727884e-05
+    ],
+    "improved": 0,
+    "trajectories": 12
+  },
+  "temporal_acf_rmse": {
+    "mean_delta": 0.009459400114026736,
+    "ci95": [
+      0.0006858451000495672,
+      0.01927974272877026
+    ],
+    "improved": 8,
+    "trajectories": 12
+  },
+  "event_brier": {
+    "mean_delta": -0.00015869140625,
+    "ci95": [
+      -0.00047607421875,
+      0.0
+    ],
+    "improved": 1,
+    "trajectories": 12
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "reference": "06096dd463f50341231a2bf2ca5724e8f6c36af8",
+  "head": "06096dd463f50341231a2bf2ca5724e8f6c36af8",
+  "old_results": {
+    "results/residual_dynamics/A.pt": "312343619657c9dcbc6396555ed08de1a322185d2883c03d562f9d7a0cfdec60",
+    "results/residual_dynamics/B.pt": "75ad5cc501b3606a1e138a1d6ac274ed4d4365f851fa65277143d92960265ae6",
+    "results/residual_dynamics/C.pt": "ce609dc63b305f647bda310d68df144cf8aa85a7c3eee608babe7af663c21ec1",
+    "results/residual_dynamics/README.md": "7bd28828f543169c4d20a64d1630fa4b710720b1b9538b65579340de5ddc732d",
+    "results/residual_dynamics/alignment.json": "c316759f6b186b4af9e95d945d059bfac4c9c246cb877b212eeceb351d41bb5f",
+    "results/residual_dynamics/audit.log": "5132466780b7d5291e12993473f994d7f5a635c562fa789a37e9459884005ce3",
+    "results/residual_dynamics/cache.log": "1705b61176030a54e87b0ac9d91941d018bb3c56ee93fa1501365b7d3c587412",
+    "results/residual_dynamics/cache_manifest.json": "1e783654c87a62e1ca73b11195f9fb6c1803459280a556e24801cb8e98214ea1",
+    "results/residual_dynamics/contrasts.json": "73e99c415e3ad3e6defc6c0a9dcb989c3150bc554fc492388ea988d92c3a0165",
+    "results/residual_dynamics/fit.log": "69d6b3d5b1a3b5eb71124d5983b980869c3d62f40f626a8db947e26c6012ca93",
+    "results/residual_dynamics/per_trajectory.csv": "bbc413c368b1b3436c138deee61718b07ca9337891b0329112fb8c56e07d5ae7",
+    "results/residual_dynamics/protocol.json": "1b34f048d744e9443fa08f0efa688bfadcbe546c7c128fde35507da4f698c253",
+    "results/residual_dynamics/score.log": "2f305a38a866cf2dc8aa291988af644707466a87a3c12d26d5343ac97290cda5",
+    "results/residual_dynamics/summary.json": "78310dc6b74b9847db843170efd8d1ef71efc4a8131e8f6959331063cd76f0e5",
+    "results/residual_dynamics/training.json": "fba6ad8a6084bb8039f74b9ee4629c97b2f416c24fe27eeb1259735eef609e7a",
+    "results/residual_dynamics/verification.json": "2856ea9e88b1a63866cd772dbadbf65afba14a1a9d8926f4447eb229d7b30ce9",
+    "results/residual_dynamics/verify.log": "9fcca993a13f2f37b0c0820f67d7e819baaf6a59541f7eb24948bbdef254ecfe"
+  },
+  "backbone_sha256": "834260c9838b058d3e415b1efbd3fa19f7998884a36e46d14d62b10ed3ad8cfe",
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "steps": 2000,
+  "minibatch": 16,
+  "optimizer": "Adam lr=.001",
+  "selection": "development trajectory-macro original-scale MSE, every250 steps",
+  "primary_mechanism": "paired trajectory MSE: B-persistence and C-symmetric",
+  "primary_causal": "standardized empirical ensemble CRPS and full-field20 RMS Energy Score",
+  "scoring": "trajectory equally weighted; channel/lead/Re also reported; 10000 paired trajectory bootstrap",
+  "causal_event": "spatial v RMS exceeds train-truth frame90th percentile for >=3 consecutive frames",
+  "shuffle_seeds": [
+    7100,
+    7101,
+    7102,
+    7103,
+    7104,
+    7105,
+    7106,
+    7107,
+    7108,
+    7109
+  ],
+  "no_test_tuning": true,
+  "no_remote_push": true,
+  "directional_claim": "grid offsets only; no reliable physical propagation direction label",
+  "limitations": "historically reused test,12 trajectories/3Re; seed variability separated from trajectory bootstrap"
+}

@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "research/residual_dynamics_phase2/audit.py", line 89, in <module>
+    run()
+  File "/usr/local/lib/python3.8/dist-packages/torch/autograd/grad_mode.py", line 34, in decorate_context
+    return func(*args, **kwargs)
+  File "research/residual_dynamics_phase2/audit.py", line 60, in run
+    assert error<=2e-6
+AssertionError

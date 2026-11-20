@@ -1,0 +1,310 @@
+[
+  {
+    "split": "development",
+    "method": "native",
+    "seed": -1,
+    "window": 0,
+    "max_member_delta_change": 0.0
+  },
+  {
+    "split": "development",
+    "method": "native",
+    "seed": -1,
+    "window": 1,
+    "max_member_delta_change": 0.0
+  },
+  {
+    "split": "development",
+    "method": "persistence_bias",
+    "seed": -1,
+    "window": 0,
+    "max_member_delta_change": 0.0
+  },
+  {
+    "split": "development",
+    "method": "persistence_bias",
+    "seed": -1,
+    "window": 1,
+    "max_member_delta_change": 8.940696716308594e-08
+  },
+  {
+    "split": "development",
+    "method": "history_only",
+    "seed": 42,
+    "window": 0,
+    "max_member_delta_change": 1.1920928955078125e-07
+  },
+  {
+    "split": "development",
+    "method": "history_only",
+    "seed": 42,
+    "window": 1,
+    "max_member_delta_change": 8.940696716308594e-08
+  },
+  {
+    "split": "development",
+    "method": "history_only",
+    "seed": 43,
+    "window": 0,
+    "max_member_delta_change": 8.940696716308594e-08
+  },
+  {
+    "split": "development",
+    "method": "history_only",
+    "seed": 43,
+    "window": 1,
+    "max_member_delta_change": 8.940696716308594e-08
+  },
+  {
+    "split": "development",
+    "method": "history_only",
+    "seed": 44,
+    "window": 0,
+    "max_member_delta_change": 8.940696716308594e-08
+  },
+  {
+    "split": "development",
+    "method": "history_only",
+    "seed": 44,
+    "window": 1,
+    "max_member_delta_change": 8.940696716308594e-08
+  },
+  {
+    "split": "development",
+    "method": "current_fields",
+    "seed": 42,
+    "window": 0,
+    "max_member_delta_change": 8.940696716308594e-08
+  },
+  {
+    "split": "development",
+    "method": "current_fields",
+    "seed": 42,
+    "window": 1,
+    "max_member_delta_change": 1.1920928955078125e-07
+  },
+  {
+    "split": "development",
+    "method": "current_fields",
+    "seed": 43,
+    "window": 0,
+    "max_member_delta_change": 8.940696716308594e-08
+  },
+  {
+    "split": "development",
+    "method": "current_fields",
+    "seed": 43,
+    "window": 1,
+    "max_member_delta_change": 8.940696716308594e-08
+  },
+  {
+    "split": "development",
+    "method": "current_fields",
+    "seed": 44,
+    "window": 0,
+    "max_member_delta_change": 8.940696716308594e-08
+  },
+  {
+    "split": "development",
+    "method": "current_fields",
+    "seed": 44,
+    "window": 1,
+    "max_member_delta_change": 8.940696716308594e-08
+  },
+  {
+    "split": "development",
+    "method": "with_memory",
+    "seed": 42,
+    "window": 0,
+    "max_member_delta_change": 8.940696716308594e-08
+  },
+  {
+    "split": "development",
+    "method": "with_memory",
+    "seed": 42,
+    "window": 1,
+    "max_member_delta_change": 8.940696716308594e-08
+  },
+  {
+    "split": "development",
+    "method": "with_memory",
+    "seed": 43,
+    "window": 0,
+    "max_member_delta_change": 8.940696716308594e-08
+  },
+  {
+    "split": "development",
+    "method": "with_memory",
+    "seed": 43,
+    "window": 1,
+    "max_member_delta_change": 8.940696716308594e-08
+  },
+  {
+    "split": "development",
+    "method": "with_memory",
+    "seed": 44,
+    "window": 0,
+    "max_member_delta_change": 8.940696716308594e-08
+  },
+  {
+    "split": "development",
+    "method": "with_memory",
+    "seed": 44,
+    "window": 1,
+    "max_member_delta_change": 8.940696716308594e-08
+  },
+  {
+    "split": "test",
+    "method": "native",
+    "seed": -1,
+    "window": 0,
+    "max_member_delta_change": 0.0
+  },
+  {
+    "split": "test",
+    "method": "native",
+    "seed": -1,
+    "window": 1,
+    "max_member_delta_change": 0.0
+  },
+  {
+    "split": "test",
+    "method": "persistence_bias",
+    "seed": -1,
+    "window": 0,
+    "max_member_delta_change": 0.0
+  },
+  {
+    "split": "test",
+    "method": "persistence_bias",
+    "seed": -1,
+    "window": 1,
+    "max_member_delta_change": 8.940696716308594e-08
+  },
+  {
+    "split": "test",
+    "method": "history_only",
+    "seed": 42,
+    "window": 0,
+    "max_member_delta_change": 8.940696716308594e-08
+  },
+  {
+    "split": "test",
+    "method": "history_only",
+    "seed": 42,
+    "window": 1,
+    "max_member_delta_change": 8.940696716308594e-08
+  },
+  {
+    "split": "test",
+    "method": "history_only",
+    "seed": 43,
+    "window": 0,
+    "max_member_delta_change": 8.940696716308594e-08
+  },
+  {
+    "split": "test",
+    "method": "history_only",
+    "seed": 43,
+    "window": 1,
+    "max_member_delta_change": 8.940696716308594e-08
+  },
+  {
+    "split": "test",
+    "method": "history_only",
+    "seed": 44,
+    "window": 0,
+    "max_member_delta_change": 8.940696716308594e-08
+  },
+  {
+    "split": "test",
+    "method": "history_only",
+    "seed": 44,
+    "window": 1,
+    "max_member_delta_change": 8.940696716308594e-08
+  },
+  {
+    "split": "test",
+    "method": "current_fields",
+    "seed": 42,
+    "window": 0,
+    "max_member_delta_change": 8.940696716308594e-08
+  },
+  {
+    "split": "test",
+    "method": "current_fields",
+    "seed": 42,
+    "window": 1,
+    "max_member_delta_change": 8.940696716308594e-08
+  },
+  {
+    "split": "test",
+    "method": "current_fields",
+    "seed": 43,
+    "window": 0,
+    "max_member_delta_change": 8.940696716308594e-08
+  },
+  {
+    "split": "test",
+    "method": "current_fields",
+    "seed": 43,
+    "window": 1,
+    "max_member_delta_change": 8.940696716308594e-08
+  },
+  {
+    "split": "test",
+    "method": "current_fields",
+    "seed": 44,
+    "window": 0,
+    "max_member_delta_change": 8.940696716308594e-08
+  },
+  {
+    "split": "test",
+    "method": "current_fields",
+    "seed": 44,
+    "window": 1,
+    "max_member_delta_change": 8.940696716308594e-08
+  },
+  {
+    "split": "test",
+    "method": "with_memory",
+    "seed": 42,
+    "window": 0,
+    "max_member_delta_change": 8.940696716308594e-08
+  },
+  {
+    "split": "test",
+    "method": "with_memory",
+    "seed": 42,
+    "window": 1,
+    "max_member_delta_change": 8.940696716308594e-08
+  },
+  {
+    "split": "test",
+    "method": "with_memory",
+    "seed": 43,
+    "window": 0,
+    "max_member_delta_change": 8.940696716308594e-08
+  },
+  {
+    "split": "test",
+    "method": "with_memory",
+    "seed": 43,
+    "window": 1,
+    "max_member_delta_change": 8.940696716308594e-08
+  },
+  {
+    "split": "test",
+    "method": "with_memory",
+    "seed": 44,
+    "window": 0,
+    "max_member_delta_change": 8.940696716308594e-08
+  },
+  {
+    "split": "test",
+    "method": "with_memory",
+    "seed": 44,
+    "window": 1,
+    "max_member_delta_change": 8.940696716308594e-08
+  }
+]

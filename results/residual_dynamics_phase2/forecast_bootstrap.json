@@ -1,0 +1,3362 @@
+[
+  {
+    "split": "development",
+    "state": "cold",
+    "contrast": "history_only minus native",
+    "seed": 42,
+    "metric": "mse",
+    "mean_delta": 9.319999415378575e-08,
+    "ci95": [
+      -1.2895618097075105e-07,
+      2.5229239193793857e-07
+    ],
+    "improved": 3,
+    "trajectories": 12
+  },
+  {
+    "split": "development",
+    "state": "cold",
+    "contrast": "history_only minus native",
+    "seed": 42,
+    "metric": "crps_standardized",
+    "mean_delta": 0.0002823260996328159,
+    "ci95": [
+      1.553341350980788e-05,
+      0.0005506409455526213
+    ],
+    "improved": 3,
+    "trajectories": 12
+  },
+  {
+    "split": "development",
+    "state": "cold",
+    "contrast": "history_only minus native",
+    "seed": 42,
+    "metric": "energy_standardized",
+    "mean_delta": 0.0004998910795387598,
+    "ci95": [
+      -0.00024340291654465531,
+      0.0011549952068930277
+    ],
+    "improved": 4,
+    "trajectories": 12
+  },
+  {
+    "split": "development",
+    "state": "cold",
+    "contrast": "history_only minus native",
+    "seed": 42,
+    "metric": "event_brier",
+    "mean_delta": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "improved": 0,
+    "trajectories": 12
+  },
+  {
+    "split": "development",
+    "state": "cold",
+    "contrast": "history_only minus native",
+    "seed": 42,
+    "metric": "temporal_acf_rmse",
+    "mean_delta": 0.003130358560494454,
+    "ci95": [
+      0.0006105188720769027,
+      0.005280708652145259
+    ],
+    "improved": 2,
+    "trajectories": 12
+  },
+  {
+    "split": "development",
+    "state": "cold",
+    "contrast": "history_only minus native",
+    "seed": 43,
+    "metric": "mse",
+    "mean_delta": 5.851526748479743e-08,
+    "ci95": [
+      -2.0095732781139394e-07,
+      2.3635330985118956e-07
+    ],
+    "improved": 3,
+    "trajectories": 12
+  },
+  {
+    "split": "development",
+    "state": "cold",
+    "contrast": "history_only minus native",
+    "seed": 43,
+    "metric": "crps_standardized",
+    "mean_delta": 0.00022992942453998964,
+    "ci95": [
+      -5.644669561170677e-05,
+      0.0005106830917467137
+    ],
+    "improved": 4,
+    "trajectories": 12
+  },
+  {
+    "split": "development",
+    "state": "cold",
+    "contrast": "history_only minus native",
+    "seed": 43,
+    "metric": "energy_standardized",
+    "mean_delta": 0.00044675088037180014,
+    "ci95": [
+      -0.00030717582372087295,
+      0.0011090670855838595
+    ],
+    "improved": 5,
+    "trajectories": 12
+  },
+  {
+    "split": "development",
+    "state": "cold",
+    "contrast": "history_only minus native",
+    "seed": 43,
+    "metric": "event_brier",
+    "mean_delta": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "improved": 0,
+    "trajectories": 12
+  },
+  {
+    "split": "development",
+    "state": "cold",
+    "contrast": "history_only minus native",
+    "seed": 43,
+    "metric": "temporal_acf_rmse",
+    "mean_delta": 0.0030582479078166227,
+    "ci95": [
+      0.0006250280922950903,
+      0.005166491904806855
+    ],
+    "improved": 2,
+    "trajectories": 12
+  },
+  {
+    "split": "development",
+    "state": "cold",
+    "contrast": "history_only minus native",
+    "seed": 44,
+    "metric": "mse",
+    "mean_delta": 2.0870391478356317e-07,
+    "ci95": [
+      -1.8584233976991844e-08,
+      4.4927674035366393e-07
+    ],
+    "improved": 2,
+    "trajectories": 12
+  },
+  {
+    "split": "development",
+    "state": "cold",
+    "contrast": "history_only minus native",
+    "seed": 44,
+    "metric": "crps_standardized",
+    "mean_delta": 0.00046969509716259715,
+    "ci95": [
+      0.00013094084037298896,
+      0.0007931012674379854
+    ],
+    "improved": 2,
+    "trajectories": 12
+  },
+  {
+    "split": "development",
+    "state": "cold",
+    "contrast": "history_only minus native",
+    "seed": 44,
+    "metric": "energy_standardized",
+    "mean_delta": 0.0007368757737802935,
+    "ci95": [
+      -0.00027691074448447814,
+      0.0016133701506461384
+    ],
+    "improved": 3,
+    "trajectories": 12
+  },
+  {
+    "split": "development",
+    "state": "cold",
+    "contrast": "history_only minus native",
+    "seed": 44,
+    "metric": "event_brier",
+    "mean_delta": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "improved": 0,
+    "trajectories": 12
+  },
+  {
+    "split": "development",
+    "state": "cold",
+    "contrast": "history_only minus native",
+    "seed": 44,
+    "metric": "temporal_acf_rmse",
+    "mean_delta": 0.004636225268398179,
+    "ci95": [
+      0.0009952473114678147,
+      0.007711165016039931
+    ],
+    "improved": 2,
+    "trajectories": 12
+  },
+  {
+    "split": "development",
+    "state": "cold",
+    "contrast": "current_fields minus native",
+    "seed": 42,
+    "metric": "mse",
+    "mean_delta": -1.3137409125729506e-06,
+    "ci95": [
+      -4.059405230695933e-06,
+      6.928457198621585e-07
+    ],
+    "improved": 4,
+    "trajectories": 12
+  },
+  {
+    "split": "development",
+    "state": "cold",
+    "contrast": "current_fields minus native",
+    "seed": 42,
+    "metric": "crps_standardized",
+    "mean_delta": 0.00030597019246557156,
+    "ci95": [
+      -0.0005302727588139366,
+      0.0009216157697159291
+    ],
+    "improved": 2,
+    "trajectories": 12
+  },
+  {
+    "split": "development",
+    "state": "cold",
+    "contrast": "current_fields minus native",
+    "seed": 42,
+    "metric": "energy_standardized",
+    "mean_delta": 0.0003992646413945658,
+    "ci95": [
+      -0.001684979299019736,
+      0.0018960259647654264
+    ],
+    "improved": 2,
+    "trajectories": 12
+  },
+  {
+    "split": "development",
+    "state": "cold",
+    "contrast": "current_fields minus native",
+    "seed": 42,
+    "metric": "event_brier",
+    "mean_delta": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "improved": 0,
+    "trajectories": 12
+  },
+  {
+    "split": "development",
+    "state": "cold",
+    "contrast": "current_fields minus native",
+    "seed": 42,
+    "metric": "temporal_acf_rmse",
+    "mean_delta": 0.004961533419986382,
+    "ci95": [
+      0.0005661100734391393,
+      0.008750275275139906
+    ],
+    "improved": 2,
+    "trajectories": 12
+  },
+  {
+    "split": "development",
+    "state": "cold",
+    "contrast": "current_fields minus native",
+    "seed": 43,
+    "metric": "mse",
+    "mean_delta": -1.5297206820287646e-06,
+    "ci95": [
+      -4.7280070605160236e-06,
+      7.197220537759271e-07
+    ],
+    "improved": 4,
+    "trajectories": 12
+  },
+  {
+    "split": "development",
+    "state": "cold",
+    "contrast": "current_fields minus native",
+    "seed": 43,
+    "metric": "crps_standardized",
+    "mean_delta": 0.0002597945135950728,
+    "ci95": [
+      -0.0004900788256242352,
+      0.0008199644113513834
+    ],
+    "improved": 2,
+    "trajectories": 12
+  },
+  {
+    "split": "development",
+    "state": "cold",
+    "contrast": "current_fields minus native",
+    "seed": 43,
+    "metric": "energy_standardized",
+    "mean_delta": 0.00015388761500739526,
+    "ci95": [
+      -0.001622200101332441,
+      0.0014555159784969927
+    ],
+    "improved": 3,
+    "trajectories": 12
+  },
+  {
+    "split": "development",
+    "state": "cold",
+    "contrast": "current_fields minus native",
+    "seed": 43,
+    "metric": "event_brier",
+    "mean_delta": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "improved": 0,
+    "trajectories": 12
+  },
+  {
+    "split": "development",
+    "state": "cold",
+    "contrast": "current_fields minus native",
+    "seed": 43,
+    "metric": "temporal_acf_rmse",
+    "mean_delta": 0.003964220458070302,
+    "ci95": [
+      0.0009118206323028933,
+      0.006503677209060132
+    ],
+    "improved": 1,
+    "trajectories": 12
+  },
+  {
+    "split": "development",
+    "state": "cold",
+    "contrast": "current_fields minus native",
+    "seed": 44,
+    "metric": "mse",
+    "mean_delta": -1.4556919266166961e-06,
+    "ci95": [
+      -4.947889546114245e-06,
+      1.096001858146086e-06
+    ],
+    "improved": 3,
+    "trajectories": 12
+  },
+  {
+    "split": "development",
+    "state": "cold",
+    "contrast": "current_fields minus native",
+    "seed": 44,
+    "metric": "crps_standardized",
+    "mean_delta": 8.433230364473324e-05,
+    "ci95": [
+      -0.0007763602977446347,
+      0.0007345946904492263
+    ],
+    "improved": 3,
+    "trajectories": 12
+  },
+  {
+    "split": "development",
+    "state": "cold",
+    "contrast": "current_fields minus native",
+    "seed": 44,
+    "metric": "energy_standardized",
+    "mean_delta": 0.00030918893039574385,
+    "ci95": [
+      -0.0017895938655838235,
+      0.0019683118779633625
+    ],
+    "improved": 4,
+    "trajectories": 12
+  },
+  {
+    "split": "development",
+    "state": "cold",
+    "contrast": "current_fields minus native",
+    "seed": 44,
+    "metric": "event_brier",
+    "mean_delta": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "improved": 0,
+    "trajectories": 12
+  },
+  {
+    "split": "development",
+    "state": "cold",
+    "contrast": "current_fields minus native",
+    "seed": 44,
+    "metric": "temporal_acf_rmse",
+    "mean_delta": 0.008171041193558866,
+    "ci95": [
+      0.0018475935120285043,
+      0.013244615703761467
+    ],
+    "improved": 2,
+    "trajectories": 12
+  },
+  {
+    "split": "development",
+    "state": "cold",
+    "contrast": "with_memory minus current_fields",
+    "seed": 42,
+    "metric": "mse",
+    "mean_delta": -2.483198641861949e-07,
+    "ci95": [
+      -7.284558983743144e-07,
+      1.6662936359020668e-07
+    ],
+    "improved": 6,
+    "trajectories": 12
+  },
+  {
+    "split": "development",
+    "state": "cold",
+    "contrast": "with_memory minus current_fields",
+    "seed": 42,
+    "metric": "crps_standardized",
+    "mean_delta": 6.065876540909653e-05,
+    "ci95": [
+      -0.0001543580223924604,
+      0.00027324040801227735
+    ],
+    "improved": 5,
+    "trajectories": 12
+  },
+  {
+    "split": "development",
+    "state": "cold",
+    "contrast": "with_memory minus current_fields",
+    "seed": 42,
+    "metric": "energy_standardized",
+    "mean_delta": 0.00021568559530696363,
+    "ci95": [
+      -8.641031331654974e-05,
+      0.0004929277251573507
+    ],
+    "improved": 4,
+    "trajectories": 12
+  },
+  {
+    "split": "development",
+    "state": "cold",
+    "contrast": "with_memory minus current_fields",
+    "seed": 42,
+    "metric": "event_brier",
+    "mean_delta": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "improved": 0,
+    "trajectories": 12
+  },
+  {
+    "split": "development",
+    "state": "cold",
+    "contrast": "with_memory minus current_fields",
+    "seed": 42,
+    "metric": "temporal_acf_rmse",
+    "mean_delta": 0.00034275768438351884,
+    "ci95": [
+      -0.0009023409719732421,
+      0.0018013874335635852
+    ],
+    "improved": 6,
+    "trajectories": 12
+  },
+  {
+    "split": "development",
+    "state": "cold",
+    "contrast": "with_memory minus current_fields",
+    "seed": 43,
+    "metric": "mse",
+    "mean_delta": 6.937015769114759e-08,
+    "ci95": [
+      -6.737031763924067e-07,
+      1.149262892831747e-06
+    ],
+    "improved": 8,
+    "trajectories": 12
+  },
+  {
+    "split": "development",
+    "state": "cold",
+    "contrast": "with_memory minus current_fields",
+    "seed": 43,
+    "metric": "crps_standardized",
+    "mean_delta": -0.00023829703600051406,
+    "ci95": [
+      -0.0004147218929967954,
+      -7.565820231165517e-05
+    ],
+    "improved": 10,
+    "trajectories": 12
+  },
+  {
+    "split": "development",
+    "state": "cold",
+    "contrast": "with_memory minus current_fields",
+    "seed": 43,
+    "metric": "energy_standardized",
+    "mean_delta": -1.8548696377636287e-05,
+    "ci95": [
+      -0.000385788907674198,
+      0.0003190562531352977
+    ],
+    "improved": 5,
+    "trajectories": 12
+  },
+  {
+    "split": "development",
+    "state": "cold",
+    "contrast": "with_memory minus current_fields",
+    "seed": 43,
+    "metric": "event_brier",
+    "mean_delta": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "improved": 0,
+    "trajectories": 12
+  },
+  {
+    "split": "development",
+    "state": "cold",
+    "contrast": "with_memory minus current_fields",
+    "seed": 43,
+    "metric": "temporal_acf_rmse",
+    "mean_delta": 0.0043262870883857335,
+    "ci95": [
+      0.0016889440243352287,
+      0.006568042870396045
+    ],
+    "improved": 2,
+    "trajectories": 12
+  },
+  {
+    "split": "development",
+    "state": "cold",
+    "contrast": "with_memory minus current_fields",
+    "seed": 44,
+    "metric": "mse",
+    "mean_delta": -4.964428867185832e-07,
+    "ci95": [
+      -1.694105226605164e-06,
+      7.542678239473248e-07
+    ],
+    "improved": 8,
+    "trajectories": 12
+  },
+  {
+    "split": "development",
+    "state": "cold",
+    "contrast": "with_memory minus current_fields",
+    "seed": 44,
+    "metric": "crps_standardized",
+    "mean_delta": 0.00010873221437862103,
+    "ci95": [
+      -0.0003013108572470331,
+      0.0005182663787141786
+    ],
+    "improved": 5,
+    "trajectories": 12
+  },
+  {
+    "split": "development",
+    "state": "cold",
+    "contrast": "with_memory minus current_fields",
+    "seed": 44,
+    "metric": "energy_standardized",
+    "mean_delta": 6.260325416227476e-05,
+    "ci95": [
+      -0.0005129060588539593,
+      0.000611981554871545
+    ],
+    "improved": 6,
+    "trajectories": 12
+  },
+  {
+    "split": "development",
+    "state": "cold",
+    "contrast": "with_memory minus current_fields",
+    "seed": 44,
+    "metric": "event_brier",
+    "mean_delta": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "improved": 0,
+    "trajectories": 12
+  },
+  {
+    "split": "development",
+    "state": "cold",
+    "contrast": "with_memory minus current_fields",
+    "seed": 44,
+    "metric": "temporal_acf_rmse",
+    "mean_delta": -0.0013084899050599577,
+    "ci95": [
+      -0.0030903510530678135,
+      0.0006131876574028427
+    ],
+    "improved": 9,
+    "trajectories": 12
+  },
+  {
+    "split": "development",
+    "state": "cold",
+    "contrast": "persistence_bias minus native",
+    "seed": -1,
+    "metric": "mse",
+    "mean_delta": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "improved": 0,
+    "trajectories": 12
+  },
+  {
+    "split": "development",
+    "state": "cold",
+    "contrast": "persistence_bias minus native",
+    "seed": -1,
+    "metric": "crps_standardized",
+    "mean_delta": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "improved": 0,
+    "trajectories": 12
+  },
+  {
+    "split": "development",
+    "state": "cold",
+    "contrast": "persistence_bias minus native",
+    "seed": -1,
+    "metric": "energy_standardized",
+    "mean_delta": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "improved": 0,
+    "trajectories": 12
+  },
+  {
+    "split": "development",
+    "state": "cold",
+    "contrast": "persistence_bias minus native",
+    "seed": -1,
+    "metric": "event_brier",
+    "mean_delta": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "improved": 0,
+    "trajectories": 12
+  },
+  {
+    "split": "development",
+    "state": "cold",
+    "contrast": "persistence_bias minus native",
+    "seed": -1,
+    "metric": "temporal_acf_rmse",
+    "mean_delta": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "improved": 0,
+    "trajectories": 12
+  },
+  {
+    "split": "development",
+    "state": "cold",
+    "contrast": "zero_init_rollout_C minus native",
+    "seed": 42,
+    "metric": "mse",
+    "mean_delta": -4.247123381175419e-07,
+    "ci95": [
+      -2.1016184586262286e-06,
+      9.83371957065147e-07
+    ],
+    "improved": 4,
+    "trajectories": 12
+  },
+  {
+    "split": "development",
+    "state": "cold",
+    "contrast": "zero_init_rollout_C minus native",
+    "seed": 42,
+    "metric": "crps_standardized",
+    "mean_delta": 0.001869672600253491,
+    "ci95": [
+      0.0013581248673534818,
+      0.0024141661468290495
+    ],
+    "improved": 0,
+    "trajectories": 12
+  },
+  {
+    "split": "development",
+    "state": "cold",
+    "contrast": "zero_init_rollout_C minus native",
+    "seed": 42,
+    "metric": "energy_standardized",
+    "mean_delta": 0.0011366311430965812,
+    "ci95": [
+      0.000248954148191509,
+      0.0019648089163473853
+    ],
+    "improved": 2,
+    "trajectories": 12
+  },
+  {
+    "split": "development",
+    "state": "cold",
+    "contrast": "zero_init_rollout_C minus native",
+    "seed": 42,
+    "metric": "event_brier",
+    "mean_delta": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "improved": 0,
+    "trajectories": 12
+  },
+  {
+    "split": "development",
+    "state": "cold",
+    "contrast": "zero_init_rollout_C minus native",
+    "seed": 42,
+    "metric": "temporal_acf_rmse",
+    "mean_delta": -0.00039694805813075135,
+    "ci95": [
+      -0.0011251552880172273,
+      0.0004016467991321459
+    ],
+    "improved": 9,
+    "trajectories": 12
+  },
+  {
+    "split": "development",
+    "state": "cold",
+    "contrast": "oracle_C minus native",
+    "seed": 42,
+    "metric": "mse",
+    "mean_delta": -0.00013125972423356404,
+    "ci95": [
+      -0.00027664201250656426,
+      -3.1374314160224034e-05
+    ],
+    "improved": 12,
+    "trajectories": 12
+  },
+  {
+    "split": "development",
+    "state": "cold",
+    "contrast": "oracle_C minus native",
+    "seed": 42,
+    "metric": "crps_standardized",
+    "mean_delta": -0.04968535177886984,
+    "ci95": [
+      -0.0695579636531362,
+      -0.03480381666608103
+    ],
+    "improved": 12,
+    "trajectories": 12
+  },
+  {
+    "split": "development",
+    "state": "cold",
+    "contrast": "oracle_C minus native",
+    "seed": 42,
+    "metric": "energy_standardized",
+    "mean_delta": -0.10336244726874715,
+    "ci95": [
+      -0.14184655686872658,
+      -0.07363095800835062
+    ],
+    "improved": 12,
+    "trajectories": 12
+  },
+  {
+    "split": "development",
+    "state": "cold",
+    "contrast": "oracle_C minus native",
+    "seed": 42,
+    "metric": "event_brier",
+    "mean_delta": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "improved": 0,
+    "trajectories": 12
+  },
+  {
+    "split": "development",
+    "state": "cold",
+    "contrast": "oracle_C minus native",
+    "seed": 42,
+    "metric": "temporal_acf_rmse",
+    "mean_delta": -0.07209847466644508,
+    "ci95": [
+      -0.08888543185723026,
+      -0.05291799320156039
+    ],
+    "improved": 12,
+    "trajectories": 12
+  },
+  {
+    "split": "development",
+    "state": "warm",
+    "contrast": "history_only minus native",
+    "seed": 42,
+    "metric": "mse",
+    "mean_delta": 8.668539262831369e-08,
+    "ci95": [
+      -4.071881850214007e-08,
+      2.0540401712294875e-07
+    ],
+    "improved": 3,
+    "trajectories": 12
+  },
+  {
+    "split": "development",
+    "state": "warm",
+    "contrast": "history_only minus native",
+    "seed": 42,
+    "metric": "crps_standardized",
+    "mean_delta": 0.00034679349198408403,
+    "ci95": [
+      0.00018159398295456076,
+      0.0004954900115757964
+    ],
+    "improved": 2,
+    "trajectories": 12
+  },
+  {
+    "split": "development",
+    "state": "warm",
+    "contrast": "history_only minus native",
+    "seed": 42,
+    "metric": "energy_standardized",
+    "mean_delta": 0.0006717874103928136,
+    "ci95": [
+      0.00029038488071010476,
+      0.001048010026612936
+    ],
+    "improved": 2,
+    "trajectories": 12
+  },
+  {
+    "split": "development",
+    "state": "warm",
+    "contrast": "history_only minus native",
+    "seed": 42,
+    "metric": "event_brier",
+    "mean_delta": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "improved": 0,
+    "trajectories": 12
+  },
+  {
+    "split": "development",
+    "state": "warm",
+    "contrast": "history_only minus native",
+    "seed": 42,
+    "metric": "temporal_acf_rmse",
+    "mean_delta": 0.0015987194216206407,
+    "ci95": [
+      -0.0009106591226738787,
+      0.003976526386255098
+    ],
+    "improved": 3,
+    "trajectories": 12
+  },
+  {
+    "split": "development",
+    "state": "warm",
+    "contrast": "history_only minus native",
+    "seed": 43,
+    "metric": "mse",
+    "mean_delta": 9.569481015260394e-08,
+    "ci95": [
+      -7.258290201201535e-09,
+      1.9184200385323523e-07
+    ],
+    "improved": 2,
+    "trajectories": 12
+  },
+  {
+    "split": "development",
+    "state": "warm",
+    "contrast": "history_only minus native",
+    "seed": 43,
+    "metric": "crps_standardized",
+    "mean_delta": 0.0003077502017942441,
+    "ci95": [
+      0.00015099779804912734,
+      0.0004475279409553965
+    ],
+    "improved": 2,
+    "trajectories": 12
+  },
+  {
+    "split": "development",
+    "state": "warm",
+    "contrast": "history_only minus native",
+    "seed": 43,
+    "metric": "energy_standardized",
+    "mean_delta": 0.0006902013802888955,
+    "ci95": [
+      0.00031576564882790375,
+      0.0010490971547548141
+    ],
+    "improved": 3,
+    "trajectories": 12
+  },
+  {
+    "split": "development",
+    "state": "warm",
+    "contrast": "history_only minus native",
+    "seed": 43,
+    "metric": "event_brier",
+    "mean_delta": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "improved": 0,
+    "trajectories": 12
+  },
+  {
+    "split": "development",
+    "state": "warm",
+    "contrast": "history_only minus native",
+    "seed": 43,
+    "metric": "temporal_acf_rmse",
+    "mean_delta": 0.0016342484471629651,
+    "ci95": [
+      -0.0008000465723162907,
+      0.003982000594287157
+    ],
+    "improved": 3,
+    "trajectories": 12
+  },
+  {
+    "split": "development",
+    "state": "warm",
+    "contrast": "history_only minus native",
+    "seed": 44,
+    "metric": "mse",
+    "mean_delta": -1.1871770056163515e-07,
+    "ci95": [
+      -4.540367623882008e-07,
+      1.6193721330582297e-07
+    ],
+    "improved": 4,
+    "trajectories": 12
+  },
+  {
+    "split": "development",
+    "state": "warm",
+    "contrast": "history_only minus native",
+    "seed": 44,
+    "metric": "crps_standardized",
+    "mean_delta": 0.0004727255008218495,
+    "ci95": [
+      0.00025870788781048924,
+      0.0006709517220765781
+    ],
+    "improved": 3,
+    "trajectories": 12
+  },
+  {
+    "split": "development",
+    "state": "warm",
+    "contrast": "history_only minus native",
+    "seed": 44,
+    "metric": "energy_standardized",
+    "mean_delta": 0.00100672167665635,
+    "ci95": [
+      0.0005618208375166334,
+      0.0014689051155416734
+    ],
+    "improved": 2,
+    "trajectories": 12
+  },
+  {
+    "split": "development",
+    "state": "warm",
+    "contrast": "history_only minus native",
+    "seed": 44,
+    "metric": "event_brier",
+    "mean_delta": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "improved": 0,
+    "trajectories": 12
+  },
+  {
+    "split": "development",
+    "state": "warm",
+    "contrast": "history_only minus native",
+    "seed": 44,
+    "metric": "temporal_acf_rmse",
+    "mean_delta": 0.0025937459190540717,
+    "ci95": [
+      -0.0010653066157416313,
+      0.006020568554910969
+    ],
+    "improved": 3,
+    "trajectories": 12
+  },
+  {
+    "split": "development",
+    "state": "warm",
+    "contrast": "current_fields minus native",
+    "seed": 42,
+    "metric": "mse",
+    "mean_delta": 2.800066570396238e-07,
+    "ci95": [
+      -2.7130072916384317e-07,
+      8.39576340123917e-07
+    ],
+    "improved": 6,
+    "trajectories": 12
+  },
+  {
+    "split": "development",
+    "state": "warm",
+    "contrast": "current_fields minus native",
+    "seed": 42,
+    "metric": "crps_standardized",
+    "mean_delta": 0.0006621721157530897,
+    "ci95": [
+      0.0003971112894404528,
+      0.0009396265395691998
+    ],
+    "improved": 2,
+    "trajectories": 12
+  },
+  {
+    "split": "development",
+    "state": "warm",
+    "contrast": "current_fields minus native",
+    "seed": 42,
+    "metric": "energy_standardized",
+    "mean_delta": 0.0012404878409702964,
+    "ci95": [
+      0.000638286236521062,
+      0.0019304210720943182
+    ],
+    "improved": 1,
+    "trajectories": 12
+  },
+  {
+    "split": "development",
+    "state": "warm",
+    "contrast": "current_fields minus native",
+    "seed": 42,
+    "metric": "event_brier",
+    "mean_delta": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "improved": 0,
+    "trajectories": 12
+  },
+  {
+    "split": "development",
+    "state": "warm",
+    "contrast": "current_fields minus native",
+    "seed": 42,
+    "metric": "temporal_acf_rmse",
+    "mean_delta": 0.0018054866094856506,
+    "ci95": [
+      -0.002789959608292573,
+      0.0057485741385358705
+    ],
+    "improved": 5,
+    "trajectories": 12
+  },
+  {
+    "split": "development",
+    "state": "warm",
+    "contrast": "current_fields minus native",
+    "seed": 43,
+    "metric": "mse",
+    "mean_delta": 2.7042488287875866e-07,
+    "ci95": [
+      -4.266607791251051e-07,
+      1.0126007412505893e-06
+    ],
+    "improved": 6,
+    "trajectories": 12
+  },
+  {
+    "split": "development",
+    "state": "warm",
+    "contrast": "current_fields minus native",
+    "seed": 43,
+    "metric": "crps_standardized",
+    "mean_delta": 0.0005440578644922232,
+    "ci95": [
+      0.00028985002228587033,
+      0.0007880942527669414
+    ],
+    "improved": 2,
+    "trajectories": 12
+  },
+  {
+    "split": "development",
+    "state": "warm",
+    "contrast": "current_fields minus native",
+    "seed": 43,
+    "metric": "energy_standardized",
+    "mean_delta": 0.0009552366536522359,
+    "ci95": [
+      0.0004588023140759174,
+      0.0014890220543906309
+    ],
+    "improved": 2,
+    "trajectories": 12
+  },
+  {
+    "split": "development",
+    "state": "warm",
+    "contrast": "current_fields minus native",
+    "seed": 43,
+    "metric": "event_brier",
+    "mean_delta": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "improved": 0,
+    "trajectories": 12
+  },
+  {
+    "split": "development",
+    "state": "warm",
+    "contrast": "current_fields minus native",
+    "seed": 43,
+    "metric": "temporal_acf_rmse",
+    "mean_delta": 0.0015846760936273014,
+    "ci95": [
+      -0.0016870061708262217,
+      0.004510854258514632
+    ],
+    "improved": 3,
+    "trajectories": 12
+  },
+  {
+    "split": "development",
+    "state": "warm",
+    "contrast": "current_fields minus native",
+    "seed": 44,
+    "metric": "mse",
+    "mean_delta": 1.6187599974664298e-07,
+    "ci95": [
+      -5.915704464318543e-07,
+      9.207008494601534e-07
+    ],
+    "improved": 5,
+    "trajectories": 12
+  },
+  {
+    "split": "development",
+    "state": "warm",
+    "contrast": "current_fields minus native",
+    "seed": 44,
+    "metric": "crps_standardized",
+    "mean_delta": 0.0005300256788552341,
+    "ci95": [
+      0.00021781741036981856,
+      0.0008557126230847088
+    ],
+    "improved": 2,
+    "trajectories": 12
+  },
+  {
+    "split": "development",
+    "state": "warm",
+    "contrast": "current_fields minus native",
+    "seed": 44,
+    "metric": "energy_standardized",
+    "mean_delta": 0.001260484156986733,
+    "ci95": [
+      0.0004067933648545428,
+      0.002120693846925195
+    ],
+    "improved": 3,
+    "trajectories": 12
+  },
+  {
+    "split": "development",
+    "state": "warm",
+    "contrast": "current_fields minus native",
+    "seed": 44,
+    "metric": "event_brier",
+    "mean_delta": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "improved": 0,
+    "trajectories": 12
+  },
+  {
+    "split": "development",
+    "state": "warm",
+    "contrast": "current_fields minus native",
+    "seed": 44,
+    "metric": "temporal_acf_rmse",
+    "mean_delta": 0.003861405728012515,
+    "ci95": [
+      -0.002317431640343956,
+      0.009357897478727109
+    ],
+    "improved": 3,
+    "trajectories": 12
+  },
+  {
+    "split": "development",
+    "state": "warm",
+    "contrast": "with_memory minus current_fields",
+    "seed": 42,
+    "metric": "mse",
+    "mean_delta": -3.105297775973922e-06,
+    "ci95": [
+      -8.578844557134012e-06,
+      1.7914243247550834e-07
+    ],
+    "improved": 6,
+    "trajectories": 12
+  },
+  {
+    "split": "development",
+    "state": "warm",
+    "contrast": "with_memory minus current_fields",
+    "seed": 42,
+    "metric": "crps_standardized",
+    "mean_delta": 4.140129549064925e-05,
+    "ci95": [
+      -0.00015736971829776264,
+      0.00023947263217053612
+    ],
+    "improved": 5,
+    "trajectories": 12
+  },
+  {
+    "split": "development",
+    "state": "warm",
+    "contrast": "with_memory minus current_fields",
+    "seed": 42,
+    "metric": "energy_standardized",
+    "mean_delta": -0.00019868716529663813,
+    "ci95": [
+      -0.0006179224719340855,
+      0.00022493404074743295
+    ],
+    "improved": 6,
+    "trajectories": 12
+  },
+  {
+    "split": "development",
+    "state": "warm",
+    "contrast": "with_memory minus current_fields",
+    "seed": 42,
+    "metric": "event_brier",
+    "mean_delta": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "improved": 0,
+    "trajectories": 12
+  },
+  {
+    "split": "development",
+    "state": "warm",
+    "contrast": "with_memory minus current_fields",
+    "seed": 42,
+    "metric": "temporal_acf_rmse",
+    "mean_delta": -0.00022098476082003734,
+    "ci95": [
+      -0.0017717794834585135,
+      0.0016953546522939403
+    ],
+    "improved": 6,
+    "trajectories": 12
+  },
+  {
+    "split": "development",
+    "state": "warm",
+    "contrast": "with_memory minus current_fields",
+    "seed": 43,
+    "metric": "mse",
+    "mean_delta": -3.503738327063704e-06,
+    "ci95": [
+      -9.268122052011125e-06,
+      6.041472653685098e-08
+    ],
+    "improved": 6,
+    "trajectories": 12
+  },
+  {
+    "split": "development",
+    "state": "warm",
+    "contrast": "with_memory minus current_fields",
+    "seed": 43,
+    "metric": "crps_standardized",
+    "mean_delta": -0.00010728910705911736,
+    "ci95": [
+      -0.0002934022318227056,
+      6.902581783299726e-05
+    ],
+    "improved": 8,
+    "trajectories": 12
+  },
+  {
+    "split": "development",
+    "state": "warm",
+    "contrast": "with_memory minus current_fields",
+    "seed": 43,
+    "metric": "energy_standardized",
+    "mean_delta": -0.00042129273654722504,
+    "ci95": [
+      -0.0007463426201288121,
+      -7.73841243784234e-05
+    ],
+    "improved": 9,
+    "trajectories": 12
+  },
+  {
+    "split": "development",
+    "state": "warm",
+    "contrast": "with_memory minus current_fields",
+    "seed": 43,
+    "metric": "event_brier",
+    "mean_delta": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "improved": 0,
+    "trajectories": 12
+  },
+  {
+    "split": "development",
+    "state": "warm",
+    "contrast": "with_memory minus current_fields",
+    "seed": 43,
+    "metric": "temporal_acf_rmse",
+    "mean_delta": 0.0014542060462916446,
+    "ci95": [
+      -0.00032062198973502467,
+      0.003037067021078748
+    ],
+    "improved": 4,
+    "trajectories": 12
+  },
+  {
+    "split": "development",
+    "state": "warm",
+    "contrast": "with_memory minus current_fields",
+    "seed": 44,
+    "metric": "mse",
+    "mean_delta": -3.1248019962133995e-06,
+    "ci95": [
+      -8.172457098413603e-06,
+      1.7446541960926135e-07
+    ],
+    "improved": 6,
+    "trajectories": 12
+  },
+  {
+    "split": "development",
+    "state": "warm",
+    "contrast": "with_memory minus current_fields",
+    "seed": 44,
+    "metric": "crps_standardized",
+    "mean_delta": -9.264791934868119e-05,
+    "ci95": [
+      -0.00046093326685209393,
+      0.0002463889961003553
+    ],
+    "improved": 6,
+    "trajectories": 12
+  },
+  {
+    "split": "development",
+    "state": "warm",
+    "contrast": "with_memory minus current_fields",
+    "seed": 44,
+    "metric": "energy_standardized",
+    "mean_delta": -0.0006125881829053178,
+    "ci95": [
+      -0.0012098349826339231,
+      -6.420046507419766e-05
+    ],
+    "improved": 8,
+    "trajectories": 12
+  },
+  {
+    "split": "development",
+    "state": "warm",
+    "contrast": "with_memory minus current_fields",
+    "seed": 44,
+    "metric": "event_brier",
+    "mean_delta": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "improved": 0,
+    "trajectories": 12
+  },
+  {
+    "split": "development",
+    "state": "warm",
+    "contrast": "with_memory minus current_fields",
+    "seed": 44,
+    "metric": "temporal_acf_rmse",
+    "mean_delta": -9.944679185558804e-05,
+    "ci95": [
+      -0.001535245448528372,
+      0.0012577871410514706
+    ],
+    "improved": 6,
+    "trajectories": 12
+  },
+  {
+    "split": "development",
+    "state": "warm",
+    "contrast": "persistence_bias minus native",
+    "seed": -1,
+    "metric": "mse",
+    "mean_delta": 0.00026931616816546503,
+    "ci95": [
+      5.09737729134835e-05,
+      0.0005707303095428228
+    ],
+    "improved": 0,
+    "trajectories": 12
+  },
+  {
+    "split": "development",
+    "state": "warm",
+    "contrast": "persistence_bias minus native",
+    "seed": -1,
+    "metric": "crps_standardized",
+    "mean_delta": 0.06491881715843477,
+    "ci95": [
+      0.04214824480245469,
+      0.09450234938704849
+    ],
+    "improved": 0,
+    "trajectories": 12
+  },
+  {
+    "split": "development",
+    "state": "warm",
+    "contrast": "persistence_bias minus native",
+    "seed": -1,
+    "metric": "energy_standardized",
+    "mean_delta": 0.13051743230104018,
+    "ci95": [
+      0.08882698243107992,
+      0.18462115901620224
+    ],
+    "improved": 0,
+    "trajectories": 12
+  },
+  {
+    "split": "development",
+    "state": "warm",
+    "contrast": "persistence_bias minus native",
+    "seed": -1,
+    "metric": "event_brier",
+    "mean_delta": 0.08333333333333333,
+    "ci95": [
+      0.0,
+      0.25
+    ],
+    "improved": 0,
+    "trajectories": 12
+  },
+  {
+    "split": "development",
+    "state": "warm",
+    "contrast": "persistence_bias minus native",
+    "seed": -1,
+    "metric": "temporal_acf_rmse",
+    "mean_delta": 0.10555674095679451,
+    "ci95": [
+      0.07089507917153212,
+      0.14430277548014367
+    ],
+    "improved": 0,
+    "trajectories": 12
+  },
+  {
+    "split": "development",
+    "state": "warm",
+    "contrast": "zero_init_rollout_C minus native",
+    "seed": 42,
+    "metric": "mse",
+    "mean_delta": 1.2807773086866294e-06,
+    "ci95": [
+      2.3070211479373963e-07,
+      2.775569642193954e-06
+    ],
+    "improved": 3,
+    "trajectories": 12
+  },
+  {
+    "split": "development",
+    "state": "warm",
+    "contrast": "zero_init_rollout_C minus native",
+    "seed": 42,
+    "metric": "crps_standardized",
+    "mean_delta": 0.0014324420340796912,
+    "ci95": [
+      0.0010015497912963618,
+      0.0018272955033332946
+    ],
+    "improved": 1,
+    "trajectories": 12
+  },
+  {
+    "split": "development",
+    "state": "warm",
+    "contrast": "zero_init_rollout_C minus native",
+    "seed": 42,
+    "metric": "energy_standardized",
+    "mean_delta": 0.00027407575670774256,
+    "ci95": [
+      -0.00038918850242451996,
+      0.0009202971758861645
+    ],
+    "improved": 3,
+    "trajectories": 12
+  },
+  {
+    "split": "development",
+    "state": "warm",
+    "contrast": "zero_init_rollout_C minus native",
+    "seed": 42,
+    "metric": "event_brier",
+    "mean_delta": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "improved": 0,
+    "trajectories": 12
+  },
+  {
+    "split": "development",
+    "state": "warm",
+    "contrast": "zero_init_rollout_C minus native",
+    "seed": 42,
+    "metric": "temporal_acf_rmse",
+    "mean_delta": 0.0002604982998449402,
+    "ci95": [
+      -0.0005314856007654771,
+      0.0010932626017565248
+    ],
+    "improved": 6,
+    "trajectories": 12
+  },
+  {
+    "split": "development",
+    "state": "warm",
+    "contrast": "oracle_C minus native",
+    "seed": 42,
+    "metric": "mse",
+    "mean_delta": -0.0001233012245062854,
+    "ci95": [
+      -0.0002480141418140393,
+      -3.220379829160812e-05
+    ],
+    "improved": 12,
+    "trajectories": 12
+  },
+  {
+    "split": "development",
+    "state": "warm",
+    "contrast": "oracle_C minus native",
+    "seed": 42,
+    "metric": "crps_standardized",
+    "mean_delta": -0.04883232036404062,
+    "ci95": [
+      -0.06513829728313035,
+      -0.035794233667224194
+    ],
+    "improved": 12,
+    "trajectories": 12
+  },
+  {
+    "split": "development",
+    "state": "warm",
+    "contrast": "oracle_C minus native",
+    "seed": 42,
+    "metric": "energy_standardized",
+    "mean_delta": -0.10211600645658862,
+    "ci95": [
+      -0.13191737841438783,
+      -0.07682302151473298
+    ],
+    "improved": 12,
+    "trajectories": 12
+  },
+  {
+    "split": "development",
+    "state": "warm",
+    "contrast": "oracle_C minus native",
+    "seed": 42,
+    "metric": "event_brier",
+    "mean_delta": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "improved": 0,
+    "trajectories": 12
+  },
+  {
+    "split": "development",
+    "state": "warm",
+    "contrast": "oracle_C minus native",
+    "seed": 42,
+    "metric": "temporal_acf_rmse",
+    "mean_delta": -0.05907875426223358,
+    "ci95": [
+      -0.09080188848917563,
+      -0.03402928579011608
+    ],
+    "improved": 12,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "state": "cold",
+    "contrast": "history_only minus native",
+    "seed": 42,
+    "metric": "mse",
+    "mean_delta": 8.080677449451626e-08,
+    "ci95": [
+      -7.004500083351032e-08,
+      2.3790665448672782e-07
+    ],
+    "improved": 6,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "state": "cold",
+    "contrast": "history_only minus native",
+    "seed": 42,
+    "metric": "crps_standardized",
+    "mean_delta": 5.460412038861551e-05,
+    "ci95": [
+      -0.00018664529946974616,
+      0.0002762011495226737
+    ],
+    "improved": 5,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "state": "cold",
+    "contrast": "history_only minus native",
+    "seed": 42,
+    "metric": "energy_standardized",
+    "mean_delta": -0.0001521116436194042,
+    "ci95": [
+      -0.0007440731597008866,
+      0.00034634614194268697
+    ],
+    "improved": 6,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "state": "cold",
+    "contrast": "history_only minus native",
+    "seed": 42,
+    "metric": "event_brier",
+    "mean_delta": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "improved": 0,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "state": "cold",
+    "contrast": "history_only minus native",
+    "seed": 42,
+    "metric": "temporal_acf_rmse",
+    "mean_delta": 5.140995982160437e-05,
+    "ci95": [
+      -0.0018664459023788403,
+      0.0019682610099783916
+    ],
+    "improved": 5,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "state": "cold",
+    "contrast": "history_only minus native",
+    "seed": 43,
+    "metric": "mse",
+    "mean_delta": 3.447957081270601e-08,
+    "ci95": [
+      -1.2004625756944585e-07,
+      1.8625006431129616e-07
+    ],
+    "improved": 6,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "state": "cold",
+    "contrast": "history_only minus native",
+    "seed": 43,
+    "metric": "crps_standardized",
+    "mean_delta": 1.8340767933532527e-06,
+    "ci95": [
+      -0.00024155564730252111,
+      0.0002288905775732592
+    ],
+    "improved": 5,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "state": "cold",
+    "contrast": "history_only minus native",
+    "seed": 43,
+    "metric": "energy_standardized",
+    "mean_delta": -0.00017316361270036432,
+    "ci95": [
+      -0.0007286891966012393,
+      0.00030652964799251787
+    ],
+    "improved": 6,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "state": "cold",
+    "contrast": "history_only minus native",
+    "seed": 43,
+    "metric": "event_brier",
+    "mean_delta": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "improved": 0,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "state": "cold",
+    "contrast": "history_only minus native",
+    "seed": 43,
+    "metric": "temporal_acf_rmse",
+    "mean_delta": -3.5534437234541944e-05,
+    "ci95": [
+      -0.0020192683668522945,
+      0.001931689788653303
+    ],
+    "improved": 5,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "state": "cold",
+    "contrast": "history_only minus native",
+    "seed": 44,
+    "metric": "mse",
+    "mean_delta": 1.784569236624614e-07,
+    "ci95": [
+      -4.1314568004351146e-08,
+      4.3373372356918927e-07
+    ],
+    "improved": 6,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "state": "cold",
+    "contrast": "history_only minus native",
+    "seed": 44,
+    "metric": "crps_standardized",
+    "mean_delta": 0.00010703970153954842,
+    "ci95": [
+      -0.00018300957962130474,
+      0.00033746739775661864
+    ],
+    "improved": 2,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "state": "cold",
+    "contrast": "history_only minus native",
+    "seed": 44,
+    "metric": "energy_standardized",
+    "mean_delta": 2.089875553083533e-05,
+    "ci95": [
+      -0.0006823241950649513,
+      0.0005640992419485863
+    ],
+    "improved": 5,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "state": "cold",
+    "contrast": "history_only minus native",
+    "seed": 44,
+    "metric": "event_brier",
+    "mean_delta": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "improved": 0,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "state": "cold",
+    "contrast": "history_only minus native",
+    "seed": 44,
+    "metric": "temporal_acf_rmse",
+    "mean_delta": -0.0003042682705909341,
+    "ci95": [
+      -0.003301546654023086,
+      0.0025999291910600566
+    ],
+    "improved": 5,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "state": "cold",
+    "contrast": "current_fields minus native",
+    "seed": 42,
+    "metric": "mse",
+    "mean_delta": 3.659637556624213e-07,
+    "ci95": [
+      -7.408949181187839e-07,
+      1.425034541443705e-06
+    ],
+    "improved": 5,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "state": "cold",
+    "contrast": "current_fields minus native",
+    "seed": 42,
+    "metric": "crps_standardized",
+    "mean_delta": 0.0005996251479309777,
+    "ci95": [
+      0.00018526913344159412,
+      0.0010771828584930977
+    ],
+    "improved": 3,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "state": "cold",
+    "contrast": "current_fields minus native",
+    "seed": 42,
+    "metric": "energy_standardized",
+    "mean_delta": 0.0008167770126260068,
+    "ci95": [
+      -0.00039846445793487943,
+      0.002156200065548001
+    ],
+    "improved": 4,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "state": "cold",
+    "contrast": "current_fields minus native",
+    "seed": 42,
+    "metric": "event_brier",
+    "mean_delta": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "improved": 0,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "state": "cold",
+    "contrast": "current_fields minus native",
+    "seed": 42,
+    "metric": "temporal_acf_rmse",
+    "mean_delta": -0.00013525873483954376,
+    "ci95": [
+      -0.00415103364004396,
+      0.00389424438031478
+    ],
+    "improved": 4,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "state": "cold",
+    "contrast": "current_fields minus native",
+    "seed": 43,
+    "metric": "mse",
+    "mean_delta": -1.6655230334403793e-07,
+    "ci95": [
+      -1.4220748238012173e-06,
+      8.436963338568179e-07
+    ],
+    "improved": 7,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "state": "cold",
+    "contrast": "current_fields minus native",
+    "seed": 43,
+    "metric": "crps_standardized",
+    "mean_delta": 0.0002735557827217641,
+    "ci95": [
+      -5.826326330161501e-05,
+      0.0006457924523426632
+    ],
+    "improved": 7,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "state": "cold",
+    "contrast": "current_fields minus native",
+    "seed": 43,
+    "metric": "energy_standardized",
+    "mean_delta": 0.00021136183738050077,
+    "ci95": [
+      -0.000642236438402083,
+      0.0011043343153523616
+    ],
+    "improved": 5,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "state": "cold",
+    "contrast": "current_fields minus native",
+    "seed": 43,
+    "metric": "event_brier",
+    "mean_delta": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "improved": 0,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "state": "cold",
+    "contrast": "current_fields minus native",
+    "seed": 43,
+    "metric": "temporal_acf_rmse",
+    "mean_delta": -0.00046758766964457584,
+    "ci95": [
+      -0.0034130252420542834,
+      0.0023434501052125483
+    ],
+    "improved": 4,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "state": "cold",
+    "contrast": "current_fields minus native",
+    "seed": 44,
+    "metric": "mse",
+    "mean_delta": -6.046387991993065e-07,
+    "ci95": [
+      -1.2580649303408733e-06,
+      1.4080700829240679e-07
+    ],
+    "improved": 9,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "state": "cold",
+    "contrast": "current_fields minus native",
+    "seed": 44,
+    "metric": "crps_standardized",
+    "mean_delta": -0.00013033425862523802,
+    "ci95": [
+      -0.0005185624334804638,
+      0.00033244712315008755
+    ],
+    "improved": 9,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "state": "cold",
+    "contrast": "current_fields minus native",
+    "seed": 44,
+    "metric": "energy_standardized",
+    "mean_delta": -0.00014447511183280615,
+    "ci95": [
+      -0.0013532012822985294,
+      0.0011821661965225026
+    ],
+    "improved": 7,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "state": "cold",
+    "contrast": "current_fields minus native",
+    "seed": 44,
+    "metric": "event_brier",
+    "mean_delta": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "improved": 0,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "state": "cold",
+    "contrast": "current_fields minus native",
+    "seed": 44,
+    "metric": "temporal_acf_rmse",
+    "mean_delta": -5.452062166320127e-05,
+    "ci95": [
+      -0.004567155449096593,
+      0.0044813562176728786
+    ],
+    "improved": 5,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "state": "cold",
+    "contrast": "with_memory minus current_fields",
+    "seed": 42,
+    "metric": "mse",
+    "mean_delta": -3.5874494449640227e-07,
+    "ci95": [
+      -1.0935444554042583e-06,
+      4.093068516355504e-07
+    ],
+    "improved": 9,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "state": "cold",
+    "contrast": "with_memory minus current_fields",
+    "seed": 42,
+    "metric": "crps_standardized",
+    "mean_delta": -0.0003522329396865905,
+    "ci95": [
+      -0.0005175297012296483,
+      -0.00019544393294867744
+    ],
+    "improved": 10,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "state": "cold",
+    "contrast": "with_memory minus current_fields",
+    "seed": 42,
+    "metric": "energy_standardized",
+    "mean_delta": -0.0006907242351681791,
+    "ci95": [
+      -0.0011021751074897863,
+      -0.0003678048016439824
+    ],
+    "improved": 11,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "state": "cold",
+    "contrast": "with_memory minus current_fields",
+    "seed": 42,
+    "metric": "event_brier",
+    "mean_delta": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "improved": 0,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "state": "cold",
+    "contrast": "with_memory minus current_fields",
+    "seed": 42,
+    "metric": "temporal_acf_rmse",
+    "mean_delta": 0.00026086123811304716,
+    "ci95": [
+      -0.0009078924334469101,
+      0.001262909321930254
+    ],
+    "improved": 3,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "state": "cold",
+    "contrast": "with_memory minus current_fields",
+    "seed": 43,
+    "metric": "mse",
+    "mean_delta": 6.998558868088982e-08,
+    "ci95": [
+      -7.453671204318269e-07,
+      1.1997763616466235e-06
+    ],
+    "improved": 9,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "state": "cold",
+    "contrast": "with_memory minus current_fields",
+    "seed": 43,
+    "metric": "crps_standardized",
+    "mean_delta": -0.0001649165637046153,
+    "ci95": [
+      -0.00032713322704650574,
+      4.996996009320538e-05
+    ],
+    "improved": 10,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "state": "cold",
+    "contrast": "with_memory minus current_fields",
+    "seed": 43,
+    "metric": "energy_standardized",
+    "mean_delta": -0.00023869376671919554,
+    "ci95": [
+      -0.00046881755695769856,
+      5.517136231942188e-06
+    ],
+    "improved": 8,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "state": "cold",
+    "contrast": "with_memory minus current_fields",
+    "seed": 43,
+    "metric": "event_brier",
+    "mean_delta": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "improved": 0,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "state": "cold",
+    "contrast": "with_memory minus current_fields",
+    "seed": 43,
+    "metric": "temporal_acf_rmse",
+    "mean_delta": 0.00019081582269629403,
+    "ci95": [
+      -0.0014612240247508974,
+      0.0018697015523478598
+    ],
+    "improved": 5,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "state": "cold",
+    "contrast": "with_memory minus current_fields",
+    "seed": 44,
+    "metric": "mse",
+    "mean_delta": 4.898834172249043e-07,
+    "ci95": [
+      -1.0785083564361316e-07,
+      1.0775016008375205e-06
+    ],
+    "improved": 4,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "state": "cold",
+    "contrast": "with_memory minus current_fields",
+    "seed": 44,
+    "metric": "crps_standardized",
+    "mean_delta": 0.00010591854653310233,
+    "ci95": [
+      -0.00015893343922428513,
+      0.00034738813547098015
+    ],
+    "improved": 4,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "state": "cold",
+    "contrast": "with_memory minus current_fields",
+    "seed": 44,
+    "metric": "energy_standardized",
+    "mean_delta": 1.5795220506687146e-05,
+    "ci95": [
+      -0.0006916702930898607,
+      0.000544093847903261
+    ],
+    "improved": 4,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "state": "cold",
+    "contrast": "with_memory minus current_fields",
+    "seed": 44,
+    "metric": "event_brier",
+    "mean_delta": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "improved": 0,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "state": "cold",
+    "contrast": "with_memory minus current_fields",
+    "seed": 44,
+    "metric": "temporal_acf_rmse",
+    "mean_delta": -0.00015745876788845746,
+    "ci95": [
+      -0.0007137860975155438,
+      0.0003995612316381026
+    ],
+    "improved": 6,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "state": "cold",
+    "contrast": "persistence_bias minus native",
+    "seed": -1,
+    "metric": "mse",
+    "mean_delta": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "improved": 0,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "state": "cold",
+    "contrast": "persistence_bias minus native",
+    "seed": -1,
+    "metric": "crps_standardized",
+    "mean_delta": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "improved": 0,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "state": "cold",
+    "contrast": "persistence_bias minus native",
+    "seed": -1,
+    "metric": "energy_standardized",
+    "mean_delta": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "improved": 0,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "state": "cold",
+    "contrast": "persistence_bias minus native",
+    "seed": -1,
+    "metric": "event_brier",
+    "mean_delta": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "improved": 0,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "state": "cold",
+    "contrast": "persistence_bias minus native",
+    "seed": -1,
+    "metric": "temporal_acf_rmse",
+    "mean_delta": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "improved": 0,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "state": "cold",
+    "contrast": "zero_init_rollout_C minus native",
+    "seed": 42,
+    "metric": "mse",
+    "mean_delta": 4.945048868590567e-07,
+    "ci95": [
+      -6.058783357826354e-07,
+      1.6928652817415183e-06
+    ],
+    "improved": 7,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "state": "cold",
+    "contrast": "zero_init_rollout_C minus native",
+    "seed": 42,
+    "metric": "crps_standardized",
+    "mean_delta": 0.0018502909764953092,
+    "ci95": [
+      0.0012438072572264515,
+      0.0024833217400133108
+    ],
+    "improved": 0,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "state": "cold",
+    "contrast": "zero_init_rollout_C minus native",
+    "seed": 42,
+    "metric": "energy_standardized",
+    "mean_delta": 0.001494284485838716,
+    "ci95": [
+      0.0008237723325778143,
+      0.0021937696708394937
+    ],
+    "improved": 1,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "state": "cold",
+    "contrast": "zero_init_rollout_C minus native",
+    "seed": 42,
+    "metric": "event_brier",
+    "mean_delta": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "improved": 0,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "state": "cold",
+    "contrast": "zero_init_rollout_C minus native",
+    "seed": 42,
+    "metric": "temporal_acf_rmse",
+    "mean_delta": 0.00018323655506676927,
+    "ci95": [
+      -0.000410297430555874,
+      0.0008631807274444208
+    ],
+    "improved": 7,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "state": "cold",
+    "contrast": "oracle_C minus native",
+    "seed": 42,
+    "metric": "mse",
+    "mean_delta": -9.029833181342287e-05,
+    "ci95": [
+      -0.00016468573278623238,
+      -3.719302852090442e-05
+    ],
+    "improved": 12,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "state": "cold",
+    "contrast": "oracle_C minus native",
+    "seed": 42,
+    "metric": "crps_standardized",
+    "mean_delta": -0.050346149270935114,
+    "ci95": [
+      -0.06670861511271496,
+      -0.03667264176936454
+    ],
+    "improved": 12,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "state": "cold",
+    "contrast": "oracle_C minus native",
+    "seed": 42,
+    "metric": "energy_standardized",
+    "mean_delta": -0.10210664879273224,
+    "ci95": [
+      -0.13832530731497994,
+      -0.07081352867012851
+    ],
+    "improved": 12,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "state": "cold",
+    "contrast": "oracle_C minus native",
+    "seed": 42,
+    "metric": "event_brier",
+    "mean_delta": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "improved": 0,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "state": "cold",
+    "contrast": "oracle_C minus native",
+    "seed": 42,
+    "metric": "temporal_acf_rmse",
+    "mean_delta": -0.049952433043241186,
+    "ci95": [
+      -0.0634500299372675,
+      -0.03640234608662206
+    ],
+    "improved": 12,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "state": "warm",
+    "contrast": "history_only minus native",
+    "seed": 42,
+    "metric": "mse",
+    "mean_delta": 2.531110732192913e-07,
+    "ci95": [
+      -2.8148841987550603e-08,
+      5.374841131134899e-07
+    ],
+    "improved": 4,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "state": "warm",
+    "contrast": "history_only minus native",
+    "seed": 42,
+    "metric": "crps_standardized",
+    "mean_delta": 0.0002712159297076679,
+    "ci95": [
+      5.171673711259135e-05,
+      0.0005503373405874968
+    ],
+    "improved": 4,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "state": "warm",
+    "contrast": "history_only minus native",
+    "seed": 42,
+    "metric": "energy_standardized",
+    "mean_delta": 0.0001429419151157118,
+    "ci95": [
+      -0.00041510180660357405,
+      0.0008206459878003326
+    ],
+    "improved": 5,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "state": "warm",
+    "contrast": "history_only minus native",
+    "seed": 42,
+    "metric": "event_brier",
+    "mean_delta": 0.0205078125,
+    "ci95": [
+      0.0,
+      0.0615234375
+    ],
+    "improved": 0,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "state": "warm",
+    "contrast": "history_only minus native",
+    "seed": 42,
+    "metric": "temporal_acf_rmse",
+    "mean_delta": -0.0006600734914589587,
+    "ci95": [
+      -0.002257794964060885,
+      0.000939678805397472
+    ],
+    "improved": 5,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "state": "warm",
+    "contrast": "history_only minus native",
+    "seed": 43,
+    "metric": "mse",
+    "mean_delta": 2.2736296984537498e-07,
+    "ci95": [
+      -3.1999733068062684e-08,
+      4.991886584031789e-07
+    ],
+    "improved": 4,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "state": "warm",
+    "contrast": "history_only minus native",
+    "seed": 43,
+    "metric": "crps_standardized",
+    "mean_delta": 0.0002225811312451479,
+    "ci95": [
+      -2.040576117294738e-05,
+      0.0005305384322247365
+    ],
+    "improved": 6,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "state": "warm",
+    "contrast": "history_only minus native",
+    "seed": 43,
+    "metric": "energy_standardized",
+    "mean_delta": 0.00012963769407555586,
+    "ci95": [
+      -0.00043390113290494946,
+      0.0008112926410217925
+    ],
+    "improved": 5,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "state": "warm",
+    "contrast": "history_only minus native",
+    "seed": 43,
+    "metric": "event_brier",
+    "mean_delta": 0.015625,
+    "ci95": [
+      0.0,
+      0.046875
+    ],
+    "improved": 0,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "state": "warm",
+    "contrast": "history_only minus native",
+    "seed": 43,
+    "metric": "temporal_acf_rmse",
+    "mean_delta": -0.0006988284725166352,
+    "ci95": [
+      -0.002333532013666389,
+      0.0009016742993735061
+    ],
+    "improved": 5,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "state": "warm",
+    "contrast": "history_only minus native",
+    "seed": 44,
+    "metric": "mse",
+    "mean_delta": 2.627818545178967e-07,
+    "ci95": [
+      -1.7437526008632239e-07,
+      8.107352239212731e-07
+    ],
+    "improved": 3,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "state": "warm",
+    "contrast": "history_only minus native",
+    "seed": 44,
+    "metric": "crps_standardized",
+    "mean_delta": 0.00020673236212356548,
+    "ci95": [
+      -3.072311009671235e-05,
+      0.0004968507803810761
+    ],
+    "improved": 5,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "state": "warm",
+    "contrast": "history_only minus native",
+    "seed": 44,
+    "metric": "energy_standardized",
+    "mean_delta": 0.0001522447180881519,
+    "ci95": [
+      -0.0004810012176645166,
+      0.000881175573004637
+    ],
+    "improved": 5,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "state": "warm",
+    "contrast": "history_only minus native",
+    "seed": 44,
+    "metric": "event_brier",
+    "mean_delta": 0.011393229166666666,
+    "ci95": [
+      0.0,
+      0.0341796875
+    ],
+    "improved": 0,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "state": "warm",
+    "contrast": "history_only minus native",
+    "seed": 44,
+    "metric": "temporal_acf_rmse",
+    "mean_delta": -0.0013723764704489572,
+    "ci95": [
+      -0.003966731544234494,
+      0.001134984287881842
+    ],
+    "improved": 5,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "state": "warm",
+    "contrast": "current_fields minus native",
+    "seed": 42,
+    "metric": "mse",
+    "mean_delta": 8.609169713427476e-07,
+    "ci95": [
+      -2.2640606309214968e-07,
+      2.0521989317078723e-06
+    ],
+    "improved": 4,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "state": "warm",
+    "contrast": "current_fields minus native",
+    "seed": 42,
+    "metric": "crps_standardized",
+    "mean_delta": 0.0007525602351663019,
+    "ci95": [
+      0.0002564033476860438,
+      0.0012815284353404498
+    ],
+    "improved": 2,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "state": "warm",
+    "contrast": "current_fields minus native",
+    "seed": 42,
+    "metric": "energy_standardized",
+    "mean_delta": 0.000785885469652952,
+    "ci95": [
+      -0.0001309047150031074,
+      0.0018966434974409228
+    ],
+    "improved": 4,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "state": "warm",
+    "contrast": "current_fields minus native",
+    "seed": 42,
+    "metric": "event_brier",
+    "mean_delta": 0.0004069010416666667,
+    "ci95": [
+      0.0,
+      0.001220703125
+    ],
+    "improved": 0,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "state": "warm",
+    "contrast": "current_fields minus native",
+    "seed": 42,
+    "metric": "temporal_acf_rmse",
+    "mean_delta": -0.0017323903443587421,
+    "ci95": [
+      -0.005672229787586703,
+      0.002332674125650855
+    ],
+    "improved": 5,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "state": "warm",
+    "contrast": "current_fields minus native",
+    "seed": 43,
+    "metric": "mse",
+    "mean_delta": 1.203620005098902e-07,
+    "ci95": [
+      -1.0557734523974075e-06,
+      1.1878664569258061e-06
+    ],
+    "improved": 5,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "state": "warm",
+    "contrast": "current_fields minus native",
+    "seed": 43,
+    "metric": "crps_standardized",
+    "mean_delta": 0.0005521129507237415,
+    "ci95": [
+      0.00010703077746588556,
+      0.0009819797924624373
+    ],
+    "improved": 3,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "state": "warm",
+    "contrast": "current_fields minus native",
+    "seed": 43,
+    "metric": "energy_standardized",
+    "mean_delta": 0.0006664330555876627,
+    "ci95": [
+      -0.00022329632811989895,
+      0.0015996366439493441
+    ],
+    "improved": 3,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "state": "warm",
+    "contrast": "current_fields minus native",
+    "seed": 43,
+    "metric": "event_brier",
+    "mean_delta": 0.011393229166666666,
+    "ci95": [
+      0.0,
+      0.0341796875
+    ],
+    "improved": 0,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "state": "warm",
+    "contrast": "current_fields minus native",
+    "seed": 43,
+    "metric": "temporal_acf_rmse",
+    "mean_delta": -0.001347770802541826,
+    "ci95": [
+      -0.004244242027248314,
+      0.00145642411561918
+    ],
+    "improved": 5,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "state": "warm",
+    "contrast": "current_fields minus native",
+    "seed": 44,
+    "metric": "mse",
+    "mean_delta": -4.609656649610403e-07,
+    "ci95": [
+      -2.5586694877153796e-06,
+      1.4767258600321218e-06
+    ],
+    "improved": 8,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "state": "warm",
+    "contrast": "current_fields minus native",
+    "seed": 44,
+    "metric": "crps_standardized",
+    "mean_delta": 0.00018926186731562633,
+    "ci95": [
+      -0.0002989499560906001,
+      0.0007667416072582004
+    ],
+    "improved": 6,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "state": "warm",
+    "contrast": "current_fields minus native",
+    "seed": 44,
+    "metric": "energy_standardized",
+    "mean_delta": 0.00020970316283861618,
+    "ci95": [
+      -0.0007943574097813646,
+      0.0013755111256678436
+    ],
+    "improved": 6,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "state": "warm",
+    "contrast": "current_fields minus native",
+    "seed": 44,
+    "metric": "event_brier",
+    "mean_delta": 0.003662109375,
+    "ci95": [
+      0.0,
+      0.010986328125
+    ],
+    "improved": 0,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "state": "warm",
+    "contrast": "current_fields minus native",
+    "seed": 44,
+    "metric": "temporal_acf_rmse",
+    "mean_delta": -0.0017099794417020215,
+    "ci95": [
+      -0.0058484568872061386,
+      0.002339065645959007
+    ],
+    "improved": 5,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "state": "warm",
+    "contrast": "with_memory minus current_fields",
+    "seed": 42,
+    "metric": "mse",
+    "mean_delta": -7.476104922198865e-07,
+    "ci95": [
+      -3.3450034172162756e-06,
+      1.5882889300164254e-06
+    ],
+    "improved": 6,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "state": "warm",
+    "contrast": "with_memory minus current_fields",
+    "seed": 42,
+    "metric": "crps_standardized",
+    "mean_delta": -4.118049065193521e-05,
+    "ci95": [
+      -0.0004744314064734389,
+      0.00036983714882952485
+    ],
+    "improved": 7,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "state": "warm",
+    "contrast": "with_memory minus current_fields",
+    "seed": 42,
+    "metric": "energy_standardized",
+    "mean_delta": -0.0004889946713987764,
+    "ci95": [
+      -0.0012995494532246365,
+      0.00021259846609224283
+    ],
+    "improved": 8,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "state": "warm",
+    "contrast": "with_memory minus current_fields",
+    "seed": 42,
+    "metric": "event_brier",
+    "mean_delta": -0.0006510416666666666,
+    "ci95": [
+      -0.001953125,
+      0.0
+    ],
+    "improved": 1,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "state": "warm",
+    "contrast": "with_memory minus current_fields",
+    "seed": 42,
+    "metric": "temporal_acf_rmse",
+    "mean_delta": 0.00020336336511047378,
+    "ci95": [
+      -0.0019321630219688154,
+      0.002006571777908191
+    ],
+    "improved": 2,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "state": "warm",
+    "contrast": "with_memory minus current_fields",
+    "seed": 43,
+    "metric": "mse",
+    "mean_delta": -7.144618356307565e-07,
+    "ci95": [
+      -2.687394045015161e-06,
+      1.238548891079044e-06
+    ],
+    "improved": 6,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "state": "warm",
+    "contrast": "with_memory minus current_fields",
+    "seed": 43,
+    "metric": "crps_standardized",
+    "mean_delta": 3.903409949612517e-05,
+    "ci95": [
+      -0.0002690188431097074,
+      0.00033577955104243155
+    ],
+    "improved": 4,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "state": "warm",
+    "contrast": "with_memory minus current_fields",
+    "seed": 43,
+    "metric": "energy_standardized",
+    "mean_delta": -0.000412317054166729,
+    "ci95": [
+      -0.0009935872110454719,
+      0.0001312490183169748
+    ],
+    "improved": 7,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "state": "warm",
+    "contrast": "with_memory minus current_fields",
+    "seed": 43,
+    "metric": "event_brier",
+    "mean_delta": -0.007731119791666667,
+    "ci95": [
+      -0.023193359375,
+      0.0
+    ],
+    "improved": 1,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "state": "warm",
+    "contrast": "with_memory minus current_fields",
+    "seed": 43,
+    "metric": "temporal_acf_rmse",
+    "mean_delta": -0.0008974300069055019,
+    "ci95": [
+      -0.002101583588530486,
+      0.0001593089961393996
+    ],
+    "improved": 6,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "state": "warm",
+    "contrast": "with_memory minus current_fields",
+    "seed": 44,
+    "metric": "mse",
+    "mean_delta": 6.73451688945193e-09,
+    "ci95": [
+      -2.442183761597229e-06,
+      2.7327512173266357e-06
+    ],
+    "improved": 6,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "state": "warm",
+    "contrast": "with_memory minus current_fields",
+    "seed": 44,
+    "metric": "crps_standardized",
+    "mean_delta": 0.00022241437434605826,
+    "ci95": [
+      -0.0003932602879734077,
+      0.0007677380423962994
+    ],
+    "improved": 4,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "state": "warm",
+    "contrast": "with_memory minus current_fields",
+    "seed": 44,
+    "metric": "energy_standardized",
+    "mean_delta": -0.00017153335644667692,
+    "ci95": [
+      -0.001215176990144922,
+      0.0007119259718929063
+    ],
+    "improved": 4,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "state": "warm",
+    "contrast": "with_memory minus current_fields",
+    "seed": 44,
+    "metric": "event_brier",
+    "mean_delta": 0.001220703125,
+    "ci95": [
+      0.0,
+      0.003662109375
+    ],
+    "improved": 0,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "state": "warm",
+    "contrast": "with_memory minus current_fields",
+    "seed": 44,
+    "metric": "temporal_acf_rmse",
+    "mean_delta": -0.00027051026132946025,
+    "ci95": [
+      -0.0013816146811859793,
+      0.0006513148316056921
+    ],
+    "improved": 5,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "state": "warm",
+    "contrast": "persistence_bias minus native",
+    "seed": -1,
+    "metric": "mse",
+    "mean_delta": 0.00013994522317388184,
+    "ci95": [
+      5.75788271927177e-05,
+      0.0002588129757816388
+    ],
+    "improved": 0,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "state": "warm",
+    "contrast": "persistence_bias minus native",
+    "seed": -1,
+    "metric": "crps_standardized",
+    "mean_delta": 0.05716701812854113,
+    "ci95": [
+      0.03623945338983445,
+      0.08242410048121689
+    ],
+    "improved": 0,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "state": "warm",
+    "contrast": "persistence_bias minus native",
+    "seed": -1,
+    "metric": "energy_standardized",
+    "mean_delta": 0.11224883270231384,
+    "ci95": [
+      0.07105026342628934,
+      0.16274694670571588
+    ],
+    "improved": 0,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "state": "warm",
+    "contrast": "persistence_bias minus native",
+    "seed": -1,
+    "metric": "event_brier",
+    "mean_delta": 0.0830078125,
+    "ci95": [
+      0.0,
+      0.2490234375
+    ],
+    "improved": 0,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "state": "warm",
+    "contrast": "persistence_bias minus native",
+    "seed": -1,
+    "metric": "temporal_acf_rmse",
+    "mean_delta": 0.037573808078860856,
+    "ci95": [
+      0.010115276413795811,
+      0.06615464082618581
+    ],
+    "improved": 3,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "state": "warm",
+    "contrast": "zero_init_rollout_C minus native",
+    "seed": 42,
+    "metric": "mse",
+    "mean_delta": -2.5001711166638206e-08,
+    "ci95": [
+      -7.923953255748767e-07,
+      8.207165312879373e-07
+    ],
+    "improved": 7,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "state": "warm",
+    "contrast": "zero_init_rollout_C minus native",
+    "seed": 42,
+    "metric": "crps_standardized",
+    "mean_delta": 0.001264059280309546,
+    "ci95": [
+      0.000673498875113342,
+      0.001863757329081528
+    ],
+    "improved": 1,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "state": "warm",
+    "contrast": "zero_init_rollout_C minus native",
+    "seed": 42,
+    "metric": "energy_standardized",
+    "mean_delta": 0.000483733082989739,
+    "ci95": [
+      -0.0004775450082333576,
+      0.0013186325452056533
+    ],
+    "improved": 3,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "state": "warm",
+    "contrast": "zero_init_rollout_C minus native",
+    "seed": 42,
+    "metric": "event_brier",
+    "mean_delta": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "improved": 0,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "state": "warm",
+    "contrast": "zero_init_rollout_C minus native",
+    "seed": 42,
+    "metric": "temporal_acf_rmse",
+    "mean_delta": 0.00026312139569370074,
+    "ci95": [
+      -0.0005455394938861726,
+      0.0010259747311189174
+    ],
+    "improved": 6,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "state": "warm",
+    "contrast": "oracle_C minus native",
+    "seed": 42,
+    "metric": "mse",
+    "mean_delta": -9.517982953416105e-05,
+    "ci95": [
+      -0.00016582503440327082,
+      -3.9974673995544516e-05
+    ],
+    "improved": 12,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "state": "warm",
+    "contrast": "oracle_C minus native",
+    "seed": 42,
+    "metric": "crps_standardized",
+    "mean_delta": -0.04935787187747564,
+    "ci95": [
+      -0.06289900413973584,
+      -0.03656847846752022
+    ],
+    "improved": 12,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "state": "warm",
+    "contrast": "oracle_C minus native",
+    "seed": 42,
+    "metric": "energy_standardized",
+    "mean_delta": -0.09774193351744276,
+    "ci95": [
+      -0.12649161853177712,
+      -0.07038408261510107
+    ],
+    "improved": 12,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "state": "warm",
+    "contrast": "oracle_C minus native",
+    "seed": 42,
+    "metric": "event_brier",
+    "mean_delta": -0.0003255208333333333,
+    "ci95": [
+      -0.0009765625,
+      0.0
+    ],
+    "improved": 1,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "state": "warm",
+    "contrast": "oracle_C minus native",
+    "seed": 42,
+    "metric": "temporal_acf_rmse",
+    "mean_delta": -0.04808939568458334,
+    "ci95": [
+      -0.06187215376285009,
+      -0.0352046415426214
+    ],
+    "improved": 12,
+    "trajectories": 12
+  }
+]

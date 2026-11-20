@@ -1,0 +1,15 @@
+test_common_shift_keeps_delta (__main__.Boundaries) ... ok
+test_consecutive_event (__main__.Boundaries) ... ok
+test_crps_explicit_pairs (__main__.Boundaries) ... ok
+test_current_truth_poison_cannot_change_forecast (__main__.Boundaries) ... ok
+test_decomposition_and_permutation (__main__.Boundaries) ... ok
+test_energy_explicit_pairs (__main__.Boundaries) ... ok
+test_frame_pair_sign_and_count (__main__.Boundaries) ... ok
+test_input_ablation_boundaries (__main__.Boundaries) ... ok
+test_state_machine_complete_block (__main__.Boundaries) ... ok
+test_symmetric_kernel_all_D4 (__main__.Boundaries) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.357s
+
+OK

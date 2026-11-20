@@ -1,0 +1,98 @@
+[
+  {
+    "split": "development",
+    "component": "bias",
+    "contrast": "A2_scaled minus A1_persistence",
+    "mean_delta": -9.778366950122369e-07,
+    "ci95": [
+      -2.1586290256528232e-06,
+      3.18368577301045e-09
+    ],
+    "improved": 8,
+    "trajectories": 12
+  },
+  {
+    "split": "development",
+    "component": "bias",
+    "contrast": "linear3x3 minus symmetric_linear3x3",
+    "mean_delta": -4.355833304016013e-06,
+    "ci95": [
+      -9.860551244107614e-06,
+      -4.796607696558721e-07
+    ],
+    "improved": 12,
+    "trajectories": 12
+  },
+  {
+    "split": "development",
+    "component": "delta",
+    "contrast": "A2_scaled minus A1_persistence",
+    "mean_delta": -1.3427222531984414e-08,
+    "ci95": [
+      -2.654470148361161e-08,
+      -1.4859956122898937e-09
+    ],
+    "improved": 11,
+    "trajectories": 12
+  },
+  {
+    "split": "development",
+    "component": "delta",
+    "contrast": "linear3x3 minus symmetric_linear3x3",
+    "mean_delta": -6.772299697320371e-07,
+    "ci95": [
+      -1.1670629012755328e-06,
+      -2.811640346920749e-07
+    ],
+    "improved": 12,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "component": "bias",
+    "contrast": "A2_scaled minus A1_persistence",
+    "mean_delta": -6.047124882326596e-07,
+    "ci95": [
+      -1.284838718975956e-06,
+      -1.1545161876711339e-07
+    ],
+    "improved": 8,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "component": "bias",
+    "contrast": "linear3x3 minus symmetric_linear3x3",
+    "mean_delta": -3.3785969472338774e-06,
+    "ci95": [
+      -6.427189398517743e-06,
+      -1.082261016942864e-06
+    ],
+    "improved": 9,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "component": "delta",
+    "contrast": "A2_scaled minus A1_persistence",
+    "mean_delta": -1.3747407199259675e-08,
+    "ci95": [
+      -2.2977719729369283e-08,
+      -5.89759274967022e-09
+    ],
+    "improved": 9,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "component": "delta",
+    "contrast": "linear3x3 minus symmetric_linear3x3",
+    "mean_delta": -7.004831144859159e-07,
+    "ci95": [
+      -1.0365883049564602e-06,
+      -4.127543264080428e-07
+    ],
+    "improved": 12,
+    "trajectories": 12
+  }
+]

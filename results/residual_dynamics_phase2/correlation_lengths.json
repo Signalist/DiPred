@@ -1,0 +1,1282 @@
+[
+  {
+    "split": "train",
+    "Re": "10125",
+    "component": "bias",
+    "channel": "u",
+    "axis": "x",
+    "first_observed_radius_below_1_over_e": 3,
+    "right_censored_above8": false,
+    "units": "grid cells; sampled radii1,2,3,4,6,8"
+  },
+  {
+    "split": "train",
+    "Re": "10125",
+    "component": "bias",
+    "channel": "v",
+    "axis": "x",
+    "first_observed_radius_below_1_over_e": 3,
+    "right_censored_above8": false,
+    "units": "grid cells; sampled radii1,2,3,4,6,8"
+  },
+  {
+    "split": "train",
+    "Re": "10125",
+    "component": "bias",
+    "channel": "u",
+    "axis": "y",
+    "first_observed_radius_below_1_over_e": 2,
+    "right_censored_above8": false,
+    "units": "grid cells; sampled radii1,2,3,4,6,8"
+  },
+  {
+    "split": "train",
+    "Re": "10125",
+    "component": "bias",
+    "channel": "v",
+    "axis": "y",
+    "first_observed_radius_below_1_over_e": 3,
+    "right_censored_above8": false,
+    "units": "grid cells; sampled radii1,2,3,4,6,8"
+  },
+  {
+    "split": "train",
+    "Re": "11400",
+    "component": "bias",
+    "channel": "u",
+    "axis": "x",
+    "first_observed_radius_below_1_over_e": 3,
+    "right_censored_above8": false,
+    "units": "grid cells; sampled radii1,2,3,4,6,8"
+  },
+  {
+    "split": "train",
+    "Re": "11400",
+    "component": "bias",
+    "channel": "v",
+    "axis": "x",
+    "first_observed_radius_below_1_over_e": 3,
+    "right_censored_above8": false,
+    "units": "grid cells; sampled radii1,2,3,4,6,8"
+  },
+  {
+    "split": "train",
+    "Re": "11400",
+    "component": "bias",
+    "channel": "u",
+    "axis": "y",
+    "first_observed_radius_below_1_over_e": 2,
+    "right_censored_above8": false,
+    "units": "grid cells; sampled radii1,2,3,4,6,8"
+  },
+  {
+    "split": "train",
+    "Re": "11400",
+    "component": "bias",
+    "channel": "v",
+    "axis": "y",
+    "first_observed_radius_below_1_over_e": 3,
+    "right_censored_above8": false,
+    "units": "grid cells; sampled radii1,2,3,4,6,8"
+  },
+  {
+    "split": "train",
+    "Re": "12675",
+    "component": "bias",
+    "channel": "u",
+    "axis": "x",
+    "first_observed_radius_below_1_over_e": 3,
+    "right_censored_above8": false,
+    "units": "grid cells; sampled radii1,2,3,4,6,8"
+  },
+  {
+    "split": "train",
+    "Re": "12675",
+    "component": "bias",
+    "channel": "v",
+    "axis": "x",
+    "first_observed_radius_below_1_over_e": 3,
+    "right_censored_above8": false,
+    "units": "grid cells; sampled radii1,2,3,4,6,8"
+  },
+  {
+    "split": "train",
+    "Re": "12675",
+    "component": "bias",
+    "channel": "u",
+    "axis": "y",
+    "first_observed_radius_below_1_over_e": 2,
+    "right_censored_above8": false,
+    "units": "grid cells; sampled radii1,2,3,4,6,8"
+  },
+  {
+    "split": "train",
+    "Re": "12675",
+    "component": "bias",
+    "channel": "v",
+    "axis": "y",
+    "first_observed_radius_below_1_over_e": 3,
+    "right_censored_above8": false,
+    "units": "grid cells; sampled radii1,2,3,4,6,8"
+  },
+  {
+    "split": "train",
+    "Re": "16500",
+    "component": "bias",
+    "channel": "u",
+    "axis": "x",
+    "first_observed_radius_below_1_over_e": 4,
+    "right_censored_above8": false,
+    "units": "grid cells; sampled radii1,2,3,4,6,8"
+  },
+  {
+    "split": "train",
+    "Re": "16500",
+    "component": "bias",
+    "channel": "v",
+    "axis": "x",
+    "first_observed_radius_below_1_over_e": 3,
+    "right_censored_above8": false,
+    "units": "grid cells; sampled radii1,2,3,4,6,8"
+  },
+  {
+    "split": "train",
+    "Re": "16500",
+    "component": "bias",
+    "channel": "u",
+    "axis": "y",
+    "first_observed_radius_below_1_over_e": 2,
+    "right_censored_above8": false,
+    "units": "grid cells; sampled radii1,2,3,4,6,8"
+  },
+  {
+    "split": "train",
+    "Re": "16500",
+    "component": "bias",
+    "channel": "v",
+    "axis": "y",
+    "first_observed_radius_below_1_over_e": 4,
+    "right_censored_above8": false,
+    "units": "grid cells; sampled radii1,2,3,4,6,8"
+  },
+  {
+    "split": "train",
+    "Re": "17775",
+    "component": "bias",
+    "channel": "u",
+    "axis": "x",
+    "first_observed_radius_below_1_over_e": 4,
+    "right_censored_above8": false,
+    "units": "grid cells; sampled radii1,2,3,4,6,8"
+  },
+  {
+    "split": "train",
+    "Re": "17775",
+    "component": "bias",
+    "channel": "v",
+    "axis": "x",
+    "first_observed_radius_below_1_over_e": 3,
+    "right_censored_above8": false,
+    "units": "grid cells; sampled radii1,2,3,4,6,8"
+  },
+  {
+    "split": "train",
+    "Re": "17775",
+    "component": "bias",
+    "channel": "u",
+    "axis": "y",
+    "first_observed_radius_below_1_over_e": 2,
+    "right_censored_above8": false,
+    "units": "grid cells; sampled radii1,2,3,4,6,8"
+  },
+  {
+    "split": "train",
+    "Re": "17775",
+    "component": "bias",
+    "channel": "v",
+    "axis": "y",
+    "first_observed_radius_below_1_over_e": 4,
+    "right_censored_above8": false,
+    "units": "grid cells; sampled radii1,2,3,4,6,8"
+  },
+  {
+    "split": "train",
+    "Re": "20325",
+    "component": "bias",
+    "channel": "u",
+    "axis": "x",
+    "first_observed_radius_below_1_over_e": 4,
+    "right_censored_above8": false,
+    "units": "grid cells; sampled radii1,2,3,4,6,8"
+  },
+  {
+    "split": "train",
+    "Re": "20325",
+    "component": "bias",
+    "channel": "v",
+    "axis": "x",
+    "first_observed_radius_below_1_over_e": 4,
+    "right_censored_above8": false,
+    "units": "grid cells; sampled radii1,2,3,4,6,8"
+  },
+  {
+    "split": "train",
+    "Re": "20325",
+    "component": "bias",
+    "channel": "u",
+    "axis": "y",
+    "first_observed_radius_below_1_over_e": 2,
+    "right_censored_above8": false,
+    "units": "grid cells; sampled radii1,2,3,4,6,8"
+  },
+  {
+    "split": "train",
+    "Re": "20325",
+    "component": "bias",
+    "channel": "v",
+    "axis": "y",
+    "first_observed_radius_below_1_over_e": 4,
+    "right_censored_above8": false,
+    "units": "grid cells; sampled radii1,2,3,4,6,8"
+  },
+  {
+    "split": "train",
+    "Re": "21600",
+    "component": "bias",
+    "channel": "u",
+    "axis": "x",
+    "first_observed_radius_below_1_over_e": 4,
+    "right_censored_above8": false,
+    "units": "grid cells; sampled radii1,2,3,4,6,8"
+  },
+  {
+    "split": "train",
+    "Re": "21600",
+    "component": "bias",
+    "channel": "v",
+    "axis": "x",
+    "first_observed_radius_below_1_over_e": 4,
+    "right_censored_above8": false,
+    "units": "grid cells; sampled radii1,2,3,4,6,8"
+  },
+  {
+    "split": "train",
+    "Re": "21600",
+    "component": "bias",
+    "channel": "u",
+    "axis": "y",
+    "first_observed_radius_below_1_over_e": 3,
+    "right_censored_above8": false,
+    "units": "grid cells; sampled radii1,2,3,4,6,8"
+  },
+  {
+    "split": "train",
+    "Re": "21600",
+    "component": "bias",
+    "channel": "v",
+    "axis": "y",
+    "first_observed_radius_below_1_over_e": 4,
+    "right_censored_above8": false,
+    "units": "grid cells; sampled radii1,2,3,4,6,8"
+  },
+  {
+    "split": "train",
+    "Re": "24150",
+    "component": "bias",
+    "channel": "u",
+    "axis": "x",
+    "first_observed_radius_below_1_over_e": 4,
+    "right_censored_above8": false,
+    "units": "grid cells; sampled radii1,2,3,4,6,8"
+  },
+  {
+    "split": "train",
+    "Re": "24150",
+    "component": "bias",
+    "channel": "v",
+    "axis": "x",
+    "first_observed_radius_below_1_over_e": 4,
+    "right_censored_above8": false,
+    "units": "grid cells; sampled radii1,2,3,4,6,8"
+  },
+  {
+    "split": "train",
+    "Re": "24150",
+    "component": "bias",
+    "channel": "u",
+    "axis": "y",
+    "first_observed_radius_below_1_over_e": 3,
+    "right_censored_above8": false,
+    "units": "grid cells; sampled radii1,2,3,4,6,8"
+  },
+  {
+    "split": "train",
+    "Re": "24150",
+    "component": "bias",
+    "channel": "v",
+    "axis": "y",
+    "first_observed_radius_below_1_over_e": 4,
+    "right_censored_above8": false,
+    "units": "grid cells; sampled radii1,2,3,4,6,8"
+  },
+  {
+    "split": "train",
+    "Re": "25425",
+    "component": "bias",
+    "channel": "u",
+    "axis": "x",
+    "first_observed_radius_below_1_over_e": 4,
+    "right_censored_above8": false,
+    "units": "grid cells; sampled radii1,2,3,4,6,8"
+  },
+  {
+    "split": "train",
+    "Re": "25425",
+    "component": "bias",
+    "channel": "v",
+    "axis": "x",
+    "first_observed_radius_below_1_over_e": 4,
+    "right_censored_above8": false,
+    "units": "grid cells; sampled radii1,2,3,4,6,8"
+  },
+  {
+    "split": "train",
+    "Re": "25425",
+    "component": "bias",
+    "channel": "u",
+    "axis": "y",
+    "first_observed_radius_below_1_over_e": 3,
+    "right_censored_above8": false,
+    "units": "grid cells; sampled radii1,2,3,4,6,8"
+  },
+  {
+    "split": "train",
+    "Re": "25425",
+    "component": "bias",
+    "channel": "v",
+    "axis": "y",
+    "first_observed_radius_below_1_over_e": 6,
+    "right_censored_above8": false,
+    "units": "grid cells; sampled radii1,2,3,4,6,8"
+  },
+  {
+    "split": "train",
+    "Re": "8850",
+    "component": "bias",
+    "channel": "u",
+    "axis": "x",
+    "first_observed_radius_below_1_over_e": 3,
+    "right_censored_above8": false,
+    "units": "grid cells; sampled radii1,2,3,4,6,8"
+  },
+  {
+    "split": "train",
+    "Re": "8850",
+    "component": "bias",
+    "channel": "v",
+    "axis": "x",
+    "first_observed_radius_below_1_over_e": 2,
+    "right_censored_above8": false,
+    "units": "grid cells; sampled radii1,2,3,4,6,8"
+  },
+  {
+    "split": "train",
+    "Re": "8850",
+    "component": "bias",
+    "channel": "u",
+    "axis": "y",
+    "first_observed_radius_below_1_over_e": 2,
+    "right_censored_above8": false,
+    "units": "grid cells; sampled radii1,2,3,4,6,8"
+  },
+  {
+    "split": "train",
+    "Re": "8850",
+    "component": "bias",
+    "channel": "v",
+    "axis": "y",
+    "first_observed_radius_below_1_over_e": 3,
+    "right_censored_above8": false,
+    "units": "grid cells; sampled radii1,2,3,4,6,8"
+  },
+  {
+    "split": "train",
+    "Re": "10125",
+    "component": "delta",
+    "channel": "u",
+    "axis": "x",
+    "first_observed_radius_below_1_over_e": 4,
+    "right_censored_above8": false,
+    "units": "grid cells; sampled radii1,2,3,4,6,8"
+  },
+  {
+    "split": "train",
+    "Re": "10125",
+    "component": "delta",
+    "channel": "v",
+    "axis": "x",
+    "first_observed_radius_below_1_over_e": 3,
+    "right_censored_above8": false,
+    "units": "grid cells; sampled radii1,2,3,4,6,8"
+  },
+  {
+    "split": "train",
+    "Re": "10125",
+    "component": "delta",
+    "channel": "u",
+    "axis": "y",
+    "first_observed_radius_below_1_over_e": 2,
+    "right_censored_above8": false,
+    "units": "grid cells; sampled radii1,2,3,4,6,8"
+  },
+  {
+    "split": "train",
+    "Re": "10125",
+    "component": "delta",
+    "channel": "v",
+    "axis": "y",
+    "first_observed_radius_below_1_over_e": 3,
+    "right_censored_above8": false,
+    "units": "grid cells; sampled radii1,2,3,4,6,8"
+  },
+  {
+    "split": "train",
+    "Re": "11400",
+    "component": "delta",
+    "channel": "u",
+    "axis": "x",
+    "first_observed_radius_below_1_over_e": 4,
+    "right_censored_above8": false,
+    "units": "grid cells; sampled radii1,2,3,4,6,8"
+  },
+  {
+    "split": "train",
+    "Re": "11400",
+    "component": "delta",
+    "channel": "v",
+    "axis": "x",
+    "first_observed_radius_below_1_over_e": 3,
+    "right_censored_above8": false,
+    "units": "grid cells; sampled radii1,2,3,4,6,8"
+  },
+  {
+    "split": "train",
+    "Re": "11400",
+    "component": "delta",
+    "channel": "u",
+    "axis": "y",
+    "first_observed_radius_below_1_over_e": 3,
+    "right_censored_above8": false,
+    "units": "grid cells; sampled radii1,2,3,4,6,8"
+  },
+  {
+    "split": "train",
+    "Re": "11400",
+    "component": "delta",
+    "channel": "v",
+    "axis": "y",
+    "first_observed_radius_below_1_over_e": 3,
+    "right_censored_above8": false,
+    "units": "grid cells; sampled radii1,2,3,4,6,8"
+  },
+  {
+    "split": "train",
+    "Re": "12675",
+    "component": "delta",
+    "channel": "u",
+    "axis": "x",
+    "first_observed_radius_below_1_over_e": 4,
+    "right_censored_above8": false,
+    "units": "grid cells; sampled radii1,2,3,4,6,8"
+  },
+  {
+    "split": "train",
+    "Re": "12675",
+    "component": "delta",
+    "channel": "v",
+    "axis": "x",
+    "first_observed_radius_below_1_over_e": 3,
+    "right_censored_above8": false,
+    "units": "grid cells; sampled radii1,2,3,4,6,8"
+  },
+  {
+    "split": "train",
+    "Re": "12675",
+    "component": "delta",
+    "channel": "u",
+    "axis": "y",
+    "first_observed_radius_below_1_over_e": 3,
+    "right_censored_above8": false,
+    "units": "grid cells; sampled radii1,2,3,4,6,8"
+  },
+  {
+    "split": "train",
+    "Re": "12675",
+    "component": "delta",
+    "channel": "v",
+    "axis": "y",
+    "first_observed_radius_below_1_over_e": 3,
+    "right_censored_above8": false,
+    "units": "grid cells; sampled radii1,2,3,4,6,8"
+  },
+  {
+    "split": "train",
+    "Re": "16500",
+    "component": "delta",
+    "channel": "u",
+    "axis": "x",
+    "first_observed_radius_below_1_over_e": 4,
+    "right_censored_above8": false,
+    "units": "grid cells; sampled radii1,2,3,4,6,8"
+  },
+  {
+    "split": "train",
+    "Re": "16500",
+    "component": "delta",
+    "channel": "v",
+    "axis": "x",
+    "first_observed_radius_below_1_over_e": 3,
+    "right_censored_above8": false,
+    "units": "grid cells; sampled radii1,2,3,4,6,8"
+  },
+  {
+    "split": "train",
+    "Re": "16500",
+    "component": "delta",
+    "channel": "u",
+    "axis": "y",
+    "first_observed_radius_below_1_over_e": 3,
+    "right_censored_above8": false,
+    "units": "grid cells; sampled radii1,2,3,4,6,8"
+  },
+  {
+    "split": "train",
+    "Re": "16500",
+    "component": "delta",
+    "channel": "v",
+    "axis": "y",
+    "first_observed_radius_below_1_over_e": 3,
+    "right_censored_above8": false,
+    "units": "grid cells; sampled radii1,2,3,4,6,8"
+  },
+  {
+    "split": "train",
+    "Re": "17775",
+    "component": "delta",
+    "channel": "u",
+    "axis": "x",
+    "first_observed_radius_below_1_over_e": 4,
+    "right_censored_above8": false,
+    "units": "grid cells; sampled radii1,2,3,4,6,8"
+  },
+  {
+    "split": "train",
+    "Re": "17775",
+    "component": "delta",
+    "channel": "v",
+    "axis": "x",
+    "first_observed_radius_below_1_over_e": 3,
+    "right_censored_above8": false,
+    "units": "grid cells; sampled radii1,2,3,4,6,8"
+  },
+  {
+    "split": "train",
+    "Re": "17775",
+    "component": "delta",
+    "channel": "u",
+    "axis": "y",
+    "first_observed_radius_below_1_over_e": 3,
+    "right_censored_above8": false,
+    "units": "grid cells; sampled radii1,2,3,4,6,8"
+  },
+  {
+    "split": "train",
+    "Re": "17775",
+    "component": "delta",
+    "channel": "v",
+    "axis": "y",
+    "first_observed_radius_below_1_over_e": 3,
+    "right_censored_above8": false,
+    "units": "grid cells; sampled radii1,2,3,4,6,8"
+  },
+  {
+    "split": "train",
+    "Re": "20325",
+    "component": "delta",
+    "channel": "u",
+    "axis": "x",
+    "first_observed_radius_below_1_over_e": 4,
+    "right_censored_above8": false,
+    "units": "grid cells; sampled radii1,2,3,4,6,8"
+  },
+  {
+    "split": "train",
+    "Re": "20325",
+    "component": "delta",
+    "channel": "v",
+    "axis": "x",
+    "first_observed_radius_below_1_over_e": 3,
+    "right_censored_above8": false,
+    "units": "grid cells; sampled radii1,2,3,4,6,8"
+  },
+  {
+    "split": "train",
+    "Re": "20325",
+    "component": "delta",
+    "channel": "u",
+    "axis": "y",
+    "first_observed_radius_below_1_over_e": 3,
+    "right_censored_above8": false,
+    "units": "grid cells; sampled radii1,2,3,4,6,8"
+  },
+  {
+    "split": "train",
+    "Re": "20325",
+    "component": "delta",
+    "channel": "v",
+    "axis": "y",
+    "first_observed_radius_below_1_over_e": 3,
+    "right_censored_above8": false,
+    "units": "grid cells; sampled radii1,2,3,4,6,8"
+  },
+  {
+    "split": "train",
+    "Re": "21600",
+    "component": "delta",
+    "channel": "u",
+    "axis": "x",
+    "first_observed_radius_below_1_over_e": 4,
+    "right_censored_above8": false,
+    "units": "grid cells; sampled radii1,2,3,4,6,8"
+  },
+  {
+    "split": "train",
+    "Re": "21600",
+    "component": "delta",
+    "channel": "v",
+    "axis": "x",
+    "first_observed_radius_below_1_over_e": 3,
+    "right_censored_above8": false,
+    "units": "grid cells; sampled radii1,2,3,4,6,8"
+  },
+  {
+    "split": "train",
+    "Re": "21600",
+    "component": "delta",
+    "channel": "u",
+    "axis": "y",
+    "first_observed_radius_below_1_over_e": 3,
+    "right_censored_above8": false,
+    "units": "grid cells; sampled radii1,2,3,4,6,8"
+  },
+  {
+    "split": "train",
+    "Re": "21600",
+    "component": "delta",
+    "channel": "v",
+    "axis": "y",
+    "first_observed_radius_below_1_over_e": 3,
+    "right_censored_above8": false,
+    "units": "grid cells; sampled radii1,2,3,4,6,8"
+  },
+  {
+    "split": "train",
+    "Re": "24150",
+    "component": "delta",
+    "channel": "u",
+    "axis": "x",
+    "first_observed_radius_below_1_over_e": 4,
+    "right_censored_above8": false,
+    "units": "grid cells; sampled radii1,2,3,4,6,8"
+  },
+  {
+    "split": "train",
+    "Re": "24150",
+    "component": "delta",
+    "channel": "v",
+    "axis": "x",
+    "first_observed_radius_below_1_over_e": 3,
+    "right_censored_above8": false,
+    "units": "grid cells; sampled radii1,2,3,4,6,8"
+  },
+  {
+    "split": "train",
+    "Re": "24150",
+    "component": "delta",
+    "channel": "u",
+    "axis": "y",
+    "first_observed_radius_below_1_over_e": 3,
+    "right_censored_above8": false,
+    "units": "grid cells; sampled radii1,2,3,4,6,8"
+  },
+  {
+    "split": "train",
+    "Re": "24150",
+    "component": "delta",
+    "channel": "v",
+    "axis": "y",
+    "first_observed_radius_below_1_over_e": 3,
+    "right_censored_above8": false,
+    "units": "grid cells; sampled radii1,2,3,4,6,8"
+  },
+  {
+    "split": "train",
+    "Re": "25425",
+    "component": "delta",
+    "channel": "u",
+    "axis": "x",
+    "first_observed_radius_below_1_over_e": 4,
+    "right_censored_above8": false,
+    "units": "grid cells; sampled radii1,2,3,4,6,8"
+  },
+  {
+    "split": "train",
+    "Re": "25425",
+    "component": "delta",
+    "channel": "v",
+    "axis": "x",
+    "first_observed_radius_below_1_over_e": 3,
+    "right_censored_above8": false,
+    "units": "grid cells; sampled radii1,2,3,4,6,8"
+  },
+  {
+    "split": "train",
+    "Re": "25425",
+    "component": "delta",
+    "channel": "u",
+    "axis": "y",
+    "first_observed_radius_below_1_over_e": 3,
+    "right_censored_above8": false,
+    "units": "grid cells; sampled radii1,2,3,4,6,8"
+  },
+  {
+    "split": "train",
+    "Re": "25425",
+    "component": "delta",
+    "channel": "v",
+    "axis": "y",
+    "first_observed_radius_below_1_over_e": 3,
+    "right_censored_above8": false,
+    "units": "grid cells; sampled radii1,2,3,4,6,8"
+  },
+  {
+    "split": "train",
+    "Re": "8850",
+    "component": "delta",
+    "channel": "u",
+    "axis": "x",
+    "first_observed_radius_below_1_over_e": 4,
+    "right_censored_above8": false,
+    "units": "grid cells; sampled radii1,2,3,4,6,8"
+  },
+  {
+    "split": "train",
+    "Re": "8850",
+    "component": "delta",
+    "channel": "v",
+    "axis": "x",
+    "first_observed_radius_below_1_over_e": 3,
+    "right_censored_above8": false,
+    "units": "grid cells; sampled radii1,2,3,4,6,8"
+  },
+  {
+    "split": "train",
+    "Re": "8850",
+    "component": "delta",
+    "channel": "u",
+    "axis": "y",
+    "first_observed_radius_below_1_over_e": 2,
+    "right_censored_above8": false,
+    "units": "grid cells; sampled radii1,2,3,4,6,8"
+  },
+  {
+    "split": "train",
+    "Re": "8850",
+    "component": "delta",
+    "channel": "v",
+    "axis": "y",
+    "first_observed_radius_below_1_over_e": 3,
+    "right_censored_above8": false,
+    "units": "grid cells; sampled radii1,2,3,4,6,8"
+  },
+  {
+    "split": "development",
+    "Re": "26700",
+    "component": "bias",
+    "channel": "u",
+    "axis": "x",
+    "first_observed_radius_below_1_over_e": 4,
+    "right_censored_above8": false,
+    "units": "grid cells; sampled radii1,2,3,4,6,8"
+  },
+  {
+    "split": "development",
+    "Re": "26700",
+    "component": "bias",
+    "channel": "v",
+    "axis": "x",
+    "first_observed_radius_below_1_over_e": 4,
+    "right_censored_above8": false,
+    "units": "grid cells; sampled radii1,2,3,4,6,8"
+  },
+  {
+    "split": "development",
+    "Re": "26700",
+    "component": "bias",
+    "channel": "u",
+    "axis": "y",
+    "first_observed_radius_below_1_over_e": 3,
+    "right_censored_above8": false,
+    "units": "grid cells; sampled radii1,2,3,4,6,8"
+  },
+  {
+    "split": "development",
+    "Re": "26700",
+    "component": "bias",
+    "channel": "v",
+    "axis": "y",
+    "first_observed_radius_below_1_over_e": 4,
+    "right_censored_above8": false,
+    "units": "grid cells; sampled radii1,2,3,4,6,8"
+  },
+  {
+    "split": "development",
+    "Re": "6300",
+    "component": "bias",
+    "channel": "u",
+    "axis": "x",
+    "first_observed_radius_below_1_over_e": 3,
+    "right_censored_above8": false,
+    "units": "grid cells; sampled radii1,2,3,4,6,8"
+  },
+  {
+    "split": "development",
+    "Re": "6300",
+    "component": "bias",
+    "channel": "v",
+    "axis": "x",
+    "first_observed_radius_below_1_over_e": 2,
+    "right_censored_above8": false,
+    "units": "grid cells; sampled radii1,2,3,4,6,8"
+  },
+  {
+    "split": "development",
+    "Re": "6300",
+    "component": "bias",
+    "channel": "u",
+    "axis": "y",
+    "first_observed_radius_below_1_over_e": 2,
+    "right_censored_above8": false,
+    "units": "grid cells; sampled radii1,2,3,4,6,8"
+  },
+  {
+    "split": "development",
+    "Re": "6300",
+    "component": "bias",
+    "channel": "v",
+    "axis": "y",
+    "first_observed_radius_below_1_over_e": 3,
+    "right_censored_above8": false,
+    "units": "grid cells; sampled radii1,2,3,4,6,8"
+  },
+  {
+    "split": "development",
+    "Re": "7575",
+    "component": "bias",
+    "channel": "u",
+    "axis": "x",
+    "first_observed_radius_below_1_over_e": 3,
+    "right_censored_above8": false,
+    "units": "grid cells; sampled radii1,2,3,4,6,8"
+  },
+  {
+    "split": "development",
+    "Re": "7575",
+    "component": "bias",
+    "channel": "v",
+    "axis": "x",
+    "first_observed_radius_below_1_over_e": 2,
+    "right_censored_above8": false,
+    "units": "grid cells; sampled radii1,2,3,4,6,8"
+  },
+  {
+    "split": "development",
+    "Re": "7575",
+    "component": "bias",
+    "channel": "u",
+    "axis": "y",
+    "first_observed_radius_below_1_over_e": 2,
+    "right_censored_above8": false,
+    "units": "grid cells; sampled radii1,2,3,4,6,8"
+  },
+  {
+    "split": "development",
+    "Re": "7575",
+    "component": "bias",
+    "channel": "v",
+    "axis": "y",
+    "first_observed_radius_below_1_over_e": 3,
+    "right_censored_above8": false,
+    "units": "grid cells; sampled radii1,2,3,4,6,8"
+  },
+  {
+    "split": "development",
+    "Re": "26700",
+    "component": "delta",
+    "channel": "u",
+    "axis": "x",
+    "first_observed_radius_below_1_over_e": 4,
+    "right_censored_above8": false,
+    "units": "grid cells; sampled radii1,2,3,4,6,8"
+  },
+  {
+    "split": "development",
+    "Re": "26700",
+    "component": "delta",
+    "channel": "v",
+    "axis": "x",
+    "first_observed_radius_below_1_over_e": 3,
+    "right_censored_above8": false,
+    "units": "grid cells; sampled radii1,2,3,4,6,8"
+  },
+  {
+    "split": "development",
+    "Re": "26700",
+    "component": "delta",
+    "channel": "u",
+    "axis": "y",
+    "first_observed_radius_below_1_over_e": 3,
+    "right_censored_above8": false,
+    "units": "grid cells; sampled radii1,2,3,4,6,8"
+  },
+  {
+    "split": "development",
+    "Re": "26700",
+    "component": "delta",
+    "channel": "v",
+    "axis": "y",
+    "first_observed_radius_below_1_over_e": 3,
+    "right_censored_above8": false,
+    "units": "grid cells; sampled radii1,2,3,4,6,8"
+  },
+  {
+    "split": "development",
+    "Re": "6300",
+    "component": "delta",
+    "channel": "u",
+    "axis": "x",
+    "first_observed_radius_below_1_over_e": 4,
+    "right_censored_above8": false,
+    "units": "grid cells; sampled radii1,2,3,4,6,8"
+  },
+  {
+    "split": "development",
+    "Re": "6300",
+    "component": "delta",
+    "channel": "v",
+    "axis": "x",
+    "first_observed_radius_below_1_over_e": 3,
+    "right_censored_above8": false,
+    "units": "grid cells; sampled radii1,2,3,4,6,8"
+  },
+  {
+    "split": "development",
+    "Re": "6300",
+    "component": "delta",
+    "channel": "u",
+    "axis": "y",
+    "first_observed_radius_below_1_over_e": 2,
+    "right_censored_above8": false,
+    "units": "grid cells; sampled radii1,2,3,4,6,8"
+  },
+  {
+    "split": "development",
+    "Re": "6300",
+    "component": "delta",
+    "channel": "v",
+    "axis": "y",
+    "first_observed_radius_below_1_over_e": 2,
+    "right_censored_above8": false,
+    "units": "grid cells; sampled radii1,2,3,4,6,8"
+  },
+  {
+    "split": "development",
+    "Re": "7575",
+    "component": "delta",
+    "channel": "u",
+    "axis": "x",
+    "first_observed_radius_below_1_over_e": 4,
+    "right_censored_above8": false,
+    "units": "grid cells; sampled radii1,2,3,4,6,8"
+  },
+  {
+    "split": "development",
+    "Re": "7575",
+    "component": "delta",
+    "channel": "v",
+    "axis": "x",
+    "first_observed_radius_below_1_over_e": 3,
+    "right_censored_above8": false,
+    "units": "grid cells; sampled radii1,2,3,4,6,8"
+  },
+  {
+    "split": "development",
+    "Re": "7575",
+    "component": "delta",
+    "channel": "u",
+    "axis": "y",
+    "first_observed_radius_below_1_over_e": 2,
+    "right_censored_above8": false,
+    "units": "grid cells; sampled radii1,2,3,4,6,8"
+  },
+  {
+    "split": "development",
+    "Re": "7575",
+    "component": "delta",
+    "channel": "v",
+    "axis": "y",
+    "first_observed_radius_below_1_over_e": 3,
+    "right_censored_above8": false,
+    "units": "grid cells; sampled radii1,2,3,4,6,8"
+  },
+  {
+    "split": "test",
+    "Re": "13950",
+    "component": "bias",
+    "channel": "u",
+    "axis": "x",
+    "first_observed_radius_below_1_over_e": 3,
+    "right_censored_above8": false,
+    "units": "grid cells; sampled radii1,2,3,4,6,8"
+  },
+  {
+    "split": "test",
+    "Re": "13950",
+    "component": "bias",
+    "channel": "v",
+    "axis": "x",
+    "first_observed_radius_below_1_over_e": 3,
+    "right_censored_above8": false,
+    "units": "grid cells; sampled radii1,2,3,4,6,8"
+  },
+  {
+    "split": "test",
+    "Re": "13950",
+    "component": "bias",
+    "channel": "u",
+    "axis": "y",
+    "first_observed_radius_below_1_over_e": 2,
+    "right_censored_above8": false,
+    "units": "grid cells; sampled radii1,2,3,4,6,8"
+  },
+  {
+    "split": "test",
+    "Re": "13950",
+    "component": "bias",
+    "channel": "v",
+    "axis": "y",
+    "first_observed_radius_below_1_over_e": 3,
+    "right_censored_above8": false,
+    "units": "grid cells; sampled radii1,2,3,4,6,8"
+  },
+  {
+    "split": "test",
+    "Re": "22875",
+    "component": "bias",
+    "channel": "u",
+    "axis": "x",
+    "first_observed_radius_below_1_over_e": 4,
+    "right_censored_above8": false,
+    "units": "grid cells; sampled radii1,2,3,4,6,8"
+  },
+  {
+    "split": "test",
+    "Re": "22875",
+    "component": "bias",
+    "channel": "v",
+    "axis": "x",
+    "first_observed_radius_below_1_over_e": 4,
+    "right_censored_above8": false,
+    "units": "grid cells; sampled radii1,2,3,4,6,8"
+  },
+  {
+    "split": "test",
+    "Re": "22875",
+    "component": "bias",
+    "channel": "u",
+    "axis": "y",
+    "first_observed_radius_below_1_over_e": 3,
+    "right_censored_above8": false,
+    "units": "grid cells; sampled radii1,2,3,4,6,8"
+  },
+  {
+    "split": "test",
+    "Re": "22875",
+    "component": "bias",
+    "channel": "v",
+    "axis": "y",
+    "first_observed_radius_below_1_over_e": 4,
+    "right_censored_above8": false,
+    "units": "grid cells; sampled radii1,2,3,4,6,8"
+  },
+  {
+    "split": "test",
+    "Re": "3750",
+    "component": "bias",
+    "channel": "u",
+    "axis": "x",
+    "first_observed_radius_below_1_over_e": 4,
+    "right_censored_above8": false,
+    "units": "grid cells; sampled radii1,2,3,4,6,8"
+  },
+  {
+    "split": "test",
+    "Re": "3750",
+    "component": "bias",
+    "channel": "v",
+    "axis": "x",
+    "first_observed_radius_below_1_over_e": 3,
+    "right_censored_above8": false,
+    "units": "grid cells; sampled radii1,2,3,4,6,8"
+  },
+  {
+    "split": "test",
+    "Re": "3750",
+    "component": "bias",
+    "channel": "u",
+    "axis": "y",
+    "first_observed_radius_below_1_over_e": 3,
+    "right_censored_above8": false,
+    "units": "grid cells; sampled radii1,2,3,4,6,8"
+  },
+  {
+    "split": "test",
+    "Re": "3750",
+    "component": "bias",
+    "channel": "v",
+    "axis": "y",
+    "first_observed_radius_below_1_over_e": 4,
+    "right_censored_above8": false,
+    "units": "grid cells; sampled radii1,2,3,4,6,8"
+  },
+  {
+    "split": "test",
+    "Re": "13950",
+    "component": "delta",
+    "channel": "u",
+    "axis": "x",
+    "first_observed_radius_below_1_over_e": 4,
+    "right_censored_above8": false,
+    "units": "grid cells; sampled radii1,2,3,4,6,8"
+  },
+  {
+    "split": "test",
+    "Re": "13950",
+    "component": "delta",
+    "channel": "v",
+    "axis": "x",
+    "first_observed_radius_below_1_over_e": 3,
+    "right_censored_above8": false,
+    "units": "grid cells; sampled radii1,2,3,4,6,8"
+  },
+  {
+    "split": "test",
+    "Re": "13950",
+    "component": "delta",
+    "channel": "u",
+    "axis": "y",
+    "first_observed_radius_below_1_over_e": 3,
+    "right_censored_above8": false,
+    "units": "grid cells; sampled radii1,2,3,4,6,8"
+  },
+  {
+    "split": "test",
+    "Re": "13950",
+    "component": "delta",
+    "channel": "v",
+    "axis": "y",
+    "first_observed_radius_below_1_over_e": 3,
+    "right_censored_above8": false,
+    "units": "grid cells; sampled radii1,2,3,4,6,8"
+  },
+  {
+    "split": "test",
+    "Re": "22875",
+    "component": "delta",
+    "channel": "u",
+    "axis": "x",
+    "first_observed_radius_below_1_over_e": 4,
+    "right_censored_above8": false,
+    "units": "grid cells; sampled radii1,2,3,4,6,8"
+  },
+  {
+    "split": "test",
+    "Re": "22875",
+    "component": "delta",
+    "channel": "v",
+    "axis": "x",
+    "first_observed_radius_below_1_over_e": 3,
+    "right_censored_above8": false,
+    "units": "grid cells; sampled radii1,2,3,4,6,8"
+  },
+  {
+    "split": "test",
+    "Re": "22875",
+    "component": "delta",
+    "channel": "u",
+    "axis": "y",
+    "first_observed_radius_below_1_over_e": 3,
+    "right_censored_above8": false,
+    "units": "grid cells; sampled radii1,2,3,4,6,8"
+  },
+  {
+    "split": "test",
+    "Re": "22875",
+    "component": "delta",
+    "channel": "v",
+    "axis": "y",
+    "first_observed_radius_below_1_over_e": 3,
+    "right_censored_above8": false,
+    "units": "grid cells; sampled radii1,2,3,4,6,8"
+  },
+  {
+    "split": "test",
+    "Re": "3750",
+    "component": "delta",
+    "channel": "u",
+    "axis": "x",
+    "first_observed_radius_below_1_over_e": 4,
+    "right_censored_above8": false,
+    "units": "grid cells; sampled radii1,2,3,4,6,8"
+  },
+  {
+    "split": "test",
+    "Re": "3750",
+    "component": "delta",
+    "channel": "v",
+    "axis": "x",
+    "first_observed_radius_below_1_over_e": 3,
+    "right_censored_above8": false,
+    "units": "grid cells; sampled radii1,2,3,4,6,8"
+  },
+  {
+    "split": "test",
+    "Re": "3750",
+    "component": "delta",
+    "channel": "u",
+    "axis": "y",
+    "first_observed_radius_below_1_over_e": 2,
+    "right_censored_above8": false,
+    "units": "grid cells; sampled radii1,2,3,4,6,8"
+  },
+  {
+    "split": "test",
+    "Re": "3750",
+    "component": "delta",
+    "channel": "v",
+    "axis": "y",
+    "first_observed_radius_below_1_over_e": 2,
+    "right_censored_above8": false,
+    "units": "grid cells; sampled radii1,2,3,4,6,8"
+  }
+]

@@ -1,0 +1,32 @@
+CAUSAL_SCORE development native -1
+CAUSAL_SCORE development persistence_bias -1
+CAUSAL_SCORE development history_only 42
+CAUSAL_SCORE development history_only 43
+CAUSAL_SCORE development history_only 44
+CAUSAL_SCORE development current_fields 42
+CAUSAL_SCORE development current_fields 43
+CAUSAL_SCORE development current_fields 44
+CAUSAL_SCORE development with_memory 42
+CAUSAL_SCORE development with_memory 43
+CAUSAL_SCORE development with_memory 44
+ORACLE_OR_ZERO_INIT development oracle_persistence
+ORACLE_OR_ZERO_INIT development oracle_B
+ORACLE_OR_ZERO_INIT development oracle_C
+ORACLE_OR_ZERO_INIT development zero_init_rollout_B
+ORACLE_OR_ZERO_INIT development zero_init_rollout_C
+CAUSAL_SCORE test native -1
+CAUSAL_SCORE test persistence_bias -1
+CAUSAL_SCORE test history_only 42
+CAUSAL_SCORE test history_only 43
+CAUSAL_SCORE test history_only 44
+CAUSAL_SCORE test current_fields 42
+CAUSAL_SCORE test current_fields 43
+CAUSAL_SCORE test current_fields 44
+CAUSAL_SCORE test with_memory 42
+CAUSAL_SCORE test with_memory 43
+CAUSAL_SCORE test with_memory 44
+ORACLE_OR_ZERO_INIT test oracle_persistence
+ORACLE_OR_ZERO_INIT test oracle_B
+ORACLE_OR_ZERO_INIT test oracle_C
+ORACLE_OR_ZERO_INIT test zero_init_rollout_B
+ORACLE_OR_ZERO_INIT test zero_init_rollout_C

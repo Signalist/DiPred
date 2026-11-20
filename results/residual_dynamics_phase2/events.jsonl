@@ -1,0 +1,102 @@
+{"event": "native_all32_all20_saved_before_truth", "split": "train", "start": 400}
+{"event": "complete20_truth_read_for_labels_audit", "split": "train", "start": 400}
+{"event": "native_all32_all20_saved_before_truth", "split": "train", "start": 400}
+{"event": "complete20_truth_read_for_labels_audit", "split": "train", "start": 400}
+{"event": "native_all32_all20_saved_before_truth", "split": "train", "start": 420}
+{"event": "complete20_truth_read_for_labels_audit", "split": "train", "start": 420}
+{"event": "native_all32_all20_saved_before_truth", "split": "development", "start": 400}
+{"event": "complete20_truth_read_for_labels_audit", "split": "development", "start": 400}
+{"event": "native_all32_all20_saved_before_truth", "split": "development", "start": 420}
+{"event": "complete20_truth_read_for_labels_audit", "split": "development", "start": 420}
+{"event": "native_all32_all20_saved_before_truth", "split": "test", "start": 400}
+{"event": "complete20_truth_read_for_labels_audit", "split": "test", "start": 400}
+{"event": "native_all32_all20_saved_before_truth", "split": "test", "start": 420}
+{"event": "complete20_truth_read_for_labels_audit", "split": "test", "start": 420}
+{"event": "causal_forecast_issued", "split": "development", "mode": "native", "seed": -1, "window": 0}
+{"event": "complete20_revealed_state_updated", "split": "development", "mode": "native", "seed": -1, "window": 0}
+{"event": "causal_forecast_issued", "split": "development", "mode": "native", "seed": -1, "window": 1}
+{"event": "complete20_revealed_state_updated", "split": "development", "mode": "native", "seed": -1, "window": 1}
+{"event": "causal_forecast_issued", "split": "development", "mode": "persistence_bias", "seed": -1, "window": 0}
+{"event": "complete20_revealed_state_updated", "split": "development", "mode": "persistence_bias", "seed": -1, "window": 0}
+{"event": "causal_forecast_issued", "split": "development", "mode": "persistence_bias", "seed": -1, "window": 1}
+{"event": "complete20_revealed_state_updated", "split": "development", "mode": "persistence_bias", "seed": -1, "window": 1}
+{"event": "causal_forecast_issued", "split": "development", "mode": "history_only", "seed": 42, "window": 0}
+{"event": "complete20_revealed_state_updated", "split": "development", "mode": "history_only", "seed": 42, "window": 0}
+{"event": "causal_forecast_issued", "split": "development", "mode": "history_only", "seed": 42, "window": 1}
+{"event": "complete20_revealed_state_updated", "split": "development", "mode": "history_only", "seed": 42, "window": 1}
+{"event": "causal_forecast_issued", "split": "development", "mode": "history_only", "seed": 43, "window": 0}
+{"event": "complete20_revealed_state_updated", "split": "development", "mode": "history_only", "seed": 43, "window": 0}
+{"event": "causal_forecast_issued", "split": "development", "mode": "history_only", "seed": 43, "window": 1}
+{"event": "complete20_revealed_state_updated", "split": "development", "mode": "history_only", "seed": 43, "window": 1}
+{"event": "causal_forecast_issued", "split": "development", "mode": "history_only", "seed": 44, "window": 0}
+{"event": "complete20_revealed_state_updated", "split": "development", "mode": "history_only", "seed": 44, "window": 0}
+{"event": "causal_forecast_issued", "split": "development", "mode": "history_only", "seed": 44, "window": 1}
+{"event": "complete20_revealed_state_updated", "split": "development", "mode": "history_only", "seed": 44, "window": 1}
+{"event": "causal_forecast_issued", "split": "development", "mode": "current_fields", "seed": 42, "window": 0}
+{"event": "complete20_revealed_state_updated", "split": "development", "mode": "current_fields", "seed": 42, "window": 0}
+{"event": "causal_forecast_issued", "split": "development", "mode": "current_fields", "seed": 42, "window": 1}
+{"event": "complete20_revealed_state_updated", "split": "development", "mode": "current_fields", "seed": 42, "window": 1}
+{"event": "causal_forecast_issued", "split": "development", "mode": "current_fields", "seed": 43, "window": 0}
+{"event": "complete20_revealed_state_updated", "split": "development", "mode": "current_fields", "seed": 43, "window": 0}
+{"event": "causal_forecast_issued", "split": "development", "mode": "current_fields", "seed": 43, "window": 1}
+{"event": "complete20_revealed_state_updated", "split": "development", "mode": "current_fields", "seed": 43, "window": 1}
+{"event": "causal_forecast_issued", "split": "development", "mode": "current_fields", "seed": 44, "window": 0}
+{"event": "complete20_revealed_state_updated", "split": "development", "mode": "current_fields", "seed": 44, "window": 0}
+{"event": "causal_forecast_issued", "split": "development", "mode": "current_fields", "seed": 44, "window": 1}
+{"event": "complete20_revealed_state_updated", "split": "development", "mode": "current_fields", "seed": 44, "window": 1}
+{"event": "causal_forecast_issued", "split": "development", "mode": "with_memory", "seed": 42, "window": 0}
+{"event": "complete20_revealed_state_updated", "split": "development", "mode": "with_memory", "seed": 42, "window": 0}
+{"event": "causal_forecast_issued", "split": "development", "mode": "with_memory", "seed": 42, "window": 1}
+{"event": "complete20_revealed_state_updated", "split": "development", "mode": "with_memory", "seed": 42, "window": 1}
+{"event": "causal_forecast_issued", "split": "development", "mode": "with_memory", "seed": 43, "window": 0}
+{"event": "complete20_revealed_state_updated", "split": "development", "mode": "with_memory", "seed": 43, "window": 0}
+{"event": "causal_forecast_issued", "split": "development", "mode": "with_memory", "seed": 43, "window": 1}
+{"event": "complete20_revealed_state_updated", "split": "development", "mode": "with_memory", "seed": 43, "window": 1}
+{"event": "causal_forecast_issued", "split": "development", "mode": "with_memory", "seed": 44, "window": 0}
+{"event": "complete20_revealed_state_updated", "split": "development", "mode": "with_memory", "seed": 44, "window": 0}
+{"event": "causal_forecast_issued", "split": "development", "mode": "with_memory", "seed": 44, "window": 1}
+{"event": "complete20_revealed_state_updated", "split": "development", "mode": "with_memory", "seed": 44, "window": 1}
+{"event": "causal_forecast_issued", "split": "test", "mode": "native", "seed": -1, "window": 0}
+{"event": "complete20_revealed_state_updated", "split": "test", "mode": "native", "seed": -1, "window": 0}
+{"event": "causal_forecast_issued", "split": "test", "mode": "native", "seed": -1, "window": 1}
+{"event": "complete20_revealed_state_updated", "split": "test", "mode": "native", "seed": -1, "window": 1}
+{"event": "causal_forecast_issued", "split": "test", "mode": "persistence_bias", "seed": -1, "window": 0}
+{"event": "complete20_revealed_state_updated", "split": "test", "mode": "persistence_bias", "seed": -1, "window": 0}
+{"event": "causal_forecast_issued", "split": "test", "mode": "persistence_bias", "seed": -1, "window": 1}
+{"event": "complete20_revealed_state_updated", "split": "test", "mode": "persistence_bias", "seed": -1, "window": 1}
+{"event": "causal_forecast_issued", "split": "test", "mode": "history_only", "seed": 42, "window": 0}
+{"event": "complete20_revealed_state_updated", "split": "test", "mode": "history_only", "seed": 42, "window": 0}
+{"event": "causal_forecast_issued", "split": "test", "mode": "history_only", "seed": 42, "window": 1}
+{"event": "complete20_revealed_state_updated", "split": "test", "mode": "history_only", "seed": 42, "window": 1}
+{"event": "causal_forecast_issued", "split": "test", "mode": "history_only", "seed": 43, "window": 0}
+{"event": "complete20_revealed_state_updated", "split": "test", "mode": "history_only", "seed": 43, "window": 0}
+{"event": "causal_forecast_issued", "split": "test", "mode": "history_only", "seed": 43, "window": 1}
+{"event": "complete20_revealed_state_updated", "split": "test", "mode": "history_only", "seed": 43, "window": 1}
+{"event": "causal_forecast_issued", "split": "test", "mode": "history_only", "seed": 44, "window": 0}
+{"event": "complete20_revealed_state_updated", "split": "test", "mode": "history_only", "seed": 44, "window": 0}
+{"event": "causal_forecast_issued", "split": "test", "mode": "history_only", "seed": 44, "window": 1}
+{"event": "complete20_revealed_state_updated", "split": "test", "mode": "history_only", "seed": 44, "window": 1}
+{"event": "causal_forecast_issued", "split": "test", "mode": "current_fields", "seed": 42, "window": 0}
+{"event": "complete20_revealed_state_updated", "split": "test", "mode": "current_fields", "seed": 42, "window": 0}
+{"event": "causal_forecast_issued", "split": "test", "mode": "current_fields", "seed": 42, "window": 1}
+{"event": "complete20_revealed_state_updated", "split": "test", "mode": "current_fields", "seed": 42, "window": 1}
+{"event": "causal_forecast_issued", "split": "test", "mode": "current_fields", "seed": 43, "window": 0}
+{"event": "complete20_revealed_state_updated", "split": "test", "mode": "current_fields", "seed": 43, "window": 0}
+{"event": "causal_forecast_issued", "split": "test", "mode": "current_fields", "seed": 43, "window": 1}
+{"event": "complete20_revealed_state_updated", "split": "test", "mode": "current_fields", "seed": 43, "window": 1}
+{"event": "causal_forecast_issued", "split": "test", "mode": "current_fields", "seed": 44, "window": 0}
+{"event": "complete20_revealed_state_updated", "split": "test", "mode": "current_fields", "seed": 44, "window": 0}
+{"event": "causal_forecast_issued", "split": "test", "mode": "current_fields", "seed": 44, "window": 1}
+{"event": "complete20_revealed_state_updated", "split": "test", "mode": "current_fields", "seed": 44, "window": 1}
+{"event": "causal_forecast_issued", "split": "test", "mode": "with_memory", "seed": 42, "window": 0}
+{"event": "complete20_revealed_state_updated", "split": "test", "mode": "with_memory", "seed": 42, "window": 0}
+{"event": "causal_forecast_issued", "split": "test", "mode": "with_memory", "seed": 42, "window": 1}
+{"event": "complete20_revealed_state_updated", "split": "test", "mode": "with_memory", "seed": 42, "window": 1}
+{"event": "causal_forecast_issued", "split": "test", "mode": "with_memory", "seed": 43, "window": 0}
+{"event": "complete20_revealed_state_updated", "split": "test", "mode": "with_memory", "seed": 43, "window": 0}
+{"event": "causal_forecast_issued", "split": "test", "mode": "with_memory", "seed": 43, "window": 1}
+{"event": "complete20_revealed_state_updated", "split": "test", "mode": "with_memory", "seed": 43, "window": 1}
+{"event": "causal_forecast_issued", "split": "test", "mode": "with_memory", "seed": 44, "window": 0}
+{"event": "complete20_revealed_state_updated", "split": "test", "mode": "with_memory", "seed": 44, "window": 0}
+{"event": "causal_forecast_issued", "split": "test", "mode": "with_memory", "seed": 44, "window": 1}
+{"event": "complete20_revealed_state_updated", "split": "test", "mode": "with_memory", "seed": 44, "window": 1}

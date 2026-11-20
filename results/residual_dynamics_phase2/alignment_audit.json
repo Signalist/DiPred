@@ -1,0 +1,111 @@
+{
+  "passed": true,
+  "source_snapshots_hashes_checked": true,
+  "original_trajectory_and_Re_splits_disjoint": true,
+  "warm_history_equals_previous_complete_truth": true,
+  "all32_members_all20_frames_native_replayed": true,
+  "entries": [
+    {
+      "split": "train",
+      "start": 400,
+      "history": [
+        400,
+        419
+      ],
+      "target": [
+        420,
+        439
+      ],
+      "pairs": 19,
+      "cache_sha256": "5a3f335bfd81181d65d2f8c2f95faa1669b37b6eebb0fdf7ef5e586535ee9cb6",
+      "native_sha256": "7e50428c2d27f639476f268654b6c5f128db7debc61ec94f374d201a13cfb1cf",
+      "residual_replay_max_abs_error": 0.0,
+      "decomposition_float64_max_abs_error": 1.0842021724855044e-19
+    },
+    {
+      "split": "train",
+      "start": 420,
+      "history": [
+        420,
+        439
+      ],
+      "target": [
+        440,
+        459
+      ],
+      "pairs": 19,
+      "cache_sha256": "e48f7ef2fbf9a85c62ed00df5864304d37ecfd0ed8bc794c4c087773dd4b8ec0",
+      "native_sha256": "816ced1d47e350c05c1ca2121cdf7e09d24c801ddc8861e2a81eea7060960b77",
+      "residual_replay_max_abs_error": 0.0,
+      "decomposition_float64_max_abs_error": 8.673617379884035e-19
+    },
+    {
+      "split": "development",
+      "start": 400,
+      "history": [
+        400,
+        419
+      ],
+      "target": [
+        420,
+        439
+      ],
+      "pairs": 19,
+      "cache_sha256": "0351a49d2f3fe7cac1955360a04928e6d286456f2eb9d6ffd541f715f60db1fb",
+      "native_sha256": "ac6ebca9ebf0f8f14ef5789703f2826f9635803d20fed445f760ddaf9d575267",
+      "residual_replay_max_abs_error": 0.0,
+      "decomposition_float64_max_abs_error": 1.3552527156068805e-20
+    },
+    {
+      "split": "development",
+      "start": 420,
+      "history": [
+        420,
+        439
+      ],
+      "target": [
+        440,
+        459
+      ],
+      "pairs": 19,
+      "cache_sha256": "4a15399a90f063dd6044daaeb72f4df0917608c24d4f4e147d0d3e5da956ce81",
+      "native_sha256": "35988a76c61e131d47e08771561dc67dbc9a5f8ae56700985df0abeaf0caaf40",
+      "residual_replay_max_abs_error": 0.0,
+      "decomposition_float64_max_abs_error": 5.421010862427522e-20
+    },
+    {
+      "split": "test",
+      "start": 400,
+      "history": [
+        400,
+        419
+      ],
+      "target": [
+        420,
+        439
+      ],
+      "pairs": 19,
+      "cache_sha256": "573da5c231f641b499ac148e92805fe96a0152c3e201b52f4e1a58668b1917f6",
+      "native_sha256": "c1723d870e21063b898e3ca7f364a11c176ceaf945199e2680ffdcd12bc464b7",
+      "residual_replay_max_abs_error": 0.0,
+      "decomposition_float64_max_abs_error": 1.0842021724855044e-19
+    },
+    {
+      "split": "test",
+      "start": 420,
+      "history": [
+        420,
+        439
+      ],
+      "target": [
+        440,
+        459
+      ],
+      "pairs": 19,
+      "cache_sha256": "45b018bc6d83b72aa40db2dfc833967cc8d159426652d4d19ffbdfb2f1f11584",
+      "native_sha256": "de7f8eb30d8f7512bfd8e97a4b6a7ce51a9e69b9ddf8205ee906f1a5edbbec72",
+      "residual_replay_max_abs_error": 0.0,
+      "decomposition_float64_max_abs_error": 5.421010862427522e-20
+    }
+  ]
+}
