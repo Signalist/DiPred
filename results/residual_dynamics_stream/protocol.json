@@ -1,0 +1,73 @@
+{
+  "starts": [
+    440,
+    460,
+    480,
+    500,
+    520,
+    540,
+    560,
+    580,
+    600,
+    620,
+    640,
+    660,
+    680,
+    700,
+    720,
+    740,
+    760,
+    780,
+    800,
+    820
+  ],
+  "files": [
+    "13950_0.h5",
+    "13950_10.h5",
+    "13950_15.h5",
+    "13950_20.h5",
+    "13950_5.h5",
+    "22875_0.h5",
+    "22875_10.h5",
+    "22875_15.h5",
+    "3750_0.h5",
+    "3750_10.h5",
+    "3750_20.h5",
+    "3750_5.h5"
+  ],
+  "heads": {
+    "42": "0ed2aaa5c57be2ac6bddda3338b2aca9e7e135e7b7d0cbb951e6c6593dc20cda",
+    "43": "c7e57226fd0d1af76e312efe130e2f6d33d737be65a3c247b391035c6f680f5e",
+    "44": "7c1db3ca1f1543103b947bb5ba5082fd98c9dc89f0d8fa1ce54e884fc1ef5ef0"
+  },
+  "scope": "Historical test trajectories; follow-on blocks distinct from both phase2 windows. New stream starts cold.",
+  "endpoints": "warm macro standardized empirical CRPS and full-field20 RMS Energy Score; both lower",
+  "contrasts": [
+    "on-off: feedback field and availability vs masked",
+    "on-zero_present: value vs zero at fixed availability",
+    "on-native: total benefit"
+  ],
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "pairs": "average over windows within trajectory; average fixed head seeds before trajectory bootstrap",
+  "threshold": 0.027165522798895836,
+  "real_files": 82,
+  "outside_manifest": [
+    "7575_0.h5"
+  ],
+  "duplicates": [
+    {
+      "excluded": "7575_0.h5",
+      "retained": "6300_0.h5",
+      "sha256_first200": "3cb43ed86be46a3de4a354226e6dc17e72d55d9269428750dd4679440f1f9785"
+    }
+  ],
+  "extra_sim_groups": [
+    "15225",
+    "27975"
+  ],
+  "sim_used": false
+}

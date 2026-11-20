@@ -1,0 +1,698 @@
+[
+  {
+    "seeds": [
+      42,
+      43,
+      44
+    ],
+    "contrast": "on-off",
+    "metric": "crps",
+    "mean_delta": 0.00022470839515521408,
+    "ci95": [
+      3.150400467945365e-05,
+      0.0004253658332672491
+    ],
+    "improved": 2,
+    "trajectories": 12
+  },
+  {
+    "seeds": [
+      42,
+      43,
+      44
+    ],
+    "contrast": "on-off",
+    "metric": "energy",
+    "mean_delta": 0.00010497511176237966,
+    "ci95": [
+      -0.00015034603479077474,
+      0.0003499632567538466
+    ],
+    "improved": 5,
+    "trajectories": 12
+  },
+  {
+    "seeds": [
+      42,
+      43,
+      44
+    ],
+    "contrast": "on-off",
+    "metric": "mse",
+    "mean_delta": 2.2154935022202483e-07,
+    "ci95": [
+      -7.433277958508664e-07,
+      1.1187449454708218e-06
+    ],
+    "improved": 4,
+    "trajectories": 12
+  },
+  {
+    "seeds": [
+      42,
+      43,
+      44
+    ],
+    "contrast": "on-off",
+    "metric": "brier",
+    "mean_delta": 0.0011664496527777786,
+    "ci95": [
+      0.0,
+      0.0034993489583333356
+    ],
+    "improved": 0,
+    "trajectories": 12
+  },
+  {
+    "seeds": [
+      42,
+      43,
+      44
+    ],
+    "contrast": "on-zero_present",
+    "metric": "crps",
+    "mean_delta": 0.00039293545012601856,
+    "ci95": [
+      4.848869150239499e-05,
+      0.0007652941542309505
+    ],
+    "improved": 4,
+    "trajectories": 12
+  },
+  {
+    "seeds": [
+      42,
+      43,
+      44
+    ],
+    "contrast": "on-zero_present",
+    "metric": "energy",
+    "mean_delta": 0.00026851416490828703,
+    "ci95": [
+      -8.870132190520935e-05,
+      0.0006417792207601869
+    ],
+    "improved": 6,
+    "trajectories": 12
+  },
+  {
+    "seeds": [
+      42,
+      43,
+      44
+    ],
+    "contrast": "on-zero_present",
+    "metric": "mse",
+    "mean_delta": 3.873541056180249e-07,
+    "ci95": [
+      -7.287143308296881e-07,
+      1.4785277292764654e-06
+    ],
+    "improved": 5,
+    "trajectories": 12
+  },
+  {
+    "seeds": [
+      42,
+      43,
+      44
+    ],
+    "contrast": "on-zero_present",
+    "metric": "brier",
+    "mean_delta": 0.0008923268457602338,
+    "ci95": [
+      0.0,
+      0.0026769805372807015
+    ],
+    "improved": 0,
+    "trajectories": 12
+  },
+  {
+    "seeds": [
+      42,
+      43,
+      44
+    ],
+    "contrast": "on-native",
+    "metric": "crps",
+    "mean_delta": 0.000608828618398584,
+    "ci95": [
+      0.00037808906351004533,
+      0.0008388182995058551
+    ],
+    "improved": 0,
+    "trajectories": 12
+  },
+  {
+    "seeds": [
+      42,
+      43,
+      44
+    ],
+    "contrast": "on-native",
+    "metric": "energy",
+    "mean_delta": 0.0004253789553788553,
+    "ci95": [
+      8.953527727585493e-05,
+      0.0007628653251177168
+    ],
+    "improved": 3,
+    "trajectories": 12
+  },
+  {
+    "seeds": [
+      42,
+      43,
+      44
+    ],
+    "contrast": "on-native",
+    "metric": "mse",
+    "mean_delta": 7.803583338102262e-07,
+    "ci95": [
+      1.2528231841055948e-07,
+      1.4562575032970666e-06
+    ],
+    "improved": 4,
+    "trajectories": 12
+  },
+  {
+    "seeds": [
+      42,
+      43,
+      44
+    ],
+    "contrast": "on-native",
+    "metric": "brier",
+    "mean_delta": 0.00017846536915204722,
+    "ci95": [
+      0.0,
+      0.0005353961074561417
+    ],
+    "improved": 0,
+    "trajectories": 12
+  },
+  {
+    "seeds": [
+      42
+    ],
+    "contrast": "on-off",
+    "metric": "crps",
+    "mean_delta": 0.00019426632970646318,
+    "ci95": [
+      3.226280151059001e-05,
+      0.00035336953134107294
+    ],
+    "improved": 2,
+    "trajectories": 12
+  },
+  {
+    "seeds": [
+      42
+    ],
+    "contrast": "on-off",
+    "metric": "energy",
+    "mean_delta": 0.0001369912672137194,
+    "ci95": [
+      -0.00010699397040699823,
+      0.00036434827868343756
+    ],
+    "improved": 4,
+    "trajectories": 12
+  },
+  {
+    "seeds": [
+      42
+    ],
+    "contrast": "on-off",
+    "metric": "mse",
+    "mean_delta": 2.97569507763695e-07,
+    "ci95": [
+      -6.212087538426215e-07,
+      1.1585322701581971e-06
+    ],
+    "improved": 5,
+    "trajectories": 12
+  },
+  {
+    "seeds": [
+      42
+    ],
+    "contrast": "on-off",
+    "metric": "brier",
+    "mean_delta": 0.001576206140350878,
+    "ci95": [
+      0.0,
+      0.004728618421052634
+    ],
+    "improved": 0,
+    "trajectories": 12
+  },
+  {
+    "seeds": [
+      42
+    ],
+    "contrast": "on-zero_present",
+    "metric": "crps",
+    "mean_delta": 0.0003579140151315739,
+    "ci95": [
+      8.543925856932683e-05,
+      0.0006480581277195619
+    ],
+    "improved": 4,
+    "trajectories": 12
+  },
+  {
+    "seeds": [
+      42
+    ],
+    "contrast": "on-zero_present",
+    "metric": "energy",
+    "mean_delta": 0.0003343399855368241,
+    "ci95": [
+      2.764679067264493e-05,
+      0.0006296008248264818
+    ],
+    "improved": 4,
+    "trajectories": 12
+  },
+  {
+    "seeds": [
+      42
+    ],
+    "contrast": "on-zero_present",
+    "metric": "mse",
+    "mean_delta": 4.947645322014909e-07,
+    "ci95": [
+      -5.159988109781101e-07,
+      1.492036023003327e-06
+    ],
+    "improved": 5,
+    "trajectories": 12
+  },
+  {
+    "seeds": [
+      42
+    ],
+    "contrast": "on-zero_present",
+    "metric": "brier",
+    "mean_delta": 0.0005996436403508781,
+    "ci95": [
+      0.0,
+      0.0017989309210526341
+    ],
+    "improved": 0,
+    "trajectories": 12
+  },
+  {
+    "seeds": [
+      42
+    ],
+    "contrast": "on-native",
+    "metric": "crps",
+    "mean_delta": 0.0007381709865576595,
+    "ci95": [
+      0.0004738700723558559,
+      0.0010035316787735294
+    ],
+    "improved": 0,
+    "trajectories": 12
+  },
+  {
+    "seeds": [
+      42
+    ],
+    "contrast": "on-native",
+    "metric": "energy",
+    "mean_delta": 0.0005714117110229983,
+    "ci95": [
+      0.00016659559320814955,
+      0.0009998756496377374
+    ],
+    "improved": 3,
+    "trajectories": 12
+  },
+  {
+    "seeds": [
+      42
+    ],
+    "contrast": "on-native",
+    "metric": "mse",
+    "mean_delta": 9.89610053516496e-07,
+    "ci95": [
+      2.7500027750721854e-07,
+      1.7212707515913845e-06
+    ],
+    "improved": 4,
+    "trajectories": 12
+  },
+  {
+    "seeds": [
+      42
+    ],
+    "contrast": "on-native",
+    "metric": "brier",
+    "mean_delta": 0.0003426535087719303,
+    "ci95": [
+      0.0,
+      0.001027960526315791
+    ],
+    "improved": 0,
+    "trajectories": 12
+  },
+  {
+    "seeds": [
+      43
+    ],
+    "contrast": "on-off",
+    "metric": "crps",
+    "mean_delta": 0.0002730627992053863,
+    "ci95": [
+      3.0481618444173116e-05,
+      0.0005199885581979008
+    ],
+    "improved": 4,
+    "trajectories": 12
+  },
+  {
+    "seeds": [
+      43
+    ],
+    "contrast": "on-off",
+    "metric": "energy",
+    "mean_delta": 0.00013938557572965027,
+    "ci95": [
+      -0.00019442957760976403,
+      0.0004654618191700849
+    ],
+    "improved": 5,
+    "trajectories": 12
+  },
+  {
+    "seeds": [
+      43
+    ],
+    "contrast": "on-off",
+    "metric": "mse",
+    "mean_delta": 1.4622909104013228e-07,
+    "ci95": [
+      -7.602289623249329e-07,
+      9.855721992493678e-07
+    ],
+    "improved": 4,
+    "trajectories": 12
+  },
+  {
+    "seeds": [
+      43
+    ],
+    "contrast": "on-off",
+    "metric": "brier",
+    "mean_delta": 0.0008694832785087712,
+    "ci95": [
+      0.0,
+      0.0026084498355263136
+    ],
+    "improved": 0,
+    "trajectories": 12
+  },
+  {
+    "seeds": [
+      43
+    ],
+    "contrast": "on-zero_present",
+    "metric": "crps",
+    "mean_delta": 0.00041628773256355105,
+    "ci95": [
+      4.456584320361779e-05,
+      0.0008194891540306021
+    ],
+    "improved": 5,
+    "trajectories": 12
+  },
+  {
+    "seeds": [
+      43
+    ],
+    "contrast": "on-zero_present",
+    "metric": "energy",
+    "mean_delta": 0.00024919932168814457,
+    "ci95": [
+      -0.0001494418770529487,
+      0.0006713672128612569
+    ],
+    "improved": 6,
+    "trajectories": 12
+  },
+  {
+    "seeds": [
+      43
+    ],
+    "contrast": "on-zero_present",
+    "metric": "mse",
+    "mean_delta": 3.6504399817268396e-07,
+    "ci95": [
+      -7.336021886003964e-07,
+      1.4379943596892322e-06
+    ],
+    "improved": 5,
+    "trajectories": 12
+  },
+  {
+    "seeds": [
+      43
+    ],
+    "contrast": "on-zero_present",
+    "metric": "brier",
+    "mean_delta": 0.0009380139802631568,
+    "ci95": [
+      0.0,
+      0.0028140419407894704
+    ],
+    "improved": 0,
+    "trajectories": 12
+  },
+  {
+    "seeds": [
+      43
+    ],
+    "contrast": "on-native",
+    "metric": "crps",
+    "mean_delta": 0.0006244470972024055,
+    "ci95": [
+      0.0003821356456736859,
+      0.0008630545735259206
+    ],
+    "improved": 0,
+    "trajectories": 12
+  },
+  {
+    "seeds": [
+      43
+    ],
+    "contrast": "on-native",
+    "metric": "energy",
+    "mean_delta": 0.0004633911427137383,
+    "ci95": [
+      0.00011864935949759754,
+      0.0008311505104032576
+    ],
+    "improved": 3,
+    "trajectories": 12
+  },
+  {
+    "seeds": [
+      43
+    ],
+    "contrast": "on-native",
+    "metric": "mse",
+    "mean_delta": 6.490491442662419e-07,
+    "ci95": [
+      3.755111938670808e-08,
+      1.3056926661495194e-06
+    ],
+    "improved": 4,
+    "trajectories": 12
+  },
+  {
+    "seeds": [
+      43
+    ],
+    "contrast": "on-native",
+    "metric": "brier",
+    "mean_delta": 0.00010279605263157955,
+    "ci95": [
+      0.0,
+      0.00030838815789473867
+    ],
+    "improved": 0,
+    "trajectories": 12
+  },
+  {
+    "seeds": [
+      44
+    ],
+    "contrast": "on-off",
+    "metric": "crps",
+    "mean_delta": 0.00020679605655381296,
+    "ci95": [
+      1.2071128745068702e-05,
+      0.0004169099185384183
+    ],
+    "improved": 4,
+    "trajectories": 12
+  },
+  {
+    "seeds": [
+      44
+    ],
+    "contrast": "on-off",
+    "metric": "energy",
+    "mean_delta": 3.854849234377044e-05,
+    "ci95": [
+      -0.00019141117445790502,
+      0.00026327752066473547
+    ],
+    "improved": 5,
+    "trajectories": 12
+  },
+  {
+    "seeds": [
+      44
+    ],
+    "contrast": "on-off",
+    "metric": "mse",
+    "mean_delta": 2.208494518622396e-07,
+    "ci95": [
+      -8.72796799738772e-07,
+      1.2119755740350135e-06
+    ],
+    "improved": 5,
+    "trajectories": 12
+  },
+  {
+    "seeds": [
+      44
+    ],
+    "contrast": "on-off",
+    "metric": "brier",
+    "mean_delta": 0.001053659539473684,
+    "ci95": [
+      0.0,
+      0.0031609786184210523
+    ],
+    "improved": 0,
+    "trajectories": 12
+  },
+  {
+    "seeds": [
+      44
+    ],
+    "contrast": "on-zero_present",
+    "metric": "crps",
+    "mean_delta": 0.0004046046026829492,
+    "ci95": [
+      1.1332331001156947e-05,
+      0.0008309342832783916
+    ],
+    "improved": 6,
+    "trajectories": 12
+  },
+  {
+    "seeds": [
+      44
+    ],
+    "contrast": "on-zero_present",
+    "metric": "energy",
+    "mean_delta": 0.0002220031874998659,
+    "ci95": [
+      -0.00017937998778800148,
+      0.000658611188341873
+    ],
+    "improved": 7,
+    "trajectories": 12
+  },
+  {
+    "seeds": [
+      44
+    ],
+    "contrast": "on-zero_present",
+    "metric": "mse",
+    "mean_delta": 3.022537864799264e-07,
+    "ci95": [
+      -9.481759405370961e-07,
+      1.5087740029461767e-06
+    ],
+    "improved": 6,
+    "trajectories": 12
+  },
+  {
+    "seeds": [
+      44
+    ],
+    "contrast": "on-zero_present",
+    "metric": "brier",
+    "mean_delta": 0.0011393229166666667,
+    "ci95": [
+      0.0,
+      0.00341796875
+    ],
+    "improved": 0,
+    "trajectories": 12
+  },
+  {
+    "seeds": [
+      44
+    ],
+    "contrast": "on-native",
+    "metric": "crps",
+    "mean_delta": 0.0004638677714356952,
+    "ci95": [
+      0.0002765811087200532,
+      0.0006594588921724676
+    ],
+    "improved": 0,
+    "trajectories": 12
+  },
+  {
+    "seeds": [
+      44
+    ],
+    "contrast": "on-native",
+    "metric": "energy",
+    "mean_delta": 0.00024133401239983163,
+    "ci95": [
+      -4.486270567936029e-05,
+      0.0005174290835137017
+    ],
+    "improved": 3,
+    "trajectories": 12
+  },
+  {
+    "seeds": [
+      44
+    ],
+    "contrast": "on-native",
+    "metric": "mse",
+    "mean_delta": 7.02415803647943e-07,
+    "ci95": [
+      6.463394795995267e-08,
+      1.3519592571781656e-06
+    ],
+    "improved": 4,
+    "trajectories": 12
+  },
+  {
+    "seeds": [
+      44
+    ],
+    "contrast": "on-native",
+    "metric": "brier",
+    "mean_delta": 8.994654605263182e-05,
+    "ci95": [
+      0.0,
+      0.00026983963815789547
+    ],
+    "improved": 0,
+    "trajectories": 12
+  }
+]
