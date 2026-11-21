@@ -1,0 +1,9 @@
+[
+  {
+    "pid": 130013,
+    "process_start_utc_estimate": 1795277225.9024942,
+    "observed_utc": 1795277883.0324962,
+    "cpu_seconds_observed": 533.08,
+    "source": "/proc stat startticks, uptime; includes data preload preceding TRAINING_STARTED"
+  }
+]

@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "research/provenance_uncertainty_conditioning/finalize_docs.py", line 93, in <module>
+    if __name__=='__main__':main()
+  File "research/provenance_uncertainty_conditioning/finalize_docs.py", line 87, in main
+    review+=f'| `{p.relative_to(ROOT)}` | {p.stat().st_size} |\n'
+  File "/usr/lib/python3.8/pathlib.py", line 908, in relative_to
+    raise ValueError("{!r} does not start with {!r}"
+ValueError: 'research/provenance_uncertainty_conditioning/README.md' does not start with '/cpfs01/projects-HDD/cfff-3469a2cbe57f_HDD/wangxiyun/DiPred+ResCrct/Workspace/github/DiPred'

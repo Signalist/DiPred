@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "research/provenance_uncertainty_conditioning/train.py", line 115, in <module>
+    if __name__=='__main__':main()
+  File "research/provenance_uncertainty_conditioning/train.py", line 84, in main
+    validate(0);last_boundary=time.monotonic();last_block=None;steps_done=0
+  File "research/provenance_uncertainty_conditioning/train.py", line 77, in validate
+    for (arm,seed),a in models.items():weights.append(checkpoint(a,seed,step))
+  File "/cpfs01/projects-HDD/cfff-3469a2cbe57f_HDD/wangxiyun/DiPred+ResCrct/Workspace/github/DiPred/research/provenance_uncertainty_conditioning/core.py", line 122, in checkpoint
+    return dict(arm=adapter.arm,seed=seed,step=step,path=str(p.relative_to(ROOT)) if p.is_relative_to(ROOT) else str(p),sha256=digest(p),state_sha256=state_hash(adapter))
+AttributeError: 'PosixPath' object has no attribute 'is_relative_to'

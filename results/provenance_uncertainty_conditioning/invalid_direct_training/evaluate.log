@@ -1,0 +1,40 @@
+EVALUATED 12 /528 test 400 adapter paths 0 seconds 12.0
+EVALUATED 24 /528 test 400 adapter paths 0 seconds 23.5
+EVALUATED 36 /528 test 420 adapter paths 0 seconds 37.4
+EVALUATED 48 /528 test 420 adapter paths 0 seconds 49.1
+EVALUATED 60 /528 extension 440 adapter paths 0 seconds 66.2
+EVALUATED 72 /528 extension 440 adapter paths 0 seconds 81.1
+EVALUATED 84 /528 extension 460 adapter paths 0 seconds 99.3
+EVALUATED 96 /528 extension 460 adapter paths 0 seconds 117.1
+EVALUATED 108 /528 extension 480 adapter paths 0 seconds 132.7
+EVALUATED 120 /528 extension 480 adapter paths 0 seconds 150.4
+EVALUATED 132 /528 extension 500 adapter paths 0 seconds 165.5
+EVALUATED 144 /528 extension 500 adapter paths 0 seconds 182.4
+EVALUATED 156 /528 extension 520 adapter paths 0 seconds 198.3
+EVALUATED 168 /528 extension 520 adapter paths 0 seconds 216.4
+EVALUATED 180 /528 extension 540 adapter paths 0 seconds 231.7
+EVALUATED 192 /528 extension 540 adapter paths 0 seconds 248.7
+EVALUATED 204 /528 extension 560 adapter paths 0 seconds 263.5
+EVALUATED 216 /528 extension 560 adapter paths 0 seconds 280.9
+EVALUATED 228 /528 extension 580 adapter paths 0 seconds 298.6
+EVALUATED 240 /528 extension 580 adapter paths 0 seconds 314.0
+EVALUATED 252 /528 extension 600 adapter paths 0 seconds 331.2
+EVALUATED 264 /528 extension 600 adapter paths 0 seconds 346.5
+EVALUATED 276 /528 extension 620 adapter paths 0 seconds 363.5
+EVALUATED 288 /528 extension 620 adapter paths 0 seconds 378.5
+EVALUATED 300 /528 extension 640 adapter paths 0 seconds 396.0
+EVALUATED 312 /528 extension 640 adapter paths 0 seconds 411.1
+Traceback (most recent call last):
+  File "research/provenance_uncertainty_conditioning/evaluate.py", line 135, in <module>
+    if __name__=='__main__':main()
+  File "/usr/local/lib/python3.8/dist-packages/torch/autograd/grad_mode.py", line 34, in decorate_context
+    return func(*args, **kwargs)
+  File "research/provenance_uncertainty_conditioning/evaluate.py", line 71, in main
+    conditions_record={str(k):dict(history_sha256=tensor_hash(h),mask_sha256=tensor_hash(mask),spread_sha256=tensor_hash(spread),noise_sha256=[tensor_hash(v) for v in z],noise_seeds=b['calls']['B' if k==0 else 'S'+str(k)]['seeds']) for k,(h,mask,spread,z) in inputs.items()}
+  File "research/provenance_uncertainty_conditioning/evaluate.py", line 71, in <dictcomp>
+    conditions_record={str(k):dict(history_sha256=tensor_hash(h),mask_sha256=tensor_hash(mask),spread_sha256=tensor_hash(spread),noise_sha256=[tensor_hash(v) for v in z],noise_seeds=b['calls']['B' if k==0 else 'S'+str(k)]['seeds']) for k,(h,mask,spread,z) in inputs.items()}
+  File "research/provenance_uncertainty_conditioning/evaluate.py", line 71, in <listcomp>
+    conditions_record={str(k):dict(history_sha256=tensor_hash(h),mask_sha256=tensor_hash(mask),spread_sha256=tensor_hash(spread),noise_sha256=[tensor_hash(v) for v in z],noise_seeds=b['calls']['B' if k==0 else 'S'+str(k)]['seeds']) for k,(h,mask,spread,z) in inputs.items()}
+  File "/cpfs01/projects-HDD/cfff-3469a2cbe57f_HDD/wangxiyun/DiPred+ResCrct/Workspace/github/DiPred/research/native_restart_consistency/core.py", line 29, in tensor_hash
+    def tensor_hash(x):return hashlib.sha256(x.detach().contiguous().cpu().numpy().tobytes()).hexdigest()
+KeyboardInterrupt

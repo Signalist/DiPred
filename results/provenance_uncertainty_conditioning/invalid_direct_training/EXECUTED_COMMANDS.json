@@ -1,0 +1,13 @@
+{
+  "cwd": "/cpfs01/projects-HDD/cfff-3469a2cbe57f_HDD/wangxiyun/DiPred+ResCrct/Workspace/github/DiPred",
+  "commands": [
+    "git status --short; git rev-parse HEAD; git branch --show-current; git worktree list; nvidia-smi",
+    "source ../../env.sh && python research/provenance_uncertainty_conditioning/tests.py > results/provenance_uncertainty_conditioning/tests.log 2>&1",
+    "source ../../env.sh && python research/provenance_uncertainty_conditioning/train.py > results/provenance_uncertainty_conditioning/train.log 2>&1",
+    "source ../../env.sh && python research/provenance_uncertainty_conditioning/test_diagnostics.py > results/provenance_uncertainty_conditioning/evaluation_tests.log 2>&1",
+    "source ../../env.sh && python research/provenance_uncertainty_conditioning/check_plan.py > results/provenance_uncertainty_conditioning/plan_checks.log 2>&1",
+    "source ../../env.sh && python research/provenance_uncertainty_conditioning/evaluate.py > results/provenance_uncertainty_conditioning/evaluate.log 2>&1",
+    "source ../../env.sh && python research/provenance_uncertainty_conditioning/development_analysis.py > results/provenance_uncertainty_conditioning/development_analysis.log 2>&1"
+  ],
+  "preupdate_failure": "First training launch failed before optimizer updates; all artifacts retained under preupdate_failure; corrected compatibility then reran tests and first actual fit."
+}

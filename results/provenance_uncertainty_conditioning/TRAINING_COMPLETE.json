@@ -1,0 +1,13 @@
+{
+  "runs": 9,
+  "steps_each": 1000,
+  "total_updates": 9000,
+  "full_requested_budget_complete": true,
+  "seconds": 851.8909268714488,
+  "peak_memory_allocated": 1664938496,
+  "peak_memory_reserved": 2084569088,
+  "backbone_state_sha256": "99c372e3e9a6b60afae0391128da6be86ba15407fb9b85a43b85e590b7d62cb9",
+  "checkpoints": 45,
+  "schedule_sha256": "f1fe8bbb6a461db383ea105176e47bd4868e9df698ffe006a630c00db8b60807",
+  "utc": 1795279871.3621767
+}

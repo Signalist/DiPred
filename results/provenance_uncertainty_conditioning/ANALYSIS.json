@@ -1,0 +1,11 @@
+{
+  "score_rows": 220176,
+  "window_difference_rows": 513216,
+  "trajectory_seed_rows": 10008,
+  "paired_interval_rows": 49980,
+  "unit": "original trajectory; average windows/repeats, then seeds within each trajectory for mean3",
+  "bootstrap": 10000,
+  "bootstrap_seed": 123,
+  "seconds": 221.91212502866983,
+  "utc": 1795280864.8043551
+}

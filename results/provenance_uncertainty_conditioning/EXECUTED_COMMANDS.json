@@ -1,0 +1,19 @@
+{
+  "cwd": "/cpfs01/projects-HDD/cfff-3469a2cbe57f_HDD/wangxiyun/DiPred+ResCrct/Workspace/github/DiPred",
+  "valid_commands_executed": [
+    "source ../../env.sh && python research/provenance_uncertainty_conditioning/tests.py > results/provenance_uncertainty_conditioning/tests.log 2>&1",
+    "source ../../env.sh && python research/provenance_uncertainty_conditioning/test_diagnostics.py > results/provenance_uncertainty_conditioning/evaluation_tests.log 2>&1",
+    "source ../../env.sh && python research/provenance_uncertainty_conditioning/check_plan.py > results/provenance_uncertainty_conditioning/plan_checks.log 2>&1",
+    "source ../../env.sh && python research/provenance_uncertainty_conditioning/train.py > results/provenance_uncertainty_conditioning/train.log 2>&1",
+    "source ../../env.sh && python research/provenance_uncertainty_conditioning/evaluate.py > results/provenance_uncertainty_conditioning/evaluate.log 2>&1",
+    "source ../../env.sh && python research/provenance_uncertainty_conditioning/development_analysis.py > results/provenance_uncertainty_conditioning/development_analysis.log 2>&1 && python research/provenance_uncertainty_conditioning/plot_results.py > results/provenance_uncertainty_conditioning/plot.log 2>&1",
+    "source ../../env.sh && python research/provenance_uncertainty_conditioning/analyze.py > results/provenance_uncertainty_conditioning/analyze.log 2>&1 && python research/provenance_uncertainty_conditioning/verify.py > results/provenance_uncertainty_conditioning/verify.log 2>&1",
+    "source ../../env.sh && python research/provenance_uncertainty_conditioning/resource_accounting.py > results/provenance_uncertainty_conditioning/resource_accounting.log 2>&1",
+    "source ../../env.sh && python research/provenance_uncertainty_conditioning/final_report.py > results/provenance_uncertainty_conditioning/report.log 2>&1",
+    "source ../../env.sh && python research/provenance_uncertainty_conditioning/audit_requirements.py > results/provenance_uncertainty_conditioning/delivery_audit.log 2>&1"
+  ],
+  "prior_attempt": "invalid_direct_training/EXECUTED_COMMANDS.json and INVALIDATION.json preserve preceding noncompliant training and interrupted evaluation; valid train launch started after protocol correction and new preflight.",
+  "source_audit": "git status, HEAD, worktree, GPU and task file inspected. train process and log revalidated after user pause/resume; no duplicate training was started.",
+  "documentation_supplement": "Chinese report appended direct B summary from scores_summary.csv and clarified zero selected-output replay counts; no metric, model or selection was changed.",
+  "finalization_command": "source ../../env.sh && python research/provenance_uncertainty_conditioning/finalize_docs.py > results/provenance_uncertainty_conditioning/finalize.log 2>&1"
+}

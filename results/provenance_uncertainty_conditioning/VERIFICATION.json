@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "updates": 9000,
+  "checkpoints": 45,
+  "selection_choices": 18,
+  "groups": 528,
+  "extension_sources": 480,
+  "all_noise_hashes_unique": 101376,
+  "audit_score_groups": 9,
+  "audit_score_rows": 3402,
+  "audit_score_maxabs": 0.0,
+  "cached_outputs_checked": 0,
+  "temporal_files_checked": 528,
+  "selected_output_replay_paths": 0,
+  "replay_maxabs": 0.0,
+  "all_lead_rows_checked": 2576640,
+  "crps_bootstrap_intervals_checked": 2580,
+  "loss_decomposition_maxabs": 1.4901161193847656e-08,
+  "old_files_unchanged": true,
+  "backbone_state_sha256": "99c372e3e9a6b60afae0391128da6be86ba15407fb9b85a43b85e590b7d62cb9",
+  "utc": 1795281215.7849138
+}

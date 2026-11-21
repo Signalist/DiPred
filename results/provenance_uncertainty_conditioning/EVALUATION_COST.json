@@ -1,0 +1,26 @@
+{
+  "groups": 528,
+  "requested_groups": 528,
+  "unique_nonzero_checkpoints": 0,
+  "adapter_full20_paths": 0,
+  "native_extension_full20_paths": 39552,
+  "reused_native_extension_full20_paths": 52608,
+  "adapter_network_calls": 0,
+  "native_extension_network_calls": 4944,
+  "adapter_generation_seconds": 0,
+  "wall_seconds": 624.1825606580824,
+  "cache_bytes": 13109482412,
+  "peak_memory_allocated": 490514944,
+  "score_rows": 220176,
+  "lead_rows": {
+    "('test', 'native')": 21696,
+    "('test', '42')": 70848,
+    "('test', '43')": 70848,
+    "('test', '44')": 70848,
+    "('extension', 'native')": 216960,
+    "('extension', '42')": 708480,
+    "('extension', '43')": 708480,
+    "('extension', '44')": 708480
+  },
+  "utc": 1795280587.5564377
+}

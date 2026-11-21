@@ -1,0 +1,154 @@
+{
+  "selection_sha256": "a0cf7ecc0a7c6a2c485a617c70b7a86032ec6133499180c54d6643991237791a",
+  "candidate_sha256": "faa2241f0040a51e4307b6f318c3975fe614d68fa69f2b849854fcb20ac27693",
+  "checkpoints_sha256": "cb50df3d1e36616a8a88c37e35b087358856526f2e315cb57d4afecc241c0f97",
+  "training_complete_sha256": "f3dfea56dff8074d103604006d2f88268c9af21bd9219856a2b1ea74f8e494d4",
+  "config_sha256": "2daf334edf9012e0adda984cba5f656f3cda0b42aeecca89af105b6a214105aa",
+  "checkpoints": [
+    {
+      "arm": "C_aug",
+      "seed": 42,
+      "step": 0,
+      "path": "results/provenance_uncertainty_conditioning/weights/C_aug_42_0.pt",
+      "sha256": "33d30977708e35ce622340a4d45f0f4b1adc5faa7f9d498e0e365869b8e7e362",
+      "state_sha256": "29e19ee318ca2e9b9f6155dfff3916953b700e5683f871716bcfe33af08b158d"
+    },
+    {
+      "arm": "C_aug",
+      "seed": 42,
+      "step": 0,
+      "path": "results/provenance_uncertainty_conditioning/weights/C_aug_42_0.pt",
+      "sha256": "33d30977708e35ce622340a4d45f0f4b1adc5faa7f9d498e0e365869b8e7e362",
+      "state_sha256": "29e19ee318ca2e9b9f6155dfff3916953b700e5683f871716bcfe33af08b158d"
+    },
+    {
+      "arm": "C_mask",
+      "seed": 42,
+      "step": 0,
+      "path": "results/provenance_uncertainty_conditioning/weights/C_mask_42_0.pt",
+      "sha256": "b071fed568870d4824294cfb0b48edbcedfef30df03b2dde2c366d7bdb501032",
+      "state_sha256": "29e19ee318ca2e9b9f6155dfff3916953b700e5683f871716bcfe33af08b158d"
+    },
+    {
+      "arm": "C_mask",
+      "seed": 42,
+      "step": 0,
+      "path": "results/provenance_uncertainty_conditioning/weights/C_mask_42_0.pt",
+      "sha256": "b071fed568870d4824294cfb0b48edbcedfef30df03b2dde2c366d7bdb501032",
+      "state_sha256": "29e19ee318ca2e9b9f6155dfff3916953b700e5683f871716bcfe33af08b158d"
+    },
+    {
+      "arm": "C_unc",
+      "seed": 42,
+      "step": 0,
+      "path": "results/provenance_uncertainty_conditioning/weights/C_unc_42_0.pt",
+      "sha256": "65ca4e83de04ba924c86162048eb15b1f0800b274c53f4ed8b9e135f25ad6f5b",
+      "state_sha256": "29e19ee318ca2e9b9f6155dfff3916953b700e5683f871716bcfe33af08b158d"
+    },
+    {
+      "arm": "C_unc",
+      "seed": 42,
+      "step": 0,
+      "path": "results/provenance_uncertainty_conditioning/weights/C_unc_42_0.pt",
+      "sha256": "65ca4e83de04ba924c86162048eb15b1f0800b274c53f4ed8b9e135f25ad6f5b",
+      "state_sha256": "29e19ee318ca2e9b9f6155dfff3916953b700e5683f871716bcfe33af08b158d"
+    },
+    {
+      "arm": "C_aug",
+      "seed": 43,
+      "step": 0,
+      "path": "results/provenance_uncertainty_conditioning/weights/C_aug_43_0.pt",
+      "sha256": "630edaecd440116b772e9ce1734b142d7205bcb62a173e753710cc42e820c80b",
+      "state_sha256": "675449ec504847edbbcac727523386f5b56477c8eecf6ff1520ed7aae5459311"
+    },
+    {
+      "arm": "C_aug",
+      "seed": 43,
+      "step": 0,
+      "path": "results/provenance_uncertainty_conditioning/weights/C_aug_43_0.pt",
+      "sha256": "630edaecd440116b772e9ce1734b142d7205bcb62a173e753710cc42e820c80b",
+      "state_sha256": "675449ec504847edbbcac727523386f5b56477c8eecf6ff1520ed7aae5459311"
+    },
+    {
+      "arm": "C_mask",
+      "seed": 43,
+      "step": 0,
+      "path": "results/provenance_uncertainty_conditioning/weights/C_mask_43_0.pt",
+      "sha256": "283adc20d53c00a7130ea3571945e170ba70bba1fd9faf7d1bc40f1ef5d08b79",
+      "state_sha256": "675449ec504847edbbcac727523386f5b56477c8eecf6ff1520ed7aae5459311"
+    },
+    {
+      "arm": "C_mask",
+      "seed": 43,
+      "step": 0,
+      "path": "results/provenance_uncertainty_conditioning/weights/C_mask_43_0.pt",
+      "sha256": "283adc20d53c00a7130ea3571945e170ba70bba1fd9faf7d1bc40f1ef5d08b79",
+      "state_sha256": "675449ec504847edbbcac727523386f5b56477c8eecf6ff1520ed7aae5459311"
+    },
+    {
+      "arm": "C_unc",
+      "seed": 43,
+      "step": 0,
+      "path": "results/provenance_uncertainty_conditioning/weights/C_unc_43_0.pt",
+      "sha256": "473feef218364789c2461b811e48af39f4c8c51152c1be623e500c1098cc4cd0",
+      "state_sha256": "675449ec504847edbbcac727523386f5b56477c8eecf6ff1520ed7aae5459311"
+    },
+    {
+      "arm": "C_unc",
+      "seed": 43,
+      "step": 0,
+      "path": "results/provenance_uncertainty_conditioning/weights/C_unc_43_0.pt",
+      "sha256": "473feef218364789c2461b811e48af39f4c8c51152c1be623e500c1098cc4cd0",
+      "state_sha256": "675449ec504847edbbcac727523386f5b56477c8eecf6ff1520ed7aae5459311"
+    },
+    {
+      "arm": "C_aug",
+      "seed": 44,
+      "step": 0,
+      "path": "results/provenance_uncertainty_conditioning/weights/C_aug_44_0.pt",
+      "sha256": "0f75b58edf0c4170c31afade164bb777ec625492a1d8bc32278241ef25290dc9",
+      "state_sha256": "6b035fe3bc56b8f3ccc19699684827bb75359ac6e42c55ac430afc7c516af384"
+    },
+    {
+      "arm": "C_aug",
+      "seed": 44,
+      "step": 0,
+      "path": "results/provenance_uncertainty_conditioning/weights/C_aug_44_0.pt",
+      "sha256": "0f75b58edf0c4170c31afade164bb777ec625492a1d8bc32278241ef25290dc9",
+      "state_sha256": "6b035fe3bc56b8f3ccc19699684827bb75359ac6e42c55ac430afc7c516af384"
+    },
+    {
+      "arm": "C_mask",
+      "seed": 44,
+      "step": 0,
+      "path": "results/provenance_uncertainty_conditioning/weights/C_mask_44_0.pt",
+      "sha256": "711f88e2e7c8772769a241636a46d6f3fec6c3d117a56ca4d017ff9bbac1738d",
+      "state_sha256": "6b035fe3bc56b8f3ccc19699684827bb75359ac6e42c55ac430afc7c516af384"
+    },
+    {
+      "arm": "C_mask",
+      "seed": 44,
+      "step": 0,
+      "path": "results/provenance_uncertainty_conditioning/weights/C_mask_44_0.pt",
+      "sha256": "711f88e2e7c8772769a241636a46d6f3fec6c3d117a56ca4d017ff9bbac1738d",
+      "state_sha256": "6b035fe3bc56b8f3ccc19699684827bb75359ac6e42c55ac430afc7c516af384"
+    },
+    {
+      "arm": "C_unc",
+      "seed": 44,
+      "step": 0,
+      "path": "results/provenance_uncertainty_conditioning/weights/C_unc_44_0.pt",
+      "sha256": "ddb3c0617c904880afe39c6822d3ccae0ea8380d84c40512c9d3b437c0a47ff9",
+      "state_sha256": "6b035fe3bc56b8f3ccc19699684827bb75359ac6e42c55ac430afc7c516af384"
+    },
+    {
+      "arm": "C_unc",
+      "seed": 44,
+      "step": 0,
+      "path": "results/provenance_uncertainty_conditioning/weights/C_unc_44_0.pt",
+      "sha256": "ddb3c0617c904880afe39c6822d3ccae0ea8380d84c40512c9d3b437c0a47ff9",
+      "state_sha256": "6b035fe3bc56b8f3ccc19699684827bb75359ac6e42c55ac430afc7c516af384"
+    }
+  ],
+  "utc": 1795279871.3639956
+}

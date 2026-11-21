@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "quality_maxabs": 0.0,
+  "lead_reduction_checked": true,
+  "temporal_covariance_explicit_checked": true,
+  "member_join_checked": true,
+  "eval_entry_import_checked": true,
+  "code": {
+    "research/provenance_uncertainty_conditioning/test_diagnostics.py": "7ffe7a6d272e1155fa21e6ee4b9e274e03a6de8ad4f7c75b1dd1bed13788de24",
+    "research/provenance_uncertainty_conditioning/check_plan.py": "572c40bd574e5d064805d97e1d9263b45d1d7e53ae31dd99005f576ec27113d9",
+    "research/provenance_uncertainty_conditioning/analyze.py": "40736a2bfcf2850621ebdc7a35d1d98434e76911af8f7015b00d1de82bccac08",
+    "research/provenance_uncertainty_conditioning/plot_results.py": "01c7eb783fe65b7373e3b25cd9eb46bc0f59c6936a89b2b2cdc1da4fb38ed13b",
+    "research/provenance_uncertainty_conditioning/verify.py": "d074bf4d04851ca06095d136fa45198cb8feffba151d8ded8744f3ebe263e6c9",
+    "research/provenance_uncertainty_conditioning/core.py": "ab000f7c4687681086e588629756b51b80aa2cf0e59b329a7e7b4cd01cd5fb22",
+    "research/provenance_uncertainty_conditioning/evaluate.py": "f799192a619635c5b845927474cfaeae46cb44f0f680e49e5dc84ff0dd7b60a6",
+    "research/provenance_uncertainty_conditioning/tests.py": "d8fe6c657a12e510caab59e2673fb5db38ffc1c58a51c2c16ecb7572e3fb90e6",
+    "research/provenance_uncertainty_conditioning/train.py": "547c9dc3be2d73fbe55f1a28629f069985f35250a330a4e874a40f37438aa6f1",
+    "research/provenance_uncertainty_conditioning/metrics.py": "6c45fb28d0561ebd34a6662c2c86ebde66f077f8fcf5d7fc310f5f4e39386173",
+    "research/provenance_uncertainty_conditioning/development_analysis.py": "e7d69bfedbb67a5704858bc1df76d76490a88cc1f2a92172e7e0d285182edf50"
+  },
+  "utc": 1795278942.6955996
+}

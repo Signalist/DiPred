@@ -1,0 +1,32 @@
+{
+  "valid_training_seconds": 851.8909268714488,
+  "valid_training_including_preload_seconds": 926.6646373271942,
+  "valid_formal_evaluation_seconds": 624.1825606580824,
+  "invalid_training_seconds": 932.8204624280334,
+  "invalid_training_including_preload_seconds": 1003.1191174983978,
+  "invalid_evaluation_wall_upper_bound_seconds": 523.5707058906555,
+  "invalid_complete_evaluation_groups": 321,
+  "invalid_native_extension_groups": 274,
+  "measured_optimizer_update_seconds": {
+    "valid": 448.1308654565364,
+    "invalid": 448.971318250522
+  },
+  "paths": {
+    "valid_training_full32_four_step_forward_paths": 288000,
+    "invalid_training_full32_four_step_forward_paths": 288000,
+    "valid_nonzero_development_four_step_paths": 221184,
+    "invalid_nonzero_development_four_step_paths": 221184,
+    "invalid_frozen_native_extension_paths": 52608,
+    "valid_new_frozen_native_extension_paths": 39552,
+    "valid_reused_frozen_native_extension_paths": 52608,
+    "valid_formal_new_adapter_paths": 0
+  },
+  "new_cache_bytes_valid": 13109482412,
+  "retained_invalid_cache_bytes": 17381212983,
+  "total_retained_new_cache_bytes": 30490695395,
+  "full32_inference_forward_calls_per_path": 4,
+  "restart_forward_calls_per_path_including_parent": 8,
+  "backward_cost_note": "Each training forward retains all four denoising steps and one CRPS backward; this is not inference timing. No extra candidates/updates were added to the valid protocol.",
+  "all_prior_attempts_excluded_from_scientific_efficacy": true,
+  "utc": 1795280643.201965
+}

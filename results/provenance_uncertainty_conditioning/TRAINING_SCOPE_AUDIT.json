@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "valid_updates": 9000,
+  "training_k_counts_per_model": {
+    "5": 297,
+    "2": 356,
+    "10": 347
+  },
+  "all_nine_models_same_schedule": true,
+  "frozen_source_hashes_unchanged": true,
+  "complete32_member_loss_recorded": true,
+  "max_loss_term_identity_error": 1.4901161193847656e-08,
+  "gradient_norm_min": 0.01281740516424179,
+  "gradient_norm_max": 0.6176009774208069,
+  "scientific_step0_choices": 9
+}

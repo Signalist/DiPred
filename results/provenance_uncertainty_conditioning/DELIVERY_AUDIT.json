@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "reference": "50c25fdeb797de21703c039aeb13e6167b26bdbd",
+  "valid_updates": 9000,
+  "invalid_updates_separately_preserved": 9000,
+  "training_k": [
+    2,
+    5,
+    10
+  ],
+  "checkpoints": 45,
+  "choices": 18,
+  "groups": 528,
+  "requirements": {
+    "1_scope_frozen_backbone": "reference HEAD, config dependencies, PREFLIGHT and VERIFICATION hashes; only new directories changed",
+    "2_equal_capacity_three_arms": "1760 parameters per checkpoint; seed-aligned zero-effective initialization; mask/std slots masked by arm",
+    "3_training_domain_and_truth_boundary": "all9000 valid update rows k2/5/10 only;528 issued-before-truth groups; trajectory/Re isolation; all-real direct evaluated separately",
+    "4_nine_real_full_ensemble_fits": "nine1000-update logs; exact full32 CRPS with pair term and tested gradients;45 checkpoint hashes",
+    "5_pretraining_checks": "PREFLIGHT nine requirements plus EVALUATION_TESTS and PLAN_CHECKS, before valid TRAINING_STARTED",
+    "6_two_selection_policies": "18 choices independently recomputed; all45 candidate development metrics retained; frozen before formal scoring",
+    "7_required_comparisons": "tail/joint/direct, S/B and incremental arm contrasts; covariance/ACF/seam/distribution baselines; all seeds/Re/channels/leads/windows",
+    "8_scientific_answers_and_stop": "DECISION_REPORT answers1..8, fixed DECISIONS criteria, no automatic follow-on model/loss/search",
+    "9_delivery": "code/tests/protocol/logs/weights/hashes/trajectory statistics/cost/Chinese report; final commit and push verified separately",
+    "invalid_attempt_segregation": "invalid_direct_training retains9000 noncompliant updates,45 weights and stopped evaluation; excluded from every official selection/statistic; costs disclosed"
+  },
+  "scientific_success_not_required_for_execution_completion": true,
+  "utc": 1795281280.4231665
+}

@@ -1,0 +1,26 @@
+VALIDATED 0 candidates 9 elapsed 95.26
+TRAIN 50 /1000 x9 elapsed 129.51
+TRAIN 100 /1000 x9 elapsed 159.64
+TRAIN 150 /1000 x9 elapsed 188.65
+TRAIN 200 /1000 x9 elapsed 216.06
+TRAIN 250 /1000 x9 elapsed 243.1
+VALIDATED 250 candidates 18 elapsed 316.63
+TRAIN 300 /1000 x9 elapsed 342.9
+TRAIN 350 /1000 x9 elapsed 369.28
+TRAIN 400 /1000 x9 elapsed 395.57
+TRAIN 450 /1000 x9 elapsed 421.65
+TRAIN 500 /1000 x9 elapsed 446.21
+VALIDATED 500 candidates 27 elapsed 521.57
+TRAIN 550 /1000 x9 elapsed 547.56
+TRAIN 600 /1000 x9 elapsed 573.71
+TRAIN 650 /1000 x9 elapsed 599.99
+TRAIN 700 /1000 x9 elapsed 624.5
+TRAIN 750 /1000 x9 elapsed 650.6
+VALIDATED 750 candidates 36 elapsed 726.45
+TRAIN 800 /1000 x9 elapsed 753.01
+TRAIN 850 /1000 x9 elapsed 778.35
+TRAIN 900 /1000 x9 elapsed 803.56
+TRAIN 950 /1000 x9 elapsed 829.81
+TRAIN 1000 /1000 x9 elapsed 856.12
+VALIDATED 1000 candidates 45 elapsed 931.46
+TRAINING COMPLETE 9000 updates; selections frozen before historical test/extension

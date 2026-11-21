@@ -1,0 +1,10 @@
+{
+  "valid_training_k_only": true,
+  "k_counts": {
+    "5": 297,
+    "2": 356,
+    "10": 347
+  },
+  "trajectories": 46,
+  "steps_each": 1000
+}

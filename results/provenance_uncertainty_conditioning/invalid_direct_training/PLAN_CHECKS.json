@@ -1,0 +1,36 @@
+{
+  "passed": true,
+  "formal_groups": 528,
+  "historical_groups": 48,
+  "extension_groups": 480,
+  "old_plus_extension_unique_seeds": 145920,
+  "max_scored_exclusive_frame": 860,
+  "min_test_file_frames": 868,
+  "Re_sets": {
+    "train": [
+      "10125",
+      "11400",
+      "12675",
+      "16500",
+      "17775",
+      "20325",
+      "21600",
+      "24150",
+      "25425",
+      "8850"
+    ],
+    "development": [
+      "26700",
+      "6300",
+      "7575"
+    ],
+    "test": [
+      "13950",
+      "22875",
+      "3750"
+    ]
+  },
+  "extension_seed_split": "test",
+  "no_future_labels_read": true,
+  "utc": 1795278007.9460077
+}

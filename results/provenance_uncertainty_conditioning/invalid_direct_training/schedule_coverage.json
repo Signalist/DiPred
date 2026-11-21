@@ -1,0 +1,3889 @@
+{
+  "k_counts": {
+    "2": 249,
+    "0": 260,
+    "5": 221,
+    "10": 270
+  },
+  "trajectories": 46,
+  "group_counts": [
+    {
+      "trajectory": "10125_0.h5",
+      "start": 400,
+      "repeat": 0,
+      "k": 0,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "10125_0.h5",
+      "start": 400,
+      "repeat": 0,
+      "k": 2,
+      "updates_per_model": 3
+    },
+    {
+      "trajectory": "10125_0.h5",
+      "start": 400,
+      "repeat": 0,
+      "k": 10,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "10125_0.h5",
+      "start": 400,
+      "repeat": 1,
+      "k": 0,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "10125_0.h5",
+      "start": 400,
+      "repeat": 1,
+      "k": 2,
+      "updates_per_model": 3
+    },
+    {
+      "trajectory": "10125_0.h5",
+      "start": 400,
+      "repeat": 1,
+      "k": 10,
+      "updates_per_model": 4
+    },
+    {
+      "trajectory": "10125_0.h5",
+      "start": 420,
+      "repeat": 0,
+      "k": 0,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "10125_0.h5",
+      "start": 420,
+      "repeat": 0,
+      "k": 2,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "10125_0.h5",
+      "start": 420,
+      "repeat": 0,
+      "k": 5,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "10125_0.h5",
+      "start": 420,
+      "repeat": 0,
+      "k": 10,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "10125_0.h5",
+      "start": 420,
+      "repeat": 1,
+      "k": 0,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "10125_0.h5",
+      "start": 420,
+      "repeat": 1,
+      "k": 2,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "10125_0.h5",
+      "start": 420,
+      "repeat": 1,
+      "k": 5,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "10125_0.h5",
+      "start": 420,
+      "repeat": 1,
+      "k": 10,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "10125_10.h5",
+      "start": 400,
+      "repeat": 0,
+      "k": 10,
+      "updates_per_model": 3
+    },
+    {
+      "trajectory": "10125_10.h5",
+      "start": 400,
+      "repeat": 1,
+      "k": 0,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "10125_10.h5",
+      "start": 400,
+      "repeat": 1,
+      "k": 5,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "10125_10.h5",
+      "start": 400,
+      "repeat": 1,
+      "k": 10,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "10125_10.h5",
+      "start": 420,
+      "repeat": 0,
+      "k": 0,
+      "updates_per_model": 3
+    },
+    {
+      "trajectory": "10125_10.h5",
+      "start": 420,
+      "repeat": 0,
+      "k": 5,
+      "updates_per_model": 3
+    },
+    {
+      "trajectory": "10125_10.h5",
+      "start": 420,
+      "repeat": 1,
+      "k": 0,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "10125_10.h5",
+      "start": 420,
+      "repeat": 1,
+      "k": 5,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "10125_10.h5",
+      "start": 420,
+      "repeat": 1,
+      "k": 10,
+      "updates_per_model": 3
+    },
+    {
+      "trajectory": "10125_15.h5",
+      "start": 400,
+      "repeat": 0,
+      "k": 0,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "10125_15.h5",
+      "start": 400,
+      "repeat": 0,
+      "k": 2,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "10125_15.h5",
+      "start": 400,
+      "repeat": 0,
+      "k": 5,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "10125_15.h5",
+      "start": 400,
+      "repeat": 1,
+      "k": 0,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "10125_15.h5",
+      "start": 400,
+      "repeat": 1,
+      "k": 5,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "10125_15.h5",
+      "start": 400,
+      "repeat": 1,
+      "k": 10,
+      "updates_per_model": 3
+    },
+    {
+      "trajectory": "10125_15.h5",
+      "start": 420,
+      "repeat": 0,
+      "k": 0,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "10125_15.h5",
+      "start": 420,
+      "repeat": 0,
+      "k": 2,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "10125_15.h5",
+      "start": 420,
+      "repeat": 0,
+      "k": 5,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "10125_15.h5",
+      "start": 420,
+      "repeat": 1,
+      "k": 2,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "10125_15.h5",
+      "start": 420,
+      "repeat": 1,
+      "k": 10,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "10125_20.h5",
+      "start": 400,
+      "repeat": 0,
+      "k": 0,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "10125_20.h5",
+      "start": 400,
+      "repeat": 0,
+      "k": 2,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "10125_20.h5",
+      "start": 400,
+      "repeat": 0,
+      "k": 5,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "10125_20.h5",
+      "start": 400,
+      "repeat": 0,
+      "k": 10,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "10125_20.h5",
+      "start": 400,
+      "repeat": 1,
+      "k": 0,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "10125_20.h5",
+      "start": 400,
+      "repeat": 1,
+      "k": 5,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "10125_20.h5",
+      "start": 400,
+      "repeat": 1,
+      "k": 10,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "10125_20.h5",
+      "start": 420,
+      "repeat": 0,
+      "k": 2,
+      "updates_per_model": 3
+    },
+    {
+      "trajectory": "10125_20.h5",
+      "start": 420,
+      "repeat": 0,
+      "k": 5,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "10125_5.h5",
+      "start": 400,
+      "repeat": 0,
+      "k": 0,
+      "updates_per_model": 5
+    },
+    {
+      "trajectory": "10125_5.h5",
+      "start": 400,
+      "repeat": 0,
+      "k": 2,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "10125_5.h5",
+      "start": 400,
+      "repeat": 0,
+      "k": 5,
+      "updates_per_model": 3
+    },
+    {
+      "trajectory": "10125_5.h5",
+      "start": 400,
+      "repeat": 1,
+      "k": 0,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "10125_5.h5",
+      "start": 400,
+      "repeat": 1,
+      "k": 2,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "10125_5.h5",
+      "start": 400,
+      "repeat": 1,
+      "k": 5,
+      "updates_per_model": 3
+    },
+    {
+      "trajectory": "10125_5.h5",
+      "start": 420,
+      "repeat": 0,
+      "k": 0,
+      "updates_per_model": 3
+    },
+    {
+      "trajectory": "10125_5.h5",
+      "start": 420,
+      "repeat": 0,
+      "k": 2,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "10125_5.h5",
+      "start": 420,
+      "repeat": 0,
+      "k": 5,
+      "updates_per_model": 4
+    },
+    {
+      "trajectory": "10125_5.h5",
+      "start": 420,
+      "repeat": 0,
+      "k": 10,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "10125_5.h5",
+      "start": 420,
+      "repeat": 1,
+      "k": 0,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "10125_5.h5",
+      "start": 420,
+      "repeat": 1,
+      "k": 2,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "10125_5.h5",
+      "start": 420,
+      "repeat": 1,
+      "k": 10,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "11400_0.h5",
+      "start": 400,
+      "repeat": 0,
+      "k": 2,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "11400_0.h5",
+      "start": 400,
+      "repeat": 0,
+      "k": 5,
+      "updates_per_model": 3
+    },
+    {
+      "trajectory": "11400_0.h5",
+      "start": 400,
+      "repeat": 0,
+      "k": 10,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "11400_0.h5",
+      "start": 400,
+      "repeat": 1,
+      "k": 0,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "11400_0.h5",
+      "start": 400,
+      "repeat": 1,
+      "k": 2,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "11400_0.h5",
+      "start": 400,
+      "repeat": 1,
+      "k": 5,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "11400_0.h5",
+      "start": 400,
+      "repeat": 1,
+      "k": 10,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "11400_0.h5",
+      "start": 420,
+      "repeat": 0,
+      "k": 0,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "11400_0.h5",
+      "start": 420,
+      "repeat": 0,
+      "k": 2,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "11400_0.h5",
+      "start": 420,
+      "repeat": 0,
+      "k": 5,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "11400_0.h5",
+      "start": 420,
+      "repeat": 1,
+      "k": 0,
+      "updates_per_model": 4
+    },
+    {
+      "trajectory": "11400_0.h5",
+      "start": 420,
+      "repeat": 1,
+      "k": 2,
+      "updates_per_model": 4
+    },
+    {
+      "trajectory": "11400_0.h5",
+      "start": 420,
+      "repeat": 1,
+      "k": 5,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "11400_0.h5",
+      "start": 420,
+      "repeat": 1,
+      "k": 10,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "11400_10.h5",
+      "start": 400,
+      "repeat": 0,
+      "k": 2,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "11400_10.h5",
+      "start": 400,
+      "repeat": 0,
+      "k": 10,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "11400_10.h5",
+      "start": 400,
+      "repeat": 1,
+      "k": 0,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "11400_10.h5",
+      "start": 400,
+      "repeat": 1,
+      "k": 2,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "11400_10.h5",
+      "start": 400,
+      "repeat": 1,
+      "k": 5,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "11400_10.h5",
+      "start": 420,
+      "repeat": 0,
+      "k": 0,
+      "updates_per_model": 6
+    },
+    {
+      "trajectory": "11400_10.h5",
+      "start": 420,
+      "repeat": 0,
+      "k": 2,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "11400_10.h5",
+      "start": 420,
+      "repeat": 0,
+      "k": 5,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "11400_10.h5",
+      "start": 420,
+      "repeat": 0,
+      "k": 10,
+      "updates_per_model": 3
+    },
+    {
+      "trajectory": "11400_10.h5",
+      "start": 420,
+      "repeat": 1,
+      "k": 0,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "11400_10.h5",
+      "start": 420,
+      "repeat": 1,
+      "k": 2,
+      "updates_per_model": 4
+    },
+    {
+      "trajectory": "11400_10.h5",
+      "start": 420,
+      "repeat": 1,
+      "k": 5,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "11400_15.h5",
+      "start": 400,
+      "repeat": 0,
+      "k": 0,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "11400_15.h5",
+      "start": 400,
+      "repeat": 0,
+      "k": 2,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "11400_15.h5",
+      "start": 400,
+      "repeat": 0,
+      "k": 5,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "11400_15.h5",
+      "start": 400,
+      "repeat": 0,
+      "k": 10,
+      "updates_per_model": 3
+    },
+    {
+      "trajectory": "11400_15.h5",
+      "start": 400,
+      "repeat": 1,
+      "k": 0,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "11400_15.h5",
+      "start": 400,
+      "repeat": 1,
+      "k": 2,
+      "updates_per_model": 3
+    },
+    {
+      "trajectory": "11400_15.h5",
+      "start": 400,
+      "repeat": 1,
+      "k": 5,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "11400_15.h5",
+      "start": 400,
+      "repeat": 1,
+      "k": 10,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "11400_15.h5",
+      "start": 420,
+      "repeat": 1,
+      "k": 5,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "11400_15.h5",
+      "start": 420,
+      "repeat": 1,
+      "k": 10,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "11400_20.h5",
+      "start": 400,
+      "repeat": 0,
+      "k": 2,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "11400_20.h5",
+      "start": 400,
+      "repeat": 0,
+      "k": 5,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "11400_20.h5",
+      "start": 400,
+      "repeat": 0,
+      "k": 10,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "11400_20.h5",
+      "start": 400,
+      "repeat": 1,
+      "k": 5,
+      "updates_per_model": 4
+    },
+    {
+      "trajectory": "11400_20.h5",
+      "start": 400,
+      "repeat": 1,
+      "k": 10,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "11400_20.h5",
+      "start": 420,
+      "repeat": 0,
+      "k": 0,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "11400_20.h5",
+      "start": 420,
+      "repeat": 0,
+      "k": 2,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "11400_20.h5",
+      "start": 420,
+      "repeat": 0,
+      "k": 5,
+      "updates_per_model": 4
+    },
+    {
+      "trajectory": "11400_20.h5",
+      "start": 420,
+      "repeat": 0,
+      "k": 10,
+      "updates_per_model": 3
+    },
+    {
+      "trajectory": "11400_20.h5",
+      "start": 420,
+      "repeat": 1,
+      "k": 5,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "11400_5.h5",
+      "start": 400,
+      "repeat": 0,
+      "k": 5,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "11400_5.h5",
+      "start": 400,
+      "repeat": 0,
+      "k": 10,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "11400_5.h5",
+      "start": 400,
+      "repeat": 1,
+      "k": 0,
+      "updates_per_model": 3
+    },
+    {
+      "trajectory": "11400_5.h5",
+      "start": 400,
+      "repeat": 1,
+      "k": 2,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "11400_5.h5",
+      "start": 400,
+      "repeat": 1,
+      "k": 10,
+      "updates_per_model": 3
+    },
+    {
+      "trajectory": "11400_5.h5",
+      "start": 420,
+      "repeat": 0,
+      "k": 0,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "11400_5.h5",
+      "start": 420,
+      "repeat": 0,
+      "k": 5,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "11400_5.h5",
+      "start": 420,
+      "repeat": 0,
+      "k": 10,
+      "updates_per_model": 3
+    },
+    {
+      "trajectory": "11400_5.h5",
+      "start": 420,
+      "repeat": 1,
+      "k": 0,
+      "updates_per_model": 3
+    },
+    {
+      "trajectory": "11400_5.h5",
+      "start": 420,
+      "repeat": 1,
+      "k": 2,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "11400_5.h5",
+      "start": 420,
+      "repeat": 1,
+      "k": 5,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "12675_0.h5",
+      "start": 400,
+      "repeat": 0,
+      "k": 0,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "12675_0.h5",
+      "start": 400,
+      "repeat": 0,
+      "k": 2,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "12675_0.h5",
+      "start": 400,
+      "repeat": 0,
+      "k": 5,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "12675_0.h5",
+      "start": 400,
+      "repeat": 0,
+      "k": 10,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "12675_0.h5",
+      "start": 400,
+      "repeat": 1,
+      "k": 0,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "12675_0.h5",
+      "start": 400,
+      "repeat": 1,
+      "k": 5,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "12675_0.h5",
+      "start": 400,
+      "repeat": 1,
+      "k": 10,
+      "updates_per_model": 3
+    },
+    {
+      "trajectory": "12675_0.h5",
+      "start": 420,
+      "repeat": 0,
+      "k": 0,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "12675_0.h5",
+      "start": 420,
+      "repeat": 0,
+      "k": 2,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "12675_0.h5",
+      "start": 420,
+      "repeat": 0,
+      "k": 5,
+      "updates_per_model": 3
+    },
+    {
+      "trajectory": "12675_0.h5",
+      "start": 420,
+      "repeat": 0,
+      "k": 10,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "12675_0.h5",
+      "start": 420,
+      "repeat": 1,
+      "k": 0,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "12675_0.h5",
+      "start": 420,
+      "repeat": 1,
+      "k": 2,
+      "updates_per_model": 6
+    },
+    {
+      "trajectory": "12675_0.h5",
+      "start": 420,
+      "repeat": 1,
+      "k": 5,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "12675_0.h5",
+      "start": 420,
+      "repeat": 1,
+      "k": 10,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "12675_10.h5",
+      "start": 400,
+      "repeat": 0,
+      "k": 0,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "12675_10.h5",
+      "start": 400,
+      "repeat": 0,
+      "k": 2,
+      "updates_per_model": 3
+    },
+    {
+      "trajectory": "12675_10.h5",
+      "start": 400,
+      "repeat": 0,
+      "k": 5,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "12675_10.h5",
+      "start": 400,
+      "repeat": 1,
+      "k": 0,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "12675_10.h5",
+      "start": 400,
+      "repeat": 1,
+      "k": 2,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "12675_10.h5",
+      "start": 400,
+      "repeat": 1,
+      "k": 10,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "12675_10.h5",
+      "start": 420,
+      "repeat": 0,
+      "k": 0,
+      "updates_per_model": 4
+    },
+    {
+      "trajectory": "12675_10.h5",
+      "start": 420,
+      "repeat": 0,
+      "k": 2,
+      "updates_per_model": 3
+    },
+    {
+      "trajectory": "12675_10.h5",
+      "start": 420,
+      "repeat": 0,
+      "k": 5,
+      "updates_per_model": 3
+    },
+    {
+      "trajectory": "12675_10.h5",
+      "start": 420,
+      "repeat": 1,
+      "k": 0,
+      "updates_per_model": 3
+    },
+    {
+      "trajectory": "12675_10.h5",
+      "start": 420,
+      "repeat": 1,
+      "k": 10,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "12675_15.h5",
+      "start": 400,
+      "repeat": 0,
+      "k": 0,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "12675_15.h5",
+      "start": 400,
+      "repeat": 0,
+      "k": 2,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "12675_15.h5",
+      "start": 400,
+      "repeat": 0,
+      "k": 5,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "12675_15.h5",
+      "start": 400,
+      "repeat": 0,
+      "k": 10,
+      "updates_per_model": 3
+    },
+    {
+      "trajectory": "12675_15.h5",
+      "start": 400,
+      "repeat": 1,
+      "k": 0,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "12675_15.h5",
+      "start": 400,
+      "repeat": 1,
+      "k": 2,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "12675_15.h5",
+      "start": 400,
+      "repeat": 1,
+      "k": 10,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "12675_15.h5",
+      "start": 420,
+      "repeat": 0,
+      "k": 0,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "12675_15.h5",
+      "start": 420,
+      "repeat": 0,
+      "k": 2,
+      "updates_per_model": 4
+    },
+    {
+      "trajectory": "12675_15.h5",
+      "start": 420,
+      "repeat": 0,
+      "k": 10,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "12675_15.h5",
+      "start": 420,
+      "repeat": 1,
+      "k": 0,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "12675_15.h5",
+      "start": 420,
+      "repeat": 1,
+      "k": 2,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "12675_15.h5",
+      "start": 420,
+      "repeat": 1,
+      "k": 10,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "12675_20.h5",
+      "start": 400,
+      "repeat": 0,
+      "k": 0,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "12675_20.h5",
+      "start": 400,
+      "repeat": 0,
+      "k": 2,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "12675_20.h5",
+      "start": 400,
+      "repeat": 0,
+      "k": 5,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "12675_20.h5",
+      "start": 400,
+      "repeat": 1,
+      "k": 2,
+      "updates_per_model": 3
+    },
+    {
+      "trajectory": "12675_20.h5",
+      "start": 400,
+      "repeat": 1,
+      "k": 5,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "12675_20.h5",
+      "start": 400,
+      "repeat": 1,
+      "k": 10,
+      "updates_per_model": 3
+    },
+    {
+      "trajectory": "12675_20.h5",
+      "start": 420,
+      "repeat": 0,
+      "k": 5,
+      "updates_per_model": 3
+    },
+    {
+      "trajectory": "12675_20.h5",
+      "start": 420,
+      "repeat": 0,
+      "k": 10,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "12675_20.h5",
+      "start": 420,
+      "repeat": 1,
+      "k": 0,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "12675_20.h5",
+      "start": 420,
+      "repeat": 1,
+      "k": 2,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "12675_20.h5",
+      "start": 420,
+      "repeat": 1,
+      "k": 5,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "12675_20.h5",
+      "start": 420,
+      "repeat": 1,
+      "k": 10,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "12675_5.h5",
+      "start": 400,
+      "repeat": 0,
+      "k": 0,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "12675_5.h5",
+      "start": 400,
+      "repeat": 0,
+      "k": 2,
+      "updates_per_model": 3
+    },
+    {
+      "trajectory": "12675_5.h5",
+      "start": 400,
+      "repeat": 0,
+      "k": 10,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "12675_5.h5",
+      "start": 400,
+      "repeat": 1,
+      "k": 0,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "12675_5.h5",
+      "start": 400,
+      "repeat": 1,
+      "k": 2,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "12675_5.h5",
+      "start": 400,
+      "repeat": 1,
+      "k": 10,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "12675_5.h5",
+      "start": 420,
+      "repeat": 0,
+      "k": 2,
+      "updates_per_model": 3
+    },
+    {
+      "trajectory": "12675_5.h5",
+      "start": 420,
+      "repeat": 0,
+      "k": 10,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "12675_5.h5",
+      "start": 420,
+      "repeat": 1,
+      "k": 0,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "12675_5.h5",
+      "start": 420,
+      "repeat": 1,
+      "k": 5,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "12675_5.h5",
+      "start": 420,
+      "repeat": 1,
+      "k": 10,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "16500_0.h5",
+      "start": 400,
+      "repeat": 0,
+      "k": 0,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "16500_0.h5",
+      "start": 400,
+      "repeat": 0,
+      "k": 2,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "16500_0.h5",
+      "start": 400,
+      "repeat": 0,
+      "k": 5,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "16500_0.h5",
+      "start": 400,
+      "repeat": 0,
+      "k": 10,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "16500_0.h5",
+      "start": 400,
+      "repeat": 1,
+      "k": 2,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "16500_0.h5",
+      "start": 400,
+      "repeat": 1,
+      "k": 5,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "16500_0.h5",
+      "start": 400,
+      "repeat": 1,
+      "k": 10,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "16500_0.h5",
+      "start": 420,
+      "repeat": 0,
+      "k": 0,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "16500_0.h5",
+      "start": 420,
+      "repeat": 0,
+      "k": 2,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "16500_0.h5",
+      "start": 420,
+      "repeat": 0,
+      "k": 10,
+      "updates_per_model": 3
+    },
+    {
+      "trajectory": "16500_0.h5",
+      "start": 420,
+      "repeat": 1,
+      "k": 2,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "16500_0.h5",
+      "start": 420,
+      "repeat": 1,
+      "k": 5,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "16500_0.h5",
+      "start": 420,
+      "repeat": 1,
+      "k": 10,
+      "updates_per_model": 3
+    },
+    {
+      "trajectory": "16500_10.h5",
+      "start": 400,
+      "repeat": 0,
+      "k": 0,
+      "updates_per_model": 3
+    },
+    {
+      "trajectory": "16500_10.h5",
+      "start": 400,
+      "repeat": 0,
+      "k": 2,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "16500_10.h5",
+      "start": 400,
+      "repeat": 0,
+      "k": 10,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "16500_10.h5",
+      "start": 400,
+      "repeat": 1,
+      "k": 0,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "16500_10.h5",
+      "start": 400,
+      "repeat": 1,
+      "k": 2,
+      "updates_per_model": 3
+    },
+    {
+      "trajectory": "16500_10.h5",
+      "start": 400,
+      "repeat": 1,
+      "k": 5,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "16500_10.h5",
+      "start": 420,
+      "repeat": 0,
+      "k": 2,
+      "updates_per_model": 3
+    },
+    {
+      "trajectory": "16500_10.h5",
+      "start": 420,
+      "repeat": 1,
+      "k": 0,
+      "updates_per_model": 4
+    },
+    {
+      "trajectory": "16500_10.h5",
+      "start": 420,
+      "repeat": 1,
+      "k": 5,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "16500_10.h5",
+      "start": 420,
+      "repeat": 1,
+      "k": 10,
+      "updates_per_model": 4
+    },
+    {
+      "trajectory": "16500_15.h5",
+      "start": 400,
+      "repeat": 0,
+      "k": 0,
+      "updates_per_model": 3
+    },
+    {
+      "trajectory": "16500_15.h5",
+      "start": 400,
+      "repeat": 0,
+      "k": 5,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "16500_15.h5",
+      "start": 400,
+      "repeat": 1,
+      "k": 0,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "16500_15.h5",
+      "start": 400,
+      "repeat": 1,
+      "k": 2,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "16500_15.h5",
+      "start": 400,
+      "repeat": 1,
+      "k": 5,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "16500_15.h5",
+      "start": 400,
+      "repeat": 1,
+      "k": 10,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "16500_15.h5",
+      "start": 420,
+      "repeat": 0,
+      "k": 2,
+      "updates_per_model": 3
+    },
+    {
+      "trajectory": "16500_15.h5",
+      "start": 420,
+      "repeat": 0,
+      "k": 10,
+      "updates_per_model": 3
+    },
+    {
+      "trajectory": "16500_15.h5",
+      "start": 420,
+      "repeat": 1,
+      "k": 0,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "16500_15.h5",
+      "start": 420,
+      "repeat": 1,
+      "k": 2,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "16500_15.h5",
+      "start": 420,
+      "repeat": 1,
+      "k": 10,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "16500_20.h5",
+      "start": 400,
+      "repeat": 0,
+      "k": 0,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "16500_20.h5",
+      "start": 400,
+      "repeat": 0,
+      "k": 5,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "16500_20.h5",
+      "start": 400,
+      "repeat": 0,
+      "k": 10,
+      "updates_per_model": 6
+    },
+    {
+      "trajectory": "16500_20.h5",
+      "start": 400,
+      "repeat": 1,
+      "k": 0,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "16500_20.h5",
+      "start": 400,
+      "repeat": 1,
+      "k": 2,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "16500_20.h5",
+      "start": 400,
+      "repeat": 1,
+      "k": 5,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "16500_20.h5",
+      "start": 400,
+      "repeat": 1,
+      "k": 10,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "16500_20.h5",
+      "start": 420,
+      "repeat": 0,
+      "k": 0,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "16500_20.h5",
+      "start": 420,
+      "repeat": 0,
+      "k": 2,
+      "updates_per_model": 3
+    },
+    {
+      "trajectory": "16500_20.h5",
+      "start": 420,
+      "repeat": 0,
+      "k": 10,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "16500_20.h5",
+      "start": 420,
+      "repeat": 1,
+      "k": 0,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "16500_20.h5",
+      "start": 420,
+      "repeat": 1,
+      "k": 2,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "16500_20.h5",
+      "start": 420,
+      "repeat": 1,
+      "k": 5,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "16500_20.h5",
+      "start": 420,
+      "repeat": 1,
+      "k": 10,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "16500_5.h5",
+      "start": 400,
+      "repeat": 0,
+      "k": 0,
+      "updates_per_model": 4
+    },
+    {
+      "trajectory": "16500_5.h5",
+      "start": 400,
+      "repeat": 0,
+      "k": 2,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "16500_5.h5",
+      "start": 400,
+      "repeat": 0,
+      "k": 5,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "16500_5.h5",
+      "start": 400,
+      "repeat": 0,
+      "k": 10,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "16500_5.h5",
+      "start": 400,
+      "repeat": 1,
+      "k": 0,
+      "updates_per_model": 3
+    },
+    {
+      "trajectory": "16500_5.h5",
+      "start": 400,
+      "repeat": 1,
+      "k": 2,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "16500_5.h5",
+      "start": 400,
+      "repeat": 1,
+      "k": 5,
+      "updates_per_model": 3
+    },
+    {
+      "trajectory": "16500_5.h5",
+      "start": 420,
+      "repeat": 0,
+      "k": 0,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "16500_5.h5",
+      "start": 420,
+      "repeat": 0,
+      "k": 2,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "16500_5.h5",
+      "start": 420,
+      "repeat": 0,
+      "k": 5,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "16500_5.h5",
+      "start": 420,
+      "repeat": 0,
+      "k": 10,
+      "updates_per_model": 3
+    },
+    {
+      "trajectory": "16500_5.h5",
+      "start": 420,
+      "repeat": 1,
+      "k": 0,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "16500_5.h5",
+      "start": 420,
+      "repeat": 1,
+      "k": 5,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "17775_10.h5",
+      "start": 400,
+      "repeat": 0,
+      "k": 0,
+      "updates_per_model": 3
+    },
+    {
+      "trajectory": "17775_10.h5",
+      "start": 400,
+      "repeat": 0,
+      "k": 2,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "17775_10.h5",
+      "start": 400,
+      "repeat": 0,
+      "k": 5,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "17775_10.h5",
+      "start": 400,
+      "repeat": 0,
+      "k": 10,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "17775_10.h5",
+      "start": 400,
+      "repeat": 1,
+      "k": 0,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "17775_10.h5",
+      "start": 400,
+      "repeat": 1,
+      "k": 2,
+      "updates_per_model": 4
+    },
+    {
+      "trajectory": "17775_10.h5",
+      "start": 400,
+      "repeat": 1,
+      "k": 5,
+      "updates_per_model": 3
+    },
+    {
+      "trajectory": "17775_10.h5",
+      "start": 420,
+      "repeat": 0,
+      "k": 2,
+      "updates_per_model": 3
+    },
+    {
+      "trajectory": "17775_10.h5",
+      "start": 420,
+      "repeat": 0,
+      "k": 10,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "17775_10.h5",
+      "start": 420,
+      "repeat": 1,
+      "k": 0,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "17775_10.h5",
+      "start": 420,
+      "repeat": 1,
+      "k": 5,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "17775_15.h5",
+      "start": 400,
+      "repeat": 0,
+      "k": 10,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "17775_15.h5",
+      "start": 400,
+      "repeat": 1,
+      "k": 0,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "17775_15.h5",
+      "start": 400,
+      "repeat": 1,
+      "k": 2,
+      "updates_per_model": 3
+    },
+    {
+      "trajectory": "17775_15.h5",
+      "start": 400,
+      "repeat": 1,
+      "k": 5,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "17775_15.h5",
+      "start": 400,
+      "repeat": 1,
+      "k": 10,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "17775_15.h5",
+      "start": 420,
+      "repeat": 0,
+      "k": 0,
+      "updates_per_model": 4
+    },
+    {
+      "trajectory": "17775_15.h5",
+      "start": 420,
+      "repeat": 0,
+      "k": 2,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "17775_15.h5",
+      "start": 420,
+      "repeat": 1,
+      "k": 2,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "17775_15.h5",
+      "start": 420,
+      "repeat": 1,
+      "k": 10,
+      "updates_per_model": 3
+    },
+    {
+      "trajectory": "17775_20.h5",
+      "start": 400,
+      "repeat": 0,
+      "k": 0,
+      "updates_per_model": 4
+    },
+    {
+      "trajectory": "17775_20.h5",
+      "start": 400,
+      "repeat": 0,
+      "k": 5,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "17775_20.h5",
+      "start": 400,
+      "repeat": 0,
+      "k": 10,
+      "updates_per_model": 3
+    },
+    {
+      "trajectory": "17775_20.h5",
+      "start": 400,
+      "repeat": 1,
+      "k": 0,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "17775_20.h5",
+      "start": 400,
+      "repeat": 1,
+      "k": 2,
+      "updates_per_model": 3
+    },
+    {
+      "trajectory": "17775_20.h5",
+      "start": 400,
+      "repeat": 1,
+      "k": 5,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "17775_20.h5",
+      "start": 400,
+      "repeat": 1,
+      "k": 10,
+      "updates_per_model": 3
+    },
+    {
+      "trajectory": "17775_20.h5",
+      "start": 420,
+      "repeat": 0,
+      "k": 2,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "17775_20.h5",
+      "start": 420,
+      "repeat": 0,
+      "k": 10,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "17775_20.h5",
+      "start": 420,
+      "repeat": 1,
+      "k": 0,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "17775_20.h5",
+      "start": 420,
+      "repeat": 1,
+      "k": 5,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "17775_20.h5",
+      "start": 420,
+      "repeat": 1,
+      "k": 10,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "17775_5.h5",
+      "start": 400,
+      "repeat": 0,
+      "k": 0,
+      "updates_per_model": 3
+    },
+    {
+      "trajectory": "17775_5.h5",
+      "start": 400,
+      "repeat": 0,
+      "k": 10,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "17775_5.h5",
+      "start": 400,
+      "repeat": 1,
+      "k": 2,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "17775_5.h5",
+      "start": 400,
+      "repeat": 1,
+      "k": 5,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "17775_5.h5",
+      "start": 420,
+      "repeat": 0,
+      "k": 0,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "17775_5.h5",
+      "start": 420,
+      "repeat": 0,
+      "k": 2,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "17775_5.h5",
+      "start": 420,
+      "repeat": 0,
+      "k": 5,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "17775_5.h5",
+      "start": 420,
+      "repeat": 0,
+      "k": 10,
+      "updates_per_model": 3
+    },
+    {
+      "trajectory": "17775_5.h5",
+      "start": 420,
+      "repeat": 1,
+      "k": 0,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "17775_5.h5",
+      "start": 420,
+      "repeat": 1,
+      "k": 5,
+      "updates_per_model": 5
+    },
+    {
+      "trajectory": "17775_5.h5",
+      "start": 420,
+      "repeat": 1,
+      "k": 10,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "20325_0.h5",
+      "start": 400,
+      "repeat": 0,
+      "k": 0,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "20325_0.h5",
+      "start": 400,
+      "repeat": 0,
+      "k": 2,
+      "updates_per_model": 3
+    },
+    {
+      "trajectory": "20325_0.h5",
+      "start": 400,
+      "repeat": 0,
+      "k": 5,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "20325_0.h5",
+      "start": 400,
+      "repeat": 0,
+      "k": 10,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "20325_0.h5",
+      "start": 400,
+      "repeat": 1,
+      "k": 0,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "20325_0.h5",
+      "start": 400,
+      "repeat": 1,
+      "k": 10,
+      "updates_per_model": 4
+    },
+    {
+      "trajectory": "20325_0.h5",
+      "start": 420,
+      "repeat": 0,
+      "k": 0,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "20325_0.h5",
+      "start": 420,
+      "repeat": 0,
+      "k": 2,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "20325_0.h5",
+      "start": 420,
+      "repeat": 0,
+      "k": 5,
+      "updates_per_model": 3
+    },
+    {
+      "trajectory": "20325_0.h5",
+      "start": 420,
+      "repeat": 1,
+      "k": 0,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "20325_0.h5",
+      "start": 420,
+      "repeat": 1,
+      "k": 2,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "20325_0.h5",
+      "start": 420,
+      "repeat": 1,
+      "k": 10,
+      "updates_per_model": 5
+    },
+    {
+      "trajectory": "20325_10.h5",
+      "start": 400,
+      "repeat": 0,
+      "k": 0,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "20325_10.h5",
+      "start": 400,
+      "repeat": 0,
+      "k": 2,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "20325_10.h5",
+      "start": 400,
+      "repeat": 0,
+      "k": 5,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "20325_10.h5",
+      "start": 400,
+      "repeat": 0,
+      "k": 10,
+      "updates_per_model": 3
+    },
+    {
+      "trajectory": "20325_10.h5",
+      "start": 400,
+      "repeat": 1,
+      "k": 0,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "20325_10.h5",
+      "start": 400,
+      "repeat": 1,
+      "k": 2,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "20325_10.h5",
+      "start": 400,
+      "repeat": 1,
+      "k": 5,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "20325_10.h5",
+      "start": 400,
+      "repeat": 1,
+      "k": 10,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "20325_10.h5",
+      "start": 420,
+      "repeat": 0,
+      "k": 2,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "20325_10.h5",
+      "start": 420,
+      "repeat": 0,
+      "k": 5,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "20325_10.h5",
+      "start": 420,
+      "repeat": 0,
+      "k": 10,
+      "updates_per_model": 4
+    },
+    {
+      "trajectory": "20325_10.h5",
+      "start": 420,
+      "repeat": 1,
+      "k": 10,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "20325_15.h5",
+      "start": 400,
+      "repeat": 0,
+      "k": 0,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "20325_15.h5",
+      "start": 400,
+      "repeat": 0,
+      "k": 2,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "20325_15.h5",
+      "start": 400,
+      "repeat": 0,
+      "k": 10,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "20325_15.h5",
+      "start": 400,
+      "repeat": 1,
+      "k": 0,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "20325_15.h5",
+      "start": 400,
+      "repeat": 1,
+      "k": 5,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "20325_15.h5",
+      "start": 400,
+      "repeat": 1,
+      "k": 10,
+      "updates_per_model": 3
+    },
+    {
+      "trajectory": "20325_15.h5",
+      "start": 420,
+      "repeat": 0,
+      "k": 0,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "20325_15.h5",
+      "start": 420,
+      "repeat": 0,
+      "k": 2,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "20325_15.h5",
+      "start": 420,
+      "repeat": 0,
+      "k": 10,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "20325_15.h5",
+      "start": 420,
+      "repeat": 1,
+      "k": 0,
+      "updates_per_model": 5
+    },
+    {
+      "trajectory": "20325_15.h5",
+      "start": 420,
+      "repeat": 1,
+      "k": 2,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "20325_15.h5",
+      "start": 420,
+      "repeat": 1,
+      "k": 5,
+      "updates_per_model": 4
+    },
+    {
+      "trajectory": "20325_15.h5",
+      "start": 420,
+      "repeat": 1,
+      "k": 10,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "20325_20.h5",
+      "start": 400,
+      "repeat": 0,
+      "k": 5,
+      "updates_per_model": 3
+    },
+    {
+      "trajectory": "20325_20.h5",
+      "start": 400,
+      "repeat": 0,
+      "k": 10,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "20325_20.h5",
+      "start": 400,
+      "repeat": 1,
+      "k": 0,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "20325_20.h5",
+      "start": 400,
+      "repeat": 1,
+      "k": 2,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "20325_20.h5",
+      "start": 400,
+      "repeat": 1,
+      "k": 5,
+      "updates_per_model": 3
+    },
+    {
+      "trajectory": "20325_20.h5",
+      "start": 400,
+      "repeat": 1,
+      "k": 10,
+      "updates_per_model": 3
+    },
+    {
+      "trajectory": "20325_20.h5",
+      "start": 420,
+      "repeat": 0,
+      "k": 0,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "20325_20.h5",
+      "start": 420,
+      "repeat": 0,
+      "k": 10,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "20325_20.h5",
+      "start": 420,
+      "repeat": 1,
+      "k": 0,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "20325_20.h5",
+      "start": 420,
+      "repeat": 1,
+      "k": 2,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "20325_20.h5",
+      "start": 420,
+      "repeat": 1,
+      "k": 5,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "20325_20.h5",
+      "start": 420,
+      "repeat": 1,
+      "k": 10,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "20325_5.h5",
+      "start": 400,
+      "repeat": 0,
+      "k": 0,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "20325_5.h5",
+      "start": 400,
+      "repeat": 0,
+      "k": 2,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "20325_5.h5",
+      "start": 400,
+      "repeat": 0,
+      "k": 5,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "20325_5.h5",
+      "start": 400,
+      "repeat": 0,
+      "k": 10,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "20325_5.h5",
+      "start": 400,
+      "repeat": 1,
+      "k": 0,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "20325_5.h5",
+      "start": 400,
+      "repeat": 1,
+      "k": 2,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "20325_5.h5",
+      "start": 400,
+      "repeat": 1,
+      "k": 5,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "20325_5.h5",
+      "start": 400,
+      "repeat": 1,
+      "k": 10,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "20325_5.h5",
+      "start": 420,
+      "repeat": 0,
+      "k": 0,
+      "updates_per_model": 3
+    },
+    {
+      "trajectory": "20325_5.h5",
+      "start": 420,
+      "repeat": 0,
+      "k": 2,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "20325_5.h5",
+      "start": 420,
+      "repeat": 0,
+      "k": 5,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "20325_5.h5",
+      "start": 420,
+      "repeat": 0,
+      "k": 10,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "20325_5.h5",
+      "start": 420,
+      "repeat": 1,
+      "k": 2,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "20325_5.h5",
+      "start": 420,
+      "repeat": 1,
+      "k": 10,
+      "updates_per_model": 3
+    },
+    {
+      "trajectory": "21600_0.h5",
+      "start": 400,
+      "repeat": 0,
+      "k": 0,
+      "updates_per_model": 3
+    },
+    {
+      "trajectory": "21600_0.h5",
+      "start": 400,
+      "repeat": 0,
+      "k": 2,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "21600_0.h5",
+      "start": 400,
+      "repeat": 0,
+      "k": 5,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "21600_0.h5",
+      "start": 400,
+      "repeat": 0,
+      "k": 10,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "21600_0.h5",
+      "start": 400,
+      "repeat": 1,
+      "k": 0,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "21600_0.h5",
+      "start": 400,
+      "repeat": 1,
+      "k": 2,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "21600_0.h5",
+      "start": 400,
+      "repeat": 1,
+      "k": 5,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "21600_0.h5",
+      "start": 400,
+      "repeat": 1,
+      "k": 10,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "21600_0.h5",
+      "start": 420,
+      "repeat": 0,
+      "k": 0,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "21600_0.h5",
+      "start": 420,
+      "repeat": 0,
+      "k": 5,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "21600_0.h5",
+      "start": 420,
+      "repeat": 1,
+      "k": 0,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "21600_0.h5",
+      "start": 420,
+      "repeat": 1,
+      "k": 2,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "21600_0.h5",
+      "start": 420,
+      "repeat": 1,
+      "k": 10,
+      "updates_per_model": 5
+    },
+    {
+      "trajectory": "21600_10.h5",
+      "start": 400,
+      "repeat": 0,
+      "k": 0,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "21600_10.h5",
+      "start": 400,
+      "repeat": 0,
+      "k": 5,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "21600_10.h5",
+      "start": 400,
+      "repeat": 0,
+      "k": 10,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "21600_10.h5",
+      "start": 400,
+      "repeat": 1,
+      "k": 0,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "21600_10.h5",
+      "start": 400,
+      "repeat": 1,
+      "k": 2,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "21600_10.h5",
+      "start": 400,
+      "repeat": 1,
+      "k": 5,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "21600_10.h5",
+      "start": 400,
+      "repeat": 1,
+      "k": 10,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "21600_10.h5",
+      "start": 420,
+      "repeat": 0,
+      "k": 0,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "21600_10.h5",
+      "start": 420,
+      "repeat": 0,
+      "k": 2,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "21600_10.h5",
+      "start": 420,
+      "repeat": 0,
+      "k": 5,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "21600_10.h5",
+      "start": 420,
+      "repeat": 1,
+      "k": 0,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "21600_10.h5",
+      "start": 420,
+      "repeat": 1,
+      "k": 2,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "21600_10.h5",
+      "start": 420,
+      "repeat": 1,
+      "k": 5,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "21600_10.h5",
+      "start": 420,
+      "repeat": 1,
+      "k": 10,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "21600_15.h5",
+      "start": 400,
+      "repeat": 0,
+      "k": 0,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "21600_15.h5",
+      "start": 400,
+      "repeat": 0,
+      "k": 2,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "21600_15.h5",
+      "start": 400,
+      "repeat": 0,
+      "k": 5,
+      "updates_per_model": 3
+    },
+    {
+      "trajectory": "21600_15.h5",
+      "start": 400,
+      "repeat": 0,
+      "k": 10,
+      "updates_per_model": 3
+    },
+    {
+      "trajectory": "21600_15.h5",
+      "start": 400,
+      "repeat": 1,
+      "k": 0,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "21600_15.h5",
+      "start": 400,
+      "repeat": 1,
+      "k": 5,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "21600_15.h5",
+      "start": 400,
+      "repeat": 1,
+      "k": 10,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "21600_15.h5",
+      "start": 420,
+      "repeat": 0,
+      "k": 2,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "21600_15.h5",
+      "start": 420,
+      "repeat": 0,
+      "k": 5,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "21600_15.h5",
+      "start": 420,
+      "repeat": 0,
+      "k": 10,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "21600_15.h5",
+      "start": 420,
+      "repeat": 1,
+      "k": 0,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "21600_15.h5",
+      "start": 420,
+      "repeat": 1,
+      "k": 5,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "21600_20.h5",
+      "start": 400,
+      "repeat": 0,
+      "k": 0,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "21600_20.h5",
+      "start": 400,
+      "repeat": 0,
+      "k": 2,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "21600_20.h5",
+      "start": 400,
+      "repeat": 0,
+      "k": 5,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "21600_20.h5",
+      "start": 400,
+      "repeat": 0,
+      "k": 10,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "21600_20.h5",
+      "start": 400,
+      "repeat": 1,
+      "k": 0,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "21600_20.h5",
+      "start": 400,
+      "repeat": 1,
+      "k": 2,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "21600_20.h5",
+      "start": 400,
+      "repeat": 1,
+      "k": 5,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "21600_20.h5",
+      "start": 400,
+      "repeat": 1,
+      "k": 10,
+      "updates_per_model": 3
+    },
+    {
+      "trajectory": "21600_20.h5",
+      "start": 420,
+      "repeat": 0,
+      "k": 0,
+      "updates_per_model": 3
+    },
+    {
+      "trajectory": "21600_20.h5",
+      "start": 420,
+      "repeat": 0,
+      "k": 2,
+      "updates_per_model": 3
+    },
+    {
+      "trajectory": "21600_20.h5",
+      "start": 420,
+      "repeat": 1,
+      "k": 0,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "21600_20.h5",
+      "start": 420,
+      "repeat": 1,
+      "k": 2,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "21600_20.h5",
+      "start": 420,
+      "repeat": 1,
+      "k": 5,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "21600_20.h5",
+      "start": 420,
+      "repeat": 1,
+      "k": 10,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "21600_5.h5",
+      "start": 400,
+      "repeat": 0,
+      "k": 2,
+      "updates_per_model": 4
+    },
+    {
+      "trajectory": "21600_5.h5",
+      "start": 400,
+      "repeat": 1,
+      "k": 0,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "21600_5.h5",
+      "start": 400,
+      "repeat": 1,
+      "k": 2,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "21600_5.h5",
+      "start": 400,
+      "repeat": 1,
+      "k": 10,
+      "updates_per_model": 3
+    },
+    {
+      "trajectory": "21600_5.h5",
+      "start": 420,
+      "repeat": 0,
+      "k": 0,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "21600_5.h5",
+      "start": 420,
+      "repeat": 0,
+      "k": 2,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "21600_5.h5",
+      "start": 420,
+      "repeat": 0,
+      "k": 10,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "21600_5.h5",
+      "start": 420,
+      "repeat": 1,
+      "k": 0,
+      "updates_per_model": 5
+    },
+    {
+      "trajectory": "21600_5.h5",
+      "start": 420,
+      "repeat": 1,
+      "k": 5,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "24150_0.h5",
+      "start": 400,
+      "repeat": 0,
+      "k": 0,
+      "updates_per_model": 4
+    },
+    {
+      "trajectory": "24150_0.h5",
+      "start": 400,
+      "repeat": 0,
+      "k": 2,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "24150_0.h5",
+      "start": 400,
+      "repeat": 0,
+      "k": 10,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "24150_0.h5",
+      "start": 400,
+      "repeat": 1,
+      "k": 0,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "24150_0.h5",
+      "start": 400,
+      "repeat": 1,
+      "k": 10,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "24150_0.h5",
+      "start": 420,
+      "repeat": 0,
+      "k": 0,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "24150_0.h5",
+      "start": 420,
+      "repeat": 0,
+      "k": 5,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "24150_0.h5",
+      "start": 420,
+      "repeat": 0,
+      "k": 10,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "24150_0.h5",
+      "start": 420,
+      "repeat": 1,
+      "k": 2,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "24150_0.h5",
+      "start": 420,
+      "repeat": 1,
+      "k": 5,
+      "updates_per_model": 4
+    },
+    {
+      "trajectory": "24150_0.h5",
+      "start": 420,
+      "repeat": 1,
+      "k": 10,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "24150_10.h5",
+      "start": 400,
+      "repeat": 0,
+      "k": 2,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "24150_10.h5",
+      "start": 400,
+      "repeat": 0,
+      "k": 5,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "24150_10.h5",
+      "start": 400,
+      "repeat": 0,
+      "k": 10,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "24150_10.h5",
+      "start": 400,
+      "repeat": 1,
+      "k": 2,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "24150_10.h5",
+      "start": 400,
+      "repeat": 1,
+      "k": 5,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "24150_10.h5",
+      "start": 420,
+      "repeat": 0,
+      "k": 0,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "24150_10.h5",
+      "start": 420,
+      "repeat": 0,
+      "k": 2,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "24150_10.h5",
+      "start": 420,
+      "repeat": 0,
+      "k": 5,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "24150_10.h5",
+      "start": 420,
+      "repeat": 0,
+      "k": 10,
+      "updates_per_model": 5
+    },
+    {
+      "trajectory": "24150_10.h5",
+      "start": 420,
+      "repeat": 1,
+      "k": 0,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "24150_10.h5",
+      "start": 420,
+      "repeat": 1,
+      "k": 2,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "24150_10.h5",
+      "start": 420,
+      "repeat": 1,
+      "k": 5,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "24150_10.h5",
+      "start": 420,
+      "repeat": 1,
+      "k": 10,
+      "updates_per_model": 3
+    },
+    {
+      "trajectory": "24150_15.h5",
+      "start": 400,
+      "repeat": 0,
+      "k": 0,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "24150_15.h5",
+      "start": 400,
+      "repeat": 0,
+      "k": 2,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "24150_15.h5",
+      "start": 400,
+      "repeat": 0,
+      "k": 10,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "24150_15.h5",
+      "start": 400,
+      "repeat": 1,
+      "k": 2,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "24150_15.h5",
+      "start": 420,
+      "repeat": 0,
+      "k": 0,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "24150_15.h5",
+      "start": 420,
+      "repeat": 0,
+      "k": 2,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "24150_15.h5",
+      "start": 420,
+      "repeat": 0,
+      "k": 5,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "24150_15.h5",
+      "start": 420,
+      "repeat": 0,
+      "k": 10,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "24150_15.h5",
+      "start": 420,
+      "repeat": 1,
+      "k": 0,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "24150_15.h5",
+      "start": 420,
+      "repeat": 1,
+      "k": 2,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "24150_15.h5",
+      "start": 420,
+      "repeat": 1,
+      "k": 5,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "24150_15.h5",
+      "start": 420,
+      "repeat": 1,
+      "k": 10,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "25425_0.h5",
+      "start": 400,
+      "repeat": 0,
+      "k": 0,
+      "updates_per_model": 3
+    },
+    {
+      "trajectory": "25425_0.h5",
+      "start": 400,
+      "repeat": 0,
+      "k": 2,
+      "updates_per_model": 3
+    },
+    {
+      "trajectory": "25425_0.h5",
+      "start": 400,
+      "repeat": 0,
+      "k": 10,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "25425_0.h5",
+      "start": 400,
+      "repeat": 1,
+      "k": 0,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "25425_0.h5",
+      "start": 400,
+      "repeat": 1,
+      "k": 2,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "25425_0.h5",
+      "start": 400,
+      "repeat": 1,
+      "k": 10,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "25425_0.h5",
+      "start": 420,
+      "repeat": 0,
+      "k": 0,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "25425_0.h5",
+      "start": 420,
+      "repeat": 0,
+      "k": 2,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "25425_0.h5",
+      "start": 420,
+      "repeat": 0,
+      "k": 10,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "25425_0.h5",
+      "start": 420,
+      "repeat": 1,
+      "k": 2,
+      "updates_per_model": 3
+    },
+    {
+      "trajectory": "25425_0.h5",
+      "start": 420,
+      "repeat": 1,
+      "k": 10,
+      "updates_per_model": 3
+    },
+    {
+      "trajectory": "25425_10.h5",
+      "start": 400,
+      "repeat": 0,
+      "k": 0,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "25425_10.h5",
+      "start": 400,
+      "repeat": 0,
+      "k": 2,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "25425_10.h5",
+      "start": 400,
+      "repeat": 0,
+      "k": 5,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "25425_10.h5",
+      "start": 400,
+      "repeat": 0,
+      "k": 10,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "25425_10.h5",
+      "start": 400,
+      "repeat": 1,
+      "k": 0,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "25425_10.h5",
+      "start": 400,
+      "repeat": 1,
+      "k": 5,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "25425_10.h5",
+      "start": 400,
+      "repeat": 1,
+      "k": 10,
+      "updates_per_model": 3
+    },
+    {
+      "trajectory": "25425_10.h5",
+      "start": 420,
+      "repeat": 0,
+      "k": 0,
+      "updates_per_model": 3
+    },
+    {
+      "trajectory": "25425_10.h5",
+      "start": 420,
+      "repeat": 0,
+      "k": 2,
+      "updates_per_model": 3
+    },
+    {
+      "trajectory": "25425_10.h5",
+      "start": 420,
+      "repeat": 0,
+      "k": 5,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "25425_10.h5",
+      "start": 420,
+      "repeat": 0,
+      "k": 10,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "25425_10.h5",
+      "start": 420,
+      "repeat": 1,
+      "k": 2,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "25425_10.h5",
+      "start": 420,
+      "repeat": 1,
+      "k": 10,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "25425_15.h5",
+      "start": 400,
+      "repeat": 0,
+      "k": 0,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "25425_15.h5",
+      "start": 400,
+      "repeat": 0,
+      "k": 2,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "25425_15.h5",
+      "start": 400,
+      "repeat": 0,
+      "k": 5,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "25425_15.h5",
+      "start": 400,
+      "repeat": 0,
+      "k": 10,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "25425_15.h5",
+      "start": 400,
+      "repeat": 1,
+      "k": 2,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "25425_15.h5",
+      "start": 400,
+      "repeat": 1,
+      "k": 5,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "25425_15.h5",
+      "start": 400,
+      "repeat": 1,
+      "k": 10,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "25425_15.h5",
+      "start": 420,
+      "repeat": 0,
+      "k": 0,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "25425_15.h5",
+      "start": 420,
+      "repeat": 0,
+      "k": 2,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "25425_15.h5",
+      "start": 420,
+      "repeat": 0,
+      "k": 5,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "25425_15.h5",
+      "start": 420,
+      "repeat": 0,
+      "k": 10,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "25425_15.h5",
+      "start": 420,
+      "repeat": 1,
+      "k": 0,
+      "updates_per_model": 3
+    },
+    {
+      "trajectory": "25425_15.h5",
+      "start": 420,
+      "repeat": 1,
+      "k": 2,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "25425_15.h5",
+      "start": 420,
+      "repeat": 1,
+      "k": 10,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "25425_20.h5",
+      "start": 400,
+      "repeat": 0,
+      "k": 2,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "25425_20.h5",
+      "start": 400,
+      "repeat": 0,
+      "k": 5,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "25425_20.h5",
+      "start": 400,
+      "repeat": 0,
+      "k": 10,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "25425_20.h5",
+      "start": 400,
+      "repeat": 1,
+      "k": 2,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "25425_20.h5",
+      "start": 400,
+      "repeat": 1,
+      "k": 5,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "25425_20.h5",
+      "start": 400,
+      "repeat": 1,
+      "k": 10,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "25425_20.h5",
+      "start": 420,
+      "repeat": 0,
+      "k": 5,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "25425_20.h5",
+      "start": 420,
+      "repeat": 0,
+      "k": 10,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "25425_20.h5",
+      "start": 420,
+      "repeat": 1,
+      "k": 0,
+      "updates_per_model": 3
+    },
+    {
+      "trajectory": "25425_20.h5",
+      "start": 420,
+      "repeat": 1,
+      "k": 2,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "25425_20.h5",
+      "start": 420,
+      "repeat": 1,
+      "k": 5,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "25425_20.h5",
+      "start": 420,
+      "repeat": 1,
+      "k": 10,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "8850_0.h5",
+      "start": 400,
+      "repeat": 0,
+      "k": 0,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "8850_0.h5",
+      "start": 400,
+      "repeat": 0,
+      "k": 2,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "8850_0.h5",
+      "start": 400,
+      "repeat": 0,
+      "k": 5,
+      "updates_per_model": 4
+    },
+    {
+      "trajectory": "8850_0.h5",
+      "start": 400,
+      "repeat": 1,
+      "k": 2,
+      "updates_per_model": 3
+    },
+    {
+      "trajectory": "8850_0.h5",
+      "start": 400,
+      "repeat": 1,
+      "k": 5,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "8850_0.h5",
+      "start": 400,
+      "repeat": 1,
+      "k": 10,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "8850_0.h5",
+      "start": 420,
+      "repeat": 0,
+      "k": 10,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "8850_0.h5",
+      "start": 420,
+      "repeat": 1,
+      "k": 0,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "8850_0.h5",
+      "start": 420,
+      "repeat": 1,
+      "k": 2,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "8850_0.h5",
+      "start": 420,
+      "repeat": 1,
+      "k": 5,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "8850_0.h5",
+      "start": 420,
+      "repeat": 1,
+      "k": 10,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "8850_10.h5",
+      "start": 400,
+      "repeat": 0,
+      "k": 0,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "8850_10.h5",
+      "start": 400,
+      "repeat": 0,
+      "k": 2,
+      "updates_per_model": 3
+    },
+    {
+      "trajectory": "8850_10.h5",
+      "start": 400,
+      "repeat": 0,
+      "k": 5,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "8850_10.h5",
+      "start": 400,
+      "repeat": 1,
+      "k": 0,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "8850_10.h5",
+      "start": 400,
+      "repeat": 1,
+      "k": 2,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "8850_10.h5",
+      "start": 420,
+      "repeat": 0,
+      "k": 0,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "8850_10.h5",
+      "start": 420,
+      "repeat": 0,
+      "k": 2,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "8850_10.h5",
+      "start": 420,
+      "repeat": 0,
+      "k": 5,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "8850_10.h5",
+      "start": 420,
+      "repeat": 0,
+      "k": 10,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "8850_10.h5",
+      "start": 420,
+      "repeat": 1,
+      "k": 2,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "8850_10.h5",
+      "start": 420,
+      "repeat": 1,
+      "k": 10,
+      "updates_per_model": 3
+    },
+    {
+      "trajectory": "8850_15.h5",
+      "start": 400,
+      "repeat": 0,
+      "k": 0,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "8850_15.h5",
+      "start": 400,
+      "repeat": 0,
+      "k": 2,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "8850_15.h5",
+      "start": 400,
+      "repeat": 0,
+      "k": 5,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "8850_15.h5",
+      "start": 400,
+      "repeat": 0,
+      "k": 10,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "8850_15.h5",
+      "start": 400,
+      "repeat": 1,
+      "k": 0,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "8850_15.h5",
+      "start": 400,
+      "repeat": 1,
+      "k": 2,
+      "updates_per_model": 5
+    },
+    {
+      "trajectory": "8850_15.h5",
+      "start": 400,
+      "repeat": 1,
+      "k": 5,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "8850_15.h5",
+      "start": 400,
+      "repeat": 1,
+      "k": 10,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "8850_15.h5",
+      "start": 420,
+      "repeat": 0,
+      "k": 5,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "8850_15.h5",
+      "start": 420,
+      "repeat": 0,
+      "k": 10,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "8850_15.h5",
+      "start": 420,
+      "repeat": 1,
+      "k": 0,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "8850_15.h5",
+      "start": 420,
+      "repeat": 1,
+      "k": 2,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "8850_15.h5",
+      "start": 420,
+      "repeat": 1,
+      "k": 5,
+      "updates_per_model": 3
+    },
+    {
+      "trajectory": "8850_15.h5",
+      "start": 420,
+      "repeat": 1,
+      "k": 10,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "8850_20.h5",
+      "start": 400,
+      "repeat": 0,
+      "k": 0,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "8850_20.h5",
+      "start": 400,
+      "repeat": 0,
+      "k": 2,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "8850_20.h5",
+      "start": 400,
+      "repeat": 0,
+      "k": 5,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "8850_20.h5",
+      "start": 400,
+      "repeat": 1,
+      "k": 0,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "8850_20.h5",
+      "start": 400,
+      "repeat": 1,
+      "k": 2,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "8850_20.h5",
+      "start": 400,
+      "repeat": 1,
+      "k": 5,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "8850_20.h5",
+      "start": 400,
+      "repeat": 1,
+      "k": 10,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "8850_20.h5",
+      "start": 420,
+      "repeat": 0,
+      "k": 0,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "8850_20.h5",
+      "start": 420,
+      "repeat": 0,
+      "k": 2,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "8850_20.h5",
+      "start": 420,
+      "repeat": 0,
+      "k": 5,
+      "updates_per_model": 3
+    },
+    {
+      "trajectory": "8850_20.h5",
+      "start": 420,
+      "repeat": 0,
+      "k": 10,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "8850_20.h5",
+      "start": 420,
+      "repeat": 1,
+      "k": 0,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "8850_20.h5",
+      "start": 420,
+      "repeat": 1,
+      "k": 2,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "8850_20.h5",
+      "start": 420,
+      "repeat": 1,
+      "k": 5,
+      "updates_per_model": 3
+    },
+    {
+      "trajectory": "8850_20.h5",
+      "start": 420,
+      "repeat": 1,
+      "k": 10,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "8850_5.h5",
+      "start": 400,
+      "repeat": 0,
+      "k": 0,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "8850_5.h5",
+      "start": 400,
+      "repeat": 0,
+      "k": 2,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "8850_5.h5",
+      "start": 400,
+      "repeat": 0,
+      "k": 5,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "8850_5.h5",
+      "start": 400,
+      "repeat": 1,
+      "k": 0,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "8850_5.h5",
+      "start": 400,
+      "repeat": 1,
+      "k": 2,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "8850_5.h5",
+      "start": 400,
+      "repeat": 1,
+      "k": 5,
+      "updates_per_model": 1
+    },
+    {
+      "trajectory": "8850_5.h5",
+      "start": 400,
+      "repeat": 1,
+      "k": 10,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "8850_5.h5",
+      "start": 420,
+      "repeat": 0,
+      "k": 0,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "8850_5.h5",
+      "start": 420,
+      "repeat": 0,
+      "k": 5,
+      "updates_per_model": 3
+    },
+    {
+      "trajectory": "8850_5.h5",
+      "start": 420,
+      "repeat": 1,
+      "k": 0,
+      "updates_per_model": 3
+    },
+    {
+      "trajectory": "8850_5.h5",
+      "start": 420,
+      "repeat": 1,
+      "k": 2,
+      "updates_per_model": 2
+    },
+    {
+      "trajectory": "8850_5.h5",
+      "start": 420,
+      "repeat": 1,
+      "k": 5,
+      "updates_per_model": 4
+    },
+    {
+      "trajectory": "8850_5.h5",
+      "start": 420,
+      "repeat": 1,
+      "k": 10,
+      "updates_per_model": 1
+    }
+  ]
+}

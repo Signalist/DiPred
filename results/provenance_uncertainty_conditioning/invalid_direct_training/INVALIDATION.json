@@ -1,0 +1,10 @@
+{
+  "valid_for_requested_training_comparison": false,
+  "reason": "Original task requires every training sample restart k in {2,5,10}; this attempt incorrectly included260 native/direct k0 training samples per1000 updates",
+  "actual_updates": 9000,
+  "actual_direct_updates_per_model": 260,
+  "formal_evaluation_stopped": true,
+  "use_of_results": "Audit only, excluded from official scientific conclusions and selections",
+  "correction": "Use original requested training k only; keep architecture/lr/seeds/1000 updates/candidate steps/loss/evaluation/selection rules unchanged",
+  "utc": 1795278872.8070593
+}

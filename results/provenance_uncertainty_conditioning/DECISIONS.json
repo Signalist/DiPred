@@ -1,0 +1,191 @@
+[
+  {
+    "contrast": "C_aug minus S",
+    "k": 2,
+    "stable_increment": false,
+    "by_split": [
+      {
+        "split": "test",
+        "interval_upper": 0.0,
+        "all_seed_negative": false,
+        "both_channels_negative": false,
+        "negative_Re": 0
+      },
+      {
+        "split": "extension",
+        "interval_upper": 0.0,
+        "all_seed_negative": false,
+        "both_channels_negative": false,
+        "negative_Re": 0
+      }
+    ]
+  },
+  {
+    "contrast": "C_aug minus S",
+    "k": 5,
+    "stable_increment": false,
+    "by_split": [
+      {
+        "split": "test",
+        "interval_upper": 0.0,
+        "all_seed_negative": false,
+        "both_channels_negative": false,
+        "negative_Re": 0
+      },
+      {
+        "split": "extension",
+        "interval_upper": 0.0,
+        "all_seed_negative": false,
+        "both_channels_negative": false,
+        "negative_Re": 0
+      }
+    ]
+  },
+  {
+    "contrast": "C_aug minus S",
+    "k": 10,
+    "stable_increment": false,
+    "by_split": [
+      {
+        "split": "test",
+        "interval_upper": 0.0,
+        "all_seed_negative": false,
+        "both_channels_negative": false,
+        "negative_Re": 0
+      },
+      {
+        "split": "extension",
+        "interval_upper": 0.0,
+        "all_seed_negative": false,
+        "both_channels_negative": false,
+        "negative_Re": 0
+      }
+    ]
+  },
+  {
+    "contrast": "C_mask minus C_aug",
+    "k": 2,
+    "stable_increment": false,
+    "by_split": [
+      {
+        "split": "test",
+        "interval_upper": 0.0,
+        "all_seed_negative": false,
+        "both_channels_negative": false,
+        "negative_Re": 0
+      },
+      {
+        "split": "extension",
+        "interval_upper": 0.0,
+        "all_seed_negative": false,
+        "both_channels_negative": false,
+        "negative_Re": 0
+      }
+    ]
+  },
+  {
+    "contrast": "C_mask minus C_aug",
+    "k": 5,
+    "stable_increment": false,
+    "by_split": [
+      {
+        "split": "test",
+        "interval_upper": 0.0,
+        "all_seed_negative": false,
+        "both_channels_negative": false,
+        "negative_Re": 0
+      },
+      {
+        "split": "extension",
+        "interval_upper": 0.0,
+        "all_seed_negative": false,
+        "both_channels_negative": false,
+        "negative_Re": 0
+      }
+    ]
+  },
+  {
+    "contrast": "C_mask minus C_aug",
+    "k": 10,
+    "stable_increment": false,
+    "by_split": [
+      {
+        "split": "test",
+        "interval_upper": 0.0,
+        "all_seed_negative": false,
+        "both_channels_negative": false,
+        "negative_Re": 0
+      },
+      {
+        "split": "extension",
+        "interval_upper": 0.0,
+        "all_seed_negative": false,
+        "both_channels_negative": false,
+        "negative_Re": 0
+      }
+    ]
+  },
+  {
+    "contrast": "C_unc minus C_mask",
+    "k": 2,
+    "stable_increment": false,
+    "by_split": [
+      {
+        "split": "test",
+        "interval_upper": 0.0,
+        "all_seed_negative": false,
+        "both_channels_negative": false,
+        "negative_Re": 0
+      },
+      {
+        "split": "extension",
+        "interval_upper": 0.0,
+        "all_seed_negative": false,
+        "both_channels_negative": false,
+        "negative_Re": 0
+      }
+    ]
+  },
+  {
+    "contrast": "C_unc minus C_mask",
+    "k": 5,
+    "stable_increment": false,
+    "by_split": [
+      {
+        "split": "test",
+        "interval_upper": 0.0,
+        "all_seed_negative": false,
+        "both_channels_negative": false,
+        "negative_Re": 0
+      },
+      {
+        "split": "extension",
+        "interval_upper": 0.0,
+        "all_seed_negative": false,
+        "both_channels_negative": false,
+        "negative_Re": 0
+      }
+    ]
+  },
+  {
+    "contrast": "C_unc minus C_mask",
+    "k": 10,
+    "stable_increment": false,
+    "by_split": [
+      {
+        "split": "test",
+        "interval_upper": 0.0,
+        "all_seed_negative": false,
+        "both_channels_negative": false,
+        "negative_Re": 0
+      },
+      {
+        "split": "extension",
+        "interval_upper": 0.0,
+        "all_seed_negative": false,
+        "both_channels_negative": false,
+        "negative_Re": 0
+      }
+    ]
+  }
+]

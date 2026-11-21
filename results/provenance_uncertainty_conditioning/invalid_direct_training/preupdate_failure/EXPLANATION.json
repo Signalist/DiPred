@@ -1,0 +1,6 @@
+{
+  "failure": "Python3.8 pathlib.Path has no is_relative_to; checkpoint metadata creation failed after saving first zero-step weights",
+  "optimizer_updates": 0,
+  "action": "Preserve every runtime artifact, use ROOT in p.parents for compatible path handling, repeat preflight before first actual training update",
+  "protocol_changed": false
+}
