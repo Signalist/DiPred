@@ -1,0 +1,3 @@
+PASS280 caches,53760 unique seed/noise identities, correct physical slices and parent-child histories
+PASS issued-before-truth,108 independently rescored quality rows, all detailed-to-block scores and trajectory intervals
+PASS frozen code/model/normalization/source data, old artifacts unchanged; no training

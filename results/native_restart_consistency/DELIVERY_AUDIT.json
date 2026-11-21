@@ -1,0 +1,30 @@
+{
+  "passed": true,
+  "cache_groups": 280,
+  "unique_seeds": 53760,
+  "unique_actual_noise_hashes": 53760,
+  "samples": 53760,
+  "network_calls": 6720,
+  "independently_rescored_quality_rows": 108,
+  "code_frozen": true,
+  "history_sources_verified": true,
+  "parent_child_identity_verified": true,
+  "prediction_before_truth": true,
+  "original_trajectory_bootstrap": true,
+  "config_sha256": "dba2dd95fb66180acf98b5942e304fa0601bcd4336a09c12b20c98695931359c",
+  "legacy_runs_read_and_preserved": 9,
+  "complete_fixed_list": true,
+  "report_links_checked": true,
+  "old_tracked_files_unchanged": true,
+  "formal_restarts": [
+    2,
+    5,
+    10
+  ],
+  "replicates": 2,
+  "members": 32,
+  "distribution_rows": 840,
+  "quality_rows": 10080,
+  "detail_rows": 96320,
+  "network_training_runs": 0
+}

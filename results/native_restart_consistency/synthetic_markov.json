@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "n": 2048,
+  "dimension": 2,
+  "system": "x_next=diag(.8,.6)x+diag(.2,.3)normal",
+  "checks": [
+    {
+      "k": 0,
+      "mean_excess": -8.77194552882446e-05,
+      "distribution_mean_max_error": 0.02026182033406418
+    },
+    {
+      "k": 2,
+      "mean_excess": -0.00042099262067501683,
+      "distribution_mean_max_error": 0.017159541119763866
+    },
+    {
+      "k": 5,
+      "mean_excess": 1.822445427885483e-05,
+      "distribution_mean_max_error": 0.014216603527175619
+    },
+    {
+      "k": 10,
+      "mean_excess": 0.0008315107277151734,
+      "distribution_mean_max_error": 0.016487215616171003
+    }
+  ]
+}

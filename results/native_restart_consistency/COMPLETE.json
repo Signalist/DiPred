@@ -1,0 +1,15 @@
+{
+  "groups": 280,
+  "trajectories": 70,
+  "network_calls": 6720,
+  "batched_sampler_calls": 1680,
+  "samples": 53760,
+  "peak_memory_allocated": 395115520,
+  "peak_memory_reserved": 463470592,
+  "wall_seconds": 433.8826735243201,
+  "generation_seconds": 77.50232229195535,
+  "cache_bytes": 17714047304,
+  "config_sha256": "dba2dd95fb66180acf98b5942e304fa0601bcd4336a09c12b20c98695931359c",
+  "frozen_sha256": "85471bbef5dc5bb139037770259736628a5aa089056cd5b555ad26d831703b03",
+  "utc": 1795267690.6935647
+}

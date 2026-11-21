@@ -1,0 +1,11 @@
+test_all_seed_families_unique_and_noise_not_reset (__main__.Tests) ... ok
+test_explicit_energy_formula_and_identical_v_not_u (__main__.Tests) ... ok
+test_future_truth_not_an_input_and_k0_same_condition (__main__.Tests) ... ok
+test_linear_gaussian_markov_composition_distribution (__main__.Tests) ... ok
+test_physical_indices_history_and_member_identity (__main__.Tests) ... ok
+test_quality_axes_and_time_mean_scored_after_averaging (__main__.Tests) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.345s
+
+OK

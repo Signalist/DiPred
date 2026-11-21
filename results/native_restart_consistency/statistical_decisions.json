@@ -1,0 +1,17 @@
+{
+  "criteria": "predeclared simultaneous intervals and both repeats/development/test/Re signs",
+  "by_k": [
+    {
+      "k": 2,
+      "stable_distribution_excess": true
+    },
+    {
+      "k": 5,
+      "stable_distribution_excess": true
+    },
+    {
+      "k": 10,
+      "stable_distribution_excess": true
+    }
+  ]
+}

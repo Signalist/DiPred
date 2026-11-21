@@ -1,0 +1,15 @@
+{
+  "config_sha256": "dba2dd95fb66180acf98b5942e304fa0601bcd4336a09c12b20c98695931359c",
+  "protocol_sha256": "fb419b5213b56aeed90432cac9d0a221d845222d462b296ce411d6d74f6ddfb7",
+  "code": {
+    "research/native_restart_consistency/analyze.py": "477a4ae3a9e0cb5fabfb63ffb25e23953efa860377c3f7fe880d261e61fb1ae0",
+    "research/native_restart_consistency/run.py": "4de016237271818555cf991478da11639b7daeac55f1ad94e39bc58e07689887",
+    "research/native_restart_consistency/verify.py": "bb94e76ed4e6281be537973c38b4dd6a4ab5685ace2444504aacf65640236838",
+    "research/native_restart_consistency/core.py": "dab7714efcab70f31667cbe1f19ad89785e1b86a5e25997296c8a5b895c8ff44",
+    "research/native_restart_consistency/tests.py": "3eeabc0fcb140febebd48daa15553f57e19532671cd1ac0e0ddc7a6a34c6d782"
+  },
+  "preflight_sha256": "d8a9506aae876a4276db0d505df37b17959b64e00535168c3d95fb5b813afa22",
+  "training_history_sha256": "3287d97a6dd0aac868f37e7caa377a509fa2b66d72d5c68628032c90b650ecaa",
+  "data_sha256": "585bf8d3606a9fe6c8e2115054f58a178a97ff82254837b0d32d764569b839ab",
+  "utc": 1795267255.0433927
+}

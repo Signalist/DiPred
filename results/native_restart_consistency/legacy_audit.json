@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "runs": 9,
+  "updates": 9000,
+  "candidates": 45,
+  "selections": 18,
+  "summary_rows": 18,
+  "paired_rows": 288,
+  "old_pilot_gate": false,
+  "scope": "read-only archival verification"
+}
