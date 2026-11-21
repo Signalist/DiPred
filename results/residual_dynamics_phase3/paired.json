@@ -1,0 +1,482 @@
+[
+  {
+    "split": "development",
+    "metric": "mse",
+    "contrast": "crps minus raw",
+    "mean_delta": -6.716422430422848e-07,
+    "ci95": [
+      -1.4074215719479273e-06,
+      -3.790934425937796e-08
+    ],
+    "improved": 7,
+    "trajectories": 12
+  },
+  {
+    "split": "development",
+    "metric": "crps",
+    "contrast": "crps minus raw",
+    "mean_delta": -0.00017185405300236545,
+    "ci95": [
+      -0.00042766693914692315,
+      4.468093779870753e-05
+    ],
+    "improved": 7,
+    "trajectories": 12
+  },
+  {
+    "split": "development",
+    "metric": "energy",
+    "contrast": "crps minus raw",
+    "mean_delta": 6.0234594188997063e-05,
+    "ci95": [
+      -0.000522570750444845,
+      0.00053875669564579
+    ],
+    "improved": 6,
+    "trajectories": 12
+  },
+  {
+    "split": "development",
+    "metric": "brier",
+    "contrast": "crps minus raw",
+    "mean_delta": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "improved": 0,
+    "trajectories": 12
+  },
+  {
+    "split": "development",
+    "metric": "mse",
+    "contrast": "crps minus std",
+    "mean_delta": -6.716422430422848e-07,
+    "ci95": [
+      -1.4074215719479273e-06,
+      -3.790934425937796e-08
+    ],
+    "improved": 7,
+    "trajectories": 12
+  },
+  {
+    "split": "development",
+    "metric": "crps",
+    "contrast": "crps minus std",
+    "mean_delta": -0.00017185405300236545,
+    "ci95": [
+      -0.00042766693914692315,
+      4.468093779870753e-05
+    ],
+    "improved": 7,
+    "trajectories": 12
+  },
+  {
+    "split": "development",
+    "metric": "energy",
+    "contrast": "crps minus std",
+    "mean_delta": 6.0234594188997063e-05,
+    "ci95": [
+      -0.000522570750444845,
+      0.00053875669564579
+    ],
+    "improved": 6,
+    "trajectories": 12
+  },
+  {
+    "split": "development",
+    "metric": "brier",
+    "contrast": "crps minus std",
+    "mean_delta": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "improved": 0,
+    "trajectories": 12
+  },
+  {
+    "split": "development",
+    "metric": "mse",
+    "contrast": "crps minus native",
+    "mean_delta": -6.716422430422853e-07,
+    "ci95": [
+      -1.4074215719479284e-06,
+      -3.7909344259378544e-08
+    ],
+    "improved": 7,
+    "trajectories": 12
+  },
+  {
+    "split": "development",
+    "metric": "crps",
+    "contrast": "crps minus native",
+    "mean_delta": -0.0001718540530023637,
+    "ci95": [
+      -0.0004276669391469257,
+      4.468093779870638e-05
+    ],
+    "improved": 7,
+    "trajectories": 12
+  },
+  {
+    "split": "development",
+    "metric": "energy",
+    "contrast": "crps minus native",
+    "mean_delta": 6.0234594188997063e-05,
+    "ci95": [
+      -0.0005225707504448336,
+      0.0005387566956457831
+    ],
+    "improved": 6,
+    "trajectories": 12
+  },
+  {
+    "split": "development",
+    "metric": "brier",
+    "contrast": "crps minus native",
+    "mean_delta": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "improved": 0,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "metric": "mse",
+    "contrast": "crps minus raw",
+    "mean_delta": -1.8605418204059853e-07,
+    "ci95": [
+      -9.211016218444655e-07,
+      4.857335779862972e-07
+    ],
+    "improved": 7,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "metric": "crps",
+    "contrast": "crps minus raw",
+    "mean_delta": -0.00027803750044451923,
+    "ci95": [
+      -0.00053808739505592,
+      3.4030965777799494e-05
+    ],
+    "improved": 10,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "metric": "energy",
+    "contrast": "crps minus raw",
+    "mean_delta": -0.00029081872448770304,
+    "ci95": [
+      -0.0008447779058379337,
+      0.00032441177758601655
+    ],
+    "improved": 8,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "metric": "brier",
+    "contrast": "crps minus raw",
+    "mean_delta": 0.00013563368055555553,
+    "ci95": [
+      0.0,
+      0.0004069010416666667
+    ],
+    "improved": 0,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "metric": "mse",
+    "contrast": "crps minus std",
+    "mean_delta": -1.8605418204059853e-07,
+    "ci95": [
+      -9.211016218444655e-07,
+      4.857335779862972e-07
+    ],
+    "improved": 7,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "metric": "crps",
+    "contrast": "crps minus std",
+    "mean_delta": -0.00027803750044451923,
+    "ci95": [
+      -0.00053808739505592,
+      3.4030965777799494e-05
+    ],
+    "improved": 10,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "metric": "energy",
+    "contrast": "crps minus std",
+    "mean_delta": -0.00029081872448770304,
+    "ci95": [
+      -0.0008447779058379337,
+      0.00032441177758601655
+    ],
+    "improved": 8,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "metric": "brier",
+    "contrast": "crps minus std",
+    "mean_delta": 0.00013563368055555553,
+    "ci95": [
+      0.0,
+      0.0004069010416666667
+    ],
+    "improved": 0,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "metric": "mse",
+    "contrast": "crps minus native",
+    "mean_delta": -1.8605418204059345e-07,
+    "ci95": [
+      -9.211016218444537e-07,
+      4.857335779863025e-07
+    ],
+    "improved": 7,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "metric": "crps",
+    "contrast": "crps minus native",
+    "mean_delta": -0.0002780375004445146,
+    "ci95": [
+      -0.0005380873950559217,
+      3.403096577780767e-05
+    ],
+    "improved": 10,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "metric": "energy",
+    "contrast": "crps minus native",
+    "mean_delta": -0.0002908187244877053,
+    "ci95": [
+      -0.000844777905837936,
+      0.0003244117775860154
+    ],
+    "improved": 8,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "metric": "brier",
+    "contrast": "crps minus native",
+    "mean_delta": 0.00013563368055555553,
+    "ci95": [
+      0.0,
+      0.0004069010416666667
+    ],
+    "improved": 0,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "metric": "mse",
+    "contrast": "raw_endpoint minus crps_endpoint",
+    "mean_delta": 3.5187702245942304e-07,
+    "ci95": [
+      -1.5383443474855314e-08,
+      6.764665858580731e-07
+    ],
+    "improved": 2,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "metric": "crps",
+    "contrast": "raw_endpoint minus crps_endpoint",
+    "mean_delta": 0.0005582770407995408,
+    "ci95": [
+      0.0004092812805543796,
+      0.000705596255612199
+    ],
+    "improved": 0,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "metric": "energy",
+    "contrast": "raw_endpoint minus crps_endpoint",
+    "mean_delta": 0.0006006918525684468,
+    "ci95": [
+      0.00024039493559905169,
+      0.0009650336120093286
+    ],
+    "improved": 3,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "metric": "brier",
+    "contrast": "raw_endpoint minus crps_endpoint",
+    "mean_delta": 0.004286024305555556,
+    "ci95": [
+      0.0,
+      0.012858072916666666
+    ],
+    "improved": 0,
+    "trajectories": 12
+  },
+  {
+    "split": "development",
+    "metric": "mse",
+    "contrast": "linear_first minus native",
+    "mean_delta": -1.3294737860621673e-06,
+    "ci95": [
+      -2.9043894061238646e-06,
+      4.2112670873021965e-09
+    ],
+    "improved": 8,
+    "trajectories": 12
+  },
+  {
+    "split": "development",
+    "metric": "crps",
+    "contrast": "linear_first minus native",
+    "mean_delta": 0.002381590093701853,
+    "ci95": [
+      0.0010440321550685319,
+      0.003946676975633176
+    ],
+    "improved": 0,
+    "trajectories": 12
+  },
+  {
+    "split": "development",
+    "metric": "mse",
+    "contrast": "linear_first minus copy_first",
+    "mean_delta": -9.845467074846312e-06,
+    "ci95": [
+      -1.9974490518520928e-05,
+      -3.313579411402486e-06
+    ],
+    "improved": 12,
+    "trajectories": 12
+  },
+  {
+    "split": "development",
+    "metric": "crps",
+    "contrast": "linear_first minus copy_first",
+    "mean_delta": -0.0009652943900983948,
+    "ci95": [
+      -0.0015674144640765973,
+      -0.000303886021371134
+    ],
+    "improved": 8,
+    "trajectories": 12
+  },
+  {
+    "split": "development",
+    "metric": "mse",
+    "contrast": "linear_teacher minus linear_first",
+    "mean_delta": -0.0001313228328158009,
+    "ci95": [
+      -0.00026997682646416886,
+      -3.281993820437727e-05
+    ],
+    "improved": 12,
+    "trajectories": 12
+  },
+  {
+    "split": "development",
+    "metric": "crps",
+    "contrast": "linear_teacher minus linear_first",
+    "mean_delta": -0.05259558139631473,
+    "ci95": [
+      -0.07445113324448932,
+      -0.035851688863815
+    ],
+    "improved": 12,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "metric": "mse",
+    "contrast": "linear_first minus native",
+    "mean_delta": 9.407053441196686e-07,
+    "ci95": [
+      -1.3021476153832477e-06,
+      3.254784150026823e-06
+    ],
+    "improved": 4,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "metric": "crps",
+    "contrast": "linear_first minus native",
+    "mean_delta": 0.0018571145235510781,
+    "ci95": [
+      0.0011135420930696925,
+      0.002650282034997113
+    ],
+    "improved": 1,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "metric": "mse",
+    "contrast": "linear_first minus copy_first",
+    "mean_delta": -9.571682669301035e-06,
+    "ci95": [
+      -1.88063465867404e-05,
+      -3.2610717649520786e-06
+    ],
+    "improved": 12,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "metric": "crps",
+    "contrast": "linear_first minus copy_first",
+    "mean_delta": -0.0016972807011239241,
+    "ci95": [
+      -0.0024265150614266205,
+      -0.0010455088572628001
+    ],
+    "improved": 11,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "metric": "mse",
+    "contrast": "linear_teacher minus linear_first",
+    "mean_delta": -9.786083152453543e-05,
+    "ci95": [
+      -0.0001706238445511118,
+      -4.19701702136567e-05
+    ],
+    "improved": 12,
+    "trajectories": 12
+  },
+  {
+    "split": "test",
+    "metric": "crps",
+    "contrast": "linear_teacher minus linear_first",
+    "mean_delta": -0.05190290460375278,
+    "ci95": [
+      -0.06893535169013117,
+      -0.03657607338825263
+    ],
+    "improved": 12,
+    "trajectories": 12
+  }
+]

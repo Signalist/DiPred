@@ -1,0 +1,10 @@
+test_loss (__main__.Boundaries) ... PASS full empirical CRPS value/gradient against explicit 32x32 pair constant
+ok
+test_no_feedback (__main__.Boundaries) ... ok
+test_oracle_and_free_inputs (__main__.Boundaries) ... ok
+test_splits (__main__.Boundaries) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.086s
+
+OK

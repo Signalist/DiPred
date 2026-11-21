@@ -1,0 +1,12 @@
+PASS full empirical CRPS value/gradient against explicit 32x32 pair constant
+initialization gate False {('copy', 'teacher'): 3.460767402430065e-05, ('copy', 'first'): 0.00017014835611917078, ('copy', 'zero'): 0.00016163234249688685, ('scale', 'teacher'): 3.362983261467889e-05, ('scale', 'first'): 0.00015920209989417344, ('scale', 'zero'): 0.00016163234249688685, ('linear', 'teacher'): 2.8980042770854197e-05, ('linear', 'first'): 0.00016030286496970803, ('linear', 'zero'): 0.00016163234249688685}
+selected raw 42 0 0.0
+selected raw 43 0 0.0
+selected raw 44 0 0.0
+selected std 42 0 0.0
+selected std 43 0 0.0
+selected std 44 0 0.0
+selected crps 42 1000 -0.00011689960956573486
+selected crps 43 1000 -0.00019504129886627197
+selected crps 44 1000 -0.00020363926887512207
+completed 1128 45120

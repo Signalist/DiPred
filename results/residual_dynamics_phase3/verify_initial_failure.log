@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "research/residual_dynamics_phase3/analyze.py", line 63, in <module>
+    if __name__=='__main__':main()
+  File "research/residual_dynamics_phase3/analyze.py", line 42, in main
+    delta=[idx[r['file'],a][k]-idx[r['file'],b][k] for r in records[split]]
+  File "research/residual_dynamics_phase3/analyze.py", line 42, in <listcomp>
+    delta=[idx[r['file'],a][k]-idx[r['file'],b][k] for r in records[split]]
+KeyError: ('26700_0.h5', 'raw_endpoint')
