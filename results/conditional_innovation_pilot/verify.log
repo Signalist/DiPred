@@ -1,0 +1,4 @@
+PASS weights/config/cache hashes and all previous followup artifact hashes
+PASS original trajectory/Re isolation, source gate, exact method/window coverage, paired bootstrap
+training fixed innovation mean versus previous cache max error 0.0
+selected {'R1': {'ridge': 1.0, 'deployment': 'native', 'development': {'crps': 0.12925773859024048, 'mse': 0.00015463908701015655, 'smse': 0.05664786383204583}}, 'D1': {'ridge': 1.0, 'deployment': 'native', 'development': {'crps': 0.12925773859024048, 'mse': 0.00015463908701015655, 'smse': 0.05664786383204583}}} neural training count 0

@@ -1,0 +1,58 @@
+{
+  "config_sha256": "9668ad5b6e0592163ab249bb9a0410e9106fd15dd6fc897b6a133e2881f2e7b7",
+  "stage_A": {
+    "selected": {
+      "R1": {
+        "ridge": 1.0,
+        "deployment": "native",
+        "development": {
+          "crps": 0.12925773859024048,
+          "mse": 0.00015463908701015655,
+          "smse": 0.05664786383204583
+        }
+      },
+      "D1": {
+        "ridge": 1.0,
+        "deployment": "native",
+        "development": {
+          "crps": 0.12925773859024048,
+          "mse": 0.00015463908701015655,
+          "smse": 0.05664786383204583
+        }
+      }
+    },
+    "gate": false,
+    "r_gain": -0.0037464223227159366,
+    "window_gains": {
+      "400": -0.004544153428729825,
+      "420": -0.002880119268057424
+    },
+    "channel_gains": {
+      "u": 0.001905667146317347,
+      "v": -0.005492866149416908
+    },
+    "Re_gains": {
+      "26700": -0.004915477318618189,
+      "6300": -0.0017743834990140428,
+      "7575": -9.939635575806349e-05
+    },
+    "config_sha256": "9668ad5b6e0592163ab249bb9a0410e9106fd15dd6fc897b6a133e2881f2e7b7",
+    "neural_runs_allowed": 0
+  },
+  "stage_B": {
+    "executed": false,
+    "reason": "prespecified conditional source gate not met",
+    "neural_runs": 0,
+    "config_sha256": "9668ad5b6e0592163ab249bb9a0410e9106fd15dd6fc897b6a133e2881f2e7b7"
+  },
+  "weights": {
+    "D1_0.0001.pt": "7cb2195a8c4a4d3c21f5866f4b6b0ab35ee3c0707e78e4ef76edaca88996d7d6",
+    "D1_0.01.pt": "de8fbef512182c4895c5305ff5d8b7cccf785254c1ff4e430fe19544309455f8",
+    "D1_1.0.pt": "57764c266d0bc3e70dbef514d27f4daf0a24c51b64c219db1704d73bd43eef70",
+    "R1_0.0001.pt": "18a659830b67fb01d371cd8f09c9a1d43bcd4faeb2a26284b8f55e662d3c4205",
+    "R1_0.01.pt": "7ec23497ce95e7c78a9155af3eb7afa80a9f03ad34acb0193fb20b080cb5ea5d",
+    "R1_1.0.pt": "c3a6737570f19ac9e0a5b505fa21213171db2f89f26c50d04f0f78e0c6bf79fa",
+    "baseline.pt": "428d26b4e06c12bab46b128cc05f0ca61e2bd0819699ff63b5981bd7444edd5c"
+  },
+  "frozen_utc": "2026-11-21T11:09:27Z"
+}

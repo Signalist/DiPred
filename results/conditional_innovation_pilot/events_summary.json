@@ -1,0 +1,47 @@
+[
+  {
+    "split": "test",
+    "blocks": 24,
+    "trajectories": 12,
+    "positive_blocks": 0,
+    "positive_trajectories": 0,
+    "positive_cases": []
+  },
+  {
+    "split": "extension",
+    "blocks": 240,
+    "trajectories": 12,
+    "positive_blocks": 7,
+    "positive_trajectories": 1,
+    "positive_cases": [
+      {
+        "trajectory": "13950_20.h5",
+        "start": 440
+      },
+      {
+        "trajectory": "13950_20.h5",
+        "start": 520
+      },
+      {
+        "trajectory": "13950_20.h5",
+        "start": 660
+      },
+      {
+        "trajectory": "13950_20.h5",
+        "start": 680
+      },
+      {
+        "trajectory": "13950_20.h5",
+        "start": 740
+      },
+      {
+        "trajectory": "13950_20.h5",
+        "start": 760
+      },
+      {
+        "trajectory": "13950_20.h5",
+        "start": 780
+      }
+    ]
+  }
+]

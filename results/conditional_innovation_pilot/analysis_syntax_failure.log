@@ -1,0 +1,4 @@
+  File "research/conditional_innovation_pilot/analyze.py", line 146
+    base=reference[row["split"],*(row[k] for k in scope)]
+                                ^
+SyntaxError: invalid syntax

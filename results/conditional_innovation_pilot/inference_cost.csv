@@ -1,0 +1,3 @@
+kind,ridge,coefficients,fixed_mean_elements,seconds_per_block,repetitions
+R1,1.0,3520,81920,0.00020159848241342438,3
+D1,1.0,3520,81920,1.3525416660639974e-05,3

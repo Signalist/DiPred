@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "rows": 2640,
+  "detail": 105600,
+  "blocks": 264,
+  "weights_verified": 7,
+  "neural_training_runs": 0,
+  "cache_files": 28,
+  "invariance_maximum": {
+    "pair_max_abs": 2.9802322387695312e-08,
+    "centered_max_abs": 2.8870999813079834e-08,
+    "width_max_abs": 1.0252109060564923e-08,
+    "member_gram_max_abs": 8.08097393254631e-13,
+    "channel_lead_covariance_max_abs": 3.427416952401212e-12,
+    "all_feature_covariance_error_bound": 7.105795078687557e-09
+  },
+  "zero_alias_roundoff_max": 2.7755575615628914e-17,
+  "config_sha256": "9668ad5b6e0592163ab249bb9a0410e9106fd15dd6fc897b6a133e2881f2e7b7",
+  "frozen_sha256": "402bb60c2c7b105144fff50caee1266930a9078325981e9c201f32c8fc443e87"
+}

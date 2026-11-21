@@ -1,0 +1,7 @@
+{
+  "torch": "1.14.0a0+44dac51",
+  "cuda": "12.0",
+  "gpu": "NVIDIA A100-SXM4-80GB",
+  "tf32": false,
+  "config_sha256": "9668ad5b6e0592163ab249bb9a0410e9106fd15dd6fc897b6a133e2881f2e7b7"
+}

@@ -1,0 +1,442 @@
+[
+  {
+    "split": "test",
+    "start": 400,
+    "cache": "/cpfs01/projects-HDD/cfff-3469a2cbe57f_HDD/wangxiyun/DiPred+ResCrct/Workspace/runs/residual_dynamics_phase2/test_400_native.pt",
+    "cache_sha256": "c1723d870e21063b898e3ca7f364a11c176ceaf945199e2680ffdcd12bc464b7",
+    "issued_biases": {
+      "native:0": "9af8275830f1496e82873fd2944a1619944f6fec9a380e7ad8fe3dd039010340",
+      "zero:0": "9af8275830f1496e82873fd2944a1619944f6fec9a380e7ad8fe3dd039010340",
+      "R0:0": "6d1ef0398187a83db68fb7270859de21e2caf4c05b54f7cdaf93dc3e943de487",
+      "R1_ridge:0": "af22f64a04865e34438d976cfa76c0c78b2fce59f5e52346a01a5b461d493171",
+      "D1_ridge:0": "7de656035f897fa8c7f58bbd9a7b1525be26bc5eb06c8567f73a272635c75a9a",
+      "R1:0": "9af8275830f1496e82873fd2944a1619944f6fec9a380e7ad8fe3dd039010340",
+      "D1:0": "9af8275830f1496e82873fd2944a1619944f6fec9a380e7ad8fe3dd039010340",
+      "phase3:42": "e45aca07812ee51be503c77a774d2f1ac15ef2f7a55c625d8a24e32353bba2c3",
+      "phase3:43": "1d8609463175346d6840e604ab473f0349cd6f9ae368535880408404de2ff6cc",
+      "phase3:44": "826278ae7512b8a4bf5080883cc1cf44ecb1e0768201c9891acac1855c8bfe90"
+    },
+    "truth_sha256": "8c1a27d3407fd010b9990ebb8bc88b43ee558d765c0e9a9eb59be6f0bc8bee8d",
+    "frozen_selection_sha256": "402bb60c2c7b105144fff50caee1266930a9078325981e9c201f32c8fc443e87"
+  },
+  {
+    "split": "test",
+    "start": 420,
+    "cache": "/cpfs01/projects-HDD/cfff-3469a2cbe57f_HDD/wangxiyun/DiPred+ResCrct/Workspace/runs/residual_dynamics_phase2/test_420_native.pt",
+    "cache_sha256": "de7f8eb30d8f7512bfd8e97a4b6a7ce51a9e69b9ddf8205ee906f1a5edbbec72",
+    "issued_biases": {
+      "native:0": "9af8275830f1496e82873fd2944a1619944f6fec9a380e7ad8fe3dd039010340",
+      "zero:0": "9af8275830f1496e82873fd2944a1619944f6fec9a380e7ad8fe3dd039010340",
+      "R0:0": "6d1ef0398187a83db68fb7270859de21e2caf4c05b54f7cdaf93dc3e943de487",
+      "R1_ridge:0": "d39ba025facec40576e9733bcfed96979b680f5e306975679e44ae47f368278c",
+      "D1_ridge:0": "b0b9f9ce19b31bdd8705b49082cc5847317547d768227564e0d05fbab56627d9",
+      "R1:0": "9af8275830f1496e82873fd2944a1619944f6fec9a380e7ad8fe3dd039010340",
+      "D1:0": "9af8275830f1496e82873fd2944a1619944f6fec9a380e7ad8fe3dd039010340",
+      "phase3:42": "0a09ff63172077f1b69e013bb6c29af9d971052fa78c10fb7a42f627b8f175f5",
+      "phase3:43": "ec687720b771f07c317a737bc8c744e01c2fc1113c052375c2fe1c7c3c90637d",
+      "phase3:44": "9b82ac30e06f271344e1af4a3a4515dd37f79d14ab7afb1b0a04d6983d525e16"
+    },
+    "truth_sha256": "a3b8fa8065e05cfc68338eefe9fe72ec265167c14b98294399b8d2ebeb02d55d",
+    "frozen_selection_sha256": "402bb60c2c7b105144fff50caee1266930a9078325981e9c201f32c8fc443e87"
+  },
+  {
+    "split": "extension",
+    "start": 440,
+    "cache": "/cpfs01/projects-HDD/cfff-3469a2cbe57f_HDD/wangxiyun/DiPred+ResCrct/Workspace/github/DiPred/results/residual_dynamics_phase3_followup/cache/issued_440.pt",
+    "cache_sha256": "4ceb26e1115c6795099632b8be0b5638441f9f0a6668d43268b16e8a95397d0a",
+    "issued_biases": {
+      "native:0": "9af8275830f1496e82873fd2944a1619944f6fec9a380e7ad8fe3dd039010340",
+      "zero:0": "9af8275830f1496e82873fd2944a1619944f6fec9a380e7ad8fe3dd039010340",
+      "R0:0": "6d1ef0398187a83db68fb7270859de21e2caf4c05b54f7cdaf93dc3e943de487",
+      "R1_ridge:0": "5869e77e7ef6d7ae3ca309c50ee59af369107b21d3ebcb636fbc528d03cc74bc",
+      "D1_ridge:0": "cec262034947883a923eb9b7c0924d7756351643bf896584cdfafc86b9024e73",
+      "R1:0": "9af8275830f1496e82873fd2944a1619944f6fec9a380e7ad8fe3dd039010340",
+      "D1:0": "9af8275830f1496e82873fd2944a1619944f6fec9a380e7ad8fe3dd039010340",
+      "phase3:42": "44de924df25153fb0abb2d7d4c1618ea017c5299b419385f7dbac981ad1300b9",
+      "phase3:43": "734dd6665d10fc80e4b87ba830be156363c24e3762f3a3501e8aa78eccecd8a8",
+      "phase3:44": "f644c27872a32f4cc441942af524d772b64982b04d95f4ef0a1e89e3edc52c58"
+    },
+    "truth_sha256": "e471313eb39d14ff4f96617e31556b061a910aa9d6be0c835e4b0348c9e4a677",
+    "frozen_selection_sha256": "402bb60c2c7b105144fff50caee1266930a9078325981e9c201f32c8fc443e87"
+  },
+  {
+    "split": "extension",
+    "start": 460,
+    "cache": "/cpfs01/projects-HDD/cfff-3469a2cbe57f_HDD/wangxiyun/DiPred+ResCrct/Workspace/github/DiPred/results/residual_dynamics_phase3_followup/cache/issued_460.pt",
+    "cache_sha256": "b41a46aff4bd5de368b6897b9e599120c565c3f746cc0aad71f86df1c248269d",
+    "issued_biases": {
+      "native:0": "9af8275830f1496e82873fd2944a1619944f6fec9a380e7ad8fe3dd039010340",
+      "zero:0": "9af8275830f1496e82873fd2944a1619944f6fec9a380e7ad8fe3dd039010340",
+      "R0:0": "6d1ef0398187a83db68fb7270859de21e2caf4c05b54f7cdaf93dc3e943de487",
+      "R1_ridge:0": "e610da72afdd267adfba8f78cb8640fbdbffd32ab37f069307bdef7b5e846eb7",
+      "D1_ridge:0": "433edba079c2e04de8eb6e7647ec28c9ffd80f128645e8325db084e2e6f75b81",
+      "R1:0": "9af8275830f1496e82873fd2944a1619944f6fec9a380e7ad8fe3dd039010340",
+      "D1:0": "9af8275830f1496e82873fd2944a1619944f6fec9a380e7ad8fe3dd039010340",
+      "phase3:42": "b31c3604f14acb4b6ffe3ac822461902175f8c58d06be9379f8113b4c103eb14",
+      "phase3:43": "55072f13944a345306100167836b5be93f9370bc85179f77a6b98f021c51f592",
+      "phase3:44": "487e7ab0f3feb155e660a3fc6b3593961da554e39aee603322269a510bafd059"
+    },
+    "truth_sha256": "208a01cd843b80c2c917b23e02c0d6dd0bd8600265e98248b52e2a8a0cfacdd1",
+    "frozen_selection_sha256": "402bb60c2c7b105144fff50caee1266930a9078325981e9c201f32c8fc443e87"
+  },
+  {
+    "split": "extension",
+    "start": 480,
+    "cache": "/cpfs01/projects-HDD/cfff-3469a2cbe57f_HDD/wangxiyun/DiPred+ResCrct/Workspace/github/DiPred/results/residual_dynamics_phase3_followup/cache/issued_480.pt",
+    "cache_sha256": "9a1e6f9a580471bd7e91087c9bc910b252d571ba90b9ecf39e1d43d1cec0e830",
+    "issued_biases": {
+      "native:0": "9af8275830f1496e82873fd2944a1619944f6fec9a380e7ad8fe3dd039010340",
+      "zero:0": "9af8275830f1496e82873fd2944a1619944f6fec9a380e7ad8fe3dd039010340",
+      "R0:0": "6d1ef0398187a83db68fb7270859de21e2caf4c05b54f7cdaf93dc3e943de487",
+      "R1_ridge:0": "2a22de9b31611f5d18cb85dc2e797febcb3f0175a2c2055d17008eee5055814b",
+      "D1_ridge:0": "e6acc7c26e2dd11bed7651896988d69fb82751e4bdbb99317ccd0c19f68b6a48",
+      "R1:0": "9af8275830f1496e82873fd2944a1619944f6fec9a380e7ad8fe3dd039010340",
+      "D1:0": "9af8275830f1496e82873fd2944a1619944f6fec9a380e7ad8fe3dd039010340",
+      "phase3:42": "0292272d2b20430314d1c87eb21a18e0572a786a16905c0dcab074e99650b6b1",
+      "phase3:43": "a8be876e8d4b0cf0197089addd1ec54ac00a43162a9f348944c042c1cd4f66fd",
+      "phase3:44": "689c1744799c3964174a0c3f7597e588852e0d23d2e5ada175b6a76e0494ee1e"
+    },
+    "truth_sha256": "f12a96dda812729dc4a1d434a30bafb7dce846d82543ee97a8ed072271ed350e",
+    "frozen_selection_sha256": "402bb60c2c7b105144fff50caee1266930a9078325981e9c201f32c8fc443e87"
+  },
+  {
+    "split": "extension",
+    "start": 500,
+    "cache": "/cpfs01/projects-HDD/cfff-3469a2cbe57f_HDD/wangxiyun/DiPred+ResCrct/Workspace/github/DiPred/results/residual_dynamics_phase3_followup/cache/issued_500.pt",
+    "cache_sha256": "1dc964676cc72a78acba37fc1f5b581b62f21577dfe42ed7ea8da9faf10610ea",
+    "issued_biases": {
+      "native:0": "9af8275830f1496e82873fd2944a1619944f6fec9a380e7ad8fe3dd039010340",
+      "zero:0": "9af8275830f1496e82873fd2944a1619944f6fec9a380e7ad8fe3dd039010340",
+      "R0:0": "6d1ef0398187a83db68fb7270859de21e2caf4c05b54f7cdaf93dc3e943de487",
+      "R1_ridge:0": "b38225e5fae2765f6efbb804dde4e2a3b50b5f3522700bbe3342ebc24310d0f0",
+      "D1_ridge:0": "4ea2e7f6a13b2d1b94f37742e041a61e179fcdd2a540f7b87ce51d33e7ce5e18",
+      "R1:0": "9af8275830f1496e82873fd2944a1619944f6fec9a380e7ad8fe3dd039010340",
+      "D1:0": "9af8275830f1496e82873fd2944a1619944f6fec9a380e7ad8fe3dd039010340",
+      "phase3:42": "c27f4b3b7bd456a20542e034c662f20ff20e5e8ca1487dac0299eecf2b6e5d5e",
+      "phase3:43": "8f81a2de071e28a858a6ee91ce0df58a12dccf7cc89d3842b673d0374458e731",
+      "phase3:44": "c7ea13dfadfe8cfcd07c5e29c63f90af7f17b6ca367d1b0d257df694d38719b3"
+    },
+    "truth_sha256": "90cdab8b684bd9c27383583f3230203478fda751a3cffc590780bfb805c500ab",
+    "frozen_selection_sha256": "402bb60c2c7b105144fff50caee1266930a9078325981e9c201f32c8fc443e87"
+  },
+  {
+    "split": "extension",
+    "start": 520,
+    "cache": "/cpfs01/projects-HDD/cfff-3469a2cbe57f_HDD/wangxiyun/DiPred+ResCrct/Workspace/github/DiPred/results/residual_dynamics_phase3_followup/cache/issued_520.pt",
+    "cache_sha256": "6958f8b6d2316af6f6763617016347fd021ed45e87cb37a4e98b3c018d676a74",
+    "issued_biases": {
+      "native:0": "9af8275830f1496e82873fd2944a1619944f6fec9a380e7ad8fe3dd039010340",
+      "zero:0": "9af8275830f1496e82873fd2944a1619944f6fec9a380e7ad8fe3dd039010340",
+      "R0:0": "6d1ef0398187a83db68fb7270859de21e2caf4c05b54f7cdaf93dc3e943de487",
+      "R1_ridge:0": "037d90dcd6f3300422e0d70cc21407f24c76450a78694f090db9017abceca33b",
+      "D1_ridge:0": "c59f8dc5c5acd4b943756238f203f018f9437ed365b5973e6aa4fdbe03a1609b",
+      "R1:0": "9af8275830f1496e82873fd2944a1619944f6fec9a380e7ad8fe3dd039010340",
+      "D1:0": "9af8275830f1496e82873fd2944a1619944f6fec9a380e7ad8fe3dd039010340",
+      "phase3:42": "423e2b53d95e195bd38c16d81ea5c17181db4ddcbb5f5d37a93a3fafb050ae8a",
+      "phase3:43": "28cc92cdfe31b31f67166c68f8cf30e77853180aaaa85bed802380b6154db959",
+      "phase3:44": "73b34943de179eebd16abcf85bbc9e5dd92c47b7b568499b0d0e0b1ea53935dd"
+    },
+    "truth_sha256": "9117795658e8daf80833ebce68b0e9f9bde40d1ac8457aceb32f123fd7a9caf5",
+    "frozen_selection_sha256": "402bb60c2c7b105144fff50caee1266930a9078325981e9c201f32c8fc443e87"
+  },
+  {
+    "split": "extension",
+    "start": 540,
+    "cache": "/cpfs01/projects-HDD/cfff-3469a2cbe57f_HDD/wangxiyun/DiPred+ResCrct/Workspace/github/DiPred/results/residual_dynamics_phase3_followup/cache/issued_540.pt",
+    "cache_sha256": "07b6de8bbfc9f34da9bb0e114d75007008b28b617501d4d1edd6342775765030",
+    "issued_biases": {
+      "native:0": "9af8275830f1496e82873fd2944a1619944f6fec9a380e7ad8fe3dd039010340",
+      "zero:0": "9af8275830f1496e82873fd2944a1619944f6fec9a380e7ad8fe3dd039010340",
+      "R0:0": "6d1ef0398187a83db68fb7270859de21e2caf4c05b54f7cdaf93dc3e943de487",
+      "R1_ridge:0": "6e764ad53eb49e867e0e0dda72435db8971be37ec459c5818025cf562dbfbce0",
+      "D1_ridge:0": "203a1d7ee9b2aba0f314df6f06243c085b7c8dc52231c7d3cf5d6477efd5b589",
+      "R1:0": "9af8275830f1496e82873fd2944a1619944f6fec9a380e7ad8fe3dd039010340",
+      "D1:0": "9af8275830f1496e82873fd2944a1619944f6fec9a380e7ad8fe3dd039010340",
+      "phase3:42": "2614cb385103da40d9fa48602a1782740f3bbbeae554f68281c7f87c542b344d",
+      "phase3:43": "f294a28c88d9a5541ae03290bb629ba280706582a6be304e75f4f3c20956d17c",
+      "phase3:44": "cf443eedf2fea24247b1c208b3be3fb31ae8753552c6ce79cafee2d747fe81c4"
+    },
+    "truth_sha256": "599104e405c9366d528cd202cbb51bc0893dd9ae034eb0fcd6164bfdf2823217",
+    "frozen_selection_sha256": "402bb60c2c7b105144fff50caee1266930a9078325981e9c201f32c8fc443e87"
+  },
+  {
+    "split": "extension",
+    "start": 560,
+    "cache": "/cpfs01/projects-HDD/cfff-3469a2cbe57f_HDD/wangxiyun/DiPred+ResCrct/Workspace/github/DiPred/results/residual_dynamics_phase3_followup/cache/issued_560.pt",
+    "cache_sha256": "0d126d7c734c1056960a3fdfd8e9906b70fb2981885085c8c78998f0841ce20c",
+    "issued_biases": {
+      "native:0": "9af8275830f1496e82873fd2944a1619944f6fec9a380e7ad8fe3dd039010340",
+      "zero:0": "9af8275830f1496e82873fd2944a1619944f6fec9a380e7ad8fe3dd039010340",
+      "R0:0": "6d1ef0398187a83db68fb7270859de21e2caf4c05b54f7cdaf93dc3e943de487",
+      "R1_ridge:0": "c7cb1c83068d65c4fa92711ffc4c4be519ea707c6773822c8152900037d2abc3",
+      "D1_ridge:0": "d3e7e54f09128a076be3116df9b2550a07b679c49527db6357de0b9008d3ab77",
+      "R1:0": "9af8275830f1496e82873fd2944a1619944f6fec9a380e7ad8fe3dd039010340",
+      "D1:0": "9af8275830f1496e82873fd2944a1619944f6fec9a380e7ad8fe3dd039010340",
+      "phase3:42": "3a9e8478a86495cb13654f209968a44d25d92c00ca62f97107f03255a84ab203",
+      "phase3:43": "c20474545867490d7230ce7a185f01de69821ab738a7debdc80e8dbf164385bc",
+      "phase3:44": "ed5c87ed3c35dfc713de1118d88c47bf70712ab7294a38eb6529d4b521ba25d8"
+    },
+    "truth_sha256": "7f0a95d8043ab1fb0567a472397b3f4d0657d0c58a2e0259eb21fddec0d3d018",
+    "frozen_selection_sha256": "402bb60c2c7b105144fff50caee1266930a9078325981e9c201f32c8fc443e87"
+  },
+  {
+    "split": "extension",
+    "start": 580,
+    "cache": "/cpfs01/projects-HDD/cfff-3469a2cbe57f_HDD/wangxiyun/DiPred+ResCrct/Workspace/github/DiPred/results/residual_dynamics_phase3_followup/cache/issued_580.pt",
+    "cache_sha256": "4c2bce082f00e1300068bb09a94ed733db9a0d10e56822eb71f6ab06502a6c18",
+    "issued_biases": {
+      "native:0": "9af8275830f1496e82873fd2944a1619944f6fec9a380e7ad8fe3dd039010340",
+      "zero:0": "9af8275830f1496e82873fd2944a1619944f6fec9a380e7ad8fe3dd039010340",
+      "R0:0": "6d1ef0398187a83db68fb7270859de21e2caf4c05b54f7cdaf93dc3e943de487",
+      "R1_ridge:0": "471fda72845add10a8993a6fabe3ef987a390c0d79bca7dc692ad2428ff4a22a",
+      "D1_ridge:0": "7bcd40392e913e5c245bbb0183f735f4e580427462f59a520eb1bbc93635387d",
+      "R1:0": "9af8275830f1496e82873fd2944a1619944f6fec9a380e7ad8fe3dd039010340",
+      "D1:0": "9af8275830f1496e82873fd2944a1619944f6fec9a380e7ad8fe3dd039010340",
+      "phase3:42": "44f5a3513618019b1a1650ee12a842e89f0aaca3794685a7eed22737f7cd632d",
+      "phase3:43": "1bbb8dfa902af36812bbe9c3bc3755acbab6f21d79718bf728d25a4568b6c6d8",
+      "phase3:44": "e03b24a2610f2cf586d4e46bd7844d8f129a88cb6dc389f1b3ae1992c0b1d63f"
+    },
+    "truth_sha256": "2b46f313f526eae4e3a412073d892c7fc3c426eeb010e93f8d80fab87e36a4a3",
+    "frozen_selection_sha256": "402bb60c2c7b105144fff50caee1266930a9078325981e9c201f32c8fc443e87"
+  },
+  {
+    "split": "extension",
+    "start": 600,
+    "cache": "/cpfs01/projects-HDD/cfff-3469a2cbe57f_HDD/wangxiyun/DiPred+ResCrct/Workspace/github/DiPred/results/residual_dynamics_phase3_followup/cache/issued_600.pt",
+    "cache_sha256": "7a03b7781e6f958068a64307b6e6ddead612247455165f4c3b143f1dfed5579e",
+    "issued_biases": {
+      "native:0": "9af8275830f1496e82873fd2944a1619944f6fec9a380e7ad8fe3dd039010340",
+      "zero:0": "9af8275830f1496e82873fd2944a1619944f6fec9a380e7ad8fe3dd039010340",
+      "R0:0": "6d1ef0398187a83db68fb7270859de21e2caf4c05b54f7cdaf93dc3e943de487",
+      "R1_ridge:0": "6dc34fc6632228275658056a84493d7d20ecf5ab2460aa31c856ada68c372312",
+      "D1_ridge:0": "a979713af8591b0ec9a0c0a2f3a41c3f294f1a9aa00f111744abb7d34921a18d",
+      "R1:0": "9af8275830f1496e82873fd2944a1619944f6fec9a380e7ad8fe3dd039010340",
+      "D1:0": "9af8275830f1496e82873fd2944a1619944f6fec9a380e7ad8fe3dd039010340",
+      "phase3:42": "538b1a8e822b8c997ca82373dec61be14741e2117662ed31aa423f8e8f636a34",
+      "phase3:43": "8fb76fabc298f69e6c35b7f5e36e6a23f8569410aa2a69cbc74e6ce932545e10",
+      "phase3:44": "fa9b0d2e7f1ac6e512fa07f66290174c047d7fde466324129d629820d2b10abc"
+    },
+    "truth_sha256": "98d1fee7804e35d964a7996dafbb8a1c704e6866097e8d5ab017f24f01c32fd4",
+    "frozen_selection_sha256": "402bb60c2c7b105144fff50caee1266930a9078325981e9c201f32c8fc443e87"
+  },
+  {
+    "split": "extension",
+    "start": 620,
+    "cache": "/cpfs01/projects-HDD/cfff-3469a2cbe57f_HDD/wangxiyun/DiPred+ResCrct/Workspace/github/DiPred/results/residual_dynamics_phase3_followup/cache/issued_620.pt",
+    "cache_sha256": "1ea8626cb088620d236f834d67247dc4e7026c9262b1d3a0fd784483b3cc7935",
+    "issued_biases": {
+      "native:0": "9af8275830f1496e82873fd2944a1619944f6fec9a380e7ad8fe3dd039010340",
+      "zero:0": "9af8275830f1496e82873fd2944a1619944f6fec9a380e7ad8fe3dd039010340",
+      "R0:0": "6d1ef0398187a83db68fb7270859de21e2caf4c05b54f7cdaf93dc3e943de487",
+      "R1_ridge:0": "feebc5e40c1bebf6744cd577cd92a18d18af0da54d7768d00029881bedf3ed13",
+      "D1_ridge:0": "5f0d75b6d7afef80df305750872f552ab9d5bbf4cc0ecf66d927f24a7e2cde51",
+      "R1:0": "9af8275830f1496e82873fd2944a1619944f6fec9a380e7ad8fe3dd039010340",
+      "D1:0": "9af8275830f1496e82873fd2944a1619944f6fec9a380e7ad8fe3dd039010340",
+      "phase3:42": "55c4e94265027a4925f8ced9ffc06caa8036447f426a8791948161c585a81de1",
+      "phase3:43": "bd3f6c1d9d9710e60f1e8b83ff234c07eb8f92872eae121bf6bf584969a435ec",
+      "phase3:44": "3d16c0b13775241c7f0281d8ca0025cc042d7d5cfdd067cbab2436d61d98db8c"
+    },
+    "truth_sha256": "39a2b77214642df80d2b4711c624f2c81c6443e599e1a840de01bbf75dd38b7c",
+    "frozen_selection_sha256": "402bb60c2c7b105144fff50caee1266930a9078325981e9c201f32c8fc443e87"
+  },
+  {
+    "split": "extension",
+    "start": 640,
+    "cache": "/cpfs01/projects-HDD/cfff-3469a2cbe57f_HDD/wangxiyun/DiPred+ResCrct/Workspace/github/DiPred/results/residual_dynamics_phase3_followup/cache/issued_640.pt",
+    "cache_sha256": "c31dd7e000334919c15f994032848bf91c050a833c69a329fc59e5ac95fa2e3f",
+    "issued_biases": {
+      "native:0": "9af8275830f1496e82873fd2944a1619944f6fec9a380e7ad8fe3dd039010340",
+      "zero:0": "9af8275830f1496e82873fd2944a1619944f6fec9a380e7ad8fe3dd039010340",
+      "R0:0": "6d1ef0398187a83db68fb7270859de21e2caf4c05b54f7cdaf93dc3e943de487",
+      "R1_ridge:0": "94623da3e5a8d330ba1ce17dcf499730b7a20b98094b19861583c71e24bfe0ea",
+      "D1_ridge:0": "f677b31f841a409948afd1721829752bdd7ea674b476a7d70348cfcb30b8a200",
+      "R1:0": "9af8275830f1496e82873fd2944a1619944f6fec9a380e7ad8fe3dd039010340",
+      "D1:0": "9af8275830f1496e82873fd2944a1619944f6fec9a380e7ad8fe3dd039010340",
+      "phase3:42": "258f1685799099f0c28395d50c322db77a6ba4d87211fecf14cfa214e1ed47e9",
+      "phase3:43": "3f5af0cf1dc26373bc98238a4190c698f69a3ee1d4cc2c95503d8805a65a0afb",
+      "phase3:44": "22e91d2f30c0a51b5a9f4e5da941afb43bdc4de88cb33105fb243fc43be5f362"
+    },
+    "truth_sha256": "9e6b1038cbf025240579f804cc09531cce3a9b416d5cf291cfa5d65b7cbc47cf",
+    "frozen_selection_sha256": "402bb60c2c7b105144fff50caee1266930a9078325981e9c201f32c8fc443e87"
+  },
+  {
+    "split": "extension",
+    "start": 660,
+    "cache": "/cpfs01/projects-HDD/cfff-3469a2cbe57f_HDD/wangxiyun/DiPred+ResCrct/Workspace/github/DiPred/results/residual_dynamics_phase3_followup/cache/issued_660.pt",
+    "cache_sha256": "6114f79dfdf26de1c3fb7405d2ece5ca6e90493a2572114894e40dde89981cf3",
+    "issued_biases": {
+      "native:0": "9af8275830f1496e82873fd2944a1619944f6fec9a380e7ad8fe3dd039010340",
+      "zero:0": "9af8275830f1496e82873fd2944a1619944f6fec9a380e7ad8fe3dd039010340",
+      "R0:0": "6d1ef0398187a83db68fb7270859de21e2caf4c05b54f7cdaf93dc3e943de487",
+      "R1_ridge:0": "acc4800ba088ae34e1f289215cd4bf44592dd02dde220fb01ad109f0d2c3d110",
+      "D1_ridge:0": "4d8ab7ca48bba6e0e21b1cf3725409e48d56f12238f9cf614d191f87a46b76d1",
+      "R1:0": "9af8275830f1496e82873fd2944a1619944f6fec9a380e7ad8fe3dd039010340",
+      "D1:0": "9af8275830f1496e82873fd2944a1619944f6fec9a380e7ad8fe3dd039010340",
+      "phase3:42": "ecf1d1fbaf0411bb1e4370442074d14068777064327b320e97a568fb74274fbd",
+      "phase3:43": "2905ad234585cf5a84b7abb2a1340ed5d89b37d657f46e66c0546c52e12a394f",
+      "phase3:44": "a249ebee35b1eee4eb3099aa96a5ccc88ec92efea2074c303b96f645824e118b"
+    },
+    "truth_sha256": "6ef0f45362f3fd3520cdac5a4418fea8fe99d9dfc2f4f089e8d52265dbb42f1b",
+    "frozen_selection_sha256": "402bb60c2c7b105144fff50caee1266930a9078325981e9c201f32c8fc443e87"
+  },
+  {
+    "split": "extension",
+    "start": 680,
+    "cache": "/cpfs01/projects-HDD/cfff-3469a2cbe57f_HDD/wangxiyun/DiPred+ResCrct/Workspace/github/DiPred/results/residual_dynamics_phase3_followup/cache/issued_680.pt",
+    "cache_sha256": "021175ba1d296cf030de4601d0d3ce63438828a239e4acb85e9166b2264b422f",
+    "issued_biases": {
+      "native:0": "9af8275830f1496e82873fd2944a1619944f6fec9a380e7ad8fe3dd039010340",
+      "zero:0": "9af8275830f1496e82873fd2944a1619944f6fec9a380e7ad8fe3dd039010340",
+      "R0:0": "6d1ef0398187a83db68fb7270859de21e2caf4c05b54f7cdaf93dc3e943de487",
+      "R1_ridge:0": "c3ef01ed174591c4a1c632a178457218988a2959b7a0ed7a69c1864d7aa18f1a",
+      "D1_ridge:0": "e7e7564b71521299f707358d761a22dfd6649248ba89e800d479c9f1d11b5ce2",
+      "R1:0": "9af8275830f1496e82873fd2944a1619944f6fec9a380e7ad8fe3dd039010340",
+      "D1:0": "9af8275830f1496e82873fd2944a1619944f6fec9a380e7ad8fe3dd039010340",
+      "phase3:42": "28ef5ec46ebb889855daef84af5f8b4cccac5477e3eb43e479ddeaaed10ac6dc",
+      "phase3:43": "ff6d9bc2b8c0c0d1ebfb08e01b40a2859ee19c209971d542412c273656559dd9",
+      "phase3:44": "f74b732e5068a6da3ad0da713c34cd6d10f7515094e0ccdf0a94cfdc9f7fda86"
+    },
+    "truth_sha256": "997da2c63fa041280116993a8c1eeaf1f8dc3aa4e51fc1cdfdd065ebc28d1b58",
+    "frozen_selection_sha256": "402bb60c2c7b105144fff50caee1266930a9078325981e9c201f32c8fc443e87"
+  },
+  {
+    "split": "extension",
+    "start": 700,
+    "cache": "/cpfs01/projects-HDD/cfff-3469a2cbe57f_HDD/wangxiyun/DiPred+ResCrct/Workspace/github/DiPred/results/residual_dynamics_phase3_followup/cache/issued_700.pt",
+    "cache_sha256": "06df7f3c71c407ab356a7076c2c3d8c98d7f64bba8c61dc0f9fcc16081a009d5",
+    "issued_biases": {
+      "native:0": "9af8275830f1496e82873fd2944a1619944f6fec9a380e7ad8fe3dd039010340",
+      "zero:0": "9af8275830f1496e82873fd2944a1619944f6fec9a380e7ad8fe3dd039010340",
+      "R0:0": "6d1ef0398187a83db68fb7270859de21e2caf4c05b54f7cdaf93dc3e943de487",
+      "R1_ridge:0": "87014eef7aae702ce512fb9856c7eafc23b90b93c52e8e27c456ee98455fe0fd",
+      "D1_ridge:0": "111c1ed2a70581d8961b765caa02302b2cbe3224278480fd41dcb73d7fffa73c",
+      "R1:0": "9af8275830f1496e82873fd2944a1619944f6fec9a380e7ad8fe3dd039010340",
+      "D1:0": "9af8275830f1496e82873fd2944a1619944f6fec9a380e7ad8fe3dd039010340",
+      "phase3:42": "40b59d7a80ebf90319f390f933d84371caf800040f91d74cd33ae8c60605de06",
+      "phase3:43": "ba7315ad929de7ae6d36b463cd1042d3195cc69dd86b812fc4a39fbddbc8b95c",
+      "phase3:44": "6ae633a141c6dbfb55949a4d5bcb2b56cca38d5764b0c926811f4549ff926c1d"
+    },
+    "truth_sha256": "11e11f9f446080e31797fbdc55e746b72df42070c4e7bfab7396f907f813c028",
+    "frozen_selection_sha256": "402bb60c2c7b105144fff50caee1266930a9078325981e9c201f32c8fc443e87"
+  },
+  {
+    "split": "extension",
+    "start": 720,
+    "cache": "/cpfs01/projects-HDD/cfff-3469a2cbe57f_HDD/wangxiyun/DiPred+ResCrct/Workspace/github/DiPred/results/residual_dynamics_phase3_followup/cache/issued_720.pt",
+    "cache_sha256": "c1e3de91da91f8f70a519aa3df57225f9843affb490fef9945ad778da6a44f77",
+    "issued_biases": {
+      "native:0": "9af8275830f1496e82873fd2944a1619944f6fec9a380e7ad8fe3dd039010340",
+      "zero:0": "9af8275830f1496e82873fd2944a1619944f6fec9a380e7ad8fe3dd039010340",
+      "R0:0": "6d1ef0398187a83db68fb7270859de21e2caf4c05b54f7cdaf93dc3e943de487",
+      "R1_ridge:0": "39dc961c2bf03d296beaa1dd710ce66921e2f40bc6a33fe1e36d53d705e516f1",
+      "D1_ridge:0": "002d33f84cf38b070cbcef9f5c37733a8f27a7247c43debe2f312823102842e1",
+      "R1:0": "9af8275830f1496e82873fd2944a1619944f6fec9a380e7ad8fe3dd039010340",
+      "D1:0": "9af8275830f1496e82873fd2944a1619944f6fec9a380e7ad8fe3dd039010340",
+      "phase3:42": "43aecab7864d9f022cc2f9133cde9308bb4e7693da3adeef9a73fdfbbb0dcc72",
+      "phase3:43": "3fe489ed5d65c37a8c74bd1adeb2ccaae6358444fedb067f2bc972825e56d39c",
+      "phase3:44": "3dd0b2759f0e33b3cdb62c64086f2330df01adc63d76557b8845d157e367bf5e"
+    },
+    "truth_sha256": "70af7b4d2f58afdbcb37b451fff6d80fa9d73c5e1297f398bc2e42d518dab34f",
+    "frozen_selection_sha256": "402bb60c2c7b105144fff50caee1266930a9078325981e9c201f32c8fc443e87"
+  },
+  {
+    "split": "extension",
+    "start": 740,
+    "cache": "/cpfs01/projects-HDD/cfff-3469a2cbe57f_HDD/wangxiyun/DiPred+ResCrct/Workspace/github/DiPred/results/residual_dynamics_phase3_followup/cache/issued_740.pt",
+    "cache_sha256": "fbab8be68b91fb4a455a789a4876f8fee91c72d3ec806b2d9da9d94e5fb60a81",
+    "issued_biases": {
+      "native:0": "9af8275830f1496e82873fd2944a1619944f6fec9a380e7ad8fe3dd039010340",
+      "zero:0": "9af8275830f1496e82873fd2944a1619944f6fec9a380e7ad8fe3dd039010340",
+      "R0:0": "6d1ef0398187a83db68fb7270859de21e2caf4c05b54f7cdaf93dc3e943de487",
+      "R1_ridge:0": "dcd72c64a0260f2fa41173b93d71d9e4f953dc744cbdddbd724969ad71296829",
+      "D1_ridge:0": "c168ca61c16eb20457868497d8584e5f4c7920445a1ac81b3a33da0361f7913f",
+      "R1:0": "9af8275830f1496e82873fd2944a1619944f6fec9a380e7ad8fe3dd039010340",
+      "D1:0": "9af8275830f1496e82873fd2944a1619944f6fec9a380e7ad8fe3dd039010340",
+      "phase3:42": "0130b98e7f7475575b7f3292a7856834e2299b055c095e8ab6d668749368c5da",
+      "phase3:43": "7fafc9976cd4dce54c18ab8b5a06f69ca82fb4aa386397e2155bdf83a8550470",
+      "phase3:44": "ddf1f119f0d024c8bddd9ad573c09c7503fef85d007777072051b594f254b353"
+    },
+    "truth_sha256": "8c52757d330827d8d44874fc60e5d1253eb6620026545d106c8d846491623007",
+    "frozen_selection_sha256": "402bb60c2c7b105144fff50caee1266930a9078325981e9c201f32c8fc443e87"
+  },
+  {
+    "split": "extension",
+    "start": 760,
+    "cache": "/cpfs01/projects-HDD/cfff-3469a2cbe57f_HDD/wangxiyun/DiPred+ResCrct/Workspace/github/DiPred/results/residual_dynamics_phase3_followup/cache/issued_760.pt",
+    "cache_sha256": "63d665fac89a62c2a4f5e611ba7ff590dc1ed28e52eb123d516311a08c03559a",
+    "issued_biases": {
+      "native:0": "9af8275830f1496e82873fd2944a1619944f6fec9a380e7ad8fe3dd039010340",
+      "zero:0": "9af8275830f1496e82873fd2944a1619944f6fec9a380e7ad8fe3dd039010340",
+      "R0:0": "6d1ef0398187a83db68fb7270859de21e2caf4c05b54f7cdaf93dc3e943de487",
+      "R1_ridge:0": "c002521c42a9156264ff3b5b0b269bc30c2a38b60e21404c9c78834e86db5600",
+      "D1_ridge:0": "dc69debbfc87e0cf967ece1aedab546f0e788594431bcd246319a093cf7b52f3",
+      "R1:0": "9af8275830f1496e82873fd2944a1619944f6fec9a380e7ad8fe3dd039010340",
+      "D1:0": "9af8275830f1496e82873fd2944a1619944f6fec9a380e7ad8fe3dd039010340",
+      "phase3:42": "847755ab4ecc1280168310946b8d98f46d7333ce88d3a7089b0529fdbd8c6876",
+      "phase3:43": "f85b613b9a91b40449b274cb660b7ff3d2bb054c1a46c759b04bcec1a2d3c25c",
+      "phase3:44": "d10bdb8a70bd9e462bf74f3cc84566b25a30337bcfb3bde78ae1ec56e1100543"
+    },
+    "truth_sha256": "c576034ddc0f7b436846519f859c70c838f43e55d018eb8efa1e27f10e305786",
+    "frozen_selection_sha256": "402bb60c2c7b105144fff50caee1266930a9078325981e9c201f32c8fc443e87"
+  },
+  {
+    "split": "extension",
+    "start": 780,
+    "cache": "/cpfs01/projects-HDD/cfff-3469a2cbe57f_HDD/wangxiyun/DiPred+ResCrct/Workspace/github/DiPred/results/residual_dynamics_phase3_followup/cache/issued_780.pt",
+    "cache_sha256": "44e69179dacc4df2cd993e6240a53c7e76756b3c1a1f0dd2a398ea7c62995ba8",
+    "issued_biases": {
+      "native:0": "9af8275830f1496e82873fd2944a1619944f6fec9a380e7ad8fe3dd039010340",
+      "zero:0": "9af8275830f1496e82873fd2944a1619944f6fec9a380e7ad8fe3dd039010340",
+      "R0:0": "6d1ef0398187a83db68fb7270859de21e2caf4c05b54f7cdaf93dc3e943de487",
+      "R1_ridge:0": "843efd74c303689a96ad82bd3787650861d9458866dc0cba8afa873bddaf39da",
+      "D1_ridge:0": "6dd2adb5eb6b380ed78efc8b305a4b2d593feff0274a8b17a1c2fd5726da4241",
+      "R1:0": "9af8275830f1496e82873fd2944a1619944f6fec9a380e7ad8fe3dd039010340",
+      "D1:0": "9af8275830f1496e82873fd2944a1619944f6fec9a380e7ad8fe3dd039010340",
+      "phase3:42": "1d2e95111c9fcca3d237a41585dc037ef4690d9e35f2ffbcf1aca23023f7a68e",
+      "phase3:43": "e0a46b4c15b12d41aae9916416201f6ef25816d2e3aab525cc82f531060fcfd3",
+      "phase3:44": "6e59e03a0098336625b794bc366d412172ffc50999c74115ac4d9577ad957081"
+    },
+    "truth_sha256": "c9716c0a482d51855fe0cf877cb2ff68c9f99c4dd246bea4783749957fc26612",
+    "frozen_selection_sha256": "402bb60c2c7b105144fff50caee1266930a9078325981e9c201f32c8fc443e87"
+  },
+  {
+    "split": "extension",
+    "start": 800,
+    "cache": "/cpfs01/projects-HDD/cfff-3469a2cbe57f_HDD/wangxiyun/DiPred+ResCrct/Workspace/github/DiPred/results/residual_dynamics_phase3_followup/cache/issued_800.pt",
+    "cache_sha256": "2ac6d283efc27a7d81684ceb2d5b36f91fb2d55d39e3f09aba934046d0706f28",
+    "issued_biases": {
+      "native:0": "9af8275830f1496e82873fd2944a1619944f6fec9a380e7ad8fe3dd039010340",
+      "zero:0": "9af8275830f1496e82873fd2944a1619944f6fec9a380e7ad8fe3dd039010340",
+      "R0:0": "6d1ef0398187a83db68fb7270859de21e2caf4c05b54f7cdaf93dc3e943de487",
+      "R1_ridge:0": "4c85484768a7c9e2c88dc57f1480fa3cdddeb6292ab96849ed2a4a779fa6883a",
+      "D1_ridge:0": "4426fb2b926a45ec27c6dd55bfb80470e5cb52a1e27d79c6af8491e8bb8a8382",
+      "R1:0": "9af8275830f1496e82873fd2944a1619944f6fec9a380e7ad8fe3dd039010340",
+      "D1:0": "9af8275830f1496e82873fd2944a1619944f6fec9a380e7ad8fe3dd039010340",
+      "phase3:42": "d559fec38edbd3ba7d4c99ed3340a8cc2562a929f3ac649671fcc4464c5f510e",
+      "phase3:43": "bc45a12d50e8783ae8da487b52628bf08651abbf7bd03eac49a2eb90becdce6e",
+      "phase3:44": "3b093c1f5e49d2ab6884b02a99028d2e40c330256a072f9d5f1bf34f80892dfd"
+    },
+    "truth_sha256": "2fece901906dadb28a31d81f296bb74a138203bc68d727e44e0e236472572d8c",
+    "frozen_selection_sha256": "402bb60c2c7b105144fff50caee1266930a9078325981e9c201f32c8fc443e87"
+  },
+  {
+    "split": "extension",
+    "start": 820,
+    "cache": "/cpfs01/projects-HDD/cfff-3469a2cbe57f_HDD/wangxiyun/DiPred+ResCrct/Workspace/github/DiPred/results/residual_dynamics_phase3_followup/cache/issued_820.pt",
+    "cache_sha256": "06f209f68ce0593a9f28aa61077ad8fd5e18d80e1657c40bcc7080809edb9c1e",
+    "issued_biases": {
+      "native:0": "9af8275830f1496e82873fd2944a1619944f6fec9a380e7ad8fe3dd039010340",
+      "zero:0": "9af8275830f1496e82873fd2944a1619944f6fec9a380e7ad8fe3dd039010340",
+      "R0:0": "6d1ef0398187a83db68fb7270859de21e2caf4c05b54f7cdaf93dc3e943de487",
+      "R1_ridge:0": "f6030c96ce132a3215abb884f7f9f821fcc78a3001db4b15811c2cd045b02c13",
+      "D1_ridge:0": "7c4155e9b325af54a7ddcac20eee35ffc0095bf2d87b4b4d3236ee5ce65246ab",
+      "R1:0": "9af8275830f1496e82873fd2944a1619944f6fec9a380e7ad8fe3dd039010340",
+      "D1:0": "9af8275830f1496e82873fd2944a1619944f6fec9a380e7ad8fe3dd039010340",
+      "phase3:42": "deaca09327b2c677060ffdb3514f400dcf730aa31f07c6db868c5fe10d0e4a54",
+      "phase3:43": "26bcaee3955a2dc54eb23814c4b38dbe3fa335b30c2a6c52a1c5773683dd0657",
+      "phase3:44": "7c9ba07bc37ca322be5aea45076ef0b56e1dae9759088c878835ce225efd3509"
+    },
+    "truth_sha256": "cf019f6db96b69c1c52c1b6ca43178bce27338a50e2acc07e1e604b49647f847",
+    "frozen_selection_sha256": "402bb60c2c7b105144fff50caee1266930a9078325981e9c201f32c8fc443e87"
+  }
+]

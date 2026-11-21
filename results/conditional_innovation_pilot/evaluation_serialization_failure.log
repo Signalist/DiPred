@@ -1,0 +1,24 @@
+Traceback (most recent call last):
+  File "research/conditional_innovation_pilot/run.py", line 273, in <module>
+    main()
+  File "research/conditional_innovation_pilot/run.py", line 269, in main
+    globals()[args.stage]()
+  File "/usr/local/lib/python3.8/dist-packages/torch/autograd/grad_mode.py", line 34, in decorate_context
+    return func(*args, **kwargs)
+  File "research/conditional_innovation_pilot/run.py", line 259, in evaluate
+    dump(OUT/"evaluation_audit.json",audit)
+  File "/cpfs01/projects-HDD/cfff-3469a2cbe57f_HDD/wangxiyun/DiPred+ResCrct/Workspace/github/DiPred/research/residual_dynamics_phase2/common.py", line 33, in dump
+    path.write_text(json.dumps(obj, indent=2, ensure_ascii=False, allow_nan=False)+'\n')
+  File "/usr/lib/python3.8/json/__init__.py", line 234, in dumps
+    return cls(
+  File "/usr/lib/python3.8/json/encoder.py", line 201, in encode
+    chunks = list(chunks)
+  File "/usr/lib/python3.8/json/encoder.py", line 429, in _iterencode
+    yield from _iterencode_list(o, _current_indent_level)
+  File "/usr/lib/python3.8/json/encoder.py", line 325, in _iterencode_list
+    yield from chunks
+  File "/usr/lib/python3.8/json/encoder.py", line 405, in _iterencode_dict
+    yield from chunks
+  File "/usr/lib/python3.8/json/encoder.py", line 376, in _iterencode_dict
+    raise TypeError(f'keys must be str, int, float, bool or None, '
+TypeError: keys must be str, int, float, bool or None, not tuple
