@@ -1,0 +1,185 @@
+{
+  "checks": [
+    {
+      "split": "development",
+      "starts": [
+        400,
+        420
+      ],
+      "field_error": 1.942890293094024e-16,
+      "energy_error": 6.030874584450618e-19
+    },
+    {
+      "split": "test",
+      "starts": [
+        400,
+        420
+      ],
+      "field_error": 1.8041124150158794e-16,
+      "energy_error": 2.981555974335137e-19
+    },
+    {
+      "split": "extension",
+      "starts": [
+        440
+      ],
+      "field_error": 2.220446049250313e-16,
+      "energy_error": 3.2526065174565133e-19
+    },
+    {
+      "split": "extension",
+      "starts": [
+        460
+      ],
+      "field_error": 1.942890293094024e-16,
+      "energy_error": 2.168404344971009e-19
+    },
+    {
+      "split": "extension",
+      "starts": [
+        480
+      ],
+      "field_error": 1.3877787807814457e-16,
+      "energy_error": 2.168404344971009e-19
+    },
+    {
+      "split": "extension",
+      "starts": [
+        500
+      ],
+      "field_error": 1.8041124150158794e-16,
+      "energy_error": 3.6930636500287495e-19
+    },
+    {
+      "split": "extension",
+      "starts": [
+        520
+      ],
+      "field_error": 1.6653345369377348e-16,
+      "energy_error": 3.5575383784680614e-19
+    },
+    {
+      "split": "extension",
+      "starts": [
+        540
+      ],
+      "field_error": 1.6653345369377348e-16,
+      "energy_error": 3.7947076036992655e-19
+    },
+    {
+      "split": "extension",
+      "starts": [
+        560
+      ],
+      "field_error": 2.498001805406602e-16,
+      "energy_error": 3.1170812458958252e-19
+    },
+    {
+      "split": "extension",
+      "starts": [
+        580
+      ],
+      "field_error": 1.249000902703301e-16,
+      "energy_error": 1.6940658945086007e-19
+    },
+    {
+      "split": "extension",
+      "starts": [
+        600
+      ],
+      "field_error": 1.6653345369377348e-16,
+      "energy_error": 2.981555974335137e-19
+    },
+    {
+      "split": "extension",
+      "starts": [
+        620
+      ],
+      "field_error": 1.942890293094024e-16,
+      "energy_error": 3.7269449679189215e-19
+    },
+    {
+      "split": "extension",
+      "starts": [
+        640
+      ],
+      "field_error": 1.942890293094024e-16,
+      "energy_error": 3.1170812458958252e-19
+    },
+    {
+      "split": "extension",
+      "starts": [
+        660
+      ],
+      "field_error": 1.942890293094024e-16,
+      "energy_error": 2.507217523872729e-19
+    },
+    {
+      "split": "extension",
+      "starts": [
+        680
+      ],
+      "field_error": 1.942890293094024e-16,
+      "energy_error": 5.692061405548898e-19
+    },
+    {
+      "split": "extension",
+      "starts": [
+        700
+      ],
+      "field_error": 2.220446049250313e-16,
+      "energy_error": 3.3881317890172014e-19
+    },
+    {
+      "split": "extension",
+      "starts": [
+        720
+      ],
+      "field_error": 1.6653345369377348e-16,
+      "energy_error": 2.473336205982557e-19
+    },
+    {
+      "split": "extension",
+      "starts": [
+        740
+      ],
+      "field_error": 1.6653345369377348e-16,
+      "energy_error": 2.303929616531697e-19
+    },
+    {
+      "split": "extension",
+      "starts": [
+        760
+      ],
+      "field_error": 1.5612511283791264e-16,
+      "energy_error": 2.981555974335137e-19
+    },
+    {
+      "split": "extension",
+      "starts": [
+        780
+      ],
+      "field_error": 1.3877787807814457e-16,
+      "energy_error": 3.4220131069073734e-19
+    },
+    {
+      "split": "extension",
+      "starts": [
+        800
+      ],
+      "field_error": 1.6653345369377348e-16,
+      "energy_error": 1.6263032587282567e-19
+    },
+    {
+      "split": "extension",
+      "starts": [
+        820
+      ],
+      "field_error": 1.942890293094024e-16,
+      "energy_error": 4.607859233063394e-19
+    }
+  ],
+  "train_mean_sha256": "feb79dda8ffb6217dc529487f02d01bc5c4acbc70ebdb7bffb88d8241abffd5c",
+  "protocol_sha256": "98a6dfad9c88882856ae20e7222ad1e9f9b4aee38d8ed43ac12a05f6342945e3",
+  "coefficients_sha256": "1c9d5cfeb026ac2732ee517fb4413ce94c6a82e965402cd525b9a7e72361cc25"
+}

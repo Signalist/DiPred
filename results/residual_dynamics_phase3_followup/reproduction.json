@@ -1,0 +1,153 @@
+{
+  "passed": true,
+  "protocol_sha256": "98a6dfad9c88882856ae20e7222ad1e9f9b4aee38d8ed43ac12a05f6342945e3",
+  "checks": [
+    {
+      "label": "all original block scores",
+      "rows": 480,
+      "maximum_abs_error": {
+        "crps": 0.0,
+        "mse": 0.0,
+        "energy": 0.0,
+        "brier": 0.0
+      }
+    },
+    {
+      "label": "all original lead/channel scores",
+      "rows": 19200,
+      "maximum_abs_error": {
+        "crps": 0.0,
+        "mse": 0.0
+      }
+    },
+    {
+      "label": "per_seed",
+      "rows": 20,
+      "maximum_abs_error": {
+        "crps": 2.7755575615628914e-17,
+        "mse": 4.0657581468206416e-20,
+        "energy": 5.551115123125783e-17,
+        "brier": 0.0
+      }
+    },
+    {
+      "label": "per_trajectory",
+      "rows": 96,
+      "maximum_abs_error": {
+        "crps": 0.0,
+        "mse": 0.0,
+        "energy": 0.0,
+        "brier": 0.0
+      }
+    }
+  ],
+  "zero_selected": [
+    {
+      "split": "development",
+      "kind": "raw",
+      "seed": 42,
+      "max_abs": 0.0
+    },
+    {
+      "split": "development",
+      "kind": "raw",
+      "seed": 43,
+      "max_abs": 0.0
+    },
+    {
+      "split": "development",
+      "kind": "raw",
+      "seed": 44,
+      "max_abs": 0.0
+    },
+    {
+      "split": "development",
+      "kind": "std",
+      "seed": 42,
+      "max_abs": 0.0
+    },
+    {
+      "split": "development",
+      "kind": "std",
+      "seed": 43,
+      "max_abs": 0.0
+    },
+    {
+      "split": "development",
+      "kind": "std",
+      "seed": 44,
+      "max_abs": 0.0
+    },
+    {
+      "split": "test",
+      "kind": "raw",
+      "seed": 42,
+      "max_abs": 0.0
+    },
+    {
+      "split": "test",
+      "kind": "raw",
+      "seed": 43,
+      "max_abs": 0.0
+    },
+    {
+      "split": "test",
+      "kind": "raw",
+      "seed": 44,
+      "max_abs": 0.0
+    },
+    {
+      "split": "test",
+      "kind": "std",
+      "seed": 42,
+      "max_abs": 0.0
+    },
+    {
+      "split": "test",
+      "kind": "std",
+      "seed": 43,
+      "max_abs": 0.0
+    },
+    {
+      "split": "test",
+      "kind": "std",
+      "seed": 44,
+      "max_abs": 0.0
+    }
+  ],
+  "native_replay_errors": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "native_replay_history_sha256": "be82a210aee48c1ae8b82a5941b677a97049928f74b26f15be66128db8006e87"
+}

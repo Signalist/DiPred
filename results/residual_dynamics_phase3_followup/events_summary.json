@@ -1,0 +1,100 @@
+{
+  "blocks": 240,
+  "trajectories": 12,
+  "positive_blocks": 7,
+  "positive_trajectories": 1,
+  "threshold": 0.027165522798895836,
+  "positive_cases": [
+    {
+      "trajectory": "13950_20.h5",
+      "Re": "13950",
+      "start": "440",
+      "seed": "0",
+      "method": "native",
+      "crps": 0.15443769514226346,
+      "mse": 0.0001735741609306725,
+      "energy": 0.33124931184618805,
+      "event": "1",
+      "probability": "0.5",
+      "brier": 0.25
+    },
+    {
+      "trajectory": "13950_20.h5",
+      "Re": "13950",
+      "start": "520",
+      "seed": "0",
+      "method": "native",
+      "crps": 0.1543981240219322,
+      "mse": 0.00015506159186195526,
+      "energy": 0.3802827562758976,
+      "event": "1",
+      "probability": "0.0",
+      "brier": 1.0
+    },
+    {
+      "trajectory": "13950_20.h5",
+      "Re": "13950",
+      "start": "660",
+      "seed": "0",
+      "method": "native",
+      "crps": 0.1466819834797097,
+      "mse": 0.00017680164205377444,
+      "energy": 0.30453117102851823,
+      "event": "1",
+      "probability": "0.0",
+      "brier": 1.0
+    },
+    {
+      "trajectory": "13950_20.h5",
+      "Re": "13950",
+      "start": "680",
+      "seed": "0",
+      "method": "native",
+      "crps": 0.14704749549459173,
+      "mse": 0.0001707932912546577,
+      "energy": 0.333147164119479,
+      "event": "1",
+      "probability": "0.0625",
+      "brier": 0.87890625
+    },
+    {
+      "trajectory": "13950_20.h5",
+      "Re": "13950",
+      "start": "740",
+      "seed": "0",
+      "method": "native",
+      "crps": 0.15705051355573202,
+      "mse": 0.00019364239192669038,
+      "energy": 0.3476870143280493,
+      "event": "1",
+      "probability": "0.96875",
+      "brier": 0.0009765625
+    },
+    {
+      "trajectory": "13950_20.h5",
+      "Re": "13950",
+      "start": "760",
+      "seed": "0",
+      "method": "native",
+      "crps": 0.1700324227833579,
+      "mse": 0.00019695085585232487,
+      "energy": 0.4097455095909012,
+      "event": "1",
+      "probability": "0.0",
+      "brier": 1.0
+    },
+    {
+      "trajectory": "13950_20.h5",
+      "Re": "13950",
+      "start": "780",
+      "seed": "0",
+      "method": "native",
+      "crps": 0.15867450738173652,
+      "mse": 0.00017645987858701628,
+      "energy": 0.3521702394955815,
+      "event": "1",
+      "probability": "0.625",
+      "brier": 0.140625
+    }
+  ]
+}

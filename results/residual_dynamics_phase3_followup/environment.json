@@ -1,0 +1,11 @@
+{
+  "torch": "1.14.0a0+44dac51",
+  "cuda": "12.0",
+  "gpu": "NVIDIA A100-SXM4-80GB",
+  "cudnn": 8700,
+  "protocol_sha256": "98a6dfad9c88882856ae20e7222ad1e9f9b4aee38d8ed43ac12a05f6342945e3",
+  "threads": 4,
+  "tf32_matmul": false,
+  "tf32_cudnn": false,
+  "deterministic_cudnn": true
+}

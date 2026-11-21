@@ -1,0 +1,11 @@
+test_full_crps_value_and_gradient (__main__.FollowupTests) ... PASS full empirical CRPS value/gradient against explicit 32x32 pair constant
+ok
+test_inhomogeneous_reconstruction_and_cross_term (__main__.FollowupTests) ... ok
+test_real_extension_interface_reproduces_old_scores (__main__.FollowupTests) ... ok
+test_shift_all_member_differences_and_covariance (__main__.FollowupTests) ... ok
+test_statistical_unit_is_trajectory (__main__.FollowupTests) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 2.096s
+
+OK

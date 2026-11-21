@@ -1,0 +1,57 @@
+PASS 20 windows, 12 original trajectories, 3 frozen heads, full detail and paired summaries
+PASS prior stream native reference, event counts, covariance, hashes and issue/reveal sequence
+[
+  {
+    "scope": "overall",
+    "subgroup": "all",
+    "metric": "crps",
+    "native": 0.08686947934847507,
+    "corrected": 0.08666143660383956,
+    "relative_percent": -0.23948888170602098,
+    "mean_delta": -0.00020804274463550576,
+    "ci95_low": -0.0003626662627594347,
+    "ci95_high": -4.531436226580449e-05,
+    "improved": 9,
+    "trajectories": 12
+  },
+  {
+    "scope": "overall",
+    "subgroup": "all",
+    "metric": "mse",
+    "native": 0.000114488606880084,
+    "corrected": 0.000114992757361403,
+    "relative_percent": 0.44034991346087643,
+    "mean_delta": 5.041504813190129e-07,
+    "ci95_low": -3.4112180520812904e-08,
+    "ci95_high": 1.3302897626376347e-06,
+    "improved": 5,
+    "trajectories": 12
+  },
+  {
+    "scope": "overall",
+    "subgroup": "all",
+    "metric": "energy",
+    "native": 0.16937491870561197,
+    "corrected": 0.16904567590798383,
+    "relative_percent": -0.1943869848878756,
+    "mean_delta": -0.0003292427976281295,
+    "ci95_low": -0.0006321718591333243,
+    "ci95_high": -2.4165482969243815e-05,
+    "improved": 8,
+    "trajectories": 12
+  },
+  {
+    "scope": "overall",
+    "subgroup": "all",
+    "metric": "brier",
+    "native": 0.017793782552083335,
+    "corrected": 0.017787000868055555,
+    "relative_percent": -0.03811266102599717,
+    "mean_delta": -6.781684027778549e-06,
+    "ci95_low": -2.0345052083335646e-05,
+    "ci95_high": 0.0,
+    "improved": 1,
+    "trajectories": 12
+  }
+]
+event 7 blocks 1 trajectories

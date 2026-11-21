@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "research/residual_dynamics_phase3_followup/run.py", line 372, in <module>
+    main()
+  File "research/residual_dynamics_phase3_followup/run.py", line 368, in main
+    stage()
+  File "/usr/local/lib/python3.8/dist-packages/torch/autograd/grad_mode.py", line 34, in decorate_context
+    return func(*args, **kwargs)
+  File "research/residual_dynamics_phase3_followup/run.py", line 120, in reproduce
+    from research.residual_dynamics_phase3.analyze import group
+  File "/cpfs01/projects-HDD/cfff-3469a2cbe57f_HDD/wangxiyun/DiPred+ResCrct/Workspace/github/DiPred/research/residual_dynamics_phase3/analyze.py", line 4, in <module>
+    from run import out,ref,read,dump,digest,csvwrite,bootstrap,records,np
+ImportError: cannot import name 'out' from 'run' (/cpfs01/projects-HDD/cfff-3469a2cbe57f_HDD/wangxiyun/DiPred+ResCrct/Workspace/github/DiPred/research/residual_dynamics_phase3_followup/run.py)

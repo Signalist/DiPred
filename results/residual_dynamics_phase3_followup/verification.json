@@ -1,0 +1,36 @@
+{
+  "passed": true,
+  "scores": 960,
+  "detail": 38400,
+  "original_trajectories": 12,
+  "windows": 20,
+  "invariance_maximum": {
+    "pair_max_abs": 2.9802322387695312e-08,
+    "centered_max_abs": 2.8870999813079834e-08,
+    "width_max_abs": 9.321809538685721e-09,
+    "member_gram_max_abs": 8.267237263694105e-13,
+    "channel_lead_covariance_max_abs": 3.2873509022451e-12,
+    "all_feature_covariance_error_bound": 7.342654942399385e-09
+  },
+  "detail_check": {
+    "label": "detail-to-block",
+    "rows": 960,
+    "maximum_abs_error": {
+      "crps": 8.326672684688674e-17,
+      "mse": 2.168404344971009e-19
+    }
+  },
+  "independent_stream_check": {
+    "label": "old stream native scores",
+    "rows": 240,
+    "maximum_abs_error": {
+      "crps": 2.7755575615628914e-17,
+      "mse": 2.168404344971009e-19,
+      "energy": 8.049116928532385e-16,
+      "brier": 0.0
+    }
+  },
+  "protocol_sha256": "98a6dfad9c88882856ae20e7222ad1e9f9b4aee38d8ed43ac12a05f6342945e3",
+  "cache_hashes_verified": 20,
+  "prediction_before_truth_verified": true
+}
