@@ -1,0 +1,20 @@
+test_every_recursive_source_and_encoder_has_gradient (__main__.Checks) ... ok
+test_full_reduced_crps_value_and_gradient (__main__.Checks) ... ok
+test_no_truth_input_or_partial_block (__main__.Checks) ... ok
+test_operator_dtype_device_and_saved_coefficients (__main__.Checks) ... ok
+test_real_train_cache_sign_normalization_and_crps (__main__.Checks) ... ok
+test_scientific_and_protected_selection_are_distinct (__main__.Checks) ... ok
+test_zero_identity_same_initialization_complete_context (__main__.Checks) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 6.519s
+
+OK
+Traceback (most recent call last):
+  File "research/nonlinear_parameterization_control/tests.py", line 99, in <module>
+    if result.wasSuccessful():dump(OUT/'PREFLIGHT.json',dict(passed=True,tests=result.testsRun,config_sha256=CONFIG_HASH,code={str(p.relative_to(ROOT)):digest(p) for p in Path(__file__).parent.glob('*.py')},utc=time.time()))
+  File "research/nonlinear_parameterization_control/tests.py", line 99, in <dictcomp>
+    if result.wasSuccessful():dump(OUT/'PREFLIGHT.json',dict(passed=True,tests=result.testsRun,config_sha256=CONFIG_HASH,code={str(p.relative_to(ROOT)):digest(p) for p in Path(__file__).parent.glob('*.py')},utc=time.time()))
+  File "/usr/lib/python3.8/pathlib.py", line 908, in relative_to
+    raise ValueError("{!r} does not start with {!r}"
+ValueError: 'research/nonlinear_parameterization_control/run.py' does not start with '/cpfs01/projects-HDD/cfff-3469a2cbe57f_HDD/wangxiyun/DiPred+ResCrct/Workspace/github/DiPred'

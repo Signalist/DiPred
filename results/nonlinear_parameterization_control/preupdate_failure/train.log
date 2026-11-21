@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "research/nonlinear_parameterization_control/run.py", line 168, in <module>
+    globals()[args.stage]()
+  File "research/nonlinear_parameterization_control/run.py", line 50, in train
+    csvwrite(OUT/'candidates.csv',candidates);csvwrite(OUT/'training.csv',trace)
+  File "/cpfs01/projects-HDD/cfff-3469a2cbe57f_HDD/wangxiyun/DiPred+ResCrct/Workspace/github/DiPred/research/residual_dynamics_phase2/common.py", line 43, in csvwrite
+    w = csv.DictWriter(f, fieldnames=list(rows[0]), lineterminator='\n')
+IndexError: list index out of range

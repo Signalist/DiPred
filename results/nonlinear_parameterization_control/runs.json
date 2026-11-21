@@ -1,0 +1,65 @@
+[
+  {
+    "kind": "D",
+    "seed": 42,
+    "steps": 1000,
+    "initial_state_sha256": "f5513c8b84fbc0d2eb9a794ab84569e6f1384a4848e9546e659171623348ad0c",
+    "schedule_sha256": "0c5c91e75774f30ddfcd7d4561980434c96490e443d74b716200cb7e86dac431"
+  },
+  {
+    "kind": "D",
+    "seed": 43,
+    "steps": 1000,
+    "initial_state_sha256": "1a6cb7d89631541381121af3aa18189c8f5384c006a1797c988cb36b92d2bde4",
+    "schedule_sha256": "0c5c91e75774f30ddfcd7d4561980434c96490e443d74b716200cb7e86dac431"
+  },
+  {
+    "kind": "D",
+    "seed": 44,
+    "steps": 1000,
+    "initial_state_sha256": "c8381b0276de7eb00bb34704da407a70afefc9dfc3296b40f94bb739dbfb72a5",
+    "schedule_sha256": "0c5c91e75774f30ddfcd7d4561980434c96490e443d74b716200cb7e86dac431"
+  },
+  {
+    "kind": "T_diag",
+    "seed": 42,
+    "steps": 1000,
+    "initial_state_sha256": "f5513c8b84fbc0d2eb9a794ab84569e6f1384a4848e9546e659171623348ad0c",
+    "schedule_sha256": "0c5c91e75774f30ddfcd7d4561980434c96490e443d74b716200cb7e86dac431"
+  },
+  {
+    "kind": "T_diag",
+    "seed": 43,
+    "steps": 1000,
+    "initial_state_sha256": "1a6cb7d89631541381121af3aa18189c8f5384c006a1797c988cb36b92d2bde4",
+    "schedule_sha256": "0c5c91e75774f30ddfcd7d4561980434c96490e443d74b716200cb7e86dac431"
+  },
+  {
+    "kind": "T_diag",
+    "seed": 44,
+    "steps": 1000,
+    "initial_state_sha256": "c8381b0276de7eb00bb34704da407a70afefc9dfc3296b40f94bb739dbfb72a5",
+    "schedule_sha256": "0c5c91e75774f30ddfcd7d4561980434c96490e443d74b716200cb7e86dac431"
+  },
+  {
+    "kind": "T_local",
+    "seed": 42,
+    "steps": 1000,
+    "initial_state_sha256": "f5513c8b84fbc0d2eb9a794ab84569e6f1384a4848e9546e659171623348ad0c",
+    "schedule_sha256": "0c5c91e75774f30ddfcd7d4561980434c96490e443d74b716200cb7e86dac431"
+  },
+  {
+    "kind": "T_local",
+    "seed": 43,
+    "steps": 1000,
+    "initial_state_sha256": "1a6cb7d89631541381121af3aa18189c8f5384c006a1797c988cb36b92d2bde4",
+    "schedule_sha256": "0c5c91e75774f30ddfcd7d4561980434c96490e443d74b716200cb7e86dac431"
+  },
+  {
+    "kind": "T_local",
+    "seed": 44,
+    "steps": 1000,
+    "initial_state_sha256": "c8381b0276de7eb00bb34704da407a70afefc9dfc3296b40f94bb739dbfb72a5",
+    "schedule_sha256": "0c5c91e75774f30ddfcd7d4561980434c96490e443d74b716200cb7e86dac431"
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "reason": "Exact zero aliases acquire artificial signs when scores are repeated across seeds before floating aggregation. Canonicalize only aliases proven by frozen step0 and issued tensor hashes; preserve raw scores and frozen models.",
+  "files": {
+    "research/nonlinear_parameterization_control/analyze.py": {
+      "before": "d69ead9dc0e8ff80f58a0b57a40cfe5025db7d322ddbcbcc5a8216ddaec3fab4",
+      "after": "82ac14b25f9b132386351d6afb780c91e4d93ac13e8d121ebd311ea20078fdd5"
+    },
+    "research/nonlinear_parameterization_control/verify.py": {
+      "before": "6c535008e83d971fc007a07aca8e7d707df13f6bc7cb82b75fe12cc937bdddd4",
+      "after": "a5ab58bc07774e0a3bac336fb6379a07ff07fa6388c1decc2b72d4d916c2ecb5"
+    }
+  },
+  "raw_scores_sha256": "2e53fce4ba7c2ab1ab56afab27e77f47f15969c57755d5e92d31de2bfcc56703",
+  "raw_detail_sha256": "47bc125c93506cf92ee7138cc5939a5482b8d2288f03483e1b433ae4a6e77428",
+  "frozen_sha256": "e21d74557c621c721b6e8e6ebe18faa53034c10faf886c14788f043016de050d"
+}

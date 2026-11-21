@@ -1,0 +1,12 @@
+test_every_recursive_source_and_encoder_has_gradient (__main__.Checks) ... ok
+test_full_reduced_crps_value_and_gradient (__main__.Checks) ... ok
+test_no_truth_input_or_partial_block (__main__.Checks) ... ok
+test_operator_dtype_device_and_saved_coefficients (__main__.Checks) ... ok
+test_real_train_cache_sign_normalization_and_crps (__main__.Checks) ... ok
+test_scientific_and_protected_selection_are_distinct (__main__.Checks) ... ok
+test_zero_identity_same_initialization_complete_context (__main__.Checks) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 5.545s
+
+OK

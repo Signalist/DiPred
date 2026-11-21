@@ -1,0 +1,5 @@
+PASS: 9 runs, exactly9000 updates, equal initialization per seed and identical shared batches
+PASS: 45 full development checkpoints; both selections independently reconstructed
+PASS: 6072 complete block scores and242880 detailed rows, paired original-trajectory bootstrap
+PASS: frozen-before-test and issued-before-truth ordering, zero aliases, member spread invariance
+PASS: old artifacts, operator, weights, cache and original HDF5 hashes unchanged

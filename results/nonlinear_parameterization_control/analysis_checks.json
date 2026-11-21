@@ -1,0 +1,30 @@
+{
+  "rows": 6072,
+  "detail": 242880,
+  "invariance_maximum": {
+    "pair_max_abs": 2.9802322387695312e-08,
+    "centered_max_abs": 2.8870999813079834e-08,
+    "width_max_abs": 8.949106901703918e-09,
+    "member_gram_max_abs": 6.629965782108117e-13,
+    "channel_lead_covariance_max_abs": 2.9979397660598763e-12,
+    "all_feature_covariance_error_bound": 7.045465183486144e-09
+  },
+  "events": {
+    "test": {
+      "blocks": 24,
+      "trajectories": 12,
+      "positive_blocks": 0,
+      "positive_trajectories": [],
+      "threshold": 0.027165522798895836
+    },
+    "extension": {
+      "blocks": 240,
+      "trajectories": 12,
+      "positive_blocks": 7,
+      "positive_trajectories": [
+        "13950_20.h5"
+      ],
+      "threshold": 0.027165522798895836
+    }
+  }
+}

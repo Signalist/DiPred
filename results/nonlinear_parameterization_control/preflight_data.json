@@ -1,0 +1,84 @@
+{
+  "cache_hashes": {
+    "/cpfs01/projects-HDD/cfff-3469a2cbe57f_HDD/wangxiyun/DiPred+ResCrct/Workspace/runs/residual_dynamics_phase2/train_400_native.pt": "7e50428c2d27f639476f268654b6c5f128db7debc61ec94f374d201a13cfb1cf",
+    "/cpfs01/projects-HDD/cfff-3469a2cbe57f_HDD/wangxiyun/DiPred+ResCrct/Workspace/runs/residual_dynamics_phase2/train_420_native.pt": "816ced1d47e350c05c1ca2121cdf7e09d24c801ddc8861e2a81eea7060960b77",
+    "/cpfs01/projects-HDD/cfff-3469a2cbe57f_HDD/wangxiyun/DiPred+ResCrct/Workspace/runs/residual_dynamics_phase2/train_fields.pt": "38863f515f540f02cd2c1b4f889e12056308e50e9938f98b04165c04bd201727",
+    "/cpfs01/projects-HDD/cfff-3469a2cbe57f_HDD/wangxiyun/DiPred+ResCrct/Workspace/runs/residual_dynamics_phase2/development_400_native.pt": "ac6ebca9ebf0f8f14ef5789703f2826f9635803d20fed445f760ddaf9d575267",
+    "/cpfs01/projects-HDD/cfff-3469a2cbe57f_HDD/wangxiyun/DiPred+ResCrct/Workspace/runs/residual_dynamics_phase2/development_420_native.pt": "35988a76c61e131d47e08771561dc67dbc9a5f8ae56700985df0abeaf0caaf40",
+    "/cpfs01/projects-HDD/cfff-3469a2cbe57f_HDD/wangxiyun/DiPred+ResCrct/Workspace/runs/residual_dynamics_phase2/development_fields.pt": "358b9da2fcce98bab12dcf36dc8c5350ef34df697b33fa4b23b30f8723ff3f9e"
+  },
+  "train_blocks": 92,
+  "member_seeds": [
+    500000,
+    500001,
+    500002,
+    500003,
+    500004,
+    500005,
+    500006,
+    500007,
+    500008,
+    500009,
+    500010,
+    500011,
+    500012,
+    500013,
+    500014,
+    500015,
+    500016,
+    500017,
+    500018,
+    500019,
+    500020,
+    500021,
+    500022,
+    500023,
+    500024,
+    500025,
+    500026,
+    500027,
+    500028,
+    500029,
+    500030,
+    500031
+  ],
+  "normalization": {
+    "mean": [
+      [
+        [
+          [
+            [
+              0.1733045130968094
+            ]
+          ]
+        ],
+        [
+          [
+            [
+              -0.00037393238744698465
+            ]
+          ]
+        ]
+      ]
+    ],
+    "std": [
+      [
+        [
+          [
+            [
+              0.11372903734445572
+            ]
+          ]
+        ],
+        [
+          [
+            [
+              0.01720684953033924
+            ]
+          ]
+        ]
+      ]
+    ]
+  },
+  "bias_sign": "mean(P)-Y"
+}

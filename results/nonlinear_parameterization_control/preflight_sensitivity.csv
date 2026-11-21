@@ -1,0 +1,13 @@
+label,kind,lead,channel,input_gradient_l1,max_radius_relative_1e6,gradient_fraction_outside_radius1,q_rms
+preflight_synthetic_nonzero_weights_real_train_input,D,1,u,0.0051466189324855804,1,0.0,0.0006919490406289697
+preflight_synthetic_nonzero_weights_real_train_input,D,1,v,0.0007786673959344625,1,0.0,0.0006919490406289697
+preflight_synthetic_nonzero_weights_real_train_input,D,20,u,0.0051466189324855804,1,0.0,0.0006919490406289697
+preflight_synthetic_nonzero_weights_real_train_input,D,20,v,0.0007786673959344625,1,0.0,0.0006919490406289697
+preflight_synthetic_nonzero_weights_real_train_input,T_diag,1,u,0.0051466189324855804,1,0.0,0.0050099994987249374
+preflight_synthetic_nonzero_weights_real_train_input,T_diag,1,v,0.0007786673959344625,1,0.0,0.0050099994987249374
+preflight_synthetic_nonzero_weights_real_train_input,T_diag,20,u,0.05224780738353729,1,0.0,0.0050099994987249374
+preflight_synthetic_nonzero_weights_real_train_input,T_diag,20,v,0.00946076586842537,1,0.0,0.0050099994987249374
+preflight_synthetic_nonzero_weights_real_train_input,T_local,1,u,0.0051466189324855804,1,0.0,0.006652774754911661
+preflight_synthetic_nonzero_weights_real_train_input,T_local,1,v,0.0007786673959344625,1,0.0,0.006652774754911661
+preflight_synthetic_nonzero_weights_real_train_input,T_local,20,u,0.09389974176883698,18,0.7677067621147646,0.006652774754911661
+preflight_synthetic_nonzero_weights_real_train_input,T_local,20,v,0.019537068903446198,19,0.8656268865210064,0.006652774754911661

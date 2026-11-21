@@ -1,0 +1,18 @@
+{
+  "test": {
+    "blocks": 24,
+    "trajectories": 12,
+    "positive_blocks": 0,
+    "positive_trajectories": [],
+    "threshold": 0.027165522798895836
+  },
+  "extension": {
+    "blocks": 240,
+    "trajectories": 12,
+    "positive_blocks": 7,
+    "positive_trajectories": [
+      "13950_20.h5"
+    ],
+    "threshold": 0.027165522798895836
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "reason": "Empty training CSV at step0; no optimizer update executed",
+  "optimizer_updates": 0,
+  "fix": "Skip CSV write while trace is empty",
+  "protocol_changed": false
+}
