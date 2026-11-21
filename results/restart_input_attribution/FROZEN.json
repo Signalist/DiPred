@@ -1,0 +1,15 @@
+{
+  "config_sha256": "a39018d53809f6423f13d4ea3088f8740a813b70b107bbc598118b4bf634cd4f",
+  "protocol_sha256": "06e391ec20546ac4507cbaaed9fa27a1dc16b44512325e5623bbb9c7fb061674",
+  "code": {
+    "research/restart_input_attribution/analyze.py": "ab4298228b8ddc25048df81d600682014d1196a2b65b866bb2a4ba67cc218a66",
+    "research/restart_input_attribution/run.py": "4ff4dcc9990402bd6a204dd0da8a2064deea76552579e08f55de744d9c4f13e2",
+    "research/restart_input_attribution/verify.py": "fe367fd4fddc75622df80484d99626a80e21a0a9ed097fee737414000d07c2fe",
+    "research/restart_input_attribution/preflight.py": "81a72825d98ccd27d214fbb2f71ca100749426baa7e0c5b3c0fce3dc70350450",
+    "research/restart_input_attribution/core.py": "918d63c88a7ba2ebb6222b2768f43805c7dff066badd3254a9cc962eb967677b"
+  },
+  "preflight_sha256": "a66264da21d33f4b3112c3111c04362f1a82e08a0a5f12bc7e25254fda7094ce",
+  "jvp_enabled": true,
+  "old_manifest_sha256": "bad8991f32fcf11397132d2e503e13b21b49b1e0d24e706ad391747edfb3e4e4",
+  "utc": 1795272583.0129344
+}

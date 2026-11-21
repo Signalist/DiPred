@@ -1,0 +1,14 @@
+{
+  "cwd": "/cpfs01/projects-HDD/cfff-3469a2cbe57f_HDD/wangxiyun/DiPred+ResCrct/Workspace/github/DiPred",
+  "commands": [
+    "pwd; git status --short; git branch --show-current; git rev-parse HEAD",
+    "git worktree list",
+    "git ls-remote origin refs/heads/dynamics",
+    "nvidia-smi",
+    "source ../../env.sh && python research/restart_input_attribution/preflight.py > results/restart_input_attribution/preflight.log 2>&1",
+    "source ../../env.sh && python research/restart_input_attribution/run.py freeze > results/restart_input_attribution/freeze.log 2>&1 && python research/restart_input_attribution/run.py formal > results/restart_input_attribution/run.log 2>&1",
+    "source ../../env.sh && python research/restart_input_attribution/analyze.py > results/restart_input_attribution/analyze.log 2>&1 && python research/restart_input_attribution/verify.py > results/restart_input_attribution/verify.log 2>&1"
+  ],
+  "note": "Semantic shell invocations; read-only inspection commands are summarized. No training command was executed.",
+  "additional_read_only_audit": "Inline Python compared all 1728 B/S rows and nine quality metrics against results/native_restart_consistency/quality.csv (maximum difference 0), and SHA256 of the two preflight training HDF5 files against the old data_hashes.json. Results in ADDITIONAL_AUDIT.json."
+}

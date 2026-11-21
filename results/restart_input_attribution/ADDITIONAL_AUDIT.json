@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "old_B_S_all_quality_metrics_maxabs": 0.0,
+  "compared_quality_rows": 1728,
+  "preflight_train_source_hashes": {
+    "10125_0.h5": "1d12c4e6a8bc0b8410c9921452fc262112244a386eba753e1ca4ec70fafc2b7a",
+    "10125_10.h5": "7a83a11d7893d5976b753f6ffd1c4e68c6d59e89fbdece2e2014283d221e8de7"
+  }
+}

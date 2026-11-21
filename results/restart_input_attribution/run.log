@@ -1,0 +1,25 @@
+PROGRESS 12 /288 paths 768 jvp_directions 48 seconds 10.15
+PROGRESS 24 /288 paths 1536 jvp_directions 96 seconds 20.05
+PROGRESS 36 /288 paths 2304 jvp_directions 144 seconds 31.65
+PROGRESS 48 /288 paths 3072 jvp_directions 144 seconds 37.78
+PROGRESS 60 /288 paths 3840 jvp_directions 144 seconds 44.1
+PROGRESS 72 /288 paths 4608 jvp_directions 144 seconds 50.38
+PROGRESS 84 /288 paths 5376 jvp_directions 144 seconds 57.5
+PROGRESS 96 /288 paths 6144 jvp_directions 144 seconds 64.97
+PROGRESS 108 /288 paths 6912 jvp_directions 144 seconds 71.75
+PROGRESS 120 /288 paths 7680 jvp_directions 144 seconds 78.39
+PROGRESS 132 /288 paths 8448 jvp_directions 144 seconds 84.78
+PROGRESS 144 /288 paths 9216 jvp_directions 144 seconds 93.11
+PROGRESS 156 /288 paths 9984 jvp_directions 192 seconds 103.48
+PROGRESS 168 /288 paths 10752 jvp_directions 240 seconds 113.89
+PROGRESS 180 /288 paths 11520 jvp_directions 288 seconds 125.43
+PROGRESS 192 /288 paths 12288 jvp_directions 288 seconds 132.09
+PROGRESS 204 /288 paths 13056 jvp_directions 288 seconds 138.73
+PROGRESS 216 /288 paths 13824 jvp_directions 288 seconds 145.62
+PROGRESS 228 /288 paths 14592 jvp_directions 288 seconds 155.12
+PROGRESS 240 /288 paths 15360 jvp_directions 288 seconds 162.28
+PROGRESS 252 /288 paths 16128 jvp_directions 288 seconds 169.33
+PROGRESS 264 /288 paths 16896 jvp_directions 288 seconds 176.65
+PROGRESS 276 /288 paths 17664 jvp_directions 288 seconds 185.24
+PROGRESS 288 /288 paths 18432 jvp_directions 288 seconds 192.49
+COMPLETE 288 groups 18432 new full paths

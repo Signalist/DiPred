@@ -1,0 +1,7 @@
+{
+  "torch": "1.14.0a0+44dac51",
+  "cuda": "12.0",
+  "gpu": "NVIDIA A100-SXM4-80GB",
+  "tf32": false,
+  "threads": 4
+}

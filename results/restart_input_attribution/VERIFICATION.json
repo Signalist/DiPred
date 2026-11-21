@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "groups": 288,
+  "paths": 18432,
+  "jvp_directions": 288,
+  "source_data_hashes_checked": 24,
+  "source_cache_hashes_checked": 96,
+  "event_order_checked": true,
+  "old_files_unchanged": true,
+  "checkpoint_hashes": {
+    "packaged_checkpoint_sha256": "834260c9838b058d3e415b1efbd3fa19f7998884a36e46d14d62b10ed3ad8cfe",
+    "original_checkpoint_sha256": "f99b7fdb15219c0df10b8f93647c003379a307d59afb6660eb66d9b2830ffdbd",
+    "predictor_tensors_exact": true
+  },
+  "paired_noise_checked": true,
+  "input_prefix_checked": true,
+  "score_maxabs": 1.6653345369377348e-16,
+  "algebra_maxabs": 8.881784197001252e-16,
+  "jvp_metrics_maxabs": 1.33994704221152e-10,
+  "cache_bytes": 4951577240,
+  "utc": 1795272972.7123108
+}

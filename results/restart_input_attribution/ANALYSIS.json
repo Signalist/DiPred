@@ -1,0 +1,13 @@
+{
+  "utc": 1795272797.535042,
+  "unit": "original trajectory; windows/repeats/members averaged within trajectory",
+  "bootstrap": 10000,
+  "seed": 123,
+  "intervals": [
+    0.95,
+    0.9833333333333333
+  ],
+  "jvp_near_zero_rows": 0,
+  "full_amplitude_credible_trajectory_k": 62,
+  "full_amplitude_total_trajectory_k": 72
+}

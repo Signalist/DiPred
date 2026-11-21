@@ -1,0 +1,7 @@
+PREFLIGHT 10125_0.h5 2 replay 0.0 FD [{'trajectory': '10125_0.h5', 'k': 2, 'member': 0, 'passed': True, 'jvp_rms': 3.330803567307216}, {'trajectory': '10125_0.h5', 'k': 2, 'member': 16, 'passed': True, 'jvp_rms': 3.15273981189025}]
+PREFLIGHT 10125_0.h5 5 replay 0.0 FD [{'trajectory': '10125_0.h5', 'k': 5, 'member': 0, 'passed': True, 'jvp_rms': 1.6718805269804349}, {'trajectory': '10125_0.h5', 'k': 5, 'member': 16, 'passed': True, 'jvp_rms': 1.7920891436203634}]
+PREFLIGHT 10125_0.h5 10 replay 0.0 FD [{'trajectory': '10125_0.h5', 'k': 10, 'member': 0, 'passed': True, 'jvp_rms': 1.420037450517367}, {'trajectory': '10125_0.h5', 'k': 10, 'member': 16, 'passed': True, 'jvp_rms': 1.3108017209400828}]
+PREFLIGHT 10125_10.h5 2 replay 0.0 FD [{'trajectory': '10125_10.h5', 'k': 2, 'member': 0, 'passed': True, 'jvp_rms': 2.8321808741502372}, {'trajectory': '10125_10.h5', 'k': 2, 'member': 16, 'passed': True, 'jvp_rms': 3.0428154661523723}]
+PREFLIGHT 10125_10.h5 5 replay 0.0 FD [{'trajectory': '10125_10.h5', 'k': 5, 'member': 0, 'passed': True, 'jvp_rms': 1.7938868810586512}, {'trajectory': '10125_10.h5', 'k': 5, 'member': 16, 'passed': True, 'jvp_rms': 2.123979782499246}]
+PREFLIGHT 10125_10.h5 10 replay 0.0 FD [{'trajectory': '10125_10.h5', 'k': 10, 'member': 0, 'passed': True, 'jvp_rms': 1.4065038948706807}, {'trajectory': '10125_10.h5', 'k': 10, 'member': 16, 'passed': True, 'jvp_rms': 1.4150569447042611}]
+PREFLIGHT_COMPLETE True seconds 4.718748718500137
