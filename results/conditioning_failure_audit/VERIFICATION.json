@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "trajectories": 24,
+  "score_rows": 648,
+  "delta_rows": 1728,
+  "replay_rows": 540,
+  "event_order_checked": true,
+  "training_selection_checked": true,
+  "checkpoint_hashes_checked": 3,
+  "full_identity_maxabs": 1.1102230246251565e-16,
+  "crps_parts_maxabs": 2.7755575615628914e-17,
+  "summary_maxabs": 5.551115123125783e-17,
+  "optimizer_updates": 0,
+  "nonzero_forward_groups": 48,
+  "reused_groups": 24,
+  "prediction_cache_bytes": 0,
+  "delivery_bytes_before_verification": 1161229,
+  "old_dependencies_unchanged": true,
+  "utc": 1795287878.415801
+}

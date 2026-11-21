@@ -1,0 +1,29 @@
+{
+  "patterns": [
+    {
+      "step": 250,
+      "mean_pattern": [
+        "A:训练子集full均值未改善"
+      ],
+      "uncertain_intervals": true,
+      "train_full_delta": 4.346937640069328e-05,
+      "train_overlap_delta": 0.00013627378611456216,
+      "development_overlap_delta": 0.000270665465532204
+    },
+    {
+      "step": 1000,
+      "mean_pattern": [
+        "C:训练overlap改善而开发overlap退步"
+      ],
+      "uncertain_intervals": true,
+      "train_full_delta": -7.2247830993067e-05,
+      "train_overlap_delta": -7.668875443675333e-06,
+      "development_overlap_delta": 0.0008573458338493357
+    }
+  ],
+  "bootstrap_unit": "original trajectory; train subset is purposive Re-balanced12, not full46 estimate",
+  "bootstrap_samples": 10000,
+  "bootstrap_seed": 123,
+  "score_summary_rows": 54,
+  "delta_summary_rows": 144
+}

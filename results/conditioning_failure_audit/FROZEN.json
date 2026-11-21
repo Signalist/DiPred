@@ -1,0 +1,72 @@
+{
+  "code_sha256": "e770924ea04a59e460a373614406e9558e170ace7d7c4b478f798518bcf2a8a1",
+  "config_sha256": "4b554904ab2c42d0ea21c44277ea16978bb3b95addbda3fcfac69d6ce151adad",
+  "protocol_sha256": "9c085ba1511625b6ea34a9edb28ab7f8e20fe8fe2dbd6fec58b345220eb1f0e0",
+  "manifest_sha256": "695631fd77183b1fb7947ccb7511567bbb08cdb2e70f3a2f4f7b9a5db1683c5c",
+  "weights": [
+    {
+      "arm": "C_aug",
+      "seed": 42,
+      "step": 0,
+      "path": "results/provenance_uncertainty_conditioning/weights/C_aug_42_0.pt",
+      "sha256": "33d30977708e35ce622340a4d45f0f4b1adc5faa7f9d498e0e365869b8e7e362",
+      "state_sha256": "29e19ee318ca2e9b9f6155dfff3916953b700e5683f871716bcfe33af08b158d"
+    },
+    {
+      "arm": "C_aug",
+      "seed": 42,
+      "step": 250,
+      "path": "results/provenance_uncertainty_conditioning/weights/C_aug_42_250.pt",
+      "sha256": "161d06c21de13704b881bfc89f49eac90812f1dbcd821439ddae9cb8bbeaa69f",
+      "state_sha256": "9962d2e1e93081aa1e39a22b300317805aa74eaf2b3d47a9c5273f0b44416753"
+    },
+    {
+      "arm": "C_aug",
+      "seed": 42,
+      "step": 1000,
+      "path": "results/provenance_uncertainty_conditioning/weights/C_aug_42_1000.pt",
+      "sha256": "4bb60cea119010732de24b881426ef732e7ae70908dcdb32f6d724d48f4dcd52",
+      "state_sha256": "9c3f5e0915c8b21cabdf88cc5637ea05229310dd104d1c1749eadcd4e6960484"
+    }
+  ],
+  "backbone_state_sha256": "99c372e3e9a6b60afae0391128da6be86ba15407fb9b85a43b85e590b7d62cb9",
+  "normalization": {
+    "mean": [
+      [
+        [
+          [
+            [
+              0.1733045130968094
+            ]
+          ]
+        ],
+        [
+          [
+            [
+              -0.00037393238744698465
+            ]
+          ]
+        ]
+      ]
+    ],
+    "std": [
+      [
+        [
+          [
+            [
+              0.11372903734445572
+            ]
+          ]
+        ],
+        [
+          [
+            [
+              0.01720684953033924
+            ]
+          ]
+        ]
+      ]
+    ]
+  },
+  "utc": 1795287363.3301651
+}

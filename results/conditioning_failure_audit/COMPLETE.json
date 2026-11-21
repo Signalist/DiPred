@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "trajectories": 24,
+  "new_forward_groups": 48,
+  "reused_step0_groups": 24,
+  "new_paths": 1536,
+  "reused_paths": 768,
+  "new_network_batch_calls": 192,
+  "optimizer_updates": 0,
+  "score_rows": 648,
+  "delta_rows": 1728,
+  "existing_score_maxabs": 8.326672684688674e-17,
+  "segment_identity_maxabs": 1.1102230246251565e-16,
+  "generation_seconds": 1.7017969861626625,
+  "wall_seconds": 22.19809016212821,
+  "prediction_cache_bytes": 0,
+  "all_parameters_frozen": true,
+  "no_test_extension_scored": true,
+  "old_files_unchanged": true,
+  "utc": 1795287384.3056755
+}
