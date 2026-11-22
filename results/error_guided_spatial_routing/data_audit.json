@@ -1,0 +1,21 @@
+{
+  "requested_train_trajectories": 46,
+  "requested_starts": [
+    420,
+    440,
+    460
+  ],
+  "effective_train_windows": 135,
+  "excluded_train_records_for_start460": [
+    {
+      "file": "21600_5.h5",
+      "frames": 492,
+      "reason": "start460 target 480:500 is unavailable"
+    }
+  ],
+  "development_trajectories": 12,
+  "test_trajectories": 12,
+  "native_member_count": 32,
+  "training_seed": 42,
+  "updates_each": 1000
+}

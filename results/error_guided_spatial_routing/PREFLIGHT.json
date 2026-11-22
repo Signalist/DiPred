@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "router_parameters": 486,
+  "max_router_strength": 0.25,
+  "closed_router_exact": true,
+  "crps_pair_gradient_checked": true,
+  "all_four_steps_gradient_checked": true,
+  "backbone_hash": "99c372e3e9a6b60afae0391128da6be86ba15407fb9b85a43b85e590b7d62cb9",
+  "future_truth_input_independent": true
+}

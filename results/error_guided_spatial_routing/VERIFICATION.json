@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "training_logs_checked": 2,
+  "updates_per_model": 1000,
+  "candidate_checkpoints_per_model": 4,
+  "selection_native_for_both": true,
+  "formal_test_rows": 12,
+  "future_input_boundary_checked": true
+}
