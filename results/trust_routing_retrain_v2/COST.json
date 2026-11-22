@@ -1,0 +1,30 @@
+{
+  "new_fp32_development_baseline_seconds": 2.4724872801452875,
+  "training_context_seconds": 85.95903066918254,
+  "training_trust_seconds": 124.2753798365593,
+  "shadow_feedback": "one frozen native 32-member source per window",
+  "shadow_feedback_required_for_training": true,
+  "shadow_feedback_not_new_model_feedback": true,
+  "optimizer_updates": 2000,
+  "formal_test_comparisons": 0,
+  "valid_protocol_optimizer_updates": 2000,
+  "invalid_discarded_attempt_updates": 1000,
+  "invalid_attempts": [
+    {
+      "stage": "baseline_manifest_serialization",
+      "optimizer_updates": 0,
+      "training_started": false,
+      "time": 1795376629.6286948
+    },
+    {
+      "stage": "route_stats_mask_shape",
+      "optimizer_updates": 1000,
+      "arms_started": [
+        "G_context"
+      ],
+      "arms_complete": [],
+      "time": 1795376940.1537423
+    }
+  ],
+  "note": "The second invalid attempt completed G_context updates before a route-statistics shape error; its weights/logs were discarded and the valid fixed run was restarted. No invalid artifact is used for selection."
+}

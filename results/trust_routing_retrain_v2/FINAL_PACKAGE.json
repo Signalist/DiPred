@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "ready_for_retraining_input_consumed": true,
+  "valid_training_updates": 2000,
+  "training_seed": 42,
+  "arms": [
+    "G_context",
+    "G_trust"
+  ],
+  "candidate_steps": [
+    0,
+    250,
+    500,
+    1000
+  ],
+  "selected_native_for_both": true,
+  "formal_test_started": false,
+  "feedback_records": 173,
+  "weight_records": 8,
+  "artifact_hash_records": 53,
+  "old_v2_results_untouched": true
+}

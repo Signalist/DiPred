@@ -1,0 +1,34 @@
+[
+  {
+    "arm": "G_context",
+    "seed": 42,
+    "step": 0,
+    "path": "results/trust_routing_retrain_v2/weights/G_context_0.pt",
+    "sha256": "f45883e6f173ecff672eb4fb28dd78978a4b1f91623025200c31efa2be85b98c",
+    "state_sha256": "0c9860975f71946fba5fd0f6913da825d53763bacf5b5f24b80cdf0133bad9d4"
+  },
+  {
+    "arm": "G_context",
+    "seed": 42,
+    "step": 250,
+    "path": "results/trust_routing_retrain_v2/weights/G_context_250.pt",
+    "sha256": "7485e2b34f3c9217504d4f4ff26723875c3e8d647986a46c2414437a0e2e5e6d",
+    "state_sha256": "39edbab911bcd65174474367f4644c40dc3b129c1135e5f16a7d830e9c2b37ad"
+  },
+  {
+    "arm": "G_context",
+    "seed": 42,
+    "step": 500,
+    "path": "results/trust_routing_retrain_v2/weights/G_context_500.pt",
+    "sha256": "be664ff3f5c89190b8ec8ba434a87e0f01a1ea01b83380a00614a115111a3293",
+    "state_sha256": "27c70e09928d20956d04ef11962e695d6810c929964b8761ed3d8a1382a8744b"
+  },
+  {
+    "arm": "G_context",
+    "seed": 42,
+    "step": 1000,
+    "path": "results/trust_routing_retrain_v2/weights/G_context_1000.pt",
+    "sha256": "760f66ca886ef1e0c57dc3af6f61969b52d9ed9a4ae94cc51d2a5da128d382c6",
+    "state_sha256": "e829417139b219d92119e7f352297a5e7f193def338de63daa9945af34598960"
+  }
+]

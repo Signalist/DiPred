@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "ready_for_retraining_input_consumed": true,
+  "valid_optimizer_updates": 2000,
+  "runs": {
+    "G_context": 1000,
+    "G_trust": 1000
+  },
+  "candidate_checkpoints": 8,
+  "development_rows": 540,
+  "native_selection_both": true,
+  "formal_test_started": false,
+  "noise_identities": 5536,
+  "old_v2_evidence_unchanged": true,
+  "old_experiment_not_used": true,
+  "native_baseline_cache": ".cache/trust_routing_retrain_v2/development_native_fp32.pt"
+}

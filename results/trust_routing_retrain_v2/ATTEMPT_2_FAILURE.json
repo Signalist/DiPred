@@ -1,0 +1,9 @@
+{
+  "stage": "route_stats_mask_shape",
+  "optimizer_updates": 1000,
+  "arms_started": [
+    "G_context"
+  ],
+  "arms_complete": [],
+  "time": 1795376940.1537423
+}

@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "native_trajectory_units": 12,
+  "both_models_selected_native": true,
+  "training_updates_valid": 2000,
+  "formal_test_started": false,
+  "selection_source": "recomputed from saved per-window scores; no forward pass"
+}
