@@ -1,0 +1,8 @@
+{
+  "issue": "system h5py namespace incomplete; system pip blocked by unrelated py_spy metadata permissions",
+  "package": "h5py-3.11.0-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+  "url": "https://files.pythonhosted.org/packages/86/43/fd0bd74462b3c3fb35d98568935d3e5a435c8ec24d45ef408ac8869166af/h5py-3.11.0-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+  "sha256": "8ec9df3dd2018904c4cc06331951e274f3f3fd091e6d6cc350aaa90fa9b42a76",
+  "method": "hash-verified PyPI wheel extracted into isolated ignored .cache",
+  "formal_updates_before_repair": 0
+}

@@ -1,0 +1,3 @@
+# Preserve exact artifact bytes for the SHA256 audit, including CSV line endings.
+* -text
+main_comparison.csv whitespace=cr-at-eol

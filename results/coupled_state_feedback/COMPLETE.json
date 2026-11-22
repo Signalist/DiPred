@@ -1,0 +1,92 @@
+{
+  "common_updates": 1000,
+  "stop": "fixed_1000_updates_complete",
+  "selected": {
+    "N": 0,
+    "F": 1000,
+    "O": 500,
+    "C": 1000
+  },
+  "conservative_gpu_seconds": 475.83476069010794,
+  "new_prediction_cache_bytes": 0,
+  "total_artifact_bytes": 7062170,
+  "four_backbone_calls_per_member": true,
+  "code_hashes": {
+    "research/coupled_state_feedback/checks.py": "9e38fb4740605553c5d0de6c802b7cd40f5158774dd4f8ebe9b68f7dd7ec5bd5",
+    "research/coupled_state_feedback/core.py": "ef989844c02ec95a3c38378d75fcbc631b6902ef7c5e33dd6de72b30f67acd64",
+    "research/coupled_state_feedback/reporting.py": "8b15fb10a2606356246181b0b90eb686d29533234309866afe12a38870430115",
+    "research/coupled_state_feedback/run.py": "67f4c1d0a7395c5240aeb6e8e8b3f5e13d372857ec2187f1103ea7571e0efb42"
+  },
+  "checkpoint_hashes": [
+    {
+      "arm": "F",
+      "step": 0,
+      "path": "results/coupled_state_feedback/weights/F_0.pt",
+      "sha256": "de19d75109e903a972d330f7291db566f1ccd035bd8ff5c8f53c64d23973f08a",
+      "parameters": 109096
+    },
+    {
+      "arm": "O",
+      "step": 0,
+      "path": "results/coupled_state_feedback/weights/O_0.pt",
+      "sha256": "94976893ada60deb7c7e22ddf0503549ed9192a977982a17513d77dfdc095ea8",
+      "parameters": 123504
+    },
+    {
+      "arm": "C",
+      "step": 0,
+      "path": "results/coupled_state_feedback/weights/C_0.pt",
+      "sha256": "70d88a772736ba15bad3973f11b99ece1fe45298efc2cb52682da10700ebb0c2",
+      "parameters": 123504
+    },
+    {
+      "arm": "F",
+      "step": 500,
+      "path": "results/coupled_state_feedback/weights/F_500.pt",
+      "sha256": "b130586a1d3792a5143f908c3de87bc6066379e2a5bc06f6c65dc02af5976860",
+      "parameters": 109096
+    },
+    {
+      "arm": "O",
+      "step": 500,
+      "path": "results/coupled_state_feedback/weights/O_500.pt",
+      "sha256": "393cef8de94fe4903b8386a2e1e73eccd61330af82d5511a535d1e34a93ac6d1",
+      "parameters": 123504
+    },
+    {
+      "arm": "C",
+      "step": 500,
+      "path": "results/coupled_state_feedback/weights/C_500.pt",
+      "sha256": "dfd63a5e8435c35ec2289859225175a775bb9ffe8c17ea9124e636979e45532c",
+      "parameters": 123504
+    },
+    {
+      "arm": "F",
+      "step": 1000,
+      "path": "results/coupled_state_feedback/weights/F_1000.pt",
+      "sha256": "25911c8abb4bef0a3f75796f5a9250095f1ec01baba3e8ac4d6c4fd60c817cb1",
+      "parameters": 109096
+    },
+    {
+      "arm": "O",
+      "step": 1000,
+      "path": "results/coupled_state_feedback/weights/O_1000.pt",
+      "sha256": "1054216200e3a1d036326f4eabab6b61ef1752b2211936df5370bf56a777e12d",
+      "parameters": 123504
+    },
+    {
+      "arm": "C",
+      "step": 1000,
+      "path": "results/coupled_state_feedback/weights/C_1000.pt",
+      "sha256": "6531bbef71b5850ff1286286a1d0429c803d813560f9ccc07b7078cec293d29b",
+      "parameters": 123504
+    }
+  ],
+  "test_inference_cases": 96,
+  "test_repeats": 1,
+  "per_arm_formal_updates": {
+    "F": 1000,
+    "O": 1000,
+    "C": 1000
+  }
+}

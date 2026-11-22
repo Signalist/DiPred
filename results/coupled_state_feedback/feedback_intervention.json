@@ -1,0 +1,20 @@
+[
+  {
+    "split": "development",
+    "trajectory": "26700_0.h5",
+    "Re": "26700",
+    "start": 400,
+    "on_score": 0.10036542266607285,
+    "off_score": 0.10057013481855392,
+    "prediction_rms_delta": 0.09099102020263672
+  },
+  {
+    "split": "development",
+    "trajectory": "26700_10.h5",
+    "Re": "26700",
+    "start": 400,
+    "on_score": 0.1686403453350067,
+    "off_score": 0.17095442116260529,
+    "prediction_rms_delta": 0.12210264056921005
+  }
+]

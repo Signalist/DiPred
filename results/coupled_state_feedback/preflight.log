@@ -1,0 +1,23 @@
+Traceback (most recent call last):
+  File "research/coupled_state_feedback/run.py", line 428, in <module>
+    main()
+  File "research/coupled_state_feedback/run.py", line 416, in main
+    preflight()
+  File "research/coupled_state_feedback/run.py", line 173, in preflight
+    native, norm = load()
+  File "research/coupled_state_feedback/run.py", line 121, in load
+    check_dependencies()
+  File "research/coupled_state_feedback/run.py", line 114, in check_dependencies
+    c = cfg()
+  File "research/coupled_state_feedback/run.py", line 54, in cfg
+    return read(OUT/'config.json')
+  File "research/coupled_state_feedback/run.py", line 45, in read
+    return json.loads(p.read_text())
+  File "/usr/lib/python3.8/pathlib.py", line 1236, in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors) as f:
+  File "/usr/lib/python3.8/pathlib.py", line 1222, in open
+    return io.open(self, mode, buffering, encoding, errors, newline,
+  File "/usr/lib/python3.8/pathlib.py", line 1078, in _opener
+    return self._accessor.open(self, flags, mode)
+FileNotFoundError: [Errno 2] No such file or directory: '/cpfs01/projects-HDD/cfff-3469a2cbe57f_HDD/wangxiyun/DiPred+ResCrct/Forecast/Runtime/github/DiPred/results/coupled_state_feedback/config.json'
+{"explicit_crps": 0.12222222222222223, "explicit_es": 0.15308686392999232, "gradcheck": true, "permutation_loss_and_gradient": true, "coincident_members_finite": true, "zero_feedback_max_abs_standardized": {"F": 0.0, "O": 0.0, "C": 0.0}, "gradients": {"initial_feedback": 1.130117729306221, "initial_G": 0.0, "after_projection_G": 0.020744173587445403, "final_loss_via_R_to_p3": 1.4054385246708989e-05}, "smoke_updates": {"up2": true, "out": true, "G": true, "feedback": true, "frozen_unchanged": true, "discarded_optimizer_steps": 2}, "interventions": {"C_state_delta": 0.004719249904155731, "adjacent_physical_frames_delta": 0.004719249904155731, "O_masked_delta": 0.0, "fixed_x_h_output_delta": 2.2649765014648438e-06, "truth_invariance": true, "history_unchanged": true, "repeat_state_reset": true, "members_batch_independence_max": 9.5367431640625e-07, "G_calls": 3, "backbone_calls": 4}, "checkpointing_output_gradient_equivalence": true, "passed": true, "training_entry": {"split": "train", "trajectory": "10125_0.h5", "Re": "10125", "start": 200}, "members": 8, "peak_allocated_bytes": 1200017920, "peak_reserved_bytes": 1296039936, "conservative_gpu_seconds": 2.6013199891895056, "checkpointing_required": false, "code_hashes": {"research/coupled_state_feedback/checks.py": "9e38fb4740605553c5d0de6c802b7cd40f5158774dd4f8ebe9b68f7dd7ec5bd5", "research/coupled_state_feedback/core.py": "ef989844c02ec95a3c38378d75fcbc631b6902ef7c5e33dd6de72b30f67acd64", "research/coupled_state_feedback/reporting.py": "8b15fb10a2606356246181b0b90eb686d29533234309866afe12a38870430115", "research/coupled_state_feedback/run.py": "67f4c1d0a7395c5240aeb6e8e8b3f5e13d372857ec2187f1103ea7571e0efb42"}, "config_sha256": "320bee4ae9fe7721c9675a74c951532af0e53a21eca1da68ea8e132f36cbb10b"}

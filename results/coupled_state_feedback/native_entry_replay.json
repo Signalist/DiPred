@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "entry": {
+    "split": "train",
+    "trajectory": "10125_0.h5",
+    "Re": "10125",
+    "start": 200
+  },
+  "members": 8,
+  "seed": 42,
+  "reference": "unmodified DynamicsDiffusion20.rollout(h,seed=42,sign=1)",
+  "max_abs_standardized": {
+    "N": 0.0,
+    "F": 0.0,
+    "O": 0.0,
+    "C": 0.0
+  },
+  "additional_conservative_gpu_seconds": 1.3859308436512947,
+  "formal_updates": 0,
+  "test_inferences": 0,
+  "purpose": "independent original sampler entry check after completion; no model selection changes"
+}

@@ -1,0 +1,15 @@
+{
+  "python": "3.8.10 (default, Nov 14 2022, 12:59:47) \n[GCC 9.4.0]",
+  "torch": "1.14.0a0+44dac51",
+  "cuda": "12.0",
+  "gpu": "NVIDIA A100-SXM4-80GB",
+  "h5py": "3.11.0",
+  "numpy": "1.22.2",
+  "commands": [
+    "prepare",
+    "preflight",
+    "train",
+    "report",
+    "verify"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "code_hashes": {
+    "research/coupled_state_feedback/checks.py": "9e38fb4740605553c5d0de6c802b7cd40f5158774dd4f8ebe9b68f7dd7ec5bd5",
+    "research/coupled_state_feedback/core.py": "ef989844c02ec95a3c38378d75fcbc631b6902ef7c5e33dd6de72b30f67acd64",
+    "research/coupled_state_feedback/reporting.py": "8b15fb10a2606356246181b0b90eb686d29533234309866afe12a38870430115",
+    "research/coupled_state_feedback/run.py": "67f4c1d0a7395c5240aeb6e8e8b3f5e13d372857ec2187f1103ea7571e0efb42"
+  },
+  "config_sha256": "320bee4ae9fe7721c9675a74c951532af0e53a21eca1da68ea8e132f36cbb10b",
+  "utc": 1795362347.1048503,
+  "counts": {
+    "F": {
+      "total": 1616872,
+      "trainable": 109096
+    },
+    "O": {
+      "total": 1631280,
+      "trainable": 123504
+    },
+    "C": {
+      "total": 1631280,
+      "trainable": 123504
+    }
+  },
+  "preflight_seconds": 2.6013199891895056
+}

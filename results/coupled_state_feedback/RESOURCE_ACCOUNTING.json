@@ -1,0 +1,10 @@
+{
+  "main_experiment_conservative_gpu_seconds": 475.83476069010794,
+  "independent_native_entry_audit_seconds": 1.3859308436512947,
+  "total_conservative_gpu_seconds": 477.22069153375924,
+  "isolated_dependency_bytes": 15600030,
+  "new_prediction_cache_bytes": 0,
+  "max_gpu_seconds": 7200,
+  "max_new_cache_bytes": 4294967296,
+  "within_limits": true
+}
