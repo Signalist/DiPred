@@ -1,0 +1,9 @@
+{
+  "formal_successful_forward_seconds": 106.28322897478938,
+  "formal_optimizer_updates": 0,
+  "formal_new_prediction_cache_bytes": 0,
+  "formal_gpu_budget_seconds": 600,
+  "within_formal_budget": true,
+  "diagnostic_replay_probes": "aborted before result writing because batched CUDA replay was not bitwise-equivalent; excluded from formal result artifacts",
+  "note": "The report uses only the final successful frozen audit. No diagnostic probe changed weights, selections, or published metrics."
+}

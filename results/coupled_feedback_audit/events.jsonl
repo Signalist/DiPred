@@ -1,0 +1,7 @@
+{"event": "window_complete", "utc": 1795378773.2546313, "index": 0, "windows": 24, "generated": 5, "elapsed": 7.71648951433599}
+{"event": "window_complete", "utc": 1795378789.6602256, "index": 4, "windows": 24, "generated": 5, "elapsed": 24.121985118836164}
+{"event": "window_complete", "utc": 1795378807.2200177, "index": 8, "windows": 24, "generated": 5, "elapsed": 41.6820431035012}
+{"event": "window_complete", "utc": 1795378824.7348347, "index": 12, "windows": 24, "generated": 5, "elapsed": 59.19688321836293}
+{"event": "window_complete", "utc": 1795378841.4904475, "index": 16, "windows": 24, "generated": 5, "elapsed": 75.9525688663125}
+{"event": "window_complete", "utc": 1795378859.2750795, "index": 20, "windows": 24, "generated": 5, "elapsed": 93.73689277283847}
+{"event": "complete", "utc": 1795378871.8208256, "generated": 5, "rows": 1440, "lead_rows": 9600, "elapsed": 106.28322897478938}

@@ -1,0 +1,200 @@
+{
+  "reference_head": "fad8e7eb1af8b1f2768b4eaf6c883c654cb262b1",
+  "actual_head": "24a6c4076cb9c0fd83cc8756a23f3b77f2e125ab",
+  "previous_config_sha256": "320bee4ae9fe7721c9675a74c951532af0e53a21eca1da68ea8e132f36cbb10b",
+  "previous_selection_sha256": "0863c8279ea71712b6f2546d4d5005db0ceebf1af02ae34d04b0a11d10ce6a46",
+  "previous_analysis_sha256": "ec263c689359757dc862086e1f7fbbc979696e518408d40e7216d64e69dadef0",
+  "previous_decision_sha256": "9ad41da9d5fa353814178abad1145f8e00d36b0247578e1e16c1b978b3eb5b01",
+  "data_root": "/cpfs01/projects-HDD/cfff-3469a2cbe57f_HDD/wangxiyun/OLD/REALPDE/realpdebench-competition/data/train_real",
+  "development_windows": [
+    {
+      "split": "development",
+      "trajectory": "26700_0.h5",
+      "Re": "26700",
+      "start": 400
+    },
+    {
+      "split": "development",
+      "trajectory": "26700_0.h5",
+      "Re": "26700",
+      "start": 420
+    },
+    {
+      "split": "development",
+      "trajectory": "26700_10.h5",
+      "Re": "26700",
+      "start": 400
+    },
+    {
+      "split": "development",
+      "trajectory": "26700_10.h5",
+      "Re": "26700",
+      "start": 420
+    },
+    {
+      "split": "development",
+      "trajectory": "26700_15.h5",
+      "Re": "26700",
+      "start": 400
+    },
+    {
+      "split": "development",
+      "trajectory": "26700_15.h5",
+      "Re": "26700",
+      "start": 420
+    },
+    {
+      "split": "development",
+      "trajectory": "6300_0.h5",
+      "Re": "6300",
+      "start": 400
+    },
+    {
+      "split": "development",
+      "trajectory": "6300_0.h5",
+      "Re": "6300",
+      "start": 420
+    },
+    {
+      "split": "development",
+      "trajectory": "6300_10.h5",
+      "Re": "6300",
+      "start": 400
+    },
+    {
+      "split": "development",
+      "trajectory": "6300_10.h5",
+      "Re": "6300",
+      "start": 420
+    },
+    {
+      "split": "development",
+      "trajectory": "6300_15.h5",
+      "Re": "6300",
+      "start": 400
+    },
+    {
+      "split": "development",
+      "trajectory": "6300_15.h5",
+      "Re": "6300",
+      "start": 420
+    },
+    {
+      "split": "development",
+      "trajectory": "6300_20.h5",
+      "Re": "6300",
+      "start": 400
+    },
+    {
+      "split": "development",
+      "trajectory": "6300_20.h5",
+      "Re": "6300",
+      "start": 420
+    },
+    {
+      "split": "development",
+      "trajectory": "6300_5.h5",
+      "Re": "6300",
+      "start": 400
+    },
+    {
+      "split": "development",
+      "trajectory": "6300_5.h5",
+      "Re": "6300",
+      "start": 420
+    },
+    {
+      "split": "development",
+      "trajectory": "7575_10.h5",
+      "Re": "7575",
+      "start": 400
+    },
+    {
+      "split": "development",
+      "trajectory": "7575_10.h5",
+      "Re": "7575",
+      "start": 420
+    },
+    {
+      "split": "development",
+      "trajectory": "7575_15.h5",
+      "Re": "7575",
+      "start": 400
+    },
+    {
+      "split": "development",
+      "trajectory": "7575_15.h5",
+      "Re": "7575",
+      "start": 420
+    },
+    {
+      "split": "development",
+      "trajectory": "7575_20.h5",
+      "Re": "7575",
+      "start": 400
+    },
+    {
+      "split": "development",
+      "trajectory": "7575_20.h5",
+      "Re": "7575",
+      "start": 420
+    },
+    {
+      "split": "development",
+      "trajectory": "7575_5.h5",
+      "Re": "7575",
+      "start": 400
+    },
+    {
+      "split": "development",
+      "trajectory": "7575_5.h5",
+      "Re": "7575",
+      "start": 420
+    }
+  ],
+  "development_members": 16,
+  "development_noise_root": 16042000,
+  "checkpoint_hashes": {
+    "F_0": "de19d75109e903a972d330f7291db566f1ccd035bd8ff5c8f53c64d23973f08a",
+    "O_0": "94976893ada60deb7c7e22ddf0503549ed9192a977982a17513d77dfdc095ea8",
+    "C_0": "70d88a772736ba15bad3973f11b99ece1fe45298efc2cb52682da10700ebb0c2",
+    "F_500": "b130586a1d3792a5143f908c3de87bc6066379e2a5bc06f6c65dc02af5976860",
+    "O_500": "393cef8de94fe4903b8386a2e1e73eccd61330af82d5511a535d1e34a93ac6d1",
+    "C_500": "dfd63a5e8435c35ec2289859225175a775bb9ffe8c17ea9124e636979e45532c",
+    "F_1000": "25911c8abb4bef0a3f75796f5a9250095f1ec01baba3e8ac4d6c4fd60c817cb1",
+    "O_1000": "1054216200e3a1d036326f4eabab6b61ef1752b2211936df5370bf56a777e12d",
+    "C_1000": "6531bbef71b5850ff1286286a1d0429c803d813560f9ccc07b7078cec293d29b"
+  },
+  "native_checkpoint_sha256": "834260c9838b058d3e415b1efbd3fa19f7998884a36e46d14d62b10ed3ad8cfe",
+  "dependency_hashes": {
+    "reliability/networks.py": "60dce6348cac96ce12e60b850b4144dd7afe5c51a3e9f266fd9892b23364eadb",
+    "reliability/backbone.py": "dfe0fd69dcb0a34d75cb349cb3adadfd124a70424ae6d83a3342fa3b8e9191aa",
+    "reliability/checkpoints/current.pt": "834260c9838b058d3e415b1efbd3fa19f7998884a36e46d14d62b10ed3ad8cfe",
+    "metadata/manifest.json": "addb9330a402834b79caca41f563b3f88139d5f293644eca43a8ef1e91ddcea1",
+    "metadata/normalization.json": "3d55eacf98d248c105eaa648018f203617c5a63f584dc0eede43881540621897",
+    "research/coupled_state_feedback/core.py": "ef989844c02ec95a3c38378d75fcbc631b6902ef7c5e33dd6de72b30f67acd64",
+    "research/coupled_state_feedback/run.py": "67f4c1d0a7395c5240aeb6e8e8b3f5e13d372857ec2187f1103ea7571e0efb42",
+    "results/coupled_state_feedback/config.json": "320bee4ae9fe7721c9675a74c951532af0e53a21eca1da68ea8e132f36cbb10b",
+    "results/coupled_state_feedback/selection.json": "0863c8279ea71712b6f2546d4d5005db0ceebf1af02ae34d04b0a11d10ce6a46",
+    "results/coupled_state_feedback/analysis.json": "ec263c689359757dc862086e1f7fbbc979696e518408d40e7216d64e69dadef0"
+  },
+  "previous_selected": {
+    "N": 0,
+    "F": 1000,
+    "O": 500,
+    "C": 1000
+  },
+  "all_parameters_frozen": true,
+  "optimizer_updates": 0,
+  "audit_code_sha256": {
+    "research/coupled_feedback_audit/run.py": "b5b04940b323295ed89b988b982bbd46856aceaba8b26308e0112f163694c337",
+    "research/coupled_feedback_audit/README.md": "0a6d77cfc4fb65281aef328ac9ae32d37c5cec66d3ebb6e26b5e81a8d9c651e9",
+    "results/coupled_feedback_audit/PROTOCOL.md": "5708685a0ce04b648b022f53b5c1b4a22f65badba8908fb41881e28abb085bd2"
+  },
+  "audit_scope": {
+    "new_forward_groups": 5,
+    "reused_previous_u": true,
+    "optimizer_updates": 0,
+    "no_test_set": true
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "rows": 0,
+  "max_abs_score_delta": null,
+  "max_abs_crps_delta": null,
+  "max_abs_es_delta": null,
+  "tolerance": null,
+  "passed": true,
+  "reused_previous_u_for": [
+    "N",
+    "F",
+    "O",
+    "C_on"
+  ],
+  "note": "authoritative previous U rows reused; fresh C_off U and fresh V rows are intervention metrics"
+}
