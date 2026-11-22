@@ -1,0 +1,179 @@
+{
+  "passed": true,
+  "optimizer_updates": 0,
+  "optimizer_instances": 0,
+  "training_runs": 0,
+  "parameters": {
+    "G_context": 1269,
+    "G_trust": 1269
+  },
+  "identical_parameter_initialization": true,
+  "A": {
+    "passed": true,
+    "reads_before_mutation": [
+      420,
+      440
+    ],
+    "raw_and_model_inputs_equal": true,
+    "issued_equal": true,
+    "prediction_hashes": {
+      "G_context": "58deaed39d93d9f6ceb83dffac9992d59775c7b88f38337094f015949d33cb9e",
+      "G_trust": "4795c855c5d358c1ad2085e032b18dc540d3b6fdf88d98e4f9eff9f02ef726d4"
+    }
+  },
+  "B": {
+    "passed": true,
+    "past_risk_changes": true,
+    "future_labels_unchanged": true
+  },
+  "C": {
+    "passed": true,
+    "per_window_counts": [
+      3,
+      3,
+      2
+    ],
+    "middle_short_trajectory_kept_in_earlier_windows": true
+  },
+  "D": {
+    "passed": true,
+    "full32_all20_four_steps_disabled_errors": {
+      "G_context": 0.0,
+      "G_trust": 0.0
+    },
+    "noise_identity_fields": [
+      "split",
+      "trajectory_id",
+      "history_start",
+      "member_id",
+      "noise_seed",
+      "noise_tensor_hash",
+      "generator_device",
+      "batch_shape",
+      "batch_row",
+      "batch_files",
+      "convention"
+    ]
+  },
+  "E": {
+    "passed": true,
+    "lower_neighbor_prior_with_higher_neighbor_risk": true,
+    "higher_gate_with_higher_relative_local_risk": true,
+    "gate_bound": 0.25,
+    "boundary_neighbor_counts": [
+      3,
+      5,
+      8
+    ],
+    "obstacle_and_isolated_cell_checked": true,
+    "member_independence": true,
+    "same_learned_information": true
+  },
+  "F": {
+    "passed": true,
+    "full32_crps_value_error": 0.0,
+    "full32_crps_gradient_error": 4.336808689942018e-19,
+    "finite_difference_gradcheck": true,
+    "energy_original": 0.8913687178944363,
+    "energy_standardized": 34.6876750343301,
+    "energy_units_verified": true,
+    "four_step_direct_gradients": {
+      "G_context": [
+        {
+          "label": 99,
+          "direct_parameter_gradient_norms": {
+            "context.weight": 0.0033938837283565347,
+            "context.bias": 0.00028545446333770906,
+            "gate.weight": 0.0071056672224288995,
+            "gate.bias": 0.0006236199988052249
+          }
+        },
+        {
+          "label": 66,
+          "direct_parameter_gradient_norms": {
+            "context.weight": 0.0011466297193619733,
+            "context.bias": 7.394039012706813e-05,
+            "gate.weight": 0.004646994515322142,
+            "gate.bias": 0.00020660922746174037
+          }
+        },
+        {
+          "label": 33,
+          "direct_parameter_gradient_norms": {
+            "context.weight": 0.0008611783103921684,
+            "context.bias": 7.305080206367305e-05,
+            "gate.weight": 0.006923488348362726,
+            "gate.bias": 0.0004977583303116262
+          }
+        },
+        {
+          "label": 0,
+          "direct_parameter_gradient_norms": {
+            "context.weight": 0.003175779260719971,
+            "context.bias": 0.0005772255913054836,
+            "gate.weight": 0.02369506575218336,
+            "gate.bias": 0.008063762448728085
+          }
+        }
+      ],
+      "G_trust": [
+        {
+          "label": 99,
+          "direct_parameter_gradient_norms": {
+            "context.weight": 0.003445361213686052,
+            "context.bias": 0.00030578256001526864,
+            "gate.weight": 0.007351863948784448,
+            "gate.bias": 0.0006148022366687655
+          }
+        },
+        {
+          "label": 66,
+          "direct_parameter_gradient_norms": {
+            "context.weight": 0.0011542289782054567,
+            "context.bias": 7.971323025894846e-05,
+            "gate.weight": 0.0048021501553581125,
+            "gate.bias": 0.00019279315893072635
+          }
+        },
+        {
+          "label": 33,
+          "direct_parameter_gradient_norms": {
+            "context.weight": 0.0008674678292198259,
+            "context.bias": 7.290506555684186e-05,
+            "gate.weight": 0.007026368840523876,
+            "gate.bias": 0.0005096030654385686
+          }
+        },
+        {
+          "label": 0,
+          "direct_parameter_gradient_norms": {
+            "context.weight": 0.003053049040122168,
+            "context.bias": 0.0005648227419537824,
+            "gate.weight": 0.023661150923674646,
+            "gate.bias": 0.008081619627773762
+          }
+        }
+      ]
+    }
+  },
+  "G": {
+    "passed": true,
+    "future_leak_mutant_rejected": true,
+    "last_valid_mutant_rejected": true,
+    "positional_cache_mutant_rejected": true,
+    "wrong_split_rejected": true
+  },
+  "backbone_state_sha256_before": "50a0e3afd5c71041776d4ae5c556747150dbf21e38dde3b083b0efff81091b21",
+  "backbone_state_sha256_after": "50a0e3afd5c71041776d4ae5c556747150dbf21e38dde3b083b0efff81091b21",
+  "code_hashes": {
+    "research/trust_causal_audit_v2/audit.py": "77c82007a4b3713765cdf7654f7d0ff7e643b682cefae23739e3cc4f833b186a",
+    "research/trust_causal_audit_v2/common.py": "6b0d6c975559f79d81a7d181c97c70bf818edb7b114f774a41dd1e243d3e3ab5",
+    "research/trust_causal_audit_v2/data.py": "b641c705aed9cda531191149a087afee561c6bc0afc28941a14662442ce91bc6",
+    "research/trust_causal_audit_v2/finalize.py": "139c9980696c830c4b3620cf3ddeaf4e69ae51308fe8ec0c16af5c28aba2da83",
+    "research/trust_causal_audit_v2/model.py": "e31e1b1b6cb55e958a1be749301fca3ad92a6e58b33b0a255183c58d2dd103d0",
+    "research/trust_causal_audit_v2/run.py": "5ff2c66c30709d6a21eca80c52490cde518b90091168101f88f3f84c7e836454",
+    "research/trust_causal_audit_v2/tests.py": "e32437d34926ee9424b8dd8da2a2c3ae7c38910d63677fa96334980b5d10f534",
+    "research/trust_causal_audit_v2/verify.py": "cc5ddf23f0b4f19fb37e57a354d0ca41035db53496cd90d7c723af7030cff454"
+  },
+  "seconds": 1.9140476826578379
+}

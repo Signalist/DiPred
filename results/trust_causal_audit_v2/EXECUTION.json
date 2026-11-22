@@ -1,0 +1,9 @@
+{
+  "stage": "all",
+  "protected_files_unchanged": 49,
+  "optimizer_construction_guard_enabled": true,
+  "optimizer_updates": 0,
+  "training_runs": 0,
+  "formal_test_comparisons": 0,
+  "new_native_cache_generation": 0
+}

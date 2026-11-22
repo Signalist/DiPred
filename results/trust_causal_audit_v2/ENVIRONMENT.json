@@ -1,0 +1,12 @@
+{
+  "python": "3.8.10 (default, Nov 14 2022, 12:59:47) \n[GCC 9.4.0]",
+  "torch": "1.14.0a0+44dac51",
+  "cuda": "12.0",
+  "gpu": "NVIDIA A100-SXM4-80GB",
+  "h5py": "3.11.0",
+  "primary_cudnn_tf32": false,
+  "primary_matmul_tf32": true,
+  "cudnn_deterministic": true,
+  "diagnostic_only_cudnn_tf32": true,
+  "optimizer_updates": 0
+}

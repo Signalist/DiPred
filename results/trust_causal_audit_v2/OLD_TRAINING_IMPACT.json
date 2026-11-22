@@ -1,0 +1,16 @@
+{
+  "G_context": {
+    "updates": 1000,
+    "wrong_history": 166,
+    "wrong_target": 166,
+    "wrong_previous_lookup": 235,
+    "future_risk_used": 0
+  },
+  "G_trust": {
+    "updates": 1000,
+    "wrong_history": 166,
+    "wrong_target": 166,
+    "wrong_previous_lookup": 235,
+    "future_risk_used": 1000
+  }
+}

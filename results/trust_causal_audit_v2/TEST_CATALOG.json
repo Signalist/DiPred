@@ -1,0 +1,242 @@
+[
+  {
+    "split": "test",
+    "trajectory_id": "13950_0.h5",
+    "start": 480,
+    "original_index": 0,
+    "actual_frames": 868,
+    "history_interval": [
+      480,
+      500
+    ],
+    "previous_prediction_interval": [
+      480,
+      500
+    ],
+    "target_interval": [
+      500,
+      520
+    ],
+    "audit_scope": "metadata_only"
+  },
+  {
+    "split": "test",
+    "trajectory_id": "13950_10.h5",
+    "start": 480,
+    "original_index": 1,
+    "actual_frames": 868,
+    "history_interval": [
+      480,
+      500
+    ],
+    "previous_prediction_interval": [
+      480,
+      500
+    ],
+    "target_interval": [
+      500,
+      520
+    ],
+    "audit_scope": "metadata_only"
+  },
+  {
+    "split": "test",
+    "trajectory_id": "13950_15.h5",
+    "start": 480,
+    "original_index": 2,
+    "actual_frames": 868,
+    "history_interval": [
+      480,
+      500
+    ],
+    "previous_prediction_interval": [
+      480,
+      500
+    ],
+    "target_interval": [
+      500,
+      520
+    ],
+    "audit_scope": "metadata_only"
+  },
+  {
+    "split": "test",
+    "trajectory_id": "13950_20.h5",
+    "start": 480,
+    "original_index": 3,
+    "actual_frames": 868,
+    "history_interval": [
+      480,
+      500
+    ],
+    "previous_prediction_interval": [
+      480,
+      500
+    ],
+    "target_interval": [
+      500,
+      520
+    ],
+    "audit_scope": "metadata_only"
+  },
+  {
+    "split": "test",
+    "trajectory_id": "13950_5.h5",
+    "start": 480,
+    "original_index": 4,
+    "actual_frames": 868,
+    "history_interval": [
+      480,
+      500
+    ],
+    "previous_prediction_interval": [
+      480,
+      500
+    ],
+    "target_interval": [
+      500,
+      520
+    ],
+    "audit_scope": "metadata_only"
+  },
+  {
+    "split": "test",
+    "trajectory_id": "22875_0.h5",
+    "start": 480,
+    "original_index": 5,
+    "actual_frames": 868,
+    "history_interval": [
+      480,
+      500
+    ],
+    "previous_prediction_interval": [
+      480,
+      500
+    ],
+    "target_interval": [
+      500,
+      520
+    ],
+    "audit_scope": "metadata_only"
+  },
+  {
+    "split": "test",
+    "trajectory_id": "22875_10.h5",
+    "start": 480,
+    "original_index": 6,
+    "actual_frames": 868,
+    "history_interval": [
+      480,
+      500
+    ],
+    "previous_prediction_interval": [
+      480,
+      500
+    ],
+    "target_interval": [
+      500,
+      520
+    ],
+    "audit_scope": "metadata_only"
+  },
+  {
+    "split": "test",
+    "trajectory_id": "22875_15.h5",
+    "start": 480,
+    "original_index": 7,
+    "actual_frames": 868,
+    "history_interval": [
+      480,
+      500
+    ],
+    "previous_prediction_interval": [
+      480,
+      500
+    ],
+    "target_interval": [
+      500,
+      520
+    ],
+    "audit_scope": "metadata_only"
+  },
+  {
+    "split": "test",
+    "trajectory_id": "3750_0.h5",
+    "start": 480,
+    "original_index": 8,
+    "actual_frames": 868,
+    "history_interval": [
+      480,
+      500
+    ],
+    "previous_prediction_interval": [
+      480,
+      500
+    ],
+    "target_interval": [
+      500,
+      520
+    ],
+    "audit_scope": "metadata_only"
+  },
+  {
+    "split": "test",
+    "trajectory_id": "3750_10.h5",
+    "start": 480,
+    "original_index": 9,
+    "actual_frames": 868,
+    "history_interval": [
+      480,
+      500
+    ],
+    "previous_prediction_interval": [
+      480,
+      500
+    ],
+    "target_interval": [
+      500,
+      520
+    ],
+    "audit_scope": "metadata_only"
+  },
+  {
+    "split": "test",
+    "trajectory_id": "3750_20.h5",
+    "start": 480,
+    "original_index": 10,
+    "actual_frames": 868,
+    "history_interval": [
+      480,
+      500
+    ],
+    "previous_prediction_interval": [
+      480,
+      500
+    ],
+    "target_interval": [
+      500,
+      520
+    ],
+    "audit_scope": "metadata_only"
+  },
+  {
+    "split": "test",
+    "trajectory_id": "3750_5.h5",
+    "start": 480,
+    "original_index": 11,
+    "actual_frames": 868,
+    "history_interval": [
+      480,
+      500
+    ],
+    "previous_prediction_interval": [
+      480,
+      500
+    ],
+    "target_interval": [
+      500,
+      520
+    ],
+    "audit_scope": "metadata_only"
+  }
+]

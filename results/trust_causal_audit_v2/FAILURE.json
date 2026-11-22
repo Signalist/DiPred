@@ -1,0 +1,5 @@
+{
+  "stage": "data",
+  "error": "AssertionError((Key(split='train', trajectory_id='10125_0.h5', start=420), 0.00010943412780761719))",
+  "optimizer_updates": 0
+}

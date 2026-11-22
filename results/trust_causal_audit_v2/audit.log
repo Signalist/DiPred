@@ -1,0 +1,2 @@
+A-G tests PASS {'G_context': 1269, 'G_trust': 1269}
+REAL DATA PASS: {'train': {'420': 46, '440': 46, '460': 45}, 'development': {'420': 12, '440': 12, '460': 12}, 'test': {'480': 12}} ; maps=173; real32-member replay groups=4; updates=0

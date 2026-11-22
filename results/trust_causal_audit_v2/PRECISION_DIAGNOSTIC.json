@@ -1,0 +1,36 @@
+{
+  "rows": [
+    {
+      "cudnn_tf32": false,
+      "batch_shape": [
+        46,
+        2,
+        20,
+        32,
+        64
+      ],
+      "member": 500000,
+      "physical_maxabs": 0.00017563998699188232,
+      "trajectory0_maxabs": 8.596479892730713e-05,
+      "strict_tolerance": 2e-06
+    },
+    {
+      "cudnn_tf32": true,
+      "batch_shape": [
+        46,
+        2,
+        20,
+        32,
+        64
+      ],
+      "member": 500000,
+      "physical_maxabs": 0.0,
+      "trajectory0_maxabs": 0.0,
+      "strict_tolerance": 2e-06
+    }
+  ],
+  "network_calls": 8,
+  "path_count": 92,
+  "optimizer_updates": 0,
+  "no_scores": true
+}

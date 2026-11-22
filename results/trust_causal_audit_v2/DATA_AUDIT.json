@@ -1,0 +1,2249 @@
+{
+  "passed": true,
+  "counts_from_actual_hdf5": {
+    "train": {
+      "420": 46,
+      "440": 46,
+      "460": 45
+    },
+    "development": {
+      "420": 12,
+      "440": 12,
+      "460": 12
+    },
+    "test": {
+      "480": 12
+    }
+  },
+  "files": [
+    {
+      "split": "train",
+      "trajectory_id": "10125_0.h5",
+      "original_index": 0,
+      "actual_frames": 607,
+      "declared_frames": 607,
+      "sha256": "1d12c4e6a8bc0b8410c9921452fc262112244a386eba753e1ca4ec70fafc2b7a",
+      "matches_archived_full_file_hash": true,
+      "geometry_fields": [
+        "aoa",
+        "re",
+        "t",
+        "u",
+        "v",
+        "x",
+        "y"
+      ],
+      "explicit_masks": []
+    },
+    {
+      "split": "train",
+      "trajectory_id": "10125_10.h5",
+      "original_index": 1,
+      "actual_frames": 868,
+      "declared_frames": 868,
+      "sha256": "7a83a11d7893d5976b753f6ffd1c4e68c6d59e89fbdece2e2014283d221e8de7",
+      "matches_archived_full_file_hash": true,
+      "geometry_fields": [
+        "aoa",
+        "re",
+        "t",
+        "u",
+        "v",
+        "x",
+        "y"
+      ],
+      "explicit_masks": []
+    },
+    {
+      "split": "train",
+      "trajectory_id": "10125_15.h5",
+      "original_index": 2,
+      "actual_frames": 868,
+      "declared_frames": 868,
+      "sha256": "4f6beecc26513f2bbc65357ac9a92327324fe8e7ba8fa6f9265db4172d2fd183",
+      "matches_archived_full_file_hash": true,
+      "geometry_fields": [
+        "aoa",
+        "re",
+        "t",
+        "u",
+        "v",
+        "x",
+        "y"
+      ],
+      "explicit_masks": []
+    },
+    {
+      "split": "train",
+      "trajectory_id": "10125_20.h5",
+      "original_index": 3,
+      "actual_frames": 868,
+      "declared_frames": 868,
+      "sha256": "31e64531053b583e2ce5dd38fd8513d9eb80ca3ab51db2a921909695af1623a2",
+      "matches_archived_full_file_hash": true,
+      "geometry_fields": [
+        "aoa",
+        "re",
+        "t",
+        "u",
+        "v",
+        "x",
+        "y"
+      ],
+      "explicit_masks": []
+    },
+    {
+      "split": "train",
+      "trajectory_id": "10125_5.h5",
+      "original_index": 4,
+      "actual_frames": 868,
+      "declared_frames": 868,
+      "sha256": "6d5ba60d7c7044182e4151b071690205e121cc36c00ea16683fb0de58c5cf321",
+      "matches_archived_full_file_hash": true,
+      "geometry_fields": [
+        "aoa",
+        "re",
+        "t",
+        "u",
+        "v",
+        "x",
+        "y"
+      ],
+      "explicit_masks": []
+    },
+    {
+      "split": "train",
+      "trajectory_id": "11400_0.h5",
+      "original_index": 5,
+      "actual_frames": 868,
+      "declared_frames": 868,
+      "sha256": "9e056bc6dc152dad856208785c918633aac4ac368e282eca96c09a408815f76d",
+      "matches_archived_full_file_hash": true,
+      "geometry_fields": [
+        "aoa",
+        "re",
+        "t",
+        "u",
+        "v",
+        "x",
+        "y"
+      ],
+      "explicit_masks": []
+    },
+    {
+      "split": "train",
+      "trajectory_id": "11400_10.h5",
+      "original_index": 6,
+      "actual_frames": 868,
+      "declared_frames": 868,
+      "sha256": "c1b51797305343f1e79c58efefc95f690323a0780474cad03340e259b3b0a0ae",
+      "matches_archived_full_file_hash": true,
+      "geometry_fields": [
+        "aoa",
+        "re",
+        "t",
+        "u",
+        "v",
+        "x",
+        "y"
+      ],
+      "explicit_masks": []
+    },
+    {
+      "split": "train",
+      "trajectory_id": "11400_15.h5",
+      "original_index": 7,
+      "actual_frames": 868,
+      "declared_frames": 868,
+      "sha256": "3c97281b99888046acdd3b4574eabd9bdcfcfca2ab91f6f2f5427afaa4690e79",
+      "matches_archived_full_file_hash": true,
+      "geometry_fields": [
+        "aoa",
+        "re",
+        "t",
+        "u",
+        "v",
+        "x",
+        "y"
+      ],
+      "explicit_masks": []
+    },
+    {
+      "split": "train",
+      "trajectory_id": "11400_20.h5",
+      "original_index": 8,
+      "actual_frames": 868,
+      "declared_frames": 868,
+      "sha256": "46afe94cf6852748fed26a618697d23f9798a6a51f75071e8887601eeb58a6dc",
+      "matches_archived_full_file_hash": true,
+      "geometry_fields": [
+        "aoa",
+        "re",
+        "t",
+        "u",
+        "v",
+        "x",
+        "y"
+      ],
+      "explicit_masks": []
+    },
+    {
+      "split": "train",
+      "trajectory_id": "11400_5.h5",
+      "original_index": 9,
+      "actual_frames": 868,
+      "declared_frames": 868,
+      "sha256": "eae6855bf81d00aa9b3f170b9aaf27e484231ef7f2818f14fa500815670b3034",
+      "matches_archived_full_file_hash": true,
+      "geometry_fields": [
+        "aoa",
+        "re",
+        "t",
+        "u",
+        "v",
+        "x",
+        "y"
+      ],
+      "explicit_masks": []
+    },
+    {
+      "split": "train",
+      "trajectory_id": "12675_0.h5",
+      "original_index": 10,
+      "actual_frames": 868,
+      "declared_frames": 868,
+      "sha256": "7128d68c21a97a9e33869c6132138a40fdff1cb5564e5aca13485f86685b03ae",
+      "matches_archived_full_file_hash": true,
+      "geometry_fields": [
+        "aoa",
+        "re",
+        "t",
+        "u",
+        "v",
+        "x",
+        "y"
+      ],
+      "explicit_masks": []
+    },
+    {
+      "split": "train",
+      "trajectory_id": "12675_10.h5",
+      "original_index": 11,
+      "actual_frames": 868,
+      "declared_frames": 868,
+      "sha256": "a624bb2861c25ec9eb8d48bcfe50dc7e942bc43a006bc39b12a7d5cdf2cc6853",
+      "matches_archived_full_file_hash": true,
+      "geometry_fields": [
+        "aoa",
+        "re",
+        "t",
+        "u",
+        "v",
+        "x",
+        "y"
+      ],
+      "explicit_masks": []
+    },
+    {
+      "split": "train",
+      "trajectory_id": "12675_15.h5",
+      "original_index": 12,
+      "actual_frames": 868,
+      "declared_frames": 868,
+      "sha256": "4ea7232b777499e477216e4d32e64c88e179a8df18fa6f6a288966dd4d6e7070",
+      "matches_archived_full_file_hash": true,
+      "geometry_fields": [
+        "aoa",
+        "re",
+        "t",
+        "u",
+        "v",
+        "x",
+        "y"
+      ],
+      "explicit_masks": []
+    },
+    {
+      "split": "train",
+      "trajectory_id": "12675_20.h5",
+      "original_index": 13,
+      "actual_frames": 868,
+      "declared_frames": 868,
+      "sha256": "c871349bb61d3eede206a53df0afd2ac8b93c68a13fbd348acf6e3a914f44fc9",
+      "matches_archived_full_file_hash": true,
+      "geometry_fields": [
+        "aoa",
+        "re",
+        "t",
+        "u",
+        "v",
+        "x",
+        "y"
+      ],
+      "explicit_masks": []
+    },
+    {
+      "split": "train",
+      "trajectory_id": "12675_5.h5",
+      "original_index": 14,
+      "actual_frames": 868,
+      "declared_frames": 868,
+      "sha256": "143a9f3a70011f1b1f72de16b8c4d37f0ca372003c80fd93ea089c769122b7b4",
+      "matches_archived_full_file_hash": true,
+      "geometry_fields": [
+        "aoa",
+        "re",
+        "t",
+        "u",
+        "v",
+        "x",
+        "y"
+      ],
+      "explicit_masks": []
+    },
+    {
+      "split": "train",
+      "trajectory_id": "16500_0.h5",
+      "original_index": 15,
+      "actual_frames": 868,
+      "declared_frames": 868,
+      "sha256": "b58099698b02315f1c332f2e2dbfa1e16298af6a488ceb74e3b174d1d023564f",
+      "matches_archived_full_file_hash": true,
+      "geometry_fields": [
+        "aoa",
+        "re",
+        "t",
+        "u",
+        "v",
+        "x",
+        "y"
+      ],
+      "explicit_masks": []
+    },
+    {
+      "split": "train",
+      "trajectory_id": "16500_10.h5",
+      "original_index": 16,
+      "actual_frames": 868,
+      "declared_frames": 868,
+      "sha256": "96a23573e6ab83ad7fd4ea476a1f00069bd1003fee5ebe0c61c0b75aca725d0f",
+      "matches_archived_full_file_hash": true,
+      "geometry_fields": [
+        "aoa",
+        "re",
+        "t",
+        "u",
+        "v",
+        "x",
+        "y"
+      ],
+      "explicit_masks": []
+    },
+    {
+      "split": "train",
+      "trajectory_id": "16500_15.h5",
+      "original_index": 17,
+      "actual_frames": 868,
+      "declared_frames": 868,
+      "sha256": "bc8936272415cfa60038fe5e5f7b6f419bb00e56b70e07c5c9705fb9fb9e1f28",
+      "matches_archived_full_file_hash": true,
+      "geometry_fields": [
+        "aoa",
+        "re",
+        "t",
+        "u",
+        "v",
+        "x",
+        "y"
+      ],
+      "explicit_masks": []
+    },
+    {
+      "split": "train",
+      "trajectory_id": "16500_20.h5",
+      "original_index": 18,
+      "actual_frames": 868,
+      "declared_frames": 868,
+      "sha256": "b56cb47b1f8d52427b58372d1b5ff737d2e6d984bc0aaa16d81b8f31022cf9d4",
+      "matches_archived_full_file_hash": true,
+      "geometry_fields": [
+        "aoa",
+        "re",
+        "t",
+        "u",
+        "v",
+        "x",
+        "y"
+      ],
+      "explicit_masks": []
+    },
+    {
+      "split": "train",
+      "trajectory_id": "16500_5.h5",
+      "original_index": 19,
+      "actual_frames": 868,
+      "declared_frames": 868,
+      "sha256": "c27dc3642b2dc81188b80a39bce89435c66fdeeaf3cfe7ee1e2297996928c689",
+      "matches_archived_full_file_hash": true,
+      "geometry_fields": [
+        "aoa",
+        "re",
+        "t",
+        "u",
+        "v",
+        "x",
+        "y"
+      ],
+      "explicit_masks": []
+    },
+    {
+      "split": "train",
+      "trajectory_id": "17775_10.h5",
+      "original_index": 20,
+      "actual_frames": 868,
+      "declared_frames": 868,
+      "sha256": "e3996791b5d5c4fea0de1f40442f2efd5f4c857768ac3ff1a2db7f4dd3296112",
+      "matches_archived_full_file_hash": true,
+      "geometry_fields": [
+        "aoa",
+        "re",
+        "t",
+        "u",
+        "v",
+        "x",
+        "y"
+      ],
+      "explicit_masks": []
+    },
+    {
+      "split": "train",
+      "trajectory_id": "17775_15.h5",
+      "original_index": 21,
+      "actual_frames": 868,
+      "declared_frames": 868,
+      "sha256": "4d4b77c0340c84cd3b782fdad1cf10cf5637ff285ff8884dcd978f5fd2db633c",
+      "matches_archived_full_file_hash": true,
+      "geometry_fields": [
+        "aoa",
+        "re",
+        "t",
+        "u",
+        "v",
+        "x",
+        "y"
+      ],
+      "explicit_masks": []
+    },
+    {
+      "split": "train",
+      "trajectory_id": "17775_20.h5",
+      "original_index": 22,
+      "actual_frames": 868,
+      "declared_frames": 868,
+      "sha256": "984e5103231860125a6c260964c3dd314d781013b353fb5267682fb8a00bc15e",
+      "matches_archived_full_file_hash": true,
+      "geometry_fields": [
+        "aoa",
+        "re",
+        "t",
+        "u",
+        "v",
+        "x",
+        "y"
+      ],
+      "explicit_masks": []
+    },
+    {
+      "split": "train",
+      "trajectory_id": "17775_5.h5",
+      "original_index": 23,
+      "actual_frames": 868,
+      "declared_frames": 868,
+      "sha256": "2152659ded6f48f699f54ac74d6b6b588774e7c6e89df9aff9a1d26d24270657",
+      "matches_archived_full_file_hash": true,
+      "geometry_fields": [
+        "aoa",
+        "re",
+        "t",
+        "u",
+        "v",
+        "x",
+        "y"
+      ],
+      "explicit_masks": []
+    },
+    {
+      "split": "train",
+      "trajectory_id": "20325_0.h5",
+      "original_index": 24,
+      "actual_frames": 868,
+      "declared_frames": 868,
+      "sha256": "164fca40de703a3da96aadf07f8bf84faf1106abedc5abb427896d6a1bf29fb8",
+      "matches_archived_full_file_hash": true,
+      "geometry_fields": [
+        "aoa",
+        "re",
+        "t",
+        "u",
+        "v",
+        "x",
+        "y"
+      ],
+      "explicit_masks": []
+    },
+    {
+      "split": "train",
+      "trajectory_id": "20325_10.h5",
+      "original_index": 25,
+      "actual_frames": 868,
+      "declared_frames": 868,
+      "sha256": "09e661919ebb203288aff07f869996b0a6411196c05324f9ef465e09964bba85",
+      "matches_archived_full_file_hash": true,
+      "geometry_fields": [
+        "aoa",
+        "re",
+        "t",
+        "u",
+        "v",
+        "x",
+        "y"
+      ],
+      "explicit_masks": []
+    },
+    {
+      "split": "train",
+      "trajectory_id": "20325_15.h5",
+      "original_index": 26,
+      "actual_frames": 868,
+      "declared_frames": 868,
+      "sha256": "277b8a0ddca5252d0b86d31bb83720611d63e5b70f574fe9194e2bf542e4dbe1",
+      "matches_archived_full_file_hash": true,
+      "geometry_fields": [
+        "aoa",
+        "re",
+        "t",
+        "u",
+        "v",
+        "x",
+        "y"
+      ],
+      "explicit_masks": []
+    },
+    {
+      "split": "train",
+      "trajectory_id": "20325_20.h5",
+      "original_index": 27,
+      "actual_frames": 868,
+      "declared_frames": 868,
+      "sha256": "75f89d57ffe30d5484e3fccad345b3246422645fbb9ab847bb0e624aba9948bf",
+      "matches_archived_full_file_hash": true,
+      "geometry_fields": [
+        "aoa",
+        "re",
+        "t",
+        "u",
+        "v",
+        "x",
+        "y"
+      ],
+      "explicit_masks": []
+    },
+    {
+      "split": "train",
+      "trajectory_id": "20325_5.h5",
+      "original_index": 28,
+      "actual_frames": 868,
+      "declared_frames": 868,
+      "sha256": "5eea7900ae7da943a06c2bca51c0b90c3bcefa49ffb4d11163f7221c9d579993",
+      "matches_archived_full_file_hash": true,
+      "geometry_fields": [
+        "aoa",
+        "re",
+        "t",
+        "u",
+        "v",
+        "x",
+        "y"
+      ],
+      "explicit_masks": []
+    },
+    {
+      "split": "train",
+      "trajectory_id": "21600_0.h5",
+      "original_index": 29,
+      "actual_frames": 868,
+      "declared_frames": 868,
+      "sha256": "fbe5f17041e68952e011ac578eb373918e590e100e47fee2d760ebb4ebb1d70c",
+      "matches_archived_full_file_hash": true,
+      "geometry_fields": [
+        "aoa",
+        "re",
+        "t",
+        "u",
+        "v",
+        "x",
+        "y"
+      ],
+      "explicit_masks": []
+    },
+    {
+      "split": "train",
+      "trajectory_id": "21600_10.h5",
+      "original_index": 30,
+      "actual_frames": 868,
+      "declared_frames": 868,
+      "sha256": "f9d2c034130bfc3785746d13400a6efc61fde9b854d7b90e0f52a3fcc261e237",
+      "matches_archived_full_file_hash": true,
+      "geometry_fields": [
+        "aoa",
+        "re",
+        "t",
+        "u",
+        "v",
+        "x",
+        "y"
+      ],
+      "explicit_masks": []
+    },
+    {
+      "split": "train",
+      "trajectory_id": "21600_15.h5",
+      "original_index": 31,
+      "actual_frames": 868,
+      "declared_frames": 868,
+      "sha256": "923568c263e8cd01efa5d98027d711443dcfec904a6d28afafe4b437491ef307",
+      "matches_archived_full_file_hash": true,
+      "geometry_fields": [
+        "aoa",
+        "re",
+        "t",
+        "u",
+        "v",
+        "x",
+        "y"
+      ],
+      "explicit_masks": []
+    },
+    {
+      "split": "train",
+      "trajectory_id": "21600_20.h5",
+      "original_index": 32,
+      "actual_frames": 868,
+      "declared_frames": 868,
+      "sha256": "5739351414d7b71ee3d7f5f2dbfeb8da12a8cc1ec6b45f84f0a377fa3045e2db",
+      "matches_archived_full_file_hash": true,
+      "geometry_fields": [
+        "aoa",
+        "re",
+        "t",
+        "u",
+        "v",
+        "x",
+        "y"
+      ],
+      "explicit_masks": []
+    },
+    {
+      "split": "train",
+      "trajectory_id": "21600_5.h5",
+      "original_index": 33,
+      "actual_frames": 492,
+      "declared_frames": 492,
+      "sha256": "205a90211468c6104b53e940d3315026885018b9e6ae515ca70858734aaa2fb9",
+      "matches_archived_full_file_hash": true,
+      "geometry_fields": [
+        "aoa",
+        "re",
+        "t",
+        "u",
+        "v",
+        "x",
+        "y"
+      ],
+      "explicit_masks": []
+    },
+    {
+      "split": "train",
+      "trajectory_id": "24150_0.h5",
+      "original_index": 34,
+      "actual_frames": 868,
+      "declared_frames": 868,
+      "sha256": "c4edeb83f2da149c273926624f95715cdb0c57308717db011110408998f2cd23",
+      "matches_archived_full_file_hash": true,
+      "geometry_fields": [
+        "aoa",
+        "re",
+        "t",
+        "u",
+        "v",
+        "x",
+        "y"
+      ],
+      "explicit_masks": []
+    },
+    {
+      "split": "train",
+      "trajectory_id": "24150_10.h5",
+      "original_index": 35,
+      "actual_frames": 868,
+      "declared_frames": 868,
+      "sha256": "27287f67b185af863b2870206631d8591920ac8d80af22bf461a3a929049e346",
+      "matches_archived_full_file_hash": true,
+      "geometry_fields": [
+        "aoa",
+        "re",
+        "t",
+        "u",
+        "v",
+        "x",
+        "y"
+      ],
+      "explicit_masks": []
+    },
+    {
+      "split": "train",
+      "trajectory_id": "24150_15.h5",
+      "original_index": 36,
+      "actual_frames": 868,
+      "declared_frames": 868,
+      "sha256": "c38166b36ce6bef3cd900ff5ab5b8a33fe81b02838f7b818f65016ebb5051019",
+      "matches_archived_full_file_hash": true,
+      "geometry_fields": [
+        "aoa",
+        "re",
+        "t",
+        "u",
+        "v",
+        "x",
+        "y"
+      ],
+      "explicit_masks": []
+    },
+    {
+      "split": "train",
+      "trajectory_id": "25425_0.h5",
+      "original_index": 37,
+      "actual_frames": 868,
+      "declared_frames": 868,
+      "sha256": "f3e323f33105329cb5c881b8c39dd455042136bc5218538e5285d463d5eb9b6e",
+      "matches_archived_full_file_hash": true,
+      "geometry_fields": [
+        "aoa",
+        "re",
+        "t",
+        "u",
+        "v",
+        "x",
+        "y"
+      ],
+      "explicit_masks": []
+    },
+    {
+      "split": "train",
+      "trajectory_id": "25425_10.h5",
+      "original_index": 38,
+      "actual_frames": 868,
+      "declared_frames": 868,
+      "sha256": "209e3873073a0b8854c65694fd5cde3b47a61879b2935a302c686a1d3e552394",
+      "matches_archived_full_file_hash": true,
+      "geometry_fields": [
+        "aoa",
+        "re",
+        "t",
+        "u",
+        "v",
+        "x",
+        "y"
+      ],
+      "explicit_masks": []
+    },
+    {
+      "split": "train",
+      "trajectory_id": "25425_15.h5",
+      "original_index": 39,
+      "actual_frames": 868,
+      "declared_frames": 868,
+      "sha256": "5025e588085d3fec84754b5ed2206041ca5f74aa3a70c428d067dbf7cb95292e",
+      "matches_archived_full_file_hash": true,
+      "geometry_fields": [
+        "aoa",
+        "re",
+        "t",
+        "u",
+        "v",
+        "x",
+        "y"
+      ],
+      "explicit_masks": []
+    },
+    {
+      "split": "train",
+      "trajectory_id": "25425_20.h5",
+      "original_index": 40,
+      "actual_frames": 868,
+      "declared_frames": 868,
+      "sha256": "699e8ea486b27b2dc3cb061e439a309a37f41739d1d81f71c466171c188a74fb",
+      "matches_archived_full_file_hash": true,
+      "geometry_fields": [
+        "aoa",
+        "re",
+        "t",
+        "u",
+        "v",
+        "x",
+        "y"
+      ],
+      "explicit_masks": []
+    },
+    {
+      "split": "train",
+      "trajectory_id": "8850_0.h5",
+      "original_index": 41,
+      "actual_frames": 868,
+      "declared_frames": 868,
+      "sha256": "8610464c8424322a8329edad6d22799ad92cd0ba1ea15430fb959458e93ff9fe",
+      "matches_archived_full_file_hash": true,
+      "geometry_fields": [
+        "aoa",
+        "re",
+        "t",
+        "u",
+        "v",
+        "x",
+        "y"
+      ],
+      "explicit_masks": []
+    },
+    {
+      "split": "train",
+      "trajectory_id": "8850_10.h5",
+      "original_index": 42,
+      "actual_frames": 868,
+      "declared_frames": 868,
+      "sha256": "7ed51290a7a867a360dabf50222d31100d9bda273670f1e5f94d2922ffaf8767",
+      "matches_archived_full_file_hash": true,
+      "geometry_fields": [
+        "aoa",
+        "re",
+        "t",
+        "u",
+        "v",
+        "x",
+        "y"
+      ],
+      "explicit_masks": []
+    },
+    {
+      "split": "train",
+      "trajectory_id": "8850_15.h5",
+      "original_index": 43,
+      "actual_frames": 868,
+      "declared_frames": 868,
+      "sha256": "cc83348e23260c99b0c1cd063f04696dc5e83c664c1f002f9c94d632a0d1c983",
+      "matches_archived_full_file_hash": true,
+      "geometry_fields": [
+        "aoa",
+        "re",
+        "t",
+        "u",
+        "v",
+        "x",
+        "y"
+      ],
+      "explicit_masks": []
+    },
+    {
+      "split": "train",
+      "trajectory_id": "8850_20.h5",
+      "original_index": 44,
+      "actual_frames": 868,
+      "declared_frames": 868,
+      "sha256": "570e78158aa8f6d774363a5dc123a816101b2a696b098b8082fae39d4bfdd182",
+      "matches_archived_full_file_hash": true,
+      "geometry_fields": [
+        "aoa",
+        "re",
+        "t",
+        "u",
+        "v",
+        "x",
+        "y"
+      ],
+      "explicit_masks": []
+    },
+    {
+      "split": "train",
+      "trajectory_id": "8850_5.h5",
+      "original_index": 45,
+      "actual_frames": 868,
+      "declared_frames": 868,
+      "sha256": "6ed59c2493db00c8a3500dc92f4df89c532d3e0c87d5ae960b4d2e73c615e565",
+      "matches_archived_full_file_hash": true,
+      "geometry_fields": [
+        "aoa",
+        "re",
+        "t",
+        "u",
+        "v",
+        "x",
+        "y"
+      ],
+      "explicit_masks": []
+    },
+    {
+      "split": "development",
+      "trajectory_id": "26700_0.h5",
+      "original_index": 0,
+      "actual_frames": 868,
+      "declared_frames": 868,
+      "sha256": "59b6e08a8ed346ac7637f15da5e55cb9064c201fccfe4869ef925bc040f6768b",
+      "matches_archived_full_file_hash": true,
+      "geometry_fields": [
+        "aoa",
+        "re",
+        "t",
+        "u",
+        "v",
+        "x",
+        "y"
+      ],
+      "explicit_masks": []
+    },
+    {
+      "split": "development",
+      "trajectory_id": "26700_10.h5",
+      "original_index": 1,
+      "actual_frames": 868,
+      "declared_frames": 868,
+      "sha256": "c220f2d2b3bac650a0e3c7245d7aba244b39ee03bee839454f6bc6b8dd66628f",
+      "matches_archived_full_file_hash": true,
+      "geometry_fields": [
+        "aoa",
+        "re",
+        "t",
+        "u",
+        "v",
+        "x",
+        "y"
+      ],
+      "explicit_masks": []
+    },
+    {
+      "split": "development",
+      "trajectory_id": "26700_15.h5",
+      "original_index": 2,
+      "actual_frames": 868,
+      "declared_frames": 868,
+      "sha256": "20339febc2f913d5a21a3aa82353b3e500a668f636581f03fc8c9065884007bc",
+      "matches_archived_full_file_hash": true,
+      "geometry_fields": [
+        "aoa",
+        "re",
+        "t",
+        "u",
+        "v",
+        "x",
+        "y"
+      ],
+      "explicit_masks": []
+    },
+    {
+      "split": "development",
+      "trajectory_id": "6300_0.h5",
+      "original_index": 3,
+      "actual_frames": 868,
+      "declared_frames": 868,
+      "sha256": "3e8a97159f2f00b20775fbd7754730a75caea47fc6c278929c24a2646f6f9c58",
+      "matches_archived_full_file_hash": true,
+      "geometry_fields": [
+        "aoa",
+        "re",
+        "t",
+        "u",
+        "v",
+        "x",
+        "y"
+      ],
+      "explicit_masks": []
+    },
+    {
+      "split": "development",
+      "trajectory_id": "6300_10.h5",
+      "original_index": 4,
+      "actual_frames": 868,
+      "declared_frames": 868,
+      "sha256": "6206445eabf0c75291cf4266ba90ce1c9fb01eb94285030d58d3b4b9f4cbf12e",
+      "matches_archived_full_file_hash": true,
+      "geometry_fields": [
+        "aoa",
+        "re",
+        "t",
+        "u",
+        "v",
+        "x",
+        "y"
+      ],
+      "explicit_masks": []
+    },
+    {
+      "split": "development",
+      "trajectory_id": "6300_15.h5",
+      "original_index": 5,
+      "actual_frames": 868,
+      "declared_frames": 868,
+      "sha256": "99ef17b2e951593103cb102c9b30263953c0feed460727ccad65e94e20034912",
+      "matches_archived_full_file_hash": true,
+      "geometry_fields": [
+        "aoa",
+        "re",
+        "t",
+        "u",
+        "v",
+        "x",
+        "y"
+      ],
+      "explicit_masks": []
+    },
+    {
+      "split": "development",
+      "trajectory_id": "6300_20.h5",
+      "original_index": 6,
+      "actual_frames": 868,
+      "declared_frames": 868,
+      "sha256": "bdda0a511322ca88cd085d750d664df598ce7d02c95e8f550147b2f04983624f",
+      "matches_archived_full_file_hash": true,
+      "geometry_fields": [
+        "aoa",
+        "re",
+        "t",
+        "u",
+        "v",
+        "x",
+        "y"
+      ],
+      "explicit_masks": []
+    },
+    {
+      "split": "development",
+      "trajectory_id": "6300_5.h5",
+      "original_index": 7,
+      "actual_frames": 868,
+      "declared_frames": 868,
+      "sha256": "63357cfa2af8f4cd3373d40af68bba1f80b299a228229d5349447fb58368be16",
+      "matches_archived_full_file_hash": true,
+      "geometry_fields": [
+        "aoa",
+        "re",
+        "t",
+        "u",
+        "v",
+        "x",
+        "y"
+      ],
+      "explicit_masks": []
+    },
+    {
+      "split": "development",
+      "trajectory_id": "7575_10.h5",
+      "original_index": 8,
+      "actual_frames": 868,
+      "declared_frames": 868,
+      "sha256": "c4b8208650b846aa11642f7c4c7ca32f54a148f34d45c236e0dc5da57f190d29",
+      "matches_archived_full_file_hash": true,
+      "geometry_fields": [
+        "aoa",
+        "re",
+        "t",
+        "u",
+        "v",
+        "x",
+        "y"
+      ],
+      "explicit_masks": []
+    },
+    {
+      "split": "development",
+      "trajectory_id": "7575_15.h5",
+      "original_index": 9,
+      "actual_frames": 868,
+      "declared_frames": 868,
+      "sha256": "64c930a56b232294863d93e416a84348f1f883360524fd367c684c88bb2c1dde",
+      "matches_archived_full_file_hash": true,
+      "geometry_fields": [
+        "aoa",
+        "re",
+        "t",
+        "u",
+        "v",
+        "x",
+        "y"
+      ],
+      "explicit_masks": []
+    },
+    {
+      "split": "development",
+      "trajectory_id": "7575_20.h5",
+      "original_index": 10,
+      "actual_frames": 868,
+      "declared_frames": 868,
+      "sha256": "128a35ce4c65abfb06df53e9f3ff4352b000511b41233a71a8a0d472f2a78ec4",
+      "matches_archived_full_file_hash": true,
+      "geometry_fields": [
+        "aoa",
+        "re",
+        "t",
+        "u",
+        "v",
+        "x",
+        "y"
+      ],
+      "explicit_masks": []
+    },
+    {
+      "split": "development",
+      "trajectory_id": "7575_5.h5",
+      "original_index": 11,
+      "actual_frames": 868,
+      "declared_frames": 868,
+      "sha256": "6199ff008a258d9b13517a0597657b364cfcdbd66e106d4ea4e3b97ce5fdafae",
+      "matches_archived_full_file_hash": true,
+      "geometry_fields": [
+        "aoa",
+        "re",
+        "t",
+        "u",
+        "v",
+        "x",
+        "y"
+      ],
+      "explicit_masks": []
+    },
+    {
+      "split": "test",
+      "trajectory_id": "13950_0.h5",
+      "original_index": 0,
+      "actual_frames": 868,
+      "declared_frames": 868,
+      "sha256": "b3ac171583865aea47b95abc10fc7fdad19ba03c877a3fa83399c4731eb608ce",
+      "matches_archived_full_file_hash": true,
+      "geometry_fields": [
+        "aoa",
+        "re",
+        "t",
+        "u",
+        "v",
+        "x",
+        "y"
+      ],
+      "explicit_masks": []
+    },
+    {
+      "split": "test",
+      "trajectory_id": "13950_10.h5",
+      "original_index": 1,
+      "actual_frames": 868,
+      "declared_frames": 868,
+      "sha256": "6e1348479784dcd28c3e4a49833cb978c9cb9f32a10bb6a1316df9a51c18fabf",
+      "matches_archived_full_file_hash": true,
+      "geometry_fields": [
+        "aoa",
+        "re",
+        "t",
+        "u",
+        "v",
+        "x",
+        "y"
+      ],
+      "explicit_masks": []
+    },
+    {
+      "split": "test",
+      "trajectory_id": "13950_15.h5",
+      "original_index": 2,
+      "actual_frames": 868,
+      "declared_frames": 868,
+      "sha256": "a97ae56e179173fa2fe093ee59ab005c26e5900aa8d6b4b9ceabaee022c0effd",
+      "matches_archived_full_file_hash": true,
+      "geometry_fields": [
+        "aoa",
+        "re",
+        "t",
+        "u",
+        "v",
+        "x",
+        "y"
+      ],
+      "explicit_masks": []
+    },
+    {
+      "split": "test",
+      "trajectory_id": "13950_20.h5",
+      "original_index": 3,
+      "actual_frames": 868,
+      "declared_frames": 868,
+      "sha256": "0c8ae6f2ae41e11d1cd72fa9c2655d425112860d49fffdb1fefd2ed92644c86f",
+      "matches_archived_full_file_hash": true,
+      "geometry_fields": [
+        "aoa",
+        "re",
+        "t",
+        "u",
+        "v",
+        "x",
+        "y"
+      ],
+      "explicit_masks": []
+    },
+    {
+      "split": "test",
+      "trajectory_id": "13950_5.h5",
+      "original_index": 4,
+      "actual_frames": 868,
+      "declared_frames": 868,
+      "sha256": "61bbec3206641def39cc8e985fc1938e901bc978feafd66df5102f020a5165fc",
+      "matches_archived_full_file_hash": true,
+      "geometry_fields": [
+        "aoa",
+        "re",
+        "t",
+        "u",
+        "v",
+        "x",
+        "y"
+      ],
+      "explicit_masks": []
+    },
+    {
+      "split": "test",
+      "trajectory_id": "22875_0.h5",
+      "original_index": 5,
+      "actual_frames": 868,
+      "declared_frames": 868,
+      "sha256": "f145130a019dbbaec8b27c327b7800dd6bf68811af4c9395f3bb8cacac8a5870",
+      "matches_archived_full_file_hash": true,
+      "geometry_fields": [
+        "aoa",
+        "re",
+        "t",
+        "u",
+        "v",
+        "x",
+        "y"
+      ],
+      "explicit_masks": []
+    },
+    {
+      "split": "test",
+      "trajectory_id": "22875_10.h5",
+      "original_index": 6,
+      "actual_frames": 868,
+      "declared_frames": 868,
+      "sha256": "7e0f27818e76ea49e80eed0ce3d619091aa0b6673c812f934ca7af5b0a675933",
+      "matches_archived_full_file_hash": true,
+      "geometry_fields": [
+        "aoa",
+        "re",
+        "t",
+        "u",
+        "v",
+        "x",
+        "y"
+      ],
+      "explicit_masks": []
+    },
+    {
+      "split": "test",
+      "trajectory_id": "22875_15.h5",
+      "original_index": 7,
+      "actual_frames": 868,
+      "declared_frames": 868,
+      "sha256": "4195982ba14b307f056350b050caf12ead3c95a34f3206d166353ed79b2965b5",
+      "matches_archived_full_file_hash": true,
+      "geometry_fields": [
+        "aoa",
+        "re",
+        "t",
+        "u",
+        "v",
+        "x",
+        "y"
+      ],
+      "explicit_masks": []
+    },
+    {
+      "split": "test",
+      "trajectory_id": "3750_0.h5",
+      "original_index": 8,
+      "actual_frames": 868,
+      "declared_frames": 868,
+      "sha256": "93a94befde427cf16f5f573e95f0f6ccf361d005cb26c81a9957a36d0bd12925",
+      "matches_archived_full_file_hash": true,
+      "geometry_fields": [
+        "aoa",
+        "re",
+        "t",
+        "u",
+        "v",
+        "x",
+        "y"
+      ],
+      "explicit_masks": []
+    },
+    {
+      "split": "test",
+      "trajectory_id": "3750_10.h5",
+      "original_index": 9,
+      "actual_frames": 868,
+      "declared_frames": 868,
+      "sha256": "8f5b98cb990268f666aabb75633861d742ada00bcc1bd958ff1a3f844bf82d16",
+      "matches_archived_full_file_hash": true,
+      "geometry_fields": [
+        "aoa",
+        "re",
+        "t",
+        "u",
+        "v",
+        "x",
+        "y"
+      ],
+      "explicit_masks": []
+    },
+    {
+      "split": "test",
+      "trajectory_id": "3750_20.h5",
+      "original_index": 10,
+      "actual_frames": 868,
+      "declared_frames": 868,
+      "sha256": "3d878f2e02e706680fd133e5d3bb53bad9ed59f3f5f723ef0c453f89d8b9b803",
+      "matches_archived_full_file_hash": true,
+      "geometry_fields": [
+        "aoa",
+        "re",
+        "t",
+        "u",
+        "v",
+        "x",
+        "y"
+      ],
+      "explicit_masks": []
+    },
+    {
+      "split": "test",
+      "trajectory_id": "3750_5.h5",
+      "original_index": 11,
+      "actual_frames": 868,
+      "declared_frames": 868,
+      "sha256": "39336fb1328060bde20ef01885d73893c346917bccaf528345b2ea2365750e2f",
+      "matches_archived_full_file_hash": true,
+      "geometry_fields": [
+        "aoa",
+        "re",
+        "t",
+        "u",
+        "v",
+        "x",
+        "y"
+      ],
+      "explicit_masks": []
+    }
+  ],
+  "missing_data": [],
+  "missing_native_caches": [],
+  "optimizer_updates": 0,
+  "training_runs": 0,
+  "new_native_cache_generation": 0,
+  "formal_test_comparisons": 0,
+  "test_scope": "metadata/length/hash only; no test predictions, maps or scores",
+  "missing_cache_recovery_required": [],
+  "old_missing_records": {
+    "train": [
+      [
+        "train",
+        "21600_5.h5",
+        420
+      ],
+      [
+        "train",
+        "21600_5.h5",
+        440
+      ]
+    ],
+    "development": []
+  },
+  "old_rows_with_wrong_history": [
+    {
+      "split": "train",
+      "trajectory_id": "24150_0.h5",
+      "start": 420,
+      "saved_history_matches_named_hdf5": false,
+      "saved_target_matches_named_hdf5": false,
+      "legacy_previous_lookup_row": 33,
+      "correct_previous_cache_row": 34,
+      "legacy_previous_lookup_correct": false
+    },
+    {
+      "split": "train",
+      "trajectory_id": "24150_10.h5",
+      "start": 420,
+      "saved_history_matches_named_hdf5": false,
+      "saved_target_matches_named_hdf5": false,
+      "legacy_previous_lookup_row": 34,
+      "correct_previous_cache_row": 35,
+      "legacy_previous_lookup_correct": false
+    },
+    {
+      "split": "train",
+      "trajectory_id": "24150_15.h5",
+      "start": 420,
+      "saved_history_matches_named_hdf5": false,
+      "saved_target_matches_named_hdf5": false,
+      "legacy_previous_lookup_row": 35,
+      "correct_previous_cache_row": 36,
+      "legacy_previous_lookup_correct": false
+    },
+    {
+      "split": "train",
+      "trajectory_id": "25425_0.h5",
+      "start": 420,
+      "saved_history_matches_named_hdf5": false,
+      "saved_target_matches_named_hdf5": false,
+      "legacy_previous_lookup_row": 36,
+      "correct_previous_cache_row": 37,
+      "legacy_previous_lookup_correct": false
+    },
+    {
+      "split": "train",
+      "trajectory_id": "25425_10.h5",
+      "start": 420,
+      "saved_history_matches_named_hdf5": false,
+      "saved_target_matches_named_hdf5": false,
+      "legacy_previous_lookup_row": 37,
+      "correct_previous_cache_row": 38,
+      "legacy_previous_lookup_correct": false
+    },
+    {
+      "split": "train",
+      "trajectory_id": "25425_15.h5",
+      "start": 420,
+      "saved_history_matches_named_hdf5": false,
+      "saved_target_matches_named_hdf5": false,
+      "legacy_previous_lookup_row": 38,
+      "correct_previous_cache_row": 39,
+      "legacy_previous_lookup_correct": false
+    },
+    {
+      "split": "train",
+      "trajectory_id": "25425_20.h5",
+      "start": 420,
+      "saved_history_matches_named_hdf5": false,
+      "saved_target_matches_named_hdf5": false,
+      "legacy_previous_lookup_row": 39,
+      "correct_previous_cache_row": 40,
+      "legacy_previous_lookup_correct": false
+    },
+    {
+      "split": "train",
+      "trajectory_id": "8850_0.h5",
+      "start": 420,
+      "saved_history_matches_named_hdf5": false,
+      "saved_target_matches_named_hdf5": false,
+      "legacy_previous_lookup_row": 40,
+      "correct_previous_cache_row": 41,
+      "legacy_previous_lookup_correct": false
+    },
+    {
+      "split": "train",
+      "trajectory_id": "8850_10.h5",
+      "start": 420,
+      "saved_history_matches_named_hdf5": false,
+      "saved_target_matches_named_hdf5": false,
+      "legacy_previous_lookup_row": 41,
+      "correct_previous_cache_row": 42,
+      "legacy_previous_lookup_correct": false
+    },
+    {
+      "split": "train",
+      "trajectory_id": "8850_15.h5",
+      "start": 420,
+      "saved_history_matches_named_hdf5": false,
+      "saved_target_matches_named_hdf5": false,
+      "legacy_previous_lookup_row": 42,
+      "correct_previous_cache_row": 43,
+      "legacy_previous_lookup_correct": false
+    },
+    {
+      "split": "train",
+      "trajectory_id": "8850_20.h5",
+      "start": 420,
+      "saved_history_matches_named_hdf5": false,
+      "saved_target_matches_named_hdf5": false,
+      "legacy_previous_lookup_row": 43,
+      "correct_previous_cache_row": 44,
+      "legacy_previous_lookup_correct": false
+    },
+    {
+      "split": "train",
+      "trajectory_id": "8850_5.h5",
+      "start": 420,
+      "saved_history_matches_named_hdf5": false,
+      "saved_target_matches_named_hdf5": false,
+      "legacy_previous_lookup_row": 44,
+      "correct_previous_cache_row": 45,
+      "legacy_previous_lookup_correct": false
+    },
+    {
+      "split": "train",
+      "trajectory_id": "24150_0.h5",
+      "start": 440,
+      "saved_history_matches_named_hdf5": false,
+      "saved_target_matches_named_hdf5": false,
+      "legacy_previous_lookup_row": 33,
+      "correct_previous_cache_row": 34,
+      "legacy_previous_lookup_correct": false
+    },
+    {
+      "split": "train",
+      "trajectory_id": "24150_10.h5",
+      "start": 440,
+      "saved_history_matches_named_hdf5": false,
+      "saved_target_matches_named_hdf5": false,
+      "legacy_previous_lookup_row": 34,
+      "correct_previous_cache_row": 35,
+      "legacy_previous_lookup_correct": false
+    },
+    {
+      "split": "train",
+      "trajectory_id": "24150_15.h5",
+      "start": 440,
+      "saved_history_matches_named_hdf5": false,
+      "saved_target_matches_named_hdf5": false,
+      "legacy_previous_lookup_row": 35,
+      "correct_previous_cache_row": 36,
+      "legacy_previous_lookup_correct": false
+    },
+    {
+      "split": "train",
+      "trajectory_id": "25425_0.h5",
+      "start": 440,
+      "saved_history_matches_named_hdf5": false,
+      "saved_target_matches_named_hdf5": false,
+      "legacy_previous_lookup_row": 36,
+      "correct_previous_cache_row": 37,
+      "legacy_previous_lookup_correct": false
+    },
+    {
+      "split": "train",
+      "trajectory_id": "25425_10.h5",
+      "start": 440,
+      "saved_history_matches_named_hdf5": false,
+      "saved_target_matches_named_hdf5": false,
+      "legacy_previous_lookup_row": 37,
+      "correct_previous_cache_row": 38,
+      "legacy_previous_lookup_correct": false
+    },
+    {
+      "split": "train",
+      "trajectory_id": "25425_15.h5",
+      "start": 440,
+      "saved_history_matches_named_hdf5": false,
+      "saved_target_matches_named_hdf5": false,
+      "legacy_previous_lookup_row": 38,
+      "correct_previous_cache_row": 39,
+      "legacy_previous_lookup_correct": false
+    },
+    {
+      "split": "train",
+      "trajectory_id": "25425_20.h5",
+      "start": 440,
+      "saved_history_matches_named_hdf5": false,
+      "saved_target_matches_named_hdf5": false,
+      "legacy_previous_lookup_row": 39,
+      "correct_previous_cache_row": 40,
+      "legacy_previous_lookup_correct": false
+    },
+    {
+      "split": "train",
+      "trajectory_id": "8850_0.h5",
+      "start": 440,
+      "saved_history_matches_named_hdf5": false,
+      "saved_target_matches_named_hdf5": false,
+      "legacy_previous_lookup_row": 40,
+      "correct_previous_cache_row": 41,
+      "legacy_previous_lookup_correct": false
+    },
+    {
+      "split": "train",
+      "trajectory_id": "8850_10.h5",
+      "start": 440,
+      "saved_history_matches_named_hdf5": false,
+      "saved_target_matches_named_hdf5": false,
+      "legacy_previous_lookup_row": 41,
+      "correct_previous_cache_row": 42,
+      "legacy_previous_lookup_correct": false
+    },
+    {
+      "split": "train",
+      "trajectory_id": "8850_15.h5",
+      "start": 440,
+      "saved_history_matches_named_hdf5": false,
+      "saved_target_matches_named_hdf5": false,
+      "legacy_previous_lookup_row": 42,
+      "correct_previous_cache_row": 43,
+      "legacy_previous_lookup_correct": false
+    },
+    {
+      "split": "train",
+      "trajectory_id": "8850_20.h5",
+      "start": 440,
+      "saved_history_matches_named_hdf5": false,
+      "saved_target_matches_named_hdf5": false,
+      "legacy_previous_lookup_row": 43,
+      "correct_previous_cache_row": 44,
+      "legacy_previous_lookup_correct": false
+    },
+    {
+      "split": "train",
+      "trajectory_id": "8850_5.h5",
+      "start": 440,
+      "saved_history_matches_named_hdf5": false,
+      "saved_target_matches_named_hdf5": false,
+      "legacy_previous_lookup_row": 44,
+      "correct_previous_cache_row": 45,
+      "legacy_previous_lookup_correct": false
+    }
+  ],
+  "old_rows_with_wrong_target": [
+    {
+      "split": "train",
+      "trajectory_id": "24150_0.h5",
+      "start": 420,
+      "saved_history_matches_named_hdf5": false,
+      "saved_target_matches_named_hdf5": false,
+      "legacy_previous_lookup_row": 33,
+      "correct_previous_cache_row": 34,
+      "legacy_previous_lookup_correct": false
+    },
+    {
+      "split": "train",
+      "trajectory_id": "24150_10.h5",
+      "start": 420,
+      "saved_history_matches_named_hdf5": false,
+      "saved_target_matches_named_hdf5": false,
+      "legacy_previous_lookup_row": 34,
+      "correct_previous_cache_row": 35,
+      "legacy_previous_lookup_correct": false
+    },
+    {
+      "split": "train",
+      "trajectory_id": "24150_15.h5",
+      "start": 420,
+      "saved_history_matches_named_hdf5": false,
+      "saved_target_matches_named_hdf5": false,
+      "legacy_previous_lookup_row": 35,
+      "correct_previous_cache_row": 36,
+      "legacy_previous_lookup_correct": false
+    },
+    {
+      "split": "train",
+      "trajectory_id": "25425_0.h5",
+      "start": 420,
+      "saved_history_matches_named_hdf5": false,
+      "saved_target_matches_named_hdf5": false,
+      "legacy_previous_lookup_row": 36,
+      "correct_previous_cache_row": 37,
+      "legacy_previous_lookup_correct": false
+    },
+    {
+      "split": "train",
+      "trajectory_id": "25425_10.h5",
+      "start": 420,
+      "saved_history_matches_named_hdf5": false,
+      "saved_target_matches_named_hdf5": false,
+      "legacy_previous_lookup_row": 37,
+      "correct_previous_cache_row": 38,
+      "legacy_previous_lookup_correct": false
+    },
+    {
+      "split": "train",
+      "trajectory_id": "25425_15.h5",
+      "start": 420,
+      "saved_history_matches_named_hdf5": false,
+      "saved_target_matches_named_hdf5": false,
+      "legacy_previous_lookup_row": 38,
+      "correct_previous_cache_row": 39,
+      "legacy_previous_lookup_correct": false
+    },
+    {
+      "split": "train",
+      "trajectory_id": "25425_20.h5",
+      "start": 420,
+      "saved_history_matches_named_hdf5": false,
+      "saved_target_matches_named_hdf5": false,
+      "legacy_previous_lookup_row": 39,
+      "correct_previous_cache_row": 40,
+      "legacy_previous_lookup_correct": false
+    },
+    {
+      "split": "train",
+      "trajectory_id": "8850_0.h5",
+      "start": 420,
+      "saved_history_matches_named_hdf5": false,
+      "saved_target_matches_named_hdf5": false,
+      "legacy_previous_lookup_row": 40,
+      "correct_previous_cache_row": 41,
+      "legacy_previous_lookup_correct": false
+    },
+    {
+      "split": "train",
+      "trajectory_id": "8850_10.h5",
+      "start": 420,
+      "saved_history_matches_named_hdf5": false,
+      "saved_target_matches_named_hdf5": false,
+      "legacy_previous_lookup_row": 41,
+      "correct_previous_cache_row": 42,
+      "legacy_previous_lookup_correct": false
+    },
+    {
+      "split": "train",
+      "trajectory_id": "8850_15.h5",
+      "start": 420,
+      "saved_history_matches_named_hdf5": false,
+      "saved_target_matches_named_hdf5": false,
+      "legacy_previous_lookup_row": 42,
+      "correct_previous_cache_row": 43,
+      "legacy_previous_lookup_correct": false
+    },
+    {
+      "split": "train",
+      "trajectory_id": "8850_20.h5",
+      "start": 420,
+      "saved_history_matches_named_hdf5": false,
+      "saved_target_matches_named_hdf5": false,
+      "legacy_previous_lookup_row": 43,
+      "correct_previous_cache_row": 44,
+      "legacy_previous_lookup_correct": false
+    },
+    {
+      "split": "train",
+      "trajectory_id": "8850_5.h5",
+      "start": 420,
+      "saved_history_matches_named_hdf5": false,
+      "saved_target_matches_named_hdf5": false,
+      "legacy_previous_lookup_row": 44,
+      "correct_previous_cache_row": 45,
+      "legacy_previous_lookup_correct": false
+    },
+    {
+      "split": "train",
+      "trajectory_id": "24150_0.h5",
+      "start": 440,
+      "saved_history_matches_named_hdf5": false,
+      "saved_target_matches_named_hdf5": false,
+      "legacy_previous_lookup_row": 33,
+      "correct_previous_cache_row": 34,
+      "legacy_previous_lookup_correct": false
+    },
+    {
+      "split": "train",
+      "trajectory_id": "24150_10.h5",
+      "start": 440,
+      "saved_history_matches_named_hdf5": false,
+      "saved_target_matches_named_hdf5": false,
+      "legacy_previous_lookup_row": 34,
+      "correct_previous_cache_row": 35,
+      "legacy_previous_lookup_correct": false
+    },
+    {
+      "split": "train",
+      "trajectory_id": "24150_15.h5",
+      "start": 440,
+      "saved_history_matches_named_hdf5": false,
+      "saved_target_matches_named_hdf5": false,
+      "legacy_previous_lookup_row": 35,
+      "correct_previous_cache_row": 36,
+      "legacy_previous_lookup_correct": false
+    },
+    {
+      "split": "train",
+      "trajectory_id": "25425_0.h5",
+      "start": 440,
+      "saved_history_matches_named_hdf5": false,
+      "saved_target_matches_named_hdf5": false,
+      "legacy_previous_lookup_row": 36,
+      "correct_previous_cache_row": 37,
+      "legacy_previous_lookup_correct": false
+    },
+    {
+      "split": "train",
+      "trajectory_id": "25425_10.h5",
+      "start": 440,
+      "saved_history_matches_named_hdf5": false,
+      "saved_target_matches_named_hdf5": false,
+      "legacy_previous_lookup_row": 37,
+      "correct_previous_cache_row": 38,
+      "legacy_previous_lookup_correct": false
+    },
+    {
+      "split": "train",
+      "trajectory_id": "25425_15.h5",
+      "start": 440,
+      "saved_history_matches_named_hdf5": false,
+      "saved_target_matches_named_hdf5": false,
+      "legacy_previous_lookup_row": 38,
+      "correct_previous_cache_row": 39,
+      "legacy_previous_lookup_correct": false
+    },
+    {
+      "split": "train",
+      "trajectory_id": "25425_20.h5",
+      "start": 440,
+      "saved_history_matches_named_hdf5": false,
+      "saved_target_matches_named_hdf5": false,
+      "legacy_previous_lookup_row": 39,
+      "correct_previous_cache_row": 40,
+      "legacy_previous_lookup_correct": false
+    },
+    {
+      "split": "train",
+      "trajectory_id": "8850_0.h5",
+      "start": 440,
+      "saved_history_matches_named_hdf5": false,
+      "saved_target_matches_named_hdf5": false,
+      "legacy_previous_lookup_row": 40,
+      "correct_previous_cache_row": 41,
+      "legacy_previous_lookup_correct": false
+    },
+    {
+      "split": "train",
+      "trajectory_id": "8850_10.h5",
+      "start": 440,
+      "saved_history_matches_named_hdf5": false,
+      "saved_target_matches_named_hdf5": false,
+      "legacy_previous_lookup_row": 41,
+      "correct_previous_cache_row": 42,
+      "legacy_previous_lookup_correct": false
+    },
+    {
+      "split": "train",
+      "trajectory_id": "8850_15.h5",
+      "start": 440,
+      "saved_history_matches_named_hdf5": false,
+      "saved_target_matches_named_hdf5": false,
+      "legacy_previous_lookup_row": 42,
+      "correct_previous_cache_row": 43,
+      "legacy_previous_lookup_correct": false
+    },
+    {
+      "split": "train",
+      "trajectory_id": "8850_20.h5",
+      "start": 440,
+      "saved_history_matches_named_hdf5": false,
+      "saved_target_matches_named_hdf5": false,
+      "legacy_previous_lookup_row": 43,
+      "correct_previous_cache_row": 44,
+      "legacy_previous_lookup_correct": false
+    },
+    {
+      "split": "train",
+      "trajectory_id": "8850_5.h5",
+      "start": 440,
+      "saved_history_matches_named_hdf5": false,
+      "saved_target_matches_named_hdf5": false,
+      "legacy_previous_lookup_row": 44,
+      "correct_previous_cache_row": 45,
+      "legacy_previous_lookup_correct": false
+    }
+  ],
+  "old_rows_with_wrong_previous_lookup": [
+    {
+      "split": "train",
+      "trajectory_id": "24150_0.h5",
+      "start": 420,
+      "saved_history_matches_named_hdf5": false,
+      "saved_target_matches_named_hdf5": false,
+      "legacy_previous_lookup_row": 33,
+      "correct_previous_cache_row": 34,
+      "legacy_previous_lookup_correct": false
+    },
+    {
+      "split": "train",
+      "trajectory_id": "24150_10.h5",
+      "start": 420,
+      "saved_history_matches_named_hdf5": false,
+      "saved_target_matches_named_hdf5": false,
+      "legacy_previous_lookup_row": 34,
+      "correct_previous_cache_row": 35,
+      "legacy_previous_lookup_correct": false
+    },
+    {
+      "split": "train",
+      "trajectory_id": "24150_15.h5",
+      "start": 420,
+      "saved_history_matches_named_hdf5": false,
+      "saved_target_matches_named_hdf5": false,
+      "legacy_previous_lookup_row": 35,
+      "correct_previous_cache_row": 36,
+      "legacy_previous_lookup_correct": false
+    },
+    {
+      "split": "train",
+      "trajectory_id": "25425_0.h5",
+      "start": 420,
+      "saved_history_matches_named_hdf5": false,
+      "saved_target_matches_named_hdf5": false,
+      "legacy_previous_lookup_row": 36,
+      "correct_previous_cache_row": 37,
+      "legacy_previous_lookup_correct": false
+    },
+    {
+      "split": "train",
+      "trajectory_id": "25425_10.h5",
+      "start": 420,
+      "saved_history_matches_named_hdf5": false,
+      "saved_target_matches_named_hdf5": false,
+      "legacy_previous_lookup_row": 37,
+      "correct_previous_cache_row": 38,
+      "legacy_previous_lookup_correct": false
+    },
+    {
+      "split": "train",
+      "trajectory_id": "25425_15.h5",
+      "start": 420,
+      "saved_history_matches_named_hdf5": false,
+      "saved_target_matches_named_hdf5": false,
+      "legacy_previous_lookup_row": 38,
+      "correct_previous_cache_row": 39,
+      "legacy_previous_lookup_correct": false
+    },
+    {
+      "split": "train",
+      "trajectory_id": "25425_20.h5",
+      "start": 420,
+      "saved_history_matches_named_hdf5": false,
+      "saved_target_matches_named_hdf5": false,
+      "legacy_previous_lookup_row": 39,
+      "correct_previous_cache_row": 40,
+      "legacy_previous_lookup_correct": false
+    },
+    {
+      "split": "train",
+      "trajectory_id": "8850_0.h5",
+      "start": 420,
+      "saved_history_matches_named_hdf5": false,
+      "saved_target_matches_named_hdf5": false,
+      "legacy_previous_lookup_row": 40,
+      "correct_previous_cache_row": 41,
+      "legacy_previous_lookup_correct": false
+    },
+    {
+      "split": "train",
+      "trajectory_id": "8850_10.h5",
+      "start": 420,
+      "saved_history_matches_named_hdf5": false,
+      "saved_target_matches_named_hdf5": false,
+      "legacy_previous_lookup_row": 41,
+      "correct_previous_cache_row": 42,
+      "legacy_previous_lookup_correct": false
+    },
+    {
+      "split": "train",
+      "trajectory_id": "8850_15.h5",
+      "start": 420,
+      "saved_history_matches_named_hdf5": false,
+      "saved_target_matches_named_hdf5": false,
+      "legacy_previous_lookup_row": 42,
+      "correct_previous_cache_row": 43,
+      "legacy_previous_lookup_correct": false
+    },
+    {
+      "split": "train",
+      "trajectory_id": "8850_20.h5",
+      "start": 420,
+      "saved_history_matches_named_hdf5": false,
+      "saved_target_matches_named_hdf5": false,
+      "legacy_previous_lookup_row": 43,
+      "correct_previous_cache_row": 44,
+      "legacy_previous_lookup_correct": false
+    },
+    {
+      "split": "train",
+      "trajectory_id": "8850_5.h5",
+      "start": 420,
+      "saved_history_matches_named_hdf5": false,
+      "saved_target_matches_named_hdf5": false,
+      "legacy_previous_lookup_row": 44,
+      "correct_previous_cache_row": 45,
+      "legacy_previous_lookup_correct": false
+    },
+    {
+      "split": "train",
+      "trajectory_id": "24150_0.h5",
+      "start": 440,
+      "saved_history_matches_named_hdf5": false,
+      "saved_target_matches_named_hdf5": false,
+      "legacy_previous_lookup_row": 33,
+      "correct_previous_cache_row": 34,
+      "legacy_previous_lookup_correct": false
+    },
+    {
+      "split": "train",
+      "trajectory_id": "24150_10.h5",
+      "start": 440,
+      "saved_history_matches_named_hdf5": false,
+      "saved_target_matches_named_hdf5": false,
+      "legacy_previous_lookup_row": 34,
+      "correct_previous_cache_row": 35,
+      "legacy_previous_lookup_correct": false
+    },
+    {
+      "split": "train",
+      "trajectory_id": "24150_15.h5",
+      "start": 440,
+      "saved_history_matches_named_hdf5": false,
+      "saved_target_matches_named_hdf5": false,
+      "legacy_previous_lookup_row": 35,
+      "correct_previous_cache_row": 36,
+      "legacy_previous_lookup_correct": false
+    },
+    {
+      "split": "train",
+      "trajectory_id": "25425_0.h5",
+      "start": 440,
+      "saved_history_matches_named_hdf5": false,
+      "saved_target_matches_named_hdf5": false,
+      "legacy_previous_lookup_row": 36,
+      "correct_previous_cache_row": 37,
+      "legacy_previous_lookup_correct": false
+    },
+    {
+      "split": "train",
+      "trajectory_id": "25425_10.h5",
+      "start": 440,
+      "saved_history_matches_named_hdf5": false,
+      "saved_target_matches_named_hdf5": false,
+      "legacy_previous_lookup_row": 37,
+      "correct_previous_cache_row": 38,
+      "legacy_previous_lookup_correct": false
+    },
+    {
+      "split": "train",
+      "trajectory_id": "25425_15.h5",
+      "start": 440,
+      "saved_history_matches_named_hdf5": false,
+      "saved_target_matches_named_hdf5": false,
+      "legacy_previous_lookup_row": 38,
+      "correct_previous_cache_row": 39,
+      "legacy_previous_lookup_correct": false
+    },
+    {
+      "split": "train",
+      "trajectory_id": "25425_20.h5",
+      "start": 440,
+      "saved_history_matches_named_hdf5": false,
+      "saved_target_matches_named_hdf5": false,
+      "legacy_previous_lookup_row": 39,
+      "correct_previous_cache_row": 40,
+      "legacy_previous_lookup_correct": false
+    },
+    {
+      "split": "train",
+      "trajectory_id": "8850_0.h5",
+      "start": 440,
+      "saved_history_matches_named_hdf5": false,
+      "saved_target_matches_named_hdf5": false,
+      "legacy_previous_lookup_row": 40,
+      "correct_previous_cache_row": 41,
+      "legacy_previous_lookup_correct": false
+    },
+    {
+      "split": "train",
+      "trajectory_id": "8850_10.h5",
+      "start": 440,
+      "saved_history_matches_named_hdf5": false,
+      "saved_target_matches_named_hdf5": false,
+      "legacy_previous_lookup_row": 41,
+      "correct_previous_cache_row": 42,
+      "legacy_previous_lookup_correct": false
+    },
+    {
+      "split": "train",
+      "trajectory_id": "8850_15.h5",
+      "start": 440,
+      "saved_history_matches_named_hdf5": false,
+      "saved_target_matches_named_hdf5": false,
+      "legacy_previous_lookup_row": 42,
+      "correct_previous_cache_row": 43,
+      "legacy_previous_lookup_correct": false
+    },
+    {
+      "split": "train",
+      "trajectory_id": "8850_20.h5",
+      "start": 440,
+      "saved_history_matches_named_hdf5": false,
+      "saved_target_matches_named_hdf5": false,
+      "legacy_previous_lookup_row": 43,
+      "correct_previous_cache_row": 44,
+      "legacy_previous_lookup_correct": false
+    },
+    {
+      "split": "train",
+      "trajectory_id": "8850_5.h5",
+      "start": 440,
+      "saved_history_matches_named_hdf5": false,
+      "saved_target_matches_named_hdf5": false,
+      "legacy_previous_lookup_row": 44,
+      "correct_previous_cache_row": 45,
+      "legacy_previous_lookup_correct": false
+    },
+    {
+      "split": "train",
+      "trajectory_id": "24150_0.h5",
+      "start": 460,
+      "saved_history_matches_named_hdf5": true,
+      "saved_target_matches_named_hdf5": true,
+      "legacy_previous_lookup_row": 33,
+      "correct_previous_cache_row": 34,
+      "legacy_previous_lookup_correct": false
+    },
+    {
+      "split": "train",
+      "trajectory_id": "24150_10.h5",
+      "start": 460,
+      "saved_history_matches_named_hdf5": true,
+      "saved_target_matches_named_hdf5": true,
+      "legacy_previous_lookup_row": 34,
+      "correct_previous_cache_row": 35,
+      "legacy_previous_lookup_correct": false
+    },
+    {
+      "split": "train",
+      "trajectory_id": "24150_15.h5",
+      "start": 460,
+      "saved_history_matches_named_hdf5": true,
+      "saved_target_matches_named_hdf5": true,
+      "legacy_previous_lookup_row": 35,
+      "correct_previous_cache_row": 36,
+      "legacy_previous_lookup_correct": false
+    },
+    {
+      "split": "train",
+      "trajectory_id": "25425_0.h5",
+      "start": 460,
+      "saved_history_matches_named_hdf5": true,
+      "saved_target_matches_named_hdf5": true,
+      "legacy_previous_lookup_row": 36,
+      "correct_previous_cache_row": 37,
+      "legacy_previous_lookup_correct": false
+    },
+    {
+      "split": "train",
+      "trajectory_id": "25425_10.h5",
+      "start": 460,
+      "saved_history_matches_named_hdf5": true,
+      "saved_target_matches_named_hdf5": true,
+      "legacy_previous_lookup_row": 37,
+      "correct_previous_cache_row": 38,
+      "legacy_previous_lookup_correct": false
+    },
+    {
+      "split": "train",
+      "trajectory_id": "25425_15.h5",
+      "start": 460,
+      "saved_history_matches_named_hdf5": true,
+      "saved_target_matches_named_hdf5": true,
+      "legacy_previous_lookup_row": 38,
+      "correct_previous_cache_row": 39,
+      "legacy_previous_lookup_correct": false
+    },
+    {
+      "split": "train",
+      "trajectory_id": "25425_20.h5",
+      "start": 460,
+      "saved_history_matches_named_hdf5": true,
+      "saved_target_matches_named_hdf5": true,
+      "legacy_previous_lookup_row": 39,
+      "correct_previous_cache_row": 40,
+      "legacy_previous_lookup_correct": false
+    },
+    {
+      "split": "train",
+      "trajectory_id": "8850_0.h5",
+      "start": 460,
+      "saved_history_matches_named_hdf5": true,
+      "saved_target_matches_named_hdf5": true,
+      "legacy_previous_lookup_row": 40,
+      "correct_previous_cache_row": 41,
+      "legacy_previous_lookup_correct": false
+    },
+    {
+      "split": "train",
+      "trajectory_id": "8850_10.h5",
+      "start": 460,
+      "saved_history_matches_named_hdf5": true,
+      "saved_target_matches_named_hdf5": true,
+      "legacy_previous_lookup_row": 41,
+      "correct_previous_cache_row": 42,
+      "legacy_previous_lookup_correct": false
+    },
+    {
+      "split": "train",
+      "trajectory_id": "8850_15.h5",
+      "start": 460,
+      "saved_history_matches_named_hdf5": true,
+      "saved_target_matches_named_hdf5": true,
+      "legacy_previous_lookup_row": 42,
+      "correct_previous_cache_row": 43,
+      "legacy_previous_lookup_correct": false
+    },
+    {
+      "split": "train",
+      "trajectory_id": "8850_20.h5",
+      "start": 460,
+      "saved_history_matches_named_hdf5": true,
+      "saved_target_matches_named_hdf5": true,
+      "legacy_previous_lookup_row": 43,
+      "correct_previous_cache_row": 44,
+      "legacy_previous_lookup_correct": false
+    },
+    {
+      "split": "train",
+      "trajectory_id": "8850_5.h5",
+      "start": 460,
+      "saved_history_matches_named_hdf5": true,
+      "saved_target_matches_named_hdf5": true,
+      "legacy_previous_lookup_row": 44,
+      "correct_previous_cache_row": 45,
+      "legacy_previous_lookup_correct": false
+    }
+  ],
+  "old_risk_field_reused": false,
+  "train_windows": 137,
+  "development_windows": 36,
+  "test_catalog_windows": 12,
+  "raw_maps": 173,
+  "risks_independently_recomputed": true,
+  "scale_source": "137 valid training windows only",
+  "key_alignment": "split, trajectory_id, start; cache identity.files.index(trajectory_id)",
+  "real_replay_groups": 4,
+  "real_native_paths": 128,
+  "real_closed_wrapper_paths": 128,
+  "no_test_cache_or_test_future_read": true,
+  "old_negative_conclusion_valid": false,
+  "ready_input_catalog": true,
+  "seconds": 121.13514679856598,
+  "replay_gpu_seconds": 0.2143070288002491,
+  "legacy_precision_diagnostic_paths": 150,
+  "pairing_policy": "Old TF32 caches are past-feedback sources only. Future comparisons must use native_sample with the identical reconstructed noise and FP32 flags, never the old cached output as the FP32 baseline.",
+  "code_hashes": {
+    "research/trust_causal_audit_v2/audit.py": "77c82007a4b3713765cdf7654f7d0ff7e643b682cefae23739e3cc4f833b186a",
+    "research/trust_causal_audit_v2/common.py": "6b0d6c975559f79d81a7d181c97c70bf818edb7b114f774a41dd1e243d3e3ab5",
+    "research/trust_causal_audit_v2/data.py": "b641c705aed9cda531191149a087afee561c6bc0afc28941a14662442ce91bc6",
+    "research/trust_causal_audit_v2/finalize.py": "139c9980696c830c4b3620cf3ddeaf4e69ae51308fe8ec0c16af5c28aba2da83",
+    "research/trust_causal_audit_v2/model.py": "e31e1b1b6cb55e958a1be749301fca3ad92a6e58b33b0a255183c58d2dd103d0",
+    "research/trust_causal_audit_v2/run.py": "5ff2c66c30709d6a21eca80c52490cde518b90091168101f88f3f84c7e836454",
+    "research/trust_causal_audit_v2/tests.py": "e32437d34926ee9424b8dd8da2a2c3ae7c38910d63677fa96334980b5d10f534",
+    "research/trust_causal_audit_v2/verify.py": "cc5ddf23f0b4f19fb37e57a354d0ca41035db53496cd90d7c723af7030cff454"
+  },
+  "backbone_state_sha256_before": "50a0e3afd5c71041776d4ae5c556747150dbf21e38dde3b083b0efff81091b21",
+  "backbone_state_sha256_after": "50a0e3afd5c71041776d4ae5c556747150dbf21e38dde3b083b0efff81091b21"
+}

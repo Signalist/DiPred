@@ -1,0 +1,14 @@
+{
+  "optimizer_updates": 0,
+  "training_runs": 0,
+  "formal_test_comparisons": 0,
+  "new_native_cache_generation": 0,
+  "synthetic_preflight_seconds": 1.9140476826578379,
+  "real_data_audit_seconds": 121.13514679856598,
+  "real_FP32_native_paths": 128,
+  "real_disabled_wrapper_paths": 128,
+  "original_TF32_diagnostic_paths": 150,
+  "extra_precision_diagnostic_paths": 92,
+  "real_replay_gpu_seconds": 0.2143070288002491,
+  "note": "Synthetic A/D/F also execute full-member frozen forwards and autograd; no optimizer. No full dataset inference. Repeated read-only audit attempts and failed precision check retained separately."
+}

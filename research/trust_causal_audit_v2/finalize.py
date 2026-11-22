@@ -1,0 +1,90 @@
+"""Build reviewable Chinese evidence report; no model inference."""
+import csv
+import json
+import subprocess
+from pathlib import Path
+from .common import ROOT,OUT,CODE,OLD_CODE,OLD_OUT,digest,dump,assert_protected,REFERENCE
+
+
+def run():
+    pre=json.loads((OUT/'PREFLIGHT.json').read_text());data=json.loads((OUT/'DATA_AUDIT.json').read_text())
+    verification=json.loads((OUT/'VERIFICATION.json').read_text())
+    assert pre['passed'] and data['passed'] and verification['passed']
+    before=json.loads((OUT/'PROTECTED_BEFORE.json').read_text())
+    source_before={k:v for k,v in before.items() if k.startswith('research/')}
+    source_after={str(p.relative_to(ROOT)):digest(p) for p in sorted(OLD_CODE.glob('*')) if p.is_file()}
+    assert source_before==source_after
+    dump(OUT/'SOURCE_HASHES.json',dict(reference=REFERENCE,old_before=source_before,old_after=source_after,
+        new_sources={str(p.relative_to(ROOT)):digest(p) for p in sorted(CODE.iterdir()) if p.is_file()},
+        original_sources_modified=False,implementation='new v2 directory; old code is an invalid historical archive'))
+    # Source diff compares the empty new directory at reference to new files;
+    # output patches are evidence artifacts and never enter the diff itself.
+    patch=subprocess.run(['git','diff','--cached','--','research/trust_causal_audit_v2'],cwd=ROOT,text=True,stdout=subprocess.PIPE,check=True).stdout
+    assert patch,'Stage new source files before finalization to capture reviewable Git diff'
+    (OUT/'SOURCE_DIFF.patch').write_text(patch)
+    rows=json.loads((OUT/'OLD_ROW_IDENTITY_AUDIT.json').read_text())
+    table={(r['split'],r['trajectory_id'],r['start']):r for r in rows}
+    affected=[];summaries={}
+    for arm in ('G_context','G_trust'):
+        logs=list(csv.DictReader((OLD_OUT/f'training_{arm}.csv').open()))
+        for r in logs:
+            audit=table['train',r['file'],int(r['start'])]
+            affected.append(dict(arm=arm,step=int(r['step']),trajectory_id=r['file'],start=int(r['start']),
+                historical_risk_definition_used_future=True,
+                future_risk_enters_this_arm=arm=='G_trust',
+                wrong_history=not audit['saved_history_matches_named_hdf5'],
+                wrong_target=not audit['saved_target_matches_named_hdf5'],
+                wrong_previous_lookup=not audit['legacy_previous_lookup_correct']))
+        own=[r for r in affected if r['arm']==arm]
+        summaries[arm]=dict(updates=len(own),wrong_history=sum(r['wrong_history'] for r in own),
+             wrong_target=sum(r['wrong_target'] for r in own),wrong_previous_lookup=sum(r['wrong_previous_lookup'] for r in own),
+             future_risk_used=sum(r['future_risk_enters_this_arm'] for r in own))
+    with (OUT/'OLD_TRAINING_RECORD_AUDIT.csv').open('w',newline='') as f:
+        writer=csv.DictWriter(f,fieldnames=list(affected[0]),lineterminator='\n');writer.writeheader();writer.writerows(affected)
+    dump(OUT/'OLD_TRAINING_IMPACT.json',summaries)
+    norm=json.loads((OUT/'RISK_NORMALIZATION.json').read_text())
+    replay=json.loads((OUT/'REAL_REPLAY.json').read_text())
+    cost=dict(optimizer_updates=0,training_runs=0,formal_test_comparisons=0,new_native_cache_generation=0,
+              synthetic_preflight_seconds=pre['seconds'],real_data_audit_seconds=data['seconds'],
+              real_FP32_native_paths=128,real_disabled_wrapper_paths=128,
+              original_TF32_diagnostic_paths=150,extra_precision_diagnostic_paths=92,
+              real_replay_gpu_seconds=data['replay_gpu_seconds'],
+              note='Synthetic A/D/F also execute full-member frozen forwards and autograd; no optimizer. No full dataset inference. Repeated read-only audit attempts and failed precision check retained separately.')
+    dump(OUT/'COST.json',cost)
+    rows=['# Trust 因果修复与训练前审计 v2','',
+          '**READY_FOR_RETRAINING=true**。新数据入口、时间因果性、轨迹/成员身份、同噪声 FP32 比较及未训练的路由结构通过验证。本轮训练次数和优化器更新均为 **0**；未进行正式测试模型比较。这个状态不表示任何预测收益。','',
+          '上一轮我把包含未来标签泄漏、身份错配和不足测试的实验标记为完成，该结论不成立。旧文件原样保留，仅作为无效历史记录；“两个模型都回退原生”不能否定历史误差路由假设。','',
+          '## 旧实验的影响范围','',
+          '- 旧 R 使用当前未来目标而非当前已观测历史，训练风险尺度同样被污染。G_trust 显式使用 R，因此该分支全部训练/开发结论无效。G_context 不使用 R 的显式偏置，不能仅凭此说它直接读到了 R；但它受到以下身份和配对错误影响，其旧比较同样无效。',
+          '- 旧训练准备表为135行。短轨迹在420/440也被错误排除，缺少2行；420和440各12行的文件身份与历史/目标张量错配，共24行。上一预测按准备表首次位置查找，导致12条受影响轨迹在三个窗口共36行错配。开发表的历史/目标身份匹配，但风险仍泄漏。完整名单见 OLD_ROW_IDENTITY_AUDIT.json。','',
+          '|旧训练日志|记录数|历史/目标错配|上一预测错配|显式使用污染R|',
+          '|---|---:|---:|---:|---:|']
+    for arm,s in summaries.items():rows.append(f"|{arm}|{s['updates']}|{s['wrong_history']}|{s['wrong_previous_lookup']}|{s['future_risk_used']}|")
+    rows += ['', '这些标记可重叠，不应相加为独立记录。逐步记录见 OLD_TRAINING_RECORD_AUDIT.csv。旧权重未加载进修订模型；486参数旧头与1269参数新接口也不兼容。','',
+             '## 修复后的数据和信息边界','',
+             '独立打开原HDF5核对 u/v/t 长度及全文件哈希，训练实际有效窗口为46/46/45，共137；开发36；历史测试清单12。21600_5.h5有492帧，保留420、440，只有460因完整目标不足而排除。测试只检查文件/长度/名单，没有读取测试缓存或测试未来值。','',
+             '所有记录以(split, trajectory_id, start)对齐，缓存索引来自identity.files中的文件名。上一预测与当前历史严格对应同一[s,s+20)；R=mean_(c,h)[((mean(P_prev)-H_current)/sigma_c)^2]。当前未来仅单独读取做标签切片哈希，发布函数根本不请求它。保存每条原始历史、标签、上一完整预测、时间戳、32成员身份、R及归一化图的哈希。','',
+             f"重新计算173张风险地图，训练137张独占估计log1p的99%尺度为 **{norm['log1p_p99']:.12g}**，开发不参与；固定裁剪[0,1]。独立复核逐张从HDF5和原生缓存重算，未使用任何旧risk字段或旧归一化统计。risk_maps.npz与WINDOW_MANIFEST.json可按显式键复核。",'',
+             '## 公平信息条件与路由机制','',
+             '两模型均接收首层48通道空间特征、完整真实历史40通道、上一32成员均值40通道、位置/去噪标签、本地风险及8邻域风险；1269参数和42号初始化完全相同。本轮没有训练。当前物理结构通过原生空间特征感受野和完整历史进入学习头，未把物理速度直接做邻居替换。','',
+             'G_context使用softmax(logits)和0.25 sigmoid(q)。G_trust固定lambda=beta=1，使用softmax(logits-R_neighbor)及0.25 sigmoid(q+R_local-sum(a R_neighbor))。固定logits/q时，提高邻居风险降低对应权重；提高本地相对风险增加融合强度；本地相对低风险则保留更多本地特征。学习头本身也可依赖风险，所以不声称整个网络对原数据全局单调。','',
+             '使用有效非中心3×3邻域，边缘不复制中心、不周期连接；测试角/边/内部邻居数3/5/8及障碍、孤立格点，mask为无效时不融合。HDF5无已定义mask字段，未从零速度虚构障碍。成员隔离及排列等变测试通过；推理不对成员排序、重配或混合。历史误差不是观测噪声，也不是物理位置本身不可信。','',
+             '## 噪声与精度发现','',
+             '原噪声需要先按完整split批次和文件顺序用500000–500031生成，再按文件身份切片。已记录4个真实样本共128个成员的实际noise哈希、种子、轨迹、窗口、批次及设备。原生和包装器直接使用同一张量。旧单轨迹重抽对第0行碰巧一致，短轨迹/其后轨迹及选定开发样本的32个成员全部不一致，不能笼统宣称旧基线和非零候选共享噪声。','',
+             '另外，旧缓存没有记录完整执行精度。FP32原生与旧输出误差约1.0e-4至1.34e-4，超过原定2e-6，失败保留在FAILURE.json。原始批次cuDNN TF32开启时4个真实样本的单成员回放误差均为0；新FP32原生与硬关闭包装器的四个完整32成员回放也均为0。没有放宽容差。旧TF32缓存可作为已经发布的过去反馈，但不作为新FP32的严格配对评分基线；下一轮必须用同噪声、同精度native_sample生成原生基线。','',
+             '## 真正执行的验证','',
+             'A：从数据入口污染当前未来为NaN，两模型的风险、输入、已发布四步完整32成员预测逐值相同；读请求仅当前历史。B：改变已揭示历史、未来标签不变，风险按定义变化。C：含短中间轨迹的唯一数值标识数据验证每窗口有效列表和缓存索引。D：重建实际噪声，硬关闭包装器与同精度原生全20帧四步输出完全一致。','',
+             'E：受控先验、相对风险门控、0.25上界、非负归一化、边界/障碍/成员隔离。F：完整32成员CRPS与显式成员对值、解析梯度及有限差分一致；原尺度ES和通道标准化ES分别验证；99/66/33/0每次路由调用对两个头各参数都有非零直接梯度，主干哈希前后不变。G：故意注入未来风险、最后窗口valid复用及位置索引错误，测试均能识别。旧assert equal(h,h)等占位检查未作为任何通过依据。','',
+             '首次审计还暴露了新清单中遗漏risk哈希字段的KeyError，补齐元数据后重跑通过；精度失败按上节处理。错误注入是预期拒绝，不能计为方法预测效果。最终验证以PREFLIGHT、DATA_AUDIT、VERIFICATION和SOURCE_HASHES中的当前源码/证据为准。','',
+             '## 下一步边界','',
+             '可以在新v2输入、重新初始化的等容量路由器、正确137行训练清单及同噪声FP32基线规则下另行开展训练。本轮不启动。旧结论全部撤回为无效比较；这里不判断误差路由是否有用、不新增超参数、不新增测试窗口，也不做模型收益评价。','',
+             '原源码、旧结果、旧权重及缓存共49个文件逐文件哈希不变。新增实现和源码差异见SOURCE_HASHES.json、SOURCE_DIFF.patch。正式推理与优化器更新为0；少量冻结前向与梯度核验成本见COST.json。']
+    (OUT/'DECISION_REPORT.md').write_text('\n'.join(rows)+'\n')
+    assert_protected()
+    files={str(p.relative_to(ROOT)):digest(p) for directory in (CODE,OUT) for p in directory.rglob('*')
+           if p.is_file() and '__pycache__' not in p.parts and p.name!='ARTIFACT_HASHES.json'}
+    dump(OUT/'ARTIFACT_HASHES.json',files)
+    print('REPORT AND HASHES WRITTEN; READY_FOR_RETRAINING=true',flush=True)
+
+
+if __name__=='__main__':run()

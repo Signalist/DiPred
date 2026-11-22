@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "READY_FOR_RETRAINING": true,
+  "optimizer_updates": 0,
+  "training_runs": 0,
+  "formal_test_comparisons": 0,
+  "protected_files_unchanged": 49,
+  "source_hashes_checked": true,
+  "independent_risk_maps_checked": 173,
+  "independent_raw_risk_maxabs": 0.0,
+  "independent_train_scale": 0.8169264197349548,
+  "real_noise_hashes_reconstructed": 128,
+  "old_precision_mismatch_preserved": true,
+  "ready_scope": "v2 inputs, keyed caches, new identical-noise FP32 native/wrapper comparison and untrained routing interface only; no performance claim",
+  "required_next_run_policy": "Use new native_sample with identical actual noise/FP32 flags for baseline; do not compare to archived TF32 outputs as a strict FP32 baseline",
+  "code_hashes": {
+    "research/trust_causal_audit_v2/audit.py": "77c82007a4b3713765cdf7654f7d0ff7e643b682cefae23739e3cc4f833b186a",
+    "research/trust_causal_audit_v2/common.py": "6b0d6c975559f79d81a7d181c97c70bf818edb7b114f774a41dd1e243d3e3ab5",
+    "research/trust_causal_audit_v2/data.py": "b641c705aed9cda531191149a087afee561c6bc0afc28941a14662442ce91bc6",
+    "research/trust_causal_audit_v2/finalize.py": "139c9980696c830c4b3620cf3ddeaf4e69ae51308fe8ec0c16af5c28aba2da83",
+    "research/trust_causal_audit_v2/model.py": "e31e1b1b6cb55e958a1be749301fca3ad92a6e58b33b0a255183c58d2dd103d0",
+    "research/trust_causal_audit_v2/run.py": "5ff2c66c30709d6a21eca80c52490cde518b90091168101f88f3f84c7e836454",
+    "research/trust_causal_audit_v2/tests.py": "e32437d34926ee9424b8dd8da2a2c3ae7c38910d63677fa96334980b5d10f534",
+    "research/trust_causal_audit_v2/verify.py": "cc5ddf23f0b4f19fb37e57a354d0ca41035db53496cd90d7c723af7030cff454"
+  }
+}

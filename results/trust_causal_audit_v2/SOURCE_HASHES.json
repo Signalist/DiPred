@@ -1,0 +1,35 @@
+{
+  "reference": "3f5d3fd1e86a19bf33b78f35c861a0021553aa35",
+  "old_before": {
+    "research/error_guided_spatial_routing/PROTOCOL.md": "6d832898cf1809e1d4d08eec4a1b816632e339e2730faa450729f1868ba0de8c",
+    "research/error_guided_spatial_routing/README.md": "c5ac35a0adc72044402067626dc272f9ee7367f8d710c8be6f50f54501b70706",
+    "research/error_guided_spatial_routing/model.py": "aad20b6fdc75dc2c94609adb0e728dab8485a8fff5913aa55a4c7553d0695451",
+    "research/error_guided_spatial_routing/prepare.py": "6ede1497dec53d6458267ac1aac7a8cdf9479cba52893182767c2d59a5ff075e",
+    "research/error_guided_spatial_routing/run.py": "6f8738ce1b8911ea4c5643fafaf4bf6586085a8556720276a0728e75cf045c65",
+    "research/error_guided_spatial_routing/tests.py": "79a49859f2f0e616d2eb2fbde2c3289bd3d52448b1eea2e2f5199451ea2a13ed",
+    "research/error_guided_spatial_routing/verify.py": "609a232b8aac56443c2181f68bed70432efa4a3873954bd4b55063e03f62d200"
+  },
+  "old_after": {
+    "research/error_guided_spatial_routing/PROTOCOL.md": "6d832898cf1809e1d4d08eec4a1b816632e339e2730faa450729f1868ba0de8c",
+    "research/error_guided_spatial_routing/README.md": "c5ac35a0adc72044402067626dc272f9ee7367f8d710c8be6f50f54501b70706",
+    "research/error_guided_spatial_routing/model.py": "aad20b6fdc75dc2c94609adb0e728dab8485a8fff5913aa55a4c7553d0695451",
+    "research/error_guided_spatial_routing/prepare.py": "6ede1497dec53d6458267ac1aac7a8cdf9479cba52893182767c2d59a5ff075e",
+    "research/error_guided_spatial_routing/run.py": "6f8738ce1b8911ea4c5643fafaf4bf6586085a8556720276a0728e75cf045c65",
+    "research/error_guided_spatial_routing/tests.py": "79a49859f2f0e616d2eb2fbde2c3289bd3d52448b1eea2e2f5199451ea2a13ed",
+    "research/error_guided_spatial_routing/verify.py": "609a232b8aac56443c2181f68bed70432efa4a3873954bd4b55063e03f62d200"
+  },
+  "new_sources": {
+    "research/trust_causal_audit_v2/PROTOCOL.md": "8771d3efd5cbc7747ac06c6db581f44a485c6eb58ee141aaef23cbf409657dbd",
+    "research/trust_causal_audit_v2/README.md": "014c6809e911506c8a1580af3e42a05aa850042700a68e68fdc4c55e868a611d",
+    "research/trust_causal_audit_v2/audit.py": "77c82007a4b3713765cdf7654f7d0ff7e643b682cefae23739e3cc4f833b186a",
+    "research/trust_causal_audit_v2/common.py": "6b0d6c975559f79d81a7d181c97c70bf818edb7b114f774a41dd1e243d3e3ab5",
+    "research/trust_causal_audit_v2/data.py": "b641c705aed9cda531191149a087afee561c6bc0afc28941a14662442ce91bc6",
+    "research/trust_causal_audit_v2/finalize.py": "139c9980696c830c4b3620cf3ddeaf4e69ae51308fe8ec0c16af5c28aba2da83",
+    "research/trust_causal_audit_v2/model.py": "e31e1b1b6cb55e958a1be749301fca3ad92a6e58b33b0a255183c58d2dd103d0",
+    "research/trust_causal_audit_v2/run.py": "5ff2c66c30709d6a21eca80c52490cde518b90091168101f88f3f84c7e836454",
+    "research/trust_causal_audit_v2/tests.py": "e32437d34926ee9424b8dd8da2a2c3ae7c38910d63677fa96334980b5d10f534",
+    "research/trust_causal_audit_v2/verify.py": "cc5ddf23f0b4f19fb37e57a354d0ca41035db53496cd90d7c723af7030cff454"
+  },
+  "original_sources_modified": false,
+  "implementation": "new v2 directory; old code is an invalid historical archive"
+}
