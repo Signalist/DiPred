@@ -1,0 +1,23 @@
+{
+  "steps_each": 500,
+  "updates": 1000,
+  "seed": 42,
+  "frozen_non_out": "ac12a701e1e31b186aaea6ab94a4ff398e93661683f0013e502995009bbfe4da",
+  "backbone_out_initial_hash": "710f5d12df24a8904b3a6359cd041b2bba9b2f4ecae35195bba2805c565de860",
+  "backbone_out_initial_tensor_hashes": {
+    "weight": "c0fc018696b55909d656a73fee228a7ab99bc05487a63f75bbeb284dba8cc588",
+    "bias": "cc199525312240713b4dcf4c43bd0daaa80dbef642d36e332c0bbb26400d5192"
+  },
+  "output_changes": {
+    "C0": {
+      "out_state_hash": "45b3ca61ec3b714cd4491faecba2e8242f8894498011039ec88f608e15955703",
+      "out_delta_rms": 0.0002226845553888138,
+      "frozen_non_out_hash": "ac12a701e1e31b186aaea6ab94a4ff398e93661683f0013e502995009bbfe4da"
+    },
+    "C1": {
+      "out_state_hash": "dee3b6dda4c605525c492cddaf420ffbb28de5d32a1c76aa7f7a328dc013ead1",
+      "out_delta_rms": 0.00022097253610562983,
+      "frozen_non_out_hash": "ac12a701e1e31b186aaea6ab94a4ff398e93661683f0013e502995009bbfe4da"
+    }
+  }
+}

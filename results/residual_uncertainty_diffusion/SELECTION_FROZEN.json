@@ -1,0 +1,13 @@
+{
+  "selection_sha256": "3d1b065e1aa5baeba5c5ada804a9e0274380890b00f55fd0e80e77ae6c49035a",
+  "checkpoints_sha256": "8c63029a48d0c93da31181e689111400da6d70e6a2542857fe23ac414ffeb329",
+  "protocol_sha256": "0fbee1a7c68c6cc59aca9eb5ffb002d104ca6c75d0fad440c84c7a218c2355be",
+  "code_hashes": {
+    "research/residual_uncertainty_diffusion/core.py": "512e4dd982da9f1e7ea3a0be42d5135b08c63253f836297663b76d55f7a72d3a",
+    "research/residual_uncertainty_diffusion/experiment.py": "657ca9f52acfad02595ed18ee6da48c6dc39ec61e83020be17687d465e657a0b",
+    "research/residual_uncertainty_diffusion/prepare.py": "9584fe410288dd24f359a81dc3473ab792d22e075d2947b296008676508101a0",
+    "research/residual_uncertainty_diffusion/run.py": "efbc8566e133246584513cf3fab9500964fe6f4a7c798aa68d78efefa3eee29a",
+    "research/residual_uncertainty_diffusion/tests.py": "26ba380d438ec69031ef1fb4c3d2075266e876d4acc2dc48bf10ea6d84c37829"
+  },
+  "utc": 1795433657.809131
+}

@@ -1,0 +1,174 @@
+{
+  "passed": true,
+  "optimizer_updates": 0,
+  "correction_parameters": 6392,
+  "backbone_trainable_parameters": 17320,
+  "allowed_trainable_names": [
+    "native.net.out.weight",
+    "native.net.out.bias",
+    "correction.net.0.weight",
+    "correction.net.0.bias",
+    "correction.net.2.weight",
+    "correction.net.2.bias",
+    "correction.net.4.weight",
+    "correction.net.4.bias"
+  ],
+  "real_window_intervals_valid": true,
+  "raw_xpf_equivalence": {
+    "passed": true,
+    "train": {
+      "passed": true,
+      "examples": [
+        {
+          "split": "train",
+          "trajectory_id": "10125_0.h5",
+          "start": 420,
+          "selected_feature_indices": [
+            4,
+            5,
+            8,
+            9,
+            10,
+            11
+          ],
+          "feature_processing": "original float16 rounding; frozen stats; clip[-10,10]",
+          "geometry_not_required_for_selected_features": true,
+          "synthetic_geometry_reference_only": true,
+          "width_maxabs_errors": [
+            0.0,
+            0.0
+          ],
+          "xpf_weight_state_sha256": "2eaaee4576d2020866fba5ad8e3561bc20a50861c0e949bab2d2d915c0ccbdf2",
+          "no_calibrator": true,
+          "backbone_calls": 4
+        },
+        {
+          "split": "train",
+          "trajectory_id": "10125_10.h5",
+          "start": 420,
+          "selected_feature_indices": [
+            4,
+            5,
+            8,
+            9,
+            10,
+            11
+          ],
+          "feature_processing": "original float16 rounding; frozen stats; clip[-10,10]",
+          "geometry_not_required_for_selected_features": true,
+          "synthetic_geometry_reference_only": true,
+          "width_maxabs_errors": [
+            0.0,
+            0.0
+          ],
+          "xpf_weight_state_sha256": "2eaaee4576d2020866fba5ad8e3561bc20a50861c0e949bab2d2d915c0ccbdf2",
+          "no_calibrator": true,
+          "backbone_calls": 4
+        }
+      ],
+      "entries": 137,
+      "calls_per_window": 4,
+      "xpf_weight_state_sha256": "2eaaee4576d2020866fba5ad8e3561bc20a50861c0e949bab2d2d915c0ccbdf2",
+      "seconds": 57.03199110738933,
+      "cache_sha256": "da315044d3ee2d2abf78eee64d92adc64006d35405c99fa4be0931410357ea06"
+    },
+    "development": {
+      "passed": true,
+      "examples": [
+        {
+          "split": "development",
+          "trajectory_id": "26700_0.h5",
+          "start": 420,
+          "selected_feature_indices": [
+            4,
+            5,
+            8,
+            9,
+            10,
+            11
+          ],
+          "feature_processing": "original float16 rounding; frozen stats; clip[-10,10]",
+          "geometry_not_required_for_selected_features": true,
+          "synthetic_geometry_reference_only": true,
+          "width_maxabs_errors": [
+            0.0,
+            0.0
+          ],
+          "xpf_weight_state_sha256": "2eaaee4576d2020866fba5ad8e3561bc20a50861c0e949bab2d2d915c0ccbdf2",
+          "no_calibrator": true,
+          "backbone_calls": 4
+        },
+        {
+          "split": "development",
+          "trajectory_id": "26700_10.h5",
+          "start": 420,
+          "selected_feature_indices": [
+            4,
+            5,
+            8,
+            9,
+            10,
+            11
+          ],
+          "feature_processing": "original float16 rounding; frozen stats; clip[-10,10]",
+          "geometry_not_required_for_selected_features": true,
+          "synthetic_geometry_reference_only": true,
+          "width_maxabs_errors": [
+            0.0,
+            0.0
+          ],
+          "xpf_weight_state_sha256": "2eaaee4576d2020866fba5ad8e3561bc20a50861c0e949bab2d2d915c0ccbdf2",
+          "no_calibrator": true,
+          "backbone_calls": 4
+        }
+      ],
+      "entries": 36,
+      "calls_per_window": 4,
+      "xpf_weight_state_sha256": "2eaaee4576d2020866fba5ad8e3561bc20a50861c0e949bab2d2d915c0ccbdf2",
+      "seconds": 14.389256279915571,
+      "cache_sha256": "8cb16d1a3e82975f3dad1b59f284a582a80aa10746f5019bcee8a5b2351740cf"
+    }
+  },
+  "future_poison_release_hashes": {
+    "C0": "89a9cfb7d696c3e44389988aba64d0a43cb302d6b600e6cf76c71b4d11f60705",
+    "C1": "89a9cfb7d696c3e44389988aba64d0a43cb302d6b600e6cf76c71b4d11f60705"
+  },
+  "actual_noise_members": 8,
+  "closed_and_zero_initialized_native_exact": true,
+  "fair8_crps_value_error": 1.1102230246251565e-16,
+  "fair8_gradient_error": 0.0,
+  "fair8_gradcheck": true,
+  "channel_smse_explicit_verified": true,
+  "full_scoring_pipeline_synthetic_pass": true,
+  "absolute_risk_increases_preserved": true,
+  "four_step_gradients": [
+    {
+      "label": 99,
+      "clean_grad_norm": 0.00019534246233666324
+    },
+    {
+      "label": 66,
+      "clean_grad_norm": 0.00016829709366900314
+    },
+    {
+      "label": 33,
+      "clean_grad_norm": 0.00022366984392620918
+    },
+    {
+      "label": 0,
+      "clean_grad_norm": 0.0011446345887225799
+    }
+  ],
+  "correction_and_out_gradients_nonzero": true,
+  "zero_final_layer_hidden_initial_gradients_expected": true,
+  "synthetic_nonzero_head_upstream_gradients_pass": true,
+  "frozen_backbone_sha256": "ac12a701e1e31b186aaea6ab94a4ff398e93661683f0013e502995009bbfe4da",
+  "xpf_frozen_hash": "2eaaee4576d2020866fba5ad8e3561bc20a50861c0e949bab2d2d915c0ccbdf2",
+  "code_hashes": {
+    "research/residual_uncertainty_diffusion/core.py": "512e4dd982da9f1e7ea3a0be42d5135b08c63253f836297663b76d55f7a72d3a",
+    "research/residual_uncertainty_diffusion/experiment.py": "657ca9f52acfad02595ed18ee6da48c6dc39ec61e83020be17687d465e657a0b",
+    "research/residual_uncertainty_diffusion/prepare.py": "9584fe410288dd24f359a81dc3473ab792d22e075d2947b296008676508101a0",
+    "research/residual_uncertainty_diffusion/run.py": "efbc8566e133246584513cf3fab9500964fe6f4a7c798aa68d78efefa3eee29a",
+    "research/residual_uncertainty_diffusion/tests.py": "26ba380d438ec69031ef1fb4c3d2075266e876d4acc2dc48bf10ea6d84c37829"
+  }
+}

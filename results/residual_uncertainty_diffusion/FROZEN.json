@@ -1,0 +1,18 @@
+{
+  "protocol_sha256": "0fbee1a7c68c6cc59aca9eb5ffb002d104ca6c75d0fad440c84c7a218c2355be",
+  "code_hashes": {
+    "research/residual_uncertainty_diffusion/core.py": "512e4dd982da9f1e7ea3a0be42d5135b08c63253f836297663b76d55f7a72d3a",
+    "research/residual_uncertainty_diffusion/experiment.py": "657ca9f52acfad02595ed18ee6da48c6dc39ec61e83020be17687d465e657a0b",
+    "research/residual_uncertainty_diffusion/prepare.py": "9584fe410288dd24f359a81dc3473ab792d22e075d2947b296008676508101a0",
+    "research/residual_uncertainty_diffusion/run.py": "efbc8566e133246584513cf3fab9500964fe6f4a7c798aa68d78efefa3eee29a",
+    "research/residual_uncertainty_diffusion/tests.py": "26ba380d438ec69031ef1fb4c3d2075266e876d4acc2dc48bf10ea6d84c37829"
+  },
+  "preflight_sha256": "b830935dd4cff4152dd089da3967dec76333ee0c7bbc2105ac369fa733c6d826",
+  "condition_scales_sha256": "e15d0c96847cef2c16a982c4f004a2ae3e138b5746505c3249d254d7d889e983",
+  "data_manifest_sha256": "5224e9559f4bc5c13efa56226845ac1be90373d9b39a9d7d337a8dd8175b4c8e",
+  "noise_sha256": "be9510b342662ad629d3671f7e47dbdd0090d220ebbc6dfdc229ce0a9c497cfa",
+  "initial_backbone_state": "50a0e3afd5c71041776d4ae5c556747150dbf21e38dde3b083b0efff81091b21",
+  "frozen_non_out": "ac12a701e1e31b186aaea6ab94a4ff398e93661683f0013e502995009bbfe4da",
+  "seed": 42,
+  "steps": 500
+}

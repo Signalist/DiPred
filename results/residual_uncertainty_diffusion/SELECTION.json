@@ -1,0 +1,14 @@
+[
+  {
+    "arm": "C0",
+    "chosen_arm": "native",
+    "step": 0,
+    "crps": 0.08444023122427428
+  },
+  {
+    "arm": "C1",
+    "chosen_arm": "native",
+    "step": 0,
+    "crps": 0.08444023122427428
+  }
+]

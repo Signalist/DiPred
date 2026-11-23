@@ -1,0 +1,12 @@
+{
+  "E_clip": 1.6792298555374146,
+  "W_scale": [
+    0.22880610823631287,
+    0.6164600253105164
+  ],
+  "W_clip": 10.0,
+  "source_split": "train",
+  "train_windows": 137,
+  "E_clip_quantile": 0.995,
+  "W_normalization": "fixed training RMS per velocity channel; no window normalization"
+}

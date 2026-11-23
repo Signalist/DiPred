@@ -1,0 +1,56 @@
+{
+  "passed": true,
+  "examples": [
+    {
+      "split": "train",
+      "trajectory_id": "10125_0.h5",
+      "start": 420,
+      "selected_feature_indices": [
+        4,
+        5,
+        8,
+        9,
+        10,
+        11
+      ],
+      "feature_processing": "original float16 rounding; frozen stats; clip[-10,10]",
+      "geometry_not_required_for_selected_features": true,
+      "synthetic_geometry_reference_only": true,
+      "width_maxabs_errors": [
+        0.0,
+        0.0
+      ],
+      "xpf_weight_state_sha256": "2eaaee4576d2020866fba5ad8e3561bc20a50861c0e949bab2d2d915c0ccbdf2",
+      "no_calibrator": true,
+      "backbone_calls": 4
+    },
+    {
+      "split": "train",
+      "trajectory_id": "10125_10.h5",
+      "start": 420,
+      "selected_feature_indices": [
+        4,
+        5,
+        8,
+        9,
+        10,
+        11
+      ],
+      "feature_processing": "original float16 rounding; frozen stats; clip[-10,10]",
+      "geometry_not_required_for_selected_features": true,
+      "synthetic_geometry_reference_only": true,
+      "width_maxabs_errors": [
+        0.0,
+        0.0
+      ],
+      "xpf_weight_state_sha256": "2eaaee4576d2020866fba5ad8e3561bc20a50861c0e949bab2d2d915c0ccbdf2",
+      "no_calibrator": true,
+      "backbone_calls": 4
+    }
+  ],
+  "entries": 137,
+  "calls_per_window": 4,
+  "xpf_weight_state_sha256": "2eaaee4576d2020866fba5ad8e3561bc20a50861c0e949bab2d2d915c0ccbdf2",
+  "seconds": 57.03199110738933,
+  "cache_sha256": "da315044d3ee2d2abf78eee64d92adc64006d35405c99fa4be0931410357ea06"
+}

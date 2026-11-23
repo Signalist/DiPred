@@ -1,0 +1,43 @@
+{
+  "passed": true,
+  "actual_optimizer_updates": 1000,
+  "runs": {
+    "C0": 500,
+    "C1": 500
+  },
+  "no_restarted_training": true,
+  "protected_files_unchanged": 1862,
+  "condition_records": 173,
+  "historical_E_identity_recomputed_all": true,
+  "xpf_reused_frozen": true,
+  "absolute_risk_information_retained": true,
+  "train8_fair_development32_empirical": true,
+  "independent_score_rows": 540,
+  "max_score_error": 0.0,
+  "explicit_full32_crps_errors": [
+    0.0,
+    1.3877787807814457e-17,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "paired_noise_hashes_checked": 500,
+  "only_native_out_and_G_updated": true,
+  "backbone_out_changes": {
+    "C0_250": 0.00014338129165524153,
+    "C1_250": 0.0001430706195781266,
+    "C0_500": 0.0002226845553888138,
+    "C1_500": 0.00022097253610562983
+  },
+  "both_scientific_selections_native": true,
+  "no_test_inference": true,
+  "seconds": 97.18766030855477,
+  "verified_sources": {
+    "research/residual_uncertainty_diffusion/core.py": "512e4dd982da9f1e7ea3a0be42d5135b08c63253f836297663b76d55f7a72d3a",
+    "research/residual_uncertainty_diffusion/experiment.py": "657ca9f52acfad02595ed18ee6da48c6dc39ec61e83020be17687d465e657a0b",
+    "research/residual_uncertainty_diffusion/prepare.py": "9584fe410288dd24f359a81dc3473ab792d22e075d2947b296008676508101a0",
+    "research/residual_uncertainty_diffusion/run.py": "efbc8566e133246584513cf3fab9500964fe6f4a7c798aa68d78efefa3eee29a",
+    "research/residual_uncertainty_diffusion/tests.py": "26ba380d438ec69031ef1fb4c3d2075266e876d4acc2dc48bf10ea6d84c37829",
+    "research/residual_uncertainty_diffusion/verify.py": "cba7ac2d202f93ab590e8a81140fc6f2a4f562a76793737c8e5e9b4253854ae7"
+  }
+}

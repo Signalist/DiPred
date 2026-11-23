@@ -1,0 +1,11 @@
+TRAIN paired step 50 updates 100
+TRAIN paired step 100 updates 200
+TRAIN paired step 150 updates 300
+TRAIN paired step 200 updates 400
+TRAIN paired step 250 updates 500
+TRAIN paired step 300 updates 600
+TRAIN paired step 350 updates 700
+TRAIN paired step 400 updates 800
+TRAIN paired step 450 updates 900
+TRAIN paired step 500 updates 1000
+FIXED EXPERIMENT COMPLETE [{'arm': 'C0', 'chosen_arm': 'native', 'step': 0, 'crps': 0.08444023122427428}, {'arm': 'C1', 'chosen_arm': 'native', 'step': 0, 'crps': 0.08444023122427428}]

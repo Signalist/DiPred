@@ -1,0 +1,56 @@
+{
+  "passed": true,
+  "examples": [
+    {
+      "split": "development",
+      "trajectory_id": "26700_0.h5",
+      "start": 420,
+      "selected_feature_indices": [
+        4,
+        5,
+        8,
+        9,
+        10,
+        11
+      ],
+      "feature_processing": "original float16 rounding; frozen stats; clip[-10,10]",
+      "geometry_not_required_for_selected_features": true,
+      "synthetic_geometry_reference_only": true,
+      "width_maxabs_errors": [
+        0.0,
+        0.0
+      ],
+      "xpf_weight_state_sha256": "2eaaee4576d2020866fba5ad8e3561bc20a50861c0e949bab2d2d915c0ccbdf2",
+      "no_calibrator": true,
+      "backbone_calls": 4
+    },
+    {
+      "split": "development",
+      "trajectory_id": "26700_10.h5",
+      "start": 420,
+      "selected_feature_indices": [
+        4,
+        5,
+        8,
+        9,
+        10,
+        11
+      ],
+      "feature_processing": "original float16 rounding; frozen stats; clip[-10,10]",
+      "geometry_not_required_for_selected_features": true,
+      "synthetic_geometry_reference_only": true,
+      "width_maxabs_errors": [
+        0.0,
+        0.0
+      ],
+      "xpf_weight_state_sha256": "2eaaee4576d2020866fba5ad8e3561bc20a50861c0e949bab2d2d915c0ccbdf2",
+      "no_calibrator": true,
+      "backbone_calls": 4
+    }
+  ],
+  "entries": 36,
+  "calls_per_window": 4,
+  "xpf_weight_state_sha256": "2eaaee4576d2020866fba5ad8e3561bc20a50861c0e949bab2d2d915c0ccbdf2",
+  "seconds": 14.389256279915571,
+  "cache_sha256": "8cb16d1a3e82975f3dad1b59f284a582a80aa10746f5019bcee8a5b2351740cf"
+}
