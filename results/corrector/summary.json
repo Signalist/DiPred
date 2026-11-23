@@ -1,0 +1,50 @@
+[
+  {
+    "split": "development",
+    "model": "R-only",
+    "trajectories": 12,
+    "mse": 2.8032331490609693e-05,
+    "mse_u": 5.1811047385991584e-05,
+    "mse_v": 4.253615595227814e-06
+  },
+  {
+    "split": "development",
+    "model": "State-conditioned",
+    "trajectories": 12,
+    "mse": 2.7491760579235906e-05,
+    "mse_u": 5.107574404763031e-05,
+    "mse_v": 3.907777110841505e-06
+  },
+  {
+    "split": "development",
+    "model": "Persistence",
+    "trajectories": 12,
+    "mse": 3.7278404453899345e-05,
+    "mse_u": 6.743519150058456e-05,
+    "mse_v": 7.121617407214135e-06
+  },
+  {
+    "split": "test",
+    "model": "R-only",
+    "trajectories": 12,
+    "mse": 1.9807516372815172e-05,
+    "mse_u": 3.5259339776893066e-05,
+    "mse_v": 4.355692968737276e-06
+  },
+  {
+    "split": "test",
+    "model": "State-conditioned",
+    "trajectories": 12,
+    "mse": 1.92571696700027e-05,
+    "mse_u": 3.45325734293269e-05,
+    "mse_v": 3.981765910678504e-06
+  },
+  {
+    "split": "test",
+    "model": "Persistence",
+    "trajectories": 12,
+    "mse": 2.6576340966982792e-05,
+    "mse_u": 4.578565716804221e-05,
+    "mse_v": 7.36702476592338e-06
+  }
+]

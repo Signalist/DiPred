@@ -1,0 +1,6 @@
+{
+  "passed": true,
+  "same_capacity": true,
+  "oracle_phase_only": true,
+  "protocol_checked": true
+}
