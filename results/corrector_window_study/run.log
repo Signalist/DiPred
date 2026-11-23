@@ -1,0 +1,159 @@
+COMMAND python /cpfs01/projects-HDD/cfff-3469a2cbe57f_HDD/wangxiyun/DiPred+ResCrct/Corrector/research/corrector_window_study/run.py 1.14.0a0+44dac51 NVIDIA A100-SXM4-80GB
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/cpfs01/projects-HDD/cfff-3469a2cbe57f_HDD/wangxiyun/DiPred+ResCrct/Corrector/research/corrector_window_study/run.py", line 213, in <module>
+    main()
+  File "/cpfs01/projects-HDD/cfff-3469a2cbe57f_HDD/wangxiyun/DiPred+ResCrct/Corrector/research/corrector_window_study/run.py", line 174, in main
+    preflight = verify(data, manifest, normalization)
+  File "/cpfs01/projects-HDD/cfff-3469a2cbe57f_HDD/wangxiyun/DiPred+ResCrct/Corrector/research/corrector_window_study/verify.py", line 89, in verify
+    torch.testing.assert_close(prediction + residual, truth, atol=1e-12, rtol=0)
+  File "/usr/local/lib/python3.8/dist-packages/torch/testing/_comparison.py", line 1519, in assert_close
+    assert_equal(
+  File "/usr/local/lib/python3.8/dist-packages/torch/testing/_comparison.py", line 1270, in assert_equal
+    raise error_metas[0].to_error(msg)
+AssertionError: The values for attribute 'shape' do not match: torch.Size([1, 32, 2, 20, 32, 64]) != torch.Size([1, 1, 2, 20, 32, 64]).
+COMMAND python /cpfs01/projects-HDD/cfff-3469a2cbe57f_HDD/wangxiyun/DiPred+ResCrct/Corrector/research/corrector_window_study/run.py 1.14.0a0+44dac51 NVIDIA A100-SXM4-80GB
+VERIFIED {'passed': True, 'cases': 183, 'matched_parameters': 19208, 'input_slots': {'recent': 40, 'summary': 6, 'earlier': 40, 'mean': 40, 'spread': 40, 'memory': 40, 'available': 1, 'coords': 2, 'member': 40}, 'same_initialization_and_budget_checked_in_training': True, 'all_frames_crps_gradient': True, 'target_mutation_bitwise_equal': True, 'member_permutation_equivariant': True, 'prior_window_mean': True, 'exact_zero_output': True, 'cache_hash_and_sign_verified_by_import': True, 'residual_identities': True, 'exact_crps_value_and_gradient': True, 'max_allocated_bytes': 3943554048, 'full_batch_preflight_seconds': 0.05298999510705471}
+FIT A seed=42 step=0 dev_crps=0.086642115 train_loss=None elapsed=0.1s
+FIT A seed=42 step=250 dev_crps=0.086716084 train_loss=0.10253780335187912 elapsed=0.9s
+FIT A seed=42 step=500 dev_crps=0.086569211 train_loss=0.10381721705198288 elapsed=1.7s
+FIT A seed=42 step=750 dev_crps=0.084638771 train_loss=0.09892616420984268 elapsed=2.4s
+FIT A seed=42 step=1000 dev_crps=0.084130025 train_loss=0.09799277782440186 elapsed=3.2s
+SELECT A seed=42 step=1000
+FIT B seed=42 step=0 dev_crps=0.086642115 train_loss=None elapsed=0.0s
+FIT B seed=42 step=250 dev_crps=0.086649903 train_loss=0.10254701972007751 elapsed=0.8s
+FIT B seed=42 step=500 dev_crps=0.086762020 train_loss=0.10375673323869705 elapsed=1.5s
+FIT B seed=42 step=750 dev_crps=0.085738045 train_loss=0.10040837526321411 elapsed=2.3s
+FIT B seed=42 step=1000 dev_crps=0.084356326 train_loss=0.09827357530593872 elapsed=3.1s
+SELECT B seed=42 step=1000
+FIT C seed=42 step=0 dev_crps=0.086642115 train_loss=None elapsed=0.0s
+FIT C seed=42 step=250 dev_crps=0.086653592 train_loss=0.10250922292470932 elapsed=0.8s
+FIT C seed=42 step=500 dev_crps=0.086704727 train_loss=0.10367679595947266 elapsed=1.6s
+FIT C seed=42 step=750 dev_crps=0.085403617 train_loss=0.1004856750369072 elapsed=2.3s
+FIT C seed=42 step=1000 dev_crps=0.083974735 train_loss=0.0981726124882698 elapsed=3.1s
+SELECT C seed=42 step=1000
+FIT D seed=42 step=0 dev_crps=0.086642115 train_loss=None elapsed=0.0s
+FIT D seed=42 step=250 dev_crps=0.086675012 train_loss=0.10251977294683456 elapsed=0.8s
+FIT D seed=42 step=500 dev_crps=0.086722046 train_loss=0.10369344055652618 elapsed=1.6s
+FIT D seed=42 step=750 dev_crps=0.086711572 train_loss=0.10071350634098053 elapsed=2.3s
+FIT D seed=42 step=1000 dev_crps=0.084205627 train_loss=0.0994216650724411 elapsed=3.1s
+SELECT D seed=42 step=1000
+FIT E seed=42 step=0 dev_crps=0.086642115 train_loss=None elapsed=0.0s
+FIT E seed=42 step=250 dev_crps=0.086761356 train_loss=0.10253597050905228 elapsed=0.8s
+FIT E seed=42 step=500 dev_crps=0.086765242 train_loss=0.10377313941717148 elapsed=1.5s
+FIT E seed=42 step=750 dev_crps=0.086732702 train_loss=0.10086328536272049 elapsed=2.9s
+FIT E seed=42 step=1000 dev_crps=0.085801505 train_loss=0.10168018192052841 elapsed=4.8s
+SELECT E seed=42 step=1000
+FIT F seed=42 step=0 dev_crps=0.086642115 train_loss=None elapsed=0.1s
+FIT F seed=42 step=250 dev_crps=0.087518464 train_loss=0.10101903975009918 elapsed=0.8s
+FIT F seed=42 step=500 dev_crps=0.087989727 train_loss=0.10333766788244247 elapsed=1.5s
+FIT F seed=42 step=750 dev_crps=0.090555736 train_loss=0.09627675265073776 elapsed=2.2s
+FIT F seed=42 step=1000 dev_crps=0.092176721 train_loss=0.09751810133457184 elapsed=2.9s
+SELECT F seed=42 step=0
+FIT A seed=43 step=0 dev_crps=0.086642115 train_loss=None elapsed=0.0s
+FIT A seed=43 step=250 dev_crps=0.086951880 train_loss=0.10502780228853226 elapsed=0.8s
+FIT A seed=43 step=500 dev_crps=0.086658475 train_loss=0.09849347174167633 elapsed=1.5s
+FIT A seed=43 step=750 dev_crps=0.084167248 train_loss=0.10120799392461777 elapsed=2.3s
+FIT A seed=43 step=1000 dev_crps=0.084311143 train_loss=0.09856414049863815 elapsed=3.1s
+SELECT A seed=43 step=750
+FIT B seed=43 step=0 dev_crps=0.086642115 train_loss=None elapsed=0.0s
+FIT B seed=43 step=250 dev_crps=0.087290144 train_loss=0.10501360148191452 elapsed=0.8s
+FIT B seed=43 step=500 dev_crps=0.086979237 train_loss=0.09856896847486496 elapsed=1.6s
+FIT B seed=43 step=750 dev_crps=0.086425643 train_loss=0.10355456918478012 elapsed=2.3s
+FIT B seed=43 step=1000 dev_crps=0.084451545 train_loss=0.10034926235675812 elapsed=3.1s
+SELECT B seed=43 step=1000
+FIT C seed=43 step=0 dev_crps=0.086642115 train_loss=None elapsed=0.0s
+FIT C seed=43 step=250 dev_crps=0.087221099 train_loss=0.10498848557472229 elapsed=0.8s
+FIT C seed=43 step=500 dev_crps=0.086502432 train_loss=0.0985097885131836 elapsed=1.6s
+FIT C seed=43 step=750 dev_crps=0.085746142 train_loss=0.10265922546386719 elapsed=2.3s
+FIT C seed=43 step=1000 dev_crps=0.084307228 train_loss=0.09878145903348923 elapsed=3.0s
+SELECT C seed=43 step=1000
+FIT D seed=43 step=0 dev_crps=0.086642115 train_loss=None elapsed=0.0s
+FIT D seed=43 step=250 dev_crps=0.087330005 train_loss=0.105014868080616 elapsed=0.8s
+FIT D seed=43 step=500 dev_crps=0.086922972 train_loss=0.09849667549133301 elapsed=1.6s
+FIT D seed=43 step=750 dev_crps=0.086364843 train_loss=0.10356204956769943 elapsed=2.3s
+FIT D seed=43 step=1000 dev_crps=0.086542856 train_loss=0.10189858824014664 elapsed=3.1s
+SELECT D seed=43 step=750
+FIT E seed=43 step=0 dev_crps=0.086642115 train_loss=None elapsed=0.0s
+FIT E seed=43 step=250 dev_crps=0.087519761 train_loss=0.10501007735729218 elapsed=0.8s
+FIT E seed=43 step=500 dev_crps=0.087101914 train_loss=0.09839778393507004 elapsed=1.6s
+FIT E seed=43 step=750 dev_crps=0.086440619 train_loss=0.1033218577504158 elapsed=2.4s
+FIT E seed=43 step=1000 dev_crps=0.084992636 train_loss=0.10132137686014175 elapsed=3.1s
+SELECT E seed=43 step=1000
+FIT F seed=43 step=0 dev_crps=0.086642115 train_loss=None elapsed=0.0s
+FIT F seed=43 step=250 dev_crps=0.088521232 train_loss=0.10574819147586823 elapsed=0.8s
+FIT F seed=43 step=500 dev_crps=0.088619901 train_loss=0.09367847442626953 elapsed=1.5s
+FIT F seed=43 step=750 dev_crps=0.090477958 train_loss=0.10091555863618851 elapsed=2.2s
+FIT F seed=43 step=1000 dev_crps=0.091610104 train_loss=0.09634964168071747 elapsed=2.9s
+SELECT F seed=43 step=0
+EVAL native seed= cases=48
+EVAL A seed=42 cases=48
+EVAL B seed=42 cases=48
+EVAL C seed=42 cases=48
+EVAL D seed=42 cases=48
+EVAL E seed=42 cases=48
+EVAL F seed=42 cases=48
+EVAL A seed=43 cases=48
+EVAL B seed=43 cases=48
+EVAL C seed=43 cases=48
+EVAL D seed=43 cases=48
+EVAL E seed=43 cases=48
+EVAL F seed=43 cases=48
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/cpfs01/projects-HDD/cfff-3469a2cbe57f_HDD/wangxiyun/DiPred+ResCrct/Corrector/research/corrector_window_study/run.py", line 213, in <module>
+    main()
+  File "/cpfs01/projects-HDD/cfff-3469a2cbe57f_HDD/wangxiyun/DiPred+ResCrct/Corrector/research/corrector_window_study/run.py", line 207, in main
+    save_results(RESULTS, records, seed_rows, test.cases)
+  File "/cpfs01/projects-HDD/cfff-3469a2cbe57f_HDD/wangxiyun/DiPred+ResCrct/Corrector/research/corrector_window_study/metrics.py", line 126, in save_results
+    trajectories, auxiliary = trajectory_rows(records, cases)
+  File "/cpfs01/projects-HDD/cfff-3469a2cbe57f_HDD/wangxiyun/DiPred+ResCrct/Corrector/research/corrector_window_study/metrics.py", line 75, in trajectory_rows
+    assert all(len(seeds) == (1 if method == "native" else 2) for seeds in windows.values())
+AssertionError
+COMMAND python /cpfs01/projects-HDD/cfff-3469a2cbe57f_HDD/wangxiyun/DiPred+ResCrct/Corrector/research/corrector_window_study/run.py 1.14.0a0+44dac51 NVIDIA A100-SXM4-80GB
+VERIFIED {'passed': True, 'cases': 183, 'matched_parameters': 19208, 'input_slots': {'recent': 40, 'summary': 6, 'earlier': 40, 'mean': 40, 'spread': 40, 'memory': 40, 'available': 1, 'coords': 2, 'member': 40}, 'same_initialization_and_budget_checked_in_training': True, 'all_frames_crps_gradient': True, 'target_mutation_bitwise_equal': True, 'member_permutation_equivariant': True, 'prior_window_mean': True, 'exact_zero_output': True, 'cache_hash_and_sign_verified_by_import': True, 'residual_identities': True, 'exact_crps_value_and_gradient': True, 'max_allocated_bytes': 3943554048, 'full_batch_preflight_seconds': 0.055423954501748085}
+REUSE A seed=42 through step=1000
+SELECT A seed=42 step=1000
+REUSE B seed=42 through step=1000
+SELECT B seed=42 step=1000
+REUSE C seed=42 through step=1000
+SELECT C seed=42 step=1000
+REUSE D seed=42 through step=1000
+SELECT D seed=42 step=1000
+REUSE E seed=42 through step=1000
+SELECT E seed=42 step=1000
+REUSE F seed=42 through step=1000
+SELECT F seed=42 step=0
+REUSE A seed=43 through step=1000
+SELECT A seed=43 step=750
+REUSE B seed=43 through step=1000
+SELECT B seed=43 step=1000
+REUSE C seed=43 through step=1000
+SELECT C seed=43 step=1000
+REUSE D seed=43 through step=1000
+SELECT D seed=43 step=750
+REUSE E seed=43 through step=1000
+SELECT E seed=43 step=1000
+REUSE F seed=43 through step=1000
+SELECT F seed=43 step=0
+DEV DIAGNOSTICS 60 checkpoints, used only to describe training
+EVAL native seed= cases=48
+EVAL A seed=42 cases=48
+EVAL B seed=42 cases=48
+EVAL C seed=42 cases=48
+EVAL D seed=42 cases=48
+EVAL E seed=42 cases=48
+EVAL F seed=42 cases=48
+EVAL A seed=43 cases=48
+EVAL B seed=43 cases=48
+EVAL C seed=43 cases=48
+EVAL D seed=43 cases=48
+EVAL E seed=43 cases=48
+EVAL F seed=43 cases=48
+PASS: cache identity, preflight, 12 formal fits, development selection, test scoring

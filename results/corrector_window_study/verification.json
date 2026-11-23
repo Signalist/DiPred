@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "cases": 183,
+  "matched_parameters": 19208,
+  "input_slots": {
+    "recent": 40,
+    "summary": 6,
+    "earlier": 40,
+    "mean": 40,
+    "spread": 40,
+    "memory": 40,
+    "available": 1,
+    "coords": 2,
+    "member": 40
+  },
+  "same_initialization_and_budget_checked_in_training": true,
+  "all_frames_crps_gradient": true,
+  "target_mutation_bitwise_equal": true,
+  "member_permutation_equivariant": true,
+  "prior_window_mean": true,
+  "exact_zero_output": true,
+  "cache_hash_and_sign_verified_by_import": true,
+  "residual_identities": true,
+  "exact_crps_value_and_gradient": true,
+  "max_allocated_bytes": 3943554048,
+  "full_batch_preflight_seconds": 0.055423954501748085
+}

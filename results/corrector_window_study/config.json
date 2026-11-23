@@ -1,0 +1,84 @@
+{
+  "arms": {
+    "A": [
+      "summary",
+      false,
+      false,
+      "crps"
+    ],
+    "B": [
+      "full",
+      false,
+      false,
+      "crps"
+    ],
+    "C": [
+      "summary",
+      true,
+      false,
+      "crps"
+    ],
+    "D": [
+      "full",
+      true,
+      false,
+      "crps"
+    ],
+    "E": [
+      "full",
+      false,
+      true,
+      "crps"
+    ],
+    "F": [
+      "full",
+      true,
+      false,
+      "mse"
+    ]
+  },
+  "slots": {
+    "recent": 40,
+    "summary": 6,
+    "earlier": 40,
+    "mean": 40,
+    "spread": 40,
+    "memory": 40,
+    "available": 1,
+    "coords": 2,
+    "member": 40
+  },
+  "training_seeds": [
+    42,
+    43
+  ],
+  "steps": [
+    0,
+    250,
+    500,
+    750,
+    1000
+  ],
+  "batch_size": 2,
+  "members": 32,
+  "adam_lr": 0.001,
+  "optimizer": "Adam defaults",
+  "forward_precision": "CUDA bfloat16 autocast; float32 loss and parameters",
+  "normalization": {
+    "mean": [
+      0.1720321923494339,
+      -0.0006366291781887412
+    ],
+    "scale": [
+      0.11231072247028351,
+      0.016739968210458755
+    ]
+  },
+  "schedule_sha256": {
+    "42": "1deb74dd628a442b3fb3e4e7ec1dd1c07a5d6438ee9cfa294ceae98702c1bd60",
+    "43": "87bff346c860cb345b12bbdd69088d0bc9209b9cd69c4dbaac67de6b3ce59956"
+  },
+  "cache_manifest_sha256": "81342824a6ad64126228625abbe3cdff7db213c276a752f6320e96bb1779e5ee",
+  "torch_version": "1.14.0a0+44dac51",
+  "gpu": "NVIDIA A100-SXM4-80GB"
+}

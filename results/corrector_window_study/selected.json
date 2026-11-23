@@ -1,0 +1,110 @@
+[
+  {
+    "arm": "A",
+    "seed": 42,
+    "step": 1000,
+    "development_crps": 0.08413002515832582,
+    "training_loss": 0.09799277782440186,
+    "initialization_sha256": "214de895397d606cb86d4247bd79af9a181e997b5886597f3f59c5aaa744b87c",
+    "checkpoint_sha256": "20ab07db2e1213ebb8d6dc72be25483cb3ef067b3e281ccbc2c54d12aec61904"
+  },
+  {
+    "arm": "B",
+    "seed": 42,
+    "step": 1000,
+    "development_crps": 0.08435632637701929,
+    "training_loss": 0.09827357530593872,
+    "initialization_sha256": "214de895397d606cb86d4247bd79af9a181e997b5886597f3f59c5aaa744b87c",
+    "checkpoint_sha256": "df7c588bd92e05cda90dbfbd6ec19f77f0e0ea075d22dc47dba25f9c7aee1ace"
+  },
+  {
+    "arm": "C",
+    "seed": 42,
+    "step": 1000,
+    "development_crps": 0.08397473519047101,
+    "training_loss": 0.0981726124882698,
+    "initialization_sha256": "214de895397d606cb86d4247bd79af9a181e997b5886597f3f59c5aaa744b87c",
+    "checkpoint_sha256": "53cfb8744acc74f68ae86a205221838bc82a0970c3c71d952db1ce07bc0848d6"
+  },
+  {
+    "arm": "D",
+    "seed": 42,
+    "step": 1000,
+    "development_crps": 0.08420562728618582,
+    "training_loss": 0.0994216650724411,
+    "initialization_sha256": "214de895397d606cb86d4247bd79af9a181e997b5886597f3f59c5aaa744b87c",
+    "checkpoint_sha256": "01f5e8b9db22ff55e6cc364a143c6535bae0712774bd3414bd48dee4e09eee03"
+  },
+  {
+    "arm": "E",
+    "seed": 42,
+    "step": 1000,
+    "development_crps": 0.08580150525085628,
+    "training_loss": 0.10168018192052841,
+    "initialization_sha256": "214de895397d606cb86d4247bd79af9a181e997b5886597f3f59c5aaa744b87c",
+    "checkpoint_sha256": "a73e9db673d77913a4c0091f53e638916e031d7deeaf2e2f911f8bc5070d1a06"
+  },
+  {
+    "arm": "F",
+    "seed": 42,
+    "step": 0,
+    "development_crps": 0.08664211498883863,
+    "training_loss": null,
+    "initialization_sha256": "214de895397d606cb86d4247bd79af9a181e997b5886597f3f59c5aaa744b87c",
+    "checkpoint_sha256": "8a7c59c133a11b7af016bb7019b273f4baf3cc834debb783ea6276e08e7d2bb2"
+  },
+  {
+    "arm": "A",
+    "seed": 43,
+    "step": 750,
+    "development_crps": 0.08416724833659828,
+    "training_loss": 0.10120799392461777,
+    "initialization_sha256": "61703308d20d0ff87f58584b239229ded53cfeb6779198709d2fc0358342a453",
+    "checkpoint_sha256": "cfc200c6410f16970492173923ec91e155ce6f003872dc5e75a5aca98c0e7d7e"
+  },
+  {
+    "arm": "B",
+    "seed": 43,
+    "step": 1000,
+    "development_crps": 0.08445154518509904,
+    "training_loss": 0.10034926235675812,
+    "initialization_sha256": "61703308d20d0ff87f58584b239229ded53cfeb6779198709d2fc0358342a453",
+    "checkpoint_sha256": "cb0d2969460a53e28bd9cbe2803b2a6697c880884422afc4e3e94bd8ff226616"
+  },
+  {
+    "arm": "C",
+    "seed": 43,
+    "step": 1000,
+    "development_crps": 0.08430722805981834,
+    "training_loss": 0.09878145903348923,
+    "initialization_sha256": "61703308d20d0ff87f58584b239229ded53cfeb6779198709d2fc0358342a453",
+    "checkpoint_sha256": "ea58be5ac9e110b61ef2f9e5e31a2fb20a3d17299d6daa7f7471e150012815ff"
+  },
+  {
+    "arm": "D",
+    "seed": 43,
+    "step": 750,
+    "development_crps": 0.08636484326173861,
+    "training_loss": 0.10356204956769943,
+    "initialization_sha256": "61703308d20d0ff87f58584b239229ded53cfeb6779198709d2fc0358342a453",
+    "checkpoint_sha256": "c97e734fa5a5b868464af29d716945e9fd570b413ea1b60f6f905f86a35238d6"
+  },
+  {
+    "arm": "E",
+    "seed": 43,
+    "step": 1000,
+    "development_crps": 0.08499263568470874,
+    "training_loss": 0.10132137686014175,
+    "initialization_sha256": "61703308d20d0ff87f58584b239229ded53cfeb6779198709d2fc0358342a453",
+    "checkpoint_sha256": "da0595ce9b6d0d90bdf91d95bb830901c34a85fe7e147a48e380caaef8bf9a5d"
+  },
+  {
+    "arm": "F",
+    "seed": 43,
+    "step": 0,
+    "development_crps": 0.08664211498883863,
+    "training_loss": null,
+    "initialization_sha256": "61703308d20d0ff87f58584b239229ded53cfeb6779198709d2fc0358342a453",
+    "checkpoint_sha256": "4797d3da153d12159e23427fbdfdc171dcc5fc7202c120d2a03ee4ea3c6c3bc6"
+  }
+]
