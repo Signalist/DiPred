@@ -1,0 +1,67 @@
+{
+  "seed": 42,
+  "batch_seed": 20261119,
+  "steps": 1000,
+  "batch_size": 16,
+  "optimizer": "Adam lr=.001",
+  "scalar_train_rms": 0.013617966324090958,
+  "parameters": {
+    "R-only": 11938,
+    "State-conditioned": 11938
+  },
+  "selected_steps": {
+    "R-only": 1000,
+    "State-conditioned": 1000
+  },
+  "log": [
+    {
+      "model": "R-only",
+      "step": 250,
+      "batch_loss": 2.691958798095584e-05,
+      "development_mse": 2.8438514301355573e-05
+    },
+    {
+      "model": "R-only",
+      "step": 500,
+      "batch_loss": 1.792071088857483e-05,
+      "development_mse": 2.8360357770812233e-05
+    },
+    {
+      "model": "R-only",
+      "step": 750,
+      "batch_loss": 1.4432123862206936e-05,
+      "development_mse": 2.813787030866236e-05
+    },
+    {
+      "model": "R-only",
+      "step": 1000,
+      "batch_loss": 3.225334148737602e-05,
+      "development_mse": 2.8032331490609693e-05
+    },
+    {
+      "model": "State-conditioned",
+      "step": 250,
+      "batch_loss": 2.8134885724284686e-05,
+      "development_mse": 2.9265047282430943e-05
+    },
+    {
+      "model": "State-conditioned",
+      "step": 500,
+      "batch_loss": 1.8092901882482693e-05,
+      "development_mse": 2.8624532340756118e-05
+    },
+    {
+      "model": "State-conditioned",
+      "step": 750,
+      "batch_loss": 1.4225637642084621e-05,
+      "development_mse": 2.7770465164996145e-05
+    },
+    {
+      "model": "State-conditioned",
+      "step": 1000,
+      "batch_loss": 3.2056228519650176e-05,
+      "development_mse": 2.7491760579235906e-05
+    }
+  ],
+  "device": "cuda"
+}
