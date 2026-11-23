@@ -1,0 +1,78 @@
+{
+  "passed": true,
+  "subset": {
+    "M": 5,
+    "m": 3,
+    "subsets": 10,
+    "value_error": 1.1102230246251565e-16,
+    "gradient_maxabs": 4.163336342344337e-17,
+    "coefficient_M32_m8": 0.96875
+  },
+  "smooth_sampler": [
+    {
+      "endpoint": 0.0,
+      "fair": false,
+      "gradients": [
+        0.004317885888888962,
+        0.004590325231457099,
+        0.008734844650992722,
+        0.05797864434188102
+      ],
+      "maxabs_fd_error": 5.806707445432657e-08
+    },
+    {
+      "endpoint": 0.0,
+      "fair": true,
+      "gradients": [
+        0.0025919964744346023,
+        0.003001297664356266,
+        0.00636727017980993,
+        0.04749241677379886
+      ],
+      "maxabs_fd_error": 3.554937538785552e-08
+    },
+    {
+      "endpoint": 1.0,
+      "fair": false,
+      "gradients": [
+        0.007357590936265947,
+        0.007783499942661456,
+        0.013973326613621733,
+        0.06638633887972943
+      ],
+      "maxabs_fd_error": 6.514847677996372e-08
+    },
+    {
+      "endpoint": 1.0,
+      "fair": true,
+      "gradients": [
+        0.004408785908118039,
+        0.0050526791618651385,
+        0.010027748628740868,
+        0.05313398496381229
+      ],
+      "maxabs_fd_error": 3.961474434599488e-08
+    }
+  ],
+  "legacy_sampler_parity": {
+    "cpu_synthetic_only": true,
+    "real_forward_groups": 0,
+    "results": {
+      "torch.float32": {
+        "native_exact": true,
+        "joint_exact": true,
+        "zero_endpoint_exact": true,
+        "unit_endpoint_exact": true
+      },
+      "torch.float64": {
+        "native_exact": true,
+        "joint_exact": true,
+        "zero_endpoint_exact": true,
+        "unit_endpoint_exact": true
+      }
+    }
+  },
+  "channel_mse": true,
+  "synthetic_backward_calls": 6,
+  "synthetic_autograd_grad_calls": 0
+}

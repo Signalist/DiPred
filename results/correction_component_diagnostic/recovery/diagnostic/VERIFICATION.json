@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "exact_cache_probes": 3,
+  "future_label_invariance": true,
+  "all_publication_inputs_unchanged": true,
+  "weights_before_eq_after": true,
+  "all_checked_original_sources_and_artifacts_unchanged": true,
+  "member_independence": "DynamicsNet/ResidualBlock/Correction have no operation reducing or mixing batch members",
+  "complete_forward_groups": 176,
+  "gradient_graphs": 12,
+  "autograd_grad_calls": 24,
+  "optimizer_instances": 0,
+  "optimizer_updates": 0
+}

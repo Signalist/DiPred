@@ -1,0 +1,61 @@
+{
+  "complete_forward_groups": 1,
+  "gradient_graphs": 0,
+  "autograd_grad_calls": 0,
+  "optimizer_instances": 0,
+  "optimizer_updates": 0,
+  "wall_seconds": 49.13994153775275,
+  "xpf_rebuilds": 0,
+  "feedback_rebuilds": 0,
+  "wall_seconds_scope": "sum of the three CLI invocation wall times; excludes editing and shell probes",
+  "member_count": 32,
+  "steps_per_group": 4,
+  "attempts": {
+    "dependency_preflight": {
+      "complete_forward_groups": 0,
+      "gradient_graphs": 0,
+      "autograd_grad_calls": 0,
+      "optimizer_instances": 0,
+      "optimizer_updates": 0,
+      "wall_seconds": 2.5192012898623943,
+      "elapsed_at_milestones": {
+        "synthetic": 0.12425088882446289
+      },
+      "member_count": 32,
+      "steps_per_group": 4,
+      "xpf_rebuilds": 0,
+      "feedback_rebuilds": 0
+    },
+    "real_gate": {
+      "complete_forward_groups": 1,
+      "gradient_graphs": 0,
+      "autograd_grad_calls": 0,
+      "optimizer_instances": 0,
+      "optimizer_updates": 0,
+      "wall_seconds": 25.393174208700657,
+      "elapsed_at_milestones": {
+        "synthetic": 0.2833208404481411
+      },
+      "member_count": 32,
+      "steps_per_group": 4,
+      "xpf_rebuilds": 0,
+      "feedback_rebuilds": 0
+    },
+    "cached_decomposition": {
+      "complete_forward_groups": 0,
+      "gradient_graphs": 0,
+      "autograd_grad_calls": 0,
+      "optimizer_instances": 0,
+      "optimizer_updates": 0,
+      "wall_seconds": 21.227566039189696,
+      "elapsed_at_milestones": {
+        "synthetic": 0.1546708159148693,
+        "offline_decomposition": 21.227179931476712
+      },
+      "member_count": 32,
+      "steps_per_group": 4,
+      "xpf_rebuilds": 0,
+      "feedback_rebuilds": 0
+    }
+  }
+}

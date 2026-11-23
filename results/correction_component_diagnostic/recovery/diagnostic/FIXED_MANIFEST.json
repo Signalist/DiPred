@@ -1,0 +1,630 @@
+{
+  "reference": "bb9bfa805461b70004914cea02cb145be826d878",
+  "head_before_run": "bb9bfa805461b70004914cea02cb145be826d878",
+  "branch": "trust",
+  "worktree_status_before_run": [
+    "?? research/correction_component_diagnostic/",
+    "?? results/correction_component_diagnostic/"
+  ],
+  "selection_rule": "numeric Re round-robin and first unused legal start420 filename in lexical order",
+  "training_eligible": [
+    "8850_0.h5",
+    "8850_10.h5",
+    "8850_15.h5",
+    "8850_20.h5",
+    "8850_5.h5",
+    "10125_0.h5",
+    "10125_10.h5",
+    "10125_15.h5",
+    "10125_20.h5",
+    "10125_5.h5",
+    "11400_0.h5",
+    "11400_10.h5",
+    "11400_15.h5",
+    "11400_20.h5",
+    "11400_5.h5",
+    "12675_0.h5",
+    "12675_10.h5",
+    "12675_15.h5",
+    "12675_20.h5",
+    "12675_5.h5",
+    "16500_0.h5",
+    "16500_10.h5",
+    "16500_15.h5",
+    "16500_20.h5",
+    "16500_5.h5",
+    "17775_10.h5",
+    "17775_15.h5",
+    "17775_20.h5",
+    "17775_5.h5",
+    "20325_0.h5",
+    "20325_10.h5",
+    "20325_15.h5",
+    "20325_20.h5",
+    "20325_5.h5",
+    "21600_0.h5",
+    "21600_10.h5",
+    "21600_15.h5",
+    "21600_20.h5",
+    "21600_5.h5",
+    "24150_0.h5",
+    "24150_10.h5",
+    "24150_15.h5",
+    "25425_0.h5",
+    "25425_10.h5",
+    "25425_15.h5",
+    "25425_20.h5"
+  ],
+  "stage_keys": [
+    "development__6300_0.h5__420",
+    "development__6300_10.h5__420",
+    "development__7575_10.h5__420",
+    "development__7575_15.h5__420",
+    "development__26700_0.h5__420",
+    "development__26700_10.h5__420"
+  ],
+  "fd_all_keys": [
+    "development__6300_0.h5__420",
+    "development__7575_10.h5__420",
+    "development__26700_0.h5__420"
+  ],
+  "fd_individual_key": "development__6300_0.h5__420",
+  "member_ids": [
+    500000,
+    500001,
+    500002,
+    500003,
+    500004,
+    500005,
+    500006,
+    500007,
+    500008,
+    500009,
+    500010,
+    500011,
+    500012,
+    500013,
+    500014,
+    500015,
+    500016,
+    500017,
+    500018,
+    500019,
+    500020,
+    500021,
+    500022,
+    500023,
+    500024,
+    500025,
+    500026,
+    500027,
+    500028,
+    500029,
+    500030,
+    500031
+  ],
+  "records": [
+    {
+      "split": "development",
+      "trajectory_id": "6300_0.h5",
+      "start": 420,
+      "Re": "6300",
+      "cache_key": "development__6300_0.h5__420",
+      "history_interval": [
+        420,
+        440
+      ],
+      "previous_target_interval": [
+        420,
+        440
+      ],
+      "target_interval": [
+        440,
+        460
+      ],
+      "history_sha256": "03afc5407c10f54550345e77579978d08ef6a04dc3a849a9f1557e90810f7265",
+      "E_sha256": "ce83b7c445772aba263f7ca9a7b1d4e67463396e242dedecdac13a41693ad1ee",
+      "W_sha256": "2ebe8488893a96e9f2159d68b00aa20e09b27a431348b956335033a305a3db87",
+      "previous_path_sha256": "efd19013187a46b2a86be90b44f12d79e744389a7cf03846580b823cb8ba7079",
+      "target_sha256": "c8b810a8ddde27fb9a0e054e4970cd9974f5457c8c26260ee308a3e592428e5c",
+      "feedback_cache": ".cache/error_guided_spatial_routing/development_400_native.pt",
+      "feedback_cache_sha256": "5c37603108adcf155bd17d62d218c0067df88c04b130feea6a891decd3bd3d07",
+      "feedback_cache_row": 3,
+      "xpf_checkpoint_sha256": "02eb8efc7509d60eda4bf7f78752a6a15ae6558a4c62db1d7d658a94643224cf",
+      "W_source": "frozen native zero-noise four-stage point/features; raw XPF16 half width; no online calibrator"
+    },
+    {
+      "split": "development",
+      "trajectory_id": "6300_10.h5",
+      "start": 420,
+      "Re": "6300",
+      "cache_key": "development__6300_10.h5__420",
+      "history_interval": [
+        420,
+        440
+      ],
+      "previous_target_interval": [
+        420,
+        440
+      ],
+      "target_interval": [
+        440,
+        460
+      ],
+      "history_sha256": "069e7b5a71e80cf341737db88ba3b23f87592e3ddb7a8bec3b1c1cbd9c715185",
+      "E_sha256": "7934cd88852f3e207c9eaa6fa1dd182f87a86800a380ead92041f09b9f5ba9ce",
+      "W_sha256": "993c50054df714d9f2ed8e0b019ba19551b8191cdec9514b7b18f2cd4b4c79f4",
+      "previous_path_sha256": "cd57d0086ce68f9d962bd28254b69e6166b1f2d8a2dbf16e4d9ac71dd36f84b7",
+      "target_sha256": "37428b948e667308c4813da31a014de0ab533e6d47055e94f57b05206356ab1f",
+      "feedback_cache": ".cache/error_guided_spatial_routing/development_400_native.pt",
+      "feedback_cache_sha256": "5c37603108adcf155bd17d62d218c0067df88c04b130feea6a891decd3bd3d07",
+      "feedback_cache_row": 4,
+      "xpf_checkpoint_sha256": "02eb8efc7509d60eda4bf7f78752a6a15ae6558a4c62db1d7d658a94643224cf",
+      "W_source": "frozen native zero-noise four-stage point/features; raw XPF16 half width; no online calibrator"
+    },
+    {
+      "split": "development",
+      "trajectory_id": "6300_15.h5",
+      "start": 420,
+      "Re": "6300",
+      "cache_key": "development__6300_15.h5__420",
+      "history_interval": [
+        420,
+        440
+      ],
+      "previous_target_interval": [
+        420,
+        440
+      ],
+      "target_interval": [
+        440,
+        460
+      ],
+      "history_sha256": "2b1023bfd24b4ac442efeed3732d5b6ee23ab4799c7eb5d2dd2e9e6661de3c76",
+      "E_sha256": "2965b56e688e2a0a3782dd117d088cfafc7af235fe982753782160c5421eef44",
+      "W_sha256": "62c1808022557b15fd38a460e9d2ff279fd5d540e386866ff54ccac5c23c3095",
+      "previous_path_sha256": "b7f190da4a4f6d2667ab327811daccdb45c4f95758a3f6091aa4f979de0a36c9",
+      "target_sha256": "f4cdbb7da957da1e888f4bfeea377f350dd1441db6f85c2b09b147aed9d7e912",
+      "feedback_cache": ".cache/error_guided_spatial_routing/development_400_native.pt",
+      "feedback_cache_sha256": "5c37603108adcf155bd17d62d218c0067df88c04b130feea6a891decd3bd3d07",
+      "feedback_cache_row": 5,
+      "xpf_checkpoint_sha256": "02eb8efc7509d60eda4bf7f78752a6a15ae6558a4c62db1d7d658a94643224cf",
+      "W_source": "frozen native zero-noise four-stage point/features; raw XPF16 half width; no online calibrator"
+    },
+    {
+      "split": "development",
+      "trajectory_id": "6300_20.h5",
+      "start": 420,
+      "Re": "6300",
+      "cache_key": "development__6300_20.h5__420",
+      "history_interval": [
+        420,
+        440
+      ],
+      "previous_target_interval": [
+        420,
+        440
+      ],
+      "target_interval": [
+        440,
+        460
+      ],
+      "history_sha256": "7d19d5bacb99a9d598d83147e639fb2c7c6a9bdb94232b66f273268043695704",
+      "E_sha256": "14f16943ebc7ce7aecba6b0fc5eabc1f274f0cd431b7a700665dd3adb5c85125",
+      "W_sha256": "7d200da91b320a51631e65d972e5e2594264dc974c99949ab9de3becc1d6b45c",
+      "previous_path_sha256": "2b50debd13e521e84c2218bfafc1053a0a264529e1e6682540217b15383b1fda",
+      "target_sha256": "0bdebbb85174b61f47095146031ced777bbaa5d1a5b8590bff5f7ae9f9e04aa3",
+      "feedback_cache": ".cache/error_guided_spatial_routing/development_400_native.pt",
+      "feedback_cache_sha256": "5c37603108adcf155bd17d62d218c0067df88c04b130feea6a891decd3bd3d07",
+      "feedback_cache_row": 6,
+      "xpf_checkpoint_sha256": "02eb8efc7509d60eda4bf7f78752a6a15ae6558a4c62db1d7d658a94643224cf",
+      "W_source": "frozen native zero-noise four-stage point/features; raw XPF16 half width; no online calibrator"
+    },
+    {
+      "split": "development",
+      "trajectory_id": "6300_5.h5",
+      "start": 420,
+      "Re": "6300",
+      "cache_key": "development__6300_5.h5__420",
+      "history_interval": [
+        420,
+        440
+      ],
+      "previous_target_interval": [
+        420,
+        440
+      ],
+      "target_interval": [
+        440,
+        460
+      ],
+      "history_sha256": "3f97b3ba68d6668042696b9813b3a0d0df081f9868670155e79872434d12dc56",
+      "E_sha256": "b79cb4c0491f91b85a93b89360fb287ecbfc427d9a8e6e09b97fadb8ccea471b",
+      "W_sha256": "0ccd410a02060d5a8bb407eb4607cfbcd669758f18e45a147b4acca46b502da9",
+      "previous_path_sha256": "ea7daa0a83d7c9d54c59034906df788a8055837fe2127e7a7c49a1d9cdf5196b",
+      "target_sha256": "339c45de54d5985ef93043cdbfa13b504c4ad9bc610881cc11cce15eec76adb0",
+      "feedback_cache": ".cache/error_guided_spatial_routing/development_400_native.pt",
+      "feedback_cache_sha256": "5c37603108adcf155bd17d62d218c0067df88c04b130feea6a891decd3bd3d07",
+      "feedback_cache_row": 7,
+      "xpf_checkpoint_sha256": "02eb8efc7509d60eda4bf7f78752a6a15ae6558a4c62db1d7d658a94643224cf",
+      "W_source": "frozen native zero-noise four-stage point/features; raw XPF16 half width; no online calibrator"
+    },
+    {
+      "split": "development",
+      "trajectory_id": "7575_10.h5",
+      "start": 420,
+      "Re": "7575",
+      "cache_key": "development__7575_10.h5__420",
+      "history_interval": [
+        420,
+        440
+      ],
+      "previous_target_interval": [
+        420,
+        440
+      ],
+      "target_interval": [
+        440,
+        460
+      ],
+      "history_sha256": "50723ce5ddf77d5457c92db2b0e4b0589fa509229c1d16654c6561e1fb136a4a",
+      "E_sha256": "cd332829fede47170094c289f6d5552e44fb0f099a4d2aebae5c765a5f9e26c3",
+      "W_sha256": "faf32a004d4be51f4e97f030b40cd4cc4cab94f9c131baf4a012e20ba7d82adc",
+      "previous_path_sha256": "21cc7857cab869a8858f7c8010592b3c826fc366a5a2f77bee6211e216854f22",
+      "target_sha256": "6a3c99880cc7654c020befce07ba31524a61ec415687732158dbd2c1f4dfdd40",
+      "feedback_cache": ".cache/error_guided_spatial_routing/development_400_native.pt",
+      "feedback_cache_sha256": "5c37603108adcf155bd17d62d218c0067df88c04b130feea6a891decd3bd3d07",
+      "feedback_cache_row": 8,
+      "xpf_checkpoint_sha256": "02eb8efc7509d60eda4bf7f78752a6a15ae6558a4c62db1d7d658a94643224cf",
+      "W_source": "frozen native zero-noise four-stage point/features; raw XPF16 half width; no online calibrator"
+    },
+    {
+      "split": "development",
+      "trajectory_id": "7575_15.h5",
+      "start": 420,
+      "Re": "7575",
+      "cache_key": "development__7575_15.h5__420",
+      "history_interval": [
+        420,
+        440
+      ],
+      "previous_target_interval": [
+        420,
+        440
+      ],
+      "target_interval": [
+        440,
+        460
+      ],
+      "history_sha256": "beda4774acf67b4edcdf8c452ab36f7dedd296eff569742d2a33d6262a407235",
+      "E_sha256": "29ca28a711782c9678c156ace0e89b163a8c55ba93bcef61cdb0510f7f1fc038",
+      "W_sha256": "7aa8b9b3a593d0c26148228c7f8a3e55cf9cd09fef2c9a7d6fe4c49bf23c9972",
+      "previous_path_sha256": "bc5a7dc06276e3b9bb3f271acc1900bf2372e4f637a40c6f3b7ffa35c04ebddb",
+      "target_sha256": "476db782a2948a1d40e5553e423d36d7fdd195c941f1d78ac5a927d2bc760241",
+      "feedback_cache": ".cache/error_guided_spatial_routing/development_400_native.pt",
+      "feedback_cache_sha256": "5c37603108adcf155bd17d62d218c0067df88c04b130feea6a891decd3bd3d07",
+      "feedback_cache_row": 9,
+      "xpf_checkpoint_sha256": "02eb8efc7509d60eda4bf7f78752a6a15ae6558a4c62db1d7d658a94643224cf",
+      "W_source": "frozen native zero-noise four-stage point/features; raw XPF16 half width; no online calibrator"
+    },
+    {
+      "split": "development",
+      "trajectory_id": "7575_20.h5",
+      "start": 420,
+      "Re": "7575",
+      "cache_key": "development__7575_20.h5__420",
+      "history_interval": [
+        420,
+        440
+      ],
+      "previous_target_interval": [
+        420,
+        440
+      ],
+      "target_interval": [
+        440,
+        460
+      ],
+      "history_sha256": "9263699bfb21375833ed7cfa9c34d1210a5cdfd13b32caf7a79a3cc0e1adac1f",
+      "E_sha256": "b7ed2d1ac7c8b8fbbd694ef71336b108526d2fa50eb05e5c3fd718d793991db0",
+      "W_sha256": "50f3ec56611936f6be99c7c72df2e1b27d032f6076dd482c8869bae4c4957e57",
+      "previous_path_sha256": "c43aa73648d3feefffc847cf72d46d1a304a3c557977398099cc94594e84eb89",
+      "target_sha256": "9c682a0e7d94e370d9367f48b762ac56eab6aa9cb14c89f7d19ad45f3a49e45d",
+      "feedback_cache": ".cache/error_guided_spatial_routing/development_400_native.pt",
+      "feedback_cache_sha256": "5c37603108adcf155bd17d62d218c0067df88c04b130feea6a891decd3bd3d07",
+      "feedback_cache_row": 10,
+      "xpf_checkpoint_sha256": "02eb8efc7509d60eda4bf7f78752a6a15ae6558a4c62db1d7d658a94643224cf",
+      "W_source": "frozen native zero-noise four-stage point/features; raw XPF16 half width; no online calibrator"
+    },
+    {
+      "split": "development",
+      "trajectory_id": "7575_5.h5",
+      "start": 420,
+      "Re": "7575",
+      "cache_key": "development__7575_5.h5__420",
+      "history_interval": [
+        420,
+        440
+      ],
+      "previous_target_interval": [
+        420,
+        440
+      ],
+      "target_interval": [
+        440,
+        460
+      ],
+      "history_sha256": "322f0b30343b6612bcb1ec4ad7ac2c0f546d04d624d345068f726d1c65b4a516",
+      "E_sha256": "4d920907d787895ff81192c98179b450a441721e9c3f3024e69f4e3a44f2924c",
+      "W_sha256": "fa11b589a3e6238e1e70fdbbac0b398865bf288fd712eba76e20ec48556c6597",
+      "previous_path_sha256": "6630f3122befb12471982892f4a26ae391bf2690b10b5d87177a4857587aeda7",
+      "target_sha256": "a5e4e4c68d7965bddba6d3454c06008f97b0eac7bfa925b188febe4bcd003cc4",
+      "feedback_cache": ".cache/error_guided_spatial_routing/development_400_native.pt",
+      "feedback_cache_sha256": "5c37603108adcf155bd17d62d218c0067df88c04b130feea6a891decd3bd3d07",
+      "feedback_cache_row": 11,
+      "xpf_checkpoint_sha256": "02eb8efc7509d60eda4bf7f78752a6a15ae6558a4c62db1d7d658a94643224cf",
+      "W_source": "frozen native zero-noise four-stage point/features; raw XPF16 half width; no online calibrator"
+    },
+    {
+      "split": "development",
+      "trajectory_id": "26700_0.h5",
+      "start": 420,
+      "Re": "26700",
+      "cache_key": "development__26700_0.h5__420",
+      "history_interval": [
+        420,
+        440
+      ],
+      "previous_target_interval": [
+        420,
+        440
+      ],
+      "target_interval": [
+        440,
+        460
+      ],
+      "history_sha256": "2570e033ff85751317aac243fb311f17ee096dff4a692405d6e7f568044a68e6",
+      "E_sha256": "e36e4b024a73711d755a7d8319aad49a5afeccd7bbe59efa8dd2ad23ea80c1cf",
+      "W_sha256": "ce75532c3e637bf1e96505ff19d223a3fd23f4706e89c2c8dd786ca226b70d5d",
+      "previous_path_sha256": "5945903ef4e86fa5f556d3e86f435ac393c0518fbe171d222d3765afda369da7",
+      "target_sha256": "dfa1aa350b4cdb9a397f8d2e0ff30c39025abc76ad1ab48c8b800f30563362d6",
+      "feedback_cache": ".cache/error_guided_spatial_routing/development_400_native.pt",
+      "feedback_cache_sha256": "5c37603108adcf155bd17d62d218c0067df88c04b130feea6a891decd3bd3d07",
+      "feedback_cache_row": 0,
+      "xpf_checkpoint_sha256": "02eb8efc7509d60eda4bf7f78752a6a15ae6558a4c62db1d7d658a94643224cf",
+      "W_source": "frozen native zero-noise four-stage point/features; raw XPF16 half width; no online calibrator"
+    },
+    {
+      "split": "development",
+      "trajectory_id": "26700_10.h5",
+      "start": 420,
+      "Re": "26700",
+      "cache_key": "development__26700_10.h5__420",
+      "history_interval": [
+        420,
+        440
+      ],
+      "previous_target_interval": [
+        420,
+        440
+      ],
+      "target_interval": [
+        440,
+        460
+      ],
+      "history_sha256": "3a4e649f15970344721778cdc0b9fc872fab6bea0b3b27e90afca60b8c47f90c",
+      "E_sha256": "04aebc27261178f458a89ab55dbb5402a9d85ce50f832645225e3da156550242",
+      "W_sha256": "df92ca5d49a120edadc08e9520914d6dcb76620982c21cc04e0e4afaaa6e100b",
+      "previous_path_sha256": "49fad21c96753ab88c80b72013505013139896b973eabe8497c8664e4870e36b",
+      "target_sha256": "d03a0da913f644d2df301be5ceb76d2fae4fed995d9f7935ffb97cb10fcf0650",
+      "feedback_cache": ".cache/error_guided_spatial_routing/development_400_native.pt",
+      "feedback_cache_sha256": "5c37603108adcf155bd17d62d218c0067df88c04b130feea6a891decd3bd3d07",
+      "feedback_cache_row": 1,
+      "xpf_checkpoint_sha256": "02eb8efc7509d60eda4bf7f78752a6a15ae6558a4c62db1d7d658a94643224cf",
+      "W_source": "frozen native zero-noise four-stage point/features; raw XPF16 half width; no online calibrator"
+    },
+    {
+      "split": "development",
+      "trajectory_id": "26700_15.h5",
+      "start": 420,
+      "Re": "26700",
+      "cache_key": "development__26700_15.h5__420",
+      "history_interval": [
+        420,
+        440
+      ],
+      "previous_target_interval": [
+        420,
+        440
+      ],
+      "target_interval": [
+        440,
+        460
+      ],
+      "history_sha256": "b5f53ab5b2ed96eecbea7d5b36404225c010ca11f3a5043a10f10374d448abd0",
+      "E_sha256": "425a3daa458a6ae422eb7e19d8a1f6e6b3277200cd03b5487107ad07a8fc3d68",
+      "W_sha256": "c051d6b182e2505547991b063becc0ff394f03e8f787ee4bfd9f7cb54dea67b3",
+      "previous_path_sha256": "22da4b60ef360f5a61daca7d1bfa1baecbb534c35cf69c662bfca28e677961d9",
+      "target_sha256": "b49f8a73bcb9a6dd014532b318b1220f434cf695be412280e9bc0967882a039b",
+      "feedback_cache": ".cache/error_guided_spatial_routing/development_400_native.pt",
+      "feedback_cache_sha256": "5c37603108adcf155bd17d62d218c0067df88c04b130feea6a891decd3bd3d07",
+      "feedback_cache_row": 2,
+      "xpf_checkpoint_sha256": "02eb8efc7509d60eda4bf7f78752a6a15ae6558a4c62db1d7d658a94643224cf",
+      "W_source": "frozen native zero-noise four-stage point/features; raw XPF16 half width; no online calibrator"
+    },
+    {
+      "split": "train",
+      "trajectory_id": "8850_0.h5",
+      "start": 420,
+      "Re": "8850",
+      "cache_key": "train__8850_0.h5__420",
+      "history_interval": [
+        420,
+        440
+      ],
+      "previous_target_interval": [
+        420,
+        440
+      ],
+      "target_interval": [
+        440,
+        460
+      ],
+      "history_sha256": "b5b2ed4908d8129858965551d21fe7dae2051f9e75b7abab6f5eb9665d5b5544",
+      "E_sha256": "d3dabd1b0820b9abd079a47afa21cea907803a7c8338b8436afc61b0943ee643",
+      "W_sha256": "13795ac6fd1e79e9d9131ffc42b5e08b265dff6f3973195b4f0e9e0a3b24567a",
+      "previous_path_sha256": "db07fdb205973452b351af87705ff15b00a883d58fc0f518aea6971153bcd0d9",
+      "target_sha256": "87007095b3564788ac3141f329cbdc4d847a2c426f31204d5a1809b10fe06a4c",
+      "feedback_cache": ".cache/error_guided_spatial_routing/train_400_native.pt",
+      "feedback_cache_sha256": "732e82cd078b16b737076c0e54d2ab02270837dbeb19969d84bac042dfcb0052",
+      "feedback_cache_row": 41,
+      "xpf_checkpoint_sha256": "02eb8efc7509d60eda4bf7f78752a6a15ae6558a4c62db1d7d658a94643224cf",
+      "W_source": "frozen native zero-noise four-stage point/features; raw XPF16 half width; no online calibrator"
+    },
+    {
+      "split": "train",
+      "trajectory_id": "10125_0.h5",
+      "start": 420,
+      "Re": "10125",
+      "cache_key": "train__10125_0.h5__420",
+      "history_interval": [
+        420,
+        440
+      ],
+      "previous_target_interval": [
+        420,
+        440
+      ],
+      "target_interval": [
+        440,
+        460
+      ],
+      "history_sha256": "159ea88c2218d2b6ab8e4e3f122d55f11fc481dc59a6c40c3fbfcee608201777",
+      "E_sha256": "42f589769f8b1f11193d0205fd09ceba5dea623c70a03e60546615e17cd53d23",
+      "W_sha256": "be5556f480bd0b2484b327eb0faa509b0d46d6a6e5410862a3f3af0e52660e99",
+      "previous_path_sha256": "35b6de075be563fd9f5e27a578f53a2da885ff4c07799f2f3bae5cf3ef66f9cc",
+      "target_sha256": "4ff98ba6ebeeee57403b2a4c1320c6c0bef8b8baa87e954990ee72883470c935",
+      "feedback_cache": ".cache/error_guided_spatial_routing/train_400_native.pt",
+      "feedback_cache_sha256": "732e82cd078b16b737076c0e54d2ab02270837dbeb19969d84bac042dfcb0052",
+      "feedback_cache_row": 0,
+      "xpf_checkpoint_sha256": "02eb8efc7509d60eda4bf7f78752a6a15ae6558a4c62db1d7d658a94643224cf",
+      "W_source": "frozen native zero-noise four-stage point/features; raw XPF16 half width; no online calibrator"
+    },
+    {
+      "split": "train",
+      "trajectory_id": "11400_0.h5",
+      "start": 420,
+      "Re": "11400",
+      "cache_key": "train__11400_0.h5__420",
+      "history_interval": [
+        420,
+        440
+      ],
+      "previous_target_interval": [
+        420,
+        440
+      ],
+      "target_interval": [
+        440,
+        460
+      ],
+      "history_sha256": "837b0ad32133058008711e9280ca3b965401f19a82fbd8194eedb15c70d512d3",
+      "E_sha256": "a415a06b9a34dd7d9964a345bd05cf724031d496045b87399c1490fd9a946e0b",
+      "W_sha256": "3a021ee0408149e88f8450302d175baa594a78444c4c13af66f523e6c4183c2a",
+      "previous_path_sha256": "785f24f2a06790bbeb6ac572fd00077f4184e7694a1712ffbe8990c5afdb08fa",
+      "target_sha256": "d74dd3680af14ccd308afff95847c851e2aa039712bf268d0cba749e3ea27529",
+      "feedback_cache": ".cache/error_guided_spatial_routing/train_400_native.pt",
+      "feedback_cache_sha256": "732e82cd078b16b737076c0e54d2ab02270837dbeb19969d84bac042dfcb0052",
+      "feedback_cache_row": 5,
+      "xpf_checkpoint_sha256": "02eb8efc7509d60eda4bf7f78752a6a15ae6558a4c62db1d7d658a94643224cf",
+      "W_source": "frozen native zero-noise four-stage point/features; raw XPF16 half width; no online calibrator"
+    },
+    {
+      "split": "train",
+      "trajectory_id": "12675_0.h5",
+      "start": 420,
+      "Re": "12675",
+      "cache_key": "train__12675_0.h5__420",
+      "history_interval": [
+        420,
+        440
+      ],
+      "previous_target_interval": [
+        420,
+        440
+      ],
+      "target_interval": [
+        440,
+        460
+      ],
+      "history_sha256": "be0a649c5e25d08bcdb245841ec25d179aee2e9d4320a628e8b1447813c86466",
+      "E_sha256": "c8da425fa8359deb78f10b5b745d5ed278e83ffe124f700ca0c9ec48cb804bab",
+      "W_sha256": "cc279580a0bff6c9404ab94b73052c1aa7f636122b4a352c000c1cddd70333cc",
+      "previous_path_sha256": "aefd6bcbb07be412808fa751b6f9087922709cb1c1ae14892fd0990cc28200b0",
+      "target_sha256": "b35bfc5f89dcd05536e1230053f5ed121ca459fce08d662ad1fe63f7c9540005",
+      "feedback_cache": ".cache/error_guided_spatial_routing/train_400_native.pt",
+      "feedback_cache_sha256": "732e82cd078b16b737076c0e54d2ab02270837dbeb19969d84bac042dfcb0052",
+      "feedback_cache_row": 10,
+      "xpf_checkpoint_sha256": "02eb8efc7509d60eda4bf7f78752a6a15ae6558a4c62db1d7d658a94643224cf",
+      "W_source": "frozen native zero-noise four-stage point/features; raw XPF16 half width; no online calibrator"
+    },
+    {
+      "split": "train",
+      "trajectory_id": "16500_0.h5",
+      "start": 420,
+      "Re": "16500",
+      "cache_key": "train__16500_0.h5__420",
+      "history_interval": [
+        420,
+        440
+      ],
+      "previous_target_interval": [
+        420,
+        440
+      ],
+      "target_interval": [
+        440,
+        460
+      ],
+      "history_sha256": "371d7f64856efb26654f84ab9f4993d00f22e913eef0b601e533a50b5e7895ba",
+      "E_sha256": "dd3d75982f3b2e44771ed83df6da3f3fcb899fc670570f752e0fe7f739843cdd",
+      "W_sha256": "28c9db9f7a26b35d04a2a0226efb1142564cd9e1a796428c489a7b72fb9cc86f",
+      "previous_path_sha256": "db1479dab64194ccfe74acddda625d15cf86965972055d87a6fd87ce69f1e903",
+      "target_sha256": "df61625a81b96f3d85671debc441e1b59fb3a1ce51b9894b4c40ce53e977f640",
+      "feedback_cache": ".cache/error_guided_spatial_routing/train_400_native.pt",
+      "feedback_cache_sha256": "732e82cd078b16b737076c0e54d2ab02270837dbeb19969d84bac042dfcb0052",
+      "feedback_cache_row": 15,
+      "xpf_checkpoint_sha256": "02eb8efc7509d60eda4bf7f78752a6a15ae6558a4c62db1d7d658a94643224cf",
+      "W_source": "frozen native zero-noise four-stage point/features; raw XPF16 half width; no online calibrator"
+    },
+    {
+      "split": "train",
+      "trajectory_id": "17775_10.h5",
+      "start": 420,
+      "Re": "17775",
+      "cache_key": "train__17775_10.h5__420",
+      "history_interval": [
+        420,
+        440
+      ],
+      "previous_target_interval": [
+        420,
+        440
+      ],
+      "target_interval": [
+        440,
+        460
+      ],
+      "history_sha256": "d870b8a058962b76fa6ad9ab07bee63117a7303d40afb26302f183efb2b29997",
+      "E_sha256": "6e06f180539ac14fd052fce2d225af470e329bef0988535550f7b535aa5d57b7",
+      "W_sha256": "72f22c36291492c72d6aef4582c38687e64c253f234b73fae30116d2f1c2536f",
+      "previous_path_sha256": "b14c105c7a3a5b99754f2cec91c4bcc7131b843e8fedae41536ae25af0bc7c64",
+      "target_sha256": "a72dc16ac9c52e85095d5b761d3babd5f5688cc06f714c0ac02bd31ee0f5eb2b",
+      "feedback_cache": ".cache/error_guided_spatial_routing/train_400_native.pt",
+      "feedback_cache_sha256": "732e82cd078b16b737076c0e54d2ab02270837dbeb19969d84bac042dfcb0052",
+      "feedback_cache_row": 20,
+      "xpf_checkpoint_sha256": "02eb8efc7509d60eda4bf7f78752a6a15ae6558a4c62db1d7d658a94643224cf",
+      "W_source": "frozen native zero-noise four-stage point/features; raw XPF16 half width; no online calibrator"
+    }
+  ]
+}

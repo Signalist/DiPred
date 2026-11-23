@@ -1,0 +1,18 @@
+{
+  "cpu_synthetic_only": true,
+  "real_forward_groups": 0,
+  "results": {
+    "torch.float32": {
+      "native_exact": true,
+      "joint_exact": true,
+      "zero_endpoint_exact": true,
+      "unit_endpoint_exact": true
+    },
+    "torch.float64": {
+      "native_exact": true,
+      "joint_exact": true,
+      "zero_endpoint_exact": true,
+      "unit_endpoint_exact": true
+    }
+  }
+}

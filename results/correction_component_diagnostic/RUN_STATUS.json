@@ -1,0 +1,42 @@
+{
+  "status": "stopped_at_native_reproduction_gate",
+  "dependency_preflight_error": "AttributeError(\"module 'h5py' has no attribute 'File'\")",
+  "dependency_resolution": "reuse h5py 3.11.0 from ../Forecast/Runtime/.deps",
+  "no_real_inference_after_stop": true,
+  "only_cached_arithmetic_after_stop": true,
+  "old_recorded_flags": {
+    "matmul_tf32": true,
+    "cudnn_tf32": false
+  },
+  "runtime_configuration_checks_no_model_calls": [
+    {
+      "TORCH_ALLOW_TF32_CUBLAS_OVERRIDE": "1",
+      "matmul_tf32_after_configure": true,
+      "cudnn_tf32_after_configure": false
+    },
+    {
+      "TORCH_ALLOW_TF32_CUBLAS_OVERRIDE": "0",
+      "matmul_tf32_after_configure": false,
+      "cudnn_tf32_after_configure": false
+    }
+  ],
+  "default_runtime_override": "1",
+  "completed": [
+    "fixed_manifest",
+    "source_checkpoint_and_cache_identity",
+    "fixed_H_E_W_target_and_noise_identity",
+    "synthetic_value_and_gradient",
+    "offline_decomposition_and_old_CRPS_identity",
+    "native_out_and_trained_weight_identity_before_run",
+    "legacy_native_and_joint_sampler_parity_on_label_aware_cpu_synthetic_input"
+  ],
+  "missing": [
+    "exact_native_and_J_reproduction",
+    "real_future_label_output_invariance",
+    "component_scores",
+    "half_amplitude",
+    "real_stage_directions",
+    "condition_ablations",
+    "post_run_weight_audit"
+  ]
+}

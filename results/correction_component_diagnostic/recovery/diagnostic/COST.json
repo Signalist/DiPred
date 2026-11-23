@@ -1,0 +1,25 @@
+{
+  "complete_forward_groups": 176,
+  "gradient_graphs": 12,
+  "autograd_grad_calls": 24,
+  "optimizer_instances": 0,
+  "optimizer_updates": 0,
+  "wall_seconds": 54.786528054624796,
+  "elapsed_at_milestones": {
+    "synthetic": 0.1417323276400566,
+    "real_reproduction": 27.31483979523182,
+    "offline_decomposition": 28.770445063710213,
+    "core_components": 39.90726098231971,
+    "half_amplitude": 42.26737660355866,
+    "stage_gradients": 43.8561890181154,
+    "finite_differences": 47.23124626837671,
+    "conditions": 48.90756009891629,
+    "verified": 54.783319095149636
+  },
+  "member_count": 32,
+  "steps_per_group": 4,
+  "xpf_rebuilds": 0,
+  "feedback_rebuilds": 0,
+  "prior_complete_forward_groups": 1,
+  "cumulative_complete_forward_groups": 177
+}

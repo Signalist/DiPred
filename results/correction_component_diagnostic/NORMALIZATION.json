@@ -1,0 +1,28 @@
+{
+  "condition_scales": {
+    "E_clip": 1.6792298555374146,
+    "W_scale": [
+      0.22880610823631287,
+      0.6164600253105164
+    ],
+    "W_clip": 10.0,
+    "source_split": "train",
+    "train_windows": 137,
+    "E_clip_quantile": 0.995,
+    "W_normalization": "fixed training RMS per velocity channel; no window normalization"
+  },
+  "native_norm": {
+    "mean": [
+      0.1733045130968094,
+      -0.00037393238744698465
+    ],
+    "std": [
+      0.11372903734445572,
+      0.01720684953033924
+    ]
+  },
+  "sha256": {
+    "mean": "30146f0538da4b65ba59b8fa479569c3ab68857c08fbfcb7ef2b6db107abc2dc",
+    "std": "ece7f08c337374c2faaebd49668f84201a8184c3724465ce5e6620c472d2add4"
+  }
+}

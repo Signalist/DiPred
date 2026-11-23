@@ -1,0 +1,23 @@
+{
+  "previous_complete_forward_groups": 1,
+  "diagnostic_complete_forward_groups": 176,
+  "precision_probe_complete_forward_groups": 1,
+  "complete_forward_groups": 178,
+  "single_member_four_step_calls": 4,
+  "gradient_graphs": 12,
+  "autograd_grad_calls": 24,
+  "optimizer_instances": 0,
+  "optimizer_updates": 0,
+  "wall_seconds_current_recovery": 73.1893879622221,
+  "wall_seconds_diagnostic": 54.786528054624796,
+  "wall_seconds_precision_probes": {
+    "MEMBER_LEGACY": 7.106729071587324,
+    "MEMBER_FP32": 2.7807265873998404,
+    "MATCHED_BATCH_FP32": 8.515404248610139
+  },
+  "limits": {
+    "complete_forward_groups": 192,
+    "gradient_graphs": 12,
+    "autograd_grad_calls": 24
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "rechecked_in_fresh_process": {
+    "non_out": "ac12a701e1e31b186aaea6ab94a4ff398e93661683f0013e502995009bbfe4da",
+    "native_out": "710f5d12df24a8904b3a6359cd041b2bba9b2f4ecae35195bba2805c565de860",
+    "C0_out": "9617144282afd5a5671ebe59dde9c2e7bb89ac24e30cb602ede11e0c3e059935",
+    "C1_out": "5d54d302bae03f66340f99b698c6805101955f029253c5ac90297c23aa6865c1",
+    "C0_G": "eb22df17684d2db7390bb48718bf44bbf41c811fa5fcc86e4114758278b39048",
+    "C1_G": "edc5481830e4cadc00f50504d8869d7027781d4d61003037c162a64967d2b2ab"
+  },
+  "original_checkpoint_artifacts_unchanged": true,
+  "complete_forward_groups": 0,
+  "original_stopped_process_post_run_weight_audit": false,
+  "supplemental_wall_seconds": 0.469335924834013
+}
