@@ -1,0 +1,195 @@
+COMMAND python research/corrector_rollout/run.py all --device cuda
+ENV Python 3.8.10, PyTorch 1.14.0a0+44dac51, device cuda
+GPU NVIDIA A100-SXM4-80GB
+INPUTS /cpfs01/projects-HDD/cfff-3469a2cbe57f_HDD/wangxiyun/DiPred+ResCrct/Forecast/Runtime /cpfs01/projects-HDD/cfff-3469a2cbe57f_HDD/wangxiyun/DiPred+ResCrct/Forecast/Runtime/runs/residual_dynamics_20261119 /cpfs01/projects-HDD/cfff-3469a2cbe57f_HDD/wangxiyun/OLD/REALPDE/realpdebench-competition/data/train_real
+Traceback (most recent call last):
+  File "research/corrector_rollout/run.py", line 284, in <module>
+    main()
+  File "/usr/local/lib/python3.8/dist-packages/torch/autograd/grad_mode.py", line 34, in decorate_context
+    return func(*args, **kwargs)
+  File "research/corrector_rollout/run.py", line 261, in main
+    records, data, weights, audit = verify_inputs(args)
+  File "research/corrector_rollout/run.py", line 97, in verify_inputs
+    weights = input_weights(args.workspace, frozen)
+  File "research/corrector_rollout/run.py", line 48, in input_weights
+    return {
+TypeError: unsupported operand type(s) for |: 'dict' and 'dict'
+COMMAND python research/corrector_rollout/run.py all --device cuda
+ENV Python 3.8.10, PyTorch 1.14.0a0+44dac51, device cuda
+GPU NVIDIA A100-SXM4-80GB
+INPUTS /cpfs01/projects-HDD/cfff-3469a2cbe57f_HDD/wangxiyun/DiPred+ResCrct/Forecast/Runtime /cpfs01/projects-HDD/cfff-3469a2cbe57f_HDD/wangxiyun/DiPred+ResCrct/Forecast/Runtime/runs/residual_dynamics_20261119 /cpfs01/projects-HDD/cfff-3469a2cbe57f_HDD/wangxiyun/OLD/REALPDE/realpdebench-competition/data/train_real
+Traceback (most recent call last):
+  File "research/corrector_rollout/run.py", line 283, in <module>
+    main()
+  File "/usr/local/lib/python3.8/dist-packages/torch/autograd/grad_mode.py", line 34, in decorate_context
+    return func(*args, **kwargs)
+  File "research/corrector_rollout/run.py", line 260, in main
+    records, data, weights, audit = verify_inputs(args)
+  File "research/corrector_rollout/run.py", line 108, in verify_inputs
+    history = load_truth(args.data, split_records, STARTS[0])
+  File "/cpfs01/projects-HDD/cfff-3469a2cbe57f_HDD/wangxiyun/DiPred+ResCrct/Corrector/research/corrector/run.py", line 36, in load_truth
+    with h5py.File(data/r['file'],'r') as f: vals.append(np.stack([f[c][start:start+20,::2,::2] for c in ('u','v')]).astype('float32'))
+AttributeError: module 'h5py' has no attribute 'File'
+COMMAND python research/corrector_rollout/run.py all --device cuda
+ENV Python 3.8.10, PyTorch 1.14.0a0+44dac51, device cuda
+GPU NVIDIA A100-SXM4-80GB
+INPUTS /cpfs01/projects-HDD/cfff-3469a2cbe57f_HDD/wangxiyun/DiPred+ResCrct/Forecast/Runtime /cpfs01/projects-HDD/cfff-3469a2cbe57f_HDD/wangxiyun/DiPred+ResCrct/Forecast/Runtime/runs/residual_dynamics_20261119 /cpfs01/projects-HDD/cfff-3469a2cbe57f_HDD/wangxiyun/OLD/REALPDE/realpdebench-competition/data/train_real
+/usr/local/lib/python3.8/dist-packages/torch/storage.py:315: UserWarning: TypedStorage is deprecated. It will be removed in the future and UntypedStorage will be the only storage class. This should only matter to you if you are using storages directly.
+  warnings.warn(message, UserWarning)
+VERIFIED CACHE train 400: 46 trajectories, 32 ordered members
+VERIFIED CACHE train 420: 46 trajectories, 32 ordered members
+VERIFIED CACHE development 400: 12 trajectories, 32 ordered members
+VERIFIED CACHE development 420: 12 trajectories, 32 ordered members
+VERIFIED CACHE test 400: 12 trajectories, 32 ordered members
+VERIFIED CACHE test 420: 12 trajectories, 32 ordered members
+Traceback (most recent call last):
+  File "research/corrector_rollout/run.py", line 283, in <module>
+    main()
+  File "/usr/local/lib/python3.8/dist-packages/torch/autograd/grad_mode.py", line 34, in decorate_context
+    return func(*args, **kwargs)
+  File "research/corrector_rollout/run.py", line 261, in main
+    models = load_models(args.device)
+  File "research/corrector_rollout/run.py", line 65, in load_models
+    ck = torch.load(PRIOR / filename, map_location=device, weights_only=True)
+  File "/usr/local/lib/python3.8/dist-packages/torch/serialization.py", line 803, in load
+    raise pickle.UnpicklingError(UNSAFE_MESSAGE + str(e)) from None
+_pickle.UnpicklingError: Weights only load failed. Re-running `torch.load` with `weights_only` set to `False` will likely succeed, but it can result in arbitrary code execution.Do it only if you get the file from a trusted source. WeightsUnpickler error: Unsupported operand 71
+COMMAND python research/corrector_rollout/run.py all --device cuda
+ENV Python 3.8.10, PyTorch 1.14.0a0+44dac51, device cuda
+GPU NVIDIA A100-SXM4-80GB
+INPUTS /cpfs01/projects-HDD/cfff-3469a2cbe57f_HDD/wangxiyun/DiPred+ResCrct/Forecast/Runtime /cpfs01/projects-HDD/cfff-3469a2cbe57f_HDD/wangxiyun/DiPred+ResCrct/Forecast/Runtime/runs/residual_dynamics_20261119 /cpfs01/projects-HDD/cfff-3469a2cbe57f_HDD/wangxiyun/OLD/REALPDE/realpdebench-competition/data/train_real
+/usr/local/lib/python3.8/dist-packages/torch/storage.py:315: UserWarning: TypedStorage is deprecated. It will be removed in the future and UntypedStorage will be the only storage class. This should only matter to you if you are using storages directly.
+  warnings.warn(message, UserWarning)
+VERIFIED CACHE train 400: 46 trajectories, 32 ordered members
+VERIFIED CACHE train 420: 46 trajectories, 32 ordered members
+VERIFIED CACHE development 400: 12 trajectories, 32 ordered members
+VERIFIED CACHE development 420: 12 trajectories, 32 ordered members
+VERIFIED CACHE test 400: 12 trajectories, 32 ordered members
+VERIFIED CACHE test 420: 12 trajectories, 32 ordered members
+SCORED oracle_one_step development 400: 12 trajectories
+SCORED oracle_one_step development 420: 12 trajectories
+SCORED oracle_one_step test 400: 12 trajectories
+SCORED oracle_one_step test 420: 12 trajectories
+Traceback (most recent call last):
+  File "research/corrector_rollout/run.py", line 285, in <module>
+    main()
+  File "/usr/local/lib/python3.8/dist-packages/torch/autograd/grad_mode.py", line 34, in decorate_context
+    return func(*args, **kwargs)
+  File "research/corrector_rollout/run.py", line 265, in main
+    reproduction = verify_scores(oracle, PRIOR)
+  File "/cpfs01/projects-HDD/cfff-3469a2cbe57f_HDD/wangxiyun/DiPred+ResCrct/Corrector/research/corrector_rollout/verify.py", line 26, in verify_scores
+    np.testing.assert_allclose(actual, reference, rtol=1e-4, atol=1e-10, err_msg=str(key))
+  File "/usr/local/lib/python3.8/dist-packages/numpy/testing/_private/utils.py", line 1530, in assert_allclose
+    assert_array_compare(compare, actual, desired, err_msg=str(err_msg),
+  File "/usr/local/lib/python3.8/dist-packages/numpy/testing/_private/utils.py", line 844, in assert_array_compare
+    raise AssertionError(msg)
+AssertionError:
+Not equal to tolerance rtol=0.0001, atol=1e-10
+('test', '22875_0.h5', 'State-conditioned')
+Mismatched elements: 1 / 3 (33.3%)
+Max absolute difference: 1.02728388e-09
+Max relative difference: 0.00014004
+ x: array([2.072916e-05, 3.562927e-05, 5.829050e-06])
+ y: array([2.072824e-05, 3.562824e-05, 5.828234e-06])
+DIAGNOSTIC: compare PyTorch cuDNN TF32 settings and historical scoring arithmetic
+/usr/local/lib/python3.8/dist-packages/torch/storage.py:315: UserWarning: TypedStorage is deprecated. It will be removed in the future and UntypedStorage will be the only storage class. This should only matter to you if you are using storages directly.
+  warnings.warn(message, UserWarning)
+DIAGNOSTIC False historical implementation [3.562926739410489e-05, 5.829049913390443e-06] new implementation [3.562926739472121e-05, 5.8290499140631616e-06]
+DIAGNOSTIC True historical implementation [3.5628240110841507e-05, 5.82823375703344e-06] new implementation [3.562824011065849e-05, 5.8282337571917444e-06]
+COMMAND python research/corrector_rollout/run.py all --device cuda
+ENV Python 3.8.10, PyTorch 1.14.0a0+44dac51, device cuda
+GPU NVIDIA A100-SXM4-80GB
+cuDNN TF32 True, cuBLAS TF32 False
+INPUTS /cpfs01/projects-HDD/cfff-3469a2cbe57f_HDD/wangxiyun/DiPred+ResCrct/Forecast/Runtime /cpfs01/projects-HDD/cfff-3469a2cbe57f_HDD/wangxiyun/DiPred+ResCrct/Forecast/Runtime/runs/residual_dynamics_20261119 /cpfs01/projects-HDD/cfff-3469a2cbe57f_HDD/wangxiyun/OLD/REALPDE/realpdebench-competition/data/train_real
+/usr/local/lib/python3.8/dist-packages/torch/storage.py:315: UserWarning: TypedStorage is deprecated. It will be removed in the future and UntypedStorage will be the only storage class. This should only matter to you if you are using storages directly.
+  warnings.warn(message, UserWarning)
+VERIFIED CACHE train 400: 46 trajectories, 32 ordered members
+VERIFIED CACHE train 420: 46 trajectories, 32 ordered members
+VERIFIED CACHE development 400: 12 trajectories, 32 ordered members
+VERIFIED CACHE development 420: 12 trajectories, 32 ordered members
+VERIFIED CACHE test 400: 12 trajectories, 32 ordered members
+VERIFIED CACHE test 420: 12 trajectories, 32 ordered members
+SCORED oracle_one_step development 400: 12 trajectories
+SCORED oracle_one_step development 420: 12 trajectories
+SCORED oracle_one_step test 400: 12 trajectories
+SCORED oracle_one_step test 420: 12 trajectories
+VERIFIED ORACLE {'trajectory_model_rows': 72, 'aggregate_rows': 6, 'max_trajectory_mse_abs_error': 2.2824732555382088e-14, 'aggregates': [{'split': 'development', 'model': 'R-only', 'historical_mse': 2.8032331490609693e-05, 'mse': 2.8032331489565874e-05, 'mse_u': 5.1811047384050536e-05, 'mse_v': 4.253615595081216e-06}, {'split': 'development', 'model': 'State-conditioned', 'historical_mse': 2.7491760579235906e-05, 'mse': 2.74917605786024e-05, 'mse_u': 5.107574404643285e-05, 'mse_v': 3.907777110771958e-06}, {'split': 'development', 'model': 'Persistence', 'historical_mse': 3.7278404453899345e-05, 'mse': 3.727840445449008e-05, 'mse_u': 6.743519150177785e-05, 'mse_v': 7.121617407202298e-06}, {'split': 'test', 'model': 'R-only', 'historical_mse': 1.9807516372815172e-05, 'mse': 1.980751637300415e-05, 'mse_u': 3.5259339777111404e-05, 'mse_v': 4.3556929688968906e-06}, {'split': 'test', 'model': 'State-conditioned', 'historical_mse': 1.92571696700027e-05, 'mse': 1.925716966930759e-05, 'mse_u': 3.4532573427978055e-05, 'mse_v': 3.98176591063713e-06}, {'split': 'test', 'model': 'Persistence', 'historical_mse': 2.6576340966982792e-05, 'mse': 2.6576340966069324e-05, 'mse_u': 4.578565716630315e-05, 'mse_v': 7.367024765835502e-06}]}
+Traceback (most recent call last):
+  File "research/corrector_rollout/run.py", line 288, in <module>
+    main()
+  File "/usr/local/lib/python3.8/dist-packages/torch/autograd/grad_mode.py", line 34, in decorate_context
+    return func(*args, **kwargs)
+  File "research/corrector_rollout/run.py", line 270, in main
+    checks = verify_rollout(data, models, args.device, decode_window, rollout, one_step,
+  File "/cpfs01/projects-HDD/cfff-3469a2cbe57f_HDD/wangxiyun/DiPred+ResCrct/Corrector/research/corrector_rollout/verify.py", line 66, in verify_rollout
+    torch.testing.assert_close(original[name][:, :, 1], reference[name][:, :, 0],
+  File "/usr/local/lib/python3.8/dist-packages/torch/testing/_comparison.py", line 1519, in assert_close
+    assert_equal(
+  File "/usr/local/lib/python3.8/dist-packages/torch/testing/_comparison.py", line 1270, in assert_equal
+    raise error_metas[0].to_error(msg)
+AssertionError: Tensor-likes are not close!
+
+Mismatched elements: 13 / 131072 (0.0%)
+Greatest absolute difference: 9.508803486824036e-07 at index (12, 0, 25, 19) (up to 1e-07 allowed)
+Greatest relative difference: 0.0007693169620254904 at index (12, 1, 27, 20) (up to 0 allowed)
+COMMAND python research/corrector_rollout/run.py all --device cuda
+ENV Python 3.8.10, PyTorch 1.14.0a0+44dac51, device cuda
+GPU NVIDIA A100-SXM4-80GB
+cuDNN TF32 True, cuBLAS TF32 False
+INPUTS /cpfs01/projects-HDD/cfff-3469a2cbe57f_HDD/wangxiyun/DiPred+ResCrct/Forecast/Runtime /cpfs01/projects-HDD/cfff-3469a2cbe57f_HDD/wangxiyun/DiPred+ResCrct/Forecast/Runtime/runs/residual_dynamics_20261119 /cpfs01/projects-HDD/cfff-3469a2cbe57f_HDD/wangxiyun/OLD/REALPDE/realpdebench-competition/data/train_real
+/usr/local/lib/python3.8/dist-packages/torch/storage.py:315: UserWarning: TypedStorage is deprecated. It will be removed in the future and UntypedStorage will be the only storage class. This should only matter to you if you are using storages directly.
+  warnings.warn(message, UserWarning)
+VERIFIED CACHE train 400: 46 trajectories, 32 ordered members
+VERIFIED CACHE train 420: 46 trajectories, 32 ordered members
+VERIFIED CACHE development 400: 12 trajectories, 32 ordered members
+VERIFIED CACHE development 420: 12 trajectories, 32 ordered members
+VERIFIED CACHE test 400: 12 trajectories, 32 ordered members
+VERIFIED CACHE test 420: 12 trajectories, 32 ordered members
+SCORED oracle_one_step development 400: 12 trajectories
+SCORED oracle_one_step development 420: 12 trajectories
+SCORED oracle_one_step test 400: 12 trajectories
+SCORED oracle_one_step test 420: 12 trajectories
+VERIFIED ORACLE {'trajectory_model_rows': 72, 'aggregate_rows': 6, 'max_trajectory_mse_abs_error': 2.2824732555382088e-14, 'aggregates': [{'split': 'development', 'model': 'R-only', 'historical_mse': 2.8032331490609693e-05, 'mse': 2.8032331489565874e-05, 'mse_u': 5.1811047384050536e-05, 'mse_v': 4.253615595081216e-06}, {'split': 'development', 'model': 'State-conditioned', 'historical_mse': 2.7491760579235906e-05, 'mse': 2.74917605786024e-05, 'mse_u': 5.107574404643285e-05, 'mse_v': 3.907777110771958e-06}, {'split': 'development', 'model': 'Persistence', 'historical_mse': 3.7278404453899345e-05, 'mse': 3.727840445449008e-05, 'mse_u': 6.743519150177785e-05, 'mse_v': 7.121617407202298e-06}, {'split': 'test', 'model': 'R-only', 'historical_mse': 1.9807516372815172e-05, 'mse': 1.980751637300415e-05, 'mse_u': 3.5259339777111404e-05, 'mse_v': 4.3556929688968906e-06}, {'split': 'test', 'model': 'State-conditioned', 'historical_mse': 1.92571696700027e-05, 'mse': 1.925716966930759e-05, 'mse_u': 3.4532573427978055e-05, 'mse_v': 3.98176591063713e-06}, {'split': 'test', 'model': 'Persistence', 'historical_mse': 2.6576340966982792e-05, 'mse': 2.6576340966069324e-05, 'mse_u': 4.578565716630315e-05, 'mse_v': 7.367024765835502e-06}]}
+Traceback (most recent call last):
+  File "research/corrector_rollout/run.py", line 288, in <module>
+    main()
+  File "/usr/local/lib/python3.8/dist-packages/torch/autograd/grad_mode.py", line 34, in decorate_context
+    return func(*args, **kwargs)
+  File "research/corrector_rollout/run.py", line 270, in main
+    checks = verify_rollout(data, models, args.device, decode_window, rollout, one_step,
+  File "/cpfs01/projects-HDD/cfff-3469a2cbe57f_HDD/wangxiyun/DiPred+ResCrct/Corrector/research/corrector_rollout/verify.py", line 79, in verify_rollout
+    torch.testing.assert_close(original[name][:, :, 1], reference[name][:, :, 0],
+  File "/usr/local/lib/python3.8/dist-packages/torch/testing/_comparison.py", line 1519, in assert_close
+    assert_equal(
+  File "/usr/local/lib/python3.8/dist-packages/torch/testing/_comparison.py", line 1270, in assert_equal
+    raise error_metas[0].to_error(msg)
+AssertionError: Tensor-likes are not close!
+
+Mismatched elements: 13 / 131072 (0.0%)
+Greatest absolute difference: 9.508803486824036e-07 at index (12, 0, 25, 19) (up to 1e-07 allowed)
+Greatest relative difference: 0.0007693169620254904 at index (12, 1, 27, 20) (up to 0 allowed)
+COMMAND python research/corrector_rollout/run.py all --device cuda
+ENV Python 3.8.10, PyTorch 1.14.0a0+44dac51, device cuda
+GPU NVIDIA A100-SXM4-80GB
+cuDNN TF32 True, cuBLAS TF32 False
+INPUTS /cpfs01/projects-HDD/cfff-3469a2cbe57f_HDD/wangxiyun/DiPred+ResCrct/Forecast/Runtime /cpfs01/projects-HDD/cfff-3469a2cbe57f_HDD/wangxiyun/DiPred+ResCrct/Forecast/Runtime/runs/residual_dynamics_20261119 /cpfs01/projects-HDD/cfff-3469a2cbe57f_HDD/wangxiyun/OLD/REALPDE/realpdebench-competition/data/train_real
+/usr/local/lib/python3.8/dist-packages/torch/storage.py:315: UserWarning: TypedStorage is deprecated. It will be removed in the future and UntypedStorage will be the only storage class. This should only matter to you if you are using storages directly.
+  warnings.warn(message, UserWarning)
+VERIFIED CACHE train 400: 46 trajectories, 32 ordered members
+VERIFIED CACHE train 420: 46 trajectories, 32 ordered members
+VERIFIED CACHE development 400: 12 trajectories, 32 ordered members
+VERIFIED CACHE development 420: 12 trajectories, 32 ordered members
+VERIFIED CACHE test 400: 12 trajectories, 32 ordered members
+VERIFIED CACHE test 420: 12 trajectories, 32 ordered members
+SCORED oracle_one_step development 400: 12 trajectories
+SCORED oracle_one_step development 420: 12 trajectories
+SCORED oracle_one_step test 400: 12 trajectories
+SCORED oracle_one_step test 420: 12 trajectories
+VERIFIED ORACLE {'trajectory_model_rows': 72, 'aggregate_rows': 6, 'max_trajectory_mse_abs_error': 2.2824732555382088e-14, 'aggregates': [{'split': 'development', 'model': 'R-only', 'historical_mse': 2.8032331490609693e-05, 'mse': 2.8032331489565874e-05, 'mse_u': 5.1811047384050536e-05, 'mse_v': 4.253615595081216e-06}, {'split': 'development', 'model': 'State-conditioned', 'historical_mse': 2.7491760579235906e-05, 'mse': 2.74917605786024e-05, 'mse_u': 5.107574404643285e-05, 'mse_v': 3.907777110771958e-06}, {'split': 'development', 'model': 'Persistence', 'historical_mse': 3.7278404453899345e-05, 'mse': 3.727840445449008e-05, 'mse_u': 6.743519150177785e-05, 'mse_v': 7.121617407202298e-06}, {'split': 'test', 'model': 'R-only', 'historical_mse': 1.9807516372815172e-05, 'mse': 1.980751637300415e-05, 'mse_u': 3.5259339777111404e-05, 'mse_v': 4.3556929688968906e-06}, {'split': 'test', 'model': 'State-conditioned', 'historical_mse': 1.92571696700027e-05, 'mse': 1.925716966930759e-05, 'mse_u': 3.4532573427978055e-05, 'mse_v': 3.98176591063713e-06}, {'split': 'test', 'model': 'Persistence', 'historical_mse': 2.6576340966982792e-05, 'mse': 2.6576340966069324e-05, 'mse_u': 4.578565716630315e-05, 'mse_v': 7.367024765835502e-06}]}
+VERIFIED ROLLOUT {'sign_probe': True, 'legacy_sign_and_lead_all_steps': True, 'shared_initial': True, 'lead_2_matches_oracle_within_tolerance': True, 'lead_2_max_abs_output_difference': {'Persistence': 0.0, 'R-only': 0.0, 'State-conditioned': 9.508803486824036e-07}, 'persistence_constant': True, 'future_truth_and_residual_mutation_predictions_bitwise_identical': True, 'score_responds_to_mutation': True, 'windows_reset_and_concatenation_rejected': True, 'physical_residual_identity': True, 'models_frozen': True}
+SCORED oracle_initialized_free_rollout development 400: 12 trajectories
+SCORED oracle_initialized_free_rollout development 420: 12 trajectories
+SCORED oracle_initialized_free_rollout test 400: 12 trajectories
+SCORED oracle_initialized_free_rollout test 420: 12 trajectories
+WROTE scores, paired trajectory statistics, and three figures
+PASS
