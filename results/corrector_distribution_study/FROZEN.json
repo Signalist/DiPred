@@ -1,0 +1,297 @@
+{
+  "static": {
+    "S0": {
+      "coefficients": [
+        1.8025370590013339
+      ],
+      "train_crps": 0.09843123767377371,
+      "updates": 6,
+      "evaluations": 7,
+      "converged": true,
+      "projected_gradient_max": 1.8714672478381544e-08,
+      "termination": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL",
+      "range": [
+        0.25,
+        4.0
+      ]
+    },
+    "S1": {
+      "coefficients": [
+        1.7170527947966816,
+        1.8377479249403232
+      ],
+      "train_crps": 0.09841345962304927,
+      "updates": 7,
+      "evaluations": 8,
+      "converged": true,
+      "projected_gradient_max": 3.593504516175017e-08,
+      "termination": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL",
+      "range": [
+        0.25,
+        4.0
+      ]
+    },
+    "S2": {
+      "coefficients": [
+        1.6959464027644824,
+        1.654751092484904,
+        1.8296336294042312,
+        1.5150788161175905,
+        1.772257141594119,
+        2.1432762631536124
+      ],
+      "train_crps": 0.0982716496430765,
+      "updates": 11,
+      "evaluations": 12,
+      "converged": true,
+      "projected_gradient_max": 1.5072328096721321e-07,
+      "termination": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL",
+      "range": [
+        0.25,
+        4.0
+      ]
+    }
+  },
+  "conditional": {
+    "feature_limits": {
+      "low": [
+        [
+          0.026431854814291,
+          0.03253205865621567,
+          0.0513572096824646
+        ],
+        [
+          0.11311907321214676,
+          0.09624942392110825,
+          0.1578812301158905
+        ]
+      ],
+      "high": [
+        [
+          0.11944747716188431,
+          0.09742329269647598,
+          0.24279999732971191
+        ],
+        [
+          0.3681460916996002,
+          0.21230126917362213,
+          0.6367195844650269
+        ]
+      ]
+    },
+    "models": {
+      "recent": {
+        "coefficients": [
+          1.1787246523844468,
+          2.384742868894815,
+          1.2976208603187551,
+          2.021408277505154,
+          1.358748412494412,
+          2.3729125719883966,
+          1.342035127833178,
+          1.724157152837381,
+          1.4730656982163215,
+          2.113915442429823,
+          1.6004162744952677,
+          2.801954779004152
+        ],
+        "train_crps": 0.09776213605509043,
+        "updates": 14,
+        "evaluations": 16,
+        "converged": true,
+        "projected_gradient_max": 8.268287854089725e-08,
+        "termination": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL",
+        "range": [
+          0.25,
+          4.0
+        ]
+      },
+      "state": {
+        "coefficients": [
+          1.1888969624627204,
+          1.1134993862153117,
+          2.4314327487069765,
+          2.3905318006913743,
+          1.3791120999111772,
+          1.2356720526888798,
+          1.6331219289668895,
+          2.08203787049715,
+          1.4685503105634667,
+          1.292054919544405,
+          1.7935597572837496,
+          2.459244606522423,
+          1.4191906187134664,
+          1.2663625852184097,
+          1.3645061603337447,
+          1.7998930270427684,
+          1.448918724689009,
+          1.8564030709750021,
+          1.2279633048438654,
+          2.1944354150635768,
+          1.5436366049918788,
+          2.264947458137119,
+          1.3744339899564344,
+          2.9219297614011706
+        ],
+        "train_crps": 0.09768561162983316,
+        "updates": 36,
+        "evaluations": 38,
+        "converged": true,
+        "projected_gradient_max": 1.9817412655222717e-07,
+        "termination": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL",
+        "range": [
+          0.25,
+          4.0
+        ]
+      },
+      "state_memory": {
+        "coefficients": [
+          1.1773565122443677,
+          1.453848513371615,
+          2.0398803257850937,
+          2.4146166324976117,
+          1.3443330142476482,
+          1.6641321900530164,
+          1.298271236806886,
+          2.106367904231902,
+          1.4227327772102931,
+          1.90896984196207,
+          1.300669225430374,
+          2.5013101375783786,
+          1.4055359733691126,
+          1.3056202277963247,
+          1.361638629482158,
+          1.8340713032040765,
+          1.4190684915441745,
+          2.15773220458892,
+          1.450029740362879,
+          2.1942220150006646,
+          1.4995277669481137,
+          2.742973037981344,
+          1.7825559404781781,
+          2.9061918245237464
+        ],
+        "train_crps": 0.09768072520230027,
+        "updates": 45,
+        "evaluations": 47,
+        "converged": true,
+        "projected_gradient_max": 1.822128126809963e-07,
+        "termination": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL",
+        "range": [
+          0.25,
+          4.0
+        ]
+      }
+    },
+    "target_mutation_bitwise_equal": true
+  },
+  "selected_simple": "S2",
+  "checkpoints": [
+    {
+      "arm": "A",
+      "seed": 42,
+      "step": 1000,
+      "development_crps": 0.08413002515832582,
+      "training_loss": 0.09799277782440186,
+      "initialization_sha256": "214de895397d606cb86d4247bd79af9a181e997b5886597f3f59c5aaa744b87c",
+      "checkpoint_sha256": "20ab07db2e1213ebb8d6dc72be25483cb3ef067b3e281ccbc2c54d12aec61904"
+    },
+    {
+      "arm": "C",
+      "seed": 42,
+      "step": 1000,
+      "development_crps": 0.08397473519047101,
+      "training_loss": 0.0981726124882698,
+      "initialization_sha256": "214de895397d606cb86d4247bd79af9a181e997b5886597f3f59c5aaa744b87c",
+      "checkpoint_sha256": "53cfb8744acc74f68ae86a205221838bc82a0970c3c71d952db1ce07bc0848d6"
+    },
+    {
+      "arm": "A",
+      "seed": 43,
+      "step": 750,
+      "development_crps": 0.08416724833659828,
+      "training_loss": 0.10120799392461777,
+      "initialization_sha256": "61703308d20d0ff87f58584b239229ded53cfeb6779198709d2fc0358342a453",
+      "checkpoint_sha256": "cfc200c6410f16970492173923ec91e155ce6f003872dc5e75a5aca98c0e7d7e"
+    },
+    {
+      "arm": "C",
+      "seed": 43,
+      "step": 1000,
+      "development_crps": 0.08430722805981834,
+      "training_loss": 0.09878145903348923,
+      "initialization_sha256": "61703308d20d0ff87f58584b239229ded53cfeb6779198709d2fc0358342a453",
+      "checkpoint_sha256": "ea58be5ac9e110b61ef2f9e5e31a2fb20a3d17299d6daa7f7471e150012815ff"
+    }
+  ],
+  "primary": {
+    "S*-native": "crps",
+    "A-S*": "crps",
+    "C-S*": "crps",
+    "C-C_native_rank": "energy"
+  },
+  "new_confirmation": [],
+  "artifacts": {
+    "CALIBRATION.json": "057e231523299e8d4fa909b14231dcd519cfbcc19075c3196bbfd1ffcc7648cc",
+    "DEVELOPMENT_SELECTION.json": "bed9c7b1bfd850fcbb5865dadc6d8e31b088c0fa734f7dfe9a4f263c9bff66cc",
+    "EXPLORATION_LOG.md": "9ede2bf833283af9777f243966fb9501505e9a7edcc5bcc24efdd26c5ca722d3",
+    "EXPLORATION_PARAMETERS.json": "58f4797456a93de5a5dfd9bee3dbfd06dc5d0371135da73f8d736ead129e18d6",
+    "CONFIRMATION_INVENTORY.json": "f7a580995a067be334de7dfc15e4d781145a6797fcc379cc7e97b713ba32dfdc",
+    "SOURCE_HASHES.json": "a8186e45189feb8c414bf78599c1e1b037e6efbf74110b11c78e67a9f76c9386"
+  },
+  "code": {
+    "run.py": "b91ae5c51a7c05773e40be16675545bfaa8efae092acb7e3ac181fb1ffa972f5",
+    "calibration.py": "3c326a1fe0a37258f2d589b97d28f1aee06b54b6fcff56435fa7fdfc43da05d9",
+    "summary.py": "572a23e0eb062839d5843676019f2f8ce4e49018017bbbdc404a6b20aa487912",
+    "mechanism.py": "3133f58b4faa558c2c16dfc58569553a3ebd025fa623ed65bcb3e093685f23ea",
+    "audit.py": "b0a5660d6ca73d3e4f5936680903d56955c92152a6835628ccb650aba93f23c8",
+    "PROTOCOL.md": "ffeeea1b5cc0eed240bb7be433f2156e4b262db9f88227c2ada8fda5b38d6d5b",
+    "conditional.py": "1ded01bb6e1b38eeee91ba1bebfbcdaabdb2e933703a2e0c85e6c2f12db25a2b"
+  },
+  "windows": [
+    400,
+    420,
+    440,
+    460
+  ],
+  "members": [
+    500000,
+    500001,
+    500002,
+    500003,
+    500004,
+    500005,
+    500006,
+    500007,
+    500008,
+    500009,
+    500010,
+    500011,
+    500012,
+    500013,
+    500014,
+    500015,
+    500016,
+    500017,
+    500018,
+    500019,
+    500020,
+    500021,
+    500022,
+    500023,
+    500024,
+    500025,
+    500026,
+    500027,
+    500028,
+    500029,
+    500030,
+    500031
+  ],
+  "test_status": "existing trajectories; exploratory",
+  "runtime": {
+    "torch": "1.14.0a0+44dac51",
+    "cudnn_tf32": false,
+    "matmul_tf32": false
+  }
+}

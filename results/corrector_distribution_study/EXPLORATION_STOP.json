@@ -1,0 +1,4 @@
+{
+  "error": "AssertionError('Tensor-likes are not close!\\n\\nMismatched elements: 334 / 7320 (4.6%)\\nGreatest absolute difference: 1.1920928955078125e-07 at index (0, 1, 2) (up to 1e-07 allowed)\\nGreatest relative difference: 1.1920928955078125e-07 at index (0, 1, 2) (up to 0 allowed)')",
+  "wall_seconds": 16.469507794827223
+}

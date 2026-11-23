@@ -1,0 +1,33 @@
+{
+  "bundle": "frozen_ac_weights.pt",
+  "sha256": "5c8b7180fcd69a8fa800e2c5c2f85a532f639bcc6efd8fd79cdb95d3c4415ead",
+  "bytes": 315973,
+  "contents": "Model state_dict tensors only; no optimizer, raw data, or native paths",
+  "frozen_sha256": "d1e5f3f2cb7fb39faeb201071be9e968942a9ef896e2e3252ee532055c6fea05",
+  "references": {
+    "A_42": {
+      "arm": "A",
+      "seed": 42,
+      "development_selected_step": 1000,
+      "original_checkpoint_sha256": "20ab07db2e1213ebb8d6dc72be25483cb3ef067b3e281ccbc2c54d12aec61904"
+    },
+    "C_42": {
+      "arm": "C",
+      "seed": 42,
+      "development_selected_step": 1000,
+      "original_checkpoint_sha256": "53cfb8744acc74f68ae86a205221838bc82a0970c3c71d952db1ce07bc0848d6"
+    },
+    "A_43": {
+      "arm": "A",
+      "seed": 43,
+      "development_selected_step": 750,
+      "original_checkpoint_sha256": "cfc200c6410f16970492173923ec91e155ce6f003872dc5e75a5aca98c0e7d7e"
+    },
+    "C_43": {
+      "arm": "C",
+      "seed": 43,
+      "development_selected_step": 1000,
+      "original_checkpoint_sha256": "ea58be5ac9e110b61ef2f9e5e31a2fb20a3d17299d6daa7f7471e150012815ff"
+    }
+  }
+}

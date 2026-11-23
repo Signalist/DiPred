@@ -1,0 +1,53 @@
+{
+  "S0": {
+    "coefficients": [
+      1.8025370590013339
+    ],
+    "train_crps": 0.09843123767377371,
+    "updates": 6,
+    "evaluations": 7,
+    "converged": true,
+    "projected_gradient_max": 1.8714672478381544e-08,
+    "termination": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL",
+    "range": [
+      0.25,
+      4.0
+    ]
+  },
+  "S1": {
+    "coefficients": [
+      1.7170527947966816,
+      1.8377479249403232
+    ],
+    "train_crps": 0.09841345962304927,
+    "updates": 7,
+    "evaluations": 8,
+    "converged": true,
+    "projected_gradient_max": 3.593504516175017e-08,
+    "termination": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL",
+    "range": [
+      0.25,
+      4.0
+    ]
+  },
+  "S2": {
+    "coefficients": [
+      1.6959464027644824,
+      1.654751092484904,
+      1.8296336294042312,
+      1.5150788161175905,
+      1.772257141594119,
+      2.1432762631536124
+    ],
+    "train_crps": 0.0982716496430765,
+    "updates": 11,
+    "evaluations": 12,
+    "converged": true,
+    "projected_gradient_max": 1.5072328096721321e-07,
+    "termination": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL",
+    "range": [
+      0.25,
+      4.0
+    ]
+  }
+}

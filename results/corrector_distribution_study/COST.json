@@ -1,0 +1,56 @@
+{
+  "complete": true,
+  "new_neural_training_runs": 0,
+  "low_dimensional_fits": 6,
+  "low_dimensional_updates": 119,
+  "low_dimensional_objective_evaluations": 128,
+  "by_method": {
+    "S0": {
+      "updates": 6,
+      "evaluations": 7,
+      "converged": true
+    },
+    "S1": {
+      "updates": 7,
+      "evaluations": 8,
+      "converged": true
+    },
+    "S2": {
+      "updates": 11,
+      "evaluations": 12,
+      "converged": true
+    },
+    "recent": {
+      "updates": 14,
+      "evaluations": 16,
+      "converged": true
+    },
+    "state": {
+      "updates": 36,
+      "evaluations": 38,
+      "converged": true
+    },
+    "state_memory": {
+      "updates": 45,
+      "evaluations": 47,
+      "converged": true
+    }
+  },
+  "new_backbone_paths": 0,
+  "old_fixed_corrector_cases_per_seed": {
+    "development": 48,
+    "test": 48
+  },
+  "old_fixed_corrector_forward_batches_per_seed": {
+    "development": 24,
+    "test": 24
+  },
+  "wall_seconds_cuda_processes_including_loading_and_two_failed_preflight_attempts": 84.2385831438005,
+  "peak_gpu_allocated_bytes": 7438014464,
+  "added_large_cache_bytes": 0,
+  "old_test_evaluations": 1,
+  "new_confirmation_trajectories": 0,
+  "incomplete": [
+    "external independent confirmation unavailable in the local same-task data inventory"
+  ]
+}

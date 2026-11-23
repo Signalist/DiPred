@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "torch": "1.14.0a0+44dac51",
+  "arguments": [
+    "/cpfs01/projects-HDD/cfff-3469a2cbe57f_HDD/wangxiyun/DiPred+ResCrct/Corrector/research/corrector_distribution_study/run.py",
+    "--phase",
+    "final"
+  ],
+  "wall_seconds": 13.474422132596374,
+  "new_neural_training_runs": 0,
+  "reexecuted_native_paths": 0,
+  "peak_gpu_allocated_bytes": 1472257536,
+  "workspace_cache_bytes": 0
+}

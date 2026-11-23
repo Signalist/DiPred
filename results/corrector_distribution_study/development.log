@@ -1,0 +1,37 @@
+COMMAND /usr/bin/python /cpfs01/projects-HDD/cfff-3469a2cbe57f_HDD/wangxiyun/DiPred+ResCrct/Corrector/research/corrector_distribution_study/run.py --phase development
+/usr/local/lib/python3.8/dist-packages/torch/storage.py:315: UserWarning: TypedStorage is deprecated. It will be removed in the future and UntypedStorage will be the only storage class. This should only matter to you if you are using storages directly.
+  warnings.warn(message, UserWarning)
+FIT S0 {'coefficients': [1.8025370590013339], 'train_crps': 0.09843123767377371, 'updates': 6, 'evaluations': 7, 'converged': True, 'projected_gradient_max': 1.8714672478381544e-08, 'termination': 'CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL', 'range': [0.25, 4.0]}
+FIT S1 {'coefficients': [1.7170527947966816, 1.8377479249403232], 'train_crps': 0.09841345962304927, 'updates': 7, 'evaluations': 8, 'converged': True, 'projected_gradient_max': 3.593504516175017e-08, 'termination': 'CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL', 'range': [0.25, 4.0]}
+FIT S2 {'coefficients': [1.6959464027644824, 1.654751092484904, 1.8296336294042312, 1.5150788161175905, 1.772257141594119, 2.1432762631536124], 'train_crps': 0.0982716496430765, 'updates': 11, 'evaluations': 12, 'converged': True, 'projected_gradient_max': 1.5072328096721321e-07, 'termination': 'CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL', 'range': [0.25, 4.0]}
+FITTING_SECONDS 0.5289031714200974
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/cpfs01/projects-HDD/cfff-3469a2cbe57f_HDD/wangxiyun/DiPred+ResCrct/Corrector/research/corrector_distribution_study/run.py", line 193, in <module>
+    main()
+  File "/cpfs01/projects-HDD/cfff-3469a2cbe57f_HDD/wangxiyun/DiPred+ResCrct/Corrector/research/corrector_distribution_study/run.py", line 178, in main
+    development(args.out,manifest,selected,norm)
+  File "/cpfs01/projects-HDD/cfff-3469a2cbe57f_HDD/wangxiyun/DiPred+ResCrct/Corrector/research/corrector_distribution_study/run.py", line 133, in development
+    rows,ties,error = core(dev,chosen,norm,fitted)
+  File "/usr/local/lib/python3.8/dist-packages/torch/autograd/grad_mode.py", line 34, in decorate_context
+    return func(*args, **kwargs)
+  File "/cpfs01/projects-HDD/cfff-3469a2cbe57f_HDD/wangxiyun/DiPred+ResCrct/Corrector/research/corrector_distribution_study/run.py", line 67, in core
+    p_sort = ordered(p)
+  File "/cpfs01/projects-HDD/cfff-3469a2cbe57f_HDD/wangxiyun/DiPred+ResCrct/Corrector/research/corrector_distribution_study/mechanism.py", line 37, in ordered
+    return paths.sort(1, stable=True)
+TypeError: sort() received an invalid combination of arguments - got (int, stable=bool), but expected one of:
+ * (*, bool stable, int dim, bool descending)
+ * (int dim, bool descending)
+      didn't match because some of the keywords were incorrect: stable
+ * (*, bool stable, name dim, bool descending)
+ * (name dim, bool descending)
+      didn't match because some of the keywords were incorrect: stable
+
+COMMAND /usr/bin/python /cpfs01/projects-HDD/cfff-3469a2cbe57f_HDD/wangxiyun/DiPred+ResCrct/Corrector/research/corrector_distribution_study/run.py --phase development
+/usr/local/lib/python3.8/dist-packages/torch/storage.py:315: UserWarning: TypedStorage is deprecated. It will be removed in the future and UntypedStorage will be the only storage class. This should only matter to you if you are using storages directly.
+  warnings.warn(message, UserWarning)
+RESUME completed static fits without refitting
+DEVELOPMENT S2 {'A': 0.08414863674746205, 'A_center': 0.08391926419501512, 'A_mean': 0.08695467909129, 'A_native_rank': 0.08414863674746205, 'C': 0.08414098162514468, 'C_center': 0.08374104812160935, 'C_mean': 0.0871363587322579, 'C_native_rank': 0.08414098162514468, 'P_A_rank': 0.08664211498883863, 'P_C_rank': 0.08664211498883863, 'S0': 0.08473046791429321, 'S1': 0.08478543604724109, 'S2': 0.0846960092894733, 'native': 0.08664211498883863}
