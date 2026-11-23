@@ -1,0 +1,98 @@
+{
+  "common_updates": 500,
+  "stop": "completed",
+  "seconds": 477.67120021022856,
+  "budget_met": true,
+  "peak_cuda_allocated_bytes": 927436288,
+  "weights": {
+    "L": [
+      {
+        "path": "results/observed_residual_feedback/weights/L_0.pt",
+        "sha256": "eb43fd109040c4fcf52ec1c0480dbc69ad7781b56979b88d4a38b477acfb6ba4"
+      },
+      {
+        "path": "results/observed_residual_feedback/weights/L_250.pt",
+        "sha256": "e066f8b16af2359bdc513f4e4318d6004e4472676a9d314779f5bc6cd44e727d"
+      },
+      {
+        "path": "results/observed_residual_feedback/weights/L_500.pt",
+        "sha256": "1e086aca0a6234e25c571de3386b62a3aa7ab500e23715140c8b9183598bb1d5"
+      }
+    ],
+    "J": [
+      {
+        "path": "results/observed_residual_feedback/weights/J_0.pt",
+        "sha256": "101bab124365c657994c769fb5cd3eefd6bcad5f63e090dbab42a9fc1846d613"
+      },
+      {
+        "path": "results/observed_residual_feedback/weights/J_250.pt",
+        "sha256": "977f5e8281fc86796b434d327f1b8db60f1d19a7fd22b5feceaf7461a5ba3694"
+      },
+      {
+        "path": "results/observed_residual_feedback/weights/J_500.pt",
+        "sha256": "5ad2f13699ecbc43468bb4deccd47c124df985c104ac0ec0fae44784a5cfa8c5"
+      }
+    ]
+  },
+  "frozen_backbone_unchanged": true,
+  "changed_parameters": {
+    "L": [
+      "base.net.up2.a.weight",
+      "base.net.up2.a.bias",
+      "base.net.up2.b.weight",
+      "base.net.up2.b.bias",
+      "base.net.up2.norm1.weight",
+      "base.net.up2.norm1.bias",
+      "base.net.up2.norm2.weight",
+      "base.net.up2.norm2.bias",
+      "base.net.up2.time.weight",
+      "base.net.up2.time.bias",
+      "base.net.up2.skip.weight",
+      "base.net.up2.skip.bias",
+      "base.net.out.weight",
+      "base.net.out.bias",
+      "encoder.0.weight",
+      "encoder.0.bias",
+      "encoder.2.weight",
+      "encoder.2.bias",
+      "projection.weight",
+      "projection.bias",
+      "head.0.weight",
+      "head.0.bias",
+      "head.2.weight",
+      "head.2.bias",
+      "head.4.weight",
+      "head.4.bias"
+    ],
+    "J": [
+      "base.net.up2.a.weight",
+      "base.net.up2.a.bias",
+      "base.net.up2.b.weight",
+      "base.net.up2.b.bias",
+      "base.net.up2.norm1.weight",
+      "base.net.up2.norm1.bias",
+      "base.net.up2.norm2.weight",
+      "base.net.up2.norm2.bias",
+      "base.net.up2.time.weight",
+      "base.net.up2.time.bias",
+      "base.net.up2.skip.weight",
+      "base.net.up2.skip.bias",
+      "base.net.out.weight",
+      "base.net.out.bias",
+      "encoder.0.weight",
+      "encoder.0.bias",
+      "encoder.2.weight",
+      "encoder.2.bias",
+      "projection.weight",
+      "projection.bias",
+      "head.0.weight",
+      "head.0.bias",
+      "head.2.weight",
+      "head.2.bias",
+      "head.4.weight",
+      "head.4.bias"
+    ]
+  },
+  "native_calls_per_forecast": 4,
+  "evaluation_prediction_tensor_cache_bytes": 0
+}

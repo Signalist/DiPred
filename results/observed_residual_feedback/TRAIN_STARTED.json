@@ -1,0 +1,14 @@
+{
+  "utc_ns": 1795453710760759920,
+  "config_sha256": "e0c267d3d3f746af4bef6bb4b8d7a2711a7b1e77ac1a43b6459313619cf204ee",
+  "parameters": {
+    "L": {
+      "trainable": 118736,
+      "total": 1626512
+    },
+    "J": {
+      "trainable": 118736,
+      "total": 1626512
+    }
+  }
+}

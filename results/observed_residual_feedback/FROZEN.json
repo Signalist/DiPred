@@ -1,0 +1,48 @@
+{
+  "reference": "5c971748381ca99f35643cea8b1c8c1c5106d612",
+  "actual_head": "5c971748381ca99f35643cea8b1c8c1c5106d612",
+  "data_root": "/cpfs01/projects-HDD/cfff-3469a2cbe57f_HDD/wangxiyun/OLD/REALPDE/realpdebench-competition/data/train_real",
+  "seed": 42,
+  "members": 16,
+  "arms": [
+    "L",
+    "J"
+  ],
+  "updates_per_arm": 500,
+  "candidates": [
+    0,
+    250,
+    500
+  ],
+  "gpu_budget_seconds": 3600,
+  "lr_backbone": 1e-05,
+  "lr_new": 0.0001,
+  "clip_grad_norm": 1.0,
+  "selection": "mean of warm final S_U by trajectory, earliest exact tie",
+  "sha256": {
+    "reliability/checkpoints/current.pt": "834260c9838b058d3e415b1efbd3fa19f7998884a36e46d14d62b10ed3ad8cfe",
+    "reliability/networks.py": "60dce6348cac96ce12e60b850b4144dd7afe5c51a3e9f266fd9892b23364eadb",
+    "reliability/backbone.py": "dfe0fd69dcb0a34d75cb349cb3adadfd124a70424ae6d83a3342fa3b8e9191aa",
+    "metadata/manifest.json": "addb9330a402834b79caca41f563b3f88139d5f293644eca43a8ef1e91ddcea1",
+    "metadata/normalization.json": "3d55eacf98d248c105eaa648018f203617c5a63f584dc0eede43881540621897",
+    "results/residual_dynamics/protocol.json": "1b34f048d744e9443fa08f0efa688bfadcbe546c7c128fde35507da4f698c253",
+    "research/coupled_state_feedback/core.py": "ef989844c02ec95a3c38378d75fcbc631b6902ef7c5e33dd6de72b30f67acd64",
+    "research/residual_dynamics_phase2/causal.py": "7120d8d860e92270cc0f53d6a2592b17f4cfa08e3afafe9191b6c3153e5c8fba",
+    "results/residual_dynamics_stream/README.md": "f5bfc3e1a602ff5b9c47b5294f294fd7f67761185654fdd1078dc1df65f70e8e",
+    "research/coupled_feedback_audit/run.py": "b5b04940b323295ed89b988b982bbd46856aceaba8b26308e0112f163694c337",
+    "results/coupled_feedback_audit/window_metrics.csv": "80937726b467e4f7f94eb811c3a342ec96daa119c8b0b42fdbfa706371944f96",
+    "results/coupled_feedback_audit/DECISION_REPORT.md": "f09618e5e127cf59a20dcdbbe429c76f7358ac0554be597633b839774972f146",
+    "research/observed_residual_feedback/run.py": "b011f92a9784f9fd2f8b9dfce3fae975ed8897e19f6c36b0fc74e210885cdf05",
+    "research/observed_residual_feedback/core.py": "bc091d60c1ee8eaeda93dc16194cc3f4f3246bfd03da42e0fdcfa235db8fce51",
+    "research/observed_residual_feedback/checks.py": "5282f61f0a60f5dea083e5b51d9aae4c18ec37669a8424a05cf92a7e8fbaa8b7",
+    "results/observed_residual_feedback/PROTOCOL.md": "54f52b09d602eade356958cb86e3142df1121a864857a630bbe315579a8ddc68",
+    "results/observed_residual_feedback/windows.json": "a498a2cd7cb55a948948ed020dfb0e870c7cbf553c5c1a192f0f0a9e72ef3124",
+    "results/observed_residual_feedback/schedule.json": "0cce802376e64b11892c8ce23784bf809be8fa92b46d8d21ee1306e64cc377d4"
+  },
+  "pre_training_amendments": [
+    {
+      "reason": "Synthetic identity check used torch.equal across unequal member dimensions; expand target for exact comparison. CPU-only failure before preflight GPU or training.",
+      "previous_sha256": "bd5cd7256f250023436df315af26dae474d519d4e2f2938726e8a0c988c64c83"
+    }
+  ]
+}

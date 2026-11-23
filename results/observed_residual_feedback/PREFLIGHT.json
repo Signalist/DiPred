@@ -1,0 +1,32 @@
+{
+  "passed": true,
+  "config_sha256": "e0c267d3d3f746af4bef6bb4b8d7a2711a7b1e77ac1a43b6459313619cf204ee",
+  "seconds": 1.6881251968443394,
+  "native_zero_init_max_abs": {
+    "L": 0.0,
+    "J": 0.0
+  },
+  "L_masks_backbone_slots": true,
+  "J_backbone_uses_residual": true,
+  "both_heads_use_residual": true,
+  "gradients": {
+    "L": {
+      "base.net.up2": 33.26343161985278,
+      "base.net.out": 13.26142355799675,
+      "encoder": 0.009107581132411724,
+      "projection": 0.09945283271372318,
+      "head": 0.10526169638615102
+    },
+    "J": {
+      "base.net.up2": 33.31711745634675,
+      "base.net.out": 13.28677872568369,
+      "encoder": 0.014780383418838028,
+      "projection": 0.11573503911495209,
+      "head": 0.10550274164415896
+    }
+  },
+  "head_backprop_to_current_backbone": true,
+  "frozen_tensors_unchanged": true,
+  "publication_order_and_future_label_pollution": true,
+  "scale_and_U_V_checks": true
+}
