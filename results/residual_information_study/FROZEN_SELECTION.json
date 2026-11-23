@@ -1,0 +1,12 @@
+{
+  "probe_selection_sha256": "b3cf70242588017fd9a7d2f75ce7d6266972b248d7be7bdf4f80b92dc0e6af04",
+  "diagnosis_summary_sha256": "c7064fa9012f0726b5b7e415093c2191914833e47629c9a823eeb1b29d8f1d6f",
+  "representation_selection_sha256": "b50f8ea5e4503a995312c008c8d9cf12a7da76faad20c945a16805f768918a01",
+  "utc_ns": 1795463587625264058,
+  "config_sha256": "be548687b937c758ac70962c53a6e41452cc8d4a1f9a931605cc2bed8f0434b3",
+  "representation_selected": {
+    "C0": 500,
+    "CH": 500,
+    "CS": 500
+  }
+}

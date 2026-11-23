@@ -1,0 +1,124 @@
+{
+  "passed": true,
+  "seconds": 831.41167989932,
+  "latest_cache_bytes": 1334162964,
+  "peak_cache_bytes": 1334162964,
+  "stage_seconds": {
+    "A/development": 180.58491845987737,
+    "B/development": 30.264008766040206,
+    "C/development": 582.0896518547088,
+    "A/test": 23.43294894695282,
+    "C/test": 15.040151871740818
+  },
+  "completed_stages": [
+    [
+      "A",
+      "development"
+    ],
+    [
+      "B",
+      "development"
+    ],
+    [
+      "C",
+      "development"
+    ],
+    [
+      "A",
+      "test"
+    ],
+    [
+      "C",
+      "test"
+    ]
+  ],
+  "failed_stage_attempts": 0,
+  "neural_updates": 1500,
+  "ridge_fits": 4,
+  "diagnosis_groups": 108,
+  "native_probe_groups": 621,
+  "representation_eval_groups": 324,
+  "selection_sha256": "edf9d59985d2c94ab29ed5ff5d07b094dfb7e7c3421d693f8b842071d49723e8",
+  "diagnosis_log_rows_by_arm": {
+    "scores": {
+      "L": 4536,
+      "J": 4536,
+      "J_backbone_masked": 3024
+    },
+    "decomposition": {
+      "L": 3024,
+      "J": 3024,
+      "J_backbone_masked": 3024
+    }
+  },
+  "artifact_sha256": {
+    "results/residual_information_study/A_SCHEDULE.json": "b1a5a8832fb295a9f443a9aebbd7efa34bb0b831f0c630b6280694f727011d5d",
+    "results/residual_information_study/B_GRADIENT_SCHEDULE.json": "a8bc6838acd71b53e85a5878dbeabf9d696e90136bc7bb743f6c4c738ab0e795",
+    "results/residual_information_study/DECISION_REPORT.md": "4c2ebe1229d520713dac7c8a82909f871b1926d9e9dbdb04137bfe3ac56d98a2",
+    "results/residual_information_study/FROZEN.json": "be548687b937c758ac70962c53a6e41452cc8d4a1f9a931605cc2bed8f0434b3",
+    "results/residual_information_study/FROZEN_SELECTION.json": "edf9d59985d2c94ab29ed5ff5d07b094dfb7e7c3421d693f8b842071d49723e8",
+    "results/residual_information_study/PROTOCOL.md": "6431c83640618a1cf0943a267807b307533ba5d76f3f19bff3869d31881a9f18",
+    "results/residual_information_study/SHARED_CHECKS.json": "b038bc8b7e6010694d02b846a778cff1982d9a460d7014a2afd91564e63a4a15",
+    "results/residual_information_study/budget.jsonl": "e69033311f188adf515aaf9bb7fc2ef44321880494320d1ecb369e19da551ffe",
+    "results/residual_information_study/correction_diagnosis/decomposition_J.jsonl.gz": "c40c6bebbf42e60a99a143b7dd3aec18096ac39e90974e9805cab6d8dbfe5574",
+    "results/residual_information_study/correction_diagnosis/decomposition_J_backbone_masked.jsonl.gz": "095c518cb6bd3d4e760bf10aa73cd01bb715e2e333228c46171789ee68388701",
+    "results/residual_information_study/correction_diagnosis/decomposition_L.jsonl.gz": "a2327e4b6a456fc284b6bbe5c9d5fa95697410d08297fde3c23f47bddeed675d",
+    "results/residual_information_study/correction_diagnosis/decomposition_summary.jsonl.gz": "34d16f35b5102217f69519fc3e14b25cfcd665aa7a7ece6d4bdfe776661e2689",
+    "results/residual_information_study/correction_diagnosis/gradient.jsonl.gz": "744e3fe89f82cd098bcc4f691f93f56bf21ceaa975fe2b1711c81e8026544414",
+    "results/residual_information_study/correction_diagnosis/publication.jsonl.gz": "5444552783a7303c45877cdcb290144572380f3ae042a91e5cac1b1a732e5bd8",
+    "results/residual_information_study/correction_diagnosis/scores_J.jsonl.gz": "a4b003b85d2b52ed6901c8e89c6bca01b6af9c8cd23973e26aa34f4510ee43d0",
+    "results/residual_information_study/correction_diagnosis/scores_J_backbone_masked.jsonl.gz": "e2b49861c159cea3ab357ff79b36b074528a03cc6d2aae2fda9161d9e84fbb58",
+    "results/residual_information_study/correction_diagnosis/scores_L.jsonl.gz": "205b2d40baea32bc89e6208b6989c1b65da430057f3343c51dbe0e5831964ceb",
+    "results/residual_information_study/correction_diagnosis/summary.json": "c7064fa9012f0726b5b7e415093c2191914833e47629c9a823eeb1b29d8f1d6f",
+    "results/residual_information_study/information_probe/FROZEN_A.json": "b3cf70242588017fd9a7d2f75ce7d6266972b248d7be7bdf4f80b92dc0e6af04",
+    "results/residual_information_study/information_probe/development_native_receipts.jsonl.gz": "0dfc08a5611663e250b6d8f8c56ba0246345c55e8cb3539d3c31e6c219859e46",
+    "results/residual_information_study/information_probe/development_summary.json": "384d36adcc9463685e61428f6413ad36cfc5e0371ea811cd40cdf665808c86bd",
+    "results/residual_information_study/information_probe/probes.npz": "ea9bd385f2bdc14a0356866ebef7f094b955ad273952440d6c13e3a3c382a621",
+    "results/residual_information_study/information_probe/summary.json": "f080964f6ec6cecd28eb32fe606b982e5c7aee8cebd39cbd0f3b2fab01d93747",
+    "results/residual_information_study/information_probe/test_native_receipts.jsonl.gz": "978419c525a94144762aebefd3fe1204ac2a1fd991e16d7f314e12c8defd50fd",
+    "results/residual_information_study/information_probe/train_native_receipts.jsonl.gz": "a09f64131150df16944d1200e2a8bc4966226219877399953f5f3c328c996f49",
+    "results/residual_information_study/representation_controls/RAW_IDENTITY.json": "8f43020697ed9c9322475bb96e3d6a4d60b7c163f81173e793150d534f3ff9b7",
+    "results/residual_information_study/representation_controls/RUN.json": "be288048756bca48e068f1de6cd5c0f839d8d6c2e63d8bcb8dd89b18ef6d7c6d",
+    "results/residual_information_study/representation_controls/SELECTION.json": "b50f8ea5e4503a995312c008c8d9cf12a7da76faad20c945a16805f768918a01",
+    "results/residual_information_study/representation_controls/TEST_STARTED.json": "dd93f5fd4c985c5a37082d31745812ccd92570c1cc325db94864b9916f6614b5",
+    "results/residual_information_study/representation_controls/TRAIN_STARTED.json": "6528c8a6b2723e7f971754092a7d0bb66f2126f71132055f03e3d0493fd780f2",
+    "results/residual_information_study/representation_controls/development_250_C0.jsonl.gz": "d5c72b377c44ddb86bc3e33e2cb26c192656735ec382065ab9fbf2668813c5ad",
+    "results/residual_information_study/representation_controls/development_250_CH.jsonl.gz": "ecb3c42414fc29744df49bf57a04944e57c12c5d052f1bd6dfec0e56487bb36d",
+    "results/residual_information_study/representation_controls/development_250_CS.jsonl.gz": "dcff6e9b473e71ee710cf771a2f2539af4620f2992af3b6e0c6008ac11fd650a",
+    "results/residual_information_study/representation_controls/development_500_C0.jsonl.gz": "6abbc82808e256814d40377810cdcdc2ded168b5761595e77bf050b7e59e19f6",
+    "results/residual_information_study/representation_controls/development_500_CH.jsonl.gz": "8d346172e029434b0c5b97fa703463cc9d039729715187d481d5bfaa3b9010b5",
+    "results/residual_information_study/representation_controls/development_500_CS.jsonl.gz": "9f53cbcd14b634b2ad27680bcea51bdccdfc11d73c3417aa21c61c572025b55e",
+    "results/residual_information_study/representation_controls/publication.jsonl.gz": "661e0e67f1894a43081e281a18aba289c66c9ad9fd0d26fe8bb5761152de8860",
+    "results/residual_information_study/representation_controls/summary.json": "5de5a3b4b4495f75522416405653a8711a89a5f2e6eae314ae583234deefedf1",
+    "results/residual_information_study/representation_controls/test_exploration.jsonl.gz": "d1a83a333f0cead6e8b2db97fecc145fe06fd7aacb45a20a08aed390d9a274fb",
+    "results/residual_information_study/representation_controls/test_selected_C0.jsonl.gz": "fb9e8411cc22e68ba2cd0de4e6fe0769c6d4486a963e52514df658a1507137f2",
+    "results/residual_information_study/representation_controls/test_selected_CH.jsonl.gz": "1aeba17f78626e29a3ccab015d434a1c3376d2c21e6b97cf560fb872c2f408b6",
+    "results/residual_information_study/representation_controls/test_selected_CS.jsonl.gz": "3ed3aa1ce01e272c5da561ead7e0c9f1948555ae98f3d2b3a18378701aa50e44",
+    "results/residual_information_study/representation_controls/training.jsonl.gz": "74cf7b801118addd9b79d5a3605167cfe741693d0193ddfef642ae64ed021d22",
+    "results/residual_information_study/representation_controls/weights/C0_0.pt": "20604329749b1041167ef0dab6f9493becea612e7b42e7da2759cd77917bb227",
+    "results/residual_information_study/representation_controls/weights/C0_250.pt": "57d6fab80f0f3556c2a703bbfe8e63e8a6272f5a2480ee6611a22ee65cc7e3f3",
+    "results/residual_information_study/representation_controls/weights/C0_500.pt": "e5fe7216a8d9d8aa0b76aa0a70ff35f6203edc0a46e786f3bda45066cdec35a7",
+    "results/residual_information_study/representation_controls/weights/CH_0.pt": "778a94b2995adc3490c02f4811a159a7e760866f24bf33205030be37d26f29b0",
+    "results/residual_information_study/representation_controls/weights/CH_250.pt": "dc3fd190868c43bef881fe6c6ca0482032662790a63bac0b35d56bafb373af71",
+    "results/residual_information_study/representation_controls/weights/CH_500.pt": "99418d1b1ac5f8e2d6097efdf21d020c27b22c90eaa920fab93e22a123d526bf",
+    "results/residual_information_study/representation_controls/weights/CS_0.pt": "bec1566687e465f82dbc1c5a3b31a67e351fddf1f4e5fc293d7c6b8dde2509aa",
+    "results/residual_information_study/representation_controls/weights/CS_250.pt": "a8421561fbba9960476a27efa3a2968a67f3df02705229850a4a181be41340af",
+    "results/residual_information_study/representation_controls/weights/CS_500.pt": "b2f6db7ac146b2f7073326cc44e1ebe195d469919fed3ab152f1812c3d587663"
+  },
+  "source_sha256": {
+    "research/residual_information_study/README.md": "7b5b2b70536c6b79d6aa6d1ae41fb06bb69f5479474c16449d2652e38641e80c",
+    "research/residual_information_study/common/context.py": "ab88f27ff4d6390adef8c8347ccd4e7efe942cb12d52ec3eda88c2c87b4a2b03",
+    "research/residual_information_study/common/prepare.py": "5cb3aa3bea80be498ba2ee46f542df87b9341efc2b663c806632aa3281ca3347",
+    "research/residual_information_study/common/reporting.py": "ff63fe8a9e2f25f367291576200af8238a06ec2b6859f425a8562fcc6e097baf",
+    "research/residual_information_study/correction_diagnosis/stage.py": "2db00e87803011b03138b47b7de5e325462b7c22a3b6974f0e3c4bafb1a43c8b",
+    "research/residual_information_study/correction_diagnosis/test_diagnosis.py": "1fdb5431e0ead35d30bdf78efd102834b87b76b56d6ced0db6f14c5f4fa5f099",
+    "research/residual_information_study/information_probe/checks.py": "4ff162b9cca0209c1d738101c9b42dce566fe50289514bf9467b0fecfcc4c349",
+    "research/residual_information_study/information_probe/native_cache.py": "0b1d550a9e720842badb2dae479ecaee45d03737547018958b28fd9091ab55c9",
+    "research/residual_information_study/information_probe/probe.py": "13d2441a816415ab6b56f9060e3c54cdac7959823b2236ce69fb678f578b1b65",
+    "research/residual_information_study/information_probe/stage.py": "c79d3432f619f2afd509d6c1e580e7a80de099eb2bb134144ce73c3d09d53ffa",
+    "research/residual_information_study/representation_controls/checks.py": "885a7a9bf3427de762475513a66699ab934b106f2393b5b340bf9b0c01819cd6",
+    "research/residual_information_study/representation_controls/model.py": "78f90ff67989ef4e343215b3ecb5cdd0a4a3cc67e7444a06e251a001f425338a",
+    "research/residual_information_study/representation_controls/stage.py": "04b05bc1eaf7490d72494fd9c2b29d576ace767ce7daad0c2f350b939c36e558",
+    "research/residual_information_study/run.py": "983a8814c3d1f8e21d32d77e342781d557f4f1a8ade9e8a1c6eee3ffcb17d326"
+  }
+}

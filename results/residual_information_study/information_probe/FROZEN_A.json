@@ -1,0 +1,18 @@
+{
+  "utc_ns": 1795462922242944446,
+  "config_sha256": "be548687b937c758ac70962c53a6e41452cc8d4a1f9a931605cc2bed8f0434b3",
+  "schedule_sha256": "b1a5a8832fb295a9f443a9aebbd7efa34bb0b831f0c630b6280694f727011d5d",
+  "fits": 4,
+  "models": [
+    "A0",
+    "AR",
+    "AH",
+    "AHR"
+  ],
+  "hashes": {
+    "probes.npz": "ea9bd385f2bdc14a0356866ebef7f094b955ad273952440d6c13e3a3c382a621",
+    "development_summary.json": "384d36adcc9463685e61428f6413ad36cfc5e0371ea811cd40cdf665808c86bd",
+    "train_native_receipts.jsonl.gz": "a09f64131150df16944d1200e2a8bc4966226219877399953f5f3c328c996f49",
+    "development_native_receipts.jsonl.gz": "0dfc08a5611663e250b6d8f8c56ba0246345c55e8cb3539d3c31e6c219859e46"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "utc_ns": 1795463004766799504,
+  "config_sha256": "be548687b937c758ac70962c53a6e41452cc8d4a1f9a931605cc2bed8f0434b3",
+  "schedule_sha256": "0cce802376e64b11892c8ce23784bf809be8fa92b46d8d21ee1306e64cc377d4",
+  "seed": 42,
+  "arms": [
+    "C0",
+    "CH",
+    "CS"
+  ],
+  "same_J0_initialization": true,
+  "augmented_parameters": 118736
+}

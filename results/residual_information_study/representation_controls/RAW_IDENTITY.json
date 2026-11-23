@@ -1,0 +1,16 @@
+{
+  "prior_J_checkpoint": {
+    "path": "results/observed_residual_feedback/weights/J_500.pt",
+    "sha256": "5ad2f13699ecbc43468bb4deccd47c124df985c104ac0ec0fae44784a5cfa8c5"
+  },
+  "prior_updates": 500,
+  "prior_frozen_hash": "e0c267d3d3f746af4bef6bb4b8d7a2711a7b1e77ac1a43b6459313619cf204ee",
+  "archived_step_zero_exact": true,
+  "schedule_and_windows_identical": true,
+  "loss_and_model_source_hashes_verified": true,
+  "native_calls_per_forecast": 4,
+  "parameters": {
+    "trainable": 118736,
+    "total": 1626512
+  }
+}

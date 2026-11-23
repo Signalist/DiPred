@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "explicit_U_V_member_pairs": true,
+  "original_normalized_identity": true,
+  "channelwise_correct_scale": true,
+  "issuance_before_reveal": true,
+  "train_rows": 500,
+  "legal_A_train_fragments": 183,
+  "reused_A_train_first_occurrence": 169,
+  "B_train_fragments": 4,
+  "config_sha256": "be548687b937c758ac70962c53a6e41452cc8d4a1f9a931605cc2bed8f0434b3"
+}

@@ -1,0 +1,147 @@
+{
+  "config_sha256": "be548687b937c758ac70962c53a6e41452cc8d4a1f9a931605cc2bed8f0434b3",
+  "common_updates": 500,
+  "weights": {
+    "C0": [
+      {
+        "step": 0,
+        "path": "results/residual_information_study/representation_controls/weights/C0_0.pt",
+        "sha256": "20604329749b1041167ef0dab6f9493becea612e7b42e7da2759cd77917bb227"
+      },
+      {
+        "step": 250,
+        "path": "results/residual_information_study/representation_controls/weights/C0_250.pt",
+        "sha256": "57d6fab80f0f3556c2a703bbfe8e63e8a6272f5a2480ee6611a22ee65cc7e3f3"
+      },
+      {
+        "step": 500,
+        "path": "results/residual_information_study/representation_controls/weights/C0_500.pt",
+        "sha256": "e5fe7216a8d9d8aa0b76aa0a70ff35f6203edc0a46e786f3bda45066cdec35a7"
+      }
+    ],
+    "CH": [
+      {
+        "step": 0,
+        "path": "results/residual_information_study/representation_controls/weights/CH_0.pt",
+        "sha256": "778a94b2995adc3490c02f4811a159a7e760866f24bf33205030be37d26f29b0"
+      },
+      {
+        "step": 250,
+        "path": "results/residual_information_study/representation_controls/weights/CH_250.pt",
+        "sha256": "dc3fd190868c43bef881fe6c6ca0482032662790a63bac0b35d56bafb373af71"
+      },
+      {
+        "step": 500,
+        "path": "results/residual_information_study/representation_controls/weights/CH_500.pt",
+        "sha256": "99418d1b1ac5f8e2d6097efdf21d020c27b22c90eaa920fab93e22a123d526bf"
+      }
+    ],
+    "CS": [
+      {
+        "step": 0,
+        "path": "results/residual_information_study/representation_controls/weights/CS_0.pt",
+        "sha256": "bec1566687e465f82dbc1c5a3b31a67e351fddf1f4e5fc293d7c6b8dde2509aa"
+      },
+      {
+        "step": 250,
+        "path": "results/residual_information_study/representation_controls/weights/CS_250.pt",
+        "sha256": "a8421561fbba9960476a27efa3a2968a67f3df02705229850a4a181be41340af"
+      },
+      {
+        "step": 500,
+        "path": "results/residual_information_study/representation_controls/weights/CS_500.pt",
+        "sha256": "b2f6db7ac146b2f7073326cc44e1ebe195d469919fed3ab152f1812c3d587663"
+      }
+    ]
+  },
+  "stop": "completed",
+  "frozen_parameters_identical": true,
+  "changed_parameters": {
+    "C0": [
+      "base.net.up2.a.weight",
+      "base.net.up2.a.bias",
+      "base.net.up2.b.weight",
+      "base.net.up2.b.bias",
+      "base.net.up2.norm1.weight",
+      "base.net.up2.norm1.bias",
+      "base.net.up2.norm2.weight",
+      "base.net.up2.norm2.bias",
+      "base.net.up2.time.weight",
+      "base.net.up2.time.bias",
+      "base.net.up2.skip.weight",
+      "base.net.up2.skip.bias",
+      "base.net.out.weight",
+      "base.net.out.bias",
+      "encoder.0.weight",
+      "encoder.0.bias",
+      "encoder.2.weight",
+      "encoder.2.bias",
+      "projection.weight",
+      "projection.bias",
+      "head.0.weight",
+      "head.0.bias",
+      "head.2.weight",
+      "head.2.bias",
+      "head.4.weight",
+      "head.4.bias"
+    ],
+    "CH": [
+      "base.net.up2.a.weight",
+      "base.net.up2.a.bias",
+      "base.net.up2.b.weight",
+      "base.net.up2.b.bias",
+      "base.net.up2.norm1.weight",
+      "base.net.up2.norm1.bias",
+      "base.net.up2.norm2.weight",
+      "base.net.up2.norm2.bias",
+      "base.net.up2.time.weight",
+      "base.net.up2.time.bias",
+      "base.net.up2.skip.weight",
+      "base.net.up2.skip.bias",
+      "base.net.out.weight",
+      "base.net.out.bias",
+      "encoder.0.weight",
+      "encoder.0.bias",
+      "encoder.2.weight",
+      "encoder.2.bias",
+      "projection.weight",
+      "projection.bias",
+      "head.0.weight",
+      "head.0.bias",
+      "head.2.weight",
+      "head.2.bias",
+      "head.4.weight",
+      "head.4.bias"
+    ],
+    "CS": [
+      "base.net.up2.a.weight",
+      "base.net.up2.a.bias",
+      "base.net.up2.b.weight",
+      "base.net.up2.b.bias",
+      "base.net.up2.norm1.weight",
+      "base.net.up2.norm1.bias",
+      "base.net.up2.norm2.weight",
+      "base.net.up2.norm2.bias",
+      "base.net.up2.time.weight",
+      "base.net.up2.time.bias",
+      "base.net.up2.skip.weight",
+      "base.net.up2.skip.bias",
+      "base.net.out.weight",
+      "base.net.out.bias",
+      "encoder.0.weight",
+      "encoder.0.bias",
+      "encoder.2.weight",
+      "encoder.2.bias",
+      "projection.weight",
+      "projection.bias",
+      "head.0.weight",
+      "head.0.bias",
+      "head.2.weight",
+      "head.2.bias",
+      "head.4.weight",
+      "head.4.bias"
+    ]
+  },
+  "cache_bytes": 0,
+  "peak_cuda_allocated_bytes": 933870080
+}
