@@ -1,0 +1,59 @@
+{
+  "seed": 42,
+  "correction_strength": 1.0,
+  "normalization": {
+    "mean": [
+      0.1733045130968094,
+      -0.00037393238744698465
+    ],
+    "std": [
+      0.11372903734445572,
+      0.01720684953033924
+    ]
+  },
+  "scale": 0.012604449511191594,
+  "plot": {
+    "file": "26700_0.h5",
+    "start": 400,
+    "lead": 10
+  },
+  "backbone": {
+    "packaged_checkpoint_sha256": "834260c9838b058d3e415b1efbd3fa19f7998884a36e46d14d62b10ed3ad8cfe",
+    "original_checkpoint_sha256": "f99b7fdb15219c0df10b8f93647c003379a307d59afb6660eb66d9b2830ffdbd",
+    "predictor_tensors_exact": true
+  },
+  "batch": 8,
+  "gradient_clip": 1.0,
+  "min_lr": 1e-06,
+  "checkpoint_steps": [
+    0,
+    50,
+    100,
+    250,
+    500,
+    750,
+    1000,
+    1500,
+    2000,
+    3000,
+    4000,
+    5000,
+    6000
+  ],
+  "holdout_re": {
+    "interpolation": 17812.0,
+    "extrapolation": 25482.0
+  },
+  "gate": {
+    "gain_pct": 0.5,
+    "min_improved": 8,
+    "max_concentration": 0.5
+  },
+  "data_windows": {
+    "train": 822,
+    "development": 24,
+    "test": 24
+  },
+  "torch": "1.14.0a0+44dac51",
+  "gpu": "NVIDIA A100-SXM4-80GB"
+}

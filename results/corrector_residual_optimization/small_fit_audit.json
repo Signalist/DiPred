@@ -1,0 +1,537 @@
+{
+  "results": [
+    {
+      "windows": 4,
+      "initial_mse": 6.022022782273186e-05,
+      "final_mse": 1.8140081863686768e-05,
+      "improvement_pct": 69.87709525595771,
+      "cases": [
+        {
+          "file": "10125_0.h5",
+          "start": 200,
+          "re": 10142.0,
+          "history": [
+            200,
+            220
+          ],
+          "target": [
+            220,
+            240
+          ]
+        },
+        {
+          "file": "10125_10.h5",
+          "start": 200,
+          "re": 10142.0,
+          "history": [
+            200,
+            220
+          ],
+          "target": [
+            220,
+            240
+          ]
+        },
+        {
+          "file": "10125_15.h5",
+          "start": 200,
+          "re": 10142.0,
+          "history": [
+            200,
+            220
+          ],
+          "target": [
+            220,
+            240
+          ]
+        },
+        {
+          "file": "10125_20.h5",
+          "start": 200,
+          "re": 10142.0,
+          "history": [
+            200,
+            220
+          ],
+          "target": [
+            220,
+            240
+          ]
+        }
+      ],
+      "checkpoints": [
+        {
+          "run": "small_4",
+          "step": 0,
+          "checkpoint": "checkpoints/small_4_0.pt",
+          "external_checkpoint": "",
+          "sha256": "ace89ed436c9d20af4cb6ed93bfad3fff64677a47d6c3f4e3289433031fda56c",
+          "schedule_sha256": "24864d61a1dc7ae8d0006e73961721ccbb1f1e01e9b3ccc6a3228ab2ccfc88ed",
+          "lr": 0.001,
+          "batch_loss": null,
+          "gradient_norm": null,
+          "train_mse": 6.022022782273186e-05,
+          "train_native": 6.022022782273186e-05,
+          "train_C": 0.0,
+          "train_E": 0.0,
+          "train_G": 0.0,
+          "train_cosine": 0.0,
+          "train_identity_error": 0.0,
+          "dev_mse": null,
+          "dev_native": null,
+          "dev_C": null,
+          "dev_E": null,
+          "dev_G": null,
+          "dev_cosine": null,
+          "dev_identity_error": null
+        },
+        {
+          "run": "small_4",
+          "step": 250,
+          "checkpoint": "checkpoints/small_4_250.pt",
+          "external_checkpoint": "",
+          "sha256": "6ed9f35f787481e07f138a8761d1c6c2e07ac3ec9dd2534f1d020609e429dab0",
+          "schedule_sha256": "24864d61a1dc7ae8d0006e73961721ccbb1f1e01e9b3ccc6a3228ab2ccfc88ed",
+          "lr": 0.0009622402475271409,
+          "batch_loss": 0.27250128984451294,
+          "gradient_norm": 0.4965860843658447,
+          "train_mse": 3.3743990664680686e-05,
+          "train_native": 6.022022782273186e-05,
+          "train_C": 2.640286165146857e-05,
+          "train_E": 2.632948614488597e-05,
+          "train_G": 2.6476237158051168e-05,
+          "train_cosine": 0.5680495738581468,
+          "train_identity_error": 6.776263578034403e-21,
+          "dev_mse": null,
+          "dev_native": null,
+          "dev_C": null,
+          "dev_E": null,
+          "dev_G": null,
+          "dev_cosine": null,
+          "dev_identity_error": null
+        },
+        {
+          "run": "small_4",
+          "step": 500,
+          "checkpoint": "checkpoints/small_4_500.pt",
+          "external_checkpoint": "",
+          "sha256": "ac3a29e3de8a6fef8cde6aae34e6ef7fc017f46d0b64688203b55692a177c32d",
+          "schedule_sha256": "24864d61a1dc7ae8d0006e73961721ccbb1f1e01e9b3ccc6a3228ab2ccfc88ed",
+          "lr": 0.0008541159036668115,
+          "batch_loss": 0.1802048683166504,
+          "gradient_norm": 0.6010764241218567,
+          "train_mse": 2.5279956373133387e-05,
+          "train_native": 6.022022782273186e-05,
+          "train_C": 3.353647220833207e-05,
+          "train_E": 3.213267296706568e-05,
+          "train_G": 3.494027144959847e-05,
+          "train_cosine": 0.68486965203857,
+          "train_identity_error": 1.3552527156068805e-20,
+          "dev_mse": null,
+          "dev_native": null,
+          "dev_C": null,
+          "dev_E": null,
+          "dev_G": null,
+          "dev_cosine": null,
+          "dev_identity_error": null
+        },
+        {
+          "run": "small_4",
+          "step": 1000,
+          "checkpoint": "checkpoints/small_4_1000.pt",
+          "external_checkpoint": "",
+          "sha256": "14baf8d705bfee63be6d5c1a195f401c4c337cc2fbae5e22e124c4a5fb8d6191",
+          "schedule_sha256": "24864d61a1dc7ae8d0006e73961721ccbb1f1e01e9b3ccc6a3228ab2ccfc88ed",
+          "lr": 0.0005008925025935418,
+          "batch_loss": 0.13887853920459747,
+          "gradient_norm": 0.5338160395622253,
+          "train_mse": 1.9984579056999924e-05,
+          "train_native": 6.022022782273186e-05,
+          "train_C": 3.971526428829796e-05,
+          "train_E": 3.919487981086398e-05,
+          "train_G": 4.0235648765731936e-05,
+          "train_cosine": 0.7473207187002249,
+          "train_identity_error": 2.0328790734103208e-20,
+          "dev_mse": null,
+          "dev_native": null,
+          "dev_C": null,
+          "dev_E": null,
+          "dev_G": null,
+          "dev_cosine": null,
+          "dev_identity_error": null
+        },
+        {
+          "run": "small_4",
+          "step": 2000,
+          "checkpoint": "checkpoints/small_4_2000.pt",
+          "external_checkpoint": "",
+          "sha256": "719010ccf6a7b690b92d59941d7879b2fb9e4d04dbd5ceacf074df1a0c1feaea",
+          "schedule_sha256": "24864d61a1dc7ae8d0006e73961721ccbb1f1e01e9b3ccc6a3228ab2ccfc88ed",
+          "lr": 1e-06,
+          "batch_loss": 0.11663307994604111,
+          "gradient_norm": 0.22776676714420319,
+          "train_mse": 1.8140081863686768e-05,
+          "train_native": 6.022022782273186e-05,
+          "train_C": 4.161222667339607e-05,
+          "train_E": 4.114430738774706e-05,
+          "train_G": 4.208014595904508e-05,
+          "train_cosine": 0.7731220767024112,
+          "train_identity_error": 2.710505431213761e-20,
+          "dev_mse": null,
+          "dev_native": null,
+          "dev_C": null,
+          "dev_E": null,
+          "dev_G": null,
+          "dev_cosine": null,
+          "dev_identity_error": null
+        }
+      ],
+      "schedule_sha256": "24864d61a1dc7ae8d0006e73961721ccbb1f1e01e9b3ccc6a3228ab2ccfc88ed"
+    },
+    {
+      "windows": 16,
+      "initial_mse": 6.28302306623344e-05,
+      "final_mse": 3.506517645491768e-05,
+      "improvement_pct": 44.1905972884823,
+      "cases": [
+        {
+          "file": "10125_0.h5",
+          "start": 200,
+          "re": 10142.0,
+          "history": [
+            200,
+            220
+          ],
+          "target": [
+            220,
+            240
+          ]
+        },
+        {
+          "file": "10125_10.h5",
+          "start": 200,
+          "re": 10142.0,
+          "history": [
+            200,
+            220
+          ],
+          "target": [
+            220,
+            240
+          ]
+        },
+        {
+          "file": "10125_15.h5",
+          "start": 200,
+          "re": 10142.0,
+          "history": [
+            200,
+            220
+          ],
+          "target": [
+            220,
+            240
+          ]
+        },
+        {
+          "file": "10125_20.h5",
+          "start": 200,
+          "re": 10142.0,
+          "history": [
+            200,
+            220
+          ],
+          "target": [
+            220,
+            240
+          ]
+        },
+        {
+          "file": "10125_5.h5",
+          "start": 200,
+          "re": 10142.0,
+          "history": [
+            200,
+            220
+          ],
+          "target": [
+            220,
+            240
+          ]
+        },
+        {
+          "file": "11400_0.h5",
+          "start": 200,
+          "re": 11420.0,
+          "history": [
+            200,
+            220
+          ],
+          "target": [
+            220,
+            240
+          ]
+        },
+        {
+          "file": "11400_10.h5",
+          "start": 200,
+          "re": 11420.0,
+          "history": [
+            200,
+            220
+          ],
+          "target": [
+            220,
+            240
+          ]
+        },
+        {
+          "file": "11400_15.h5",
+          "start": 200,
+          "re": 11420.0,
+          "history": [
+            200,
+            220
+          ],
+          "target": [
+            220,
+            240
+          ]
+        },
+        {
+          "file": "11400_20.h5",
+          "start": 200,
+          "re": 11420.0,
+          "history": [
+            200,
+            220
+          ],
+          "target": [
+            220,
+            240
+          ]
+        },
+        {
+          "file": "11400_5.h5",
+          "start": 200,
+          "re": 11420.0,
+          "history": [
+            200,
+            220
+          ],
+          "target": [
+            220,
+            240
+          ]
+        },
+        {
+          "file": "12675_0.h5",
+          "start": 200,
+          "re": 12698.0,
+          "history": [
+            200,
+            220
+          ],
+          "target": [
+            220,
+            240
+          ]
+        },
+        {
+          "file": "12675_10.h5",
+          "start": 200,
+          "re": 12698.0,
+          "history": [
+            200,
+            220
+          ],
+          "target": [
+            220,
+            240
+          ]
+        },
+        {
+          "file": "12675_15.h5",
+          "start": 200,
+          "re": 12698.0,
+          "history": [
+            200,
+            220
+          ],
+          "target": [
+            220,
+            240
+          ]
+        },
+        {
+          "file": "12675_20.h5",
+          "start": 200,
+          "re": 12698.0,
+          "history": [
+            200,
+            220
+          ],
+          "target": [
+            220,
+            240
+          ]
+        },
+        {
+          "file": "12675_5.h5",
+          "start": 200,
+          "re": 12698.0,
+          "history": [
+            200,
+            220
+          ],
+          "target": [
+            220,
+            240
+          ]
+        },
+        {
+          "file": "16500_0.h5",
+          "start": 200,
+          "re": 16534.0,
+          "history": [
+            200,
+            220
+          ],
+          "target": [
+            220,
+            240
+          ]
+        }
+      ],
+      "checkpoints": [
+        {
+          "run": "small_16",
+          "step": 0,
+          "checkpoint": "checkpoints/small_16_0.pt",
+          "external_checkpoint": "",
+          "sha256": "674a4d48a22aa8f82ab1b88f9bf071e527a539b58c3b47e8a7bba01911f77b1c",
+          "schedule_sha256": "8a373b589e6f3fa9018afd0471e5135788d1f817072851c08934e132fa330d3d",
+          "lr": 0.001,
+          "batch_loss": null,
+          "gradient_norm": null,
+          "train_mse": 6.28302306623344e-05,
+          "train_native": 6.28302306623344e-05,
+          "train_C": 0.0,
+          "train_E": 0.0,
+          "train_G": 0.0,
+          "train_cosine": 0.0,
+          "train_identity_error": 0.0,
+          "dev_mse": null,
+          "dev_native": null,
+          "dev_C": null,
+          "dev_E": null,
+          "dev_G": null,
+          "dev_cosine": null,
+          "dev_identity_error": null
+        },
+        {
+          "run": "small_16",
+          "step": 250,
+          "checkpoint": "checkpoints/small_16_250.pt",
+          "external_checkpoint": "",
+          "sha256": "265f38e569f84e1b48b742777f73c0dbe8ddb74987000fe7fd8f782e6e724338",
+          "schedule_sha256": "8a373b589e6f3fa9018afd0471e5135788d1f817072851c08934e132fa330d3d",
+          "lr": 0.0009622402475271409,
+          "batch_loss": 0.35559409856796265,
+          "gradient_norm": 0.30364593863487244,
+          "train_mse": 5.175540929535357e-05,
+          "train_native": 6.28302306623344e-05,
+          "train_C": 1.1139159792792035e-05,
+          "train_E": 1.1203498218603247e-05,
+          "train_G": 1.1074821366980821e-05,
+          "train_cosine": 0.2908440702398535,
+          "train_identity_error": 2.710505431213761e-20,
+          "dev_mse": null,
+          "dev_native": null,
+          "dev_C": null,
+          "dev_E": null,
+          "dev_G": null,
+          "dev_cosine": null,
+          "dev_identity_error": null
+        },
+        {
+          "run": "small_16",
+          "step": 500,
+          "checkpoint": "checkpoints/small_16_500.pt",
+          "external_checkpoint": "",
+          "sha256": "4a171896586a1414b2a0616fb0e48939b8a05b85a1c25011dd9b0b2b5c786d0c",
+          "schedule_sha256": "8a373b589e6f3fa9018afd0471e5135788d1f817072851c08934e132fa330d3d",
+          "lr": 0.0008541159036668115,
+          "batch_loss": 0.30986934900283813,
+          "gradient_norm": 0.47971445322036743,
+          "train_mse": 4.7828888405491165e-05,
+          "train_native": 6.28302306623344e-05,
+          "train_C": 1.7961134704818107e-05,
+          "train_E": 2.0920927152792992e-05,
+          "train_G": 1.5001342256843225e-05,
+          "train_cosine": 0.3627201797614088,
+          "train_identity_error": 1.3552527156068805e-20,
+          "dev_mse": null,
+          "dev_native": null,
+          "dev_C": null,
+          "dev_E": null,
+          "dev_G": null,
+          "dev_cosine": null,
+          "dev_identity_error": null
+        },
+        {
+          "run": "small_16",
+          "step": 1000,
+          "checkpoint": "checkpoints/small_16_1000.pt",
+          "external_checkpoint": "",
+          "sha256": "861470b108021f50b7c0a718138d0371e919352a2b4e75999b62c2e952180951",
+          "schedule_sha256": "8a373b589e6f3fa9018afd0471e5135788d1f817072851c08934e132fa330d3d",
+          "lr": 0.0005008925025935418,
+          "batch_loss": 0.25924983620643616,
+          "gradient_norm": 0.45305708050727844,
+          "train_mse": 3.820503158967927e-05,
+          "train_native": 6.28302306623344e-05,
+          "train_C": 2.4153827617443955e-05,
+          "train_E": 2.3682456162232778e-05,
+          "train_G": 2.4625199072655132e-05,
+          "train_cosine": 0.5048405947639358,
+          "train_identity_error": 3.3881317890172014e-20,
+          "dev_mse": null,
+          "dev_native": null,
+          "dev_C": null,
+          "dev_E": null,
+          "dev_G": null,
+          "dev_cosine": null,
+          "dev_identity_error": null
+        },
+        {
+          "run": "small_16",
+          "step": 2000,
+          "checkpoint": "checkpoints/small_16_2000.pt",
+          "external_checkpoint": "",
+          "sha256": "ffc27853f1ac8de114a5ded25a579e5226183767a1b05b485edc8f1671fbdc46",
+          "schedule_sha256": "8a373b589e6f3fa9018afd0471e5135788d1f817072851c08934e132fa330d3d",
+          "lr": 1e-06,
+          "batch_loss": 0.22532148659229279,
+          "gradient_norm": 0.3462788462638855,
+          "train_mse": 3.506517645491768e-05,
+          "train_native": 6.28302306623344e-05,
+          "train_C": 2.6980793448293487e-05,
+          "train_E": 2.619653268917025e-05,
+          "train_G": 2.776505420741672e-05,
+          "train_cosine": 0.5507617731482694,
+          "train_identity_error": 1.3552527156068805e-20,
+          "dev_mse": null,
+          "dev_native": null,
+          "dev_C": null,
+          "dev_E": null,
+          "dev_G": null,
+          "dev_cosine": null,
+          "dev_identity_error": null
+        }
+      ],
+      "schedule_sha256": "8a373b589e6f3fa9018afd0471e5135788d1f817072851c08934e132fa330d3d"
+    }
+  ],
+  "elapsed_seconds": 818.1180522181094
+}

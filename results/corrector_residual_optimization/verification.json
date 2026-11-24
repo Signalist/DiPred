@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "frozen_sha256": "0901af0d1d50788b1131350770b8843addc2548bf9697a77a9592c58ee020723",
+  "native_s0_max_mse_error": 0.0,
+  "max_decomposition_error": 2.574980159653073e-19,
+  "exact_zero_native": true,
+  "zero_noise_paths_only": true,
+  "source_weights_unchanged": true,
+  "prediction_unchanged_by_future": true,
+  "windows": 4734,
+  "lead_windows": 94680,
+  "test_trajectory_count": 12,
+  "selected_base": "budget_6000",
+  "shown_in_development_fields": "budget_6000"
+}

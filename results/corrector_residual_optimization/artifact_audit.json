@@ -1,0 +1,55 @@
+{
+  "passed": true,
+  "phase_gate_consistent": true,
+  "loss_definitions_match_previous": true,
+  "checked_checkpoints": 99,
+  "reproduced_checkpoints": 9,
+  "paired_contrasts": 62,
+  "window_rows": 4734,
+  "lead_window_rows": 94680,
+  "figures": {
+    "01_input_dependency.png": [
+      2560,
+      576
+    ],
+    "02_input_learning_curves.png": [
+      1760,
+      640
+    ],
+    "03_hyperparameters.png": [
+      1920,
+      640
+    ],
+    "04_lead_rates.png": [
+      1760,
+      640
+    ],
+    "05_lead_mse.png": [
+      1600,
+      640
+    ],
+    "06_lead_decomposition.png": [
+      1600,
+      640
+    ],
+    "07_regime_rates.png": [
+      2080,
+      640
+    ],
+    "08_fixed_residual_fields.png": [
+      1760,
+      800
+    ],
+    "09_loss_gradient_scales.png": [
+      1600,
+      640
+    ],
+    "12_research_stages.png": [
+      1440,
+      640
+    ]
+  },
+  "independent_numpy_test_window_mse_max_error": {
+    "budget_6000": 1.0842021724855044e-19
+  }
+}

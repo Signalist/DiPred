@@ -1,0 +1,36 @@
+{
+  "stage1_new_fits": 4,
+  "stage2_new_fits": 5,
+  "stage3_holdout_fits": 2,
+  "stage4_enabled": false,
+  "base": "budget_6000",
+  "dev_gain_pct": 5.2997480222053985,
+  "development": {
+    "improved": 12,
+    "trajectories": 12,
+    "concentration": 0.45696295092979666,
+    "trajectory_G": {
+      "26700_0.h5": 1.549003536041314e-06,
+      "26700_10.h5": 3.956369172758537e-05,
+      "26700_15.h5": 4.47667309239576e-05,
+      "6300_0.h5": 5.354442192312641e-07,
+      "6300_10.h5": 7.313508377513764e-07,
+      "6300_15.h5": 1.6724807675825629e-06,
+      "6300_20.h5": 1.762871791368846e-06,
+      "6300_5.h5": 3.521420835608534e-07,
+      "7575_10.h5": 2.639579929525144e-07,
+      "7575_15.h5": 2.952874404211135e-06,
+      "7575_20.h5": 3.468163596843654e-06,
+      "7575_5.h5": 3.4706594153424193e-07
+    }
+  },
+  "regularization": {
+    "executed": false,
+    "gap_percentage_points": 1.4982747270686576,
+    "relapse_percentage_points": 0.0
+  },
+  "passed_development_gate": true,
+  "passed_migration_gate": false,
+  "stopping_reason": "development or internal migration screening condition unmet",
+  "stage4_new_fits": 0
+}

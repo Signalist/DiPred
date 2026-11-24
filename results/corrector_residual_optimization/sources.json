@@ -1,0 +1,22 @@
+{
+  "protocol_sha256": "716403bc31941e0c6fa924103e990cb457b08060c7953b30a77b3d00389a083f",
+  "prior": {
+    "config.json": "b6e8d7d6a76396d714cbc39fe7befa837a71dfb487fa19228ec1ce0f59797750",
+    "training.csv": "1d5dfa460e65b6d287c8de4dea8c9d8a6f9db0ab6c7b81277672eb1c0de2b103",
+    "diagnostic_audit.json": "4dbff7091a311f6c7b21bd33f69ea4bdd66a8b0fecdb968d12bfb451fd78400c",
+    "native_train.json": "e0591c8f173e36f3b02199667ddd5044ec35e265f35f1b33b796c752f9a59f2e",
+    "native_development.json": "414491b266fd618de111d62bcb3e0bc65422ad8339391afdfb2f386f6357ba67",
+    "artifact_audit.json": "37038f5bdc325bf6e4f73b3f51d90791ceb39b53615ba7a06f08444269ce762f"
+  },
+  "train_and_dev_backbone_cache": {
+    "train": "f8f3d98ea0c958e4df0579b06c8ca47c741dcda51d1227d9adada949efb9c639",
+    "development": "7cbb0467869bc062103ad0b00433df92ac79122e8a262c19d1f501b7636120b8"
+  },
+  "test_identity_pending_freeze": true,
+  "backbone": {
+    "packaged_checkpoint_sha256": "834260c9838b058d3e415b1efbd3fa19f7998884a36e46d14d62b10ed3ad8cfe",
+    "original_checkpoint_sha256": "f99b7fdb15219c0df10b8f93647c003379a307d59afb6660eb66d9b2830ffdbd",
+    "predictor_tensors_exact": true
+  },
+  "sampling_sha256": "da3d59a77904c0209e26630a297b846f53cb0bcdee85c6005c6890da939a2d56"
+}
