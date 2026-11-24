@@ -1,0 +1,30 @@
+COMMAND /usr/bin/python -m research.corrector_consistency.run --out results/corrector_consistency
+/usr/local/lib/python3.8/dist-packages/torch/storage.py:315: UserWarning: TypedStorage is deprecated. It will be removed in the future and UntypedStorage will be the only storage class. This should only matter to you if you are using storages directly.
+  warnings.warn(message, UserWarning)
+PREFLIGHT PASS {'passed': True, 'valid_neighborhood_count': True, 'same_direction': True, 'opposite_direction': True, 'zero_finite_no_mask_escape': True, 'time_polynomials': True, 'matching_identity': True, 'all_term_gradchecks': True, 'native_exact_at_step_0': True, 'nonzero_forecast_bitwise_equal_after_target_intervention': True}
+FIT 92 24 16504 {'gradient_q90': 2.0232698917388916, 'amplitude_q90': 1.8562684059143066}
+CHECKPOINT shared 0 development_mse=0.000154639087093
+CHECKPOINT shared 250 development_mse=0.000155312499406
+CHECKPOINT A 500 development_mse=0.000158396727042
+CHECKPOINT A 750 development_mse=0.000157785618918
+CHECKPOINT A 1000 development_mse=0.000160960468672
+CHECKPOINT B 500 development_mse=0.000158499374509
+CHECKPOINT B 750 development_mse=0.000158297361256
+CHECKPOINT B 1000 development_mse=0.000161797866797
+CHECKPOINT C 500 development_mse=0.000158301281558
+CHECKPOINT C 750 development_mse=0.000157579979741
+CHECKPOINT C 1000 development_mse=0.000160576433957
+CHECKPOINT D 500 development_mse=0.000158349833035
+CHECKPOINT D 750 development_mse=0.000157720973003
+CHECKPOINT D 1000 development_mse=0.000160839476584
+CHECKPOINT E 500 development_mse=0.000158384897574
+CHECKPOINT E 750 development_mse=0.000157763572276
+CHECKPOINT E 1000 development_mse=0.000160909602692
+CHECKPOINT F 500 development_mse=0.000158403800567
+CHECKPOINT F 750 development_mse=0.000157805630601
+CHECKPOINT F 1000 development_mse=0.000161023847423
+CHECKPOINT G 500 development_mse=0.000158335440279
+CHECKPOINT G 750 development_mse=0.000158133522329
+CHECKPOINT G 1000 development_mse=0.000161398517221
+FROZEN {'A': 0, 'B': 0, 'C': 0, 'D': 0, 'E': 0, 'F': 0, 'G': 0}
+PASS {'passed': True, 'valid_neighborhood_count': True, 'same_direction': True, 'opposite_direction': True, 'zero_finite_no_mask_escape': True, 'time_polynomials': True, 'matching_identity': True, 'all_term_gradchecks': True, 'native_exact_at_step_0': True, 'nonzero_forecast_bitwise_equal_after_target_intervention': True, 'maximum_mse_decomposition_error': 1.4568966692773966e-19, 'test_windows': 24, 'test_trajectories': 12, 'finite_results': True, 'frozen_weights_unchanged': True, 'wall_seconds': 29.909538708627224, 'optimizer_updates_executed': 5500, 'peak_gpu_bytes': 1374814208}
