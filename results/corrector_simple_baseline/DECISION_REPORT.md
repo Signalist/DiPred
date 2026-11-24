@@ -51,4 +51,4 @@ Native 使用冻结 DiPred，起点噪声为零，实际执行 99、66、33、0 
 
 ## 复现与核验
 
-从 Corrector 工作树执行协议中的命令复跑，随后用相同 `--out` 和 `--cache` 调用 `python -m research.corrector_simple_baseline.audit`。正式训练约 26 秒。独立审计核验全部 8 个检查点、三份缓存、3,480 条方法窗口评分、69,600 条逐帧窗口评分及全部五张图。按测试原窗口重新用 NumPy 计算物理 MSE 并重算轨迹配对区间。数值分解最大偏差为 2.34×10⁻¹⁹，未来真值置换后发布结果逐位一致。[审计](artifact_audit.json) · [固定案例的物理数值](fixed_development_field.csv) · [完整源码](../../research/corrector_simple_baseline/)
+从 Corrector 工作树执行协议中的命令复跑，随后用相同 `--out` 和 `--cache` 调用 `python -m research.corrector_simple_baseline.audit`。正式训练约 26 秒。独立审计核验全部 9 个检查点、三份缓存、3,480 条方法窗口评分、69,600 条逐帧窗口评分及全部五张图。按测试原窗口重新用 NumPy 计算物理 MSE 并重算轨迹配对区间。数值分解最大偏差为 2.34×10⁻¹⁹，未来真值置换后发布结果逐位一致。[审计](artifact_audit.json) · [固定案例的物理数值](fixed_development_field.csv) · [完整源码](../../research/corrector_simple_baseline/)
