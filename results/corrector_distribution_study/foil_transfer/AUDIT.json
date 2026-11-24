@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "cohort": 8,
+  "paired_windows": 32,
+  "previous_study_evaluation_path": "../Forecast/Runtime/runs/five_pde_reliability_20261114/evaluated/foil/X_42.pt",
+  "previous_study_evaluation_sha256": "cbde1ab2d234661cd001fed61c142e69b97de30a81daecb06d2a48cebf3f91bc",
+  "all_eight_present_in_previous_foil_test": true,
+  "no_methods_refit": true,
+  "prepare_exit_code": 0,
+  "score_exit_code": 0
+}

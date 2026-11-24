@@ -1,0 +1,10 @@
+{
+  "primary": "recent minus S2 standardized CRPS",
+  "difference": 0.0001942682976877573,
+  "interval95": [
+    -0.0021809042362663073,
+    0.0022637328724506105
+  ],
+  "improved": 3,
+  "trajectories": 8
+}
