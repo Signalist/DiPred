@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "frozen_sha256": "2b318f8233d4ce8b45bcd4875d6c3990156e778f269181049631a8ed334a5490",
+  "max_decomposition_error": 2.337810934421869e-19,
+  "zero_exact_native": true,
+  "future_intervention_bitwise_equal": true,
+  "source_weights_unchanged": true,
+  "window_rows": 3480,
+  "lead_window_rows": 69600,
+  "selected_step": 2000,
+  "qualifies_for_constraints": false
+}

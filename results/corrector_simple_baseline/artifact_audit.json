@@ -1,0 +1,36 @@
+{
+  "passed": true,
+  "test_freeze_binding_verified": true,
+  "checkpoints": 9,
+  "trajectory_splits": {
+    "train": 46,
+    "development": 12,
+    "test": 12
+  },
+  "windows": 3480,
+  "lead_windows": 69600,
+  "test_intervals_recomputed": 4,
+  "independent_numpy_test_mse_max_error": 1.0842021724855044e-19,
+  "figures": {
+    "01_learning_curves.png": [
+      1600,
+      640
+    ],
+    "02_lead_correction_rate.png": [
+      1600,
+      640
+    ],
+    "03_lead_mse.png": [
+      1600,
+      640
+    ],
+    "04_lead_decomposition.png": [
+      1600,
+      640
+    ],
+    "05_fixed_residual_fields.png": [
+      1760,
+      800
+    ]
+  }
+}

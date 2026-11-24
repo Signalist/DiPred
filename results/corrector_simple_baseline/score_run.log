@@ -1,0 +1,6 @@
+/usr/local/lib/python3.8/dist-packages/torch/storage.py:315: UserWarning: TypedStorage is deprecated. It will be removed in the future and UntypedStorage will be the only storage class. This should only matter to you if you are using storages directly.
+  warnings.warn(message, UserWarning)
+NATIVE train 822 reused 819 new 3 replayed 18
+NATIVE development 24 reused 12 new 12 replayed 1
+NATIVE test 24 reused 0 new 24 replayed 0
+TEST SCORED {'split': 'test', 'policy': 'selected', 'step': 2000, 'native_mse': 0.00011161243437773626, 'mse': 0.00011161099933298004, 'mae': 0.004857808067917143, 'standardized_mse': 0.053460197189159855, 'mse_u': 0.00019605327746876751, 'mse_v': 2.7168721197192527e-05, 'C': 1.9592374257006574e-07, 'E': 3.9041244038389844e-07, 'G': 1.435044756233046e-09, 'cosine': -0.005143727425898532, 'improved_trajectories': 2, 'trajectories': 12, 'improved_fraction': 0.16666666666666666, 'ci95_low_pct': -0.6851667595929434, 'ci95_high_pct': 0.47248620792972296, 'correction_pct': 0.0012857391420761921} follow-up candidate False

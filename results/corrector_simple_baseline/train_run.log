@@ -1,0 +1,17 @@
+/usr/local/lib/python3.8/dist-packages/torch/storage.py:315: UserWarning: TypedStorage is deprecated. It will be removed in the future and UntypedStorage will be the only storage class. This should only matter to you if you are using storages directly.
+  warnings.warn(message, UserWarning)
+NATIVE train 822 reused 819 new 3 replayed 18
+NATIVE development 24 reused 12 new 12 replayed 1
+DIAGNOSTIC {'diagnostic': 'fixed_bias', 'initial_mse': 4.000000990345143e-05, 'final_mse': 4.3171226593585743e-07, 'improvement_pct': 98.92071960237539}
+DIAGNOSTIC {'diagnostic': 'channel_scaling', 'initial_mse': 2.4691986254765652e-05, 'final_mse': 3.8364797205758805e-07, 'improvement_pct': 98.44626524533423}
+DIAGNOSTIC {'diagnostic': 'real_windows', 'initial_mse': 6.0220227169338614e-05, 'final_mse': 4.099819852854125e-05, 'improvement_pct': 31.91955517993187}
+CHECKPOINT 0 train 0.000158872147480178 dev 0.00015404156545454966
+CHECKPOINT 50 train 0.00015873510692831946 dev 0.00015417519643335235
+CHECKPOINT 100 train 0.00015874469936296746 dev 0.00015431208372275056
+CHECKPOINT 250 train 0.00015860634643772054 dev 0.00015446133812953465
+CHECKPOINT 500 train 0.00015853318533618318 dev 0.00015405063411628965
+CHECKPOINT 750 train 0.0001583660232044512 dev 0.00015388619747023634
+CHECKPOINT 1000 train 0.00015824306525821452 dev 0.00015392540797081573
+CHECKPOINT 1500 train 0.00015816182812649013 dev 0.00015380995278579284
+CHECKPOINT 2000 train 0.0001581454876374248 dev 0.00015377854389462067
+FROZEN BEFORE TEST {'native': 0, 'selected': 2000, 'best_nonzero': 2000, 'final': 2000}

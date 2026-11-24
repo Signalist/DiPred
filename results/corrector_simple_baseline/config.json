@@ -1,0 +1,42 @@
+{
+  "seed": 42,
+  "steps": [
+    0,
+    50,
+    100,
+    250,
+    500,
+    750,
+    1000,
+    1500,
+    2000
+  ],
+  "updates": 2000,
+  "batch": 8,
+  "initial_lr": 0.0003,
+  "final_lr": 1e-06,
+  "weight_decay": 1e-05,
+  "gradient_clip": 1.0,
+  "parameters": 3042,
+  "correction_strength": 1.0,
+  "normalization": {
+    "mean": [
+      0.1733045130968094,
+      -0.00037393238744698465
+    ],
+    "std": [
+      0.11372903734445572,
+      0.01720684953033924
+    ]
+  },
+  "physical_residual_rms": 0.012604449511191594,
+  "native": "single zero-noise 4-call frozen DiPred",
+  "torch": "1.14.0a0+44dac51",
+  "cudnn": 8700,
+  "gpu": "NVIDIA A100-SXM4-80GB",
+  "plot": {
+    "file": "26700_0.h5",
+    "start": 400,
+    "lead": 10
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "passed": true,
+  "zero_exact": true,
+  "truth_recovers_Y": true,
+  "normalized_roundtrip": true,
+  "residual_vs_forecast_mse_error": 0.0,
+  "fixed_train_cases": [
+    {
+      "file": "10125_0.h5",
+      "start": 200,
+      "re": 10142.0,
+      "history": [
+        200,
+        220
+      ],
+      "target": [
+        220,
+        240
+      ]
+    },
+    {
+      "file": "10125_10.h5",
+      "start": 200,
+      "re": 10142.0,
+      "history": [
+        200,
+        220
+      ],
+      "target": [
+        220,
+        240
+      ]
+    },
+    {
+      "file": "10125_15.h5",
+      "start": 200,
+      "re": 10142.0,
+      "history": [
+        200,
+        220
+      ],
+      "target": [
+        220,
+        240
+      ]
+    },
+    {
+      "file": "10125_20.h5",
+      "start": 200,
+      "re": 10142.0,
+      "history": [
+        200,
+        220
+      ],
+      "target": [
+        220,
+        240
+      ]
+    }
+  ],
+  "results": [
+    {
+      "diagnostic": "fixed_bias",
+      "initial_mse": 4.000000990345143e-05,
+      "final_mse": 4.3171226593585743e-07,
+      "improvement_pct": 98.92071960237539
+    },
+    {
+      "diagnostic": "channel_scaling",
+      "initial_mse": 2.4691986254765652e-05,
+      "final_mse": 3.8364797205758805e-07,
+      "improvement_pct": 98.44626524533423
+    },
+    {
+      "diagnostic": "real_windows",
+      "initial_mse": 6.0220227169338614e-05,
+      "final_mse": 4.099819852854125e-05,
+      "improvement_pct": 31.91955517993187
+    }
+  ]
+}
