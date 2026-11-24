@@ -1,0 +1,124 @@
+{
+  "passed": true,
+  "zero_exact": true,
+  "truth_recovers_y": true,
+  "normalized_physical_roundtrip": true,
+  "old_block_returns_q": true,
+  "residual_vs_forecast_mse_error": 0.0,
+  "examples": [
+    {
+      "file": "10125_0.h5",
+      "start": 400,
+      "history": [
+        400,
+        420
+      ],
+      "target": [
+        420,
+        440
+      ]
+    },
+    {
+      "file": "10125_10.h5",
+      "start": 400,
+      "history": [
+        400,
+        420
+      ],
+      "target": [
+        420,
+        440
+      ]
+    },
+    {
+      "file": "10125_15.h5",
+      "start": 400,
+      "history": [
+        400,
+        420
+      ],
+      "target": [
+        420,
+        440
+      ]
+    },
+    {
+      "file": "10125_20.h5",
+      "start": 400,
+      "history": [
+        400,
+        420
+      ],
+      "target": [
+        420,
+        440
+      ]
+    }
+  ],
+  "results": [
+    {
+      "probe": "bias",
+      "architecture": "Point",
+      "windows": 4,
+      "initial_mse": 4.0000000963419784e-05,
+      "final_mse": 1.7675750402953975e-07,
+      "reduction_pct": 99.55810625056938
+    },
+    {
+      "probe": "bias",
+      "architecture": "Block",
+      "windows": 4,
+      "initial_mse": 4.0000000963419784e-05,
+      "final_mse": 2.66572714393549e-08,
+      "reduction_pct": 99.93335682300675
+    },
+    {
+      "probe": "channel_scale",
+      "architecture": "Point",
+      "windows": 4,
+      "initial_mse": 2.500710462657258e-05,
+      "final_mse": 2.790246036855455e-07,
+      "reduction_pct": 98.88421867364423
+    },
+    {
+      "probe": "channel_scale",
+      "architecture": "Block",
+      "windows": 4,
+      "initial_mse": 2.5007106927098624e-05,
+      "final_mse": 1.0792014816451712e-07,
+      "reduction_pct": 99.56844208936631
+    },
+    {
+      "probe": "real_1",
+      "architecture": "Point",
+      "windows": 1,
+      "initial_mse": 1.569921304610771e-05,
+      "final_mse": 6.270443775256981e-06,
+      "reduction_pct": 60.05886564606112
+    },
+    {
+      "probe": "real_1",
+      "architecture": "Block",
+      "windows": 1,
+      "initial_mse": 1.569921304610771e-05,
+      "final_mse": 7.054291087981595e-06,
+      "reduction_pct": 55.06595733643758
+    },
+    {
+      "probe": "real_4",
+      "architecture": "Point",
+      "windows": 4,
+      "initial_mse": 5.069109303215174e-05,
+      "final_mse": 2.6895383308080045e-05,
+      "reduction_pct": 46.94258557214152
+    },
+    {
+      "probe": "real_4",
+      "architecture": "Block",
+      "windows": 4,
+      "initial_mse": 5.069109303215174e-05,
+      "final_mse": 3.325993815315822e-05,
+      "reduction_pct": 34.387017198341916
+    }
+  ]
+}

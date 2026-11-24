@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "frozen_sha256": "f87b84458daafcf4b8d9f4673293f2621c8051c1e82e289e17ba7a8eb0b376e1",
+  "test_p_sha256": "49bf9df463b76602c850338fd7b8f97200d8cfdef86050c15cff5a9b9667704d",
+  "checked_r0_previous_max_mse_error": 1.6940658945086007e-21,
+  "zero_exact_native": true,
+  "future_intervention_bitwise_equal": true,
+  "source_weights_unchanged": true,
+  "max_decomposition_error": 1.9931744040077755e-19,
+  "future_intervention_methods": [
+    "R0",
+    "R3"
+  ],
+  "test_trajectories": 12,
+  "windows": 1824,
+  "lead_windows": 36480,
+  "dev_selected_candidate": "R3",
+  "test_seed_gains": [
+    -0.23977215362127602,
+    -0.19664413382765034,
+    -0.3936883671389557
+  ],
+  "stable_exploratory_positive": false
+}

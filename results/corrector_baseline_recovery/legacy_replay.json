@@ -1,0 +1,94 @@
+{
+  "pinned": {
+    "commit": "333934b60b56f6faf97aedd3bd7d1d0ca79c2583",
+    "selection.json": "43a4fc7b263937971e0f6ea51346e9f2adad742b9b90fe8e0ccdfbcda541b564",
+    "controls.py": "0156cf4d18bbe136fe69e1d713fee7876deed3dc3dc05f829c23797d702e2233",
+    "PROTOCOL.md": "ed2c860a87e8edd2a0af0413e9b7cdbdef88a428bf8931fc3e4a18f39b8a160a",
+    "REPORT.md": "325a40365d2ce919af4cf0b97fae6a2b768884389b00cfbd46b3a40ce8e88051",
+    "crossfit_corrector.py": "e9378147c0a4b749ee996fe6cc64afe73ba24b3078216ac1b1768db2fea95a7f"
+  },
+  "source_sha256": {
+    "runs/direct_correction_controls_20261117/rescrct_block.pt": "108e4b3ff7d89f7d3601cccb658b43c43eba2952f53de97aeca7fbcc1a50b09d",
+    "runs/error_structure_20261117/calibration.pt": "11ffa4bbe69e5ce58222a43e935423ffeef5537f878f05e70ae77101975f1248",
+    "runs/active_observation_20261117/calibration.pt": "5e545b7dccd9fcd89154ccabd7b72af3f36a530f7f4b89538188b5c058e07992",
+    "runs/direct_correction_controls_20261117/calibration/issued.pt": "018a70148a1cd9f5818248209737ab34bd4c2ee732a776d33225238f9de4fdbf",
+    "runs/error_structure_20261117/development.pt": "1976f42deb7228d0482de76dc3a56dedf4d7264c5d2289d89f78efc09f86b7ef",
+    "runs/active_observation_20261117/development.pt": "80e6c87d4dfb407e3a48acd82124ee8c2d2a7591d2563c680e99d55ce6623f2c",
+    "runs/direct_correction_controls_20261117/development/issued.pt": "9306304726863885968867766ce5bb84444857a76066cb2fdd18df703e0d4be3",
+    "runs/error_structure_20261117/late.pt": "a9053d187a7e1e4926bc95c57b68dfd26ce9237f14899c970a77b735f434cdd8",
+    "runs/active_observation_20261117/late.pt": "8033d8a1010d3c04310dc9329424db016d610d8094977a2270284cf861e304e0",
+    "runs/direct_correction_controls_20261117/late/issued.pt": "9d0cf3b87293f75fbf0f0b9f183a4e9ef59a88d8c9d8e908b9c197be830122c6",
+    "runs/error_structure_20261117/future.pt": "5c10ae87bc69b238d525668de611f845d2ae90bbf92b3965170523cb1a270bb4",
+    "runs/active_observation_20261117/future.pt": "a736cf77f6ca6d81bb21de1bb10f38715e7192d3c09c0171611e3e5cb14bb56a",
+    "runs/direct_correction_controls_20261117/future/issued.pt": "bc0fc3b706c8bcb2206db046447b1ee3eb44790297a062d9d47e5e9944feb50e",
+    "runs/error_structure_20261117/train.pt": "e9d3fd7b8b6a915a671936aba42018b52409689a8650f8e52a23c3b1059993a5",
+    "runs/active_observation_20261117/train.pt": "e57e0493238af075303c9cd83860db26002d29a76239f32587debefd74bb62b3"
+  },
+  "gain": 0.5,
+  "backbone": {
+    "packaged_checkpoint_sha256": "834260c9838b058d3e415b1efbd3fa19f7998884a36e46d14d62b10ed3ad8cfe",
+    "original_checkpoint_sha256": "f99b7fdb15219c0df10b8f93647c003379a307d59afb6660eb66d9b2830ffdbd",
+    "predictor_tensors_exact": true
+  },
+  "normalization": {
+    "mean": [
+      0.1733045130968094,
+      -0.00037393238744698465
+    ],
+    "std": [
+      0.11372903734445572,
+      0.01720684953033924
+    ]
+  },
+  "train_history_sha256": "2c7fcbc6efb24427199bdd75538e921d35d36a3719a837bc7ebade7ade5a2735",
+  "scores": [
+    {
+      "split": "calibration",
+      "windows": 90,
+      "trajectories": 10,
+      "native_mse": 9.326033616125176e-05,
+      "selected_mse": 9.300989732502894e-05,
+      "raw_mse": 9.350922453165987e-05,
+      "selected_gain_pct": 0.2685373509589306,
+      "improved_trajectories": 7,
+      "prediction_max_error": 0.0,
+      "published_mse_max_error": 1.5901917911793906e-12
+    },
+    {
+      "split": "development",
+      "windows": 108,
+      "trajectories": 12,
+      "native_mse": 0.00016557795525528967,
+      "selected_mse": 0.0001648376758091797,
+      "raw_mse": 0.0001646660147608367,
+      "selected_gain_pct": 0.4470881676057581,
+      "improved_trajectories": 9,
+      "prediction_max_error": 0.0,
+      "published_mse_max_error": 5.964276896799556e-12
+    },
+    {
+      "split": "late",
+      "windows": 120,
+      "trajectories": 12,
+      "native_mse": 0.00015260484745835388,
+      "selected_mse": 0.00015171247530835574,
+      "raw_mse": 0.00015140307311246483,
+      "selected_gain_pct": 0.5847600288330645,
+      "improved_trajectories": 11,
+      "prediction_max_error": 0.0,
+      "published_mse_max_error": 2.6659325246501664e-12
+    },
+    {
+      "split": "future",
+      "windows": 72,
+      "trajectories": 12,
+      "native_mse": 0.00016135122642027994,
+      "selected_mse": 0.00016123107878441485,
+      "raw_mse": 0.00016164941225919289,
+      "selected_gain_pct": 0.07446341656687228,
+      "improved_trajectories": 8,
+      "prediction_max_error": 0.0,
+      "published_mse_max_error": 6.713486456208853e-12
+    }
+  ]
+}

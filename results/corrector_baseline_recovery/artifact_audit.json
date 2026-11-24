@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "verified_new_checkpoints": 108,
+  "replayed_r0_checkpoints": 21,
+  "matched_schedules": true,
+  "identical_initializations": true,
+  "legacy_source_verified": true,
+  "expansion_sources_verified": true,
+  "paired_intervals_recomputed": 26,
+  "test_windows": 1824,
+  "test_leads": 36480,
+  "figures": {
+    "01_learning_curves.png": [
+      2240,
+      640
+    ],
+    "02_diagnostic_fits.png": [
+      1600,
+      1120
+    ],
+    "03_lead_correction_rates.png": [
+      1920,
+      640
+    ]
+  }
+}

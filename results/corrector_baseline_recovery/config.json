@@ -1,0 +1,52 @@
+{
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "checkpoints": [
+    0,
+    50,
+    100,
+    250,
+    500,
+    750,
+    1000,
+    1500,
+    2000
+  ],
+  "batch": 8,
+  "lr_max": 0.0003,
+  "lr_min": 1e-06,
+  "updates": 2000,
+  "weight_decay": 1e-05,
+  "clip": 1.0,
+  "parameter_counts": {
+    "Point": 16504,
+    "Block": 25842
+  },
+  "architecture": {
+    "R0": "Point",
+    "R1": "Point",
+    "R2": "Block",
+    "R3": "Point",
+    "R4": "Block"
+  },
+  "train_windows": {
+    "183": 183,
+    "expanded": 822
+  },
+  "development_windows": 24,
+  "device": "NVIDIA A100-SXM4-80GB",
+  "torch": "1.14.0a0+44dac51",
+  "cudnn": 8700,
+  "input_mean": [
+    0.1723405122756958,
+    -0.0005605015903711319
+  ],
+  "input_std": [
+    0.11231586337089539,
+    0.016708213835954666
+  ],
+  "output_rms": 0.012425203807651997
+}

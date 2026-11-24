@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/cpfs01/projects-HDD/cfff-3469a2cbe57f_HDD/wangxiyun/DiPred+ResCrct/Corrector/research/corrector_baseline_recovery/legacy.py", line 122, in <module>
+    replay(OUT)
+  File "/usr/local/lib/python3.8/dist-packages/torch/autograd/grad_mode.py", line 34, in decorate_context
+    return func(*args, **kwargs)
+  File "/cpfs01/projects-HDD/cfff-3469a2cbe57f_HDD/wangxiyun/DiPred+ResCrct/Corrector/research/corrector_baseline_recovery/legacy.py", line 57, in replay
+    assert cfg == selected["models"]["rescrct_block"] and cfg["gain"] == .5
+AssertionError
+{'split': 'calibration', 'windows': 90, 'trajectories': 10, 'native_mse': 9.326033616125176e-05, 'selected_mse': 9.300989732502894e-05, 'raw_mse': 9.350922453165987e-05, 'selected_gain_pct': 0.2685373509589306, 'improved_trajectories': 7, 'prediction_max_error': 0.0, 'published_mse_max_error': 1.5901917911793906e-12}
+{'split': 'development', 'windows': 108, 'trajectories': 12, 'native_mse': 0.00016557795525528967, 'selected_mse': 0.0001648376758091797, 'raw_mse': 0.0001646660147608367, 'selected_gain_pct': 0.4470881676057581, 'improved_trajectories': 9, 'prediction_max_error': 0.0, 'published_mse_max_error': 5.964276896799556e-12}
+{'split': 'late', 'windows': 120, 'trajectories': 12, 'native_mse': 0.00015260484745835388, 'selected_mse': 0.00015171247530835574, 'raw_mse': 0.00015140307311246483, 'selected_gain_pct': 0.5847600288330645, 'improved_trajectories': 11, 'prediction_max_error': 0.0, 'published_mse_max_error': 2.6659325246501664e-12}
+{'split': 'future', 'windows': 72, 'trajectories': 12, 'native_mse': 0.00016135122642027994, 'selected_mse': 0.00016123107878441485, 'raw_mse': 0.00016164941225919289, 'selected_gain_pct': 0.07446341656687228, 'improved_trajectories': 8, 'prediction_max_error': 0.0, 'published_mse_max_error': 6.713486456208853e-12}

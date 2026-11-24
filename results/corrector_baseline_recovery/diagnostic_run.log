@@ -1,0 +1,32 @@
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/cpfs01/projects-HDD/cfff-3469a2cbe57f_HDD/wangxiyun/DiPred+ResCrct/Corrector/research/corrector_baseline_recovery/diagnostics.py", line 11, in <module>
+    from .model import BlockDelta, input_fields, issue, network
+  File "/cpfs01/projects-HDD/cfff-3469a2cbe57f_HDD/wangxiyun/DiPred+ResCrct/Corrector/research/corrector_baseline_recovery/model.py", line 3, in <module>
+    from torch.nn.utils import convert_conv3d_weight_memory_format
+ImportError: cannot import name 'convert_conv3d_weight_memory_format' from 'torch.nn.utils' (/usr/local/lib/python3.8/dist-packages/torch/nn/utils/__init__.py)
+/usr/local/lib/python3.8/dist-packages/torch/storage.py:315: UserWarning: TypedStorage is deprecated. It will be removed in the future and UntypedStorage will be the only storage class. This should only matter to you if you are using storages directly.
+  warnings.warn(message, UserWarning)
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/cpfs01/projects-HDD/cfff-3469a2cbe57f_HDD/wangxiyun/DiPred+ResCrct/Corrector/research/corrector_baseline_recovery/diagnostics.py", line 94, in <module>
+    run(data,mean,units,scale,OUT)
+  File "/cpfs01/projects-HDD/cfff-3469a2cbe57f_HDD/wangxiyun/DiPred+ResCrct/Corrector/research/corrector_baseline_recovery/diagnostics.py", line 72, in run
+    assert torch.isfinite(torch.stack((loss,grad))).all() and reduction>0
+TypeError: expected Tensor as element 0 in argument 0, but got float
+/usr/local/lib/python3.8/dist-packages/torch/storage.py:315: UserWarning: TypedStorage is deprecated. It will be removed in the future and UntypedStorage will be the only storage class. This should only matter to you if you are using storages directly.
+  warnings.warn(message, UserWarning)
+DIAGNOSTIC {'probe': 'bias', 'architecture': 'Point', 'windows': 4, 'initial_mse': 4.0000000963419784e-05, 'final_mse': 1.7675750402953975e-07, 'reduction_pct': 99.55810625056938}
+DIAGNOSTIC {'probe': 'bias', 'architecture': 'Block', 'windows': 4, 'initial_mse': 4.0000000963419784e-05, 'final_mse': 2.66572714393549e-08, 'reduction_pct': 99.93335682300675}
+DIAGNOSTIC {'probe': 'channel_scale', 'architecture': 'Point', 'windows': 4, 'initial_mse': 2.500710462657258e-05, 'final_mse': 2.790246036855455e-07, 'reduction_pct': 98.88421867364423}
+DIAGNOSTIC {'probe': 'channel_scale', 'architecture': 'Block', 'windows': 4, 'initial_mse': 2.5007106927098624e-05, 'final_mse': 1.0792014816451712e-07, 'reduction_pct': 99.56844208936631}
+DIAGNOSTIC {'probe': 'real_1', 'architecture': 'Point', 'windows': 1, 'initial_mse': 1.569921304610771e-05, 'final_mse': 6.270443775256981e-06, 'reduction_pct': 60.05886564606112}
+DIAGNOSTIC {'probe': 'real_1', 'architecture': 'Block', 'windows': 1, 'initial_mse': 1.569921304610771e-05, 'final_mse': 7.054291087981595e-06, 'reduction_pct': 55.06595733643758}
+DIAGNOSTIC {'probe': 'real_4', 'architecture': 'Point', 'windows': 4, 'initial_mse': 5.069109303215174e-05, 'final_mse': 2.6895383308080045e-05, 'reduction_pct': 46.94258557214152}
+DIAGNOSTIC {'probe': 'real_4', 'architecture': 'Block', 'windows': 4, 'initial_mse': 5.069109303215174e-05, 'final_mse': 3.325993815315822e-05, 'reduction_pct': 34.387017198341916}
