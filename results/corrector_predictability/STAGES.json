@@ -1,0 +1,41 @@
+{
+  "stage0_new_fits": 0,
+  "stage1_fits": 6,
+  "stage2_fits": 9,
+  "stage3_arms": 0,
+  "screening": {
+    "Small": {
+      "improvement_pct": 0.18691979273437834,
+      "positive_nonzero_seeds": 3,
+      "improved_trajectories": 4,
+      "passes": false
+    },
+    "Expanded": {
+      "improvement_pct": 0.059017902795344135,
+      "positive_nonzero_seeds": 3,
+      "improved_trajectories": 7,
+      "passes": false
+    },
+    "XP-zero": {
+      "improvement_pct": 0.09327938922953176,
+      "positive_nonzero_seeds": 3,
+      "improved_trajectories": 6,
+      "passes": false
+    },
+    "XPF": {
+      "improvement_pct": 0.07177804804761785,
+      "positive_nonzero_seeds": 3,
+      "improved_trajectories": 4,
+      "passes": false
+    },
+    "XP-active-control": {
+      "improvement_pct": 0.018672767834493342,
+      "positive_nonzero_seeds": 3,
+      "improved_trajectories": 7,
+      "passes": false
+    }
+  },
+  "direction_base": null,
+  "stage3_status": "not triggered by development",
+  "training_rows": 105
+}

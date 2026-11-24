@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "direction_gradchecks": true,
+  "same_direction_match_and_align": true,
+  "zero_gradient_finite": true,
+  "analytic_alpha": true,
+  "exact_native": true,
+  "label_intervention_bitwise_equal": true,
+  "stage0_test_reproduction_max_abs": 2.4575448176033382e-11,
+  "max_identity_error": 1.8295911660692887e-19,
+  "windows": 1248,
+  "trajectories": 12,
+  "all_window_metrics_finite": true,
+  "frozen_weights_unchanged": true,
+  "P_test_unchanged": true,
+  "test_P_sha256": "49bf9df463b76602c850338fd7b8f97200d8cfdef86050c15cff5a9b9667704d",
+  "elapsed_seconds": 39.98614074289799,
+  "peak_cuda_allocated_bytes": 1807727104
+}

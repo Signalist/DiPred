@@ -1,0 +1,62 @@
+{
+  "passed": true,
+  "training_checkpoints": 105,
+  "parameter_counts": {
+    "Small": 16504,
+    "Expanded": 16504,
+    "XP-zero": 17272,
+    "XPF": 17272,
+    "XP-active-control": 17272
+  },
+  "identical_initial_weights": true,
+  "matched_expanded_schedules": true,
+  "source_and_protocol_hashes": true,
+  "split_trajectories": {
+    "train": 46,
+    "development": 12,
+    "test": 12
+  },
+  "feature_cache_sha256": {
+    "train": "a17ba172a57f1f9a3620fb5aaf1c15820fc7ddc03ec79544beaba5683a712932",
+    "development": "8c2103d9c18768746416af7359e3a894dfbfbb8b205cc222785a6cd3d00c7899",
+    "test": "a905f4d69cdf923afd3b37c5cc3ba44209d51f124516447bdfc135090badcc7a"
+  },
+  "frozen_test_authorization": true,
+  "test_window_rows": 1248,
+  "test_lead_rows": 24960,
+  "recomputed_paired_mse_bootstrap_contrasts": 39,
+  "png_dimensions": {
+    "01_alpha_mse.png": [
+      1110,
+      600
+    ],
+    "02_legal_and_oracle.png": [
+      1200,
+      645
+    ],
+    "03_data_learning_curves.png": [
+      1650,
+      600
+    ],
+    "04_feature_controls.png": [
+      1500,
+      600
+    ],
+    "05_residual_decomposition.png": [
+      1575,
+      1050
+    ],
+    "06_lead_mse.png": [
+      1650,
+      600
+    ],
+    "07_cosine_and_skill.png": [
+      1200,
+      720
+    ],
+    "08_fixed_direction_fields.png": [
+      1650,
+      1125
+    ]
+  }
+}

@@ -1,0 +1,131 @@
+COMMAND /usr/bin/python -m research.corrector_predictability.run
+/usr/local/lib/python3.8/dist-packages/torch/storage.py:315: UserWarning: TypedStorage is deprecated. It will be removed in the future and UntypedStorage will be the only storage class. This should only matter to you if you are using storages directly.
+  warnings.warn(message, UserWarning)
+PREFLIGHT {'passed': True, 'direction_gradchecks': True, 'same_direction_match_and_align': True, 'zero_gradient_finite': True, 'analytic_alpha': True, 'exact_native': True, 'label_intervention_bitwise_equal': True}
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/cpfs01/projects-HDD/cfff-3469a2cbe57f_HDD/wangxiyun/DiPred+ResCrct/Corrector/research/corrector_predictability/run.py", line 124, in <module>
+    main()
+  File "/cpfs01/projects-HDD/cfff-3469a2cbe57f_HDD/wangxiyun/DiPred+ResCrct/Corrector/research/corrector_predictability/run.py", line 72, in main
+    old=read_model(OLD,"XP",row,device)
+  File "/cpfs01/projects-HDD/cfff-3469a2cbe57f_HDD/wangxiyun/DiPred+ResCrct/Corrector/research/corrector_predictability/fit.py", line 158, in read_model
+    model.load_state_dict(torch.load(path,map_location=device,weights_only=True))
+  File "/usr/local/lib/python3.8/dist-packages/torch/serialization.py", line 803, in load
+    raise pickle.UnpicklingError(UNSAFE_MESSAGE + str(e)) from None
+_pickle.UnpicklingError: Weights only load failed. Re-running `torch.load` with `weights_only` set to `False` will likely succeed, but it can result in arbitrary code execution.Do it only if you get the file from a trusted source. WeightsUnpickler error: Unsupported operand 71
+COMMAND /usr/bin/python -m research.corrector_predictability.run
+/usr/local/lib/python3.8/dist-packages/torch/storage.py:315: UserWarning: TypedStorage is deprecated. It will be removed in the future and UntypedStorage will be the only storage class. This should only matter to you if you are using storages directly.
+  warnings.warn(message, UserWarning)
+PREFLIGHT {'passed': True, 'direction_gradchecks': True, 'same_direction_match_and_align': True, 'zero_gradient_finite': True, 'analytic_alpha': True, 'exact_native': True, 'label_intervention_bitwise_equal': True}
+CHECKPOINT Small base 42 0 raw=0.0001546390871 cal=0.0001546390871 a=0.00000
+CHECKPOINT Small base 42 50 raw=0.0001547449308 cal=0.0001546376967 a=0.10223
+CHECKPOINT Small base 42 100 raw=0.0001544656668 cal=0.0001544493143 a=0.77307
+CHECKPOINT Small base 42 250 raw=0.0001561847876 cal=0.0001546390871 a=0.00000
+CHECKPOINT Small base 42 500 raw=0.0001594319405 cal=0.0001544288321 a=0.17012
+CHECKPOINT Small base 42 750 raw=0.0001593641832 cal=0.0001541274625 a=0.23814
+CHECKPOINT Small base 42 1000 raw=0.0001653562337 cal=0.0001544842327 a=0.10662
+CHECKPOINT Small base 43 0 raw=0.0001546390871 cal=0.0001546390871 a=0.00000
+CHECKPOINT Small base 43 50 raw=0.0001549609934 cal=0.0001546390871 a=0.00000
+CHECKPOINT Small base 43 100 raw=0.000154691524 cal=0.0001545950746 a=0.40317
+CHECKPOINT Small base 43 250 raw=0.0001547563325 cal=0.0001543653731 a=0.45555
+CHECKPOINT Small base 43 500 raw=0.0001557876912 cal=0.0001545596028 a=0.20281
+CHECKPOINT Small base 43 750 raw=0.000156582983 cal=0.0001543850159 a=0.25373
+CHECKPOINT Small base 43 1000 raw=0.000157764057 cal=0.0001544782941 a=0.18114
+CHECKPOINT Small base 44 0 raw=0.0001546390871 cal=0.0001546390871 a=0.00000
+CHECKPOINT Small base 44 50 raw=0.0001548615969 cal=0.0001546390871 a=0.00000
+CHECKPOINT Small base 44 100 raw=0.0001548954157 cal=0.0001546384946 a=0.04582
+CHECKPOINT Small base 44 250 raw=0.0001556897489 cal=0.0001546390871 a=0.00000
+CHECKPOINT Small base 44 500 raw=0.0001562289575 cal=0.0001545572724 a=0.18115
+CHECKPOINT Small base 44 750 raw=0.0001577356657 cal=0.0001545903634 a=0.11069
+CHECKPOINT Small base 44 1000 raw=0.000160808148 cal=0.0001546273461 a=0.04176
+CHECKPOINT Expanded base 42 0 raw=0.0001546390871 cal=0.0001546390871 a=0.00000
+CHECKPOINT Expanded base 42 50 raw=0.0001546701928 cal=0.0001546349744 a=0.25469
+CHECKPOINT Expanded base 42 100 raw=0.0001547894386 cal=0.0001546390871 a=0.00000
+CHECKPOINT Expanded base 42 250 raw=0.0001555879226 cal=0.0001546390871 a=0.00000
+CHECKPOINT Expanded base 42 500 raw=0.0001574107295 cal=0.0001546390871 a=0.00000
+CHECKPOINT Expanded base 42 750 raw=0.0001570213455 cal=0.000154616502 a=0.08835
+CHECKPOINT Expanded base 42 1000 raw=0.00015983174 cal=0.0001546384006 a=0.01137
+CHECKPOINT Expanded base 43 0 raw=0.0001546390871 cal=0.0001546390871 a=0.00000
+CHECKPOINT Expanded base 43 50 raw=0.0001548873858 cal=0.0001546390871 a=0.00000
+CHECKPOINT Expanded base 43 100 raw=0.0001547736729 cal=0.0001546370369 a=0.10913
+CHECKPOINT Expanded base 43 250 raw=0.0001555642268 cal=0.0001546390871 a=0.00000
+CHECKPOINT Expanded base 43 500 raw=0.0001557015633 cal=0.0001546249094 a=0.10294
+CHECKPOINT Expanded base 43 750 raw=0.000159299413 cal=0.0001546390871 a=0.00000
+CHECKPOINT Expanded base 43 1000 raw=0.0001592960322 cal=0.0001546390871 a=0.00000
+CHECKPOINT Expanded base 44 0 raw=0.0001546390871 cal=0.0001546390871 a=0.00000
+CHECKPOINT Expanded base 44 50 raw=0.0001546862785 cal=0.0001546390871 a=0.00000
+CHECKPOINT Expanded base 44 100 raw=0.0001548156789 cal=0.0001546390871 a=0.00000
+CHECKPOINT Expanded base 44 250 raw=0.0001556074948 cal=0.0001546390871 a=0.00000
+CHECKPOINT Expanded base 44 500 raw=0.0001559735156 cal=0.0001546390871 a=0.00000
+CHECKPOINT Expanded base 44 750 raw=0.000155318961 cal=0.000154546922 a=0.25679
+CHECKPOINT Expanded base 44 1000 raw=0.0001554969937 cal=0.0001544020557 a=0.31753
+CHECKPOINT XP-zero base 42 0 raw=0.0001546390871 cal=0.0001546390871 a=0.00000
+CHECKPOINT XP-zero base 42 50 raw=0.0001546481521 cal=0.0001546344505 a=0.36778
+CHECKPOINT XP-zero base 42 100 raw=0.0001547395089 cal=0.0001546379026 a=0.09745
+CHECKPOINT XP-zero base 42 250 raw=0.0001545653169 cal=0.0001544222953 a=0.55181
+CHECKPOINT XP-zero base 42 500 raw=0.0001552027076 cal=0.0001545227765 a=0.29258
+CHECKPOINT XP-zero base 42 750 raw=0.0001560593676 cal=0.0001544104178 a=0.27135
+CHECKPOINT XP-zero base 42 1000 raw=0.0001579220544 cal=0.0001544586689 a=0.18583
+CHECKPOINT XP-zero base 43 0 raw=0.0001546390871 cal=0.0001546390871 a=0.00000
+CHECKPOINT XP-zero base 43 50 raw=0.0001548760768 cal=0.0001546390871 a=0.00000
+CHECKPOINT XP-zero base 43 100 raw=0.0001549045986 cal=0.0001546390871 a=0.00000
+CHECKPOINT XP-zero base 43 250 raw=0.0001550477579 cal=0.0001546390252 a=0.01216
+CHECKPOINT XP-zero base 43 500 raw=0.0001553960827 cal=0.0001545449825 a=0.24954
+CHECKPOINT XP-zero base 43 750 raw=0.0001572811645 cal=0.0001546390871 a=0.00000
+CHECKPOINT XP-zero base 43 1000 raw=0.0001565231244 cal=0.0001545890635 a=0.13854
+CHECKPOINT XP-zero base 44 0 raw=0.0001546390871 cal=0.0001546390871 a=0.00000
+CHECKPOINT XP-zero base 44 50 raw=0.0001547576317 cal=0.0001546390871 a=0.00000
+CHECKPOINT XP-zero base 44 100 raw=0.0001547698941 cal=0.0001546390871 a=0.00000
+CHECKPOINT XP-zero base 44 250 raw=0.0001558574906 cal=0.0001546390871 a=0.00000
+CHECKPOINT XP-zero base 44 500 raw=0.0001554409375 cal=0.0001546162712 a=0.14261
+CHECKPOINT XP-zero base 44 750 raw=0.0001553784194 cal=0.0001545291219 a=0.26461
+CHECKPOINT XP-zero base 44 1000 raw=0.0001567216264 cal=0.0001546016428 a=0.11731
+CHECKPOINT XPF base 42 0 raw=0.0001546390871 cal=0.0001546390871 a=0.00000
+CHECKPOINT XPF base 42 50 raw=0.0001545629306 cal=0.0001545623997 a=0.92318
+CHECKPOINT XPF base 42 100 raw=0.0001550240984 cal=0.0001546390871 a=0.00000
+CHECKPOINT XPF base 42 250 raw=0.0001556486653 cal=0.000154622572 a=0.11258
+CHECKPOINT XPF base 42 500 raw=0.0001569210919 cal=0.0001546390871 a=0.00000
+CHECKPOINT XPF base 42 750 raw=0.0001584719349 cal=0.0001546351608 a=0.03100
+CHECKPOINT XPF base 42 1000 raw=0.0001601251649 cal=0.0001546294185 a=0.04026
+CHECKPOINT XPF base 43 0 raw=0.0001546390871 cal=0.0001546390871 a=0.00000
+CHECKPOINT XPF base 43 50 raw=0.0001552156002 cal=0.0001546390871 a=0.00000
+CHECKPOINT XPF base 43 100 raw=0.0001549948438 cal=0.0001546325157 a=0.11869
+CHECKPOINT XPF base 43 250 raw=0.0001558072097 cal=0.0001546390871 a=0.00000
+CHECKPOINT XPF base 43 500 raw=0.0001559400695 cal=0.000154600493 a=0.14511
+CHECKPOINT XPF base 43 750 raw=0.000159015273 cal=0.0001546390871 a=0.00000
+CHECKPOINT XPF base 43 1000 raw=0.0001602976082 cal=0.0001546390871 a=0.00000
+CHECKPOINT XPF base 44 0 raw=0.0001546390871 cal=0.0001546390871 a=0.00000
+CHECKPOINT XPF base 44 50 raw=0.0001547094995 cal=0.0001546390871 a=0.00000
+CHECKPOINT XPF base 44 100 raw=0.0001548339197 cal=0.0001546390871 a=0.00000
+CHECKPOINT XPF base 44 250 raw=0.0001560021622 cal=0.0001546390871 a=0.00000
+CHECKPOINT XPF base 44 500 raw=0.0001552369906 cal=0.0001544213779 a=0.34065
+CHECKPOINT XPF base 44 750 raw=0.0001581393394 cal=0.0001546390844 a=0.00088
+CHECKPOINT XPF base 44 1000 raw=0.0001594321992 cal=0.0001546390871 a=0.00000
+CHECKPOINT XP-active-control base 42 0 raw=0.0001546390871 cal=0.0001546390871 a=0.00000
+CHECKPOINT XP-active-control base 42 50 raw=0.0001548263637 cal=0.0001546390871 a=0.00000
+CHECKPOINT XP-active-control base 42 100 raw=0.0001550321403 cal=0.0001546390871 a=0.00000
+CHECKPOINT XP-active-control base 42 250 raw=0.0001555615349 cal=0.0001546304468 a=0.08787
+CHECKPOINT XP-active-control base 42 500 raw=0.0001562083999 cal=0.0001546390871 a=0.00000
+CHECKPOINT XP-active-control base 42 750 raw=0.0001574894925 cal=0.0001546098451 a=0.09155
+CHECKPOINT XP-active-control base 42 1000 raw=0.000160056628 cal=0.0001546390871 a=0.00000
+CHECKPOINT XP-active-control base 43 0 raw=0.0001546390871 cal=0.0001546390871 a=0.00000
+CHECKPOINT XP-active-control base 43 50 raw=0.0001549202326 cal=0.0001546390871 a=0.00000
+CHECKPOINT XP-active-control base 43 100 raw=0.0001548364445 cal=0.0001546390871 a=0.00000
+CHECKPOINT XP-active-control base 43 250 raw=0.0001555012657 cal=0.0001546390871 a=0.00000
+CHECKPOINT XP-active-control base 43 500 raw=0.0001556328517 cal=0.0001545836562 a=0.18689
+CHECKPOINT XP-active-control base 43 750 raw=0.0001583651308 cal=0.0001546390871 a=0.00000
+CHECKPOINT XP-active-control base 43 1000 raw=0.0001582783603 cal=0.0001546274745 a=0.05339
+CHECKPOINT XP-active-control base 44 0 raw=0.0001546390871 cal=0.0001546390871 a=0.00000
+CHECKPOINT XP-active-control base 44 50 raw=0.0001547419688 cal=0.0001546390871 a=0.00000
+CHECKPOINT XP-active-control base 44 100 raw=0.0001550302189 cal=0.0001546390871 a=0.00000
+CHECKPOINT XP-active-control base 44 250 raw=0.0001562528665 cal=0.0001546390871 a=0.00000
+CHECKPOINT XP-active-control base 44 500 raw=0.0001561788979 cal=0.0001546390414 a=0.00542
+CHECKPOINT XP-active-control base 44 750 raw=0.0001572352624 cal=0.0001546371338 a=0.02669
+CHECKPOINT XP-active-control base 44 1000 raw=0.0001585889425 cal=0.0001546390871 a=0.00000
+STAGE GATE {'stage0_new_fits': 0, 'stage1_fits': 6, 'stage2_fits': 9, 'stage3_arms': 0, 'screening': {'Small': {'improvement_pct': 0.18691979273437834, 'positive_nonzero_seeds': 3, 'improved_trajectories': 4, 'passes': False}, 'Expanded': {'improvement_pct': 0.059017902795344135, 'positive_nonzero_seeds': 3, 'improved_trajectories': 7, 'passes': False}, 'XP-zero': {'improvement_pct': 0.09327938922953176, 'positive_nonzero_seeds': 3, 'improved_trajectories': 6, 'passes': False}, 'XPF': {'improvement_pct': 0.07177804804761785, 'positive_nonzero_seeds': 3, 'improved_trajectories': 4, 'passes': False}, 'XP-active-control': {'improvement_pct': 0.018672767834493342, 'positive_nonzero_seeds': 3, 'improved_trajectories': 7, 'passes': False}}, 'direction_base': None, 'stage3_status': 'not triggered by development', 'training_rows': 105}
+FROZEN before test cache access
+FEATURES test 24 8 0.12s
+PASS {'passed': True, 'direction_gradchecks': True, 'same_direction_match_and_align': True, 'zero_gradient_finite': True, 'analytic_alpha': True, 'exact_native': True, 'label_intervention_bitwise_equal': True, 'stage0_test_reproduction_max_abs': 2.4575448176033382e-11, 'max_identity_error': 1.8295911660692887e-19, 'windows': 1248, 'trajectories': 12, 'all_window_metrics_finite': True, 'frozen_weights_unchanged': True, 'P_test_unchanged': True, 'test_P_sha256': '49bf9df463b76602c850338fd7b8f97200d8cfdef86050c15cff5a9b9667704d', 'elapsed_seconds': 39.98614074289799, 'peak_cuda_allocated_bytes': 1807727104}
