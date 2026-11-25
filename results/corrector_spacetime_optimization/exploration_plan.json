@@ -1,0 +1,30 @@
+[
+  {
+    "branch": "B",
+    "loss": "relation",
+    "control": "B_DIR_rho_0.1",
+    "hypothesis": "保留真实相邻方向关系可能优于强制近邻同向",
+    "rho": 0.3
+  },
+  {
+    "branch": "B",
+    "loss": "match2",
+    "control": "B_ACC_raw_1",
+    "hypothesis": "恢复真实二阶差分可能优于抑制预测二阶变化",
+    "rho": 0.3
+  },
+  {
+    "branch": "E",
+    "loss": "relation",
+    "control": "E_DIR_rho_0.1",
+    "hypothesis": "保留真实相邻方向关系可能优于强制近邻同向",
+    "rho": 0.3
+  },
+  {
+    "branch": "E",
+    "loss": "match2",
+    "control": "E_ACC_raw_1",
+    "hypothesis": "恢复真实二阶差分可能优于抑制预测二阶变化",
+    "rho": 0.3
+  }
+]

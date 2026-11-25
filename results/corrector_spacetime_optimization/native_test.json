@@ -1,0 +1,75 @@
+{
+  "current_cache_sha256": "33aafbf05621567ecf803a77a4f2f7bf0e451dbc2421be0bacc1db7405e5b200",
+  "matched_P_sha256": "83ea3a73a5fbbb34a38cc89912f039d531f70ffbdf4442e167d03027647a399f",
+  "previous_P_sha256": "171fac506a8cd007ace99a54e6ccfb31d8e80d094d3647ef3ed262058ab0b0cc",
+  "previous_X_sha256": "fbca012e6b05138093758e903ac72f139c73cf078c19b11f5061a668371b035b",
+  "reused_previous": 12,
+  "new_previous": 12,
+  "added_recipe": {
+    "keys": [
+      [
+        "13950_0.h5",
+        380
+      ],
+      [
+        "13950_10.h5",
+        380
+      ],
+      [
+        "13950_15.h5",
+        380
+      ],
+      [
+        "13950_20.h5",
+        380
+      ],
+      [
+        "13950_5.h5",
+        380
+      ],
+      [
+        "22875_0.h5",
+        380
+      ],
+      [
+        "22875_10.h5",
+        380
+      ],
+      [
+        "22875_15.h5",
+        380
+      ],
+      [
+        "3750_0.h5",
+        380
+      ],
+      [
+        "3750_10.h5",
+        380
+      ],
+      [
+        "3750_20.h5",
+        380
+      ],
+      [
+        "3750_5.h5",
+        380
+      ]
+    ],
+    "history_sha256": "04ff69012ae293c153d4fae7d286e735389df980f1061c5bf68b09f11eb839d6",
+    "backbone": {
+      "packaged_checkpoint_sha256": "834260c9838b058d3e415b1efbd3fa19f7998884a36e46d14d62b10ed3ad8cfe",
+      "original_checkpoint_sha256": "f99b7fdb15219c0df10b8f93647c003379a307d59afb6660eb66d9b2830ffdbd",
+      "predictor_tensors_exact": true
+    },
+    "denoising_labels": [
+      99,
+      66,
+      33,
+      0
+    ],
+    "zero_initial_noise": true
+  },
+  "generated_cache_sha256": "2b0df4b81db024d8ba02daa6134601f3ba46c11d39c7f981623ff31d64d2b335",
+  "test_freeze_sha256": "400ce1a7ce13b7a3c63933fdc023425a1b382ae8de4b4b7c815c5217988f9e83"
+}

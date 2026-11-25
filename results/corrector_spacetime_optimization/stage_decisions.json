@@ -1,0 +1,21 @@
+{
+  "core_fits": 60,
+  "extension_fits": 4,
+  "boundary": {
+    "eligible": 8,
+    "executed": 0
+  },
+  "not_executed": {
+    "extra_seeds_and_multinoise": "outside fixed study design",
+    "direction_alignment_and_magnitude_relation": "prioritize adjacent directional relation and both temporal orders",
+    "boundary_formula": "algebraically equal to first-lead MSE",
+    "alternative_history_layout_or_self_feedback": "changes the input regime of the core comparison",
+    "auxiliary_schedules_and_S3_refit": "would require additional matched fits",
+    "edge_Re_and_internal_holdout": "current fixed cohort and historical reference used",
+    "rho_0.01_and_1.0": "prespecified 0.1 and 0.3 are the core search"
+  },
+  "extra_data_used": false,
+  "expert_feedback_rollout": false,
+  "internal_holdout_reused": false,
+  "batch_probes": 3
+}

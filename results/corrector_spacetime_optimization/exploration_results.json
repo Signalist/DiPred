@@ -1,0 +1,54 @@
+[
+  {
+    "branch": "B",
+    "loss": "relation",
+    "control": "B_DIR_rho_0.1",
+    "hypothesis": "保留真实相邻方向关系可能优于强制近邻同向",
+    "rho": 0.3,
+    "clipped": false,
+    "calibrated_weight": 0.04988735058685951,
+    "executed": true,
+    "run": "B_ext_relation",
+    "gain_pct": -0.33105024003921013,
+    "improved": 1
+  },
+  {
+    "branch": "B",
+    "loss": "match2",
+    "control": "B_ACC_raw_1",
+    "hypothesis": "恢复真实二阶差分可能优于抑制预测二阶变化",
+    "rho": 0.3,
+    "clipped": false,
+    "calibrated_weight": 4.053549527698782,
+    "executed": true,
+    "run": "B_ext_match2",
+    "gain_pct": 1.385656744793018,
+    "improved": 4
+  },
+  {
+    "branch": "E",
+    "loss": "relation",
+    "control": "E_DIR_rho_0.1",
+    "hypothesis": "保留真实相邻方向关系可能优于强制近邻同向",
+    "rho": 0.3,
+    "clipped": false,
+    "calibrated_weight": 0.043769422072489475,
+    "executed": true,
+    "run": "E_ext_relation",
+    "gain_pct": 0.732621779528575,
+    "improved": 5
+  },
+  {
+    "branch": "E",
+    "loss": "match2",
+    "control": "E_ACC_raw_1",
+    "hypothesis": "恢复真实二阶差分可能优于抑制预测二阶变化",
+    "rho": 0.3,
+    "clipped": false,
+    "calibrated_weight": 4.629423049275703,
+    "executed": true,
+    "run": "E_ext_match2",
+    "gain_pct": 2.5147152961104036,
+    "improved": 8
+  }
+]

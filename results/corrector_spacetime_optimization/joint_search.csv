@@ -1,0 +1,9 @@
+branch,requested,run,stage,loss,coordinate,weights,step,dev_mse,gain_native_pct
+B,JOINT_original,B_JOINT,joint,,,"{""acceleration"": 0.1, ""direction"": 0.1, ""magnitude"": 0.1, ""velocity"": 0.1}",6000,0.0001465888049801381,4.838149010249138
+B,JOINT_tuned,B_JOINT_tuned,joint,,,"{""acceleration"": 1.0, ""direction"": 0.007248148318330042, ""magnitude"": 0.21793407200176948, ""match"": 1.0109951836659503, ""velocity"": 1.2526853463524037}",5000,0.00014386385188296406,6.607121617826306
+B,JOINT_balanced,B_JOINT_balanced,joint,joint_gradient_ratio,0.3000000160762312,"{""acceleration"": 1.070598425709616, ""direction"": 0.007759856178913943, ""magnitude"": 0.23331987439358048, ""match"": 1.0823698520327705, ""velocity"": 1.3411229597143883}",5000,0.0001439057853051251,6.579899470325201
+B,JOINT_top2,B_JOINT_top2,joint,,,"{""acceleration"": 1.0, ""velocity"": 1.2526853463524037}",6000,0.0001424126825359413,7.549185107469903
+E,JOINT_original,E_JOINT,joint,,,"{""acceleration"": 0.1, ""direction"": 0.1, ""magnitude"": 0.1, ""velocity"": 0.1}",2000,0.0001485828805300815,3.543644151083869
+E,JOINT_tuned,E_JOINT_tuned,joint,,,"{""acceleration"": 1.0, ""direction"": 0.007453216147725557, ""magnitude"": 0.22300940349782153, ""match"": 1.0, ""velocity"": 1.0257043776657966}",6000,0.00014328702947798264,6.9815805525166414
+E,JOINT_balanced,E_JOINT_balanced,joint,joint_gradient_ratio,0.2999999849236016,"{""acceleration"": 0.9765569082641711, ""direction"": 0.0072784897178474655, ""magnitude"": 0.2177813735936696, ""match"": 0.9765569082641711, ""velocity"": 1.001658695846336}",6000,0.00014334586910191852,6.943383314152918
+E,JOINT_top2,E_JOINT_top2,joint,,,"{""magnitude"": 0.22300940349782153, ""match"": 1.0}",6000,0.00014456776091864023,6.150161164588209

@@ -1,0 +1,360 @@
+{
+  "passed": true,
+  "freeze_sha256": "400ce1a7ce13b7a3c63933fdc023425a1b382ae8de4b4b7c815c5217988f9e83",
+  "source_weights_unchanged": true,
+  "zero_exact": true,
+  "restoration_max_error": 9.757819293875598e-20,
+  "score_max_identity_error": 7.318364664277155e-19,
+  "future_mutation_bitwise": [
+    "B_ACC_raw_1",
+    "B_DIR_rho_0.1",
+    "B_JOINT_top2",
+    "B_MAG_rho_0.1",
+    "B_MATCH_rho_0.1",
+    "B_MSE",
+    "B_VEL_rho_0.1",
+    "B_ext_match2",
+    "E_ACC_raw_1",
+    "E_DIR_rho_0.1",
+    "E_JOINT_tuned",
+    "E_MAG_rho_0.1",
+    "E_MATCH_raw_1",
+    "E_MSE",
+    "E_VEL_rho_0.1",
+    "E_ext_match2",
+    "Native",
+    "S3"
+  ],
+  "numpy_recomputations": [
+    {
+      "split": "development",
+      "arm": "Native",
+      "mse": 0.00015404156545454964,
+      "absolute_error": 2.710505431213761e-20
+    },
+    {
+      "split": "development",
+      "arm": "S3",
+      "mse": 0.00014587775063599793,
+      "absolute_error": 0.0
+    },
+    {
+      "split": "development",
+      "arm": "B_MSE",
+      "mse": 0.00014467979924516518,
+      "absolute_error": 0.0
+    },
+    {
+      "split": "development",
+      "arm": "E_MSE",
+      "mse": 0.00014683992872359925,
+      "absolute_error": 0.0
+    },
+    {
+      "split": "development",
+      "arm": "B_DIR_rho_0.1",
+      "mse": 0.00014292719259631037,
+      "absolute_error": 0.0
+    },
+    {
+      "split": "development",
+      "arm": "B_MAG_rho_0.1",
+      "mse": 0.0001435898509646617,
+      "absolute_error": 0.0
+    },
+    {
+      "split": "development",
+      "arm": "B_VEL_rho_0.1",
+      "mse": 0.00014240717303468496,
+      "absolute_error": 0.0
+    },
+    {
+      "split": "development",
+      "arm": "B_ACC_raw_1",
+      "mse": 0.00014221007955466804,
+      "absolute_error": 5.421010862427522e-20
+    },
+    {
+      "split": "development",
+      "arm": "B_MATCH_rho_0.1",
+      "mse": 0.00014377105748052975,
+      "absolute_error": 2.710505431213761e-20
+    },
+    {
+      "split": "development",
+      "arm": "E_DIR_rho_0.1",
+      "mse": 0.0001458122611183455,
+      "absolute_error": 0.0
+    },
+    {
+      "split": "development",
+      "arm": "E_MAG_rho_0.1",
+      "mse": 0.00014435761258973755,
+      "absolute_error": 0.0
+    },
+    {
+      "split": "development",
+      "arm": "E_VEL_rho_0.1",
+      "mse": 0.00014446228467810475,
+      "absolute_error": 0.0
+    },
+    {
+      "split": "development",
+      "arm": "E_ACC_raw_1",
+      "mse": 0.00014486624345721343,
+      "absolute_error": 2.710505431213761e-20
+    },
+    {
+      "split": "development",
+      "arm": "E_MATCH_raw_1",
+      "mse": 0.0001438042119064433,
+      "absolute_error": 0.0
+    },
+    {
+      "split": "development",
+      "arm": "B_JOINT_top2",
+      "mse": 0.00014241268253594136,
+      "absolute_error": 0.0
+    },
+    {
+      "split": "development",
+      "arm": "E_JOINT_tuned",
+      "mse": 0.00014328702947798264,
+      "absolute_error": 0.0
+    },
+    {
+      "split": "development",
+      "arm": "B_ext_match2",
+      "mse": 0.00014267503384857153,
+      "absolute_error": 0.0
+    },
+    {
+      "split": "development",
+      "arm": "E_ext_match2",
+      "mse": 0.00014314732257518931,
+      "absolute_error": 2.710505431213761e-20
+    },
+    {
+      "split": "test",
+      "arm": "Native",
+      "mse": 0.00011161243437773623,
+      "absolute_error": 2.710505431213761e-20
+    },
+    {
+      "split": "test",
+      "arm": "S3",
+      "mse": 0.00010647620242891139,
+      "absolute_error": 1.3552527156068805e-20
+    },
+    {
+      "split": "test",
+      "arm": "B_MSE",
+      "mse": 0.0001063989334069436,
+      "absolute_error": 0.0
+    },
+    {
+      "split": "test",
+      "arm": "E_MSE",
+      "mse": 0.00010587231245368801,
+      "absolute_error": 1.3552527156068805e-20
+    },
+    {
+      "split": "test",
+      "arm": "B_DIR_rho_0.1",
+      "mse": 0.00010652208174820728,
+      "absolute_error": 0.0
+    },
+    {
+      "split": "test",
+      "arm": "B_MAG_rho_0.1",
+      "mse": 0.00010558988419658445,
+      "absolute_error": 0.0
+    },
+    {
+      "split": "test",
+      "arm": "B_VEL_rho_0.1",
+      "mse": 0.00010645116526991525,
+      "absolute_error": 1.3552527156068805e-20
+    },
+    {
+      "split": "test",
+      "arm": "B_ACC_raw_1",
+      "mse": 0.00010762956285550259,
+      "absolute_error": 1.3552527156068805e-20
+    },
+    {
+      "split": "test",
+      "arm": "B_MATCH_rho_0.1",
+      "mse": 0.0001064295151992059,
+      "absolute_error": 1.3552527156068805e-20
+    },
+    {
+      "split": "test",
+      "arm": "E_DIR_rho_0.1",
+      "mse": 0.00010545308116859327,
+      "absolute_error": 1.3552527156068805e-20
+    },
+    {
+      "split": "test",
+      "arm": "E_MAG_rho_0.1",
+      "mse": 0.00010625901624014599,
+      "absolute_error": 2.710505431213761e-20
+    },
+    {
+      "split": "test",
+      "arm": "E_VEL_rho_0.1",
+      "mse": 0.00010601987393896391,
+      "absolute_error": 2.710505431213761e-20
+    },
+    {
+      "split": "test",
+      "arm": "E_ACC_raw_1",
+      "mse": 0.00010567356133501332,
+      "absolute_error": 1.3552527156068805e-20
+    },
+    {
+      "split": "test",
+      "arm": "E_MATCH_raw_1",
+      "mse": 0.00010527268546638799,
+      "absolute_error": 4.0657581468206416e-20
+    },
+    {
+      "split": "test",
+      "arm": "B_JOINT_top2",
+      "mse": 0.00010652491606370769,
+      "absolute_error": 0.0
+    },
+    {
+      "split": "test",
+      "arm": "E_JOINT_tuned",
+      "mse": 0.00010524119869908352,
+      "absolute_error": 0.0
+    },
+    {
+      "split": "test",
+      "arm": "B_ext_match2",
+      "mse": 0.00010660763824075056,
+      "absolute_error": 1.3552527156068805e-20
+    },
+    {
+      "split": "test",
+      "arm": "E_ext_match2",
+      "mse": 0.00010514157987454519,
+      "absolute_error": 0.0
+    }
+  ],
+  "historical_baselines": [
+    {
+      "split": "development",
+      "policy": "selected",
+      "arm": "Native",
+      "absolute_error": 0.0
+    },
+    {
+      "split": "development",
+      "policy": "selected",
+      "arm": "S3",
+      "absolute_error": 0.0
+    },
+    {
+      "split": "development",
+      "policy": "selected",
+      "arm": "B_MSE",
+      "absolute_error": 0.0
+    },
+    {
+      "split": "development",
+      "policy": "selected",
+      "arm": "E_MSE",
+      "absolute_error": 0.0
+    },
+    {
+      "split": "development",
+      "policy": "final",
+      "arm": "Native",
+      "absolute_error": 0.0
+    },
+    {
+      "split": "development",
+      "policy": "final",
+      "arm": "S3",
+      "absolute_error": 0.0
+    },
+    {
+      "split": "development",
+      "policy": "final",
+      "arm": "B_MSE",
+      "absolute_error": 0.0
+    },
+    {
+      "split": "development",
+      "policy": "final",
+      "arm": "E_MSE",
+      "absolute_error": 0.0
+    },
+    {
+      "split": "test",
+      "policy": "selected",
+      "arm": "Native",
+      "absolute_error": 0.0
+    },
+    {
+      "split": "test",
+      "policy": "selected",
+      "arm": "S3",
+      "absolute_error": 0.0
+    },
+    {
+      "split": "test",
+      "policy": "selected",
+      "arm": "B_MSE",
+      "absolute_error": 0.0
+    },
+    {
+      "split": "test",
+      "policy": "selected",
+      "arm": "E_MSE",
+      "absolute_error": 0.0
+    },
+    {
+      "split": "test",
+      "policy": "final",
+      "arm": "Native",
+      "absolute_error": 0.0
+    },
+    {
+      "split": "test",
+      "policy": "final",
+      "arm": "S3",
+      "absolute_error": 0.0
+    },
+    {
+      "split": "test",
+      "policy": "final",
+      "arm": "B_MSE",
+      "absolute_error": 0.0
+    },
+    {
+      "split": "test",
+      "policy": "final",
+      "arm": "E_MSE",
+      "absolute_error": 0.0
+    }
+  ],
+  "native_identity": {
+    "development": {
+      "prior_native": "b2154ecc384ef3173e328c443d66a4343c35d37ad7008381029c722124b9145e",
+      "feedback_cache": "c171670745c3779162cbee5f4231049c2110be730b223f1d61e605fe331862dd",
+      "current_native": "7cbb0467869bc062103ad0b00433df92ac79122e8a262c19d1f501b7636120b8",
+      "previous_native": "9334b95b967ab80de4aff5c39c8626e6881a05f3463d3479e3ee445e60fb80cf"
+    },
+    "test": {
+      "prior_native": "9440b402b4c6310329123ff91d2c12e06d18e68b621b647c1179c4fedd990e71",
+      "feedback_cache": "0d8cb866e0ef3abe6e9066a291c845c4a36e4648a93184ec625e5c59c2748735",
+      "current_native": "83ea3a73a5fbbb34a38cc89912f039d531f70ffbdf4442e167d03027647a399f",
+      "previous_native": "171fac506a8cd007ace99a54e6ccfb31d8e80d094d3647ef3ed262058ab0b0cc"
+    }
+  },
+  "window_rows": 6336,
+  "lead_rows": 126720
+}
