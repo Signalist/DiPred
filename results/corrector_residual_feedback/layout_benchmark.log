@@ -1,0 +1,4 @@
+6 torch.contiguous_format 0.04658109205774963
+6 torch.channels_last_3d 0.3900337149389088
+12 torch.contiguous_format 0.05233482690528035
+12 torch.channels_last_3d 0.43367885518819094

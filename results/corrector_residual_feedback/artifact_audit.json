@@ -1,0 +1,85 @@
+{
+  "passed": true,
+  "freeze_sha256": "efeb6f6e1962e0b0336bea13fb20b4ff3af28df642678acc78a86c9a20c7365b",
+  "figures": {
+    "01_factorial_results.png": [
+      1440,
+      640
+    ],
+    "02_lead_native.png": [
+      1760,
+      640
+    ],
+    "03_lead_over_A.png": [
+      1760,
+      640
+    ],
+    "04_single_inputs.png": [
+      1760,
+      640
+    ],
+    "05_combined_inputs.png": [
+      1760,
+      640
+    ],
+    "06_temporal_correlations.png": [
+      1920,
+      640
+    ],
+    "07_input_dependency.png": [
+      2240,
+      2880
+    ],
+    "08_learning_curves.png": [
+      1920,
+      640
+    ],
+    "09_gain_decomposition.png": [
+      2080,
+      640
+    ],
+    "10_fixed_physical_fields.png": [
+      2400,
+      1280
+    ],
+    "11_regimes.png": [
+      2400,
+      1120
+    ],
+    "12_factorial_effects.png": [
+      1760,
+      640
+    ],
+    "13_feedback_rollout.png": [
+      1920,
+      640
+    ]
+  },
+  "checkpoints": 169,
+  "windows": 19140,
+  "leads": 382800,
+  "contrasts": 192,
+  "factorial_effects": 42,
+  "shared_P_targets_and_schedule": true,
+  "zero_slots_verified": true,
+  "independent_numpy_mse_max_error": {
+    "A:selected": 1.0842021724855044e-19,
+    "A:final": 1.0842021724855044e-19,
+    "B:selected": 1.0842021724855044e-19,
+    "B:final": 1.0842021724855044e-19,
+    "C:selected": 5.421010862427522e-20,
+    "C:final": 5.421010862427522e-20,
+    "D:selected": 1.0842021724855044e-19,
+    "D:final": 1.0842021724855044e-19,
+    "E:selected": 5.421010862427522e-20,
+    "E:final": 5.421010862427522e-20,
+    "F:selected": 5.421010862427522e-20,
+    "F:final": 5.421010862427522e-20,
+    "G:selected": 5.421010862427522e-20,
+    "G:final": 5.421010862427522e-20,
+    "H:selected": 1.0842021724855044e-19,
+    "H:final": 1.0842021724855044e-19,
+    "Capacity:selected": 5.421010862427522e-20,
+    "Capacity:final": 5.421010862427522e-20
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "prior_commit": "e78f1160c63eafef9c8963b0a68ac9617ca125fb",
+  "prior_freeze_sha256": "0901af0d1d50788b1131350770b8843addc2548bf9697a77a9592c58ee020723",
+  "external": {
+    "config": {
+      "width": 32,
+      "lr": 0.001,
+      "weight_decay": 1e-05,
+      "updates": 6000,
+      "aux": {},
+      "input": "S3"
+    },
+    "selected": {
+      "run": "budget_6000",
+      "step": 6000,
+      "checkpoint": "checkpoints/budget_6000_6000.pt",
+      "external_checkpoint": "",
+      "sha256": "146c084358838d1b266a40c8eaf459def2551c89c16131b711e2e02bad5ba5d8",
+      "schedule_sha256": "da3d59a77904c0209e26630a297b846f53cb0bcdee85c6005c6890da939a2d56",
+      "lr": 1e-06,
+      "batch_loss": 0.9255512952804565,
+      "gradient_norm": 0.7973379492759705,
+      "train_mse": 0.0001480719827522153,
+      "train_native": 0.000158872147480178,
+      "train_C": 1.0315126173720572e-05,
+      "train_E": 9.830087619478414e-06,
+      "train_G": 1.0800164727962731e-05,
+      "train_cosine": 0.22960733299067507,
+      "train_identity_error": 2.168404344971009e-19,
+      "dev_mse": 0.00014587775063599795,
+      "dev_native": 0.00015404156545454966,
+      "dev_C": 9.14008956204543e-06,
+      "dev_E": 1.011636430553913e-05,
+      "dev_G": 8.16381481855173e-06,
+      "dev_cosine": 0.1983685843663711,
+      "dev_identity_error": 8.131516293641283e-20
+    },
+    "stage": "budget",
+    "elapsed_seconds": 2472.77
+  },
+  "initial": {
+    "file": "checkpoints/budget_6000_0.pt",
+    "sha256": "7e5695dd7e03ee1aca4b38438505e9539a20bf429b57a5a90ee63a8eaf4bd25f"
+  },
+  "backbone": {
+    "packaged_checkpoint_sha256": "834260c9838b058d3e415b1efbd3fa19f7998884a36e46d14d62b10ed3ad8cfe",
+    "original_checkpoint_sha256": "f99b7fdb15219c0df10b8f93647c003379a307d59afb6660eb66d9b2830ffdbd",
+    "predictor_tensors_exact": true
+  },
+  "schedule": {
+    "file": "schedule_main.pt",
+    "sha256": "7760290e3453d881b1025596a87da17de3544000260898991ea4899bd576ed0d",
+    "tensor_sha256": "da3d59a77904c0209e26630a297b846f53cb0bcdee85c6005c6890da939a2d56"
+  },
+  "protocol_sha256": "722ebd27690a57db478db8c069a778f962b46efb2e3095ababf486873e74bed5"
+}

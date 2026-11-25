@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "freeze_sha256": "efeb6f6e1962e0b0336bea13fb20b4ff3af28df642678acc78a86c9a20c7365b",
+  "score_max_identity_error": 8.673617379884035e-19,
+  "restoration_max_error": 1.387778801460961e-18,
+  "source_weights_unchanged": true,
+  "test_future_mutation_bitwise": true,
+  "rollout_future_mutation_bitwise": true,
+  "zero_exact": true,
+  "truth_recovers_target": true,
+  "seed": 42,
+  "window_rows": 19140,
+  "lead_rows": 382800,
+  "rollout_rows": 144
+}
