@@ -1,0 +1,9 @@
+{
+  "auxiliary": "IE_match2",
+  "schedule": "92549a7048f8cefa879e0e17f456a3f42bfe3a2cfeebaad4509e49bbe4cdb691",
+  "chain_length": 3,
+  "eligible_chains": 638,
+  "sampled_chains": 638,
+  "trajectories": 46,
+  "max_adjacent_s3_difference": 0.0
+}

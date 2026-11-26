@@ -1,0 +1,169 @@
+{
+  "Ecal_match2_0.1": {
+    "retained": [],
+    "unavailable": [
+      1500,
+      2000,
+      3000,
+      4000,
+      5000,
+      6000
+    ],
+    "shared_step": 1000,
+    "shared_sha256": "0c6c4fab54f990e498ebc51a04082f362730950c655014d4d6173812e5bfc0c1"
+  },
+  "Ecal_match2_0.3": {
+    "retained": [],
+    "unavailable": [
+      1500,
+      2000,
+      3000,
+      4000,
+      5000,
+      6000
+    ],
+    "shared_step": 1000,
+    "shared_sha256": "0c6c4fab54f990e498ebc51a04082f362730950c655014d4d6173812e5bfc0c1"
+  },
+  "Ecal_diag_0.1": {
+    "retained": [
+      {
+        "step": 3000,
+        "path": "training_states/Ecal_diag_0.1_3000.pt",
+        "sha256": "df9a5c4c9e1bf05ba177e2fbeb3f2e3caaaff725f71e921c28ae724ef213207b"
+      },
+      {
+        "step": 4000,
+        "path": "training_states/Ecal_diag_0.1_4000.pt",
+        "sha256": "8a68555a55d13d033f37f34f1b85131947a927058f8b8b8882e3f960906124b4"
+      },
+      {
+        "step": 5000,
+        "path": "training_states/Ecal_diag_0.1_5000.pt",
+        "sha256": "da7de701fb5104679c2204fca17c9cc8bee97918072c9478d53fcd47d177db87"
+      },
+      {
+        "step": 6000,
+        "path": "training_states/Ecal_diag_0.1_6000.pt",
+        "sha256": "fb423008d069746d42718ad2b0b8c1d28d552d72022a48a10c560b163b939fe0"
+      }
+    ],
+    "unavailable": [
+      1500,
+      2000
+    ],
+    "shared_step": 1000,
+    "shared_sha256": "0c6c4fab54f990e498ebc51a04082f362730950c655014d4d6173812e5bfc0c1"
+  },
+  "Ecal_diag_0.3": {
+    "retained": [
+      {
+        "step": 1500,
+        "path": "training_states/Ecal_diag_0.3_1500.pt",
+        "sha256": "2a7e9c7a1adf2432e2472a70caaae34b4c3afed68f4c7e9d84e6f4358787af0c"
+      },
+      {
+        "step": 2000,
+        "path": "training_states/Ecal_diag_0.3_2000.pt",
+        "sha256": "3ecdd4159cbb251030b225e45a41d16906fd3943f62609cee9d883fb126961de"
+      },
+      {
+        "step": 3000,
+        "path": "training_states/Ecal_diag_0.3_3000.pt",
+        "sha256": "a221088092ebebec7d5a372db70af1b2b58cd23538ac652fbe61ef7ae64c1b2e"
+      },
+      {
+        "step": 4000,
+        "path": "training_states/Ecal_diag_0.3_4000.pt",
+        "sha256": "570f1bbb6d349f566fecfcf8d2f88b02de9e845460cd351d8cb213a93acda6fb"
+      },
+      {
+        "step": 5000,
+        "path": "training_states/Ecal_diag_0.3_5000.pt",
+        "sha256": "a9686879545f64dfd54be75fb28d23984f1e783c65b3640c60d84cb0a60ee595"
+      },
+      {
+        "step": 6000,
+        "path": "training_states/Ecal_diag_0.3_6000.pt",
+        "sha256": "c63912ae8694bd049d4ebe6fbb2e01b9e291aaff45decce1e07dbbeaf368c013"
+      }
+    ],
+    "unavailable": [],
+    "shared_step": 1000,
+    "shared_sha256": "0c6c4fab54f990e498ebc51a04082f362730950c655014d4d6173812e5bfc0c1"
+  },
+  "Ecal_perm_0.1": {
+    "retained": [
+      {
+        "step": 1500,
+        "path": "training_states/Ecal_perm_0.1_1500.pt",
+        "sha256": "68139d51c94667a5938b1af5918d9acf009547546b9630559c28e5bd7e3c677d"
+      },
+      {
+        "step": 2000,
+        "path": "training_states/Ecal_perm_0.1_2000.pt",
+        "sha256": "e98c2166bb5f800f5cde7dbe2fd7be7438eedcb72c4a520941add1ceb110bb3b"
+      },
+      {
+        "step": 3000,
+        "path": "training_states/Ecal_perm_0.1_3000.pt",
+        "sha256": "d62d1376d236cb3fc96aa8ac6af1e6693c27cbcef174c3f643e125688062f3d1"
+      },
+      {
+        "step": 4000,
+        "path": "training_states/Ecal_perm_0.1_4000.pt",
+        "sha256": "5aff3257e8beb4a1ba1caea7cd1e9c5b8524decf7425f12d5797c643237f868f"
+      },
+      {
+        "step": 5000,
+        "path": "training_states/Ecal_perm_0.1_5000.pt",
+        "sha256": "76eb667eb2cd285ac814790b0079300fd2d19ed14762cb4b47421bb79721c199"
+      },
+      {
+        "step": 6000,
+        "path": "training_states/Ecal_perm_0.1_6000.pt",
+        "sha256": "22da4cf1a998591d0c878896e4d099a721d398161533f84b6d869b08835bf610"
+      }
+    ],
+    "unavailable": [],
+    "shared_step": 1000,
+    "shared_sha256": "0c6c4fab54f990e498ebc51a04082f362730950c655014d4d6173812e5bfc0c1"
+  },
+  "Ecal_perm_0.3": {
+    "retained": [
+      {
+        "step": 1500,
+        "path": "training_states/Ecal_perm_0.3_1500.pt",
+        "sha256": "bf4feb4bb81c8a6b82b7a2caca72d7e1211231767621880587ac5947659c878e"
+      },
+      {
+        "step": 2000,
+        "path": "training_states/Ecal_perm_0.3_2000.pt",
+        "sha256": "34dac08ca8a973d0e4de44a61dab7fed064f43df4192307a6835cbafea072088"
+      },
+      {
+        "step": 3000,
+        "path": "training_states/Ecal_perm_0.3_3000.pt",
+        "sha256": "7203a3a02e80e7089d03050fb1da27a358b3d7d5d08ec9ba4cf98a2f8907b04d"
+      },
+      {
+        "step": 4000,
+        "path": "training_states/Ecal_perm_0.3_4000.pt",
+        "sha256": "41c42d86099dbe62d07bbeef81aaf362ab21f2b8cf761e5a7a2e6614f78ac8ea"
+      },
+      {
+        "step": 5000,
+        "path": "training_states/Ecal_perm_0.3_5000.pt",
+        "sha256": "ea6f5ea479988125b207f99e3279b061393f81a94700a3c500c264ca918f951a"
+      },
+      {
+        "step": 6000,
+        "path": "training_states/Ecal_perm_0.3_6000.pt",
+        "sha256": "a81e414c9c1900998e201c59dfdf5143d235de6feb13a6bb9bcc904b84cab999"
+      }
+    ],
+    "unavailable": [],
+    "shared_step": 1000,
+    "shared_sha256": "0c6c4fab54f990e498ebc51a04082f362730950c655014d4d6173812e5bfc0c1"
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "main_policies": [
+    "selected",
+    "final"
+  ],
+  "outer_step": 6000,
+  "period_step": 6000,
+  "period_arms": [
+    "D0",
+    "DB",
+    "DE",
+    "DE_K4",
+    "DE_K8",
+    "Ecal_diag_0.1",
+    "Ecal_diag_0.3",
+    "Ecal_match2_0.1",
+    "Ecal_match2_0.3",
+    "Ecal_perm_0.1",
+    "Ecal_perm_0.3",
+    "I0",
+    "IB",
+    "IB_dual",
+    "IB_energy",
+    "IB_free",
+    "IB_lag",
+    "IB_last",
+    "IB_match",
+    "IB_match2",
+    "IB_reverse",
+    "IE",
+    "IE_K4",
+    "IE_K8",
+    "IE_energy",
+    "IE_match",
+    "IE_match2",
+    "Q_MSE_ref",
+    "Q_MSE_self",
+    "Q_aux_ref",
+    "Q_aux_self",
+    "old_B_ACC_raw_1",
+    "old_B_MSE",
+    "old_E_DIAG",
+    "old_E_EN_0.1",
+    "old_E_EN_0.3",
+    "old_E_MATCH_raw_1",
+    "old_E_MSE",
+    "old_E_PERM",
+    "old_E_ext_match2"
+  ],
+  "sequence_models": [
+    "Q_MSE_ref",
+    "Q_MSE_self",
+    "Q_aux_ref",
+    "Q_aux_self"
+  ],
+  "run_modes": [
+    "ref",
+    "self"
+  ],
+  "bootstrap": {
+    "draws": 10000,
+    "seed": 42,
+    "unit": "original trajectory"
+  },
+  "feedback_interaction": "(ref/self - ref/ref) - (self/self - self/ref)",
+  "scale": {
+    "main": "frozen common training RMS",
+    "outer": "outer active RMS"
+  },
+  "frozen_controls": [
+    "Native",
+    "S3"
+  ],
+  "alpha": 1.0
+}

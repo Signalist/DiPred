@@ -1,0 +1,9 @@
+{
+  "sha256": "8fd8a6948937c0f593a564c7e8233953b6e74114f067d21ac99cab0c4e0df789",
+  "tensor_sha256": "d3b9a4a73df66771bba1dc4966be31b7fdd0175af0665f5176ace6698af57d02",
+  "sign": "constant positive; linear increases; other peak positive",
+  "math": {
+    "identity_error": 3.016198402150394e-13,
+    "mse_error": 3.197442310920451e-14
+  }
+}

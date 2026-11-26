@@ -1,0 +1,9 @@
+arm,run_mode,current_unchanged,future_issue,changed,next_forecast_rms
+Q_MSE_ref,ref,True,440,True,0.027458892562886424
+Q_MSE_ref,self,True,440,True,0.027487416807288917
+Q_MSE_self,ref,True,440,True,0.03117838108143896
+Q_MSE_self,self,True,440,True,0.031187784811970685
+Q_aux_ref,ref,True,440,True,0.030415562551720787
+Q_aux_ref,self,True,440,True,0.03045435680456266
+Q_aux_self,ref,True,440,True,0.02975991291175392
+Q_aux_self,self,True,440,True,0.029755303167133557

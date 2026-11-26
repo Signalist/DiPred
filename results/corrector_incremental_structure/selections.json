@@ -1,0 +1,79 @@
+{
+  "best_new": "IB_match2",
+  "overall": "IB_match2",
+  "best_MSE_input": "IE",
+  "representation": [
+    "IE_K4",
+    "IE_K8",
+    "DE_K4",
+    "DE_K8"
+  ],
+  "auxiliary": {
+    "IB": "IB_match2",
+    "IE": "IE_match2"
+  },
+  "feedback": [
+    "Q_MSE_ref",
+    "Q_MSE_self",
+    "Q_aux_ref",
+    "Q_aux_self"
+  ],
+  "outer": [
+    "I0",
+    "IB",
+    "IE",
+    "DE",
+    "IB_match2",
+    "IB_lag"
+  ],
+  "primary": {
+    "P1": [
+      [
+        "IB_match2",
+        "S3"
+      ]
+    ],
+    "P2": [
+      [
+        "IB",
+        "I0"
+      ],
+      [
+        "IE",
+        "IB"
+      ]
+    ],
+    "P3": [
+      [
+        "I0",
+        "D0"
+      ],
+      [
+        "IB",
+        "DB"
+      ],
+      [
+        "IE",
+        "DE"
+      ]
+    ],
+    "P4": [
+      [
+        "Ecal_match2_0.1",
+        "Ecal_diag_0.1"
+      ],
+      [
+        "Ecal_match2_0.1",
+        "Ecal_perm_0.1"
+      ],
+      [
+        "Ecal_match2_0.3",
+        "Ecal_diag_0.3"
+      ],
+      [
+        "Ecal_match2_0.3",
+        "Ecal_perm_0.3"
+      ]
+    ]
+  }
+}

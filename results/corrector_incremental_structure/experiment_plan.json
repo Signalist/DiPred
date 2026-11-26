@@ -1,0 +1,121 @@
+{
+  "seed": 42,
+  "updates": 6000,
+  "shared_step": 1000,
+  "batch": 8,
+  "checkpoint_steps": [
+    0,
+    50,
+    100,
+    250,
+    500,
+    750,
+    1000,
+    1500,
+    2000,
+    3000,
+    4000,
+    5000,
+    6000
+  ],
+  "task1": {
+    "budget": 6,
+    "branch": "direct E",
+    "arms": [
+      "match2",
+      "diag",
+      "perm"
+    ],
+    "rho": [
+      0.1,
+      0.3
+    ],
+    "batches": 8,
+    "endpoint": "develop physical MSE and paired fixed rho"
+  },
+  "task2": {
+    "budget": 12,
+    "arms": [
+      "I0",
+      "IB",
+      "IE",
+      "D0",
+      "DB",
+      "DE"
+    ],
+    "auxiliary": {
+      "branches": [
+        "IB",
+        "IE"
+      ],
+      "arms": [
+        "energy",
+        "match",
+        "match2"
+      ],
+      "rho": 0.3
+    },
+    "endpoint": "physical MSE versus S3 and corresponding D"
+  },
+  "task3": {
+    "budget": 4,
+    "rank": [
+      4,
+      8,
+      20
+    ],
+    "selection": "best incremental MSE input, then corresponding D",
+    "endpoint": "fixed projection per-mode and physical MSE"
+  },
+  "task4": {
+    "budget": 5,
+    "anchor": "IB",
+    "arms": [
+      "last",
+      "reverse",
+      "lag",
+      "dual",
+      "free"
+    ],
+    "endpoint": "physical MSE and source intervention"
+  },
+  "task5": {
+    "budget": 4,
+    "anchor": "IE",
+    "chain_length": 3,
+    "detach": true,
+    "batch": 8,
+    "endpoint": "2x2 training/run paired physical MSE"
+  },
+  "outer": {
+    "budget": 18,
+    "regimes": {
+      "interpolation": 17812,
+      "upper": 25482,
+      "lower": 8863
+    },
+    "reference": "previous isolated OOF/full S3",
+    "priority": [
+      "I0",
+      "IB",
+      "IE",
+      "D_selected",
+      "I_aux_selected",
+      "I_representation_or_mix"
+    ],
+    "fixed_step": 6000
+  },
+  "feedback": {
+    "releases": 8,
+    "cohort": "historical period plan"
+  },
+  "bootstrap": 10000,
+  "total_cap": 80,
+  "extension_budget": 8,
+  "selection": "equal-trajectory physical MSE, earlier step on ties",
+  "fixed_case": {
+    "file": "26700_0.h5",
+    "start": 400,
+    "lead": 10
+  }
+}

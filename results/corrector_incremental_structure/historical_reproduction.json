@@ -1,0 +1,354 @@
+[
+  {
+    "split": "development",
+    "policy": "selected",
+    "arm": "Native",
+    "mse": 0.00015404156545454964,
+    "source": "results/corrector_spacetime_validation/scores.csv",
+    "absolute_error": 2.710505431213761e-20
+  },
+  {
+    "split": "development",
+    "policy": "final",
+    "arm": "Native",
+    "mse": 0.00015404156545454964,
+    "source": "results/corrector_spacetime_validation/scores.csv",
+    "absolute_error": 2.710505431213761e-20
+  },
+  {
+    "split": "development",
+    "policy": "selected",
+    "arm": "S3",
+    "mse": 0.00014587775063599793,
+    "source": "results/corrector_spacetime_validation/scores.csv",
+    "absolute_error": 0.0
+  },
+  {
+    "split": "development",
+    "policy": "final",
+    "arm": "S3",
+    "mse": 0.00014587775063599793,
+    "source": "results/corrector_spacetime_validation/scores.csv",
+    "absolute_error": 0.0
+  },
+  {
+    "split": "development",
+    "policy": "selected",
+    "arm": "old_B_MSE",
+    "mse": 0.00014467979924516518,
+    "source": "results/corrector_spacetime_optimization/scores.csv",
+    "absolute_error": 0.0
+  },
+  {
+    "split": "development",
+    "policy": "final",
+    "arm": "old_B_MSE",
+    "mse": 0.00014467979924516518,
+    "source": "results/corrector_spacetime_optimization/scores.csv",
+    "absolute_error": 0.0
+  },
+  {
+    "split": "development",
+    "policy": "selected",
+    "arm": "old_E_MSE",
+    "mse": 0.00014683992872359925,
+    "source": "results/corrector_spacetime_optimization/scores.csv",
+    "absolute_error": 0.0
+  },
+  {
+    "split": "development",
+    "policy": "final",
+    "arm": "old_E_MSE",
+    "mse": 0.00014683992872359925,
+    "source": "results/corrector_spacetime_optimization/scores.csv",
+    "absolute_error": 0.0
+  },
+  {
+    "split": "development",
+    "policy": "selected",
+    "arm": "old_B_ACC_raw_1",
+    "mse": 0.00014221007955466804,
+    "source": "results/corrector_spacetime_optimization/scores.csv",
+    "absolute_error": 5.421010862427522e-20
+  },
+  {
+    "split": "development",
+    "policy": "final",
+    "arm": "old_B_ACC_raw_1",
+    "mse": 0.00014233665013028285,
+    "source": "results/corrector_spacetime_optimization/scores.csv",
+    "absolute_error": 0.0
+  },
+  {
+    "split": "development",
+    "policy": "selected",
+    "arm": "old_E_ext_match2",
+    "mse": 0.00014314732257518931,
+    "source": "results/corrector_spacetime_optimization/scores.csv",
+    "absolute_error": 2.710505431213761e-20
+  },
+  {
+    "split": "development",
+    "policy": "final",
+    "arm": "old_E_ext_match2",
+    "mse": 0.00014314732257518931,
+    "source": "results/corrector_spacetime_optimization/scores.csv",
+    "absolute_error": 2.710505431213761e-20
+  },
+  {
+    "split": "development",
+    "policy": "selected",
+    "arm": "old_E_MATCH_raw_1",
+    "mse": 0.0001438042119064433,
+    "source": "results/corrector_spacetime_optimization/scores.csv",
+    "absolute_error": 0.0
+  },
+  {
+    "split": "development",
+    "policy": "final",
+    "arm": "old_E_MATCH_raw_1",
+    "mse": 0.00014398865010469106,
+    "source": "results/corrector_spacetime_optimization/scores.csv",
+    "absolute_error": 2.710505431213761e-20
+  },
+  {
+    "split": "development",
+    "policy": "selected",
+    "arm": "old_E_EN_0.1",
+    "mse": 0.0001456352910820308,
+    "source": "results/corrector_spacetime_validation/scores.csv",
+    "absolute_error": 0.0
+  },
+  {
+    "split": "development",
+    "policy": "final",
+    "arm": "old_E_EN_0.1",
+    "mse": 0.00014573945272525985,
+    "source": "results/corrector_spacetime_validation/scores.csv",
+    "absolute_error": 2.710505431213761e-20
+  },
+  {
+    "split": "development",
+    "policy": "selected",
+    "arm": "old_E_EN_0.3",
+    "mse": 0.00014552102308571101,
+    "source": "results/corrector_spacetime_validation/scores.csv",
+    "absolute_error": 0.0
+  },
+  {
+    "split": "development",
+    "policy": "final",
+    "arm": "old_E_EN_0.3",
+    "mse": 0.00014552102308571101,
+    "source": "results/corrector_spacetime_validation/scores.csv",
+    "absolute_error": 0.0
+  },
+  {
+    "split": "development",
+    "policy": "selected",
+    "arm": "old_E_DIAG",
+    "mse": 0.00014724484155981474,
+    "source": "results/corrector_spacetime_validation/scores.csv",
+    "absolute_error": 0.0
+  },
+  {
+    "split": "development",
+    "policy": "final",
+    "arm": "old_E_DIAG",
+    "mse": 0.00014724484155981474,
+    "source": "results/corrector_spacetime_validation/scores.csv",
+    "absolute_error": 0.0
+  },
+  {
+    "split": "development",
+    "policy": "selected",
+    "arm": "old_E_PERM",
+    "mse": 0.00014808021218079258,
+    "source": "results/corrector_spacetime_validation/scores.csv",
+    "absolute_error": 0.0
+  },
+  {
+    "split": "development",
+    "policy": "final",
+    "arm": "old_E_PERM",
+    "mse": 0.00014808021218079258,
+    "source": "results/corrector_spacetime_validation/scores.csv",
+    "absolute_error": 0.0
+  },
+  {
+    "split": "historical_test",
+    "policy": "selected",
+    "arm": "Native",
+    "mse": 0.00011161243437773623,
+    "source": "results/corrector_spacetime_validation/scores.csv",
+    "absolute_error": 2.710505431213761e-20
+  },
+  {
+    "split": "historical_test",
+    "policy": "final",
+    "arm": "Native",
+    "mse": 0.00011161243437773623,
+    "source": "results/corrector_spacetime_validation/scores.csv",
+    "absolute_error": 2.710505431213761e-20
+  },
+  {
+    "split": "historical_test",
+    "policy": "selected",
+    "arm": "S3",
+    "mse": 0.00010647620242891139,
+    "source": "results/corrector_spacetime_validation/scores.csv",
+    "absolute_error": 1.3552527156068805e-20
+  },
+  {
+    "split": "historical_test",
+    "policy": "final",
+    "arm": "S3",
+    "mse": 0.00010647620242891139,
+    "source": "results/corrector_spacetime_validation/scores.csv",
+    "absolute_error": 1.3552527156068805e-20
+  },
+  {
+    "split": "historical_test",
+    "policy": "selected",
+    "arm": "old_B_MSE",
+    "mse": 0.0001063989334069436,
+    "source": "results/corrector_spacetime_optimization/scores.csv",
+    "absolute_error": 0.0
+  },
+  {
+    "split": "historical_test",
+    "policy": "final",
+    "arm": "old_B_MSE",
+    "mse": 0.0001063989334069436,
+    "source": "results/corrector_spacetime_optimization/scores.csv",
+    "absolute_error": 0.0
+  },
+  {
+    "split": "historical_test",
+    "policy": "selected",
+    "arm": "old_E_MSE",
+    "mse": 0.00010587231245368801,
+    "source": "results/corrector_spacetime_optimization/scores.csv",
+    "absolute_error": 1.3552527156068805e-20
+  },
+  {
+    "split": "historical_test",
+    "policy": "final",
+    "arm": "old_E_MSE",
+    "mse": 0.00010587231245368801,
+    "source": "results/corrector_spacetime_optimization/scores.csv",
+    "absolute_error": 1.3552527156068805e-20
+  },
+  {
+    "split": "historical_test",
+    "policy": "selected",
+    "arm": "old_B_ACC_raw_1",
+    "mse": 0.00010762956285550259,
+    "source": "results/corrector_spacetime_optimization/scores.csv",
+    "absolute_error": 1.3552527156068805e-20
+  },
+  {
+    "split": "historical_test",
+    "policy": "final",
+    "arm": "old_B_ACC_raw_1",
+    "mse": 0.00010677885794096292,
+    "source": "results/corrector_spacetime_optimization/scores.csv",
+    "absolute_error": 0.0
+  },
+  {
+    "split": "historical_test",
+    "policy": "selected",
+    "arm": "old_E_ext_match2",
+    "mse": 0.00010514157987454519,
+    "source": "results/corrector_spacetime_optimization/scores.csv",
+    "absolute_error": 0.0
+  },
+  {
+    "split": "historical_test",
+    "policy": "final",
+    "arm": "old_E_ext_match2",
+    "mse": 0.00010514157987454519,
+    "source": "results/corrector_spacetime_optimization/scores.csv",
+    "absolute_error": 0.0
+  },
+  {
+    "split": "historical_test",
+    "policy": "selected",
+    "arm": "old_E_MATCH_raw_1",
+    "mse": 0.00010527268546638799,
+    "source": "results/corrector_spacetime_optimization/scores.csv",
+    "absolute_error": 4.0657581468206416e-20
+  },
+  {
+    "split": "historical_test",
+    "policy": "final",
+    "arm": "old_E_MATCH_raw_1",
+    "mse": 0.00010499618019071747,
+    "source": "results/corrector_spacetime_optimization/scores.csv",
+    "absolute_error": 0.0
+  },
+  {
+    "split": "historical_test",
+    "policy": "selected",
+    "arm": "old_E_EN_0.1",
+    "mse": 0.00010629750057725776,
+    "source": "results/corrector_spacetime_validation/scores.csv",
+    "absolute_error": 1.3552527156068805e-20
+  },
+  {
+    "split": "historical_test",
+    "policy": "final",
+    "arm": "old_E_EN_0.1",
+    "mse": 0.00010598174191010761,
+    "source": "results/corrector_spacetime_validation/scores.csv",
+    "absolute_error": 1.3552527156068805e-20
+  },
+  {
+    "split": "historical_test",
+    "policy": "selected",
+    "arm": "old_E_EN_0.3",
+    "mse": 0.00010596566287236628,
+    "source": "results/corrector_spacetime_validation/scores.csv",
+    "absolute_error": 0.0
+  },
+  {
+    "split": "historical_test",
+    "policy": "final",
+    "arm": "old_E_EN_0.3",
+    "mse": 0.00010596566287236628,
+    "source": "results/corrector_spacetime_validation/scores.csv",
+    "absolute_error": 0.0
+  },
+  {
+    "split": "historical_test",
+    "policy": "selected",
+    "arm": "old_E_DIAG",
+    "mse": 0.00010644011729883257,
+    "source": "results/corrector_spacetime_validation/scores.csv",
+    "absolute_error": 0.0
+  },
+  {
+    "split": "historical_test",
+    "policy": "final",
+    "arm": "old_E_DIAG",
+    "mse": 0.00010644011729883257,
+    "source": "results/corrector_spacetime_validation/scores.csv",
+    "absolute_error": 0.0
+  },
+  {
+    "split": "historical_test",
+    "policy": "selected",
+    "arm": "old_E_PERM",
+    "mse": 0.00010674946246269152,
+    "source": "results/corrector_spacetime_validation/scores.csv",
+    "absolute_error": 0.0
+  },
+  {
+    "split": "historical_test",
+    "policy": "final",
+    "arm": "old_E_PERM",
+    "mse": 0.00010674946246269152,
+    "source": "results/corrector_spacetime_validation/scores.csv",
+    "absolute_error": 0.0
+  }
+]

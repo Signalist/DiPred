@@ -1,0 +1,16 @@
+{
+  "base_commit": "b8064998f4503f6e14fc93fdffc8dc6ca0007e7c",
+  "bound_sources": {
+    "results/corrector_spacetime_validation/FROZEN.json": "2b29fb57a72db474a9693fa5dc16fc30fe65d392e4e0cc8e735dec61e55a14f1",
+    "results/corrector_spacetime_validation/artifact_audit.json": "0f6e258c28124f94a303c9c4302118df05ea7657f2a8d07f432d0165a244a036",
+    "results/corrector_spacetime_validation/math_verification.json": "2b17b51721527122b685f52e7bfe98b2b238cef2b4be1903d14fee20a87cf6a4",
+    "results/corrector_spacetime_validation/reference_lineage.json": "a7db91743311017bff24693cfad158e9c29548e8991356672295f26cad39e628",
+    "results/corrector_spacetime_validation/period_plan.json": "2424607545a84f387e56c8961cc751202b56322553f36ac25d1428620cbd2393",
+    "results/corrector_spacetime_optimization/FROZEN.json": "400ce1a7ce13b7a3c63933fdc023425a1b382ae8de4b4b7c815c5217988f9e83",
+    "results/corrector_spacetime_optimization/shared_E.pt": "0c6c4fab54f990e498ebc51a04082f362730950c655014d4d6173812e5bfc0c1",
+    "results/corrector_residual_feedback/FROZEN.json": "efeb6f6e1962e0b0336bea13fb20b4ff3af28df642678acc78a86c9a20c7365b",
+    "results/corrector_residual_feedback/crossfit_manifest.json": "6e88038be122b49427d3463afa6f529f2da574de51550574f242b495f04d51ba",
+    "results/corrector_residual_optimization/FROZEN.json": "0901af0d1d50788b1131350770b8843addc2548bf9697a77a9592c58ee020723"
+  },
+  "policy": "reuse matched frozen checkpoints, native caches and legal single-reference teachers; retain other models as historical"
+}

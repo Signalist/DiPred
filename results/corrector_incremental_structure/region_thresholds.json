@@ -1,0 +1,12 @@
+{
+  "source": "training residual absolute 95th percentile",
+  "stride": [
+    2,
+    2,
+    2
+  ],
+  "physical_thresholds": [
+    0.03264504671096802,
+    0.012451833253726362
+  ]
+}

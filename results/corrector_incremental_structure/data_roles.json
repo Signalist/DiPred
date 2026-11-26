@@ -1,0 +1,26 @@
+{
+  "train": {
+    "windows": 822,
+    "trajectories": 46,
+    "role": "sampling, scaling, training and calibrated gradients"
+  },
+  "development": {
+    "windows": 24,
+    "trajectories": 12,
+    "role": "checkpoint and configuration selection"
+  },
+  "historical_test": {
+    "windows": 24,
+    "trajectories": 12,
+    "role": "postfreeze historical evaluation"
+  },
+  "historical_period": {
+    "windows": 96,
+    "trajectories": 12,
+    "role": "postfreeze historical time extension"
+  },
+  "outer": {
+    "roles": "postfreeze Corrector regime stress tests; frozen backbone trained on those trajectories"
+  },
+  "independent": "verify existing eligibility inventory; no fabricated confirmation"
+}
