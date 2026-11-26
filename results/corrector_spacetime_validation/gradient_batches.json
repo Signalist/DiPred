@@ -1,0 +1,1298 @@
+[
+  [
+    {
+      "file": "8850_0.h5",
+      "start": 200,
+      "re": 8863.0,
+      "history": [
+        200,
+        220
+      ],
+      "target": [
+        220,
+        240
+      ],
+      "index": 41,
+      "earlier": [
+        180,
+        200
+      ],
+      "issue_frame": 220,
+      "score_frame": 240
+    },
+    {
+      "file": "10125_20.h5",
+      "start": 200,
+      "re": 10142.0,
+      "history": [
+        200,
+        220
+      ],
+      "target": [
+        220,
+        240
+      ],
+      "index": 3,
+      "earlier": [
+        180,
+        200
+      ],
+      "issue_frame": 220,
+      "score_frame": 240
+    },
+    {
+      "file": "11400_10.h5",
+      "start": 220,
+      "re": 11420.0,
+      "history": [
+        220,
+        240
+      ],
+      "target": [
+        240,
+        260
+      ],
+      "index": 52,
+      "earlier": [
+        200,
+        220
+      ],
+      "issue_frame": 240,
+      "score_frame": 260
+    },
+    {
+      "file": "12675_5.h5",
+      "start": 220,
+      "re": 12698.0,
+      "history": [
+        220,
+        240
+      ],
+      "target": [
+        240,
+        260
+      ],
+      "index": 60,
+      "earlier": [
+        200,
+        220
+      ],
+      "issue_frame": 240,
+      "score_frame": 260
+    },
+    {
+      "file": "16500_15.h5",
+      "start": 240,
+      "re": 16534.0,
+      "history": [
+        240,
+        260
+      ],
+      "target": [
+        260,
+        280
+      ],
+      "index": 109,
+      "earlier": [
+        220,
+        240
+      ],
+      "issue_frame": 260,
+      "score_frame": 280
+    },
+    {
+      "file": "17775_5.h5",
+      "start": 260,
+      "re": 17812.0,
+      "history": [
+        260,
+        280
+      ],
+      "target": [
+        280,
+        300
+      ],
+      "index": 161,
+      "earlier": [
+        240,
+        260
+      ],
+      "issue_frame": 280,
+      "score_frame": 300
+    },
+    {
+      "file": "20325_20.h5",
+      "start": 260,
+      "re": 20369.0,
+      "history": [
+        260,
+        280
+      ],
+      "target": [
+        280,
+        300
+      ],
+      "index": 165,
+      "earlier": [
+        240,
+        260
+      ],
+      "issue_frame": 280,
+      "score_frame": 300
+    },
+    {
+      "file": "21600_10.h5",
+      "start": 280,
+      "re": 21647.0,
+      "history": [
+        280,
+        300
+      ],
+      "target": [
+        300,
+        320
+      ],
+      "index": 214,
+      "earlier": [
+        260,
+        280
+      ],
+      "issue_frame": 300,
+      "score_frame": 320
+    }
+  ],
+  [
+    {
+      "file": "12675_15.h5",
+      "start": 220,
+      "re": 12698.0,
+      "history": [
+        220,
+        240
+      ],
+      "target": [
+        240,
+        260
+      ],
+      "index": 58,
+      "earlier": [
+        200,
+        220
+      ],
+      "issue_frame": 240,
+      "score_frame": 260
+    },
+    {
+      "file": "16500_0.h5",
+      "start": 240,
+      "re": 16534.0,
+      "history": [
+        240,
+        260
+      ],
+      "target": [
+        260,
+        280
+      ],
+      "index": 107,
+      "earlier": [
+        220,
+        240
+      ],
+      "issue_frame": 260,
+      "score_frame": 280
+    },
+    {
+      "file": "17775_15.h5",
+      "start": 260,
+      "re": 17812.0,
+      "history": [
+        260,
+        280
+      ],
+      "target": [
+        280,
+        300
+      ],
+      "index": 159,
+      "earlier": [
+        240,
+        260
+      ],
+      "issue_frame": 280,
+      "score_frame": 300
+    },
+    {
+      "file": "20325_10.h5",
+      "start": 260,
+      "re": 20369.0,
+      "history": [
+        260,
+        280
+      ],
+      "target": [
+        280,
+        300
+      ],
+      "index": 163,
+      "earlier": [
+        240,
+        260
+      ],
+      "issue_frame": 280,
+      "score_frame": 300
+    },
+    {
+      "file": "21600_5.h5",
+      "start": 260,
+      "re": 21647.0,
+      "history": [
+        260,
+        280
+      ],
+      "target": [
+        280,
+        300
+      ],
+      "index": 171,
+      "earlier": [
+        240,
+        260
+      ],
+      "issue_frame": 280,
+      "score_frame": 300
+    },
+    {
+      "file": "24150_10.h5",
+      "start": 340,
+      "re": 24204.0,
+      "history": [
+        340,
+        360
+      ],
+      "target": [
+        360,
+        380
+      ],
+      "index": 357,
+      "earlier": [
+        320,
+        340
+      ],
+      "issue_frame": 360,
+      "score_frame": 380
+    },
+    {
+      "file": "25425_10.h5",
+      "start": 320,
+      "re": 25482.0,
+      "history": [
+        320,
+        340
+      ],
+      "target": [
+        340,
+        360
+      ],
+      "index": 314,
+      "earlier": [
+        300,
+        320
+      ],
+      "issue_frame": 340,
+      "score_frame": 360
+    },
+    {
+      "file": "8850_20.h5",
+      "start": 300,
+      "re": 8863.0,
+      "history": [
+        300,
+        320
+      ],
+      "target": [
+        320,
+        340
+      ],
+      "index": 274,
+      "earlier": [
+        280,
+        300
+      ],
+      "issue_frame": 320,
+      "score_frame": 340
+    }
+  ],
+  [
+    {
+      "file": "20325_5.h5",
+      "start": 240,
+      "re": 20369.0,
+      "history": [
+        240,
+        260
+      ],
+      "target": [
+        260,
+        280
+      ],
+      "index": 120,
+      "earlier": [
+        220,
+        240
+      ],
+      "issue_frame": 260,
+      "score_frame": 280
+    },
+    {
+      "file": "21600_15.h5",
+      "start": 260,
+      "re": 21647.0,
+      "history": [
+        260,
+        280
+      ],
+      "target": [
+        280,
+        300
+      ],
+      "index": 169,
+      "earlier": [
+        240,
+        260
+      ],
+      "issue_frame": 280,
+      "score_frame": 300
+    },
+    {
+      "file": "24150_15.h5",
+      "start": 320,
+      "re": 24204.0,
+      "history": [
+        320,
+        340
+      ],
+      "target": [
+        340,
+        360
+      ],
+      "index": 312,
+      "earlier": [
+        300,
+        320
+      ],
+      "issue_frame": 340,
+      "score_frame": 360
+    },
+    {
+      "file": "25425_20.h5",
+      "start": 300,
+      "re": 25482.0,
+      "history": [
+        300,
+        320
+      ],
+      "target": [
+        320,
+        340
+      ],
+      "index": 270,
+      "earlier": [
+        280,
+        300
+      ],
+      "issue_frame": 320,
+      "score_frame": 340
+    },
+    {
+      "file": "8850_10.h5",
+      "start": 300,
+      "re": 8863.0,
+      "history": [
+        300,
+        320
+      ],
+      "target": [
+        320,
+        340
+      ],
+      "index": 272,
+      "earlier": [
+        280,
+        300
+      ],
+      "issue_frame": 320,
+      "score_frame": 340
+    },
+    {
+      "file": "10125_5.h5",
+      "start": 300,
+      "re": 10142.0,
+      "history": [
+        300,
+        320
+      ],
+      "target": [
+        320,
+        340
+      ],
+      "index": 234,
+      "earlier": [
+        280,
+        300
+      ],
+      "issue_frame": 320,
+      "score_frame": 340
+    },
+    {
+      "file": "11400_15.h5",
+      "start": 320,
+      "re": 11420.0,
+      "history": [
+        320,
+        340
+      ],
+      "target": [
+        340,
+        360
+      ],
+      "index": 283,
+      "earlier": [
+        300,
+        320
+      ],
+      "issue_frame": 340,
+      "score_frame": 360
+    },
+    {
+      "file": "12675_0.h5",
+      "start": 340,
+      "re": 12698.0,
+      "history": [
+        340,
+        360
+      ],
+      "target": [
+        360,
+        380
+      ],
+      "index": 332,
+      "earlier": [
+        320,
+        340
+      ],
+      "issue_frame": 360,
+      "score_frame": 380
+    }
+  ],
+  [
+    {
+      "file": "25425_10.h5",
+      "start": 300,
+      "re": 25482.0,
+      "history": [
+        300,
+        320
+      ],
+      "target": [
+        320,
+        340
+      ],
+      "index": 268,
+      "earlier": [
+        280,
+        300
+      ],
+      "issue_frame": 320,
+      "score_frame": 340
+    },
+    {
+      "file": "8850_5.h5",
+      "start": 280,
+      "re": 8863.0,
+      "history": [
+        280,
+        300
+      ],
+      "target": [
+        300,
+        320
+      ],
+      "index": 229,
+      "earlier": [
+        260,
+        280
+      ],
+      "issue_frame": 300,
+      "score_frame": 320
+    },
+    {
+      "file": "10125_15.h5",
+      "start": 300,
+      "re": 10142.0,
+      "history": [
+        300,
+        320
+      ],
+      "target": [
+        320,
+        340
+      ],
+      "index": 232,
+      "earlier": [
+        280,
+        300
+      ],
+      "issue_frame": 320,
+      "score_frame": 340
+    },
+    {
+      "file": "11400_0.h5",
+      "start": 320,
+      "re": 11420.0,
+      "history": [
+        320,
+        340
+      ],
+      "target": [
+        340,
+        360
+      ],
+      "index": 281,
+      "earlier": [
+        300,
+        320
+      ],
+      "issue_frame": 340,
+      "score_frame": 360
+    },
+    {
+      "file": "12675_20.h5",
+      "start": 320,
+      "re": 12698.0,
+      "history": [
+        320,
+        340
+      ],
+      "target": [
+        340,
+        360
+      ],
+      "index": 289,
+      "earlier": [
+        300,
+        320
+      ],
+      "issue_frame": 340,
+      "score_frame": 360
+    },
+    {
+      "file": "16500_10.h5",
+      "start": 340,
+      "re": 16534.0,
+      "history": [
+        340,
+        360
+      ],
+      "target": [
+        360,
+        380
+      ],
+      "index": 338,
+      "earlier": [
+        320,
+        340
+      ],
+      "issue_frame": 360,
+      "score_frame": 380
+    },
+    {
+      "file": "17775_5.h5",
+      "start": 400,
+      "re": 17812.0,
+      "history": [
+        400,
+        420
+      ],
+      "target": [
+        420,
+        440
+      ],
+      "index": 437,
+      "earlier": [
+        380,
+        400
+      ],
+      "issue_frame": 420,
+      "score_frame": 440
+    },
+    {
+      "file": "20325_15.h5",
+      "start": 360,
+      "re": 20369.0,
+      "history": [
+        360,
+        380
+      ],
+      "target": [
+        380,
+        400
+      ],
+      "index": 394,
+      "earlier": [
+        340,
+        360
+      ],
+      "issue_frame": 380,
+      "score_frame": 400
+    }
+  ],
+  [
+    {
+      "file": "11400_20.h5",
+      "start": 300,
+      "re": 11420.0,
+      "history": [
+        300,
+        320
+      ],
+      "target": [
+        320,
+        340
+      ],
+      "index": 238,
+      "earlier": [
+        280,
+        300
+      ],
+      "issue_frame": 320,
+      "score_frame": 340
+    },
+    {
+      "file": "12675_10.h5",
+      "start": 320,
+      "re": 12698.0,
+      "history": [
+        320,
+        340
+      ],
+      "target": [
+        340,
+        360
+      ],
+      "index": 287,
+      "earlier": [
+        300,
+        320
+      ],
+      "issue_frame": 340,
+      "score_frame": 360
+    },
+    {
+      "file": "16500_5.h5",
+      "start": 320,
+      "re": 16534.0,
+      "history": [
+        320,
+        340
+      ],
+      "target": [
+        340,
+        360
+      ],
+      "index": 295,
+      "earlier": [
+        300,
+        320
+      ],
+      "issue_frame": 340,
+      "score_frame": 360
+    },
+    {
+      "file": "17775_15.h5",
+      "start": 400,
+      "re": 17812.0,
+      "history": [
+        400,
+        420
+      ],
+      "target": [
+        420,
+        440
+      ],
+      "index": 435,
+      "earlier": [
+        380,
+        400
+      ],
+      "issue_frame": 420,
+      "score_frame": 440
+    },
+    {
+      "file": "20325_0.h5",
+      "start": 360,
+      "re": 20369.0,
+      "history": [
+        360,
+        380
+      ],
+      "target": [
+        380,
+        400
+      ],
+      "index": 392,
+      "earlier": [
+        340,
+        360
+      ],
+      "issue_frame": 380,
+      "score_frame": 400
+    },
+    {
+      "file": "21600_20.h5",
+      "start": 360,
+      "re": 21647.0,
+      "history": [
+        360,
+        380
+      ],
+      "target": [
+        380,
+        400
+      ],
+      "index": 400,
+      "earlier": [
+        340,
+        360
+      ],
+      "issue_frame": 380,
+      "score_frame": 400
+    },
+    {
+      "file": "24150_10.h5",
+      "start": 520,
+      "re": 24204.0,
+      "history": [
+        520,
+        540
+      ],
+      "target": [
+        540,
+        560
+      ],
+      "index": 721,
+      "earlier": [
+        500,
+        520
+      ],
+      "issue_frame": 540,
+      "score_frame": 560
+    },
+    {
+      "file": "25425_10.h5",
+      "start": 460,
+      "re": 25482.0,
+      "history": [
+        460,
+        480
+      ],
+      "target": [
+        480,
+        500
+      ],
+      "index": 589,
+      "earlier": [
+        440,
+        460
+      ],
+      "issue_frame": 480,
+      "score_frame": 500
+    }
+  ],
+  [
+    {
+      "file": "17775_5.h5",
+      "start": 360,
+      "re": 17812.0,
+      "history": [
+        360,
+        380
+      ],
+      "target": [
+        380,
+        400
+      ],
+      "index": 391,
+      "earlier": [
+        340,
+        360
+      ],
+      "issue_frame": 380,
+      "score_frame": 400
+    },
+    {
+      "file": "20325_20.h5",
+      "start": 340,
+      "re": 20369.0,
+      "history": [
+        340,
+        360
+      ],
+      "target": [
+        360,
+        380
+      ],
+      "index": 349,
+      "earlier": [
+        320,
+        340
+      ],
+      "issue_frame": 360,
+      "score_frame": 380
+    },
+    {
+      "file": "21600_10.h5",
+      "start": 360,
+      "re": 21647.0,
+      "history": [
+        360,
+        380
+      ],
+      "target": [
+        380,
+        400
+      ],
+      "index": 398,
+      "earlier": [
+        340,
+        360
+      ],
+      "issue_frame": 380,
+      "score_frame": 400
+    },
+    {
+      "file": "24150_15.h5",
+      "start": 500,
+      "re": 24204.0,
+      "history": [
+        500,
+        520
+      ],
+      "target": [
+        520,
+        540
+      ],
+      "index": 677,
+      "earlier": [
+        480,
+        500
+      ],
+      "issue_frame": 520,
+      "score_frame": 540
+    },
+    {
+      "file": "25425_20.h5",
+      "start": 440,
+      "re": 25482.0,
+      "history": [
+        440,
+        460
+      ],
+      "target": [
+        460,
+        480
+      ],
+      "index": 546,
+      "earlier": [
+        420,
+        440
+      ],
+      "issue_frame": 460,
+      "score_frame": 480
+    },
+    {
+      "file": "8850_0.h5",
+      "start": 420,
+      "re": 8863.0,
+      "history": [
+        420,
+        440
+      ],
+      "target": [
+        440,
+        460
+      ],
+      "index": 501,
+      "earlier": [
+        400,
+        420
+      ],
+      "issue_frame": 440,
+      "score_frame": 460
+    },
+    {
+      "file": "10125_20.h5",
+      "start": 420,
+      "re": 10142.0,
+      "history": [
+        420,
+        440
+      ],
+      "target": [
+        440,
+        460
+      ],
+      "index": 463,
+      "earlier": [
+        400,
+        420
+      ],
+      "issue_frame": 440,
+      "score_frame": 460
+    },
+    {
+      "file": "11400_10.h5",
+      "start": 440,
+      "re": 11420.0,
+      "history": [
+        440,
+        460
+      ],
+      "target": [
+        460,
+        480
+      ],
+      "index": 512,
+      "earlier": [
+        420,
+        440
+      ],
+      "issue_frame": 460,
+      "score_frame": 480
+    }
+  ],
+  [
+    {
+      "file": "24150_0.h5",
+      "start": 500,
+      "re": 24204.0,
+      "history": [
+        500,
+        520
+      ],
+      "target": [
+        520,
+        540
+      ],
+      "index": 675,
+      "earlier": [
+        480,
+        500
+      ],
+      "issue_frame": 520,
+      "score_frame": 540
+    },
+    {
+      "file": "25425_10.h5",
+      "start": 440,
+      "re": 25482.0,
+      "history": [
+        440,
+        460
+      ],
+      "target": [
+        460,
+        480
+      ],
+      "index": 544,
+      "earlier": [
+        420,
+        440
+      ],
+      "issue_frame": 460,
+      "score_frame": 480
+    },
+    {
+      "file": "8850_20.h5",
+      "start": 400,
+      "re": 8863.0,
+      "history": [
+        400,
+        420
+      ],
+      "target": [
+        420,
+        440
+      ],
+      "index": 458,
+      "earlier": [
+        380,
+        400
+      ],
+      "issue_frame": 420,
+      "score_frame": 440
+    },
+    {
+      "file": "10125_10.h5",
+      "start": 420,
+      "re": 10142.0,
+      "history": [
+        420,
+        440
+      ],
+      "target": [
+        440,
+        460
+      ],
+      "index": 461,
+      "earlier": [
+        400,
+        420
+      ],
+      "issue_frame": 440,
+      "score_frame": 460
+    },
+    {
+      "file": "11400_5.h5",
+      "start": 420,
+      "re": 11420.0,
+      "history": [
+        420,
+        440
+      ],
+      "target": [
+        440,
+        460
+      ],
+      "index": 469,
+      "earlier": [
+        400,
+        420
+      ],
+      "issue_frame": 440,
+      "score_frame": 460
+    },
+    {
+      "file": "12675_15.h5",
+      "start": 440,
+      "re": 12698.0,
+      "history": [
+        440,
+        460
+      ],
+      "target": [
+        460,
+        480
+      ],
+      "index": 518,
+      "earlier": [
+        420,
+        440
+      ],
+      "issue_frame": 460,
+      "score_frame": 480
+    },
+    {
+      "file": "16500_0.h5",
+      "start": 460,
+      "re": 16534.0,
+      "history": [
+        460,
+        480
+      ],
+      "target": [
+        480,
+        500
+      ],
+      "index": 567,
+      "earlier": [
+        440,
+        460
+      ],
+      "issue_frame": 480,
+      "score_frame": 500
+    },
+    {
+      "file": "17775_5.h5",
+      "start": 520,
+      "re": 17812.0,
+      "history": [
+        520,
+        540
+      ],
+      "target": [
+        540,
+        560
+      ],
+      "index": 710,
+      "earlier": [
+        500,
+        520
+      ],
+      "issue_frame": 540,
+      "score_frame": 560
+    }
+  ],
+  [
+    {
+      "file": "10125_5.h5",
+      "start": 400,
+      "re": 10142.0,
+      "history": [
+        400,
+        420
+      ],
+      "target": [
+        420,
+        440
+      ],
+      "index": 418,
+      "earlier": [
+        380,
+        400
+      ],
+      "issue_frame": 420,
+      "score_frame": 440
+    },
+    {
+      "file": "11400_15.h5",
+      "start": 420,
+      "re": 11420.0,
+      "history": [
+        420,
+        440
+      ],
+      "target": [
+        440,
+        460
+      ],
+      "index": 467,
+      "earlier": [
+        400,
+        420
+      ],
+      "issue_frame": 440,
+      "score_frame": 460
+    },
+    {
+      "file": "12675_0.h5",
+      "start": 440,
+      "re": 12698.0,
+      "history": [
+        440,
+        460
+      ],
+      "target": [
+        460,
+        480
+      ],
+      "index": 516,
+      "earlier": [
+        420,
+        440
+      ],
+      "issue_frame": 460,
+      "score_frame": 480
+    },
+    {
+      "file": "16500_20.h5",
+      "start": 440,
+      "re": 16534.0,
+      "history": [
+        440,
+        460
+      ],
+      "target": [
+        460,
+        480
+      ],
+      "index": 524,
+      "earlier": [
+        420,
+        440
+      ],
+      "issue_frame": 460,
+      "score_frame": 480
+    },
+    {
+      "file": "17775_15.h5",
+      "start": 520,
+      "re": 17812.0,
+      "history": [
+        520,
+        540
+      ],
+      "target": [
+        540,
+        560
+      ],
+      "index": 708,
+      "earlier": [
+        500,
+        520
+      ],
+      "issue_frame": 540,
+      "score_frame": 560
+    },
+    {
+      "file": "20325_5.h5",
+      "start": 460,
+      "re": 20369.0,
+      "history": [
+        460,
+        480
+      ],
+      "target": [
+        480,
+        500
+      ],
+      "index": 580,
+      "earlier": [
+        440,
+        460
+      ],
+      "issue_frame": 480,
+      "score_frame": 500
+    },
+    {
+      "file": "21600_20.h5",
+      "start": 480,
+      "re": 21647.0,
+      "history": [
+        480,
+        500
+      ],
+      "target": [
+        500,
+        520
+      ],
+      "index": 629,
+      "earlier": [
+        460,
+        480
+      ],
+      "issue_frame": 500,
+      "score_frame": 520
+    },
+    {
+      "file": "24150_10.h5",
+      "start": 300,
+      "re": 24204.0,
+      "history": [
+        300,
+        320
+      ],
+      "target": [
+        320,
+        340
+      ],
+      "index": 265,
+      "earlier": [
+        280,
+        300
+      ],
+      "issue_frame": 320,
+      "score_frame": 340
+    }
+  ]
+]

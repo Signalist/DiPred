@@ -1,0 +1,546 @@
+{
+  "kind": "same_trajectory_temporal_expansion",
+  "split": "historical_test",
+  "goals": {
+    "releases": 8,
+    "data_access": "after main candidate freeze"
+  },
+  "independent": {
+    "verified": [],
+    "listed_outside_original_manifest": [
+      "19050_0.h5",
+      "19050_10.h5",
+      "19050_15.h5",
+      "19050_20.h5",
+      "19050_5.h5",
+      "24150_20.h5",
+      "5025_0.h5",
+      "5025_10.h5",
+      "5025_15.h5",
+      "5025_20.h5",
+      "5025_5.h5",
+      "7575_0.h5"
+    ],
+    "known_exclusions": {
+      "24150_20.h5": {
+        "split": "train",
+        "file": "24150_20.h5",
+        "group": "24150",
+        "re": 24204.0,
+        "aoa": 20.0,
+        "frames": 282,
+        "sha256_first200": "4ec83c94ef305feeca450bcc5f0870d2e4d09f6a5d739258ac867f1840db88e4"
+      }
+    },
+    "documented": {
+      "19050_0.h5": {
+        "file": "19050_0.h5",
+        "known_role": "calibration",
+        "corrector_window_role": null,
+        "backbone_normalization_fit": false,
+        "frames": 868,
+        "historical_calibration_used": true,
+        "other_corrector_crossfit_role": "train",
+        "reported_in_prior_selected16": false,
+        "first200_identity": "0891252677c14e255120d1312783f359a25050d54437952080183c577f06ec91",
+        "duplicate_of": null,
+        "exclusion": "documented historical calibration; no fresh validation provenance"
+      },
+      "19050_10.h5": {
+        "file": "19050_10.h5",
+        "known_role": "calibration",
+        "corrector_window_role": null,
+        "backbone_normalization_fit": false,
+        "frames": 868,
+        "historical_calibration_used": true,
+        "other_corrector_crossfit_role": "train",
+        "reported_in_prior_selected16": false,
+        "first200_identity": "a48d4308eaa48e2978c838501181a2001e2bffb535c4638fd70767e18701e61f",
+        "duplicate_of": null,
+        "exclusion": "documented historical calibration; no fresh validation provenance"
+      },
+      "19050_15.h5": {
+        "file": "19050_15.h5",
+        "known_role": "calibration",
+        "corrector_window_role": null,
+        "backbone_normalization_fit": false,
+        "frames": 868,
+        "historical_calibration_used": true,
+        "other_corrector_crossfit_role": "train",
+        "reported_in_prior_selected16": false,
+        "first200_identity": "d01c271911aae96d501bca17d202494c2fbe75e06dd604a9f7b416a6db71de70",
+        "duplicate_of": null,
+        "exclusion": "documented historical calibration; no fresh validation provenance"
+      },
+      "19050_20.h5": {
+        "file": "19050_20.h5",
+        "known_role": "calibration",
+        "corrector_window_role": null,
+        "backbone_normalization_fit": false,
+        "frames": 868,
+        "historical_calibration_used": true,
+        "other_corrector_crossfit_role": "train",
+        "reported_in_prior_selected16": false,
+        "first200_identity": "b76fd1d2b6218a5e4d55961ce62ed75eff08d2bf75dcbed4b09d1fdef1d36318",
+        "duplicate_of": null,
+        "exclusion": "documented historical calibration; no fresh validation provenance"
+      },
+      "19050_5.h5": {
+        "file": "19050_5.h5",
+        "known_role": "calibration",
+        "corrector_window_role": null,
+        "backbone_normalization_fit": false,
+        "frames": 868,
+        "historical_calibration_used": true,
+        "other_corrector_crossfit_role": "train",
+        "reported_in_prior_selected16": false,
+        "first200_identity": "28a16a299ba80161b3606cffc92d8c52cc674787370f64dc08824c6c8e22e015",
+        "duplicate_of": null,
+        "exclusion": "documented historical calibration; no fresh validation provenance"
+      },
+      "24150_20.h5": {
+        "file": "24150_20.h5",
+        "known_role": "train",
+        "corrector_window_role": null,
+        "backbone_normalization_fit": true,
+        "frames": 282,
+        "historical_calibration_used": false,
+        "other_corrector_crossfit_role": "train",
+        "reported_in_prior_selected16": false,
+        "first200_identity": "4ec83c94ef305feeca450bcc5f0870d2e4d09f6a5d739258ac867f1840db88e4",
+        "duplicate_of": null,
+        "exclusion": "insufficient frames for the frozen confirmation schedule"
+      },
+      "5025_0.h5": {
+        "file": "5025_0.h5",
+        "known_role": "calibration",
+        "corrector_window_role": null,
+        "backbone_normalization_fit": false,
+        "frames": 868,
+        "historical_calibration_used": true,
+        "other_corrector_crossfit_role": "train",
+        "reported_in_prior_selected16": false,
+        "first200_identity": "8c7090c401864775145e31a3fe9c0e72a7cde1137619c8fc450d84f8e908d2f1",
+        "duplicate_of": null,
+        "exclusion": "documented historical calibration; no fresh validation provenance"
+      },
+      "5025_10.h5": {
+        "file": "5025_10.h5",
+        "known_role": "calibration",
+        "corrector_window_role": null,
+        "backbone_normalization_fit": false,
+        "frames": 868,
+        "historical_calibration_used": true,
+        "other_corrector_crossfit_role": "train",
+        "reported_in_prior_selected16": false,
+        "first200_identity": "f062abed72c6bd6e4b44e610bba096fb0ba29232297d48b946c4219116cf2963",
+        "duplicate_of": null,
+        "exclusion": "documented historical calibration; no fresh validation provenance"
+      },
+      "5025_15.h5": {
+        "file": "5025_15.h5",
+        "known_role": "calibration",
+        "corrector_window_role": null,
+        "backbone_normalization_fit": false,
+        "frames": 868,
+        "historical_calibration_used": true,
+        "other_corrector_crossfit_role": "train",
+        "reported_in_prior_selected16": false,
+        "first200_identity": "a70b64b16aa7cdace79a8848e7dc416c8d9a240210188e249529db1213ff684f",
+        "duplicate_of": null,
+        "exclusion": "documented historical calibration; no fresh validation provenance"
+      },
+      "5025_20.h5": {
+        "file": "5025_20.h5",
+        "known_role": "calibration",
+        "corrector_window_role": null,
+        "backbone_normalization_fit": false,
+        "frames": 868,
+        "historical_calibration_used": true,
+        "other_corrector_crossfit_role": "train",
+        "reported_in_prior_selected16": false,
+        "first200_identity": "37073df090a62fbd8e7d36a57fcc1b477d311cf232b3c4221213f2bce3e9bce6",
+        "duplicate_of": null,
+        "exclusion": "documented historical calibration; no fresh validation provenance"
+      },
+      "5025_5.h5": {
+        "file": "5025_5.h5",
+        "known_role": "calibration",
+        "corrector_window_role": null,
+        "backbone_normalization_fit": false,
+        "frames": 868,
+        "historical_calibration_used": true,
+        "other_corrector_crossfit_role": "train",
+        "reported_in_prior_selected16": false,
+        "first200_identity": "8e5188d16326daed3d73dfc731ffc1c6a3a206bc38630e33db59980925ad2f1c",
+        "duplicate_of": null,
+        "exclusion": "documented historical calibration; no fresh validation provenance"
+      },
+      "7575_0.h5": {
+        "file": "7575_0.h5",
+        "known_role": "unknown",
+        "corrector_window_role": null,
+        "backbone_normalization_fit": false,
+        "frames": null,
+        "historical_calibration_used": false,
+        "other_corrector_crossfit_role": null,
+        "reported_in_prior_selected16": false,
+        "first200_identity": "3cb43ed86be46a3de4a354226e6dc17e72d55d9269428750dd4679440f1f9785",
+        "duplicate_of": "6300_0.h5",
+        "exclusion": "metadata trajectory duplicate of 6300_0.h5"
+      }
+    },
+    "provenance_sha256": "f7a580995a067be334de7dfc15e4d781145a6797fcc379cc7e97b713ba32dfdc",
+    "reason": "No independently identified, eligible RealPDE trajectory with documented provenance"
+  },
+  "chains": [
+    {
+      "file": "13950_0.h5",
+      "re": 13977.0,
+      "frames": 868,
+      "starts": [
+        400,
+        420,
+        440,
+        460,
+        480,
+        500,
+        520,
+        540
+      ],
+      "new_vs_main": [
+        440,
+        460,
+        480,
+        500,
+        520,
+        540
+      ],
+      "new_vs_prior_window_study": [
+        480,
+        500,
+        520,
+        540
+      ]
+    },
+    {
+      "file": "13950_10.h5",
+      "re": 13977.0,
+      "frames": 868,
+      "starts": [
+        400,
+        420,
+        440,
+        460,
+        480,
+        500,
+        520,
+        540
+      ],
+      "new_vs_main": [
+        440,
+        460,
+        480,
+        500,
+        520,
+        540
+      ],
+      "new_vs_prior_window_study": [
+        480,
+        500,
+        520,
+        540
+      ]
+    },
+    {
+      "file": "13950_15.h5",
+      "re": 13977.0,
+      "frames": 868,
+      "starts": [
+        400,
+        420,
+        440,
+        460,
+        480,
+        500,
+        520,
+        540
+      ],
+      "new_vs_main": [
+        440,
+        460,
+        480,
+        500,
+        520,
+        540
+      ],
+      "new_vs_prior_window_study": [
+        480,
+        500,
+        520,
+        540
+      ]
+    },
+    {
+      "file": "13950_20.h5",
+      "re": 13977.0,
+      "frames": 868,
+      "starts": [
+        400,
+        420,
+        440,
+        460,
+        480,
+        500,
+        520,
+        540
+      ],
+      "new_vs_main": [
+        440,
+        460,
+        480,
+        500,
+        520,
+        540
+      ],
+      "new_vs_prior_window_study": [
+        480,
+        500,
+        520,
+        540
+      ]
+    },
+    {
+      "file": "13950_5.h5",
+      "re": 13977.0,
+      "frames": 868,
+      "starts": [
+        400,
+        420,
+        440,
+        460,
+        480,
+        500,
+        520,
+        540
+      ],
+      "new_vs_main": [
+        440,
+        460,
+        480,
+        500,
+        520,
+        540
+      ],
+      "new_vs_prior_window_study": [
+        480,
+        500,
+        520,
+        540
+      ]
+    },
+    {
+      "file": "22875_0.h5",
+      "re": 22926.0,
+      "frames": 868,
+      "starts": [
+        400,
+        420,
+        440,
+        460,
+        480,
+        500,
+        520,
+        540
+      ],
+      "new_vs_main": [
+        440,
+        460,
+        480,
+        500,
+        520,
+        540
+      ],
+      "new_vs_prior_window_study": [
+        480,
+        500,
+        520,
+        540
+      ]
+    },
+    {
+      "file": "22875_10.h5",
+      "re": 22926.0,
+      "frames": 868,
+      "starts": [
+        400,
+        420,
+        440,
+        460,
+        480,
+        500,
+        520,
+        540
+      ],
+      "new_vs_main": [
+        440,
+        460,
+        480,
+        500,
+        520,
+        540
+      ],
+      "new_vs_prior_window_study": [
+        480,
+        500,
+        520,
+        540
+      ]
+    },
+    {
+      "file": "22875_15.h5",
+      "re": 22926.0,
+      "frames": 868,
+      "starts": [
+        400,
+        420,
+        440,
+        460,
+        480,
+        500,
+        520,
+        540
+      ],
+      "new_vs_main": [
+        440,
+        460,
+        480,
+        500,
+        520,
+        540
+      ],
+      "new_vs_prior_window_study": [
+        480,
+        500,
+        520,
+        540
+      ]
+    },
+    {
+      "file": "3750_0.h5",
+      "re": 3750.0,
+      "frames": 868,
+      "starts": [
+        400,
+        420,
+        440,
+        460,
+        480,
+        500,
+        520,
+        540
+      ],
+      "new_vs_main": [
+        440,
+        460,
+        480,
+        500,
+        520,
+        540
+      ],
+      "new_vs_prior_window_study": [
+        480,
+        500,
+        520,
+        540
+      ]
+    },
+    {
+      "file": "3750_10.h5",
+      "re": 3750.0,
+      "frames": 868,
+      "starts": [
+        400,
+        420,
+        440,
+        460,
+        480,
+        500,
+        520,
+        540
+      ],
+      "new_vs_main": [
+        440,
+        460,
+        480,
+        500,
+        520,
+        540
+      ],
+      "new_vs_prior_window_study": [
+        480,
+        500,
+        520,
+        540
+      ]
+    },
+    {
+      "file": "3750_20.h5",
+      "re": 3750.0,
+      "frames": 868,
+      "starts": [
+        400,
+        420,
+        440,
+        460,
+        480,
+        500,
+        520,
+        540
+      ],
+      "new_vs_main": [
+        440,
+        460,
+        480,
+        500,
+        520,
+        540
+      ],
+      "new_vs_prior_window_study": [
+        480,
+        500,
+        520,
+        540
+      ]
+    },
+    {
+      "file": "3750_5.h5",
+      "re": 3750.0,
+      "frames": 868,
+      "starts": [
+        400,
+        420,
+        440,
+        460,
+        480,
+        500,
+        520,
+        540
+      ],
+      "new_vs_main": [
+        440,
+        460,
+        480,
+        500,
+        520,
+        540
+      ],
+      "new_vs_prior_window_study": [
+        480,
+        500,
+        520,
+        540
+      ]
+    }
+  ]
+}

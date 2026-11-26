@@ -1,0 +1,12 @@
+{
+  "source": "training target absolute 95% within channel",
+  "stride": [
+    2,
+    2,
+    2
+  ],
+  "thresholds": [
+    0.03264504671096802,
+    0.012451833253726362
+  ]
+}

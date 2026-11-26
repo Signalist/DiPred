@@ -1,0 +1,359 @@
+{
+  "historical_evidence": {
+    "results/corrector_spacetime_optimization/FROZEN.json": "400ce1a7ce13b7a3c63933fdc023425a1b382ae8de4b4b7c815c5217988f9e83",
+    "results/corrector_spacetime_optimization/verification.json": "033dd28f3e4327135f3c182a1f5368a3fa5f99a52277c81ffb1ec00dfbdfaebe",
+    "results/corrector_spacetime_optimization/artifact_audit.json": "4852b29c7a3b6fff9fd4c88550502e27c63bdd060d33563e219753a85312423c",
+    "results/corrector_spacetime_optimization/scores.csv": "4c81c54c7c19e14d31fd69da080b838d2359fa2df504943c6c3a54f30d6663bc",
+    "results/corrector_spacetime_optimization/leads.csv": "f273d0ddd19a75459bc7c909b5e0e76a62b6d173b7a35853770207da92d323a4",
+    "results/corrector_spacetime_optimization/trajectories.csv": "9c7ff4dd8aad3aafa1da304fb567df117ab08f593f237c9ce03a827e99bb55bd",
+    "results/corrector_spacetime_optimization/regimes.csv": "d0901738c046ef550f5eab279ad6dc876beee5aedf9acb8d951432accb4a8736"
+  },
+  "reused": {
+    "B_TS1_0.1": {
+      "run": "B_VEL_rho_0.1",
+      "configuration": {
+        "branch": "B",
+        "arm": "VEL_rho_0.1",
+        "weights": {
+          "velocity": 1.2526853463524037
+        },
+        "stage": "balanced",
+        "seed": 42,
+        "updates": 6000,
+        "first": 1000,
+        "shared_sha256": "fb0e30bad8d29d456e9df2bfa614a7c5e6e7021f3a26969973bdaea82b85f2b3",
+        "schedule_sha256": "da3d59a77904c0209e26630a297b846f53cb0bcdee85c6005c6890da939a2d56",
+        "scale": 0.012604449511191594,
+        "lr": 0.001,
+        "weight_decay": 1e-05,
+        "previous_train_input": "4e58102aa14a18fae23e1d8f02811e65c2933deaf3cc893cb4f886010438aefc",
+        "previous_dev_input": "f43a4023db99ff67f6d796e49248a2385b3edcedf4a4ea466db0ff02d0e556e4"
+      },
+      "checkpoint": "8a8a7692ff1bb56e6acff808ef655fc916637e180a775df2a5aeb70bab48dd39",
+      "prior_freeze": "361742a528e1724a2106899a2076b13ac744c5560a39dac6093786262cd9137e",
+      "optimizer_source": "fb0e30bad8d29d456e9df2bfa614a7c5e6e7021f3a26969973bdaea82b85f2b3"
+    },
+    "B_TS1_0.3": {
+      "run": "B_VEL_rho_0.3",
+      "configuration": {
+        "branch": "B",
+        "arm": "VEL_rho_0.3",
+        "weights": {
+          "velocity": 3.75805603905721
+        },
+        "stage": "balanced",
+        "seed": 42,
+        "updates": 6000,
+        "first": 1000,
+        "shared_sha256": "fb0e30bad8d29d456e9df2bfa614a7c5e6e7021f3a26969973bdaea82b85f2b3",
+        "schedule_sha256": "da3d59a77904c0209e26630a297b846f53cb0bcdee85c6005c6890da939a2d56",
+        "scale": 0.012604449511191594,
+        "lr": 0.001,
+        "weight_decay": 1e-05,
+        "previous_train_input": "4e58102aa14a18fae23e1d8f02811e65c2933deaf3cc893cb4f886010438aefc",
+        "previous_dev_input": "f43a4023db99ff67f6d796e49248a2385b3edcedf4a4ea466db0ff02d0e556e4"
+      },
+      "checkpoint": "cfca608c7c36e835ab9805847da7bc6d2b13c8e3a545c2014bf4c62b0a5ce4ca",
+      "prior_freeze": "70151da95b8a36412d1d37a80f32bcb2c0b81d16c91fc146dc57fc6b75a1a861",
+      "optimizer_source": "fb0e30bad8d29d456e9df2bfa614a7c5e6e7021f3a26969973bdaea82b85f2b3"
+    },
+    "B_TS2_0.1": {
+      "run": "B_ACC_rho_0.1",
+      "configuration": {
+        "branch": "B",
+        "arm": "ACC_rho_0.1",
+        "weights": {
+          "acceleration": 1.6177500788008032
+        },
+        "stage": "balanced",
+        "seed": 42,
+        "updates": 6000,
+        "first": 1000,
+        "shared_sha256": "fb0e30bad8d29d456e9df2bfa614a7c5e6e7021f3a26969973bdaea82b85f2b3",
+        "schedule_sha256": "da3d59a77904c0209e26630a297b846f53cb0bcdee85c6005c6890da939a2d56",
+        "scale": 0.012604449511191594,
+        "lr": 0.001,
+        "weight_decay": 1e-05,
+        "previous_train_input": "4e58102aa14a18fae23e1d8f02811e65c2933deaf3cc893cb4f886010438aefc",
+        "previous_dev_input": "f43a4023db99ff67f6d796e49248a2385b3edcedf4a4ea466db0ff02d0e556e4"
+      },
+      "checkpoint": "a3da6a9b0f5c46499e7209eda46dce7be1b6e7f0b127e2e0fa0668c3c4ec6e72",
+      "prior_freeze": "f01236e61a31b52c50272e8848d48283ba1f405653827818cbc338ecef5ba19f",
+      "optimizer_source": "fb0e30bad8d29d456e9df2bfa614a7c5e6e7021f3a26969973bdaea82b85f2b3"
+    },
+    "B_TS2_0.3": {
+      "run": "B_ACC_rho_0.3",
+      "configuration": {
+        "branch": "B",
+        "arm": "ACC_rho_0.3",
+        "weights": {
+          "acceleration": 4.853250236402409
+        },
+        "stage": "balanced",
+        "seed": 42,
+        "updates": 6000,
+        "first": 1000,
+        "shared_sha256": "fb0e30bad8d29d456e9df2bfa614a7c5e6e7021f3a26969973bdaea82b85f2b3",
+        "schedule_sha256": "da3d59a77904c0209e26630a297b846f53cb0bcdee85c6005c6890da939a2d56",
+        "scale": 0.012604449511191594,
+        "lr": 0.001,
+        "weight_decay": 1e-05,
+        "previous_train_input": "4e58102aa14a18fae23e1d8f02811e65c2933deaf3cc893cb4f886010438aefc",
+        "previous_dev_input": "f43a4023db99ff67f6d796e49248a2385b3edcedf4a4ea466db0ff02d0e556e4"
+      },
+      "checkpoint": "c90e6a4b48adc608e48d6979060709d964525e4f4c76f08b8a31daee31cfcedb",
+      "prior_freeze": "87a789f19631a126948f11d78dc55dfe5466604311d40c6edf484befe845a8ac",
+      "optimizer_source": "fb0e30bad8d29d456e9df2bfa614a7c5e6e7021f3a26969973bdaea82b85f2b3"
+    },
+    "B_TM1_0.1": {
+      "run": "B_MATCH_rho_0.1",
+      "configuration": {
+        "branch": "B",
+        "arm": "MATCH_rho_0.1",
+        "weights": {
+          "match": 1.0109951836659503
+        },
+        "stage": "balanced",
+        "seed": 42,
+        "updates": 6000,
+        "first": 1000,
+        "shared_sha256": "fb0e30bad8d29d456e9df2bfa614a7c5e6e7021f3a26969973bdaea82b85f2b3",
+        "schedule_sha256": "da3d59a77904c0209e26630a297b846f53cb0bcdee85c6005c6890da939a2d56",
+        "scale": 0.012604449511191594,
+        "lr": 0.001,
+        "weight_decay": 1e-05,
+        "previous_train_input": "4e58102aa14a18fae23e1d8f02811e65c2933deaf3cc893cb4f886010438aefc",
+        "previous_dev_input": "f43a4023db99ff67f6d796e49248a2385b3edcedf4a4ea466db0ff02d0e556e4"
+      },
+      "checkpoint": "9e53b5dfe434fb27b9c2f3175a51a60b6a0f08e76e2e232e690585f93760180b",
+      "prior_freeze": "3f0fa4d25f3f183bf9119d14452c85c52f4577d0cce7b185cf4eb921f60b2c7c",
+      "optimizer_source": "fb0e30bad8d29d456e9df2bfa614a7c5e6e7021f3a26969973bdaea82b85f2b3"
+    },
+    "B_TM1_0.3": {
+      "run": "B_MATCH_rho_0.3",
+      "configuration": {
+        "branch": "B",
+        "arm": "MATCH_rho_0.3",
+        "weights": {
+          "match": 3.0329855509978505
+        },
+        "stage": "balanced",
+        "seed": 42,
+        "updates": 6000,
+        "first": 1000,
+        "shared_sha256": "fb0e30bad8d29d456e9df2bfa614a7c5e6e7021f3a26969973bdaea82b85f2b3",
+        "schedule_sha256": "da3d59a77904c0209e26630a297b846f53cb0bcdee85c6005c6890da939a2d56",
+        "scale": 0.012604449511191594,
+        "lr": 0.001,
+        "weight_decay": 1e-05,
+        "previous_train_input": "4e58102aa14a18fae23e1d8f02811e65c2933deaf3cc893cb4f886010438aefc",
+        "previous_dev_input": "f43a4023db99ff67f6d796e49248a2385b3edcedf4a4ea466db0ff02d0e556e4"
+      },
+      "checkpoint": "f6c15e2f124bde23380ff8e9cf11410ca9f3e672df923758319277648aa13b9a",
+      "prior_freeze": "686ec527b6bdcc4557042506f381a260046ad8381c5349cdb35e58b066dd2c63",
+      "optimizer_source": "fb0e30bad8d29d456e9df2bfa614a7c5e6e7021f3a26969973bdaea82b85f2b3"
+    },
+    "B_TM2_0.3": {
+      "run": "B_ext_match2",
+      "configuration": {
+        "branch": "B",
+        "arm": "ext_match2",
+        "weights": {
+          "match2": 4.053549527698782
+        },
+        "stage": "extension",
+        "seed": 42,
+        "updates": 6000,
+        "first": 1000,
+        "shared_sha256": "fb0e30bad8d29d456e9df2bfa614a7c5e6e7021f3a26969973bdaea82b85f2b3",
+        "schedule_sha256": "da3d59a77904c0209e26630a297b846f53cb0bcdee85c6005c6890da939a2d56",
+        "scale": 0.012604449511191594,
+        "lr": 0.001,
+        "weight_decay": 1e-05,
+        "previous_train_input": "4e58102aa14a18fae23e1d8f02811e65c2933deaf3cc893cb4f886010438aefc",
+        "previous_dev_input": "f43a4023db99ff67f6d796e49248a2385b3edcedf4a4ea466db0ff02d0e556e4"
+      },
+      "checkpoint": "40d2b21db7e77bcfa898900a07ef18cbb971781dcd653b6c67fa3f54166a82d1",
+      "prior_freeze": "1049c4c896e4695b72a793f96d663109e3f5a1137deaa05e948b12e31ff9ad56",
+      "optimizer_source": "fb0e30bad8d29d456e9df2bfa614a7c5e6e7021f3a26969973bdaea82b85f2b3"
+    },
+    "E_TS1_0.1": {
+      "run": "E_VEL_rho_0.1",
+      "configuration": {
+        "branch": "E",
+        "arm": "VEL_rho_0.1",
+        "weights": {
+          "velocity": 1.0257043776657966
+        },
+        "stage": "balanced",
+        "seed": 42,
+        "updates": 6000,
+        "first": 1000,
+        "shared_sha256": "0c6c4fab54f990e498ebc51a04082f362730950c655014d4d6173812e5bfc0c1",
+        "schedule_sha256": "da3d59a77904c0209e26630a297b846f53cb0bcdee85c6005c6890da939a2d56",
+        "scale": 0.012604449511191594,
+        "lr": 0.001,
+        "weight_decay": 1e-05,
+        "previous_train_input": "a3d53069fcfb9344bddff6f512a626356b6fff81a7c9a05b084574f4308c4c1d",
+        "previous_dev_input": "6d60e5a8666f9dda108ee32ecb755eb0d1488ebd1fb0834ad3a5576284a6b96e"
+      },
+      "checkpoint": "51ff31c8c97ab9b1593462942b58b29689e066ae31080740b650637d8ee69469",
+      "prior_freeze": "6362be5eb1f268c780d8378936a0723c84ba6ee37d9fa8a9eeaf54372482e847",
+      "optimizer_source": "0c6c4fab54f990e498ebc51a04082f362730950c655014d4d6173812e5bfc0c1"
+    },
+    "E_TS1_0.3": {
+      "run": "E_VEL_rho_0.3",
+      "configuration": {
+        "branch": "E",
+        "arm": "VEL_rho_0.3",
+        "weights": {
+          "velocity": 3.07711313299739
+        },
+        "stage": "balanced",
+        "seed": 42,
+        "updates": 6000,
+        "first": 1000,
+        "shared_sha256": "0c6c4fab54f990e498ebc51a04082f362730950c655014d4d6173812e5bfc0c1",
+        "schedule_sha256": "da3d59a77904c0209e26630a297b846f53cb0bcdee85c6005c6890da939a2d56",
+        "scale": 0.012604449511191594,
+        "lr": 0.001,
+        "weight_decay": 1e-05,
+        "previous_train_input": "a3d53069fcfb9344bddff6f512a626356b6fff81a7c9a05b084574f4308c4c1d",
+        "previous_dev_input": "6d60e5a8666f9dda108ee32ecb755eb0d1488ebd1fb0834ad3a5576284a6b96e"
+      },
+      "checkpoint": "a2b0e39daf9671254b7f43ee189c7088c1df15878f407c75f846965cf3c042d6",
+      "prior_freeze": "554ccf21aace4d1d87896e064b6c15f3dbc7ea3106c0516286edf60e2b762e10",
+      "optimizer_source": "0c6c4fab54f990e498ebc51a04082f362730950c655014d4d6173812e5bfc0c1"
+    },
+    "E_TS2_0.1": {
+      "run": "E_ACC_rho_0.1",
+      "configuration": {
+        "branch": "E",
+        "arm": "ACC_rho_0.1",
+        "weights": {
+          "acceleration": 1.815533080476046
+        },
+        "stage": "balanced",
+        "seed": 42,
+        "updates": 6000,
+        "first": 1000,
+        "shared_sha256": "0c6c4fab54f990e498ebc51a04082f362730950c655014d4d6173812e5bfc0c1",
+        "schedule_sha256": "da3d59a77904c0209e26630a297b846f53cb0bcdee85c6005c6890da939a2d56",
+        "scale": 0.012604449511191594,
+        "lr": 0.001,
+        "weight_decay": 1e-05,
+        "previous_train_input": "a3d53069fcfb9344bddff6f512a626356b6fff81a7c9a05b084574f4308c4c1d",
+        "previous_dev_input": "6d60e5a8666f9dda108ee32ecb755eb0d1488ebd1fb0834ad3a5576284a6b96e"
+      },
+      "checkpoint": "53bb75858d8cc5b08625d413033ab799a2cf60f83ec61f916e41ab582db4f143",
+      "prior_freeze": "b6806572d813d9eb1dbfe41eec24fab7d933c364841ab780714d567d19c7e95d",
+      "optimizer_source": "0c6c4fab54f990e498ebc51a04082f362730950c655014d4d6173812e5bfc0c1"
+    },
+    "E_TS2_0.3": {
+      "run": "E_ACC_rho_0.3",
+      "configuration": {
+        "branch": "E",
+        "arm": "ACC_rho_0.3",
+        "weights": {
+          "acceleration": 5.446599241428138
+        },
+        "stage": "balanced",
+        "seed": 42,
+        "updates": 6000,
+        "first": 1000,
+        "shared_sha256": "0c6c4fab54f990e498ebc51a04082f362730950c655014d4d6173812e5bfc0c1",
+        "schedule_sha256": "da3d59a77904c0209e26630a297b846f53cb0bcdee85c6005c6890da939a2d56",
+        "scale": 0.012604449511191594,
+        "lr": 0.001,
+        "weight_decay": 1e-05,
+        "previous_train_input": "a3d53069fcfb9344bddff6f512a626356b6fff81a7c9a05b084574f4308c4c1d",
+        "previous_dev_input": "6d60e5a8666f9dda108ee32ecb755eb0d1488ebd1fb0834ad3a5576284a6b96e"
+      },
+      "checkpoint": "a9af3a64538f08cdf090db9a41bd235f33363be41fe90f6c69f71ee4cc877bc4",
+      "prior_freeze": "26cf7307e4db7d3da0f237359b257887f66edc5f0f7fc8a50f841ff44d5272b6",
+      "optimizer_source": "0c6c4fab54f990e498ebc51a04082f362730950c655014d4d6173812e5bfc0c1"
+    },
+    "E_TM1_0.1": {
+      "run": "E_MATCH_rho_0.1",
+      "configuration": {
+        "branch": "E",
+        "arm": "MATCH_rho_0.1",
+        "weights": {
+          "match": 0.9489536774808696
+        },
+        "stage": "balanced",
+        "seed": 42,
+        "updates": 6000,
+        "first": 1000,
+        "shared_sha256": "0c6c4fab54f990e498ebc51a04082f362730950c655014d4d6173812e5bfc0c1",
+        "schedule_sha256": "da3d59a77904c0209e26630a297b846f53cb0bcdee85c6005c6890da939a2d56",
+        "scale": 0.012604449511191594,
+        "lr": 0.001,
+        "weight_decay": 1e-05,
+        "previous_train_input": "a3d53069fcfb9344bddff6f512a626356b6fff81a7c9a05b084574f4308c4c1d",
+        "previous_dev_input": "6d60e5a8666f9dda108ee32ecb755eb0d1488ebd1fb0834ad3a5576284a6b96e"
+      },
+      "checkpoint": "80e33c33de2a52b868cbbc2de37e2829febe76ccbb1fead3b36f9998db357d33",
+      "prior_freeze": "7ede36f9c4a8b1b209beb4e1642feac9b8a3238912dc4f753410498a4254e1b4",
+      "optimizer_source": "0c6c4fab54f990e498ebc51a04082f362730950c655014d4d6173812e5bfc0c1"
+    },
+    "E_TM1_0.3": {
+      "run": "E_MATCH_rho_0.3",
+      "configuration": {
+        "branch": "E",
+        "arm": "MATCH_rho_0.3",
+        "weights": {
+          "match": 2.8468610324426087
+        },
+        "stage": "balanced",
+        "seed": 42,
+        "updates": 6000,
+        "first": 1000,
+        "shared_sha256": "0c6c4fab54f990e498ebc51a04082f362730950c655014d4d6173812e5bfc0c1",
+        "schedule_sha256": "da3d59a77904c0209e26630a297b846f53cb0bcdee85c6005c6890da939a2d56",
+        "scale": 0.012604449511191594,
+        "lr": 0.001,
+        "weight_decay": 1e-05,
+        "previous_train_input": "a3d53069fcfb9344bddff6f512a626356b6fff81a7c9a05b084574f4308c4c1d",
+        "previous_dev_input": "6d60e5a8666f9dda108ee32ecb755eb0d1488ebd1fb0834ad3a5576284a6b96e"
+      },
+      "checkpoint": "97a32c6b7ba3027fe634703a0dbc190deaec1345dcce0ea7c715de68446e2f9b",
+      "prior_freeze": "0ac74c6b6e5051202facd75527cdac1d11340cce34cb538640a459cb4322c7d8",
+      "optimizer_source": "0c6c4fab54f990e498ebc51a04082f362730950c655014d4d6173812e5bfc0c1"
+    },
+    "E_TM2_0.3": {
+      "run": "E_ext_match2",
+      "configuration": {
+        "branch": "E",
+        "arm": "ext_match2",
+        "weights": {
+          "match2": 4.629423049275703
+        },
+        "stage": "extension",
+        "seed": 42,
+        "updates": 6000,
+        "first": 1000,
+        "shared_sha256": "0c6c4fab54f990e498ebc51a04082f362730950c655014d4d6173812e5bfc0c1",
+        "schedule_sha256": "da3d59a77904c0209e26630a297b846f53cb0bcdee85c6005c6890da939a2d56",
+        "scale": 0.012604449511191594,
+        "lr": 0.001,
+        "weight_decay": 1e-05,
+        "previous_train_input": "a3d53069fcfb9344bddff6f512a626356b6fff81a7c9a05b084574f4308c4c1d",
+        "previous_dev_input": "6d60e5a8666f9dda108ee32ecb755eb0d1488ebd1fb0834ad3a5576284a6b96e"
+      },
+      "checkpoint": "931674c300a4495a5b5f095fdf53b01ede85d32ffdd7a9847491edc2127c0111",
+      "prior_freeze": "46f79174ca63c5387159198cc62dfcc5b87112bd6c032a2659168933e242677f",
+      "optimizer_source": "0c6c4fab54f990e498ebc51a04082f362730950c655014d4d6173812e5bfc0c1"
+    }
+  },
+  "shared": {
+    "B": "fb0e30bad8d29d456e9df2bfa614a7c5e6e7021f3a26969973bdaea82b85f2b3",
+    "E": "0c6c4fab54f990e498ebc51a04082f362730950c655014d4d6173812e5bfc0c1",
+    "S3": "813709dab90fd2bdb20d5010eaba79ffca614f4e9ea66da5f56742c5c00b2906"
+  },
+  "layouts": {
+    "B": "NCDHW",
+    "E": "NCDHW",
+    "S3": "channels_last_3d"
+  }
+}

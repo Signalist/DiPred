@@ -1,0 +1,38 @@
+{
+  "main_training": {
+    "windows": 822,
+    "trajectories": 46,
+    "uses": [
+      "training",
+      "scaling",
+      "gradient calibration",
+      "train U"
+    ]
+  },
+  "development": {
+    "windows": 24,
+    "trajectories": 12,
+    "uses": [
+      "select checkpoints",
+      "freeze candidates",
+      "sensitivity"
+    ]
+  },
+  "historical_test": {
+    "windows": 24,
+    "trajectories": 12,
+    "prior_exposure": true,
+    "reads": "only after freeze"
+  },
+  "outer": {
+    "provenance": "46 original training trajectories",
+    "use": "fixed-design Corrector regime stress test",
+    "scaling": "each outer training subset",
+    "E_reference": "4 disjoint OOF plus 1 outer training reference"
+  },
+  "extension": {
+    "eligibility": "metadata-only identity check before freeze; actual new windows after freeze",
+    "controls": "same trajectories, windows and initial reference",
+    "label_same_track": "temporal expansion"
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "core": {
+    "budget": 32,
+    "branches": [
+      "B",
+      "E"
+    ],
+    "arms": [
+      "M0",
+      "EN",
+      "TS1",
+      "TS2",
+      "TM1",
+      "TM2"
+    ],
+    "rho": [
+      0.1,
+      0.3
+    ],
+    "s3_rho": 0.3,
+    "s3": [
+      "M0",
+      "EN",
+      "TM1",
+      "TM2"
+    ],
+    "joint": [
+      "J4",
+      "J5"
+    ],
+    "E_controls": [
+      "DIAG",
+      "PERM"
+    ],
+    "energy_relative_tolerance": 0.05,
+    "energy_extra_per_branch": 2,
+    "shared_step": 1000,
+    "updates": 6000,
+    "control": "每分支 M0 及固定配对目标",
+    "endpoint": "原轨迹等权物理 MSE",
+    "stop": "全核心矩阵及所需能量对照"
+  },
+  "verification": {
+    "budget": 39,
+    "splits": {
+      "interpolation": 17812,
+      "upper": 25482,
+      "lower": 8863
+    },
+    "controls": [
+      "B_MSE",
+      "B_ACC",
+      "B_MAG",
+      "B_TM2",
+      "E_MSE",
+      "E_EN",
+      "E_TM1",
+      "E_TM2"
+    ],
+    "references_per_split": 5,
+    "fixed_step": 6000,
+    "feedback_chain": 8,
+    "endpoint": "20帧轨迹等权物理 MSE",
+    "stop": "全部固定配置和预先安排的新时段评分"
+  },
+  "expansion": {
+    "budget": 9,
+    "rule": "仅在核心机制发现确切缺口且开启验证前追加"
+  },
+  "seed": 42,
+  "bootstrap": 10000,
+  "frequency_bands": {
+    "low": [
+      0,
+      6
+    ],
+    "middle": [
+      6,
+      13
+    ],
+    "high": [
+      13,
+      20
+    ]
+  },
+  "fixed_case": {
+    "file": "26700_0.h5",
+    "start": 400,
+    "lead": 10
+  }
+}

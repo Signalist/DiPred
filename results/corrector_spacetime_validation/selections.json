@@ -1,0 +1,104 @@
+{
+  "choices": {
+    "B": {
+      "EN": "B_EN_0.1",
+      "TS1": "B_TS1_0.1",
+      "TS2": "B_TS2_0.1",
+      "TM1": "B_TM1_0.1",
+      "TM2": "B_TM2_0.3",
+      "M0": "B_M0",
+      "EN_train_U_selected": "B_EN_0.1",
+      "EN_train_U_final": "B_EN_0.1"
+    },
+    "E": {
+      "EN": "E_EN_0.3",
+      "TS1": "E_TS1_0.1",
+      "TS2": "E_TS2_0.3",
+      "TM1": "E_TM1_0.1",
+      "TM2": "E_TM2_0.3",
+      "M0": "E_M0",
+      "EN_train_U_selected": "E_energy_match_1",
+      "EN_train_U_final": "E_energy_match_1"
+    },
+    "S3": {
+      "EN": "S3_EN_0.3",
+      "TM1": "S3_TM1_0.3",
+      "TM2": "S3_TM2_0.3",
+      "M0": "S3_M0"
+    }
+  },
+  "rules": {
+    "B": {
+      "selected": {
+        "A": "historical_B_ACC_raw_1",
+        "B": "historical_B_ACC_raw_1",
+        "C": "historical_B_MAG_rho_0.1"
+      },
+      "final": {
+        "A": "historical_B_ACC_raw_1",
+        "B": "historical_B_ACC_raw_1",
+        "C": "historical_B_MAG_rho_0.1"
+      }
+    },
+    "E": {
+      "selected": {
+        "A": "E_TM2_0.3",
+        "B": "E_TM2_0.3",
+        "C": "E_EN_0.3"
+      },
+      "final": {
+        "A": "E_TM2_0.3",
+        "B": "E_TM2_0.3",
+        "C": "E_EN_0.3"
+      }
+    },
+    "S3": {
+      "selected": {
+        "A": "S3_TM2_0.3",
+        "B": "S3_TM2_0.3",
+        "C": "S3_M0"
+      },
+      "final": {
+        "A": "S3_TM2_0.3",
+        "B": "S3_TM2_0.3",
+        "C": "S3_M0"
+      }
+    }
+  },
+  "outer": {
+    "B_MSE": "B_M0",
+    "B_ACC": "historical_B_ACC_raw_1",
+    "B_MAG": "historical_B_MAG_rho_0.1",
+    "B_TM2": "B_TM2_0.3",
+    "E_MSE": "E_M0",
+    "E_EN": "E_EN_0.3",
+    "E_TM1": "E_TM1_0.1",
+    "E_TM2": "E_TM2_0.3"
+  },
+  "global_rule_A": {
+    "selected": "historical_B_ACC_raw_1",
+    "final": "historical_B_ACC_raw_1"
+  },
+  "primary": {
+    "P1": [
+      "E_TM2_0.3",
+      "E_M0"
+    ],
+    "P2": [
+      "E_TM2_0.3",
+      "E_EN_0.3"
+    ],
+    "P2_U_selected": [
+      "E_TM2_0.3",
+      "E_energy_match_1"
+    ],
+    "P2_U_final": [
+      "E_TM2_0.3",
+      "E_energy_match_1"
+    ],
+    "P3": [
+      "E_TM2_0.3",
+      "E_TM1_0.1"
+    ]
+  }
+}
