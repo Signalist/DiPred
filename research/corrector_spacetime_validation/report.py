@@ -33,7 +33,9 @@ def report(out,figures):
         return 100*(1-number(split,a,policy=policy)/number(split,b,policy=policy))
 
     def pct(value):
-        return f"{value:+.3f}%" if value is not None else "—"
+        if value is None:
+            return "—"
+        return "≈0.000%" if abs(value)<.0005 else f"{value:+.3f}%"
 
     def support(values,limited=False):
         if all(x>0 for x in values) and not limited:
@@ -57,18 +59,20 @@ def report(out,figures):
     add("")
     add("## 数学含义")
     add("")
-    add(r"最终预测、真值之差除以公共尺度 (s_R) 为 (e=(widehat R-R)/s_R)。"
-        r"有效差分为线性算子，(D_1widehat r-D_1y=D_1e)，二阶同理。普通二阶平滑惩罚 (D_2r)，"
-        "目标为预测曲率收缩。真实二阶匹配惩罚预测和真值之差的曲率。"
-        r"逐序列二次型为 (e^	op (I/20+lambda D_2^	op D_2/18)e)，其余维度等权平均。"
-        r"给定输入，设目标条件均值为 (mu)。对固定正定矩阵 (A)，条件风险等于"
-        r"((r-mu)^	op A(r-mu)+operatorname{tr}(Aoperatorname{Cov}(ymid x)))。"
-        "无限表达能力下最优解仍为条件均值。有限模型中二次型改变误差权重、梯度和优化路径。")
+    add("最终预测与真值之差除以公共残差尺度 s_R 即 e，其中 r = R̂ / s_R，y = R / s_R，e = r − y。"
+        "线性差分算子满足 D₁r − D₁y = D₁e 和 D₂r − D₂y = D₂e。普通二阶平滑惩罚预测曲率 D₂r，"
+        "真实二阶匹配惩罚误差曲率 D₂e。")
     add("")
-    add(r"输出能量训练目标 (E[(r-y)^2+eta r^2]) 等于 "
-        r"((1+eta)E[(r-y/(1+eta))^2]+eta E[y^2]/(1+eta))。"
-        "它相当于对收缩真值重新训练并改变目标和梯度尺度。发布修正强度固定为 1。"
-        "本报告中的 E 指模型分支，上一窗剩余残差为 (E_{n-1})，当前修正能量为 (U)。")
+    add("`L = eᵀ A e`，其中 `A = I/20 + λ D₂ᵀD₂/18`。批次、通道和空间维度仍按原实现等权平均。"
+        "给定输入 x，条件均值为 μ = E[y | x]，固定正定 A 下的条件风险为 "
+        "`(r − μ)ᵀ A (r − μ) + tr(A Cov(y | x))`。"
+        "第二项与预测 r 无关，因而无限表达能力下的最优解仍是条件均值。"
+        "在有限模型中，二次型改变了误差权重、梯度及优化路径。")
+    add("")
+    add("输出能量训练目标 `mean((r − y)²) + β mean(r²)` 等于 "
+        "`(1 + β) mean((r − y/(1 + β))²) + β mean(y²)/(1 + β)`。"
+        "它对收缩真值重新训练，并改变目标和梯度尺度。发布修正强度固定为 1。"
+        "E 指模型分支，上一窗剩余残差记为 Eₙ₋₁，当前修正能量记为 U。")
     add("")
     add("## 主要比较")
     add("")
@@ -113,7 +117,7 @@ def report(out,figures):
     for arm,hypothesis in (("E_DIAG","跨时刻交叉项的作用"),("E_PERM","正确时间邻接的作用")):
         gains = [effect(s,anchor,arm,"final") for s in main_splits]
         add(f"- {hypothesis}。正常 TM2 相对 {arm} 的固定步开发和历史测试 MSE 改善为 "
-            f"{pct(gains[0])}、{pct(gains[1])}，{support(gains)}。三者 λ 相同。"
+            f"{pct(gains[0])}、{pct(gains[1])}，{support(gains,limited=True)}。三者 λ 相同。"
             "初始和训练中的实际梯度尺度见梯度明细。")
     grad=read(out/"gradient_diagnostics.csv")
     actual=[]
@@ -125,6 +129,9 @@ def report(out,figures):
         actual.append(f"{identity} {ratio:.2%}")
     add("- 八批训练探针测得三种同 λ 目标在共同检查点的辅助/MSE 梯度范数比分别为 "
         +"、".join(actual)+"。")
+    add("- 对角和置换对照的实际梯度远大于正常 TM2。结果支持优先使用当前正常目标，"
+        "交叉项或真实时间邻接的独立贡献仍与梯度强度混杂。")
+
     add("")
     add("时间分解使用有效二阶差分矩阵的正交本征向量。前两模式为常数与线性趋势张成的零空间，"
         "三段模式在冻结前定义。能量比 (U/E[R^2]) 先聚合二阶矩；逐窗口 RMS 比的平均则先各自开方。"
@@ -261,7 +268,9 @@ def report(out,figures):
     history_ct=pair("historical_test",e["TM2"],"E_M0")
     limited=float(history_ct["lower_pct"])<=0 or 2*int(history_ct["improved"])<=int(history_ct["trajectories"])
     outer_gains=[number(f"holdout_{s}","E_TM2","own_pct","final") for s in hold]
-    add(f"E-TM2 的主队列结果为{support(gains,limited)}，工况留出为{support(outer_gains)}。"
+    outer_pairs=[pair(f"holdout_{label}","E_TM2","E_MSE","final") for label in hold]
+    outer_limited=any(float(r["lower_pct"])<=0 or 2*int(r["improved"])<=int(r["trajectories"]) for r in outer_pairs)
+    add(f"E-TM2 的主队列结果为{support(gains,limited)}，工况留出为{support(outer_gains,outer_limited)}。"
         "保留冻结主规则结果及 E-TM2 作为预先指定的机制候选。"
         "正式泛化结论仍需独立同任务轨迹。历史测试反复使用、旧开发参与选择、单训练种子、"
         "主干见过外层轨迹和逐帧多重比较，均限制了论文中的强主张。")
