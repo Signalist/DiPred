@@ -1,0 +1,26 @@
+{
+  "train": {
+    "windows": 822,
+    "tracks": 46,
+    "teacher": "trajectory OOF"
+  },
+  "development": {
+    "windows": 24,
+    "tracks": 12,
+    "teacher": "full S3",
+    "role": "selection"
+  },
+  "historical": {
+    "windows": 24,
+    "tracks": 12,
+    "teacher": "full S3",
+    "role": "after freeze"
+  },
+  "period": [
+    96,
+    48
+  ],
+  "outer": "frozen backbone Corrector stress test",
+  "later": "register legal inventory before scoring",
+  "independent": "verify signed inventory and exposure"
+}

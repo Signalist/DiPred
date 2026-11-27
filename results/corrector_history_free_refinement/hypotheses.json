@@ -1,0 +1,11 @@
+{
+  "P1": "I0 fixed-development winner reduces physical MSE versus frozen S3",
+  "P2": "TM2 improves on TM1 at equal training budget",
+  "P3": "Time matching improves on EN",
+  "mechanisms": [
+    "incremental alignment versus energy reduction",
+    "temporal mode and regime coverage",
+    "deployment dependency and cost",
+    "S3 extra training as engineering reference"
+  ]
+}

@@ -47,7 +47,7 @@ class Fits:
         for path in (out/"checkpoints",out/"structured_fits",out/"training_states",cache):
             path.mkdir(parents=True,exist_ok=True)
 
-    def fit(self,name,cfg,shared=None,save_shared=None,sequence_plan=None):
+    def fit(self,name,cfg,shared=None,save_shared=None,sequence_plan=None,replayed_prefix=None):
         schedule=self.schedule if sequence_plan is None else sequence_plan
         assert (schedule.ndim==3)==bool(cfg["sequence"])
         assert schedule.shape==(UPDATES,8,3) if cfg["sequence"] else schedule.shape==(UPDATES,8)
@@ -57,6 +57,9 @@ class Fits:
                  batch=8,steps=list(STEPS),first=START if shared else 0,
                  lr=.001,lr_end=1e-6,weight_decay=1e-5,clip=1.,layout="NCDHW",schedule=plan_hash,
                  prefix_schedule=reference_hash,basis=tensor_sha(self.basis),shared=sha(shared) if shared else None)
+        if replayed_prefix is not None:
+            assert shared is not None and self.dev is not None
+            job["prefix_development_replay"]=config_hash(replayed_prefix)
         ids=config_hash(job)
         path=self.out/"structured_fits"/f"{name}.json"
         journal=self.cache/f"structured_{name}.pt"
@@ -83,11 +86,18 @@ class Fits:
             state=torch.load(shared,map_location="cpu",weights_only=False)
             assert state["step"]==state["scheduler"]["last_epoch"]==START
             assert all(int(a["step"])==START for a in state["optimizer"]["state"].values())
-            assert state["identity"]==self.identity and state["schedule"]==reference_hash
+            prefix_identity = dict(state["identity"])
+            if replayed_prefix is not None:
+                assert prefix_identity.pop("development")==replayed_prefix["original_development"]
+                prefix_identity["development"]=self.identity["development"]
+            assert prefix_identity==self.identity and state["schedule"]==reference_hash
             assert state["architecture"]==dict(history=cfg["history"],rank=cfg["rank"],mix=cfg["mix"],family=cfg["family"])
             restore(net,opt,sch,state)
             start=START
             rows=[dict(row,run=name,phase="shared_MSE") for row in state["rows"]]
+            if replayed_prefix is not None:
+                for row in rows:
+                    row.update(replayed_prefix["metrics"][str(row["step"])])
         ix=schedule.to(self.device)
         for step in range(start,UPDATES+1):
             mark=step in STEPS

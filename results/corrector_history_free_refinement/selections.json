@@ -1,0 +1,61 @@
+{
+  "families": {
+    "M0": "M0",
+    "TM1": "I0_TM1_rho03",
+    "TM2": "I0_TM2_rho03",
+    "EN": "I0_EN_rho03"
+  },
+  "matrix": {
+    "M0": [
+      "M0"
+    ],
+    "TM1": [
+      "I0_TM1_rho01",
+      "I0_TM1_rho03"
+    ],
+    "TM2": [
+      "I0_TM2_rho01",
+      "I0_TM2_rho03"
+    ],
+    "EN": [
+      "I0_EN_rho01",
+      "I0_EN_rho03"
+    ]
+  },
+  "candidate": "I0_TM1_rho03",
+  "best_time": "I0_TM1_rho03",
+  "extra_outer": true,
+  "selected_step": {
+    "M0": 500,
+    "I0_match2_fixed": 500,
+    "IB": 750,
+    "IB_match2": 6000,
+    "IB_match": 6000,
+    "IB_energy": 6000,
+    "I0_match2_legacy_rho": 500,
+    "I0_TM1_rho01": 500,
+    "I0_TM1_rho03": 500,
+    "I0_TM2_rho01": 500,
+    "I0_TM2_rho03": 500,
+    "I0_EN_rho01": 500,
+    "I0_EN_rho03": 1500,
+    "S3_extra_MSE": 6000
+  },
+  "primary": [
+    [
+      "P1",
+      "I0_TM1_rho03",
+      "S3"
+    ],
+    [
+      "P2",
+      "I0_TM2_rho03",
+      "I0_TM1_rho03"
+    ],
+    [
+      "P3",
+      "I0_TM1_rho03",
+      "I0_EN_rho03"
+    ]
+  ]
+}

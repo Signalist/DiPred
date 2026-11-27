@@ -1,0 +1,41 @@
+{
+  "denoising_labels": [
+    99,
+    66,
+    33,
+    0
+  ],
+  "zero_initial_noise": true,
+  "cache_invariance": {
+    "change": true,
+    "delete": true,
+    "replace": true
+  },
+  "cache_replay": {
+    "cached_teacher_bitwise": true,
+    "native_max_abs_error": 3.2782554626464844e-07,
+    "s3_correction_max_abs_error": 8.381903171539307e-08,
+    "final_max_abs_error": 3.1700586200500425e-07,
+    "absolute_tolerance": 8.382091847034335e-07
+  },
+  "zero_increment_bitwise": true,
+  "public_loader_bitwise": true,
+  "future_bitwise": true,
+  "altered_cache_fields": [
+    "previous_p",
+    "previous_x",
+    "historical_prediction",
+    "true",
+    "historical"
+  ],
+  "true_remaining_max_error": 9.757819293875598e-20,
+  "backbone_frozen": true,
+  "s3_frozen": true,
+  "input_shape": [
+    1,
+    2,
+    20,
+    32,
+    64
+  ]
+}

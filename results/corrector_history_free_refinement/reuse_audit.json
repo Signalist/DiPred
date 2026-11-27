@@ -1,0 +1,116 @@
+{
+  "source_freeze_sha256": "428c6afce7f0d790a84bef2d595011effd37861fc9b9b274131d72eceff97987",
+  "source_audit_sha256": "3b918069682b2476956b04718c08a816ab6f333fe3b8195c411f6963da3c6578",
+  "original_IB_selection": "IB_match2",
+  "model_configs": {
+    "I0": "ee3f236748d16e93da0a99f02f733f08a9d753db3ccdeaa6303a4c96fbeb5da9",
+    "I0_match2": "c362c7ed0f06d1f6508f7da0255fffa6757bc5496b81a47d9ee077f8d9762236",
+    "I0_match2_rho": "bb8e9f25184c07b3f089f6418751b53de2a0a4786820a567d758c425d67ca2f3",
+    "IB": "7d5b8564c9f2170a4df8085f3a1ad435391cdb43d9db318d83dea4634cbc7f76",
+    "IB_match2": "563b05dfec5fe53241daf8f434012eefc6ce492eb1059940cb1125d126799b96",
+    "IB_match": "a3d575bbef37506eb07fca7a1cd333ff864b179155490b37bccfe115c14ea492",
+    "IB_energy": "75386ec3260b0aaee8eb65afe2f1e6f8a205fc4285d5730dd44de2dd1d3e6e48"
+  },
+  "source_prefix": {
+    "path": "results/corrector_incremental_structure/training_states/I0_1000.pt",
+    "sha256": "5db7819eb54320354d48e85d46bb14f2f72ea117f8606ac650d511c05c4f0ea9"
+  },
+  "fixed_batch_identity": [
+    [
+      41,
+      3,
+      52,
+      60,
+      109,
+      161,
+      165,
+      214
+    ],
+    [
+      58,
+      107,
+      159,
+      163,
+      171,
+      357,
+      314,
+      274
+    ],
+    [
+      120,
+      169,
+      312,
+      270,
+      272,
+      234,
+      283,
+      332
+    ],
+    [
+      268,
+      229,
+      232,
+      281,
+      289,
+      338,
+      437,
+      394
+    ],
+    [
+      238,
+      287,
+      295,
+      435,
+      392,
+      400,
+      721,
+      589
+    ],
+    [
+      391,
+      349,
+      398,
+      677,
+      546,
+      501,
+      463,
+      512
+    ],
+    [
+      675,
+      544,
+      458,
+      461,
+      469,
+      518,
+      567,
+      710
+    ],
+    [
+      418,
+      467,
+      516,
+      524,
+      708,
+      580,
+      629,
+      265
+    ]
+  ],
+  "reuse_TM2_03": false,
+  "legacy_missing_snapshots": 14,
+  "development_replay": {
+    "recomputed": true,
+    "old_teacher": "d70511d0202505d28c0da4a2f487ca70d6d40abda0b86ce8b897042f0a044cc5",
+    "new_teacher": "ebc0f85c7ed3f0aa29a52473168349581fb202d2496fc56a8a30d9a99f6a713e",
+    "max_mse_difference": {
+      "I0": 1.3594864166702192e-12,
+      "I0_match2": 1.3594864166702192e-12,
+      "I0_match2_rho": 1.3594864166702192e-12,
+      "IB": 1.6206400099954416e-12,
+      "IB_match2": 1.3594864166702192e-12,
+      "IB_match": 1.3594864166702192e-12,
+      "IB_energy": 1.3594864166702192e-12
+    }
+  }
+}
