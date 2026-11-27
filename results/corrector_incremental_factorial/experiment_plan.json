@@ -1,0 +1,102 @@
+{
+  "factors": [
+    "increment",
+    "history",
+    "match2"
+  ],
+  "fixed": [
+    "D0",
+    "DB",
+    "I0",
+    "IB",
+    "D0_match2",
+    "DB_match2",
+    "I0_match2",
+    "IB_match2"
+  ],
+  "reuse": [
+    "D0",
+    "DB",
+    "I0",
+    "IB",
+    "IB_match2"
+  ],
+  "new_fixed": [
+    "D0_match2",
+    "DB_match2",
+    "I0_match2"
+  ],
+  "primary": {
+    "P1": [
+      [
+        "IB_match2",
+        "I0_match2"
+      ]
+    ],
+    "P2": [
+      [
+        "IB_match2",
+        "DB_match2"
+      ]
+    ],
+    "P3": [
+      [
+        "D0_match2",
+        "D0"
+      ],
+      [
+        "DB_match2",
+        "DB"
+      ],
+      [
+        "I0_match2",
+        "I0"
+      ],
+      [
+        "IB_match2",
+        "IB"
+      ]
+    ],
+    "P4": "development winner versus S3"
+  },
+  "seed": 42,
+  "steps": 6000,
+  "rho": 0.3,
+  "gradient_relative_threshold": 0.25,
+  "extensions": {
+    "i0_competitive_ratio": 1.005,
+    "ib_structure_min_improvement": 0.005,
+    "preferred_controls": [
+      "I0_match",
+      "I0_energy",
+      "IB_diag",
+      "IB_perm"
+    ],
+    "budget": 8
+  },
+  "outer": {
+    "interpolation": 17812,
+    "upper": 25482,
+    "lower": 8863
+  },
+  "outer_new": [
+    "D0",
+    "DB",
+    "D0_match2",
+    "DB_match2",
+    "I0_match2"
+  ],
+  "bootstrap": 10000,
+  "interventions": {
+    "boundary": [
+      5,
+      10
+    ],
+    "spatial_seed": 42
+  },
+  "fixed_case": {
+    "file": "26700_0.h5",
+    "start": 400,
+    "lead": 10
+  }
+}

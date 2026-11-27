@@ -1,0 +1,25 @@
+{
+  "train": {
+    "trajectories": 46,
+    "windows": 822,
+    "teacher": "same-trajectory legal four-fold OOF"
+  },
+  "development": {
+    "trajectories": 12,
+    "windows": 24,
+    "teacher": "full S3",
+    "role": "selection and interventions"
+  },
+  "historical_test": {
+    "trajectories": 12,
+    "windows": 24,
+    "role": "existing historical cohort after freeze"
+  },
+  "historical_period": {
+    "windows": 96,
+    "later": 48,
+    "role": "existing temporal cohorts after freeze"
+  },
+  "outer": "isolated Corrector and S3 stress tests after freeze; DiPred previously trained on held trajectories",
+  "independent": "verify signed inventory and provenance after freeze"
+}

@@ -1,0 +1,60 @@
+{
+  "best_new": "IB_match2",
+  "overall": "IB_match2",
+  "factorial": [
+    "D0",
+    "DB",
+    "I0",
+    "IB",
+    "D0_match2",
+    "DB_match2",
+    "I0_match2",
+    "IB_match2"
+  ],
+  "extensions": {
+    "IB_diag": {
+      "base": "IB",
+      "term": "diag",
+      "weight": 0.04691452805573861
+    },
+    "IB_perm": {
+      "base": "IB",
+      "term": "perm",
+      "weight": 0.08150048678860065
+    }
+  },
+  "gradient_supplement": true,
+  "primary": {
+    "P1": [
+      [
+        "IB_match2",
+        "I0_match2"
+      ]
+    ],
+    "P2": [
+      [
+        "IB_match2",
+        "DB_match2"
+      ]
+    ],
+    "P3": [
+      [
+        "D0_match2",
+        "D0"
+      ],
+      [
+        "DB_match2",
+        "DB"
+      ],
+      [
+        "I0_match2",
+        "I0"
+      ],
+      [
+        "IB_match2",
+        "IB"
+      ]
+    ],
+    "P4": "development winner versus S3"
+  }
+}
