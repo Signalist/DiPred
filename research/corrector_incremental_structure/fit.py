@@ -47,16 +47,20 @@ class Fits:
         for path in (out/"checkpoints",out/"structured_fits",out/"training_states",cache):
             path.mkdir(parents=True,exist_ok=True)
 
-    def fit(self,name,cfg,shared=None,save_shared=None,sequence_plan=None,replayed_prefix=None):
+    def fit(self,name,cfg,shared=None,save_shared=None,sequence_plan=None,replayed_prefix=None,shared_step=START):
         schedule=self.schedule if sequence_plan is None else sequence_plan
         assert (schedule.ndim==3)==bool(cfg["sequence"])
         assert schedule.shape==(UPDATES,8,3) if cfg["sequence"] else schedule.shape==(UPDATES,8)
+        assert shared_step in STEPS and (shared_step == START or shared is not None)
         plan_hash=tensor_sha(schedule)
         reference_hash=tensor_sha(self.schedule)
         job=dict(name=name,model=cfg,inputs=self.identity,scale=self.train.scale,seed=42,updates=UPDATES,
-                 batch=8,steps=list(STEPS),first=START if shared else 0,
+                 batch=8,steps=list(STEPS),first=shared_step if shared else 0,
                  lr=.001,lr_end=1e-6,weight_decay=1e-5,clip=1.,layout="NCDHW",schedule=plan_hash,
                  prefix_schedule=reference_hash,basis=tensor_sha(self.basis),shared=sha(shared) if shared else None)
+        architecture = {k:cfg[k] for k in ("history","rank","mix","family")}
+        if "history_fields" in cfg:
+            architecture["history_fields"] = cfg["history_fields"]
         if replayed_prefix is not None:
             assert shared is not None and self.dev is not None
             job["prefix_development_replay"]=config_hash(replayed_prefix)
@@ -84,16 +88,16 @@ class Fits:
             stats=[x.to(self.device) for x in state["stats"]]
         elif shared:
             state=torch.load(shared,map_location="cpu",weights_only=False)
-            assert state["step"]==state["scheduler"]["last_epoch"]==START
-            assert all(int(a["step"])==START for a in state["optimizer"]["state"].values())
+            assert state["step"]==state["scheduler"]["last_epoch"]==shared_step
+            assert all(int(a["step"])==shared_step for a in state["optimizer"]["state"].values())
             prefix_identity = dict(state["identity"])
             if replayed_prefix is not None:
                 assert prefix_identity.pop("development")==replayed_prefix["original_development"]
                 prefix_identity["development"]=self.identity["development"]
             assert prefix_identity==self.identity and state["schedule"]==reference_hash
-            assert state["architecture"]==dict(history=cfg["history"],rank=cfg["rank"],mix=cfg["mix"],family=cfg["family"])
+            assert state["architecture"]==architecture
             restore(net,opt,sch,state)
-            start=START
+            start=shared_step
             rows=[dict(row,run=name,phase="shared_MSE") for row in state["rows"]]
             if replayed_prefix is not None:
                 for row in rows:
@@ -137,7 +141,7 @@ class Fits:
                 state=dict(model=net.state_dict(),optimizer=opt.state_dict(),scheduler=sch.state_dict(),rng=random_state(),
                            step=step,rows=rows,stats=torch.stack(stats).cpu() if stats else [],
                            elapsed=elapsed+perf_counter()-started,config_hash=ids,identity=self.identity,
-                           schedule=plan_hash,architecture={k:cfg[k] for k in ("history","rank","mix","family")})
+                           schedule=plan_hash,architecture=architecture)
                 if step==START and save_shared and not save_shared.exists():
                     write_tensor(save_shared,state)
                 write_tensor(journal,state)
@@ -158,7 +162,7 @@ class Fits:
             sch.step()
             stats.append(torch.stack((value.detach(),grad.detach(),grad.detach().clamp_max(1.),(grad>1.).float())))
         selected=min(rows,key=lambda r:(r["dev_mse"],r["step"])) if self.dev else rows[-1]
-        tail=UPDATES-START if shared else UPDATES
+        tail=UPDATES-shared_step if shared else UPDATES
         sequence=3 if sequence_plan is not None else 1
         snapshots=[]
         for r in rows:
@@ -170,7 +174,7 @@ class Fits:
                     states=snapshots,
                     cost=dict(own_updates=tail,forward_training_calls=tail*sequence,
                               backward_calls=tail,supervised_windows=tail*sequence*8,
-                              borrowed_updates=START if shared else 0))
+                              borrowed_updates=shared_step if shared else 0))
         if cfg["history"] and cfg["mix"]!="original":
             result["mapping"]=net.mapping().detach().cpu().tolist()
         atomic_json(path,result)

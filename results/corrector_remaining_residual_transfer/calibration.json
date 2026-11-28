@@ -1,0 +1,266 @@
+{
+  "batches": [
+    [
+      41,
+      3,
+      52,
+      60,
+      109,
+      161,
+      165,
+      214
+    ],
+    [
+      58,
+      107,
+      159,
+      163,
+      171,
+      357,
+      314,
+      274
+    ],
+    [
+      120,
+      169,
+      312,
+      270,
+      272,
+      234,
+      283,
+      332
+    ],
+    [
+      268,
+      229,
+      232,
+      281,
+      289,
+      338,
+      437,
+      394
+    ],
+    [
+      238,
+      287,
+      295,
+      435,
+      392,
+      400,
+      721,
+      589
+    ],
+    [
+      391,
+      349,
+      398,
+      677,
+      546,
+      501,
+      463,
+      512
+    ],
+    [
+      675,
+      544,
+      458,
+      461,
+      469,
+      518,
+      567,
+      710
+    ],
+    [
+      418,
+      467,
+      516,
+      524,
+      708,
+      580,
+      629,
+      265
+    ]
+  ],
+  "arms": {
+    "I0_TM1": {
+      "step": 1000,
+      "term": "match",
+      "recomputed": 2.106625375913045,
+      "archived": 2.106625375913045,
+      "actual": 2.106625375913045,
+      "archived_recomputed_rho": 0.3
+    },
+    "I0_TM2": {
+      "step": 1000,
+      "term": "match2",
+      "recomputed": 2.5562503394177862,
+      "archived": 2.5562503394177862,
+      "actual": 2.5562503394177862,
+      "archived_recomputed_rho": 0.3
+    },
+    "I0_EN": {
+      "step": 1000,
+      "term": "energy",
+      "recomputed": 0.5996253224976567,
+      "archived": 0.5996253224976567,
+      "actual": 0.5996253224976567,
+      "archived_recomputed_rho": 0.3
+    },
+    "IB_TM1": {
+      "step": 1000,
+      "term": "match",
+      "recomputed": 2.573652012030661,
+      "archived": 2.5736520938016945,
+      "actual": 2.5736520938016945,
+      "archived_recomputed_rho": 0.30000000953171213
+    },
+    "IB_TM2": {
+      "step": 1000,
+      "term": "match2",
+      "recomputed": 3.1411760333792245,
+      "archived": 3.141176237928434,
+      "actual": 3.141176237928434,
+      "archived_recomputed_rho": 0.3000000195356014
+    },
+    "IB_EN": {
+      "step": 1000,
+      "term": "energy",
+      "recomputed": 0.4077447245082914,
+      "archived": 0.4077447399867648,
+      "actual": 0.4077447399867648,
+      "archived_recomputed_rho": 0.30000001138835586
+    },
+    "IC_TM1": {
+      "step": 1000,
+      "term": "match",
+      "recomputed": 2.3935525017076036,
+      "archived": null,
+      "actual": 2.3935525017076036,
+      "archived_recomputed_rho": null
+    },
+    "IC_TM2": {
+      "step": 1000,
+      "term": "match2",
+      "recomputed": 3.355465924679516,
+      "archived": null,
+      "actual": 3.355465924679516,
+      "archived_recomputed_rho": null
+    },
+    "IC_EN": {
+      "step": 1000,
+      "term": "energy",
+      "recomputed": 0.6585061528816829,
+      "archived": null,
+      "actual": 0.6585061528816829,
+      "archived_recomputed_rho": null
+    },
+    "ID_TM1": {
+      "step": 1000,
+      "term": "match",
+      "recomputed": 2.606649728748964,
+      "archived": null,
+      "actual": 2.606649728748964,
+      "archived_recomputed_rho": null
+    },
+    "ID_TM2": {
+      "step": 1000,
+      "term": "match2",
+      "recomputed": 3.5382552145070734,
+      "archived": null,
+      "actual": 3.5382552145070734,
+      "archived_recomputed_rho": null
+    },
+    "ID_EN": {
+      "step": 1000,
+      "term": "energy",
+      "recomputed": 0.36149922310829175,
+      "archived": null,
+      "actual": 0.36149922310829175,
+      "archived_recomputed_rho": null
+    },
+    "IE_TM1": {
+      "step": 1000,
+      "term": "match",
+      "recomputed": 2.4932679791126993,
+      "archived": 2.493267960638585,
+      "actual": 2.493267960638585,
+      "archived_recomputed_rho": 0.2999999977771205
+    },
+    "IE_TM2": {
+      "step": 1000,
+      "term": "match2",
+      "recomputed": 3.5162787667173827,
+      "archived": 3.516278778620616,
+      "actual": 3.516278778620616,
+      "archived_recomputed_rho": 0.30000000101555374
+    },
+    "IE_EN": {
+      "step": 1000,
+      "term": "energy",
+      "recomputed": 0.3744149087883645,
+      "archived": 0.3744149014233812,
+      "actual": 0.3744149014233812,
+      "archived_recomputed_rho": 0.29999999409880607
+    },
+    "IF_TM1": {
+      "step": 1000,
+      "term": "match",
+      "recomputed": 2.2940108627394693,
+      "archived": null,
+      "actual": 2.2940108627394693,
+      "archived_recomputed_rho": null
+    },
+    "IF_TM2": {
+      "step": 1000,
+      "term": "match2",
+      "recomputed": 2.7718185642432367,
+      "archived": null,
+      "actual": 2.7718185642432367,
+      "archived_recomputed_rho": null
+    },
+    "IF_EN": {
+      "step": 1000,
+      "term": "energy",
+      "recomputed": 0.3434648176722196,
+      "archived": null,
+      "actual": 0.3434648176722196,
+      "archived_recomputed_rho": null
+    },
+    "I0_TM1_early": {
+      "step": 250,
+      "term": "match",
+      "recomputed": 2.653582936413564,
+      "actual": 2.653582936413564
+    },
+    "I0_EN_early": {
+      "step": 250,
+      "term": "energy",
+      "recomputed": 0.3160898588921751,
+      "actual": 0.3160898588921751
+    },
+    "IB_TM1_early": {
+      "step": 250,
+      "term": "match",
+      "recomputed": 2.523305682712132,
+      "actual": 2.523305682712132
+    },
+    "IB_EN_early": {
+      "step": 250,
+      "term": "energy",
+      "recomputed": 0.4427152644292577,
+      "actual": 0.4427152644292577
+    },
+    "ID_TM1_early": {
+      "step": 250,
+      "term": "match",
+      "recomputed": 2.6305007858625684,
+      "actual": 2.6305007858625684
+    },
+    "ID_EN_early": {
+      "step": 250,
+      "term": "energy",
+      "recomputed": 0.3893879767635652,
+      "actual": 0.3893879767635652
+    }
+  }
+}

@@ -1,0 +1,363 @@
+{
+  "case": {
+    "file": "26700_0.h5",
+    "start": 400,
+    "re": 26761.0,
+    "history": [
+      400,
+      420
+    ],
+    "target": [
+      420,
+      440
+    ],
+    "index": 0,
+    "earlier": [
+      380,
+      400
+    ],
+    "issue_frame": 420,
+    "score_frame": 440
+  },
+  "s3": "146c084358838d1b266a40c8eaf459def2551c89c16131b711e2e02bad5ba5d8",
+  "algebra": true,
+  "restoration_max_error": 9.757819293875598e-20,
+  "freeze_sha256": "4c6b003c21e2057c8889dd518644c6e6f7b35f75764bfdb60cbc668b31f76bdd",
+  "gpu": "NVIDIA A100-SXM4-80GB",
+  "repeat": 21,
+  "warmup": 5,
+  "backbone_frozen": true,
+  "s3_frozen": true,
+  "portable_releases": {
+    "final": {
+      "arm": "ID_TM2",
+      "bitwise": true,
+      "forecast_sha256": "45340b6ae60fb3cc4f189896923bd5776ae541662a79bde5e887d45e8dd47e9a",
+      "native_sha256": "0d0bed2698d659f78b69b1d07571b133302ab9262eb015b608e3081750c233aa",
+      "s3_sha256": "52bf78a0b7bf4decb95c77305c3588232bf6e12392a4787c10e7575979f16a4e"
+    },
+    "selected": {
+      "arm": "ID_TM2",
+      "bitwise": true,
+      "forecast_sha256": "45340b6ae60fb3cc4f189896923bd5776ae541662a79bde5e887d45e8dd47e9a",
+      "native_sha256": "0d0bed2698d659f78b69b1d07571b133302ab9262eb015b608e3081750c233aa",
+      "s3_sha256": "52bf78a0b7bf4decb95c77305c3588232bf6e12392a4787c10e7575979f16a4e"
+    }
+  },
+  "models": {
+    "I0_EN": {
+      "hot_identity": "388003e81d17213d0777cfcd70b75c5110879858065b520d2627bf998a693df5",
+      "hot_calls": [
+        99,
+        66,
+        33,
+        0
+      ],
+      "cold_calls": [
+        99,
+        66,
+        33,
+        0
+      ],
+      "cacheless_max_abs": 0.0,
+      "zero_increment_bitwise": true,
+      "altered_future_bitwise": true
+    },
+    "I0_MSE": {
+      "hot_identity": "3f517951876dafe1efa24dd31e53c06bdcdd8190f81bb4287ecabadd9e0fecaa",
+      "hot_calls": [
+        99,
+        66,
+        33,
+        0
+      ],
+      "cold_calls": [
+        99,
+        66,
+        33,
+        0
+      ],
+      "cacheless_max_abs": 0.0,
+      "zero_increment_bitwise": true,
+      "altered_future_bitwise": true
+    },
+    "I0_TM1": {
+      "hot_identity": "14cc7b13a9ec004173b164f5f1e6b0be32a86a79a26f97f136f3116d076acbb4",
+      "hot_calls": [
+        99,
+        66,
+        33,
+        0
+      ],
+      "cold_calls": [
+        99,
+        66,
+        33,
+        0
+      ],
+      "cacheless_max_abs": 0.0,
+      "zero_increment_bitwise": true,
+      "altered_future_bitwise": true
+    },
+    "I0_TM2": {
+      "hot_identity": "49e629fc3ca5a26a630ef6642de9d3e73c93c0bd0109dd3452fd35ea51b684f0",
+      "hot_calls": [
+        99,
+        66,
+        33,
+        0
+      ],
+      "cold_calls": [
+        99,
+        66,
+        33,
+        0
+      ],
+      "cacheless_max_abs": 0.0,
+      "zero_increment_bitwise": true,
+      "altered_future_bitwise": true
+    },
+    "IB_EN": {
+      "hot_identity": "7f10821b898fcae9a59e18926f267a86e3fa5b919cd903bb73e4de1f5ad153fe",
+      "hot_calls": [
+        99,
+        66,
+        33,
+        0
+      ],
+      "cold_calls": [
+        99,
+        66,
+        33,
+        0,
+        99,
+        66,
+        33,
+        0
+      ],
+      "cacheless_max_abs": 4.657959162823744e-08,
+      "zero_increment_bitwise": true,
+      "altered_future_bitwise": true
+    },
+    "IB_MSE": {
+      "hot_identity": "08e5693b4e2b26bd9b40eee8179807a0f5a7a0110a3c5bf4f62ca24ae1cd4166",
+      "hot_calls": [
+        99,
+        66,
+        33,
+        0
+      ],
+      "cold_calls": [
+        99,
+        66,
+        33,
+        0,
+        99,
+        66,
+        33,
+        0
+      ],
+      "cacheless_max_abs": 7.212323861749415e-08,
+      "zero_increment_bitwise": true,
+      "altered_future_bitwise": true
+    },
+    "IB_TM1": {
+      "hot_identity": "7eca2f295a88931fe76cd56f8893c89110c9221d3fdabfa000155f56fc40d7a9",
+      "hot_calls": [
+        99,
+        66,
+        33,
+        0
+      ],
+      "cold_calls": [
+        99,
+        66,
+        33,
+        0,
+        99,
+        66,
+        33,
+        0
+      ],
+      "cacheless_max_abs": 8.113864344294619e-08,
+      "zero_increment_bitwise": true,
+      "altered_future_bitwise": true
+    },
+    "IB_TM2": {
+      "hot_identity": "18532e91626b854fa629fa89c774e251d385e35e1029e2c01cc59a35b43a39ef",
+      "hot_calls": [
+        99,
+        66,
+        33,
+        0
+      ],
+      "cold_calls": [
+        99,
+        66,
+        33,
+        0,
+        99,
+        66,
+        33,
+        0
+      ],
+      "cacheless_max_abs": 6.385911749395845e-08,
+      "zero_increment_bitwise": true,
+      "altered_future_bitwise": true
+    },
+    "IC_MSE": {
+      "hot_identity": "798d92dc874bad5b32d964aa9c879680be71bb6871f33f35bb5bacff9b5c194e",
+      "hot_calls": [
+        99,
+        66,
+        33,
+        0
+      ],
+      "cold_calls": [
+        99,
+        66,
+        33,
+        0,
+        99,
+        66,
+        33,
+        0
+      ],
+      "cacheless_max_abs": 4.056932173535088e-08,
+      "zero_increment_bitwise": true,
+      "altered_future_bitwise": true
+    },
+    "ID_EN": {
+      "hot_identity": "31670ac8ee7eb10cc9d64a991327bca186195e141ecdf615e212ab423225edcc",
+      "hot_calls": [
+        99,
+        66,
+        33,
+        0
+      ],
+      "cold_calls": [
+        99,
+        66,
+        33,
+        0,
+        99,
+        66,
+        33,
+        0
+      ],
+      "cacheless_max_abs": 3.981803799180117e-08,
+      "zero_increment_bitwise": true,
+      "altered_future_bitwise": true
+    },
+    "ID_MSE": {
+      "hot_identity": "b5b83abf984aed5fcf7b72e8ccb410647b9afce7e6b28aa6ab90f9360724daaf",
+      "hot_calls": [
+        99,
+        66,
+        33,
+        0
+      ],
+      "cold_calls": [
+        99,
+        66,
+        33,
+        0,
+        99,
+        66,
+        33,
+        0
+      ],
+      "cacheless_max_abs": 5.7097563899155546e-08,
+      "zero_increment_bitwise": true,
+      "altered_future_bitwise": true
+    },
+    "ID_TM1": {
+      "hot_identity": "0de535ecf6f55321e08108ec9c09b1ba685982dad0b3deb940606c57a564997c",
+      "hot_calls": [
+        99,
+        66,
+        33,
+        0
+      ],
+      "cold_calls": [
+        99,
+        66,
+        33,
+        0,
+        99,
+        66,
+        33,
+        0
+      ],
+      "cacheless_max_abs": 6.160526633269825e-08,
+      "zero_increment_bitwise": true,
+      "altered_future_bitwise": true
+    },
+    "ID_TM2": {
+      "hot_identity": "45340b6ae60fb3cc4f189896923bd5776ae541662a79bde5e887d45e8dd47e9a",
+      "hot_calls": [
+        99,
+        66,
+        33,
+        0
+      ],
+      "cold_calls": [
+        99,
+        66,
+        33,
+        0,
+        99,
+        66,
+        33,
+        0
+      ],
+      "cacheless_max_abs": 5.446807083142602e-08,
+      "zero_increment_bitwise": true,
+      "altered_future_bitwise": true
+    },
+    "IE_MSE": {
+      "hot_identity": "3ae3c4b86a06e5b9c42df43971911a3ea8aa1f56cb6ffa3d5c70be9efaf1342b",
+      "hot_calls": [
+        99,
+        66,
+        33,
+        0
+      ],
+      "cold_calls": [
+        99,
+        66,
+        33,
+        0,
+        99,
+        66,
+        33,
+        0
+      ],
+      "cacheless_max_abs": 8.113864344294619e-08,
+      "zero_increment_bitwise": true,
+      "altered_future_bitwise": true
+    },
+    "IF_MSE": {
+      "hot_identity": "0f9592aac56545bfd70c9b5b30e51f253848f7ab25ba98655ea49bd40368fdfd",
+      "hot_calls": [
+        99,
+        66,
+        33,
+        0
+      ],
+      "cold_calls": [
+        99,
+        66,
+        33,
+        0,
+        99,
+        66,
+        33,
+        0
+      ],
+      "cacheless_max_abs": 6.911810368492866e-08,
+      "zero_increment_bitwise": true,
+      "altered_future_bitwise": true
+    }
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "inputs": {
+    "I0": [],
+    "IB": [
+      "R"
+    ],
+    "IC": [
+      "P"
+    ],
+    "ID": [
+      "E"
+    ],
+    "IE": [
+      "R",
+      "P"
+    ],
+    "IF": [
+      "R",
+      "E"
+    ]
+  },
+  "terms": {
+    "MSE": null,
+    "TM1": "match",
+    "TM2": "match2",
+    "EN": "energy"
+  },
+  "rho": 0.3,
+  "rho_tolerance": 1e-06,
+  "monitor": [
+    1000,
+    2000,
+    4000,
+    6000
+  ],
+  "early_start": 250,
+  "late_start": 1000,
+  "steps": 6000,
+  "seed": 42,
+  "early": [
+    "TM1",
+    "EN"
+  ],
+  "focal": [
+    "I0",
+    "IB",
+    "ID"
+  ],
+  "maps": [
+    "last",
+    "lag"
+  ],
+  "map_gate": 0.005,
+  "bootstrap": 10000,
+  "budget": 80,
+  "extensions_budget": 8,
+  "field": {
+    "file": "26700_0.h5",
+    "start": 400,
+    "lead": 10
+  },
+  "outer": {
+    "interpolation": 17812,
+    "upper": 25482,
+    "lower": 8863
+  },
+  "interventions": {
+    "last": [
+      5,
+      10
+    ],
+    "spatial_seed": 42
+  }
+}

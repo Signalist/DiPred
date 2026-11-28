@@ -1,0 +1,777 @@
+{
+  "config": {
+    "name": "IC_TM2",
+    "model": {
+      "family": "I",
+      "history": 1,
+      "weights": {
+        "match2": 3.355465924679516
+      },
+      "rank": 20,
+      "mix": "original",
+      "sequence": null,
+      "history_fields": [
+        "P"
+      ]
+    },
+    "inputs": {
+      "native": "f8f3d98ea0c958e4df0579b06c8ca47c741dcda51d1227d9adada949efb9c639",
+      "features": "a056e8acd719cbc7663241badfe45a2987f3de7b2c1dcdfae3ba119d680deabf",
+      "current": "aa1cb4b5b561a0bd679dedd30cda3aca75004cac19dab8d4e38888fed71b1ce3",
+      "previous": "987eca03fca1f61ea36b2ddb92302e062e8a7fbf6c1cace1bc31d2b845d66c8e",
+      "observed": "732078f4ed6132cfff33b7d8ea0597bf9ee13f17e27250fbe0aad05cfc895af0",
+      "target": "4313188ca483be670979aa54b08e3e35c8920c288a78f03ee67d1afdde9d84a3",
+      "development": {
+        "split": "development",
+        "keys": [
+          [
+            "26700_0.h5",
+            400
+          ],
+          [
+            "26700_10.h5",
+            400
+          ],
+          [
+            "26700_15.h5",
+            400
+          ],
+          [
+            "6300_0.h5",
+            400
+          ],
+          [
+            "6300_10.h5",
+            400
+          ],
+          [
+            "6300_15.h5",
+            400
+          ],
+          [
+            "6300_20.h5",
+            400
+          ],
+          [
+            "6300_5.h5",
+            400
+          ],
+          [
+            "7575_10.h5",
+            400
+          ],
+          [
+            "7575_15.h5",
+            400
+          ],
+          [
+            "7575_20.h5",
+            400
+          ],
+          [
+            "7575_5.h5",
+            400
+          ],
+          [
+            "26700_0.h5",
+            420
+          ],
+          [
+            "26700_10.h5",
+            420
+          ],
+          [
+            "26700_15.h5",
+            420
+          ],
+          [
+            "6300_0.h5",
+            420
+          ],
+          [
+            "6300_10.h5",
+            420
+          ],
+          [
+            "6300_15.h5",
+            420
+          ],
+          [
+            "6300_20.h5",
+            420
+          ],
+          [
+            "6300_5.h5",
+            420
+          ],
+          [
+            "7575_10.h5",
+            420
+          ],
+          [
+            "7575_15.h5",
+            420
+          ],
+          [
+            "7575_20.h5",
+            420
+          ],
+          [
+            "7575_5.h5",
+            420
+          ]
+        ],
+        "native": "7cbb0467869bc062103ad0b00433df92ac79122e8a262c19d1f501b7636120b8",
+        "observed": "239b3760794111666e5a3edd2365886fec961361198f51de9b7ebca713ed7f0c",
+        "scale": 0.012604449511191594,
+        "refs": [
+          {
+            "scope": "full",
+            "sha256": "146c084358838d1b266a40c8eaf459def2551c89c16131b711e2e02bad5ba5d8",
+            "native_rms": 0.012604449511191594
+          }
+        ],
+        "current": "ebc0f85c7ed3f0aa29a52473168349581fb202d2496fc56a8a30d9a99f6a713e",
+        "historical": "76625e350983af3a198c4693e94da84ae8abd1e6f1d7aac696744be699a3a49d",
+        "distribution": {
+          "used": {
+            "prediction": {
+              "rms": 0.0031806239079332347,
+              "per_window_rms_quantiles": [
+                0.0009789110295333372,
+                0.0012715614662916676,
+                0.006330276235755874
+              ]
+            },
+            "remaining": {
+              "rms": 0.012077986255807893,
+              "per_window_rms_quantiles": [
+                0.00393080108590651,
+                0.0057293579253423765,
+                0.022242064443364205
+              ]
+            }
+          },
+          "full": {
+            "prediction": {
+              "rms": 0.0031806239079332347,
+              "per_window_rms_quantiles": [
+                0.0009789110295333372,
+                0.0012715614662916676,
+                0.006330276235755874
+              ]
+            },
+            "remaining": {
+              "rms": 0.012077986255807893,
+              "per_window_rms_quantiles": [
+                0.00393080108590651,
+                0.0057293579253423765,
+                0.022242064443364205
+              ]
+            }
+          }
+        }
+      }
+    },
+    "scale": 0.012604449511191594,
+    "seed": 42,
+    "updates": 6000,
+    "batch": 8,
+    "steps": [
+      0,
+      50,
+      100,
+      250,
+      500,
+      750,
+      1000,
+      1500,
+      2000,
+      3000,
+      4000,
+      5000,
+      6000
+    ],
+    "first": 1000,
+    "lr": 0.001,
+    "lr_end": 1e-06,
+    "weight_decay": 1e-05,
+    "clip": 1.0,
+    "layout": "NCDHW",
+    "schedule": "da3d59a77904c0209e26630a297b846f53cb0bcdee85c6005c6890da939a2d56",
+    "prefix_schedule": "da3d59a77904c0209e26630a297b846f53cb0bcdee85c6005c6890da939a2d56",
+    "basis": "d3b9a4a73df66771bba1dc4966be31b7fdd0175af0665f5176ace6698af57d02",
+    "shared": "565ebdb086163513bd038b1638b71ed7226c6c6d992d7eb3995ea9d8942871df"
+  },
+  "config_hash": "48a52dbf62e3a8f8dd74556b84a132b3ba7b2d90e5f6b9c996531784ad52c87a",
+  "training": [
+    {
+      "run": "IC_TM2",
+      "step": 0,
+      "checkpoint": "checkpoints/IC_MSE_0.pt",
+      "sha256": "b650a08036b4ac6ca84afb62d2a5e3efaf0e941e69f375b2d4a05a5b4092bd49",
+      "phase": "shared_MSE",
+      "lr": 0.001,
+      "loss": null,
+      "grad": null,
+      "postclip": null,
+      "clip_frequency": null,
+      "train_mse": 0.000154985887268274,
+      "train_native": 0.000158872147480178,
+      "train_C": 7.18511845471429e-06,
+      "train_E": 1.0483976697524552e-05,
+      "train_G": 3.886260211904027e-06,
+      "train_cosine": 0.18532536625038776,
+      "train_identity_error": 2.642742795433417e-19,
+      "train_C_delta": 0.0,
+      "train_U_delta": 0.0,
+      "train_G_delta": 0.0,
+      "dev_mse": 0.00014587775199548437,
+      "dev_native": 0.00015404156545454966,
+      "dev_C": 9.140090951390893e-06,
+      "dev_E": 1.011636844371648e-05,
+      "dev_G": 8.163813459065303e-06,
+      "dev_cosine": 0.19836858152559728,
+      "dev_identity_error": 4.743384504624082e-20,
+      "dev_C_delta": 0.0,
+      "dev_U_delta": 0.0,
+      "dev_G_delta": 0.0
+    },
+    {
+      "run": "IC_TM2",
+      "step": 50,
+      "checkpoint": "checkpoints/IC_MSE_50.pt",
+      "sha256": "92153f8041dd19f37c098451c4f291edd3e780acd50573a5bbee051238be2f90",
+      "phase": "shared_MSE",
+      "lr": 0.0009998287767588932,
+      "loss": 1.0346899032592773,
+      "grad": 0.21997475624084473,
+      "postclip": 0.21997475624084473,
+      "clip_frequency": 0.0,
+      "train_mse": 0.00015531394378701975,
+      "train_native": 0.000158872147480178,
+      "train_C": 6.160500777032572e-06,
+      "train_E": 8.762797860906876e-06,
+      "train_G": 3.5582036931582675e-06,
+      "train_cosine": 0.17560182037513827,
+      "train_identity_error": 2.574980159653073e-19,
+      "train_C_delta": 7.861521720048852e-07,
+      "train_U_delta": 1.9003608627555292e-06,
+      "train_G_delta": -3.2805651874575884e-07,
+      "dev_mse": 0.00014765988383335174,
+      "dev_native": 0.00015404156545454966,
+      "dev_C": 7.749402592452917e-06,
+      "dev_E": 9.117123563707888e-06,
+      "dev_G": 6.381681621197945e-06,
+      "dev_cosine": 0.19001091218771313,
+      "dev_identity_error": 1.0164395367051604e-19,
+      "dev_C_delta": 9.549728526386702e-08,
+      "dev_U_delta": 1.9731264083950908e-06,
+      "dev_G_delta": -1.7821318378673567e-06
+    },
+    {
+      "run": "IC_TM2",
+      "step": 100,
+      "checkpoint": "checkpoints/IC_MSE_100.pt",
+      "sha256": "9a5fbe3cace93c5c37b61564a75bc5702891dc14c93218bf3718ddd968cd823d",
+      "phase": "shared_MSE",
+      "lr": 0.0009993152244225523,
+      "loss": 1.0689553022384644,
+      "grad": 0.19236648082733154,
+      "postclip": 0.19236648082733154,
+      "clip_frequency": 0.0,
+      "train_mse": 0.00015434221139846473,
+      "train_native": 0.000158872147480178,
+      "train_C": 6.102116544332264e-06,
+      "train_E": 7.6742970069512e-06,
+      "train_G": 4.529936081713328e-06,
+      "train_cosine": 0.18091324676203754,
+      "train_identity_error": 2.710505431213761e-19,
+      "train_C_delta": 6.682957426335737e-07,
+      "train_U_delta": 6.929156154578462e-07,
+      "train_G_delta": 6.436758698093012e-07,
+      "dev_mse": 0.00014614389307116688,
+      "dev_native": 0.00015404156545454966,
+      "dev_C": 7.80608567909582e-06,
+      "dev_E": 7.714498974808836e-06,
+      "dev_G": 7.897672383382801e-06,
+      "dev_cosine": 0.18789648264576886,
+      "dev_identity_error": 1.1519648082658485e-19,
+      "dev_C_delta": 1.9513097671905804e-07,
+      "dev_U_delta": 6.564030291206184e-07,
+      "dev_G_delta": -2.661410756825023e-07
+    },
+    {
+      "run": "IC_TM2",
+      "step": 250,
+      "checkpoint": "checkpoints/IC_MSE_250.pt",
+      "sha256": "91d53f00688d5fd0d241d18a69d09bc75057c334ee7758ed29618c6b05b5bb4b",
+      "phase": "shared_MSE",
+      "lr": 0.0009957252855051556,
+      "loss": 0.9449888467788696,
+      "grad": 0.23448586463928223,
+      "postclip": 0.23399755358695984,
+      "clip_frequency": 0.006666666828095913,
+      "train_mse": 0.0001542556032829443,
+      "train_native": 0.000158872147480178,
+      "train_C": 5.356057497819542e-06,
+      "train_E": 6.095570798405366e-06,
+      "train_G": 4.616544197233719e-06,
+      "train_cosine": 0.1774197528464754,
+      "train_identity_error": 2.846030702774449e-19,
+      "train_C_delta": 1.6111841265379927e-06,
+      "train_U_delta": 2.492084267746293e-06,
+      "train_G_delta": 7.302839853296926e-07,
+      "dev_mse": 0.0001482442857899056,
+      "dev_native": 0.00015404156545454966,
+      "dev_C": 5.605996387519722e-06,
+      "dev_E": 5.414713110395376e-06,
+      "dev_G": 5.79727966464407e-06,
+      "dev_cosine": 0.17064603124153116,
+      "dev_identity_error": 1.5585406229479126e-19,
+      "dev_C_delta": 2.0012208790136923e-07,
+      "dev_U_delta": 2.7667779702239714e-06,
+      "dev_G_delta": -2.366533794421233e-06
+    },
+    {
+      "run": "IC_TM2",
+      "step": 500,
+      "checkpoint": "checkpoints/IC_MSE_500.pt",
+      "sha256": "97f0fbb4f8bea6c294854992c47938c6e82f1ab3c86170366b4325bf32967c10",
+      "phase": "shared_MSE",
+      "lr": 0.0009829743079225696,
+      "loss": 0.9773760437965393,
+      "grad": 0.25629621744155884,
+      "postclip": 0.2556353509426117,
+      "clip_frequency": 0.004000000189989805,
+      "train_mse": 0.00015385883339002045,
+      "train_native": 0.000158872147480178,
+      "train_C": 6.361731881524445e-06,
+      "train_E": 7.710149672891306e-06,
+      "train_G": 5.013314090157583e-06,
+      "train_cosine": 0.18660762028844136,
+      "train_identity_error": 2.236166980751353e-19,
+      "train_C_delta": 1.3389303163943403e-06,
+      "train_U_delta": 1.5508067545351236e-06,
+      "train_G_delta": 1.127053878253557e-06,
+      "dev_mse": 0.00014565832035880256,
+      "dev_native": 0.00015404156545454966,
+      "dev_C": 7.922263711392109e-06,
+      "dev_E": 7.461282327037114e-06,
+      "dev_G": 8.383245095747104e-06,
+      "dev_cosine": 0.1875150165039018,
+      "dev_identity_error": 2.236166980751353e-19,
+      "dev_C_delta": 8.95820309986613e-07,
+      "dev_U_delta": 1.5722089832914251e-06,
+      "dev_G_delta": 2.194316366818009e-07
+    },
+    {
+      "run": "IC_TM2",
+      "step": 750,
+      "checkpoint": "checkpoints/IC_MSE_750.pt",
+      "sha256": "4e6b8152a710879e69787c49596e6bbf68a971c97bedd18ba4a094d74e9b2e6a",
+      "phase": "shared_MSE",
+      "lr": 0.0009619653126524268,
+      "loss": 0.9172968864440918,
+      "grad": 0.24366119503974915,
+      "postclip": 0.24366119503974915,
+      "clip_frequency": 0.0,
+      "train_mse": 0.00015327264127503278,
+      "train_native": 0.000158872147480178,
+      "train_C": 5.937111490912816e-06,
+      "train_E": 6.274716776680395e-06,
+      "train_G": 5.599506205145238e-06,
+      "train_cosine": 0.1910688547115898,
+      "train_identity_error": 2.981555974335137e-19,
+      "train_C_delta": 1.7821576194047705e-06,
+      "train_U_delta": 1.8510692455683295e-06,
+      "train_G_delta": 1.7132459932412115e-06,
+      "dev_mse": 0.00014551896832525922,
+      "dev_native": 0.00015404156545454966,
+      "dev_C": 7.179405217128144e-06,
+      "dev_E": 5.836213304965852e-06,
+      "dev_G": 8.522597129290437e-06,
+      "dev_cosine": 0.2057226740899321,
+      "dev_identity_error": 8.809142651444724e-20,
+      "dev_C_delta": 1.0935034336308348e-06,
+      "dev_U_delta": 1.828223197036535e-06,
+      "dev_G_delta": 3.587836702251347e-07
+    },
+    {
+      "run": "IC_TM2",
+      "step": 1000,
+      "checkpoint": "checkpoints/IC_MSE_1000.pt",
+      "sha256": "a190fed9ccb80d7aa91b640f1643c3c1e41ba82248f48eeb472520b858c7f1f7",
+      "phase": "shared_MSE",
+      "lr": 0.0009330578891105579,
+      "loss": 0.9919089078903198,
+      "grad": 0.2698341906070709,
+      "postclip": 0.2698341906070709,
+      "clip_frequency": 0.0,
+      "train_mse": 0.00015335965668761506,
+      "train_native": 0.000158872147480178,
+      "train_C": 6.643233892310594e-06,
+      "train_E": 7.773976992058215e-06,
+      "train_G": 5.5124907925629735e-06,
+      "train_cosine": 0.1897817029526634,
+      "train_identity_error": 3.1848438816761693e-19,
+      "train_C_delta": 1.590257649004575e-06,
+      "train_U_delta": 1.5542847173502028e-06,
+      "train_G_delta": 1.6262305806589473e-06,
+      "dev_mse": 0.0001463511416543281,
+      "dev_native": 0.00015404156545454966,
+      "dev_C": 7.624428849565368e-06,
+      "dev_E": 7.558433898909188e-06,
+      "dev_G": 7.69042380022155e-06,
+      "dev_cosine": 0.17709910963619374,
+      "dev_identity_error": 1.0164395367051604e-19,
+      "dev_C_delta": 4.500660153586603e-07,
+      "dev_U_delta": 1.3735216895610724e-06,
+      "dev_G_delta": -4.733896588437518e-07
+    },
+    {
+      "run": "IC_TM2",
+      "step": 1500,
+      "checkpoint": "checkpoints/IC_TM2_1500.pt",
+      "sha256": "593e723f9521319887f8d5a72fad17d6c3271670ce35b4542cc08bf895ac455f",
+      "phase": "paired",
+      "lr": 0.0008536535927183266,
+      "loss": 1.8698855638504028,
+      "grad": 0.2885727286338806,
+      "postclip": 0.2885019779205322,
+      "clip_frequency": 0.0020000000949949026,
+      "train_mse": 0.00015298096878847603,
+      "train_native": 0.000158872147480178,
+      "train_C": 6.247989189369531e-06,
+      "train_E": 6.604799687037052e-06,
+      "train_G": 5.891178691702009e-06,
+      "train_cosine": 0.19241001478089526,
+      "train_identity_error": 2.642742795433417e-19,
+      "train_C_delta": 2.1938029775301683e-06,
+      "train_U_delta": 2.3826874752623545e-06,
+      "train_G_delta": 2.004918479797982e-06,
+      "dev_mse": 0.00014607487500848093,
+      "dev_native": 0.00015404156545454966,
+      "dev_C": 7.441581818566627e-06,
+      "dev_E": 6.916473191064529e-06,
+      "dev_G": 7.966690446068725e-06,
+      "dev_cosine": 0.18245650020307766,
+      "dev_identity_error": 1.2874900798265365e-19,
+      "dev_C_delta": 1.02963608144486e-06,
+      "dev_U_delta": 2.2563951758862998e-06,
+      "dev_G_delta": -1.9712301299657982e-07
+    },
+    {
+      "run": "IC_TM2",
+      "step": 2000,
+      "checkpoint": "checkpoints/IC_TM2_2000.pt",
+      "sha256": "88df787983d1f4930d0ccf16870d05aea4df155080595190596f58c13202e4ca",
+      "phase": "paired",
+      "lr": 0.0007501744842113372,
+      "loss": 1.867236614227295,
+      "grad": 0.3372268080711365,
+      "postclip": 0.3364146649837494,
+      "clip_frequency": 0.00800000037997961,
+      "train_mse": 0.00015237117811935905,
+      "train_native": 0.000158872147480178,
+      "train_C": 6.98978370239506e-06,
+      "train_E": 7.478598043971133e-06,
+      "train_G": 6.500969360818988e-06,
+      "train_cosine": 0.19799224404132448,
+      "train_identity_error": 3.1170812458958252e-19,
+      "train_C_delta": 2.4589813842429603e-06,
+      "train_U_delta": 2.3032536195709604e-06,
+      "train_G_delta": 2.61470914891496e-06,
+      "dev_mse": 0.0001461173758367992,
+      "dev_native": 0.00015404156545454966,
+      "dev_C": 7.682922098929747e-06,
+      "dev_E": 7.441654580109046e-06,
+      "dev_G": 7.924189617750449e-06,
+      "dev_cosine": 0.1788174174858244,
+      "dev_identity_error": 1.2874900798265365e-19,
+      "dev_C_delta": 9.75657020848817e-07,
+      "dev_U_delta": 2.190937883012488e-06,
+      "dev_G_delta": -2.396238413148542e-07
+    },
+    {
+      "run": "IC_TM2",
+      "step": 3000,
+      "checkpoint": "checkpoints/IC_TM2_3000.pt",
+      "sha256": "0caa65c5067dde7be1cca5ecd96822c2fb38699fa7bebe02818e785f8537d12c",
+      "phase": "paired",
+      "lr": 0.0005003692094088563,
+      "loss": 1.867925763130188,
+      "grad": 0.37897059321403503,
+      "postclip": 0.3785906136035919,
+      "clip_frequency": 0.004000000189989805,
+      "train_mse": 0.00015185612560976637,
+      "train_native": 0.000158872147480178,
+      "train_C": 7.460944030661792e-06,
+      "train_E": 7.905866190911904e-06,
+      "train_G": 7.0160218704116785e-06,
+      "train_cosine": 0.19664419155439664,
+      "train_identity_error": 2.913793338554793e-19,
+      "train_C_delta": 3.7255364872430485e-06,
+      "train_U_delta": 4.321311315978445e-06,
+      "train_G_delta": 3.129761658507652e-06,
+      "dev_mse": 0.000149327213451323,
+      "dev_native": 0.00015404156545454966,
+      "dev_C": 6.359377180811555e-06,
+      "dev_E": 8.004402358396436e-06,
+      "dev_G": 4.714352003226674e-06,
+      "dev_cosine": 0.16026270288999334,
+      "dev_identity_error": 1.1180834903756764e-19,
+      "dev_C_delta": 6.092815293819901e-07,
+      "dev_U_delta": 4.668024514602609e-06,
+      "dev_G_delta": -3.4494614558386285e-06
+    },
+    {
+      "run": "IC_TM2",
+      "step": 4000,
+      "checkpoint": "checkpoints/IC_TM2_4000.pt",
+      "sha256": "05c31fabd2e3b4ff4639e466021035102de6df09a05d9ef188e03c8763cb88e8",
+      "phase": "paired",
+      "lr": 0.0002505989912560463,
+      "loss": 1.8544268608093262,
+      "grad": 0.45708411931991577,
+      "postclip": 0.455346018075943,
+      "clip_frequency": 0.010000000707805157,
+      "train_mse": 0.0001500091538999515,
+      "train_native": 0.000158872147480178,
+      "train_C": 8.188062678757746e-06,
+      "train_E": 7.513131777288981e-06,
+      "train_G": 8.86299358022651e-06,
+      "train_cosine": 0.21394035604950315,
+      "train_identity_error": 3.5914196963582334e-19,
+      "train_C_delta": 4.486594846905527e-06,
+      "train_U_delta": 3.99645632548857e-06,
+      "train_G_delta": 4.976733368322484e-06,
+      "dev_mse": 0.0001483352578628026,
+      "dev_native": 0.00015404156545454966,
+      "dev_C": 6.730265076199795e-06,
+      "dev_E": 7.754222560652542e-06,
+      "dev_G": 5.706307591747047e-06,
+      "dev_cosine": 0.1858199000949482,
+      "dev_identity_error": 9.486769009248164e-20,
+      "dev_C_delta": 6.759060581448925e-07,
+      "dev_U_delta": 3.8093179836080407e-06,
+      "dev_G_delta": -2.4575058673182557e-06
+    },
+    {
+      "run": "IC_TM2",
+      "step": 5000,
+      "checkpoint": "checkpoints/IC_TM2_5000.pt",
+      "sha256": "cb308b93a6fd82b48e24b944d0589f14391788e8e82967efeeddd7f692c623bf",
+      "phase": "paired",
+      "lr": 6.781135984486375e-05,
+      "loss": 1.8216863870620728,
+      "grad": 0.536636233329773,
+      "postclip": 0.5329760909080505,
+      "clip_frequency": 0.03400000184774399,
+      "train_mse": 0.0001492457127156267,
+      "train_native": 0.000158872147480178,
+      "train_C": 9.244357808503095e-06,
+      "train_E": 8.862280852454846e-06,
+      "train_G": 9.626434764551345e-06,
+      "train_cosine": 0.21929825555025526,
+      "train_identity_error": 3.5236570605778894e-19,
+      "train_C_delta": 5.167228122551643e-06,
+      "train_U_delta": 4.5942816924559674e-06,
+      "train_G_delta": 5.740174552647319e-06,
+      "dev_mse": 0.00014869035484752413,
+      "dev_native": 0.00015404156545454966,
+      "dev_C": 7.754750661729834e-06,
+      "dev_E": 1.0158290716434094e-05,
+      "dev_G": 5.351210607025573e-06,
+      "dev_cosine": 0.1977130178094041,
+      "dev_identity_error": 1.0164395367051604e-19,
+      "dev_C_delta": 9.201830723681622e-07,
+      "dev_U_delta": 4.652968996776055e-06,
+      "dev_G_delta": -2.8126028520397307e-06
+    },
+    {
+      "run": "IC_TM2",
+      "step": 6000,
+      "checkpoint": "checkpoints/IC_TM2_6000.pt",
+      "sha256": "bfbd60befe17034eb31aad41b52e71bf2026ff7107b7975b174890cfce6fbe3c",
+      "phase": "paired",
+      "lr": 1.000068493208158e-06,
+      "loss": 1.7973809242248535,
+      "grad": 0.5625743269920349,
+      "postclip": 0.5556725859642029,
+      "clip_frequency": 0.04800000041723251,
+      "train_mse": 0.00014896134641765208,
+      "train_native": 0.000158872147480178,
+      "train_C": 9.162183093945881e-06,
+      "train_E": 8.413565125365816e-06,
+      "train_G": 9.910801062525949e-06,
+      "train_cosine": 0.222695911255194,
+      "train_identity_error": 2.371692252312041e-19,
+      "train_C_delta": 5.37692213507243e-06,
+      "train_U_delta": 4.729303419522937e-06,
+      "train_G_delta": 6.024540850621923e-06,
+      "dev_mse": 0.00014851529361511591,
+      "dev_native": 0.00015404156545454966,
+      "dev_C": 7.21405343011753e-06,
+      "dev_E": 8.90183502080132e-06,
+      "dev_G": 5.526271839433738e-06,
+      "dev_cosine": 0.19505480169573536,
+      "dev_identity_error": 1.2197274440461925e-19,
+      "dev_C_delta": 8.91467237367835e-07,
+      "dev_U_delta": 4.4204760943672355e-06,
+      "dev_G_delta": -2.6375416196315656e-06
+    }
+  ],
+  "selected": {
+    "run": "IC_TM2",
+    "step": 750,
+    "checkpoint": "checkpoints/IC_MSE_750.pt",
+    "sha256": "4e6b8152a710879e69787c49596e6bbf68a971c97bedd18ba4a094d74e9b2e6a",
+    "phase": "shared_MSE",
+    "lr": 0.0009619653126524268,
+    "loss": 0.9172968864440918,
+    "grad": 0.24366119503974915,
+    "postclip": 0.24366119503974915,
+    "clip_frequency": 0.0,
+    "train_mse": 0.00015327264127503278,
+    "train_native": 0.000158872147480178,
+    "train_C": 5.937111490912816e-06,
+    "train_E": 6.274716776680395e-06,
+    "train_G": 5.599506205145238e-06,
+    "train_cosine": 0.1910688547115898,
+    "train_identity_error": 2.981555974335137e-19,
+    "train_C_delta": 1.7821576194047705e-06,
+    "train_U_delta": 1.8510692455683295e-06,
+    "train_G_delta": 1.7132459932412115e-06,
+    "dev_mse": 0.00014551896832525922,
+    "dev_native": 0.00015404156545454966,
+    "dev_C": 7.179405217128144e-06,
+    "dev_E": 5.836213304965852e-06,
+    "dev_G": 8.522597129290437e-06,
+    "dev_cosine": 0.2057226740899321,
+    "dev_identity_error": 8.809142651444724e-20,
+    "dev_C_delta": 1.0935034336308348e-06,
+    "dev_U_delta": 1.828223197036535e-06,
+    "dev_G_delta": 3.587836702251347e-07
+  },
+  "final": {
+    "run": "IC_TM2",
+    "step": 6000,
+    "checkpoint": "checkpoints/IC_TM2_6000.pt",
+    "sha256": "bfbd60befe17034eb31aad41b52e71bf2026ff7107b7975b174890cfce6fbe3c",
+    "phase": "paired",
+    "lr": 1.000068493208158e-06,
+    "loss": 1.7973809242248535,
+    "grad": 0.5625743269920349,
+    "postclip": 0.5556725859642029,
+    "clip_frequency": 0.04800000041723251,
+    "train_mse": 0.00014896134641765208,
+    "train_native": 0.000158872147480178,
+    "train_C": 9.162183093945881e-06,
+    "train_E": 8.413565125365816e-06,
+    "train_G": 9.910801062525949e-06,
+    "train_cosine": 0.222695911255194,
+    "train_identity_error": 2.371692252312041e-19,
+    "train_C_delta": 5.37692213507243e-06,
+    "train_U_delta": 4.729303419522937e-06,
+    "train_G_delta": 6.024540850621923e-06,
+    "dev_mse": 0.00014851529361511591,
+    "dev_native": 0.00015404156545454966,
+    "dev_C": 7.21405343011753e-06,
+    "dev_E": 8.90183502080132e-06,
+    "dev_G": 5.526271839433738e-06,
+    "dev_cosine": 0.19505480169573536,
+    "dev_identity_error": 1.2197274440461925e-19,
+    "dev_C_delta": 8.91467237367835e-07,
+    "dev_U_delta": 4.4204760943672355e-06,
+    "dev_G_delta": -2.6375416196315656e-06
+  },
+  "elapsed_seconds": 288.0935763884336,
+  "states": [
+    {
+      "step": 0,
+      "path": "training_states/IC_MSE_0.pt",
+      "sha256": "75b6de64d1e5b4568e13e24f41a726278ee09c9efb1a0195578c996140582a23",
+      "borrowed": true
+    },
+    {
+      "step": 50,
+      "path": "training_states/IC_MSE_50.pt",
+      "sha256": "1811dc0676f4f7b45f65a9cc4f196e56161f3efad138656c6096119f89c4a695",
+      "borrowed": true
+    },
+    {
+      "step": 100,
+      "path": "training_states/IC_MSE_100.pt",
+      "sha256": "d85c4b7af6748c8aedd43ef24c1d1caceafada0a26b6a987ff030ecaa7c783d8",
+      "borrowed": true
+    },
+    {
+      "step": 250,
+      "path": "training_states/IC_MSE_250.pt",
+      "sha256": "c09a1060cd0758b217861da66088839e836e9a4605c06e7765f3c235e42a50b6",
+      "borrowed": true
+    },
+    {
+      "step": 500,
+      "path": "training_states/IC_MSE_500.pt",
+      "sha256": "55cbd685154f79724dfd04d14d7ae86b794a3d7eb042514e2fe7788f58ce8e49",
+      "borrowed": true
+    },
+    {
+      "step": 750,
+      "path": "training_states/IC_MSE_750.pt",
+      "sha256": "6b7ec5313e9e1018ec0362dc428dcd6417e03be819247084d7fe2a427bd39cd9",
+      "borrowed": true
+    },
+    {
+      "step": 1000,
+      "path": "training_states/IC_MSE_1000.pt",
+      "sha256": "565ebdb086163513bd038b1638b71ed7226c6c6d992d7eb3995ea9d8942871df",
+      "borrowed": true
+    },
+    {
+      "step": 1500,
+      "path": "training_states/IC_TM2_1500.pt",
+      "sha256": "c7c131ba4beccb6c9d5279dcd88445edffa9c148acc5dfc58ecceee849c9695b",
+      "borrowed": false
+    },
+    {
+      "step": 2000,
+      "path": "training_states/IC_TM2_2000.pt",
+      "sha256": "ce037d0b24fd2d3eae746167669e497cac72aad90d677602b50ed5787eec95f7",
+      "borrowed": false
+    },
+    {
+      "step": 3000,
+      "path": "training_states/IC_TM2_3000.pt",
+      "sha256": "6b135226aeef0a2aad148e6d40dd581bbf8dfd840f9483d369236967bb9c4975",
+      "borrowed": false
+    },
+    {
+      "step": 4000,
+      "path": "training_states/IC_TM2_4000.pt",
+      "sha256": "45acac535fcc1d66acb8e43f1f45bf377449c169b08a52f17842fad3ef6d350b",
+      "borrowed": false
+    },
+    {
+      "step": 5000,
+      "path": "training_states/IC_TM2_5000.pt",
+      "sha256": "cd21310b6e5371f184278ffca8a758200c62036d72d464d4bd3b1ec9e89a3643",
+      "borrowed": false
+    },
+    {
+      "step": 6000,
+      "path": "training_states/IC_TM2_6000.pt",
+      "sha256": "5af0431825ebb719e4de3ee444a631a8e37182064ee13845ac35e8e876b852cc",
+      "borrowed": false
+    }
+  ],
+  "cost": {
+    "own_updates": 5000,
+    "forward_training_calls": 5000,
+    "backward_calls": 5000,
+    "supervised_windows": 40000,
+    "borrowed_updates": 1000
+  }
+}

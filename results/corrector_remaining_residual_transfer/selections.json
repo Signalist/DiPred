@@ -1,0 +1,51 @@
+{
+  "final": "ID_TM2",
+  "selected": "ID_TM2",
+  "outer_extra": null,
+  "core": [
+    "I0_MSE",
+    "I0_TM1",
+    "I0_TM2",
+    "I0_EN",
+    "IB_MSE",
+    "IB_TM1",
+    "IB_TM2",
+    "IB_EN",
+    "IC_MSE",
+    "IC_TM1",
+    "IC_TM2",
+    "IC_EN",
+    "ID_MSE",
+    "ID_TM1",
+    "ID_TM2",
+    "ID_EN",
+    "IE_MSE",
+    "IE_TM1",
+    "IE_TM2",
+    "IE_EN",
+    "IF_MSE",
+    "IF_TM1",
+    "IF_TM2",
+    "IF_EN"
+  ],
+  "early": [
+    "I0_TM1_early",
+    "I0_EN_early",
+    "IB_TM1_early",
+    "IB_EN_early",
+    "ID_TM1_early",
+    "ID_EN_early"
+  ],
+  "extensions": [
+    "ID_last_MSE",
+    "ID_lag_MSE"
+  ],
+  "fixed": [
+    "I0_TM1",
+    "IB_TM1_fixed",
+    "ID_TM1_fixed",
+    "I0_TM2_fixed",
+    "IB_TM2_fixed",
+    "ID_TM2_fixed"
+  ]
+}

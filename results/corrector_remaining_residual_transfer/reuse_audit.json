@@ -1,0 +1,87 @@
+{
+  "reused": {
+    "I0_MSE": {
+      "directory": "results/corrector_incremental_structure",
+      "run": "I0",
+      "config_hash": "ee3f236748d16e93da0a99f02f733f08a9d753db3ccdeaa6303a4c96fbeb5da9"
+    },
+    "IB_MSE": {
+      "directory": "results/corrector_incremental_structure",
+      "run": "IB",
+      "config_hash": "7d5b8564c9f2170a4df8085f3a1ad435391cdb43d9db318d83dea4634cbc7f76"
+    },
+    "IE_MSE": {
+      "directory": "results/corrector_incremental_structure",
+      "run": "IE",
+      "config_hash": "61d7ca00ad1464b4a7f4d946f9de2845d655d442e46f56e5496dbc19dee12b0f"
+    },
+    "I0_TM1": {
+      "directory": "results/corrector_history_free_refinement",
+      "run": "I0_TM1_rho03",
+      "config_hash": "3ceb06c784c8346e371f4297e2abfd502944fcf6aa0ca9c828023a71c6711705"
+    },
+    "I0_TM2": {
+      "directory": "results/corrector_history_free_refinement",
+      "run": "I0_TM2_rho03",
+      "config_hash": "89ace7d9059bbcb50b8d1d9f08c297f1722106f8d83708ef8d847cb5494972ab"
+    },
+    "I0_EN": {
+      "directory": "results/corrector_history_free_refinement",
+      "run": "I0_EN_rho03",
+      "config_hash": "8087c169edac264c37b7d7392b6049fc94b05389a9f7001404933718730131e6"
+    },
+    "IB_TM1": {
+      "directory": "results/corrector_incremental_structure",
+      "run": "IB_match",
+      "config_hash": "a3d575bbef37506eb07fca7a1cd333ff864b179155490b37bccfe115c14ea492"
+    },
+    "IB_TM2": {
+      "directory": "results/corrector_incremental_structure",
+      "run": "IB_match2",
+      "config_hash": "563b05dfec5fe53241daf8f434012eefc6ce492eb1059940cb1125d126799b96"
+    },
+    "IB_EN": {
+      "directory": "results/corrector_incremental_structure",
+      "run": "IB_energy",
+      "config_hash": "75386ec3260b0aaee8eb65afe2f1e6f8a205fc4285d5730dd44de2dd1d3e6e48"
+    },
+    "IE_TM1": {
+      "directory": "results/corrector_incremental_structure",
+      "run": "IE_match",
+      "config_hash": "5e1c3cd62719c588383d082d6c41adfbf315068e0a70128dcd4a8c71c700767b"
+    },
+    "IE_TM2": {
+      "directory": "results/corrector_incremental_structure",
+      "run": "IE_match2",
+      "config_hash": "4c8e2bab9f4986b12d9b0eba8685b0c6133dd0e8247bee5a9c653186565e199e"
+    },
+    "IE_EN": {
+      "directory": "results/corrector_incremental_structure",
+      "run": "IE_energy",
+      "config_hash": "de6745cda92fce301a1d5c9e524a29d535355f161acd5fbc48b98dc18fc5762c"
+    },
+    "I0_TM2_fixed": {
+      "directory": "results/corrector_incremental_factorial",
+      "run": "I0_match2",
+      "config_hash": "c362c7ed0f06d1f6508f7da0255fffa6757bc5496b81a47d9ee077f8d9762236"
+    },
+    "IB_TM2_fixed": {
+      "directory": "results/corrector_incremental_structure",
+      "run": "IB_match2",
+      "config_hash": "563b05dfec5fe53241daf8f434012eefc6ce492eb1059940cb1125d126799b96"
+    }
+  },
+  "development_replay": {
+    "I0_MSE": 1.3594864166702192e-12,
+    "IB_MSE": 1.6206400099954416e-12,
+    "IE_MSE": 1.3594864166702192e-12,
+    "IB_TM1": 1.3594864166702192e-12,
+    "IB_TM2": 1.3594864166702192e-12,
+    "IB_EN": 1.3594864166702192e-12,
+    "IE_TM1": 1.4239323966897671e-12,
+    "IE_TM2": 1.3594864166702192e-12,
+    "IE_EN": 1.3767228459679592e-12,
+    "I0_TM2_fixed": 1.3594864166702192e-12,
+    "IB_TM2_fixed": 1.3594864166702192e-12
+  }
+}

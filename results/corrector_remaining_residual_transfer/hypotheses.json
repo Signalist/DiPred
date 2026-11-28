@@ -1,0 +1,8 @@
+{
+  "P1": "ID versus IB at matched objective",
+  "P2": "ID versus I0 at matched objective",
+  "P3": "ID auxiliary versus ID MSE",
+  "P4": "development winners versus frozen S3",
+  "P5": "early auxiliary versus matched plain early stopping",
+  "representation": "IE and IF encode the same pairwise information"
+}

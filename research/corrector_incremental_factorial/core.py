@@ -55,13 +55,13 @@ def verify_reuse(record, engine, audit, wanted, shared=None):
             assert sha(path) == row["sha256"] == audit["checkpoints"][str(path.relative_to(ROOT))]
 
 
-def prefix(record, destination):
+def prefix(record, destination, through=1000):
     """Materialize the read-only copies expected by the existing trainer."""
     origin = ROOT / record["directory"]
     by_step = {r["step"]: r for r in record["states"]}
     for row in record["training"]:
         step = row["step"]
-        if step > 1000:
+        if step > through:
             break
         state_row = by_step[step]
         for key, item in (("checkpoint", row), ("path", state_row)):
@@ -72,13 +72,13 @@ def prefix(record, destination):
                 copyfile(source, stage)
                 stage.replace(target)
             assert sha(target) == item["sha256"], target
-    shared = origin / by_step[1000]["path"]
+    shared = origin / by_step[through]["path"]
     state = torch.load(shared, map_location="cpu", weights_only=False)
-    assert state["config_hash"] == record["config_hash"] and state["step"] == 1000
-    assert state["scheduler"]["last_epoch"] == 1000
+    assert state["config_hash"] == record["config_hash"] and state["step"] == through
+    assert state["scheduler"]["last_epoch"] == through
     assert set(state["rng"]) == {"python", "numpy", "torch", "cuda"}
-    assert {int(x["step"]) for x in state["optimizer"]["state"].values()} == {1000}
-    row = step_row(record, 1000)
+    assert {int(x["step"]) for x in state["optimizer"]["state"].values()} == {through}
+    row = step_row(record, through)
     assert state["rows"][-1] == row
     weight = torch.load(origin / row["checkpoint"], map_location="cpu", weights_only=True)
     assert state_digest(state["model"]) == state_digest(weight)

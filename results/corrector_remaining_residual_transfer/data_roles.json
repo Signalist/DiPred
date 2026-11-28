@@ -1,0 +1,20 @@
+{
+  "train": {
+    "trajectories": 46,
+    "windows": 822,
+    "teacher": "single matching trajectory OOF"
+  },
+  "development": {
+    "trajectories": 12,
+    "windows": 24,
+    "teacher": "full S3"
+  },
+  "historical": [
+    24,
+    96,
+    48,
+    168
+  ],
+  "outer": "isolated OOF and full subtrain S3",
+  "timing": "prior Native/S3 issued before observed window; future used only for labels and metrics"
+}

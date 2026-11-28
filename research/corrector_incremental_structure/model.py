@@ -83,6 +83,15 @@ class Head(nn.Module):
 
 def inputs(view,ix,cfg,feedback=None,intervened=None):
     fields=[view.base[ix],(view.current[ix]/view.scale).float()]
+    if "history_fields" in cfg:
+        assert cfg["sequence"] is None and len(cfg["history_fields"])==cfg["history"]
+        actual = view.true[ix]
+        predicted = view.historical[ix].double()
+        values = {"R":actual,"P":predicted,"E":actual-predicted}
+        if intervened is not None:
+            values.update(intervened)
+        fields.extend((values[key]/view.scale).float() for key in cfg["history_fields"])
+        return torch.cat(fields,dim=1)
     if cfg["history"]>=1:
         raw=view.true[ix] if intervened is None else intervened
         fields.append((raw/view.scale).float())

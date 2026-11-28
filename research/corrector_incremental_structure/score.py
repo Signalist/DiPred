@@ -54,7 +54,7 @@ class IncrementalScores(Scores):
                                                  channel=channel,mode=j,delta_energy=delta_energy,
                                                  s3_error_energy=remaining_energy,final_error_energy=error_energy))
 
-    def write(self,out,controls,comparisons):
+    def write(self,out,controls,comparisons,shard_raw=False):
         dims=("split","policy","arm")
         scores,trajectories,regimes=aggregate(self.rows["window"])
         leads,lead_tracks,_=aggregate(self.rows["lead"],("lead",))
@@ -115,10 +115,13 @@ class IncrementalScores(Scores):
         spatial=track_columns(self.regions,(*dims,"channel","region"),("coverage","C","U","G","mse_contribution"))
         table(out/"spatial_region_scores.csv",spatial)
         for name,rows in (("windows",self.rows["window"]),("lead_windows",self.rows["lead"])):
-            with gzip.open(out/f"{name}.csv.gz","wt",newline="") as handle:
-                writer=csv.DictWriter(handle,fieldnames=list(rows[0]),lineterminator="\n")
-                writer.writeheader()
-                writer.writerows(rows)
+            cohorts=groups(rows,("split",)) if shard_raw else {():rows}
+            for partition,items in cohorts.items():
+                filename="_".join((name,*partition))
+                with gzip.open(out/f"{filename}.csv.gz","wt",newline="") as handle:
+                    writer=csv.DictWriter(handle,fieldnames=list(items[0]),lineterminator="\n")
+                    writer.writeheader()
+                    writer.writerows(items)
         return dict(scores=len(scores),leads=len(leads),contrasts=len(contrasts),mode_rows=len(spectral),
                     identity_max_error=self.max_identity,delta_identity_max_error=self.delta_identity,
                     independent_recomputation=self.recomputed)
