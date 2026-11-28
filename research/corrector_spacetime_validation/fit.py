@@ -1,4 +1,5 @@
 """Resumable paired fits with a byte-bound common optimizer prefix."""
+from shutil import copyfile
 from time import perf_counter
 
 import torch
@@ -61,7 +62,7 @@ class Fits:
         (out/"fits").mkdir(exist_ok=True)
         cache.mkdir(parents=True,exist_ok=True)
 
-    def fit(self,name,branch,weights,shared=None,save_shared=None,origin=None):
+    def fit(self,name,branch,weights,shared=None,save_shared=None,origin=None,archive_states=False):
         weights = {k:float(v) for k,v in weights.items() if v}
         assert all(0<v<=100 for v in weights.values())
         cfg = dict(name=name,branch=branch,weights=weights,seed=42,updates=UPDATES,scale=self.scale,
@@ -69,6 +70,9 @@ class Fits:
                    clip=1.,batch=8,lr_end=1e-6,steps=list(STEPS),first=START if shared else 0,
                    layout="channels_last_3d" if branch=="S3" and not self.reference_layout else "NCDHW",
                    shared=sha(shared) if shared else None,origin=origin)
+        if archive_states:
+            assert shared is None
+            cfg["archive_states"]=True
         digest = config_hash(cfg)
         meta = self.out/"fits"/f"{name}.json"
         journal = self.cache/f"{name}.pt"
@@ -77,6 +81,8 @@ class Fits:
             assert result["config"]==cfg and result["config_hash"]==digest
             for row in result["training"]:
                 assert sha(checkpoint_file(self.out,row,shared))==row["sha256"]
+            if archive_states:
+                assert all(sha(self.out/r["path"])==r["sha256"] for r in result["states"])
             return result
         seed()
         if branch=="S3" and not self.reference_layout:
@@ -141,6 +147,13 @@ class Fits:
                 if step==START and save_shared and not save_shared.exists():
                     write_tensor(save_shared,state)
                 write_tensor(journal,state)
+                if mark and archive_states:
+                    snapshot=self.out/"training_states"/f"{name}_{step}.pt"
+                    snapshot.parent.mkdir(exist_ok=True)
+                    if not snapshot.exists():
+                        staged=snapshot.with_suffix(".tmp")
+                        copyfile(journal,staged)
+                        staged.replace(snapshot)
             if step==UPDATES:
                 break
             ix = self.plan[step]
@@ -159,6 +172,10 @@ class Fits:
                       key=lambda r:(r["dev_mse"],r["step"])) if self.dev is not None else rows[-1])
         result = dict(config=cfg,config_hash=digest,training=rows,selected=picked,final=rows[-1],
                       elapsed_seconds=elapsed+perf_counter()-started)
+        if archive_states:
+            states=[self.out/"training_states"/f"{name}_{r['step']}.pt" for r in rows]
+            result["states"]=[dict(step=r["step"],path=str(p.relative_to(self.out)),sha256=sha(p))
+                              for r,p in zip(rows,states)]
         atomic_json(meta,result)
         journal.unlink(missing_ok=True)
         print("FINISHED",name,picked["step"],picked.get("dev_mse"),result["elapsed_seconds"],flush=True)

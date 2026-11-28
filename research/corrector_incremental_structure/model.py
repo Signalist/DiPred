@@ -38,7 +38,7 @@ class Head(nn.Module):
     def __init__(self,cfg,basis,device):
         super().__init__()
         self.cfg=cfg
-        self.cnn=model(8+2*cfg["history"],device)
+        self.cnn=model(8+2*cfg["history"]+int(cfg.get("paired_history",False)),device)
         nn.init.zeros_(self.cnn[-1].weight)
         nn.init.zeros_(self.cnn[-1].bias)
         mix=cfg["mix"]
@@ -81,23 +81,34 @@ class Head(nn.Module):
         return r
 
 
-def inputs(view,ix,cfg,feedback=None,intervened=None):
+def inputs(view,ix,cfg,feedback=None,intervened=None,history_ix=None,history_available=True):
     fields=[view.base[ix],(view.current[ix]/view.scale).float()]
+    paired=cfg.get("paired_history",False)
+    if paired:
+        assert cfg["history"]==1 and cfg["sequence"] is None
+        marker=torch.full_like(fields[1][:,:1],float(history_available))
+        if not history_available:
+            return torch.cat((*fields,torch.zeros_like(fields[1]),marker),dim=1)
+    history_ix=ix if history_ix is None else history_ix
     if "history_fields" in cfg:
         assert cfg["sequence"] is None and len(cfg["history_fields"])==cfg["history"]
-        actual = view.true[ix]
-        predicted = view.historical[ix].double()
+        actual = view.true[history_ix]
+        predicted = view.historical[history_ix].double()
         values = {"R":actual,"P":predicted,"E":actual-predicted}
         if intervened is not None:
             values.update(intervened)
         fields.extend((values[key]/view.scale).float() for key in cfg["history_fields"])
+        if paired:
+            fields.append(marker)
         return torch.cat(fields,dim=1)
     if cfg["history"]>=1:
-        raw=view.true[ix] if intervened is None else intervened
+        raw=view.true[history_ix] if intervened is None else intervened
         fields.append((raw/view.scale).float())
     if cfg["history"]==2:
-        previous=view.historical[ix] if feedback is None else feedback
+        previous=view.historical[history_ix] if feedback is None else feedback
         fields.append((previous/view.scale).float())
+    if paired:
+        fields.append(marker)
     return torch.cat(fields,dim=1)
 
 
@@ -113,9 +124,15 @@ def residual(view,ix,cfg,correction):
     return out+view.current[ix].double() if cfg["family"]=="I" else out
 
 
-def train_loss(net,view,ix,cfg):
+def train_loss(net,view,ix,cfg,history_ix=None):
     if ix.ndim==1:
-        return objective(net(inputs(view,ix,cfg)),labels(view,ix,cfg),cfg["weights"])
+        target=labels(view,ix,cfg)
+        full=objective(net(inputs(view,ix,cfg,history_ix=history_ix)),target,cfg["weights"])
+        if not cfg.get("paired_history",False):
+            return full
+        missing=objective(net(inputs(view,ix,cfg,history_available=False)),target,cfg["weights"])
+        return (full+missing)*.5
+    assert history_ix is None and not cfg.get("paired_history",False)
     losses=[]
     previous=None
     for k in range(ix.shape[1]):

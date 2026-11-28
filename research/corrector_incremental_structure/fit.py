@@ -18,10 +18,15 @@ UPDATES=6000
 
 
 @torch.inference_mode()
-def predict(net,view,cfg):
+def predict(net,view,cfg,history_ix=None,history_available=True):
     net.eval()
     idx=torch.arange(len(view.data.cases),device=view.current.device)
-    return torch.cat([residual(view,i,cfg,net(inputs(view,i,cfg))) for i in idx.split(8)])
+    batches=[]
+    for i in idx.split(8):
+        donor=None if history_ix is None else history_ix[i]
+        features=inputs(view,i,cfg,history_ix=donor,history_available=history_available)
+        batches.append(residual(view,i,cfg,net(features)))
+    return torch.cat(batches)
 
 
 def open_head(record,row,out,basis,device):
@@ -47,7 +52,9 @@ class Fits:
         for path in (out/"checkpoints",out/"structured_fits",out/"training_states",cache):
             path.mkdir(parents=True,exist_ok=True)
 
-    def fit(self,name,cfg,shared=None,save_shared=None,sequence_plan=None,replayed_prefix=None,shared_step=START):
+    def fit(self,name,cfg,shared=None,save_shared=None,sequence_plan=None,replayed_prefix=None,shared_step=START,donor_plan=None,end_step=None):
+        terminal=UPDATES if end_step is None else end_step
+        assert terminal in STEPS and (terminal==UPDATES or shared is None)
         schedule=self.schedule if sequence_plan is None else sequence_plan
         assert (schedule.ndim==3)==bool(cfg["sequence"])
         assert schedule.shape==(UPDATES,8,3) if cfg["sequence"] else schedule.shape==(UPDATES,8)
@@ -58,9 +65,18 @@ class Fits:
                  batch=8,steps=list(STEPS),first=shared_step if shared else 0,
                  lr=.001,lr_end=1e-6,weight_decay=1e-5,clip=1.,layout="NCDHW",schedule=plan_hash,
                  prefix_schedule=reference_hash,basis=tensor_sha(self.basis),shared=sha(shared) if shared else None)
+        if terminal!=UPDATES:
+            job["end_step"]=terminal
         architecture = {k:cfg[k] for k in ("history","rank","mix","family")}
         if "history_fields" in cfg:
             architecture["history_fields"] = cfg["history_fields"]
+        if cfg.get("paired_history",False):
+            architecture["paired_history"]=True
+        if donor_plan is not None:
+            assert not cfg["sequence"] and not cfg.get("paired_history",False)
+            assert donor_plan.shape==schedule.shape and donor_plan.dtype==torch.long
+            assert int(donor_plan.min())>=0 and int(donor_plan.max())<len(self.train.data.cases)
+            architecture["donor_batch_sha256"]=job["donor_batch_sha256"]=tensor_sha(donor_plan)
         if replayed_prefix is not None:
             assert shared is not None and self.dev is not None
             job["prefix_development_replay"]=config_hash(replayed_prefix)
@@ -103,7 +119,8 @@ class Fits:
                 for row in rows:
                     row.update(replayed_prefix["metrics"][str(row["step"])])
         ix=schedule.to(self.device)
-        for step in range(start,UPDATES+1):
+        donor_ids=donor_plan.to(self.device) if donor_plan is not None else None
+        for step in range(start,terminal+1):
             mark=step in STEPS
             if mark and not (rows and rows[-1]["step"]==step):
                 dest=self.out/"checkpoints"/f"{name}_{step}.pt"
@@ -129,6 +146,10 @@ class Fits:
                         assert torch.equal(output,goal)
                     metrics,error=checks(output,view.data,weight)
                     row.update({f"{label}_{k}":v for k,v in metrics.items()})
+                    if cfg.get("paired_history",False):
+                        missing=predict(net,view,cfg,history_available=False)
+                        assert torch.isfinite(missing).all()
+                        row[f"{label}_missing_mse"]=checks(missing,view.data,weight)[0]["mse"]
                     delta=output-view.current.double()
                     remaining=view.target-view.current.double()
                     c,u=(float((x.mean((1,2,3,4))*weight).sum()) for x in (delta*remaining,delta.square()))
@@ -151,19 +172,20 @@ class Fits:
                         partial=snapshot.with_suffix(".tmp")
                         copyfile(journal,partial)
                         partial.replace(snapshot)
-            if step==UPDATES:
+            if step==terminal:
                 break
             net.train()
             opt.zero_grad(set_to_none=True)
-            value=train_loss(net,self.train,ix[step],cfg)
+            donor=None if donor_ids is None else donor_ids[step]
+            value=train_loss(net,self.train,ix[step],cfg,history_ix=donor)
             value.backward()
             grad=torch.nn.utils.clip_grad_norm_(net.parameters(),1.)
             opt.step()
             sch.step()
             stats.append(torch.stack((value.detach(),grad.detach(),grad.detach().clamp_max(1.),(grad>1.).float())))
         selected=min(rows,key=lambda r:(r["dev_mse"],r["step"])) if self.dev else rows[-1]
-        tail=UPDATES-shared_step if shared else UPDATES
-        sequence=3 if sequence_plan is not None else 1
+        tail=terminal-shared_step if shared else terminal
+        sequence=3 if sequence_plan is not None else 1+int(cfg.get("paired_history",False))
         snapshots=[]
         for r in rows:
             checkpoint=self.out/"training_states"/r["checkpoint"].split("/")[-1]

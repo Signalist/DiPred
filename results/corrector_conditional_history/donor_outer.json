@@ -1,0 +1,170 @@
+{
+  "interpolation": {
+    "file": "donor_batches_interpolation.pt",
+    "sha256": "58db684e0a9262133a4ef9deb7240b9c62421b5f7635485e7e7f761ab0f44ca6",
+    "tensor_sha256": "659c50002e1150cc4f49e7e5e547cefa5bb3679001af99a94efb7005fccf5d63",
+    "sampling_sha256": "d3d145f189facbd33f726693f22d75371280fb1b9a29a98a08c1e07e1c2015af",
+    "assignments": 48000,
+    "moved": 48000,
+    "same_re": 48000,
+    "max_donor_uses": 109,
+    "unique_donors": 750,
+    "mean_abs_start_gap": 12.605,
+    "distributions": {
+      "R": {
+        "actual_mean_energy": 0.00016039701123386847,
+        "donor_mean_energy": 0.00016185400132160988,
+        "actual_quantiles": [
+          1.918798051261835e-05,
+          8.274936303700481e-05,
+          0.0004384111579924785
+        ],
+        "donor_quantiles": [
+          1.916720029608998e-05,
+          8.43201165508958e-05,
+          0.00042886338815339607
+        ]
+      },
+      "E": {
+        "actual_mean_energy": 0.0001572298845025891,
+        "donor_mean_energy": 0.00015869572540380979,
+        "actual_quantiles": [
+          1.857725663614374e-05,
+          7.966492559043911e-05,
+          0.00043235587675006116
+        ],
+        "donor_quantiles": [
+          1.85732984557886e-05,
+          8.16531775568439e-05,
+          0.00043050845606837747
+        ]
+      }
+    }
+  },
+  "upper": {
+    "file": "donor_batches_upper.pt",
+    "sha256": "ef732a4b27d6082fe445385ee0dd1d5d20c44fb0cea733e6bf22318df34c2d6b",
+    "tensor_sha256": "271863c4d5281131dfcbc3b3a03ab527e6bc89d837d163f0085a41402459dd63",
+    "sampling_sha256": "9fd4b89ffdd02273a515b9953637104b421d91043e80c6432bccb7bce05c8f9e",
+    "assignments": 48000,
+    "moved": 48000,
+    "same_re": 48000,
+    "max_donor_uses": 95,
+    "unique_donors": 750,
+    "mean_abs_start_gap": 12.617083333333333,
+    "distributions": {
+      "R": {
+        "actual_mean_energy": 0.0001253899483601438,
+        "donor_mean_energy": 0.00012663399551239308,
+        "actual_quantiles": [
+          1.918798051261835e-05,
+          7.712221937141572e-05,
+          0.0003105633633487377
+        ],
+        "donor_quantiles": [
+          1.916720029608998e-05,
+          7.966104994963564e-05,
+          0.0003105633633487377
+        ]
+      },
+      "E": {
+        "actual_mean_energy": 0.00012191264305314087,
+        "donor_mean_energy": 0.0001231594823853598,
+        "actual_quantiles": [
+          1.831696971059321e-05,
+          7.40304964716358e-05,
+          0.0002986421207571018
+        ],
+        "donor_quantiles": [
+          1.829678126155782e-05,
+          7.712692875744216e-05,
+          0.0003053774935191233
+        ]
+      }
+    }
+  },
+  "lower": {
+    "file": "donor_batches_lower.pt",
+    "sha256": "e42f469b3489cde4e8ced156248cb0c8557f033a25be542a04d519a3086d56ff",
+    "tensor_sha256": "442549e04a44d83a8d5c37ba389611599d94f6482dd72267b0a7282e340e68c8",
+    "sampling_sha256": "2a8f78d7622120990385313b7b166a7b779ff32c9df88a0b1d8c2d7332c9f189",
+    "assignments": 48000,
+    "moved": 48000,
+    "same_re": 48000,
+    "max_donor_uses": 104,
+    "unique_donors": 732,
+    "mean_abs_start_gap": 12.5925,
+    "distributions": {
+      "R": {
+        "actual_mean_energy": 0.0001746892910709483,
+        "donor_mean_energy": 0.000176136640453677,
+        "actual_quantiles": [
+          2.211889561594621e-05,
+          0.00010483748643649281,
+          0.0004452171073283154
+        ],
+        "donor_quantiles": [
+          2.211889561594621e-05,
+          0.0001052148007676937,
+          0.0004452171073283154
+        ]
+      },
+      "E": {
+        "actual_mean_energy": 0.00017055005118030874,
+        "donor_mean_energy": 0.00017206306284539907,
+        "actual_quantiles": [
+          2.1135241449601656e-05,
+          0.0001031854211707978,
+          0.0004366296942228204
+        ],
+        "donor_quantiles": [
+          2.1135241449601656e-05,
+          0.00010437924877876324,
+          0.0004366296942228204
+        ]
+      }
+    }
+  },
+  "additional": {
+    "file": "donor_batches_additional.pt",
+    "sha256": "2ca0c6c260ada3cf01ab99ebb11c8ea29ae8d0613786b72dcd1a7e0345f38d25",
+    "tensor_sha256": "1862f67d0f4551cc93c4ef99f9f5771370a52c13dc441cc0c04f4b77d4cbfabc",
+    "sampling_sha256": "fd3dbb97ad6dc707c8d97992cc4c1ee89f0e0516ea5f7facabada55530d8c9fc",
+    "assignments": 48000,
+    "moved": 48000,
+    "same_re": 48000,
+    "max_donor_uses": 101,
+    "unique_donors": 732,
+    "mean_abs_start_gap": 12.58,
+    "distributions": {
+      "R": {
+        "actual_mean_energy": 0.0001711613936317082,
+        "donor_mean_energy": 0.00017263811060968024,
+        "actual_quantiles": [
+          1.940526926673622e-05,
+          9.68267264930812e-05,
+          0.0004384111579924785
+        ],
+        "donor_quantiles": [
+          1.940526926673622e-05,
+          9.996308095121458e-05,
+          0.0004452171073283154
+        ]
+      },
+      "E": {
+        "actual_mean_energy": 0.000167641684221195,
+        "donor_mean_energy": 0.00016901562382776964,
+        "actual_quantiles": [
+          1.8567029172303743e-05,
+          9.471243912022503e-05,
+          0.00044109694836568956
+        ],
+        "donor_quantiles": [
+          1.8567029172303743e-05,
+          9.764689645994306e-05,
+          0.00044030898731654974
+        ]
+      }
+    }
+  }
+}

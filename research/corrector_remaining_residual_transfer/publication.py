@@ -35,7 +35,7 @@ class TransferPublisher:
         return self.issue(observed,previous_native,previous_s3,earlier).forecast
 
     @torch.inference_mode()
-    def issue(self, observed, previous_native=None, previous_s3=None, earlier=None):
+    def issue(self, observed, previous_native=None, previous_s3=None, earlier=None, history_available=True):
         """Publish the forecast and both frozen reference fields for the next release."""
         if observed.shape!=(1,2,20,32,64) or observed.dtype!=torch.float32:
             raise ValueError("Expected one FP32 observed window of shape [1, 2, 20, 32, 64].")
@@ -44,6 +44,13 @@ class TransferPublisher:
         current=self.native_model.correct(design)
         if self.net is None:
             return Release(forecast.double()+current.double(),forecast,current)
+        if not history_available:
+            if not self.cfg.get("paired_history",False):
+                raise ValueError("An explicit missing-history state requires a paired head.")
+            view=SimpleNamespace(base=design,current=current,scale=self.native_model.residual_scale)
+            features=inputs(view,slice(None),self.cfg,history_available=False)
+            corrected=forecast.double()+residual(view,slice(None),self.cfg,self.net(features))
+            return Release(corrected,forecast,current)
         needs_native=bool(set(self.fields)&{"R","E"})
         needs_teacher=bool(set(self.fields)&{"P","E"})
         if (needs_native and previous_native is None) or (needs_teacher and previous_s3 is None):

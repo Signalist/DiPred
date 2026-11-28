@@ -1,0 +1,25 @@
+{
+  "train": {
+    "windows": 822,
+    "tracks": 46,
+    "teacher": "matched legal OOF"
+  },
+  "development": {
+    "windows": 24,
+    "tracks": 12,
+    "teacher": "frozen full S3"
+  },
+  "historical": {
+    "windows": [
+      24,
+      96,
+      48,
+      168
+    ],
+    "tracks": 12,
+    "teacher": "frozen full S3",
+    "independent": false
+  },
+  "outer": "排除外层完整工况的冻结教师及训练子集",
+  "previous_freeze_sha256": "4c6b003c21e2057c8889dd518644c6e6f7b35f75764bfdb60cbc668b31f76bdd"
+}

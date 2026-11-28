@@ -1,0 +1,105 @@
+{
+  "previous_freeze": "4c6b003c21e2057c8889dd518644c6e6f7b35f75764bfdb60cbc668b31f76bdd",
+  "main": {
+    "I0_MSE": {
+      "directory": "results/corrector_incremental_structure",
+      "config_hash": "ee3f236748d16e93da0a99f02f733f08a9d753db3ccdeaa6303a4c96fbeb5da9"
+    },
+    "I0_TM1": {
+      "directory": "results/corrector_history_free_refinement",
+      "config_hash": "3ceb06c784c8346e371f4297e2abfd502944fcf6aa0ca9c828023a71c6711705"
+    },
+    "I0_TM2": {
+      "directory": "results/corrector_history_free_refinement",
+      "config_hash": "89ace7d9059bbcb50b8d1d9f08c297f1722106f8d83708ef8d847cb5494972ab"
+    },
+    "I0_EN": {
+      "directory": "results/corrector_history_free_refinement",
+      "config_hash": "8087c169edac264c37b7d7392b6049fc94b05389a9f7001404933718730131e6"
+    },
+    "IB_MSE": {
+      "directory": "results/corrector_incremental_structure",
+      "config_hash": "7d5b8564c9f2170a4df8085f3a1ad435391cdb43d9db318d83dea4634cbc7f76"
+    },
+    "IB_TM1": {
+      "directory": "results/corrector_incremental_structure",
+      "config_hash": "a3d575bbef37506eb07fca7a1cd333ff864b179155490b37bccfe115c14ea492"
+    },
+    "IB_TM2": {
+      "directory": "results/corrector_incremental_structure",
+      "config_hash": "563b05dfec5fe53241daf8f434012eefc6ce492eb1059940cb1125d126799b96"
+    },
+    "IB_EN": {
+      "directory": "results/corrector_incremental_structure",
+      "config_hash": "75386ec3260b0aaee8eb65afe2f1e6f8a205fc4285d5730dd44de2dd1d3e6e48"
+    },
+    "ID_MSE": {
+      "directory": "results/corrector_remaining_residual_transfer",
+      "config_hash": "6910a136e93a31b1718eca5b7d21b85001c27ca46ca0373173223e93a343659a"
+    },
+    "ID_TM1": {
+      "directory": "results/corrector_remaining_residual_transfer",
+      "config_hash": "e9f7003434ecbc26b85a994d7017f04dfc58a90c945f75a92a7c0391a5560707"
+    },
+    "ID_TM2": {
+      "directory": "results/corrector_remaining_residual_transfer",
+      "config_hash": "6b6e4a6a90a1a1a0c3330ab4602b38b556c2de6d9b31821d5ac5ca7d4e6df1cf"
+    },
+    "ID_EN": {
+      "directory": "results/corrector_remaining_residual_transfer",
+      "config_hash": "45cf9c78df43d645ab3a576d2f48a4534d82541c603110d1bd82a32720e6035c"
+    },
+    "ID_TM1_early": {
+      "directory": "results/corrector_remaining_residual_transfer",
+      "config_hash": "c325d2d8ec654c347cf92a575c95d39d2d111a51363e938f36acffceaf9b70a8"
+    },
+    "IC_MSE": {
+      "directory": "results/corrector_remaining_residual_transfer",
+      "config_hash": "a4e0823123b6634f30047363b7003d329c7b774f852d626691fd64b54ef2b50d"
+    },
+    "IC_TM1": {
+      "directory": "results/corrector_remaining_residual_transfer",
+      "config_hash": "a0aedf32d3a28d3e27200abafe3e880b642cf9a5fb1e5a20045d43a51ba291b1"
+    },
+    "IC_TM2": {
+      "directory": "results/corrector_remaining_residual_transfer",
+      "config_hash": "48a52dbf62e3a8f8dd74556b84a132b3ba7b2d90e5f6b9c996531784ad52c87a"
+    },
+    "IC_EN": {
+      "directory": "results/corrector_remaining_residual_transfer",
+      "config_hash": "f6516cd8bf0a575b4251a594caac91409110c994ee1559f55a63e96572e96702"
+    },
+    "IE_MSE": {
+      "directory": "results/corrector_incremental_structure",
+      "config_hash": "61d7ca00ad1464b4a7f4d946f9de2845d655d442e46f56e5496dbc19dee12b0f"
+    },
+    "IE_TM1": {
+      "directory": "results/corrector_incremental_structure",
+      "config_hash": "5e1c3cd62719c588383d082d6c41adfbf315068e0a70128dcd4a8c71c700767b"
+    },
+    "IE_TM2": {
+      "directory": "results/corrector_incremental_structure",
+      "config_hash": "4c8e2bab9f4986b12d9b0eba8685b0c6133dd0e8247bee5a9c653186565e199e"
+    },
+    "IE_EN": {
+      "directory": "results/corrector_incremental_structure",
+      "config_hash": "de6745cda92fce301a1d5c9e524a29d535355f161acd5fbc48b98dc18fc5762c"
+    },
+    "IF_MSE": {
+      "directory": "results/corrector_remaining_residual_transfer",
+      "config_hash": "70730f4a4bdf088c1b495b738578b2cfc85ba9fe27d97afd062efa3b780f0677"
+    },
+    "IF_TM1": {
+      "directory": "results/corrector_remaining_residual_transfer",
+      "config_hash": "e89c9de2782e3202c1a366434deb00d53fa0448a57a41705814e688675a3930d"
+    },
+    "IF_TM2": {
+      "directory": "results/corrector_remaining_residual_transfer",
+      "config_hash": "47afff68caf6477e2b9bfad236d3e14b66f1a669a007b40f4ea48101c1fb1dd8"
+    },
+    "IF_EN": {
+      "directory": "results/corrector_remaining_residual_transfer",
+      "config_hash": "79cad8221b6b37b0030bb211c90475cbe04d67a5b23fa8f0635779f16dec6f78"
+    }
+  }
+}

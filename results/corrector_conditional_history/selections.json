@@ -1,0 +1,28 @@
+{
+  "final": "ID_TM2",
+  "selected": "ID_TM2",
+  "pair_outer": {
+    "IB": "IB_pair_EN",
+    "ID": "ID_pair_EN"
+  },
+  "previous_final": "ID_TM2",
+  "candidates": [
+    "I0_MSE",
+    "I0_TM1",
+    "I0_TM2",
+    "I0_EN",
+    "IB_MSE",
+    "IB_TM1",
+    "IB_TM2",
+    "IB_EN",
+    "ID_MSE",
+    "ID_TM1",
+    "ID_TM2",
+    "ID_EN",
+    "ID_TM1_early",
+    "IB_pair_MSE",
+    "IB_pair_EN",
+    "ID_pair_MSE",
+    "ID_pair_EN"
+  ]
+}

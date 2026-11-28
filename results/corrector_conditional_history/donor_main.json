@@ -1,0 +1,42 @@
+{
+  "file": "donor_batches_main.pt",
+  "sha256": "1d0fda46b105e3360a148608196702ccccd452c83a5697f5324c2bef2490cd5c",
+  "tensor_sha256": "8492905c759b7549705e465c744ed810d60f488d02460cec35adf3b82a2436a3",
+  "sampling_sha256": "da3d59a77904c0209e26630a297b846f53cb0bcdee85c6005c6890da939a2d56",
+  "assignments": 48000,
+  "moved": 48000,
+  "same_re": 48000,
+  "max_donor_uses": 93,
+  "unique_donors": 822,
+  "mean_abs_start_gap": 12.581666666666667,
+  "distributions": {
+    "R": {
+      "actual_mean_energy": 0.00016139370357376304,
+      "donor_mean_energy": 0.0001615183483233987,
+      "actual_quantiles": [
+        1.9983827275809232e-05,
+        8.832405633593545e-05,
+        0.0004139615354741057
+      ],
+      "donor_quantiles": [
+        2.0130859204996124e-05,
+        8.936465315830729e-05,
+        0.0004034646162635044
+      ]
+    },
+    "E": {
+      "actual_mean_energy": 0.00015729450843742472,
+      "donor_mean_energy": 0.0001573086620010993,
+      "actual_quantiles": [
+        1.8853094060064324e-05,
+        8.497287428325595e-05,
+        0.0004119555898538803
+      ],
+      "donor_quantiles": [
+        1.8917416093279917e-05,
+        8.601276199858195e-05,
+        0.00040799360785714856
+      ]
+    }
+  }
+}

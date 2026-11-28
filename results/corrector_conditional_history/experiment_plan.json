@@ -1,0 +1,92 @@
+{
+  "seed": 42,
+  "steps": 6000,
+  "bootstrap": 10000,
+  "focal": [
+    "I0",
+    "IB",
+    "ID"
+  ],
+  "ordinary": [
+    "I0_MSE",
+    "I0_TM1",
+    "I0_TM2",
+    "I0_EN",
+    "IB_MSE",
+    "IB_TM1",
+    "IB_TM2",
+    "IB_EN",
+    "ID_MSE",
+    "ID_TM1",
+    "ID_TM2",
+    "ID_EN",
+    "ID_TM1_early"
+  ],
+  "historical_reference": [
+    "IC_MSE",
+    "IC_TM1",
+    "IC_TM2",
+    "IC_EN",
+    "IE_MSE",
+    "IE_TM1",
+    "IE_TM2",
+    "IE_EN",
+    "IF_MSE",
+    "IF_TM1",
+    "IF_TM2",
+    "IF_EN"
+  ],
+  "new": [
+    "IB_shuffled_MSE",
+    "IB_shuffled_EN",
+    "ID_shuffled_MSE",
+    "ID_shuffled_EN",
+    "IB_pair_MSE",
+    "IB_pair_EN",
+    "ID_pair_MSE",
+    "ID_pair_EN"
+  ],
+  "weighting": {
+    "IB": 0.4077447399867648,
+    "ID": 0.36149922310829175
+  },
+  "early_weight": 2.6305007858625684,
+  "outer": {
+    "interpolation": 17812,
+    "upper": 25482,
+    "lower": 8863
+  },
+  "additional_outer": {
+    "re": 12698,
+    "eligibility": [
+      10142,
+      11420,
+      12698,
+      16534,
+      20369
+    ],
+    "conditional": true,
+    "shuffled_loss": "MSE"
+  },
+  "previous_final": "ID_TM2",
+  "budget": 50,
+  "field": {
+    "file": "26700_0.h5",
+    "start": 400,
+    "lead": 10
+  },
+  "ridge": 0.001,
+  "raw_windows": [
+    822,
+    24,
+    24,
+    96,
+    48,
+    168
+  ],
+  "policies": [
+    500,
+    1000,
+    6000
+  ]
+}
